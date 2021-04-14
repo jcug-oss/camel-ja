@@ -1,0 +1,108 @@
+name: build
+
+on:
+  push:
+    branches:
+      - 'master'
+  schedule:
+    # everyday 11AM (UTC)
+    - cron: '* 9 * * *'
+  workflow_dispatch:
+    branches:
+      - 'master'
+  workflow_run:
+    workflows:
+      - 'sync-upstream'
+    branches:
+      - 'master'
+    types:
+      - completed
+
+jobs:
+  update:
+    name: Update files
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # all history (required for getting last modified time of files)
+      - name: Cache bundle directory
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+      - name: Configure git
+        run: |
+          bin/configure-git
+      - name: Setup build env
+        run: |
+          bin/setup-build-env
+      - name: Update tmx
+        run: bin/update-tmx
+
+      - name: Push changes
+        run: bin/push-changes "Update tmx"
+
+      - name: Update translation stats
+        run: bin/update-translation-stats
+
+      - name: Push changes
+        run: bin/push-changes "Update translation stats"
+
+      - name: Update override stats
+        run: |
+          bin/update-override-stats
+
+      - name: Create issue if override files updated
+        run: |
+          .github/steps/create-issue-if-override-files-updated
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push changes
+        run: bin/push-changes "Update override stats"
+
+  deploy-ja:
+    name: Deploy Japanese translation to GitHub pages
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Cache bundle directory
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+      - name: Setup build env
+        run: |
+          bin/setup-build-env
+      - name: Configure git
+        run: |
+          bin/configure-git
+
+      - name: Exec po4a-translate
+        run: bin/exec-po4a-translate
+
+      - name: Apply override files
+        run: bin/exec-override
+
+      - name: Exec jekyll
+        run: bin/exec-jekyll
+
+      - name: Deploy to GitHub Pages
+        run: |
+          echo "ja.quarkus.io" > docs/CNAME
+          git add -f docs
+
+          set +e
+          git diff --cached --exit-code --quiet
+
+          if [[ $? -eq 1 ]] ; then
+            set -e
+            git checkout -b docs
+            git commit -m "Update GitHub Pages"
+            git fetch
+            git push -f origin docs
+          fi
+          set -e
