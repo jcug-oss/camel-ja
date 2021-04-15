@@ -3,18 +3,18 @@ name: build
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
   schedule:
     # everyday 11AM (UTC)
     - cron: '* 9 * * *'
   workflow_dispatch:
     branches:
-      - 'master'
+      - 'main'
   workflow_run:
     workflows:
       - 'sync-upstream'
     branches:
-      - 'master'
+      - 'main'
     types:
       - completed
 
