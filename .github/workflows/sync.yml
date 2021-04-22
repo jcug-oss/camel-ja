@@ -32,28 +32,27 @@ jobs:
         run: bin/push-changes "Update upstream"
 
       - name: Exec po4a-updatepo
-        run: |
-          bin/exec-po4a-updatepo
-
+        run: bin/exec-po4a-updatepo
       - name: Push changes
         run: bin/push-changes "Update .po files"
 
       - name: Update translation stats
         run: bin/update-translation-stats
-
       - name: Push changes
         run: bin/push-changes "Update translation stats"
 
       - name: Apply tmx
         run: bin/apply-tmx
-
       - name: Push changes
         run: bin/push-changes "Apply translation memory"
 
       - name: Machine translate
+        if: ${{ env.TRANSLATOR_DEEPL_APIKEY != '' }}
         run: bin/machine-translate
         env:
           TRANSLATOR_DEEPL_APIKEY: ${{ secrets.TRANSLATOR_DEEPL_APIKEY }}
-
       - name: Push changes
+        if: ${{ env.TRANSLATOR_DEEPL_APIKEY != '' }}
         run: bin/push-changes "Add machine translation"
+        env:
+          TRANSLATOR_DEEPL_APIKEY: ${{ secrets.TRANSLATOR_DEEPL_APIKEY }}

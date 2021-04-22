@@ -30,6 +30,8 @@ dist/
 nbdist/
 .nb-gradle/
 
+### act ###
+.secrets
 
 ### Project Files ###
 /docs
