@@ -7,6 +7,9 @@ cd $L10N_HOME
 
 source config/l10n-kit.conf
 
+# For initial run
+mkdir -p l10n/override
+
 for ITEM in `\find l10n/override` ; do
 
     if [ -f $ITEM ] ; then

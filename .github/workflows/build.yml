@@ -32,12 +32,12 @@ jobs:
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
-      - name: Configure git
-        run: |
-          bin/configure-git
       - name: Setup build env
         run: |
           bin/setup-build-env
+      - name: Configure git
+        run: |
+          bin/configure-git
       - name: Update tmx
         run: bin/update-tmx
 
@@ -69,11 +69,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Cache bundle directory
-        uses: actions/cache@v2
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
       - name: Setup build env
         run: |
           bin/setup-build-env
