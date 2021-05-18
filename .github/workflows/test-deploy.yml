@@ -28,3 +28,9 @@ jobs:
       - name: Deploy to surge
         run: |
           surge docs camel-ja.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      - name: Archive published docs
+        uses: actions/upload-artifact@v2
+        if: ${{ failure() }}
+        with:
+          name: docs
+          path: docs/
