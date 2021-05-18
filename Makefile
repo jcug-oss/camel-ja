@@ -9,3 +9,6 @@ run-sync:
 # test-deploy
 run-deploy-ja-to-surge:
 	act --reuse --job deploy-ja-to-surge
+
+deploy-to-surge:
+	surge docs camel-ja.surge.sh
