@@ -27,6 +27,12 @@ jobs:
         run: bin/exec-antora
       - name: Deploy to surge
         run: |
+          # Trim ignored files manually in case the version of surge might not be aware of .surgeignore
+          rm -rf docs/components/2.x
+          rm -rf docs/components/3.4.x
+          rm -rf docs/components/3.7.x
+          rm -rf docs/components/3.9.x
+          rm -rf docs/camel-kafka-connector
           surge docs camel-ja.surge.sh --token ${{ secrets.SURGE_TOKEN }}
       - name: Archive published docs
         uses: actions/upload-artifact@v2
