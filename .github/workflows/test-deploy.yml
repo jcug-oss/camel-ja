@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy-ja-to-surge:
-    name: Deploy Japanese translation to surge.sh
+    name: Deploy JA to surge.sh
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout base branch
