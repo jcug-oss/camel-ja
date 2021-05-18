@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: upstream/content/docs/building.md:1
+#, no-wrap
+msgid "Building"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/docs/building.md:5
+#, no-wrap
+msgid "Building Camel from Source"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/docs/building.md:8
+#, no-wrap
+msgid "Camel uses [Maven](http://maven.apache.org/) as its build and management tool. If you don't fancy using Maven you can use your IDE directly or [Download](/download/) a distribution or JAR.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/docs/building.md:9
+#, no-wrap
+msgid "Prequisites"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/docs/building.md:11
+#, no-wrap
+msgid "Required:"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/docs/building.md:22
+#, no-wrap
+msgid ""
+"*  Download and [install Maven](http://maven.apache.org/download.html)\n"
+"  *  (Maven 3.1.1 or newer is required to build Camel 2.14 onwards)\n"
+"  *  (Maven 3.2.5 or newer is required to build Camel 2.18 onwards)\n"
+"  *  (Maven 3.3.3 or newer is required to build Camel 2.20 onwards)\n"
+"*  Get the latest [Source](/download/)\n"
+"*  Java\n"
+"  *  (1.7 or 1.8 to build Camel 2.14 onwards)\n"
+"  *  (1.8 to build Camel 2.18 onwards)\n"
+"  *  (1.9 experimental support for building Camel 2.19 onwards)\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/docs/building.md:23
+#, no-wrap
+msgid "Maven options"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/docs/building.md:26
+#, no-wrap
+msgid "To build camel maven has to be configured to use more memory:\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/docs/building.md:27 upstream/content/docs/building.md:41
+#, no-wrap
+msgid "Unix/Linux/Mac"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/docs/building.md:29
+#, no-wrap
+msgid "export MAVEN_OPTS=\"-Xms3000m -Xmx3000m -XX:MaxPermSize=512m\"\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/docs/building.md:33 upstream/content/docs/building.md:48
+#, no-wrap
+msgid "Windows"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/docs/building.md:35
+#, no-wrap
+msgid "set MAVEN_OPTS=-Xms3000m -Xmx3000m -XX:MaxPermSize=512m\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/docs/building.md:40
+#, no-wrap
+msgid "To conserve memory with Java 8 you can set two additional Java options -XX:+UseG1GC to enable G1 garbage collector (default in Java 9) and -XX:+UseStringDeduplication to help decrease Maven memory usage (up to 1.5GB is required currently, but set it a higher):\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/docs/building.md:43
+#, no-wrap
+msgid ""
+"export MAVEN_OPTS=\"-Xmx2G -XX:+UseG1GC -XX:+UseStringDeduplication\"\n"
+"\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/docs/building.md:50
+#, no-wrap
+msgid "set MAVEN_OPTS=-Xmx2G -XX:+UseG1GC -XX:+UseStringDeduplication\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/docs/building.md:55
+#, no-wrap
+msgid "You can try to experiment with parallel builds by adding -T1.5C to MAVEN_OPTS, but be wary as some of the plugins are not thread safe, and the console output will be intertwined. With parallel builds and when using the install goal you might experience race conditions with the local repository, using [Takari Concurrent Local Repository](https://github.com/takari/takari-local-repository) will help with that.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/docs/building.md:56
+#, no-wrap
+msgid "A normal build"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/docs/building.md:58
+#, no-wrap
+msgid "mvn clean install\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/docs/building.md:62
+#, no-wrap
+msgid "A normal build without running tests"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/docs/building.md:64
+#, no-wrap
+msgid "mvn clean install -Pfastinstall\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/docs/building.md:68
+#, no-wrap
+msgid "A normal build without running tests but checkstyle verification enabled"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/docs/building.md:70
+#, no-wrap
+msgid "mvn clean install -Pfastinstall,sourcecheck\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/docs/building.md:74
+#, no-wrap
+msgid "Doing a Quick Build"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/docs/building.md:77
+#, no-wrap
+msgid "The following skips building the manual, the distro and does not execute the unit tests.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/docs/building.md:78
+#, no-wrap
+msgid "mvn install -Pfastinstall\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/docs/building.md:82
+#, no-wrap
+msgid "Updating the license headers"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/docs/building.md:85
+#, no-wrap
+msgid "Proper license headers are enforced using Apache RAT and Checkstyle Maven plugins. To make it less tedious and error prone you can update the license headers by using:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/docs/building.md:86
+#, no-wrap
+msgid "mvn -Plicense license:format\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/docs/building.md:91
+#, no-wrap
+msgid "This can be invoked from any module, which makes it useful when working on components. You can find the various license headers that the Camel project uses in buildtools/src/main/resources/header-*.txt files. These are regenerated at build time from header.txt in the same directory.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/docs/building.md:92
+#, no-wrap
+msgid "Building source jars"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/docs/building.md:95
+#, no-wrap
+msgid "If you want to build jar files with the source code, that for instance Eclipse can important so you can debug the Camel code as well. Then you can run this command from the camel root folder:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/docs/building.md:96
+#, no-wrap
+msgid "mvn clean source:jar install -Pfastinstall\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/docs/building.md:100
+#, no-wrap
+msgid "Working with Karaf features"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/docs/building.md:103
+#, no-wrap
+msgid "If you change anything in the features.xml from platform/karaf (in camel-karaf project) you can run a validation step to ensure the generated features.xml file is correct. You can do this running the following maven goal from the platform directory.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/docs/building.md:104
+#, no-wrap
+msgid "mvn clean install -Pvalidate\n"
+msgstr ""

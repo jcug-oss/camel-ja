@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:1
+#, no-wrap
+msgid "Some updates on Outreachy internship program"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:1
+#, no-wrap
+msgid "Outreachy update"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:11
+#, no-wrap
+msgid "The Apache Camel community is excited to have such a great response and effort already put in by the Outreachy applicants. We are grateful to all that contributed with code, ideas, helping others and being a part of our community.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:13
+#, no-wrap
+msgid "We received similar inquiries from several applicants, asking help with the timeline for the final application, intern selection criteria and similar. To help answer this and to be transparent to all involved, so each individual can reflect and make informed decisions, here are some of our thoughts.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:14
+#, no-wrap
+msgid "Intern selection"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:17
+#, no-wrap
+msgid "We will select *two* interns for this season. In doing so, we will use the following criteria:\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:18
+#, no-wrap
+msgid "Communication"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:21
+#, no-wrap
+msgid "Mentors prefer interns that communicate explicitly and frequently, so mentors have a good overview of what interns are doing and if they encounter any problem that prevents them from continuing their work.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:23
+#, no-wrap
+msgid "Applicants that have already interacted through the community using the official channels (Github, Gitter and/or the Mailing list) would be preferred. We value public communications over private messages to promote transparency.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:24
+#, no-wrap
+msgid "Self-starting"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:27
+#, no-wrap
+msgid "Mentors prefer interns that are proactive and take the initiative on their tasks. While mentors will help interns when they get stuck and can advise on the best options, interns should be able to make decisions and work around problems on their own.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:29
+#, no-wrap
+msgid "Please, make explicit how you intend to approach issues and describe any experience that can serve as an example of your way of working.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:30
+#, no-wrap
+msgid "Skillset"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:33
+#, no-wrap
+msgid "It is important to us that the intern has at least a basic understanding of what they are doing. It is not expected that the chosen intern already has all the skills required, on the contrary, this is an opportunity to learn and advance during the internship, but we can’t be full-time teachers. Interns have to be able to do most of the work on their own. There will be times when interns get stuck and we expect that, we’re here to help.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:35
+#, no-wrap
+msgid "We prefer someone that is basic skilled in *Website Development* (HTML, CSS, and JavaScript). We prefer someone that has at least basic notions on *Design*, *Interaction Design*, and *Usability*.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:37
+#, no-wrap
+msgid "It *would be nice* that the intern has at least *basic notions* on how to use *Git* and/or *GitHub*.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:38
+#, no-wrap
+msgid "Existing experience"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:41
+#, no-wrap
+msgid "Applicants that can demonstrate experience in the project area will be preferred. That experience doesn’t have to be extensive, but applicants that demonstrate some prior experience on similar projects or have experience working in (remote) teams will be preferred.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:42
+#, no-wrap
+msgid "Project timeline"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:45
+#, no-wrap
+msgid "As the project description discusses in May-August 2020 Outreachy internship period we’re focusing on the Apache Camel website. There are three main areas intern can choose to focus on:\n"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:48
+#, no-wrap
+msgid "Website design, including usability, functionality, and structure\n"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:48
+#, no-wrap
+msgid "Content, including structuring, updating and polishing the documentation\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:50
+#, no-wrap
+msgid "We prefer to work in an Agile fashion, so the work will be done in 1-2 week sprints. We prefer interns collaborating and coordinating on the tasks. The choice of tasks will be up to the two interns to decide among themselves.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:52
+#, no-wrap
+msgid "With that in mind we have the following *draft* timeline in mind:\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:60
+#, no-wrap
+msgid ""
+" 1. Getting started\n"
+"   * Study the current website and the technology stack involved. By the end of this, you will be able to articulate how the website is built, where each aspect of the website is defined and how to go about implementing changes. A good outcome of this would be writing the website contribution guide with the acquired knowledge.\n"
+"   * Research similar websites for inspiration. By the end of this, you will be able to showcase similar websites, discuss the pros and cons of their approaches and contrast that with the current website. A good outcome of this would be a document showcasing that.\n"
+" 1. Work on information architecture. The result will be a visual map of the website showcasing the organization of the website.\n"
+" 1. Work on the website design proposal. The end result will be mockups of the design.\n"
+" 1. Based on the tasks done beforehand, split the implementation into smaller tasks, create JIRA issues with the outline of each task.\n"
+" 1. Implement changes\n"
+" 1. Reflect on implemented changes and repeat the process changing previous assumptions and decisions as needed\n"
+msgstr ""

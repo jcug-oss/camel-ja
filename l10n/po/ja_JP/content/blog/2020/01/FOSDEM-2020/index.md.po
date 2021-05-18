@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2020/01/FOSDEM-2020/index.md:1
+#, no-wrap
+msgid "Camel will be in full force at FOSDEM 2020"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2020/01/FOSDEM-2020/index.md:1
+#, no-wrap
+msgid "Camel at FOSDEM 2020"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2020/01/FOSDEM-2020/index.md:9
+#, no-wrap
+msgid "What"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/FOSDEM-2020/index.md:12
+#, no-wrap
+msgid "[FOSDEM](https://fosdem.org/2020/about/) is free as in beer grassroots event for free software/open source communities to meet, share ideas and collaborate. You'll find over 800 talks spread over 35 rooms of Université libre de Bruxelles campus over the first weekend of February. And building on last year's well-received BoF session Camel is returning to FOSDEM.\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2020/01/FOSDEM-2020/index.md:13
+#, no-wrap
+msgid "When"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/FOSDEM-2020/index.md:16
+#, no-wrap
+msgid "FOSDEM 2020 is on 1st (from 9:30 to 19:00) and 2nd (from 9:00 to 18:00) of February.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/FOSDEM-2020/index.md:18
+#, no-wrap
+msgid "Camel social event is on Saturday, 1st of February from 20:00\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2020/01/FOSDEM-2020/index.md:19
+#, no-wrap
+msgid "Where"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/FOSDEM-2020/index.md:22
+#, no-wrap
+msgid "FOSDEM is at [Université libre de Bruxelles](https://fosdem.org/2020/practical/transportation/), Campus du Solbosch, Avenue Franklin D. Roosevelt 50, 1050 Bruxelles, Belgium.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/FOSDEM-2020/index.md:24
+#, no-wrap
+msgid "Camel social event is at [À la Mort Subite](https://www.alamortsubite.com/en/), [rue Montagne-aux-Herbes Potagères 7](https://www.openstreetmap.org/node/4480414658)\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2020/01/FOSDEM-2020/index.md:25
+#, no-wrap
+msgid "Why"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/FOSDEM-2020/index.md:28
+#, no-wrap
+msgid "Aside from all the [interesting talks](https://fosdem.org/2020/schedule/), your favorite even-toed ungulate is going to be represented there.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/FOSDEM-2020/index.md:30
+#, no-wrap
+msgid "First, at the _Integration Process Community_ [stand](https://fosdem.org/2020/stands/) in the building K both days of the conference. Come by to say hi, learn from the Cameleers about all the new and exciting developments on Camel 3, Camel K, Camel Quarkus and Camel Kafka Connector. There might even be some Camel swag for you to grab :)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/FOSDEM-2020/index.md:32
+#, no-wrap
+msgid "The Camel BoF session at FOSDEM 2019 was very well received last year and we're repeating it: the [Camel birds of a feather](https://fosdem.org/2020/schedule/event/bof_apache_camel/) will be on Saturday from 11 to 12 in the room [H.3242](https://fosdem.org/2020/schedule/buildings/#h). Let's meet, discuss and exchange ideas. Anyone wishing to share can present on any topic relating to Apache Camel is welcome to do so, though please be mindful of the time - we have one hour in this session and would like that everyone would have the chance to participate.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/FOSDEM-2020/index.md:34
+#, no-wrap
+msgid "On Saturday evening, first day of FOSDEM, we have the social event, a chance to wind down and discuss more about Camel at À la Mort Subite a old traditional pub and brewery in the Brussels city center.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/FOSDEM-2020/index.md:35
+#, no-wrap
+msgid "I hope to see many of you at FOSDEM 2020!\n"
+msgstr ""

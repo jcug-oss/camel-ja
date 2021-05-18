@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: outside any tag (error?)
+#: upstream/layouts/index.html:1
+msgid "{{ partial \"header.html\" . }}"
+msgstr ""
+
+#. type: Content of: <header><div><h1>
+#: upstream/layouts/index.html:5
+msgid "Apache Camel"
+msgstr ""
+
+#. type: Content of: <header><div><p>
+#: upstream/layouts/index.html:7
+msgid "Camel is an Open Source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data."
+msgstr ""
+
+#. type: Content of: <header><div><p>
+#: upstream/layouts/index.html:11
+msgid "<a class=\"button dark\" href=\"/manual/latest/getting-started.html\">Get Started</a> <a class=\"button light\" href=\"/manual/latest/faq/what-is-camel.html\">What is Camel?</a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <header><img>
+#: upstream/layouts/index.html:14
+msgid "Computer with gears depicting data processing"
+msgstr ""
+
+#. type: Content of: <div><h2>
+#: upstream/layouts/index.html:18
+msgid "What's New?"
+msgstr ""
+
+#. type: Content of: <section><ul>
+#: upstream/layouts/index.html:23
+msgid "{{with .Site.GetPage \"section\" \"blog\"}} {{range .Pages | first 3}}"
+msgstr ""
+
+#. type: Content of: <section><ul><li><time><data>
+#: upstream/layouts/index.html:29
+msgid "{{ dateFormat \"2\" .PublishDate }}"
+msgstr ""
+
+#. type: Content of: <section><ul><li><time><data>
+#: upstream/layouts/index.html:32
+msgid "{{ dateFormat \"Jan\" .PublishDate }} {{ dateFormat \"2006\" .PublishDate }}"
+msgstr ""
+
+#. type: Content of: <section><ul><li><div><h2>
+#: upstream/layouts/index.html:37
+msgid "{{ .Title }}"
+msgstr ""
+
+#. type: Content of: <section><ul><li><div><p>
+#: upstream/layouts/index.html:38
+msgid "{{ .Params.preview }}... <a href=\"{{ .RelPermalink }}\">Read More</a>"
+msgstr ""
+
+#. type: Content of: <section><ul>
+#: upstream/layouts/index.html:41
+msgid "{{end}} {{end}}"
+msgstr ""
+
+#. type: Content of: outside any tag (error?)
+#: upstream/layouts/index.html:46
+msgid "{{ .Content }} {{ partial \"footer.html\" . }}"
+msgstr ""

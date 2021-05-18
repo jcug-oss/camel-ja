@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:1
+#, no-wrap
+msgid "Camel Kafka Connector 0.4.0 Released"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:11
+#, no-wrap
+msgid "We recently released camel-kafka-connector 0.4.0. This is the first release of the latest project in the Camel’s ecosystem, based on an [LTS camel release](/blog/2020/03/LTS-Release-Schedule/). \n"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:18
+#, no-wrap
+msgid "The main features of this release are:\n"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:18
+#, no-wrap
+msgid "Introduction of aggregation support\n"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:18
+#, no-wrap
+msgid "Introduction of marshalling and unmarshalling support on both sink and source connectors\n"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:18
+#, no-wrap
+msgid "Upgrade to the latest Apache Camel release 3.4.2\n"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:18
+#, no-wrap
+msgid "Addition of new examples in the camel-kafka-connector-examples repository\n"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:18
+#, no-wrap
+msgid "Integration tests added for HDFS (sink), Cassandra/CQL (source), Slack (Source), JDBC (sink) and MongoDB (sink/source).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:20
+#, no-wrap
+msgid "This project is still under heavy development but we are already at a good point in stabilizing the codebase. Expect new features and improvements in the next releases!\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:22
+#, no-wrap
+msgid "If you want to see it in action here a link to a recorded demo: https://youtu.be/7Co2AN_AoM4\n"
+msgstr ""

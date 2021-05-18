@@ -1,0 +1,290 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:1
+#, no-wrap
+msgid "Camel Quarkus 1.6.0 Released"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:11
+#, no-wrap
+msgid "<sub><sup>Original image by <a href=\"https://commons.wikimedia.org/wiki/User:99of9\">Toby Hudson</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> via <a href=\"https://en.wikipedia.org/wiki/Camel_racing#/media/File:CamelRacingCamelCup2009Heat.JPG\">Wikipedia</a></sup></sub>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:13
+#, no-wrap
+msgid "We are pleased to announce the release 1.6.0 of Camel Quarkus! Here are the highlights.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:14
+#, no-wrap
+msgid "Java 11 required"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:18
+#, no-wrap
+msgid ""
+"Having deprecated Java 8 [long time ago](/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/) and\n"
+"following the same requirement by Quarkus, Camel Quarkus now requires Java 11+.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:19
+#, no-wrap
+msgid "Support for more Camel components"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:22
+#, no-wrap
+msgid "Camel Quarkus brings support for three new Camel components:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:26
+#, no-wrap
+msgid "[JSONATA](/camel-quarkus/latest/reference/extensions/jsonata.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:26
+#, no-wrap
+msgid "[Vert.x Kafka](/camel-quarkus/latest/reference/extensions/vertx-kafka.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:26
+#, no-wrap
+msgid "[Redis](/camel-quarkus/latest/reference/extensions/redis.html) (JVM only)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:28
+#, no-wrap
+msgid "Components newly supported in native mode:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:34
+#, no-wrap
+msgid "[Azure Storage Blob Service](/camel-quarkus/latest/reference/extensions/azure-storage-blob.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:34
+#, no-wrap
+msgid "[Debezium MongoDB Connector](/camel-quarkus/latest/reference/extensions/debezium-mongodb.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:34
+#, no-wrap
+msgid "[Google BigQuery](/camel-quarkus/latest/reference/extensions/google-bigquery.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:34
+#, no-wrap
+msgid "[Hazelcast](/camel-quarkus/latest/reference/extensions/hazelcast.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:34
+#, no-wrap
+msgid "[Minio](/camel-quarkus/latest/reference/extensions/minio.html)\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:35
+#, no-wrap
+msgid "Quarkus 1.11.0.Final"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:38
+#, no-wrap
+msgid "Camel Quarkus 1.6.0 is based on Quarkus 1.11.0.Final which brings a couple of interesting innovations:\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:39
+#, no-wrap
+msgid "Dev Console"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:44
+#, no-wrap
+msgid ""
+"You certainly know the famous Quarkus [dev mode](https://quarkus.io/guides/getting-started#development-mode), in which\n"
+"Quarkus tooling is watching your workspace and recompiling your application whenever you change something so that you\n"
+"can interact with your up-to-date running app nearly instantly.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:47
+#, no-wrap
+msgid ""
+"Quarkus 1.11.0.Final improves the development experience further through the Quarkus Dev Console. It is a UI available\n"
+"at [http://localhost:8080/q/dev](http://localhost:8080/q/dev) when you run your application in dev mode via\n"
+msgstr ""
+
+#. type: Fenced code block (sh)
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:48
+#, no-wrap
+msgid "$ mvn clean compile quarkus:dev\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:54
+#, no-wrap
+msgid ""
+"Note that the Dev Console currently [works only if](https://github.com/quarkusio/quarkus/issues/14471) you have\n"
+"`io.quarkus:quarkus-vertx-http` dependency in your `pom.xml`.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:57
+#, no-wrap
+msgid ""
+"The Dev Console allows to quickly visualise all the extensions currently loaded, see their status and go directly to\n"
+"their documentation.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:59
+#, no-wrap
+msgid "This is what it looks like for a simple Camel Quarkus application:\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:61
+#, no-wrap
+msgid "![Quarkus Dev Console for a simple Camel Quarkus application](./quarkus-dev-console.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:63
+#, no-wrap
+msgid "More details are available in [Quarkus Dev Console guide](https://quarkus.io/guides/dev-ui).\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:64
+#, no-wrap
+msgid "More in Quarkus 1.11.0.Final"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:72
+#, no-wrap
+msgid "[RESTEasy Reactive](https://quarkus.io/blog/quarkus-1-11-0-final-released/#resteasy-reactive)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:72
+#, no-wrap
+msgid "[Improved Micrometer support](https://quarkus.io/blog/quarkus-1-11-0-final-released/#improved-micrometer-support)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:72
+#, no-wrap
+msgid "[Spring Data REST](https://quarkus.io/blog/quarkus-1-11-0-final-released/#spring-data-rest)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:72
+#, no-wrap
+msgid "[Non application endpoints moved to `/q/`](https://quarkus.io/blog/quarkus-1-11-0-final-released/#non-application-endpoints-moved-to-q)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:72
+#, no-wrap
+msgid "[Jackson: `FAIL_ON_UNKNOWN_PROPERTIES` disabled by default for the default `ObjectMapper`](https://quarkus.io/blog/quarkus-1-11-0-final-released/#jackson)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:72
+#, no-wrap
+msgid "[GraalVM 20.3 recommended](https://quarkus.io/blog/quarkus-1-11-0-final-released/#graalvm-20-3)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:74
+#, no-wrap
+msgid "Check the full [Quarkus 1.11.0.Final announcement](https://quarkus.io/blog/quarkus-1-11-0-final-released/).\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:75
+#, no-wrap
+msgid "Full Changelog of Camel Quarkus 1.6.0"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:79
+#, no-wrap
+msgid "Fixed issues: https://github.com/apache/camel-quarkus/milestone/10?closed=1\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:79
+#, no-wrap
+msgid "All commits: https://github.com/apache/camel-quarkus/compare/1.5.0...1.6.0\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:80
+#, no-wrap
+msgid "Known issue"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:84
+#, no-wrap
+msgid ""
+"Camel FOP [does not work in native mode with GraalVM 20.3.0](https://github.com/apache/camel-quarkus/issues/2113). The\n"
+"users are advised to use GraalVM 20.3.1 or Mandrell GraalVM 20.3.0.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:85
+#, no-wrap
+msgid "What's next?"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:88
+#, no-wrap
+msgid "Camel Quarkus 1.7.0 should appear within a couple of weeks, shortly after Quarkus 1.12 or Camel 3.8, whichever comes first.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/01/camel-quarkus-release-1.6.0/index.md:90
+#, no-wrap
+msgid ""
+"There is still a lot of [Camel components to port](https://github.com/apache/camel-quarkus/issues?q=is%3Aissue+is%3Aopen+label%3Aextension) to Quarkus.\n"
+"Please upvote your favorites, or even better [contribute](/camel-quarkus/latest/contributor-guide/index.html)!\n"
+msgstr ""

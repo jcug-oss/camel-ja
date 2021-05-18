@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2020/02/ApacheConNA-2020-CFP/index.md:1
+#, no-wrap
+msgid "ApacheCon 2020 in New Orleans"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2020/02/ApacheConNA-2020-CFP/index.md:1
+#, no-wrap
+msgid "CFP for ApacheCon North America 2020"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/02/ApacheConNA-2020-CFP/index.md:13
+#, no-wrap
+msgid ""
+"As [previous year](/blog/2019/09/ApacheConNA-2019/) Apache Camel is part of ApacheCon\n"
+"2020 in North America. This year the conference will be held at the [Sheraton,\n"
+"in New Orleans](https://apachecon.com/acna2020/location.html), September 28th\n"
+"through October 2nd, 2020.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/02/ApacheConNA-2020-CFP/index.md:18
+#, no-wrap
+msgid ""
+"The call for presentations for ApacheCon North America 2020 is [now\n"
+"open](https://apachecon.com/acna2020/cfp) and the wider Camel community\n"
+"members are encouraged to submit. Look for the **Camel/Integration** track\n"
+"when submitting.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/02/ApacheConNA-2020-CFP/index.md:23
+#, no-wrap
+msgid ""
+"We're most interested to see talks that offer a learning experience to the\n"
+"attendees, so talks that present new parts of the Camel ecosystem (Camel K,\n"
+"Camel Quarkus, Camel Kafka Connector), talks showing off lessons learned, use\n"
+"cases, and visions on where software integration is heading in the future.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/02/ApacheConNA-2020-CFP/index.md:26
+#, no-wrap
+msgid ""
+"**The call for presentations will close Friday, May 1, 2020 8:00 (America/New\n"
+"York time).**\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/02/ApacheConNA-2020-CFP/index.md:28
+#, no-wrap
+msgid ""
+"Submit early, submit often, at\n"
+"[https://apachecon.com/acna2020/cfp](https://apachecon.com/acna2020/cfp)\n"
+msgstr ""

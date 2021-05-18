@@ -1,0 +1,272 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: upstream/content/community/support.md:1
+#, no-wrap
+msgid "Support"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/community/support.md:5
+#, no-wrap
+msgid "Getting help"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/support.md:10
+#, no-wrap
+msgid ""
+"If you are experiencing problems using Camel then please report your problem to our mailing list or Zulip chat. This allows the entire community to help with your problem.\n"
+"If indeed a bug has been identified in the Camel software, then document the problem in our [Issue Tracker](https://issues.apache.org/jira/browse/CAMEL).\n"
+"Please refrain from immediately opening a ticket in the issue tracker unless you are certain it's a problem in the Camel software.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/support.md:12
+#, no-wrap
+msgid "If you are in doubt, we appreciate asking the [mailing list](/community/mailing-list/) or [Zulip](https://camel.zulipchat.com) chat first.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/support.md:14
+#, no-wrap
+msgid "Please read the section below (How to get help), and follow the bullets advised there first:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/community/support.md:17
+#, no-wrap
+msgid "[Issue tracker](https://issues.apache.org/jira/browse/CAMEL)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/community/support.md:17
+#, no-wrap
+msgid "[FAQ](/manual/latest/faq/index.html)\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/community/support.md:18
+#, no-wrap
+msgid "Reporting bugs - Please read this first"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/support.md:24
+#, no-wrap
+msgid ""
+"We prefer people to get in touch first using the mailing list, or Zulip chat. Or take time to read FAQs, or search in the mailing list archives to find answers.\n"
+"Unfortunately some people create a JIRA ticket as first thing. **Please don't do that!** Only if you are sure it really is a bug etc. JIRA tickets create noise\n"
+"for the Camel team to react on issues that are not bugs but are already covered in FAQs, in the mailing lists etc., or in the existing documentation.\n"
+"Also on the mailing lists there are more people active to help you better.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/support.md:26
+#, no-wrap
+msgid "Also please avoid sending direct emails to members of the Camel team - we are busy already. And conversations about Camel should happen in the public, and not via private emails.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/community/support.md:27
+#, no-wrap
+msgid "Reporting security issues"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/support.md:30
+#, no-wrap
+msgid "If you have found a security issue in Camel please contact the Apache Software Foundation [security team](https://www.apache.org/security/). Don't share the details in public (i.e. chat or users/developer mailing lists). We will receive details you send and resolve the issue as soon as possible. We might also contact you requesting further details as needed.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/community/support.md:31
+#, no-wrap
+msgid "Alternative discussion forums"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/support.md:35
+#, no-wrap
+msgid ""
+"There's a number of sites outside Apache that offer discussion forums on Camel. For example, [Stack Overflow](http://stackoverflow.com/) is a popular Q & A site with a dedicated [Apache Camel forum](http://stackoverflow.com/questions/tagged/apache-camel).\n"
+"You are also likely to find helpful discussions on technical blogs, on [Google](https://www.google.com/search?q=apache+camel), or even on [Twitter](https://twitter.com/#!/search/apache%20camel).\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/community/support.md:36
+#, no-wrap
+msgid "Using deprecated components"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/support.md:40
+#, no-wrap
+msgid ""
+"Deprecated components are *not* supported and issues such as bugs may not be fixed. We encourage users to migrate away from using any deprecated component.\n"
+"A list of deprecated components is listed on the github page at: https://github.com/apache/camel/tree/master/components#components\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/community/support.md:41
+#, no-wrap
+msgid "How to get help"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/support.md:45
+#, no-wrap
+msgid ""
+"Before you report a problem, you may wish to read the [FAQ](/manual/latest/faq/index.html).\n"
+"When you report an issue, please be sure to include as much information as possible. The more we know, the easier it is to reach an effective solution quickly.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/support.md:47
+#, no-wrap
+msgid "*What version do you use*\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/support.md:49
+#, no-wrap
+msgid "What version of Camel do you use? Remember to include this information.\n"
+msgstr ""
+
+#. type: Bullet: '*  '
+#: upstream/content/community/support.md:63
+#, no-wrap
+msgid "what are the version numbers of involved software components? (this is very important to detail)\n"
+msgstr ""
+
+#. type: Bullet: '*  '
+#: upstream/content/community/support.md:63
+#, no-wrap
+msgid "what platform and JDK?\n"
+msgstr ""
+
+#. type: Bullet: '*  '
+#: upstream/content/community/support.md:63
+#, no-wrap
+msgid "any particular container being used? and if so, what version?\n"
+msgstr ""
+
+#. type: Bullet: '*  '
+#: upstream/content/community/support.md:63
+#, no-wrap
+msgid "stack traces generally really help! (Remember to post which version of Camel you use, this is important to know when posting stacktraces.) If in doubt, include the whole thing; often exceptions get wrapped in other exceptions and the exception right near the bottom explains the actual error, not the first few lines at the top. It's very easy for us to skim-read past unnecessary parts of a stack trace.\n"
+msgstr ""
+
+#. type: Bullet: '*  '
+#: upstream/content/community/support.md:63
+#, no-wrap
+msgid "log output can be useful too; sometimes [enabling DEBUG logging] (/manual/latest/faq/how-do-i-change-the-logging.html) can help\n"
+msgstr ""
+
+#. type: Bullet: '*  '
+#: upstream/content/community/support.md:63
+#, no-wrap
+msgid "your code & configuration files are often useful\n"
+msgstr ""
+
+#. type: Bullet: '*  '
+#: upstream/content/community/support.md:63
+#, no-wrap
+msgid "did it work before? what have you changed to break it?\n"
+msgstr ""
+
+#. type: Bullet: '*  '
+#: upstream/content/community/support.md:63
+#, no-wrap
+msgid "try upgrading to the latest release and see if it's fixed there\n"
+msgstr ""
+
+#. type: Bullet: '*  '
+#: upstream/content/community/support.md:63
+#, no-wrap
+msgid "try the latest SNAPSHOT to see if it's fixed in the pre-release\n"
+msgstr ""
+
+#. type: Bullet: '*  '
+#: upstream/content/community/support.md:63
+#, no-wrap
+msgid "search the user forum to see if has been discussed before\n"
+msgstr ""
+
+#. type: Bullet: '*  '
+#: upstream/content/community/support.md:63
+#, no-wrap
+msgid "see the \"known issues\" section in the release notes\n"
+msgstr ""
+
+#. type: Bullet: '*  '
+#: upstream/content/community/support.md:63
+#, no-wrap
+msgid "and check the issue tracker to see if the issue has already been reported\n"
+msgstr ""
+
+#. type: Bullet: '*  '
+#: upstream/content/community/support.md:63
+#, no-wrap
+msgid "do *not* send private emails to Camel Team members to ask them to help you faster, or in the private only. Help on Apache Camel is volunteer based and must happen in the open on the public Mailing Lists. If you want to get help faster or in private, then see further below.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/community/support.md:64
+#, no-wrap
+msgid "How to get help faster"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/support.md:67
+#, no-wrap
+msgid "We can help you much quicker if you try the following\n"
+msgstr ""
+
+#. type: Bullet: '*  '
+#: upstream/content/community/support.md:71
+#, no-wrap
+msgid "provide us with a JUnit test case that demonstrates your issue. e.g. if you think you've found a bug, can you create a test case to demonstrate the bug?\n"
+msgstr ""
+
+#. type: Bullet: '*  '
+#: upstream/content/community/support.md:71
+#, no-wrap
+msgid "[submit a patch](/community/contributing/) fixing the bug! (We also buy you beer when we meet you if you submit bug fixes (smile) )\n"
+msgstr ""
+
+#. type: Bullet: '*  '
+#: upstream/content/community/support.md:71
+#, no-wrap
+msgid "for memory leak or performance related issues, if you can run a profiler on your test case and attach the output as a file (or zipped file if it's huge) to the JIRA we can normally fix things much faster. For example, you could run jmap/jhat, JProfiler or YourKit on your code and send us the output. To find memory leaks it's quicker to resolve if you can tell us what classes are taking up all of the RAM; we can normally figure out what's wrong from that.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/community/support.md:72
+#, no-wrap
+msgid "Commercial Support"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/support.md:75
+#, no-wrap
+msgid ""
+"This is an open source project, so the amount of time we have available to help resolve your issue is often limited as all help is provided on a volunteer basis.\n"
+"If you want to get priority help, need to get up to speed quickly, require some training or mentoring, or need full 24 x 7 production support you could contact one of the following companies with [Commercial Camel Offerings](/manual/latest/commercial-camel-offerings.html).\n"
+msgstr ""

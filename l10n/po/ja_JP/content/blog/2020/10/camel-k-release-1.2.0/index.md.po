@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2020/10/camel-k-release-1.2.0/index.md:1
+#, no-wrap
+msgid "Camel K 1.2.0 Released"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-k-release-1.2.0/index.md:10
+#, no-wrap
+msgid "Apache Camel K 1.2.0 has been released!\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-k-release-1.2.0/index.md:12
+#, no-wrap
+msgid "This version introduces some important features that will play an increasingly bigger role in future releases of Camel K.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/10/camel-k-release-1.2.0/index.md:13
+#, no-wrap
+msgid "Quarkus as default runtime"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-k-release-1.2.0/index.md:16
+#, no-wrap
+msgid "Camel K 1.2.0 uses camel-quarkus 1.1.0 (Quarkus 1.8.0.Final) as runtime, but Quarkus is no longer an optional runtime for Camel K: **Quarkus is now the default runtime**.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-k-release-1.2.0/index.md:19
+#, no-wrap
+msgid ""
+"This means that users no longer need to enable Quarkus explicitly when running their integrations (using `kamel run -t quarkus.enabled=true ...` for instance): Quarkus will be automatically enabled. It's still possible to use the old runtime, based on Camel main, but we are now deprecating it and it will be removed in future releases.\n"
+"Having a single runtime will allow us to focus more on features and reduce the fragmentation.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-k-release-1.2.0/index.md:21
+#, no-wrap
+msgid "Setting our base on Quarkus will also allow us to start introducing native compilation in the build workflow, a feature that we've always targeted since the inception of the project, that is tremendously useful especially in the serverless context.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/10/camel-k-release-1.2.0/index.md:22
+#, no-wrap
+msgid "Kamelets"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-k-release-1.2.0/index.md:25
+#, no-wrap
+msgid "You'll hear more about Kamelets in the future. Kamelets are Kubernetes resources that can be installed on a cluster and used in Camel K integrations. They contain high level connectors in the form of \"route templates\". Kamelets abstract the details of connecting to complex systems and can be combined by Camel K users to create complex integrations with ease, just like if they were standard components.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-k-release-1.2.0/index.md:27
+#, no-wrap
+msgid "The power of Kamelets is that they hide the complexity of connecting to external systems behind a simple interface, that contain all the information needed to instantiate them, even for users who are not familiar with Camel.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-k-release-1.2.0/index.md:29
+#, no-wrap
+msgid "Kamelets are also suitable to be used as generic connectors for building UI-based projects that leverage the power of Apache Camel, expanding the possibilities of Apache Camel into new areas.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-k-release-1.2.0/index.md:31
+#, no-wrap
+msgid "You can find more information about [Kamelets in the Camel K documentation](/camel-k/latest/kamelets/kamelets.html).\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/10/camel-k-release-1.2.0/index.md:32
+#, no-wrap
+msgid "What's Next?"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-k-release-1.2.0/index.md:35
+#, no-wrap
+msgid "The changes introduced in Camel K 1.2.0 open the road to new developments in Apache Camel K.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-k-release-1.2.0/index.md:37
+#, no-wrap
+msgid "\"Quarkus native\" compilation is one of the next items that we'll face in next iterations.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-k-release-1.2.0/index.md:39
+#, no-wrap
+msgid "We also want to expand the concept of Kamelets and make it useful in many areas, starting from the serverless context, where they can offer a simplified interface for Knative users that want to create sources and sinks for their serverless workflows.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-k-release-1.2.0/index.md:41
+#, no-wrap
+msgid "Contributions are welcome, as usual! But we also love to have your feedback about the recent changes.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-k-release-1.2.0/index.md:42
+#, no-wrap
+msgid "Meet us on [Zulip](https://camel.zulipchat.com/)!\n"
+msgstr ""

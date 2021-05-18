@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:1
+#, no-wrap
+msgid "ApacheConf @Home 2020, free online conference featuring Apache Camel and Software Integration track"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:1
+#, no-wrap
+msgid "Camel at ApacheCon @Home 2020"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:14
+#, no-wrap
+msgid ""
+"We are pleased to announce that [ApacheCon\n"
+"2020](https://www.apachecon.com/acna2020/index.html) will be held *online*,\n"
+"September 29th through October 1st, 2020.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:20
+#, no-wrap
+msgid ""
+"If you wish to present at the event please submit your talk proposal for the\n"
+"**Camel/Integration** track when at [ApacheCon 2020\n"
+"website](https://www.apachecon.com/acna2020/cfp.html) no later than **Monday,\n"
+"July 13th by noon in the UTC timezone**. Please do not wait for the last minute\n"
+"to submit.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:26
+#, no-wrap
+msgid ""
+"We are most interested to see talks that offer a learning experience to the\n"
+"attendees, so talks that present new parts of the Camel ecosystem (Camel K,\n"
+"Camel Quarkus, Camel Kafka Connector), talks showing off lessons learned, use\n"
+"cases, and visions on where software integration is heading in the future. We\n"
+"also welcome talk proposals on other projects in the software integration space.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:31
+#, no-wrap
+msgid ""
+"Attend for **free** or a small donation to the Apache Software Foundation, to\n"
+"register, go to the [Hopin registration\n"
+"page](https://hopin.to/events/apachecon-home). Here are some of the reasons why\n"
+"you should attend:\n"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:41
+#, no-wrap
+msgid "learn about the latest in Apache Camel and the software integration space,\n"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:41
+#, no-wrap
+msgid ""
+"get a chance to interact, ask questions and influence roadmaps in the\n"
+"participant lead discussions, or at the panel on the future of software\n"
+"integration\n"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:41
+#, no-wrap
+msgid ""
+"you can, if you wish to do so, present a 10-minute lightning talk (no need to\n"
+"submit one now as we will gather lightning talks at the conference)\n"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:41
+#, no-wrap
+msgid ""
+"the conference is free to attend and online, no need for pesky traveling or\n"
+"expense reimbursements\n"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:41
+#, no-wrap
+msgid "celebrate the Apache Camel and the wider Apache Software Foundation community\n"
+msgstr ""

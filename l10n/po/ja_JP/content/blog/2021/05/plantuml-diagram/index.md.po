@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2021/05/plantuml-diagram/index.md:1
+#, no-wrap
+msgid "Diagramming Camel routes and endpoints interactions with PlantUML"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2021/05/plantuml-diagram/index.md:1
+#, no-wrap
+msgid "Diagramming Camel routes with PlantUML"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/plantuml-diagram/index.md:11
+#, no-wrap
+msgid "Hello Camel riders!\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/plantuml-diagram/index.md:13
+#, no-wrap
+msgid "I created a tool which allows to draw a PlantUML activity diagram from a **running** Camel context (not at design time).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/plantuml-diagram/index.md:15
+#, no-wrap
+msgid "The above image shows what kind of diagram you can expect.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/plantuml-diagram/index.md:18
+#, no-wrap
+msgid ""
+"I find it useful when I need to have a overall view of interactions between all the routes and endpoints, \n"
+"or to have a visual representation for better understanding and documentation.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/plantuml-diagram/index.md:20
+#, no-wrap
+msgid "You can find all the details on the public [GitHub repository](https://github.com/ncasaux/camel-plantuml).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/plantuml-diagram/index.md:21
+#, no-wrap
+msgid "Maybe some of you could find it useful too! Do not hesitate to provide your feedback!\n"
+msgstr ""

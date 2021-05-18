@@ -1,0 +1,722 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2020/01/capi-gateway/index.md:1
+#, no-wrap
+msgid "How an API Gateway is implemented using Camel at the European Comission"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2020/01/capi-gateway/index.md:1
+#, no-wrap
+msgid "CAPI Gateway: Using Apache Camel at the European Commission"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:10
+#, no-wrap
+msgid "I've been working at the European Commission for the last 4 years as a Software Architect, working for a unit responsible for developing reusable components, and advocating open source software. In this context, we organized already a couple of Hackathons and Bug bounties open to all the open source communities.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:12
+#, no-wrap
+msgid "In the team, we worked already a couple of times with Apache Camel, and I like the elegance and performance compared with other integration frameworks.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:14
+#, no-wrap
+msgid "Recently I was challenged to find alternatives to the existing API Gateway infrastructure and immediately started to search for products implemented on top of Apache Camel.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:16
+#, no-wrap
+msgid "Not being able to find any solution with all we need to offer, I decided to work on a small POC with the following features:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:27
+#, no-wrap
+msgid "Easy to customize API Gateway (since we have several customers, with a wide scope of needs and technologies, we need to be able to easily build custom components on top of an API Gateway core.) Ex.: Customize processors, Integrate with externals IdP, Implement custom API Manager Interface.)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:27
+#, no-wrap
+msgid "Light and easy to install.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:27
+#, no-wrap
+msgid "Decoupled components, Observability, Metrics, Database, API Manager Interface, Authorization, and Gateway.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:27
+#, no-wrap
+msgid "Traffic management (Applied per API or API Path)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:27
+#, no-wrap
+msgid "Automated traceability. (When a user deploys an API, we create Zipkin traces)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:27
+#, no-wrap
+msgid "Automated Metrics (When a user deploys an API, we create Prometheus metrics)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:27
+#, no-wrap
+msgid "Automated Dashboards (When a user deploys an API, we create Grafana dashboards)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:27
+#, no-wrap
+msgid "Block APIs after failed attempts.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:27
+#, no-wrap
+msgid "REST endpoints to manage your API's, Clients, Subscriptions, Certificates.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:27
+#, no-wrap
+msgid "Authorization integration with Keycloak.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:29
+#, no-wrap
+msgid "SO, WHY APACHE CAMEL?\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:37
+#, no-wrap
+msgid "Open Source.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:37
+#, no-wrap
+msgid "Big and active community.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:37
+#, no-wrap
+msgid "Fast and reliable.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:37
+#, no-wrap
+msgid "Deep integration with Spring Boot.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:37
+#, no-wrap
+msgid "DSL Language.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:37
+#, no-wrap
+msgid "Know-how in the team.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:37
+#, no-wrap
+msgid "It supports all the integration patterns that you can remember.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:39
+#, no-wrap
+msgid "As part of the POC, I've decided already to combine other technologies:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:47
+#, no-wrap
+msgid "Spring Boot\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:47
+#, no-wrap
+msgid "Hazelcast distributed cache\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:47
+#, no-wrap
+msgid "Prometheus\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:47
+#, no-wrap
+msgid "Grafana\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:47
+#, no-wrap
+msgid "Zipkin\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:47
+#, no-wrap
+msgid "MongoDB\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:47
+#, no-wrap
+msgid "Keycloak\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:50
+#, no-wrap
+msgid ""
+"The POC is available, and currently being tested, already working with Apache Camel 3.0.0.\n"
+"Let's then go for some technical details...\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/01/capi-gateway/index.md:51
+#, no-wrap
+msgid "Architecture Overview"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:54
+#, no-wrap
+msgid "{{< image \"CAPI-Gateway.png\" \"Architecture Overview\" >}}\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/01/capi-gateway/index.md:55
+#, no-wrap
+msgid "Basic Route Definition"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/blog/2020/01/capi-gateway/index.md:57
+#, no-wrap
+msgid ""
+"routeDefinition\n"
+"  .streamCaching()\n"
+"  .setHeader(...) //core headers\n"
+"  .process(authenticationProcessor)\n"
+"  .choice()\n"
+"      .when(...) //check execution of the authentication processor\n"
+"      .process(pathProcessor) //evaluates the path\n"
+"      .toF(toEndpoint) //proxy to the deployed backend\n"
+"      .removeHeader(...) //remove some core headers\n"
+"      .process(metricsProcessor) //process metrics\n"
+"\n"
+"  //api was not authenticated (ex.: expired token)\n"
+"  .otherwise()\n"
+"      .setHeader(...) //core error headers\n"
+"      .toF(apiGatewayErrorEndpoint) //proxy to default error endpoint\n"
+"      .removeHeader(...) //remove some core headers\n"
+"      .process(metricsProcessor) //process metrics\n"
+"      .end()\n"
+"      .setId(routeID);\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:80
+#, no-wrap
+msgid "The *toEndpoint* contains the default configuration:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/blog/2020/01/capi-gateway/index.md:81
+#, no-wrap
+msgid ""
+"throwExceptionOnFailure=false //we will catch the exceptions\n"
+"connectTimeout=...\n"
+"bridgeEndpoint=true\n"
+"copyHeaders=true\n"
+"connectionClose=true\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:90
+#, no-wrap
+msgid "Since we want to be able to catch Network, IO exceptions we also do this on the route definition:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/blog/2020/01/capi-gateway/index.md:91
+#, no-wrap
+msgid ""
+"routeDefinition\n"
+"  .onException(exceptionClass)\n"
+"  .continued(continued)\n"
+"  .setHeader(...) //exception headers\n"
+"  .toF(apiGatewayErrorEndpoint) //proxy to default error endpoint\n"
+"  .removeHeader(...) //remove some core headers\n"
+"  .end();\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:103
+#, no-wrap
+msgid ""
+"All information about a running API can be found in the shared cache. This allows the component that manages APIs to know if an API must be suspended or temporarily blocked (due to failed attempts and/or many calls exceeding the defined threshold.)\n"
+"Information about a running API includes:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:115
+#, no-wrap
+msgid "Route ID\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:115
+#, no-wrap
+msgid "Secured\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:115
+#, no-wrap
+msgid "Zipkin Service Name and Prometheus Metrics Name\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:115
+#, no-wrap
+msgid "Context\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:115
+#, no-wrap
+msgid "Path\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:115
+#, no-wrap
+msgid "Verb\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:115
+#, no-wrap
+msgid "Failed calls\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:115
+#, no-wrap
+msgid "Max allowed failed calls\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:115
+#, no-wrap
+msgid "Disabled (temporarily disabled, a candidate to be removed)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:115
+#, no-wrap
+msgid "Removed (removed Route)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:115
+#, no-wrap
+msgid "Suspended info (type [ERROR, THROTTLING] and reason)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:117
+#, no-wrap
+msgid "Main components Managing enabled Routes:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:120
+#, no-wrap
+msgid "@Component @Scheduled *ThrottlingInspector* - Periodically checks the traffic on the deployed API Path level\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:120
+#, no-wrap
+msgid "@Component @Scheduled *Running API's* - Periodically checks for API errors, candidates routes to suspend.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/01/capi-gateway/index.md:121
+#, no-wrap
+msgid "Example of an API definition"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/blog/2020/01/capi-gateway/index.md:123
+#, no-wrap
+msgid ""
+"{\n"
+"    \"_id\" : \"XXX-XXX-XXX-XXX\",\n"
+"    \"endpoint\" : \"remote.domain.com:8080\",\n"
+"    \"endpointType\" : \"HTTPS\",\n"
+"    \"name\" : \"Friendly API Name\",\n"
+"    \"secured\" : true,\n"
+"    \"context\" : \"context-name\",\n"
+"    \"swagger\" : true,\n"
+"    \"swaggerEndpoint\" : \"https://remote.domain.com:8080/v2/api-docs\",\n"
+"    \"blockIfInError\" : true,\n"
+"    \"maxAllowedFailedCalls\" : 10, //after 10 failed calls, the route will be removed\n"
+"    \"unblockAfter\" : true,\n"
+"    \"unblockAfterMinutes\" : 2, //after 2 minutes of being removed, the route is added\n"
+"    //100 calls per minute, above this, the route is suspended.\n"
+"    \"throttlingPolicy\" : {\n"
+"        \"maxCallsAllowed\" : \"100\",\n"
+"        \"periodForMaxCalls\" : \"60000\",\n"
+"        \"applyPerPath\" : true\n"
+"    }\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:147
+#, no-wrap
+msgid "With the following configuration your service will be available at:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/blog/2020/01/capi-gateway/index.md:148
+#, no-wrap
+msgid "https://localhost:8380/gateway/context-name/\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:157
+#, no-wrap
+msgid ""
+"The following configuration will be applied:\n"
+"* secured: true - Meaning, that the CAPI Gateway expects a Bearer token sign by the authorization server (currently integrating with Keycloak) provided by the CAPI Rest Server.\n"
+"* blockIfInError: true - Means that for instance if you send more than 10 times (maxAllowedFailedCalls) the wrong token your API will be suspended for 2 minutes (unblockAfterMinutes).\n"
+"* throttlingPolicy.maxCallsAllowed: 100 / throttlingPolicy.periodForMaxCalls - You can only call your API/Path 100 times per minute.\n"
+"* throttlingPolicy.applyPerPath: true - If true the policy will be applied by the path and NOT the total amount for the API.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/01/capi-gateway/index.md:158
+#, no-wrap
+msgid "Optional Configuration"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:160
+#, no-wrap
+msgid "You can define custom paths, in case you don't have a Swagger Endpoint (Swagger 2/Open API), so if swagger: false, then CAPI will look for a list of PATH like the below example:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/blog/2020/01/capi-gateway/index.md:161
+#, no-wrap
+msgid ""
+" {\n"
+"     \"_id\" : \"XXX-XXX-XXX-XXX\",\n"
+"     \"endpoint\" : \"remote.domain.com:8080\",\n"
+"     \"endpointType\" : \"HTTPS\",\n"
+"     \"name\" : \"Friendly API Name\",\n"
+"     //this time, the API will be available for everyone\n"
+"     \"secured\" : false,\n"
+"     \"context\" : \"context-name\",\n"
+"     \"blockIfInError\" : false,\n"
+"     //no swagger definition present, you need to define the available paths.\n"
+"     \"swagger\" : false,\n"
+"     \"paths\" : [\n"
+"         {\n"
+"         \"verb\" : \"GET\",\n"
+"         \"path\" : \"/services/path\"\n"
+"         },\n"
+"         {\n"
+"         \"verb\" : \"POST\",\n"
+"         \"path\" : \"/services/path\"\n"
+"         }\n"
+"     ]\n"
+" }\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/01/capi-gateway/index.md:186
+#, no-wrap
+msgid "Client (consumer) object"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:189
+#, no-wrap
+msgid ""
+"This will change after the integration with Keycloak.\n"
+"Example of a client (with the password: web-client-secret)\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/blog/2020/01/capi-gateway/index.md:190
+#, no-wrap
+msgid ""
+"{\n"
+"    \"_id\" : \"XXX-XXX-XXX-XXX\",\n"
+"    \"clientId\" : \"web-publisher\",\n"
+"    \"resourceIds\" : [],\n"
+"    \"secretRequired\" : true,\n"
+"    \"clientSecret\" : \"$2a$10$oQBqS4ZOEiIGVNiZnB0nMuFw/n/Od57IG/uy4nFuOJxLtHE/Z5jDC\",\n"
+"    \"scoped\" : false,\n"
+"    \"scope\" : [\n"
+"        \"read-foo\"\n"
+"    ],\n"
+"    \"authorizedGrantTypes\" : [\n"
+"        \"refresh_token\",\n"
+"        \"client_credentials\",\n"
+"    ],\n"
+"    \"registeredRedirectUri\" : [],\n"
+"    \"authorities\" : [\n"
+"        {\n"
+"            \"role\" : \"ROLE_USER\",\n"
+"            \"_class\" : \"org.springframework.security.core.authority.SimpleGrantedAuthority\"\n"
+"        },\n"
+"        {\n"
+"            \"role\" : \"ROLE_PUBLISHER\",\n"
+"            \"_class\" : \"org.springframework.security.core.authority.SimpleGrantedAuthority\"\n"
+"        }\n"
+"        // All the API's you subscribe will be an authority\n"
+"    ],\n"
+"    \"accessTokenValiditySeconds\" : 60,\n"
+"    \"refreshTokenValiditySeconds\" : 14400,\n"
+"    \"autoApprove\" : false\n"
+"}\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/01/capi-gateway/index.md:223
+#, no-wrap
+msgid "Consuming your API"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:226
+#, no-wrap
+msgid ""
+"If you wish to enable security for your API (api.secured = true), then you will need to define a *client*.\n"
+"Your API ID will be added as an authority in the authorities list of your client.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/blog/2020/01/capi-gateway/index.md:227
+#, no-wrap
+msgid ""
+"\"authorities\" : [\n"
+"    {\n"
+"        \"role\" : \"ROLE_USER\",\n"
+"        \"_class\" : \"org.springframework.security.core.authority.SimpleGrantedAuthority\"\n"
+"    },\n"
+"    {\n"
+"        \"role\" : \"ROLE_PUBLISHER\",\n"
+"        \"_class\" : \"org.springframework.security.core.authority.SimpleGrantedAuthority\"\n"
+"    },\n"
+"    {\n"
+"        \"role\" : \"YOUR API ID\",\n"
+"        \"_class\" : \"org.springframework.security.core.authority.SimpleGrantedAuthority\"\n"
+"    }\n"
+"]\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/01/capi-gateway/index.md:244
+#, no-wrap
+msgid "Play with CAPI Gateway"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:247
+#, no-wrap
+msgid "Clone the project.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:247
+#, no-wrap
+msgid "Execute\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/blog/2020/01/capi-gateway/index.md:248
+#, no-wrap
+msgid "$ sudo docker-compose up -d\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:254
+#, no-wrap
+msgid "If you are starting a new MongoDB instance, a default CAPI Client will be created for you.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:254
+#, no-wrap
+msgid "Request your first access token:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/blog/2020/01/capi-gateway/index.md:255
+#, no-wrap
+msgid "$ curl -X POST https://localhost:8080/oauth/token -H 'Authorization: Basic d2ViLXB1Ymxpc2hlcjp3ZWItY2xpZW50LXNlY3JldA==' -H 'Content-Type: multipart/form-data;' -F grant_type=client_credentials -F 'response_type=access_token'\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:262
+#, no-wrap
+msgid "Go to http://localhost:8080/swagger-ui.html\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:262
+#, no-wrap
+msgid "Authenticate with the token you obtained from the previous step. (Don't forget to specify: Bearer _the token_)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:262
+#, no-wrap
+msgid "Publish your first API:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/blog/2020/01/capi-gateway/index.md:263
+#, no-wrap
+msgid "$ curl -X POST \"http://localhost:8080/route/simple-rest\" -H \"accept: application/json\" -H \"Content-Type: application/json\" -d \"<your-api>\" (see Example of an API definition)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/01/capi-gateway/index.md:268
+#, no-wrap
+msgid "Imagine that your context was: test and one of your GET path was /user you can then test: http://localhost:8380/gateway/test/user\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:270
+#, no-wrap
+msgid "Docker Compose will create instances of Grafana, Prometheus and Zipkin, but if you wish to use already existing instances you just need to change this environment variables:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/blog/2020/01/capi-gateway/index.md:271
+#, no-wrap
+msgid ""
+"api.gateway.prometheus.endpoint=http://prometheus:9090\n"
+"api.gateway.zipkin.endpoint=http://zipkin:9411/api/v2/spans\n"
+"api.gateway.grafana.endpoint=http://localhost:8080/grafana\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/01/capi-gateway/index.md:277
+#, no-wrap
+msgid "Some load results (Calling a protected service)"
+msgstr ""
+
+#. type: Title ####
+#: upstream/content/blog/2020/01/capi-gateway/index.md:278
+#, no-wrap
+msgid "Using apache benchmark on a 1 node docker container with SSL"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:286
+#, no-wrap
+msgid ""
+"    Results for 20k calls 1000 concurrency level:\n"
+"    Server Hostname:        localhost\n"
+"    Server Port:            8380\n"
+"    SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256\n"
+"    Server Temp Key:        ECDH P-256 256 bits\n"
+"    TLS Server Name:        localhost\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:289
+#, no-wrap
+msgid ""
+"    Document Path:          /gateway/myctx/internal/12345\n"
+"    Document Length:        33 bytes\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:300
+#, no-wrap
+msgid ""
+"    Concurrency Level:      1000\n"
+"    Time taken for tests:   65.563 seconds\n"
+"    Complete requests:      20000\n"
+"    Failed requests:        0\n"
+"    Total transferred:      6560000 bytes\n"
+"    HTML transferred:       660000 bytes\n"
+"    Requests per second:    305.05 [#/sec] (mean)\n"
+"    Time per request:       3278.129 [ms] (mean)\n"
+"    Time per request:       3.278 [ms] (mean, across all concurrent requests)\n"
+"    Transfer rate:          97.71 [Kbytes/sec] received\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:307
+#, no-wrap
+msgid ""
+"    Connection Times (ms)\n"
+"                  min  mean[+/-sd] median   max\n"
+"    Connect:        7 2431 1388.0   2260   18381\n"
+"    Processing:     5  798 883.7    684   13862\n"
+"    Waiting:        3  796 883.3    681   13862\n"
+"    Total:         58 3229 1683.6   3091   18639\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/01/capi-gateway/index.md:309
+#, no-wrap
+msgid ""
+"It would be amazing to have feedback from the Apache Camel Community. If you have any questions, feel free to contact me.\n"
+"The repo is located at https://github.com/rodrigoserracoelho/capi-gateway\n"
+msgstr ""

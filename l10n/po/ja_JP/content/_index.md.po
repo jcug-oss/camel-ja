@@ -1,0 +1,399 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: description
+#: upstream/content/_index.md:1
+#, no-wrap
+msgid "Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/_index.md:1
+#, no-wrap
+msgid "Home"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:8
+#, no-wrap
+msgid "{{< section \"frontpage columns functionalities\" >}}\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/_index.md:9
+#, no-wrap
+msgid "Why Camel?"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:12 upstream/content/_index.md:53
+#, no-wrap
+msgid "{{< div \"box right\" >}}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:14 upstream/content/_index.md:41
+#: upstream/content/_index.md:55 upstream/content/_index.md:80
+#, no-wrap
+msgid "{{< div \"content\">}}\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/_index.md:15
+#, no-wrap
+msgid "Based on Enterprise Integration Patterns"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:18
+#, no-wrap
+msgid "Camel supports most of the Enterprise Integration Patterns from the excellent book by Gregor Hohpe and Bobby Woolf, and newer integration patterns from microservice architectures to help you solve your integration problem by applying best practices out of the box.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:20
+#, no-wrap
+msgid "<p><a class=\"button dark\" href=\"/components/latest/eips/enterprise-integration-patterns.html\">Read more on EIP</a></p>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:22 upstream/content/_index.md:28
+#: upstream/content/_index.md:30 upstream/content/_index.md:39
+#: upstream/content/_index.md:49 upstream/content/_index.md:51
+#: upstream/content/_index.md:62 upstream/content/_index.md:68
+#: upstream/content/_index.md:70 upstream/content/_index.md:78
+#: upstream/content/_index.md:87 upstream/content/_index.md:89
+#: upstream/content/_index.md:103 upstream/content/_index.md:111
+#: upstream/content/_index.md:113 upstream/content/_index.md:121
+#: upstream/content/_index.md:129 upstream/content/_index.md:131
+#: upstream/content/_index.md:139 upstream/content/_index.md:147
+#: upstream/content/_index.md:149 upstream/content/_index.md:157
+#: upstream/content/_index.md:166 upstream/content/_index.md:168
+#: upstream/content/_index.md:176 upstream/content/_index.md:184
+#: upstream/content/_index.md:186 upstream/content/_index.md:194
+#: upstream/content/_index.md:202 upstream/content/_index.md:204
+#: upstream/content/_index.md:228
+#, no-wrap
+msgid "{{< /div >}}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:24 upstream/content/_index.md:35
+#: upstream/content/_index.md:64 upstream/content/_index.md:74
+#: upstream/content/_index.md:99 upstream/content/_index.md:117
+#: upstream/content/_index.md:135 upstream/content/_index.md:153
+#: upstream/content/_index.md:172 upstream/content/_index.md:190
+#, no-wrap
+msgid "{{< div \"icon\" >}}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:26
+#, no-wrap
+msgid "<img src=\"./img/patterns.svg\" alt=\"component icon\"/>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:33 upstream/content/_index.md:72
+#, no-wrap
+msgid "{{< div \"box left\" >}}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:37
+#, no-wrap
+msgid "<img src=\"./img/runtimes.svg\" alt=\"runtime icon\" />\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/_index.md:42
+#, no-wrap
+msgid "Runs Everywhere"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:45
+#, no-wrap
+msgid "Apache Camel is standalone, and can be embedded as a library within Spring Boot, Quarkus, Application Servers, and in the clouds. Camel subprojects focus on making your work easy.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:47
+#, no-wrap
+msgid "<p><a class=\"button dark\" href=\"/docs/\">Go to Camel Subprojects</a></p>\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/_index.md:56
+#, no-wrap
+msgid "Packed with Components"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:58
+#, no-wrap
+msgid "Packed with several hundred components that are used to access databases, message queues, APIs or basically anything under the sun. Helping you integrate with everything.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:60
+#, no-wrap
+msgid "<p><a class=\"button dark\" href=\"/components/latest/\">Go to Component Reference</a></p>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:66
+#, no-wrap
+msgid "<img src=\"./img/components.svg\" alt=\"component icon\"/>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:76
+#, no-wrap
+msgid "<img src=\"./img/data-formats.svg\" alt=\"data icon\"/>\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/_index.md:81
+#, no-wrap
+msgid "Supports over 50 Data Formats"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:85
+#, no-wrap
+msgid ""
+"Camel supports around 50 data formats, allowing to translate messages in multiple formats, and with support from industry standard formats from finance, telco, health-care, and more.\n"
+"<p><a class=\"button dark\" href=\"/components/latest/dataformats/\">See Supported Formats</a></p>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:91 upstream/content/_index.md:206
+#: upstream/content/_index.md:229
+#, no-wrap
+msgid "{{< /section >}}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:93
+#, no-wrap
+msgid "{{< section \"frontpage projects\" >}}\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/_index.md:94
+#, no-wrap
+msgid "Apache Camel Projects"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:97 upstream/content/_index.md:115
+#: upstream/content/_index.md:133 upstream/content/_index.md:151
+#: upstream/content/_index.md:170 upstream/content/_index.md:188
+#, no-wrap
+msgid "{{< div \"project\" >}}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:101
+#, no-wrap
+msgid "<img src=\"/_/img/logo-d.svg\" alt=\"data icon\"/>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:105 upstream/content/_index.md:123
+#: upstream/content/_index.md:141 upstream/content/_index.md:159
+#: upstream/content/_index.md:178 upstream/content/_index.md:196
+#, no-wrap
+msgid "{{< div \"content\" >}}\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/_index.md:106
+#, no-wrap
+msgid "Camel Core"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:109
+#, no-wrap
+msgid ""
+"Apache Camel helps you integrate various systems consuming or producing data.\n"
+"<p><a class=\"button dark\" href=\"/docs/\">Read More</a></p>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:119
+#, no-wrap
+msgid "<img src=\"/_/img/knative.svg\" alt=\"data icon\"/>\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/_index.md:124
+#, no-wrap
+msgid "Camel K"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:127
+#, no-wrap
+msgid ""
+"Apache Camel K is a lightweight integration framework that runs natively on Kubernetes.\n"
+"<p><a class=\"button dark\" href=\"/docs/\">Read More</a></p>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:137
+#, no-wrap
+msgid "<img src=\"/_/img/quarkus.svg\" alt=\"data icon\"/>\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/_index.md:142
+#, no-wrap
+msgid "Camel Quarkus"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:145
+#, no-wrap
+msgid ""
+"Apache Camel Quarkus packages 280+ Camel components as Quarkus extensions.\n"
+"<p><a class=\"button dark\" href=\"/docs/\">Read More</a></p>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:155
+#, no-wrap
+msgid "<img src=\"/_/img/apache-kafka.svg\" alt=\"data icon\"/>\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/_index.md:160
+#, no-wrap
+msgid "Camel Kafka Connector"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:162
+#, no-wrap
+msgid "Apache Camel Kafka Connector embeds Camel within Kafka Connect.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:164
+#, no-wrap
+msgid "<p><a class=\"button dark\" href=\"/docs/\">Read More</a></p>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:174
+#, no-wrap
+msgid "<img src=\"/_/img/spring-boot.svg\" alt=\"data icon\"/>\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/_index.md:179
+#, no-wrap
+msgid "Camel Spring Boot"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:182
+#, no-wrap
+msgid ""
+"Apache Camel Spring Boot runs Camel on Spring Boot and provides starters for Camel components.\n"
+"<p><a class=\"button dark\" href=\"/docs/\">Read More</a></p>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:192
+#, no-wrap
+msgid "<img src=\"/_/img/apache-karaf.svg\" alt=\"data icon\"/>\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/_index.md:197
+#, no-wrap
+msgid "Camel Karaf"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:200
+#, no-wrap
+msgid ""
+"Apache Camel Karaf makes running Apache Camel components to run in the OSGi environment.\n"
+"<p><a class=\"button dark\" href=\"/docs/\">Read More</a></p>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:208
+#, no-wrap
+msgid "{{< section \"frontpage columns apache\" >}}\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/_index.md:209
+#, no-wrap
+msgid "Apache &amp; OpenSource"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:214
+#, no-wrap
+msgid ""
+"{{< div \"split\" >}}\n"
+"![20 years of Apache Software foundation](/img/apache-20.png)\n"
+"{{< /div >}}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:216
+#, no-wrap
+msgid "{{< div \"split\" >}}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:218
+#, no-wrap
+msgid "**Camel is your project!**\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:220
+#, no-wrap
+msgid "Camel is an [Apache Software Foundation](https://www.apache.org) project, available under the [Apache v2 license](https://apache.org/licenses/LICENSE-2.0). It's a complete open community, always listening to proposals and comments.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:222
+#, no-wrap
+msgid "[Sources](./community/sources/), [mailing lists](./community/mailing-list/), [issue tracker](./community/support/): it's fully open, you can access directly.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:224
+#, no-wrap
+msgid "We also love contributions: don't hesitate to [contribute](./community/contributing/). You can contribute by <a href=\"https://github.com/apache/camel-website/edit/main/content/_index.md\">editing this page</a>!\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/_index.md:226
+#, no-wrap
+msgid "[Be Involved In The Community](./community/contributing/) | [How To Contribute](./community/contributing/)\n"
+msgstr ""

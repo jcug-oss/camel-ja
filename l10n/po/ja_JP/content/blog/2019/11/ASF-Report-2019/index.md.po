@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2019/11/ASF-Report-2019/index.md:1
+#, no-wrap
+msgid "ASF Annual Report 2019 with highlights of Camel in the top-5 category"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2019/11/ASF-Report-2019/index.md:1
+#, no-wrap
+msgid "Apache Camel on top-5 in the ASF annual 2019 report"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/11/ASF-Report-2019/index.md:10
+#, no-wrap
+msgid "The [ASF Annual 2019 Report](https://blogs.apache.org/foundation/entry/the-apache-software-foundation-announces55) includes 25 highlights where Apache Camel is referred twice as a top-5 project:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2019/11/ASF-Report-2019/index.md:13
+#, no-wrap
+msgid "10. Top 5 Apache repositories by number of commits: Camel, Hadoop, HBase, Beam, and Flink;\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2019/11/ASF-Report-2019/index.md:13
+#, no-wrap
+msgid "20. GitHub traffic: Top 5 most active Apache sources --visits: Spark, Camel, Flink, Kafka, and Airflow;\n"
+msgstr ""

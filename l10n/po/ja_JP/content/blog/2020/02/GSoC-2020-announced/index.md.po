@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2020/02/GSoC-2020-announced/index.md:1
+#, no-wrap
+msgid "Google Summer of Code 2020 announced, we're looking for ideas and mentors"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2020/02/GSoC-2020-announced/index.md:1
+#, no-wrap
+msgid "Google Summer of Code 2020 announced"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/02/GSoC-2020-announced/index.md:11
+#, no-wrap
+msgid ""
+"A few days ago Google Summer of Code announced that [Apache Software\n"
+"Foundation](https://apache.org) is again elected to participate as a [mentor\n"
+"organization](https://summerofcode.withgoogle.com/organizations/5919474722537472/).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/02/GSoC-2020-announced/index.md:21
+#, no-wrap
+msgid ""
+"We are looking for **ideas**, **students** and **mentors** willing to\n"
+"participate in GSoC 2020.  Anyone in the Camel community can propose an idea,\n"
+"look at the [JIRA issues labeled\n"
+"gsoc2020](https://issues.apache.org/jira/browse/CAMEL-11994?jql=project%20%3D%20CAMEL%20AND%20status%20%3D%20Open%20AND%20labels%20%3D%20gsoc2020%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC)\n"
+"or create new issues with ideas and set the\n"
+"[`gsoc2020`](https://issues.apache.org/jira/issues/?jql=project%20%3D%20CAMEL%20AND%20status%20%3D%20Open%20AND%20labels%20%3D%20help-wanted%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC)\n"
+"label. Have a look at the [Mentor\n"
+"guide](https://google.github.io/gsocguides/mentor/) to understand the role of\n"
+"the mentor and the obligations you would take on.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/02/GSoC-2020-announced/index.md:37
+#, no-wrap
+msgid ""
+"**Students**, please take the time to familiarize yourself with the Camel\n"
+"project, look into subprojects and find areas that are interesting for you to\n"
+"participate in. Camel covers a wide range of interesting technologies and\n"
+"challenges, typical areas of contribution are improvements to existing\n"
+"[components](/components/latest/), adding [new\n"
+"components](http://localhost:1313/manual/latest/writing-components.html) or\n"
+"doing improvements to the core of Camel. There are exciting developments if\n"
+"you're interested in Kubernetes in the [Camel K](/camel-k/latest/), fast\n"
+"startup and low memory footprint in [Camel\n"
+"Quarkus](/camel-quarkus/latest/), or stream processing in [Camel\n"
+"Kafka](/camel-kafka-connector/latest/) subprojects. Also look for issues\n"
+"labeled with\n"
+"[`help-wanted`](https://issues.apache.org/jira/issues/?jql=project%20%3D%20CAMEL%20AND%20status%20%3D%20Open%20AND%20labels%20%3D%20help-wanted%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC)\n"
+"for easy issues to get started with to gain some experience contributing to\n"
+"Camel and introduce yourself to the Camel community.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/02/GSoC-2020-announced/index.md:43
+#, no-wrap
+msgid ""
+"**Mentors** need to be existing [Camel\n"
+"comitters](https://projects.apache.org/committee.html?camel) and need to apply\n"
+"by first sending an email to the\n"
+"[private@camel.apache.org,mentors@community.apache.org](mailto:private@camel.apache.org,mentors@community.apache.org)\n"
+"as in the following example:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/blog/2020/02/GSoC-2020-announced/index.md:44
+#, no-wrap
+msgid ""
+"To: private@camel.apache.org\n"
+"cc: mentors@community.apache.org\n"
+"subject: GSoC 2020 mentor request for <mentor name>\n"
+"\n"
+"Camel PMC,\n"
+"\n"
+"please acknowledge my request to become a mentor for Google Summer of\n"
+"Code 2020 projects for Apache Camel.\n"
+"\n"
+"I would like to receive the mentor invite to <mentor email address>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/02/GSoC-2020-announced/index.md:57
+#, no-wrap
+msgid "We're looking forward to participating in Google Summer of Code in 2020!\n"
+msgstr ""

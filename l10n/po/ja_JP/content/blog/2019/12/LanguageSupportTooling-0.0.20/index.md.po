@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:1
+#, no-wrap
+msgid "Language Support for Apache Camel - VS Code extension 0.0.20"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:10
+#, no-wrap
+msgid "During the past months, several noticeable new features have been added to improve the developer experience of application based on Apache Camel. These updates are available in the [0.0.20 release of Visual Studio (VS) Code extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-apache-camel).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:12
+#, no-wrap
+msgid "Before going into the list of updates in detail, I want to note that I mentioned in the title the VS Code Extension release because VS Code extension is covering the broader set of new features. Don't worry if you are using another IDE, though, most features are also available in all other IDEs that support the Camel Language Server (Eclipse Desktop, Eclipse Che, and more).\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:13
+#, no-wrap
+msgid "Camel 3 inside"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:16
+#, no-wrap
+msgid "Camel 3 was [released](/blog/2019/11/RELEASE-3.0.0/) a few weeks ago, and the Camel Language Server is already relying on it internally. What does that mean for the end user? It means that the default catalog is now using Camel 3.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:18
+#, no-wrap
+msgid "If you are still based on Camel 2.x, no problem; check out the following awesome feature.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:19
+#, no-wrap
+msgid "Camel catalog version options"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:22
+#, no-wrap
+msgid "A parameter is now available to choose the Camel catalog version that you want. This can be specified in *File -> Preferences -> Settings -> Apache Camel Tooling -> Camel catalog version*.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:24
+#, no-wrap
+msgid "![Camel Catalog Version preference](./CamelCatalogVersionPreference.gif)\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:25
+#, no-wrap
+msgid "Diagnostics with quick fixes and more precise range"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:28
+#, no-wrap
+msgid "Diagnostics are really useful to pinpoint issues in our code. In previous versions, the diagnostic range error was provided on the full Camel URI. Now, for invalid component parameter keys and invalid component parameter enum values, the range is more precise and is pointing to the exact incriminated key or value.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:30
+#, no-wrap
+msgid "![Diagnostic range improved](./diagnosticRangeImproved.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:32
+#, no-wrap
+msgid "For unknown component parameter keys, there is also a quick fix provided if a component parameter key relatively similar exists. It is very useful in case of small typos.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:34
+#, no-wrap
+msgid "![Filtered List of quickfix](./filteredListOfQuickfix.gif)\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:35
+#, no-wrap
+msgid "Additional Camel components"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:38
+#, no-wrap
+msgid "If you are using Camel components that are not part of Camel core catalog, it is now possible to provide the Camel component definition to have it fully supported by the tooling. The Camel component definition is defined as JSON. The JSON file can be found in the jar of the Camel component. The preference can be specified through *File -> Preferences -> Settings -> Apache Camel Tooling -> Extra-components -> Edit in settings.json*. Demo video [here](https://www.youtube.com/watch?v=U015RzlgFNM)\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:40
+#, no-wrap
+msgid "Properties file support"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:43
+#, no-wrap
+msgid "Camel allows you to configure general component properties using a Properties file (see [here](https://github.com/apache/camel/blob/cfc9abf5f464057fa343a1a70a25a72c33c408bd/examples/camel-example-main/src/main/resources/application.properties#L42) for an example). Completion is available for component ids and component property keys.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:45
+#, no-wrap
+msgid "![Completion in Properties files](./completionProperties.gif)\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:46
+#, no-wrap
+msgid "What's next?"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:48
+#, no-wrap
+msgid "This is very opened for the future. There will surely be improvements directed to Apache Camel K support. You can provide feedback on the [Camel Tooling GitHub repository](https://github.com/camel-tooling), it will help drive the future roadmap.\n"
+msgstr ""

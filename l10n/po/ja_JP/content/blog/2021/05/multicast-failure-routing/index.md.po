@@ -1,0 +1,422 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:1
+#, no-wrap
+msgid "Routing multicast output after encountering partial failures"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:10
+#, no-wrap
+msgid "Problem description"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:15
+#, no-wrap
+msgid ""
+"Multicast is a powerful EIP which supports parallel execution paths in asynchronous manner. There are various ways a Camel user can configure a multicast EIP. Check out the extensive documentation [here](/components/latest/eips/multicast-eip.html)\n"
+"1. One can configure to execute all the child paths independently and continue routing the last reply as the outgoing message (default behavior unless you provide an aggregation strategy)\n"
+"2. Additionally, you can plug in an implementation of a [Camel aggregation strategy](https://github.com/apache/camel/blob/main/core/camel-api/src/main/java/org/apache/camel/AggregationStrategy.java) with user-defined logic to aggregate the output from each of those child paths before continuing further downstream routing.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:17
+#, no-wrap
+msgid "For the use case discussed below, the requirement is to aggregate the computed results from all child paths before it gets routed to the downstream processors in the flow. The idea is to keep routing the aggregated results if at least one child route completes successfully without an exception. We also want to stop routing further if all the child exchanges experienced failures.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:18
+#, no-wrap
+msgid "Use case"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:21
+#, no-wrap
+msgid "Check out the following Camel routes\n"
+msgstr ""
+
+#. type: Fenced code block (java)
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:22
+#, no-wrap
+msgid ""
+"@Override\n"
+"public void configure() throws Exception {\n"
+"    onException(Exception.class)\n"
+"        .useOriginalMessage()\n"
+"        .handled(true)\n"
+"        .log(\"Exception handler invoked\")\n"
+"        .transform().constant(\"{\\\"data\\\" : \\\"err\\\"}\")\n"
+"        .end();\n"
+"\n"
+"    from(\"jetty:http://localhost:8081/myapi?httpMethodRestrict=GET\")\n"
+"        .log(\"received request\")\n"
+"        .log(\"Entering multicast\")\n"
+"        .multicast(new SimpleFlowMergeAggregator())\n"
+"        .parallelProcessing().to(\"direct:A\", \"direct:B\")\n"
+"        .end()\n"
+"        .log(\"Aggregated results ${body}\")\n"
+"        .log(\"Another log\")\n"
+"        .transform(simple(\"{\\\"result\\\" : \\\"success\\\"}\"))\n"
+"        .end();\n"
+"\n"
+"    from(\"direct:A\")\n"
+"        .log(\"Executing PATH_1 - exception path\")\n"
+"        .transform(constant(\"DATA_FROM_PATH_1\"))\n"
+"        .log(\"Starting exception throw\")\n"
+"        .throwException(new Exception(\"USER INITIATED EXCEPTION\"))\n"
+"        .log(\"PATH_1\")\n"
+"        .end();\n"
+"\n"
+"    from(\"direct:B\")\n"
+"        .log(\"Executing PATH_2 - success path\")\n"
+"        .delayer(1000)\n"
+"        .transform(constant(\"DATA_FROM_PATH_2\"))\n"
+"        .log(\"PATH_2\")\n"
+"        .end();\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:62
+#, no-wrap
+msgid "Following strategy aggregates the output of each multicast child route as a java list\n"
+msgstr ""
+
+#. type: Fenced code block (java)
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:63
+#, no-wrap
+msgid ""
+"public class SimpleFlowMergeAggregator implements AggregationStrategy {\n"
+"    private static final Logger LOGGER = LoggerFactory.getLogger(SimpleFlowMergeAggregator.class.getName());\n"
+"    @Override\n"
+"    public Exchange aggregate(Exchange oldExchange, Exchange newExchange) {\n"
+"        LOGGER.info(\"Inside aggregator \" + newExchange.getIn().getBody());\n"
+"        if(oldExchange == null) {\n"
+"            String data = newExchange.getIn().getBody(String.class);\n"
+"            List<String> aggregatedDataList = new ArrayList<>();\n"
+"            aggregatedDataList.add(data);\n"
+"            newExchange.getIn().setBody(aggregatedDataList);\n"
+"            return newExchange;\n"
+"        }\n"
+"\n"
+"        List<String> oldData = oldExchange.getIn().getBody(List.class);\n"
+"        oldData.add(newExchange.getIn().getBody(String.class));\n"
+"        oldExchange.getIn().setBody(oldData);\n"
+"\n"
+"        return oldExchange;\n"
+"    }\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:87
+#, no-wrap
+msgid "On executing the same, we see following logs\n"
+msgstr ""
+
+#. type: Fenced code block (log)
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:87
+#, no-wrap
+msgid ""
+"2021-05-06 12:43:18.565  INFO 13956 --- [qtp916897446-42] route1                                   : received request\n"
+"2021-05-06 12:43:18.566  INFO 13956 --- [qtp916897446-42] route1                                   : Entering multicast\n"
+"2021-05-06 12:43:18.575  INFO 13956 --- [ #4 - Multicast] route2                                   : Executing PATH_1 - exception path\n"
+"2021-05-06 12:43:18.575  INFO 13956 --- [ #4 - Multicast] route2                                   : Starting exception throw\n"
+"2021-05-06 12:43:18.578  INFO 13956 --- [ #4 - Multicast] route2                                   : Exception handler invoked\n"
+"2021-05-06 12:43:18.579  INFO 13956 --- [ #4 - Multicast] c.e.d.m.SimpleFlowMergeAggregator        : Inside aggregator {\"data\" : \"err\"}\n"
+"2021-05-06 12:43:19.575  INFO 13956 --- [ #3 - Multicast] route3                                   : Executing PATH_2 - success path\n"
+"2021-05-06 12:43:21.576  INFO 13956 --- [ #3 - Multicast] route3                                   : PATH_2\n"
+"2021-05-06 12:43:21.576  INFO 13956 --- [ #3 - Multicast] c.e.d.m.SimpleFlowMergeAggregator        : Inside aggregator DATA_FROM_PATH_2\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:99
+#, no-wrap
+msgid "What could take you by a surprise?"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:102
+#, no-wrap
+msgid "When the multicast completes aggregating exchanges from child branches, one might intermittently note that it stops routing the remaining processors (those two additional log and a transform steps in the above example). On execution tracing exercise, you will notice this happens in a special scenario when the very first exchange which arrives in the aggregator (from the first completed child branch) had encountered an exception during its course or/and was handled via `onException` flows. On the flip side, if the first exchange was successful and even though all the remaining ones experienced a failure, it continued routing the remaining processors/steps.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:104
+#, no-wrap
+msgid "Analysis"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:107
+#, no-wrap
+msgid "To understand this better let's deep dive into the open source codebase. Check out `PipelineProcessor.java` (part of `camel-core-processors` module). The following section of code in the class `Pipeline` evaluates after every user processor (user added steps in a Camel flow) on whether it should continue routing to the next processor.\n"
+msgstr ""
+
+#. type: Fenced code block (java)
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:108
+#, no-wrap
+msgid ""
+"@Override\n"
+"public void run() {\n"
+"    boolean stop = exchange.isRouteStop();\n"
+"    int num = index;\n"
+"    boolean more = num < size;\n"
+"    boolean first = num == 0;\n"
+"\n"
+"    if (!stop && more && (first || continueProcessing(exchange, \"so breaking out of pipeline\", LOG))) {\n"
+"\n"
+"        // prepare for next run\n"
+"        if (exchange.hasOut()) {\n"
+"            exchange.setIn(exchange.getOut());\n"
+"            exchange.setOut(null);\n"
+"        }\n"
+"\n"
+"        // get the next processor\n"
+"        AsyncProcessor processor = processors.get(index++);\n"
+"\n"
+"        processor.process(exchange, this);\n"
+"    } else {\n"
+"        // copyResults is needed in case MEP is OUT and the message is not an OUT message\n"
+"        ExchangeHelper.copyResults(exchange, exchange);\n"
+"\n"
+"        // logging nextExchange as it contains the exchange that might have altered the payload and since\n"
+"        // we are logging the completion if will be confusing if we log the original instead\n"
+"        // we could also consider logging the original and the nextExchange then we have *before* and *after* snapshots\n"
+"        if (LOG.isTraceEnabled()) {\n"
+"            LOG.trace(\"Processing complete for exchangeId: {} >>> {}\", exchange.getExchangeId(), exchange);\n"
+"        }\n"
+"\n"
+"        AsyncCallback cb = callback;\n"
+"        taskFactory.release(this);\n"
+"        reactiveExecutor.schedule(cb);\n"
+"    }\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:147
+#, no-wrap
+msgid "This decision is made inside the if block\n"
+msgstr ""
+
+#. type: Fenced code block (java)
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:148
+#, no-wrap
+msgid "if (!stop && more && (first || continueProcessing(exchange, \"so breaking out of pipeline\", LOG)))\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:154
+#, no-wrap
+msgid ""
+"The Pipeline stops routing to next processor under following 3 conditions\n"
+"If previous processors have marked route stop on the exchange object.\n"
+msgstr ""
+
+#. type: Fenced code block (java)
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:155
+#, no-wrap
+msgid "boolean stop = exchange.isRouteStop();\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:160
+#, no-wrap
+msgid "There are no more processors in the pipeline\n"
+msgstr ""
+
+#. type: Fenced code block (java)
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:160
+#, no-wrap
+msgid "boolean more = num < size;\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:165
+#, no-wrap
+msgid "`PipelineHelper.continueProcessing()` evaluates to `false` when an exchange encounters any java exception during the course of routing and gets handled via exception handling routines. Refer the implementation code below\n"
+msgstr ""
+
+#. type: Fenced code block (java)
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:166
+#, no-wrap
+msgid ""
+"public final class PipelineHelper {\n"
+"    public static boolean continueProcessing(Exchange exchange, String message, Logger log) {\n"
+"        ExtendedExchange ee = (ExtendedExchange) exchange;\n"
+"        boolean stop = ee.isFailed() || ee.isRollbackOnly() || ee.isRollbackOnlyLast()\n"
+"                || (ee.isErrorHandlerHandledSet() && ee.isErrorHandlerHandled());\n"
+"        if (stop) {\n"
+"            if (log.isDebugEnabled()) {\n"
+"                StringBuilder sb = new StringBuilder();\n"
+"                sb.append(\"Message exchange has failed: \").append(message).append(\" for exchange: \").append(exchange);\n"
+"                if (exchange.isRollbackOnly() || exchange.isRollbackOnlyLast()) {\n"
+"                    sb.append(\" Marked as rollback only.\");\n"
+"                }\n"
+"                if (exchange.getException() != null) {\n"
+"                    sb.append(\" Exception: \").append(exchange.getException());\n"
+"                }\n"
+"                if (ee.isErrorHandlerHandledSet() && ee.isErrorHandlerHandled()) {\n"
+"                    sb.append(\" Handled by the error handler.\");\n"
+"                }\n"
+"                log.debug(sb.toString());\n"
+"            }\n"
+"\n"
+"            return false;\n"
+"        }\n"
+"        if (ee.isRouteStop()) {\n"
+"            if (log.isDebugEnabled()) {\n"
+"                log.debug(\"ExchangeId: {} is marked to stop routing: {}\", exchange.getExchangeId(), exchange);\n"
+"            }\n"
+"            return false;\n"
+"        }\n"
+"\n"
+"        return true;\n"
+"    }\n"
+"\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:204
+#, no-wrap
+msgid "Well, now let's re-visit our use case. What if you still want to continue routing?\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:206
+#, no-wrap
+msgid "From our above aggregator, you will notice that the very first exchange which arrives in aggregator becomes the base exchange on which the aggregator continues to pile up body content (with incoming results from other child routes). In fact, a lot of Camel users follow this pattern of writing an aggregator strategy. Unfortunately, if done this way, the state variables set on the Exchange object during exception handling get carried forward to the next evaluation point in Pipeline and qualify to stop routing.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:207
+#, no-wrap
+msgid "Solution"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:212
+#, no-wrap
+msgid ""
+"There are many ways a user could neutralize the states set by the exception handling framework. However, for the scope of this article, we chose the following strategy.\n"
+"- If the first child route exchange never encountered an exception, then continue processing the rest of the aggregation cycle as usual.\n"
+"- If the first child encountered an exception, then introspect the incoming exchanges for success case. If found, shift the base to be the first successful exchange and move the aggregated results on to it and continue the rest of the aggregation lifecycle as usual.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:214
+#, no-wrap
+msgid "Updated `AggregationStrategy`:\n"
+msgstr ""
+
+#. type: Fenced code block (java)
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:215
+#, no-wrap
+msgid ""
+"public class SimpleFlowMergeAggregator implements AggregationStrategy {\n"
+"    private static final Logger LOGGER = LoggerFactory.getLogger(SimpleFlowMergeAggregator.class.getName());\n"
+"    @Override\n"
+"    public Exchange aggregate(Exchange oldExchange, Exchange newExchange) {\n"
+"        LOGGER.info(\"Inside aggregator \" + newExchange.getIn().getBody());\n"
+"        if(oldExchange == null) {\n"
+"            String data = newExchange.getIn().getBody(String.class);\n"
+"            List<String> aggregatedDataList = new ArrayList<>();\n"
+"            aggregatedDataList.add(data);\n"
+"            newExchange.getIn().setBody(aggregatedDataList);\n"
+"            return newExchange;\n"
+"        }\n"
+"\n"
+"        if(hadException(oldExchange)) {\n"
+"            if(!hadException(newExchange)) {\n"
+"                // aggregate and swap the base\n"
+"                LOGGER.info(\"Found new exchange with success. swapping the base exchange\");\n"
+"                List<String> oldData = oldExchange.getIn().getBody(List.class);\n"
+"                oldData.add(newExchange.getIn().getBody(String.class));\n"
+"                newExchange.getIn().setBody(oldData); // swapped the base here\n"
+"                return newExchange;\n"
+"            }\n"
+"        }\n"
+"\n"
+"        List<String> oldData = oldExchange.getIn().getBody(List.class);\n"
+"        oldData.add(newExchange.getIn().getBody(String.class));\n"
+"        oldExchange.getIn().setBody(oldData);\n"
+"\n"
+"        return oldExchange;\n"
+"    }\n"
+"\n"
+"\n"
+"    private boolean hadException(Exchange exchange) {\n"
+"\n"
+"        if(exchange.isFailed()) {\n"
+"            return true;\n"
+"        }\n"
+"\n"
+"        if(exchange.isRollbackOnly()) {\n"
+"            return true;\n"
+"        }\n"
+"\n"
+"        if(exchange.isRollbackOnlyLast()) {\n"
+"            return true;\n"
+"        }\n"
+"\n"
+"        if(((ExtendedExchange)exchange).isErrorHandlerHandledSet()\n"
+"                && ((ExtendedExchange)exchange).isErrorHandlerHandled()) {\n"
+"            return true;\n"
+"        }\n"
+"\n"
+"        return false;\n"
+"    }\n"
+"}\n"
+msgstr ""
+
+#. type: Fenced code block (log)
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:272
+#, no-wrap
+msgid ""
+"2021-05-06 12:46:19.122  INFO 2576 --- [qtp174245837-45] route1                                   : received request\n"
+"2021-05-06 12:46:19.123  INFO 2576 --- [qtp174245837-45] route1                                   : Entering multicast\n"
+"2021-05-06 12:46:19.130  INFO 2576 --- [ #3 - Multicast] route2                                   : Executing PATH_1 - exception path\n"
+"2021-05-06 12:46:19.130  INFO 2576 --- [ #3 - Multicast] route2                                   : Starting exception throw\n"
+"2021-05-06 12:46:19.134  INFO 2576 --- [ #3 - Multicast] route2                                   : Exception handler invoked\n"
+"2021-05-06 12:46:19.135  INFO 2576 --- [ #3 - Multicast] c.e.d.m.SimpleFlowMergeAggregator        : Inside aggregator {\"data\" : \"err\"}\n"
+"2021-05-06 12:46:20.130  INFO 2576 --- [ #4 - Multicast] route3                                   : Executing PATH_2 - success path\n"
+"2021-05-06 12:46:22.132  INFO 2576 --- [ #4 - Multicast] route3                                   : PATH_2\n"
+"2021-05-06 12:46:22.132  INFO 2576 --- [ #4 - Multicast] c.e.d.m.SimpleFlowMergeAggregator        : Inside aggregator DATA_FROM_PATH_2\n"
+"2021-05-06 12:46:22.132  INFO 2576 --- [ #4 - Multicast] c.e.d.m.SimpleFlowMergeAggregator        : Found new exchange with success. swapping the base exchange\n"
+"2021-05-06 12:46:22.133  INFO 2576 --- [ #4 - Multicast] route1                                   : Aggregated results {\"data\" : \"err\"},DATA_FROM_PATH_2\n"
+"2021-05-06 12:46:22.133  INFO 2576 --- [ #4 - Multicast] route1                                   : Another log\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:288
+#, no-wrap
+msgid "With the new aggregator implementation, you can now see the exchange getting routed down to the remaining processors.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/multicast-failure-routing/index.md:289
+#, no-wrap
+msgid "Hope this article helps users who encounter this issue.\n"
+msgstr ""

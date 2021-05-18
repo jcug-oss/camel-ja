@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:1
+#, no-wrap
+msgid "Summary of the Apache Camel project in 2019"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:1
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:26
+#, no-wrap
+msgid "Camel 2019 in Numbers"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:10
+#, no-wrap
+msgid "It's the time of the year where we take a look back at 2019, and compile a brief summary of the Apache Camel project.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:12
+#, no-wrap
+msgid "The big news of 2019 was the much anticipated release of Apache Camel 3.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:13
+#, no-wrap
+msgid "Family of projects"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:16
+#, no-wrap
+msgid "It was also in 2019 that the Camel project became a family of projects by introducing:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:19
+#, no-wrap
+msgid "Camel K\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:19
+#, no-wrap
+msgid "Camel Quarkus\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:22
+#, no-wrap
+msgid "Making Apache Camel a trilogy. But it does not stop there; in early 2020 three will become five when we release:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:25
+#, no-wrap
+msgid "Camel Kafka Connector\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:25
+#, no-wrap
+msgid "Camel Spring Boot (moved out from main repository)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:29
+#, no-wrap
+msgid "Number of Camel releases in 2019: **21**\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:31
+#, no-wrap
+msgid "Number of Camel K and Camel Quarkus releases in 2019: **15**\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:33
+#, no-wrap
+msgid "Number of posts on Camel user forum in 2019: **1305**\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:35
+#, no-wrap
+msgid "Number of gitter chat users at end of 2019: **691**\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:37
+#, no-wrap
+msgid "Number of commits in 2019: **6734** [1]\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:39
+#, no-wrap
+msgid "Total number of JIRA tickets created at end of 2019: **14340**\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:41
+#, no-wrap
+msgid "Number of JIRA tickets created in 2019: **1306**\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:43
+#, no-wrap
+msgid "Number of JIRA tickets resolved in 2019: **1379**\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:45
+#, no-wrap
+msgid "Stackoverflow number of questions at end of 2019: **9311**\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:47
+#, no-wrap
+msgid "Stackoverflow number of watchers at end of 2019: **2.1k**\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:49
+#, no-wrap
+msgid "Number of stars on github at end of 2019: **3031**\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:51
+#, no-wrap
+msgid "Total number of commits at end of 2019: **41164**\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:53
+#, no-wrap
+msgid "Total number of contributors on github at end of 2019: **555**\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:55
+#, no-wrap
+msgid "Number of individual committers doing commits in 2019: **218** [2]\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:57
+#, no-wrap
+msgid "Number of closed pull requests at end of 2019: **3434**\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:59
+#, no-wrap
+msgid "Number of closed pull requests in 2019: **482**\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:61
+#, no-wrap
+msgid "Number of Twitter followers at end of 2019: **1033**\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:63
+#, no-wrap
+msgid "The Apache Software Foundation recently posted a summary of the most active projects in 2019 and Apache Camel was ranked in the top 5 by commits and github traffic.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:65
+#, no-wrap
+msgid "Happy New Year and 2020 is going to be a great year for Apache Camel with Camel Kafka Connector, Camel K and Camel Quarkus all in the works and to be released as production ready 1.0 releases.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/blog/2019/12/2019-Numbers/index.md:66
+#, no-wrap
+msgid ""
+"#1 git shortlog -ns --since 2019-01-01 --until 2020-01-01 | cut -c1-7 | awk '{ SUM += $1} END { print SUM }'\n"
+"#2 git shortlog --since 2019-01-01 --until 2020-01-01 -ns | wc -l\n"
+msgstr ""

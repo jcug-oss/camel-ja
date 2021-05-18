@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/releases/release-2.23.0.md:1
+#, no-wrap
+msgid "Major release for 2.23.x"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/releases/release-2.23.0.md:1
+#, no-wrap
+msgid "Release 2.23.0"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/releases/release-2.23.0.md:17
+#, no-wrap
+msgid ""
+"Welcome to the Apache Camel 2.23.0 release which is a new minor release and resolved 262 issues\n"
+"including new features, improvements and bux fixes.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/releases/release-2.23.0.md:35
+#, no-wrap
+msgid "Upgraded to Spring Boot 2.1.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/releases/release-2.23.0.md:35
+#, no-wrap
+msgid ""
+"* Additional component level options can now be configured via spring-boot auto-configuration and\n"
+"these options is included in spring-boot component metadata json file descriptor for tooling\n"
+"assistance.\n"
+"* Added section with all the spring boot auto configuration options for all the components,\n"
+"data-formats and languages to the documentation.\n"
+"* All the Camel Spring Boot starter JARs now include\n"
+"META-INF/spring-autoconfigure-metadata.properties file in their JARs to optimize Spring Boot\n"
+"auto-configuration\n"
+"* The Throttler now supports correlation groups based on dynamic expression so you can group\n"
+"messages into different throttled sets.\n"
+"* The Hystrix EIP now allows to inherit Camel's error handler so you retry the entire Hystrix EIP\n"
+"block again if you have enabled error handling with redeliveries.\n"
+"* SQL and ElSql consumers now support dynamic query parameters in route from. Notice it's limited\n"
+"to be mostly about calling beans via simple expressions.\n"
+"* The swagger-restdsl maven plugin now has supports for generating DTO model classes from the\n"
+"swagger specification file.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/releases/release-2.23.0.md:37
+#, no-wrap
+msgid "The following noteworthy bugs has been fixed:\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/releases/release-2.23.0.md:53
+#, no-wrap
+msgid ""
+"* The Aggregator2 has been fixed to not propagate control headers for forcing completion of all\n"
+"groups, so it will not happen again if another aggregator EIP are in use later during routing.\n"
+"* Fixed Tracer not working if redelivery was turned on the error handler\n"
+"* The built-in type converter for XML Documents may output parsing errors to stdout, which has now\n"
+"been fixed to output via the logging API.\n"
+"* Fixed SFTP writing files via the charset option would not work if the message body was streaming\n"
+"based.\n"
+"* Fixed Zipkin root id to not be reused when routing over multiple routes to group them together\n"
+"into a single parent span.\n"
+"* Fixed optimised toD when using HTTP endpoints had a bug when hostname contains ip address with\n"
+"digits.\n"
+"* Fixed issue with RabbitMQ with request/reply over temporary queues and using manual acknowledge\n"
+"mode, would not acknowledge the temporary queue (which is needed to make request/reply possible)\n"
+"* Fixed various HTTP consumer components may not return all allowed HTTP verbs in Allow header for\n"
+"OPTIONS requests (such as when using rest-dsl)\n"
+"* Fixed thread-safety issue with FluentProducerTemplate\n"
+msgstr ""

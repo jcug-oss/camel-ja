@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:1
+#, no-wrap
+msgid "How to Java debug a Camel K integration in VS Code - second iteration"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:10
+#, no-wrap
+msgid "Camel K is providing a new feature to Java debug deployed integrations. Before VS Code Tooling for Apache Camel K 0.0.25, more complex steps were required to leverage the VS Code Java debugging capabilities as explained in [this previous blogpost](/blog/2021/01/DebugInVSCodeWithCamelK1.3.0/).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:12
+#, no-wrap
+msgid "I recorded a [video](https://youtu.be/pFj21YvzZm0) which is following the steps in this blogpost.\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:13
+#, no-wrap
+msgid "Requirements"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:17
+#, no-wrap
+msgid "[VS Code Extension Pack for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.apache-camel-extension-pack) with VS Code Tooling for Apache Camel K 0.0.25+\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:17
+#, no-wrap
+msgid "Camel K deployed to a cluster. In this demo, we will use a Camel K instance deployed on minikube.\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:18
+#, no-wrap
+msgid "How to java debug"
+msgstr ""
+
+#. type: Title ####
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:20
+#, no-wrap
+msgid "Create an Integration written in Java"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:27
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:56
+#, no-wrap
+msgid "Open command palette _View -> Command Palette..._\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:27
+#, no-wrap
+msgid "Select _Create a new Apache Camel K integration_\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:27
+#, no-wrap
+msgid "Select _Java_\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:27
+#, no-wrap
+msgid "Select the folder\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:27
+#, no-wrap
+msgid "Provide a name, for instance: _Demo_\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:29
+#, no-wrap
+msgid "![Create java file](./1-CreateJavaCamelKIntegration.gif)\n"
+msgstr ""
+
+#. type: Title ####
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:30
+#, no-wrap
+msgid "Set a breakpoint"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:33
+#, no-wrap
+msgid "To have a breakpoint during the execution of the Camel Route, as opposite at the creation of the Camel Route, you need to add a small piece of code. This is a classical trick for Java debugging of Camel Routes, not specific to Camel K.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:35
+#, no-wrap
+msgid "The trick consists of adding a Processor between the steps you want to observe. It will be something like:\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:42
+#, no-wrap
+msgid ""
+"\t\t  .process(new Processor(){\n"
+"\t\t\t  @Override\n"
+"\t\t\t  public void process(Exchange exchange) throws Exception {\n"
+"\t\t\t\t  System.out.println(\"can be breakpoint on this line\");\n"
+"\t\t\t  }\n"
+"\t\t  })\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:44
+#, no-wrap
+msgid "Then, you can add a breakpoint to the line by clicking in the left ruler. A red dot will appear.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:46
+#, no-wrap
+msgid "![Provide breakpoint inside a Processor](./2-putBreakpoint.gif)\n"
+msgstr ""
+
+#. type: Title ####
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:47
+#, no-wrap
+msgid "Start integration"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:50
+#, no-wrap
+msgid "You can then start the integration:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:56
+#, no-wrap
+msgid "Ensure the editor is still opened on the Java Integration file\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:56
+#, no-wrap
+msgid "Select _Start Apache Camel K Integration_\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:56
+#, no-wrap
+msgid "Select _Basic_\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:56
+#, no-wrap
+msgid "Check in the _Apache Camel K Integrations_ view that the example is deployed successfully. it will have a green dot. It can take few minutes for the first deployment.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:58
+#, no-wrap
+msgid "![Start integration in basic mode](./3-startIntegration.gif)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:60
+#, no-wrap
+msgid "Note: If starting in --dev, it will allow to automatically reload the Integration. But take care, debugger will need to be restarted on each change. Meaning that the next two steps will need to be repeated.\n"
+msgstr ""
+
+#. type: Title ####
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:61
+#, no-wrap
+msgid "Debug"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:64
+#, no-wrap
+msgid "In Integrations view, wait that the integration is running, then right-click on the integration and select _Start Java debugger on Camel K Integration_.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:66
+#, no-wrap
+msgid "![Debug Integration](./4-CamelK-JavaDebug-fromRightClick.gif)\n"
+msgstr ""
+
+#. type: Title ####
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:67
+#, no-wrap
+msgid "Enjoy"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:70
+#, no-wrap
+msgid "Now, it is time to enjoy. You can notice that you have access to the message content. It is providing a good insight into what is going on in the Camel Route.\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:71
+#, no-wrap
+msgid "What's next?"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:74
+#, no-wrap
+msgid "There is room for improvements, provide your feedback and ideas!\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:76
+#, no-wrap
+msgid "You can start discussions on [Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:78
+#, no-wrap
+msgid "You can create and vote for issues on GitHub [VS Code Tooling support for Apache Camel K](https://github.com/camel-tooling/vscode-camelk/issues) repository.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:79
+#, no-wrap
+msgid "You can create and vote for issues on the [related epic in Jira](https://issues.redhat.com/browse/FUSETOOLS2-941) which is used by the Red Hat Integration tooling team.\n"
+msgstr ""

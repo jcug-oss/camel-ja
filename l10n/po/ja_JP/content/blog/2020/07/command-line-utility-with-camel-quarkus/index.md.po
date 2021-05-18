@@ -1,0 +1,405 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:1
+#, no-wrap
+msgid "How to write a command line utility with Camel Quarkus"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:1
+#, no-wrap
+msgid "Command line utility with Camel Quarkus"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:13
+#, no-wrap
+msgid ""
+"[Camel](/) and [Camel Quarkus](/camel-quarkus/latest/index.html) are\n"
+"typically used to create integration applications that run as long living processes, a.k.a. daemons or services.\n"
+"In this blog post, we are going to explain a slightly different use case: using Camel Quarkus in programs that exit by\n"
+"themselves after performing some desired tasks.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:14
+#, no-wrap
+msgid "Where can this be useful?"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:18
+#, no-wrap
+msgid ""
+"The enterprise is full of scheduled batch processing. Say, some system exports some sort of reports daily at 4 a.m.\n"
+"Those need to be transformed (e.g. XML -> Excel) and transferred somewhere else (e.g. via mail, FTP or similar).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:23
+#, no-wrap
+msgid ""
+"Camel is a perfect match for doing the transformation and the transfer. However, having a service running 24/7 for\n"
+"doing something useful just once a day would probably be an overkill. Combining a\n"
+"[Cron job](https://en.wikipedia.org/wiki/Cron) (or a similar scheduling technology) with a command line utility may suit\n"
+"much better in situations like this.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:24
+#, no-wrap
+msgid "So how can I write a command line tool with Camel Quarkus?"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:27
+#, no-wrap
+msgid "There are just two things where it would differ from a stock Camel Quarkus application:\n"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:30
+#, no-wrap
+msgid "Adding `camel-quarkus-main` dependency\n"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:30
+#, no-wrap
+msgid "Setting an exit condition in `application.properties`\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:33
+#, no-wrap
+msgid ""
+"The rest of the application - most notably the [Route](/manual/latest/routes.html) that\n"
+"performs the actual data transformation and transfer - will look the same like with a traditional Camel service.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:35
+#, no-wrap
+msgid "A minimal Hello World!"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:38
+#, no-wrap
+msgid "Let's go through a minimal example that just prints `Hello World!` to the console and exits.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:40
+#, no-wrap
+msgid "The route definition could look like the following:\n"
+msgstr ""
+
+#. type: Fenced code block (java)
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:41
+#, no-wrap
+msgid ""
+"import org.apache.camel.builder.RouteBuilder;\n"
+"\n"
+"@ApplicationScoped\n"
+"public class CamelRoute extends RouteBuilder {\n"
+"\n"
+"    @Override\n"
+"    public void configure() {\n"
+"        from(\"timer:hello?delay=-1&repeatCount=1\")\n"
+"                .setBody().constant(\"Hello World!\")\n"
+"                .to(\"log:hello\");\n"
+"    }\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:59
+#, no-wrap
+msgid ""
+"Note that we use the [timer](/components/latest/timer-component.html) component to trigger the\n"
+"route execution. The URI parameter `delay=-1` causes the timer to be triggered with no initial delay and\n"
+"`repeatCount=1` ensures that the route is executed just once.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:64
+#, no-wrap
+msgid ""
+"However, doing just the above would not make our application exit by itself.\n"
+"[camel-main](/components/latest/others/main.html) and its `camel.main.durationMax*`\n"
+"family of configuration options offers a way to solve that. E.g. we can set the following in\n"
+"`application.properties`\n"
+msgstr ""
+
+#. type: Fenced code block (properties)
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:65
+#, no-wrap
+msgid "camel.main.durationMaxMessages = 1\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:70
+#, no-wrap
+msgid "to make the application exit after the route has processed a single message.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:73
+#, no-wrap
+msgid ""
+"For the configuration to get effective, we need to add the respective dependency to the application. In case of Maven,\n"
+"it is\n"
+msgstr ""
+
+#. type: Fenced code block (xml)
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:74
+#, no-wrap
+msgid ""
+"<dependency>\n"
+"    <groupId>org.apache.camel.quarkus</groupId>\n"
+"    <artifactId>camel-quarkus-main</artifactId>\n"
+"</dependency>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:82
+#, no-wrap
+msgid "Of course, we also need to add the dependencies for `timer` and `log` components:\n"
+msgstr ""
+
+#. type: Fenced code block (xml)
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:83
+#, no-wrap
+msgid ""
+"<dependency>\n"
+"    <groupId>org.apache.camel.quarkus</groupId>\n"
+"    <artifactId>camel-quarkus-log</artifactId>\n"
+"</dependency>\n"
+"<dependency>\n"
+"    <groupId>org.apache.camel.quarkus</groupId>\n"
+"    <artifactId>camel-quarkus-timer</artifactId>\n"
+"</dependency>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:95
+#, no-wrap
+msgid "When invoking the application on the command line, you should see something like the following:\n"
+msgstr ""
+
+#. type: Fenced code block (shell)
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:96
+#, no-wrap
+msgid ""
+"]$ java -jar target/*-runner.jar\n"
+"2020-07-15 11:32:13,577 INFO  [org.apa.cam.qua.cor.CamelBootstrapRecorder] (main) bootstrap runtime: org.apache.camel.quarkus.main.CamelMainRuntime\n"
+"2020-07-15 11:32:13,623 INFO  [org.apa.cam.mai.BaseMainSupport] (main) Auto-configuration summary:\n"
+"2020-07-15 11:32:13,623 INFO  [org.apa.cam.mai.BaseMainSupport] (main)  camel.main.durationMaxMessages=1\n"
+"2020-07-15 11:32:13,700 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (main) Apache Camel 3.4.0 (camel-1) is starting\n"
+"2020-07-15 11:32:13,701 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (main) StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html\n"
+"2020-07-15 11:32:13,709 INFO  [org.apa.cam.imp.eng.InternalRouteStartupManager] (main) Route: route1 started and consuming from: timer://hello\n"
+"2020-07-15 11:32:13,714 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (main) Total 1 routes, of which 1 are started\n"
+"2020-07-15 11:32:13,715 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (main) Apache Camel 3.4.0 (camel-1) started in 0.014 seconds\n"
+"2020-07-15 11:32:13,718 INFO  [org.apa.cam.mai.MainSupport] (camel-main) Waiting until: 1 messages has been processed\n"
+"2020-07-15 11:32:13,719 INFO  [io.quarkus] (main) camel-quarkus-integration-test-main-command-mode 1.1.0-SNAPSHOT on JVM (powered by Quarkus 1.6.0.Final) started in 0.592s.\n"
+"2020-07-15 11:32:13,720 INFO  [io.quarkus] (main) Profile prod activated.\n"
+"2020-07-15 11:32:13,721 INFO  [io.quarkus] (main) Installed features: [camel-core, camel-log, camel-main, camel-policy, camel-support-common, camel-timer, cdi]\n"
+"2020-07-15 11:32:13,725 INFO  [hello] (Camel (camel-1) thread #0 - timer://hello) Exchange[ExchangePattern: InOnly, BodyType: String, Body: Hello World!]\n"
+"2020-07-15 11:32:13,729 INFO  [org.apa.cam.mai.MainLifecycleStrategy] (Camel (camel-1) thread #0 - timer://hello) Duration max messages triggering shutdown of the JVM.\n"
+"2020-07-15 11:32:13,730 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (Camel (camel-1) thread #1 - CamelMainShutdownCamelContext) Apache Camel 3.4.0 (camel-1) is shutting down\n"
+"2020-07-15 11:32:13,740 INFO  [org.apa.cam.mai.MainLifecycleStrategy] (Camel (camel-1) thread #1 - CamelMainShutdownCamelContext) CamelContext: camel-1 has been shutdown, triggering shutdown of the JVM.\n"
+"2020-07-15 11:32:13,741 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (Camel (camel-1) thread #1 - CamelMainShutdownCamelContext) Apache Camel 3.4.0 (camel-1) uptime 0.041 seconds\n"
+"2020-07-15 11:32:13,741 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (Camel (camel-1) thread #1 - CamelMainShutdownCamelContext) Apache Camel 3.4.0 (camel-1) is shutdown in 0.011 seconds\n"
+"2020-07-15 11:32:13,745 INFO  [io.quarkus] (main) camel-quarkus-integration-test-main-command-mode stopped in 0.005s\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:120
+#, no-wrap
+msgid "Command line parameters"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:124
+#, no-wrap
+msgid ""
+"That was really trivial. How about greeting a person whose name is passed via a command line parameter? We can use\n"
+"[Quarkus MicroProfile Config](https://quarkus.io/guides/config) for that:\n"
+msgstr ""
+
+#. type: Fenced code block (java)
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:125
+#, no-wrap
+msgid ""
+"import javax.enterprise.context.ApplicationScoped;\n"
+"import org.apache.camel.builder.RouteBuilder;\n"
+"import org.eclipse.microprofile.config.inject.ConfigProperty;\n"
+"\n"
+"@ApplicationScoped\n"
+"public class CamelRoute extends RouteBuilder {\n"
+"\n"
+"    @ConfigProperty(name = \"greeted.subject\", defaultValue = \"World\")\n"
+"    String greetedSubject;\n"
+"\n"
+"    @Override\n"
+"    public void configure() {\n"
+"        from(\"timer:hello?delay=-1\")\n"
+"                .setBody().constant(\"Hello \" + greetedSubject + \"!\")\n"
+"                .to(\"log:hello\");\n"
+"    }\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:147
+#, no-wrap
+msgid ""
+"For the `@ConfigProperty` annotation to work, the `CamelRoute` class needs to be annotated with\n"
+"`@ApplicationScoped`.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:150
+#, no-wrap
+msgid ""
+"Having the above in place, we can call the application with the `-Dgreeted.subject=Joe` parameter at the command\n"
+"line and voilà\n"
+msgstr ""
+
+#. type: Fenced code block (shell)
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:151
+#, no-wrap
+msgid ""
+"$ $ java -Dgreeted.subject=Joe -jar target/*-runner.jar\n"
+"2020-07-15 11:42:18,770 INFO  [org.apa.cam.qua.cor.CamelBootstrapRecorder] (main) bootstrap runtime: org.apache.camel.quarkus.main.CamelMainRuntime\n"
+"2020-07-15 11:42:18,816 INFO  [org.apa.cam.mai.BaseMainSupport] (main) Auto-configuration summary:\n"
+"2020-07-15 11:42:18,816 INFO  [org.apa.cam.mai.BaseMainSupport] (main)  camel.main.durationMaxMessages=1\n"
+"2020-07-15 11:42:18,892 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (main) Apache Camel 3.4.0 (camel-1) is starting\n"
+"2020-07-15 11:42:18,893 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (main) StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html\n"
+"2020-07-15 11:42:18,902 INFO  [org.apa.cam.imp.eng.InternalRouteStartupManager] (main) Route: route1 started and consuming from: timer://hello\n"
+"2020-07-15 11:42:18,907 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (main) Total 1 routes, of which 1 are started\n"
+"2020-07-15 11:42:18,908 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (main) Apache Camel 3.4.0 (camel-1) started in 0.015 seconds\n"
+"2020-07-15 11:42:18,911 INFO  [org.apa.cam.mai.MainSupport] (camel-main) Waiting until: 1 messages has been processed\n"
+"2020-07-15 11:42:18,914 INFO  [io.quarkus] (main) camel-quarkus-integration-test-main-command-mode 1.1.0-SNAPSHOT on JVM (powered by Quarkus 1.6.0.Final) started in 0.569s.\n"
+"2020-07-15 11:42:18,915 INFO  [io.quarkus] (main) Profile prod activated.\n"
+"2020-07-15 11:42:18,915 INFO  [io.quarkus] (main) Installed features: [camel-core, camel-log, camel-main, camel-policy, camel-support-common, camel-timer, cdi]\n"
+"2020-07-15 11:42:18,919 INFO  [hello] (Camel (camel-1) thread #0 - timer://hello) Exchange[ExchangePattern: InOnly, BodyType: String, Body: Hello Joe!]\n"
+"2020-07-15 11:42:18,921 INFO  [org.apa.cam.mai.MainLifecycleStrategy] (Camel (camel-1) thread #0 - timer://hello) Duration max messages triggering shutdown of the JVM.\n"
+"2020-07-15 11:42:18,922 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (Camel (camel-1) thread #1 - CamelMainShutdownCamelContext) Apache Camel 3.4.0 (camel-1) is shutting down\n"
+"2020-07-15 11:42:18,931 INFO  [org.apa.cam.mai.MainLifecycleStrategy] (Camel (camel-1) thread #1 - CamelMainShutdownCamelContext) CamelContext: camel-1 has been shutdown, triggering shutdown of the JVM.\n"
+"2020-07-15 11:42:18,933 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (Camel (camel-1) thread #1 - CamelMainShutdownCamelContext) Apache Camel 3.4.0 (camel-1) uptime 0.040 seconds\n"
+"2020-07-15 11:42:18,933 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (Camel (camel-1) thread #1 - CamelMainShutdownCamelContext) Apache Camel 3.4.0 (camel-1) is shutdown in 0.011 seconds\n"
+"2020-07-15 11:42:18,937 INFO  [io.quarkus] (main) camel-quarkus-integration-test-main-command-mode stopped in 0.005s\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:174
+#, no-wrap
+msgid "Compiling the command line utility to a native executable"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:181
+#, no-wrap
+msgid ""
+"[As usual with Camel Quarkus](/camel-quarkus/latest/user-guide/first-steps.html#_native_mode),\n"
+"the application can be compiled to native executable by activating the `native` profile.\n"
+"GraalVM with `native-image` command installed and `GRAALVM_HOME` environment variable set is required for that,\n"
+"see [Building a native executable](https://quarkus.io/guides/building-native-image) section of the Quarkus\n"
+"documentation.\n"
+msgstr ""
+
+#. type: Fenced code block (shell)
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:182
+#, no-wrap
+msgid ""
+"$ export GRAALVM_HOME=...\n"
+"$ mvn clean package -Pnative\n"
+"...\n"
+"$ ls -lh target\n"
+"...\n"
+"-rwxr-xr-x. 1 ppalaga ppalaga  33M Jul 15 11:48 command-mode-runner\n"
+"...\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:193
+#, no-wrap
+msgid "The basic command line application compiled into a Linux native executable has about 33 Megabytes.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:195
+#, no-wrap
+msgid "Running it is easy:\n"
+msgstr ""
+
+#. type: Fenced code block (shell)
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:196
+#, no-wrap
+msgid ""
+"$ target/*runner -Dgreeted.subject=Joe\n"
+"2020-07-15 12:19:22,810 INFO  [org.apa.cam.qua.cor.CamelBootstrapRecorder] (main) bootstrap runtime: org.apache.camel.quarkus.main.CamelMainRuntime\n"
+"2020-07-15 12:19:22,811 INFO  [org.apa.cam.mai.BaseMainSupport] (main) Auto-configuration summary:\n"
+"2020-07-15 12:19:22,811 INFO  [org.apa.cam.mai.BaseMainSupport] (main)  camel.main.durationMaxMessages=1\n"
+"2020-07-15 12:19:22,812 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (main) Apache Camel 3.4.0 (camel-1) is starting\n"
+"2020-07-15 12:19:22,812 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (main) StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html\n"
+"2020-07-15 12:19:22,812 INFO  [org.apa.cam.imp.eng.InternalRouteStartupManager] (main) Route: route1 started and consuming from: timer://hello\n"
+"2020-07-15 12:19:22,812 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (main) Total 1 routes, of which 1 are started\n"
+"2020-07-15 12:19:22,812 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (main) Apache Camel 3.4.0 (camel-1) started in 0.000 seconds\n"
+"2020-07-15 12:19:22,812 INFO  [io.quarkus] (main) camel-quarkus-integration-test-main-command-mode 1.1.0-SNAPSHOT native (powered by Quarkus 1.6.0.Final) started in 0.007s.\n"
+"2020-07-15 12:19:22,813 INFO  [io.quarkus] (main) Profile prod activated.\n"
+"2020-07-15 12:19:22,812 INFO  [hello] (Camel (camel-1) thread #0 - timer://hello) Exchange[ExchangePattern: InOnly, BodyType: String, Body: Hello Joe!]\n"
+"2020-07-15 12:19:22,813 INFO  [io.quarkus] (main) Installed features: [camel-core, camel-log, camel-main, camel-policy, camel-support-common, camel-timer, cdi]\n"
+"2020-07-15 12:19:22,813 INFO  [org.apa.cam.mai.MainSupport] (camel-main) Waiting until: 1 messages has been processed\n"
+"2020-07-15 12:19:22,813 INFO  [org.apa.cam.mai.MainLifecycleStrategy] (Camel (camel-1) thread #0 - timer://hello) Duration max messages triggering shutdown of the JVM.\n"
+"2020-07-15 12:19:22,813 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (Camel (camel-1) thread #1 - CamelMainShutdownCamelContext) Apache Camel 3.4.0 (camel-1) is shutting down\n"
+"2020-07-15 12:19:22,813 INFO  [org.apa.cam.mai.MainLifecycleStrategy] (Camel (camel-1) thread #1 - CamelMainShutdownCamelContext) CamelContext: camel-1 has been shutdown, triggering shutdown of the JVM.\n"
+"2020-07-15 12:19:22,813 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (Camel (camel-1) thread #1 - CamelMainShutdownCamelContext) Apache Camel 3.4.0 (camel-1) uptime 0.001 seconds\n"
+"2020-07-15 12:19:22,813 INFO  [org.apa.cam.imp.eng.AbstractCamelContext] (Camel (camel-1) thread #1 - CamelMainShutdownCamelContext) Apache Camel 3.4.0 (camel-1) is shutdown in 0.000 seconds\n"
+"2020-07-15 12:19:22,813 INFO  [io.quarkus] (main) camel-quarkus-integration-test-main-command-mode stopped in 0.000s\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:219
+#, no-wrap
+msgid "Show me the code!"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:223
+#, no-wrap
+msgid ""
+"The sources of the application used in this blog post are based on the `main-command-mode` integration test in\n"
+"the Camel Quarkus source tree: https://github.com/apache/camel-quarkus/tree/master/integration-tests/main-command-mode\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:225
+#, no-wrap
+msgid "Bonus: The integration test module shows a way how to test command line applications.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/07/command-line-utility-with-camel-quarkus/index.md:226
+#, no-wrap
+msgid "Have a lot of fun!\n"
+msgstr ""

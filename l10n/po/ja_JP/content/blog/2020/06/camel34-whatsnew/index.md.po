@@ -1,0 +1,271 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:1
+#, no-wrap
+msgid "The long term release version 3.4 of Camel is here, find out what's new."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:1
+#, no-wrap
+msgid "Apache Camel 3.4 What's New"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:11
+#, no-wrap
+msgid "Apache Camel 3.4 is the first LTS (Long Term Support) release of Camel 3.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:13
+#, no-wrap
+msgid "This release will be actively supported with regular patch releases containing important bug and security fixes for 1-year.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:15
+#, no-wrap
+msgid "For more details about LTS vs non-LTS releases see this [blog post](/blog/2020/03/LTS-Release-Schedule/).\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:17
+#, no-wrap
+msgid "So what's in this release?"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:20
+#, no-wrap
+msgid "This release is mostly about robustness and bug fixes.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:25
+#, no-wrap
+msgid ""
+"We have also continued the work to make Camel more modular and lighter.\n"
+"This time we removed the dependency on JAXB in the Swagger and OpenAPI modules.\n"
+"This helps Camel on GraalVM and native compilation as JAXB is a heavy piece of stack,\n"
+"allowing GraalVM to eliminate it more easily.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:28
+#, no-wrap
+msgid ""
+"We continued to remove usage of reflection in Camel and found a few spots more where\n"
+"reflection was in use, when configuring nested options.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:32
+#, no-wrap
+msgid ""
+"We also added back support for configuring duration values using the shorthand syntax,\n"
+"such as `timeout=30000` can be specified as `timeout=30s`. We had to remove this in earlier\n"
+"versions of Camel 3 due to optimizations. But for Camel 3.4 we found a new way.\n"
+msgstr ""
+
+#. type: Title ####
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:33
+#, no-wrap
+msgid "Supervising route controller"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:38
+#, no-wrap
+msgid ""
+"The work on the supervising route controller is complete. When Camel starts up the default route controller\n"
+"is handling starting the routes safely. The default strategy is that if a route fails to startup then Camel\n"
+"itself will also fail its startup (fail fast).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:42
+#, no-wrap
+msgid ""
+"The supervising route controller is a different strategy that allows to startup routes independent from Camel itself.\n"
+"This new controller will startup the routes using a background task that can reschedule routes that\n"
+"have failed to startup to retry starting (with backoff).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:46
+#, no-wrap
+msgid ""
+"We have provided an example using `camel-main` or `camel-spring-boot` which you can find\n"
+"[here](https://github.com/apache/camel-examples/tree/master/examples/camel-example-main-health) and\n"
+"[here](https://github.com/apache/camel-spring-boot-examples/tree/master/camel-example-spring-boot-health-checks).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:48
+#, no-wrap
+msgid "You can find more details in the [Route Controller](/manual/latest/route-controller.html) documentation.\n"
+msgstr ""
+
+#. type: Title ####
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:49
+#, no-wrap
+msgid "Health Check"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:53
+#, no-wrap
+msgid ""
+"We have reworked Camel's health-check, to work similar across runtimes, whether its standalone, Spring Boot,\n"
+"Camel-K, or Quarkus.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:56
+#, no-wrap
+msgid ""
+"We also introduced the concept of readiness and liveness so a health check can be either one or both.\n"
+"Each health check can be configured, from `application.properties` the same way, and it's all reflection free.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:59
+#, no-wrap
+msgid ""
+"The previously mentioned examples also comes with health-check so make sure to check those.\n"
+"See more details in the [Health Check](/manual/latest/health-check.html) documentation.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:60
+#, no-wrap
+msgid "Endpoint DSL"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:65
+#, no-wrap
+msgid ""
+"The [Endpoint DSL](/manual/latest/Endpoint-dsl.html) had a number of annoying bugs fixed and other improvements.\n"
+"It is now also easier to use Endpoint DSL to configure endpoints in POJOs as Java fields in a type-safe manner,\n"
+"by using `FluentProducerTemplate` and in `RouteBuilder` classes as in this example:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:66
+#, no-wrap
+msgid ""
+"public class MyPojo {\n"
+"\n"
+"    @Produce\n"
+"    private FluentProducerTemplate producer;\n"
+"\n"
+"    private final EndpointProducerBuilder mqtt = paho(\"sensor\").clientId(\"myClient\").userName(\"scott\").password(\"tiger\");\n"
+"\n"
+"    public void sendToSensor(String data) {\n"
+"        producer.withBody(data).to(mqtt).send();\n"
+"    }\n"
+"\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:83
+#, no-wrap
+msgid ""
+"You can read more in the manual about [Endpoint DSL](/manual/latest/Endpoint-dsl.html) and\n"
+"the [Component DSL](/manual/latest/component-dsl.html).\n"
+msgstr ""
+
+#. type: Title ####
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:84
+#, no-wrap
+msgid "Spring Boot"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:87
+#, no-wrap
+msgid "This release supports Spring Boot 2.3.\n"
+msgstr ""
+
+#. type: Title ####
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:88
+#, no-wrap
+msgid "New Components"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:91
+#, no-wrap
+msgid "This release also adds two new components:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:94
+#, no-wrap
+msgid "AWS2 Athena\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:94
+#, no-wrap
+msgid "RestEasy\n"
+msgstr ""
+
+#. type: Title ####
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:95
+#, no-wrap
+msgid "Other Changes"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:100
+#, no-wrap
+msgid ""
+"A new maven plugin called `camel-component-maven-plugin` has been added which intents to help\n"
+"third party component developers to generate all required metadata and configurations Java files. For more info on how to use it in your project,\n"
+"please take a look at the [Camel Component Plugin documentation](/manual/latest/camel-component-maven-plugin.html).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:103
+#, no-wrap
+msgid ""
+"You can now configure Camel's thread pool (profiles) and Saga/LRA the same way for\n"
+"standalone, Camel K, Camel Quarkus, and Spring Boot.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:106
+#, no-wrap
+msgid ""
+"Some of the components (more to come in the future) we have moved initialization logic to an earlier phase when possible\n"
+"which allows these components to initialize at build time, which makes Camel startup faster (especially for GraalVM or Quarkus runtimes).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/camel34-whatsnew/index.md:108
+#, no-wrap
+msgid ""
+"For users that are upgrading to this release, then make sure to follow\n"
+"the [upgrade guide](/manual/latest/camel-3x-upgrade-guide.html).\n"
+msgstr ""

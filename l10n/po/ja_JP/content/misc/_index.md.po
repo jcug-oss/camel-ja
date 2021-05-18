@@ -1,0 +1,29 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: upstream/content/misc/_index.md:1
+#, no-wrap
+msgid "Miscellaneous"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/misc/_index.md:4
+#, no-wrap
+msgid "The Apache Software Foundation (ASF) is an open source project organized under the auspices of a public benefit corporation. You can find terms of use of this website under [Privacy Policy](/privacy-policy/). You can read more about organisations that helped Camel under [Acknowledgements](/acknowledgments/).\n"
+msgstr ""

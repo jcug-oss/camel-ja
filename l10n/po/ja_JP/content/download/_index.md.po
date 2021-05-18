@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: upstream/content/download/_index.md:1
+#, no-wrap
+msgid "Downloads"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/download/_index.md:6
+#, no-wrap
+msgid "We do frequent releases, a release almost every month, and even though we strive to maintain backward compatibility, we may on occasion introduce a breaking change in the interest of the long-term evolution of the project. We document backward compatibility breaking changes in the [Migration and Upgrade](/manual/latest/migration-and-upgrade.html) section of the user manual.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/download/_index.md:8
+#, no-wrap
+msgid "Unless you need the latest features, you might consider using a Long Term Support (LTS) version that will receive bug and security fixes for a longer time - up to one year.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/download/_index.md:10
+#, no-wrap
+msgid "A good strategy to prepare for future LTS releases might be to test the latest releases. You can do this on less impactful projects or by running tests of your codebase against newer releases. Please do [report any issues](/community/contributing/#if-you-find-a-bug-or-problem) with functionality or backward compatibility so they can be addressed in time for the LTS version.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/download/_index.md:12
+#, no-wrap
+msgid "For information on the release planning look at the blog posts in the [Roadmap](/categories/Roadmap/) category.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/download/_index.md:14
+#, no-wrap
+msgid "Here you will only find the supported releases, older unsupported releases can be found in the [Releases archive](/releases/).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/download/_index.md:16
+#, no-wrap
+msgid "{{< downloads >}}\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/download/_index.md:17
+#, no-wrap
+msgid "Keys"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/download/_index.md:19
+#, no-wrap
+msgid "You can verify your download by following these [procedures](http://www.apache.org/info/verification.html) and using these [KEYS](https://www.apache.org/dist/camel/KEYS).\n"
+msgstr ""

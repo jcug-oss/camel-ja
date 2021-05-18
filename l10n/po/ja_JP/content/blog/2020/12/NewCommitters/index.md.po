@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2020/12/NewCommitters/index.md:1
+#, no-wrap
+msgid "Camel community welcomes two new committers to the project!"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2020/12/NewCommitters/index.md:1
+#, no-wrap
+msgid "New committers to Apache Camel"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/12/NewCommitters/index.md:9
+#, no-wrap
+msgid "We're happy to announce that our little caravan has been enriched by two new committers. The Camel project warmly welcomes [Jiri Ondrusek](https://github.com/JiriOndrusek) and [Jeremy Ross](https://github.com/jeremyross).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/12/NewCommitters/index.md:11
+#, no-wrap
+msgid "[Jiri Ondrusek](https://github.com/JiriOndrusek)'s has been contributing to Camel, Camel Spring Boot, and Camel Quarkus for a while now, and [Jeremy Ross](https://github.com/jeremyross) has been doing stellar work on the Salesforce component, his expertise in Salesforce will help us keep up with frequent changes made on that platform.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/12/NewCommitters/index.md:12
+#, no-wrap
+msgid "We are very happy with the sustained growth of the project and look forward to continued contributions from the community and adding to our committer pool. If you're wondering how one becomes a committer, we have a handy page [on becoming a committer](/manual/latest/faq/how-do-i-become-a-committer.html) prepared for you to go through.\n"
+msgstr ""

@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: upstream/content/misc/acknowledgments.md:1
+#, no-wrap
+msgid "Acknowledgments"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/misc/acknowledgments.md:7
+#, no-wrap
+msgid "Many thanks to the following organizations for helping the Camel project.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/misc/acknowledgments.md:9
+#, no-wrap
+msgid "[![YourKit](/img/logo-yourkit.png \"YourKit\")](https://www.yourkit.com/) <span>[YourKit GmbH](https://www.yourkit.com/) kindly provide free licenses for the YourKit Java Profiler to open source projects. YourKit Java Profiler is primarily used to investigate performance and memory leak issues reported in Apache Camel.</span>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/misc/acknowledgments.md:10
+#, no-wrap
+msgid "[![Deploys by Netlify](/img/netlify-callout-vertical-light.svg \"Deploys by Netlify\")](https://www.netlify.com/) <span>[Netlify](https://www.netlify.com/) kindly provides pull request builds, checks and previews for this website.</span>\n"
+msgstr ""

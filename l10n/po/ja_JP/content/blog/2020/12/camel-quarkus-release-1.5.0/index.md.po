@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:1
+#, no-wrap
+msgid "Camel Quarkus 1.5.0 Released"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:11
+#, no-wrap
+msgid "<sub><sup>Original image by <a href=\"https://commons.wikimedia.org/wiki/User:99of9\">Toby Hudson</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> via <a href=\"https://en.wikipedia.org/wiki/Camel_racing#/media/File:CamelRacingCamelCup2009Heat.JPG\">Wikipedia</a></sup></sub>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:13
+#, no-wrap
+msgid "We are pleased to announce the release 1.5.0 of Camel Quarkus! What's inside?\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:14
+#, no-wrap
+msgid "Camel 3.7.0"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:17
+#, no-wrap
+msgid "Camel Quarkus 1.5.0 is based on Camel 3.7.0 LTS bringing new features and improvements relevant to Camel Quarkus:\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:18
+#, no-wrap
+msgid "CSimple language"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:21
+#, no-wrap
+msgid "[CSimple language](/components/latest/languages/csimple-language.html) is a new variant of the well known [Simple language](/components/latest/languages/simple-language.html). The \"C\" in its name stands for \"compiled\" and indeed, the expressions are compiled into Java byte code or native code at application build time. This brings significant performance boost at runtime. Camel Quarkus 1.5.0 brings experimental support for the CSimple language in both JVM and native modes.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:22
+#, no-wrap
+msgid "Lightweight mode"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:25
+#, no-wrap
+msgid "In lightweight mode, Camel removes all references to the routes model after startup which allows the JVM to garbage collect all model objects and unload classes, freeing up memory. The downside is that after new Camel routes cannot be added once the application has fully started.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:27
+#, no-wrap
+msgid "Lightweight mode can be activated by adding the `camel-quarkus-main` dependency and adding\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:28
+#, no-wrap
+msgid "camel.main.lightweight=true\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:33
+#, no-wrap
+msgid "to `application.properties`.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:35
+#, no-wrap
+msgid "Check [Camel 3.7 what's new](/blog/2020/12/Camel37-Whatsnew/) blog post by Claus Ibsen for more information about Camel 3.7.0.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:36
+#, no-wrap
+msgid "New extensions"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:39
+#, no-wrap
+msgid "As usual, the new Camel Quarkus release brings some new extensions:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:44
+#, no-wrap
+msgid "CSimple language mentioned above\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:44
+#, no-wrap
+msgid "[Micrometer](/camel-quarkus/latest/reference/extensions/micrometer.html) - in addition to [MicroProfile Metrics](/camel-quarkus/latest/reference/extensions/microprofile-metrics.html), you can now collect your metrics using [Micrometer](https://micrometer.io/). See also [this blog post](https://quarkus.io/blog/micrometer-metrics/) by Ken Finnigan.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:44
+#, no-wrap
+msgid "[Minio](/camel-quarkus/latest/reference/extensions/minio.html) (JVM only)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:44
+#, no-wrap
+msgid "[AtlasMap](/camel-quarkus/latest/reference/extensions/atlasmap.html) (JVM only)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:46
+#, no-wrap
+msgid "The following extensions are now supported in native mode:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:54
+#, no-wrap
+msgid "[Protobuf](/camel-quarkus/latest/reference/extensions/protobuf.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:54
+#, no-wrap
+msgid "[Avro RPC](/camel-quarkus/latest/reference/extensions/avro-rpc.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:54
+#, no-wrap
+msgid "[SCP](/camel-quarkus/latest/reference/extensions/jsch.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:54
+#, no-wrap
+msgid "[Solr](/camel-quarkus/latest/reference/extensions/solr.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:54
+#, no-wrap
+msgid "[Google PubSub](/camel-quarkus/latest/reference/extensions/google-pubsub.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:54
+#, no-wrap
+msgid "[Google BigQuery](/camel-quarkus/latest/reference/extensions/google-bigquery.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:54
+#, no-wrap
+msgid "[OptaPlanner](/camel-quarkus/latest/reference/extensions/optaplanner.html)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:56
+#, no-wrap
+msgid "Check the full list of supported extensions in the [extensions reference](/camel-quarkus/latest/reference/index.html).\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:57
+#, no-wrap
+msgid "Documentation"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:60
+#, no-wrap
+msgid "Following some recent user questions, we have added a new documetation page dedicated to [Testing with Camel Quarkus](/camel-quarkus/latest/user-guide/testing.html). It gives the basic guidance how to test your applications in JVM and native modes.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:63
+#, no-wrap
+msgid ""
+"We aim at further improving our [documentation](/camel-quarkus/latest/index.html). Do not\n"
+"hesitate to [ask](https://github.com/apache/camel-quarkus/issues/new) if you feel topics are missing or if details are lacking somewhere.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:64
+#, no-wrap
+msgid "What's next?"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:67
+#, no-wrap
+msgid "Camel Quarkus 1.6.0 should appear in the middle of January 2021, shortly after [Quarkus 1.11](https://groups.google.com/g/quarkus-platform-coordination/c/gXuyg4w3FPo).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:69
+#, no-wrap
+msgid ""
+"There is still a lot of [Camel components to port](https://github.com/apache/camel-quarkus/issues?q=is%3Aissue+is%3Aopen+label%3Aextension) to Quarkus.\n"
+"Please upvote your favorites, or even better [contribute](/camel-quarkus/latest/contributor-guide/index.html)!\n"
+msgstr ""

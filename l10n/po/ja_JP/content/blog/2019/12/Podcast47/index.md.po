@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2019/12/Podcast47/index.md:1
+#, no-wrap
+msgid "JBoss Community Asylum Podcast epiosode 47 about Apache Camel 3"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2019/12/Podcast47/index.md:1
+#, no-wrap
+msgid "JBoss Asylum Podcast about Apache Camel 3"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/Podcast47/index.md:10
+#, no-wrap
+msgid "[JBoss Asylm Podcast episode 47: What do you call an Apache Camel with 3 humps](http://asylum.libsyn.com/podcast-46-what-do-you-call-a-camel-with-3-humps)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/Podcast47/index.md:15
+#, no-wrap
+msgid ""
+"Claus Ibsen and Luca Burgazzoli sits down with Emanual and Max (hosts)\n"
+"and talks about what is coming in Apache Camel 3 on topics like Camel K and Camel Quarkus.\n"
+"We also cover Camel's place in the modern world with cloud native and serverless workloads.\n"
+"And at the end we have some bits about what's coming next in Camel 3.1.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/12/Podcast47/index.md:17
+#, no-wrap
+msgid "[The podcast](http://asylum.libsyn.com/podcast-46-what-do-you-call-a-camel-with-3-humps) is about 80 minutes so embrace yourself with patience.\n"
+msgstr ""

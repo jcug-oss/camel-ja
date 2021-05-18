@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: upstream/content/community/mailing-list.md:1
+#, no-wrap
+msgid "Mailing Lists"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/community/mailing-list.md:5
+#, no-wrap
+msgid "Use Camel User List"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/mailing-list.md:10
+#, no-wrap
+msgid ""
+"You should post and subscribe to the Camel User List for all your questions on using Camel, or how to do X with Camel etc. If in doubt use this list.\n"
+"The Camel Developer List, is for the Camel team to discus development of the actual Camel project; do not use this list for questions on using Camel.\n"
+"Again to re-iterate, use the Camel User List, for your Camel questions. This is the correct mailing list, and has the most people there ready for helping you.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/community/mailing-list.md:11
+#, no-wrap
+msgid "Post plain text mails"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/mailing-list.md:14
+#, no-wrap
+msgid "When posting to the mailing lists, use plain text mails. Do not use HTML mails. HTML mails is more likely to be targeted as spam mails and will be rejected; as well it's not easily readable by others.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/mailing-list.md:23
+#, no-wrap
+msgid ""
+"{{< table >}}\n"
+"| List Name  | Address | Subscribe | Unsubscribe | Archive | Comment |\n"
+"|------------|---------|-----------|-------------|---------|---------|\n"
+"| Camel User List  | users@camel.apache.org | [subscribe](mailto:users-subscribe@camel.apache.org) | [unsubscribe](mailto:users-unsubscribe@camel.apache.org) | [Archives](https://lists.apache.org/list.html?users@camel.apache.org) | Use this list for your Camel questions. |\n"
+"| Camel Developer List  | dev@camel.apache.org | [subscribe](mailto:dev-subscribe@camel.apache.org) | [unsubscribe](mailto:dev-unsubscribe@camel.apache.org) | [Archives](https://lists.apache.org/list.html?dev@camel.apache.org) | Used by Camel contributors to discuss development of Camel. |\n"
+"| Camel Commits List  | commits@camel.apache.org | [subscribe](mailto:commits-subscribe@camel.apache.org) | [unsubscribe](mailto:commits-unsubscribe@camel.apache.org) | [Archives](https://lists.apache.org/list.html?commits@camel.apache.org) | Notifications on changes to the Camel code |\n"
+"| Camel Issues List  | issues@camel.apache.org | [subscribe](mailto:issues-subscribe@camel.apache.org) | [unsubscribe](mailto:issues-unsubscribe@camel.apache.org) | [Archives](https://lists.apache.org/list.html?issues@camel.apache.org) | Notifications of JIRA issues |\n"
+"{{< /table >}}\n"
+msgstr ""

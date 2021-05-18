@@ -1,0 +1,586 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:1
+#, no-wrap
+msgid "Camel-AWS2 Eventbridge introduction"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:1
+#, no-wrap
+msgid "Introducing Camel-AWS2-Eventbridge component"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:11
+#, no-wrap
+msgid ""
+"In Camel 3.6.0 we will introduce the camel-aws2-eventbridge among others new cool components.\n"
+"The aim of this blog post is showing what you can do with the Eventbridge AWS Service and the related camel component.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:12
+#, no-wrap
+msgid "What is AWS Eventbridge?"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:15
+#, no-wrap
+msgid "The definition from the [AWS official website](https://aws.amazon.com/eventbridge/?nc1=h_ls) is the following:\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:17
+#, no-wrap
+msgid "_Amazon EventBridge is a serverless event bus that makes it easy to connect applications together using data from your own applications, integrated Software-as-a-Service (SaaS) applications, and AWS services. EventBridge delivers a stream of real-time data from event sources, such as Zendesk, Datadog, or Pagerduty, and routes that data to targets like AWS Lambda. You can set up routing rules to determine where to send your data to build application architectures that react in real time to all of your data sources._\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:19
+#, no-wrap
+msgid "So basically you can listen for events on your bus, which can be the default event bus (the AWS one) or a custom event bus. The events coming from the bus can be send to AWS services, like an SQS queue, SNS topic or an S3 bucket. Obviously events can trigger actions.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:21
+#, no-wrap
+msgid "For each event bus, you can set rules: each rule specify a target action to take when EventBridge receives an event that matches the rule. When an event matches the rule, EventBridge sends the event to the specified target and triggers the action defined in the rule.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:23
+#, no-wrap
+msgid "All of this can be done from AWS Console UI or from code, indifferently.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:24
+#, no-wrap
+msgid "What is the component structure?"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:27
+#, no-wrap
+msgid "The AWS2-Eventbridge component act as producer-only component. At the moment of writing the operations you can do are the following:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
+#, no-wrap
+msgid "putRule\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
+#, no-wrap
+msgid "putTargets\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
+#, no-wrap
+msgid "removeTargets\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
+#, no-wrap
+msgid "deleteRule\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
+#, no-wrap
+msgid "enableRule\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
+#, no-wrap
+msgid "disableRule\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
+#, no-wrap
+msgid "listRules\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
+#, no-wrap
+msgid "describeRule\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
+#, no-wrap
+msgid "listTargetsByRule\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
+#, no-wrap
+msgid "listRuleNamesByTarget\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:40
+#, no-wrap
+msgid "The interesting operations are for sure the putRule and putTargets rule.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:42
+#, no-wrap
+msgid "I set up a little example in the [camel-examples repository](https://github.com/apache/camel-examples/tree/master/examples/camel-example-main-endpointdsl-aws2), showing what can be done, but we'll talk about this later.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:43
+#, no-wrap
+msgid "Eventbridge Rules, Events Pattern and Targets"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:46
+#, no-wrap
+msgid "The important parts of an Eventbridge rule are the event pattern and the targets.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:48
+#, no-wrap
+msgid "An event in AWS looks in this way:\n"
+msgstr ""
+
+#. type: Fenced code block (json)
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:49
+#, no-wrap
+msgid ""
+"{\n"
+"  \"version\": \"0\",\n"
+"  \"id\": \"6a7e8feb-b491-4cf7-a9f1-bf3703467718\",\n"
+"  \"detail-type\": \"EC2 Instance State-change Notification\",\n"
+"  \"source\": \"aws.ec2\",\n"
+"  \"account\": \"111122223333\",\n"
+"  \"time\": \"2017-12-22T18:43:48Z\",\n"
+"  \"region\": \"us-west-1\",\n"
+"  \"resources\": [\n"
+"    \"arn:aws:ec2:us-west-1:123456789012:instance/ i-1234567890abcdef0\"\n"
+"],\n"
+"\"detail\": {\n"
+"  \"instance-id\": \" i-1234567890abcdef0\",\n"
+"  \"state\": \"terminated\"\n"
+"  }\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:69
+#, no-wrap
+msgid "This is, for example, an event notifying the state-change of an EC2 instance.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:71
+#, no-wrap
+msgid "An event pattern is similar to an event. They have the same structure. Event patterns look much like the events they are filtering.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:73
+#, no-wrap
+msgid "So you can write your own event pattern like this one\n"
+msgstr ""
+
+#. type: Fenced code block (json)
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:74
+#, no-wrap
+msgid ""
+"{\n"
+"  \"source\": [ \"aws.ec2\" ],\n"
+"  \"detail-type\": [ \"EC2 Instance State-change Notification\" ],\n"
+"  \"detail\": {\n"
+"    \"state\": [ \"terminated\" ]\n"
+"  }\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:85
+#, no-wrap
+msgid "In this case we want to get a notification of all the EC2 instances termination in our account.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:87
+#, no-wrap
+msgid "But you can also would like to know when an EC2 is running again for example.\n"
+msgstr ""
+
+#. type: Fenced code block (json)
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:88
+#, no-wrap
+msgid ""
+"{\n"
+"  \"source\": [ \"aws.ec2\" ],\n"
+"  \"detail-type\": [ \"EC2 Instance State-change Notification\" ],\n"
+"  \"detail\": {\n"
+"    \"state\": [ \"terminated\", \"running\" ]\n"
+"  }\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:99
+#, no-wrap
+msgid "Now that we know what kind of events we want, we need to set up targets to be able to consume them.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:101
+#, no-wrap
+msgid "The request syntax for adding a target to a rule is the following\n"
+msgstr ""
+
+#. type: Fenced code block (json)
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:102
+#, no-wrap
+msgid ""
+"{\n"
+"   \"EventBusName\": \"string\",\n"
+"   \"Rule\": \"string\",\n"
+"   \"Targets\": [\n"
+"      {\n"
+"         \"Arn\": \"string\",\n"
+"         \"BatchParameters\": {\n"
+"            \"ArrayProperties\": {\n"
+"               \"Size\": number\n"
+"            },\n"
+"            \"JobDefinition\": \"string\",\n"
+"            \"JobName\": \"string\",\n"
+"            \"RetryStrategy\": {\n"
+"               \"Attempts\": number\n"
+"            }\n"
+"         },\n"
+"         \"DeadLetterConfig\": {\n"
+"            \"Arn\": \"string\"\n"
+"         },\n"
+"         \"EcsParameters\": {\n"
+"            \"Group\": \"string\",\n"
+"            \"LaunchType\": \"string\",\n"
+"            \"NetworkConfiguration\": {\n"
+"               \"awsvpcConfiguration\": {\n"
+"                  \"AssignPublicIp\": \"string\",\n"
+"                  \"SecurityGroups\": [ \"string\" ],\n"
+"                  \"Subnets\": [ \"string\" ]\n"
+"               }\n"
+"            },\n"
+"            \"PlatformVersion\": \"string\",\n"
+"            \"TaskCount\": number,\n"
+"            \"TaskDefinitionArn\": \"string\"\n"
+"         },\n"
+"         \"HttpParameters\": {\n"
+"            \"HeaderParameters\": {\n"
+"               \"string\" : \"string\"\n"
+"            },\n"
+"            \"PathParameterValues\": [ \"string\" ],\n"
+"            \"QueryStringParameters\": {\n"
+"               \"string\" : \"string\"\n"
+"            }\n"
+"         },\n"
+"         \"Id\": \"string\",\n"
+"         \"Input\": \"string\",\n"
+"         \"InputPath\": \"string\",\n"
+"         \"InputTransformer\": {\n"
+"            \"InputPathsMap\": {\n"
+"               \"string\" : \"string\"\n"
+"            },\n"
+"            \"InputTemplate\": \"string\"\n"
+"         },\n"
+"         \"KinesisParameters\": {\n"
+"            \"PartitionKeyPath\": \"string\"\n"
+"         },\n"
+"         \"RedshiftDataParameters\": {\n"
+"            \"Database\": \"string\",\n"
+"            \"DbUser\": \"string\",\n"
+"            \"SecretManagerArn\": \"string\",\n"
+"            \"Sql\": \"string\",\n"
+"            \"StatementName\": \"string\",\n"
+"            \"WithEvent\": boolean\n"
+"         },\n"
+"         \"RetryPolicy\": {\n"
+"            \"MaximumEventAgeInSeconds\": number,\n"
+"            \"MaximumRetryAttempts\": number\n"
+"         },\n"
+"         \"RoleArn\": \"string\",\n"
+"         \"RunCommandParameters\": {\n"
+"            \"RunCommandTargets\": [\n"
+"               {\n"
+"                  \"Key\": \"string\",\n"
+"                  \"Values\": [ \"string\" ]\n"
+"               }\n"
+"            ]\n"
+"         },\n"
+"         \"SqsParameters\": {\n"
+"            \"MessageGroupId\": \"string\"\n"
+"         }\n"
+"      }\n"
+"   ]\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:187
+#, no-wrap
+msgid "As you may see there are many parameters. We just need to set the rule name and add our target.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:188
+#, no-wrap
+msgid "Creating a rule through camel"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:191
+#, no-wrap
+msgid "As I said there is a little example in the camel-examples repository based on camel-aws2-eventbridge, camel-aws2-s3 and camel-aws2-sqs.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:193
+#, no-wrap
+msgid "Creating a rule in Camel is as easy as writing this little snippet.\n"
+msgstr ""
+
+#. type: Fenced code block (java)
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:194
+#, no-wrap
+msgid ""
+"public class MyRouteBuilder extends EndpointRouteBuilder {\n"
+"\n"
+"    @Override\n"
+"    public void configure() throws Exception {\n"
+"\n"
+"        from(timer(\"fire\").repeatCount(\"1\"))\n"
+"        .setHeader(EventbridgeConstants.RULE_NAME, constant(\"s3-events-rule\"))\n"
+"        .to(aws2Eventbridge(\"default\")\n"
+"        \t\t.operation(EventbridgeOperations.putRule)\n"
+"        \t\t.eventPatternFile(\"file:src/main/resources/eventpattern.json\"))\n"
+"        .process(new Processor() {\n"
+"            @Override\n"
+"            public void process(Exchange exchange) throws Exception {\n"
+"                exchange.getIn().setHeader(EventbridgeConstants.RULE_NAME, \"s3-events-rule\");\n"
+"                Target target = Target.builder().id(\"sqs-queue\").arn(\"arn:aws:sqs:eu-west-1:780410022477:camel-connector-test\")\n"
+"                        .build();\n"
+"                List<Target> targets = new ArrayList<Target>();\n"
+"                targets.add(target);\n"
+"                exchange.getIn().setHeader(EventbridgeConstants.TARGETS, targets);\n"
+"            }\n"
+"        })\n"
+"        .to(aws2Eventbridge(\"default\")\n"
+"        \t\t.operation(EventbridgeOperations.putTargets))\n"
+"        .log(\"All set, enjoy!\");\n"
+"    }\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:226
+#, no-wrap
+msgid ""
+"In this route we are creating a single rule, called s3-events-rule, by using an eventpattern.json file. The target of this rule is the `arn:aws:sqs:eu-west-1:780410022477:camel-connector-test` and\n"
+"the target Id is `sqs-queue`. This means we are pointing an SQS queue called camel-connector-test.\n"
+"All of this will be done on the default event bus, which is the AWS event bus.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:228
+#, no-wrap
+msgid "What we have in the eventpattern.json file:\n"
+msgstr ""
+
+#. type: Fenced code block (json)
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:229
+#, no-wrap
+msgid ""
+"{\n"
+"  \"source\": [\n"
+"    \"aws.s3\"\n"
+"  ],\n"
+"  \"detail\": {\n"
+"    \"eventSource\": [\n"
+"      \"s3.amazonaws.com\"\n"
+"    ],\n"
+"    \"eventName\": [\n"
+"      \"DeleteBucket\",\n"
+"      \"DeleteBucketCors\",\n"
+"      \"DeleteBucketLifecycle\",\n"
+"      \"DeleteBucketPolicy\",\n"
+"      \"DeleteBucketReplication\",\n"
+"      \"DeleteBucketTagging\",\n"
+"      \"DeleteBucketWebsite\",\n"
+"      \"CreateBucket\",\n"
+"      \"PutBucketAcl\",\n"
+"      \"PutBucketCors\",\n"
+"      \"PutBucketLifecycle\",\n"
+"      \"PutBucketPolicy\",\n"
+"      \"PutBucketLogging\",\n"
+"      \"PutBucketNotification\",\n"
+"      \"PutBucketReplication\",\n"
+"      \"PutBucketTagging\",\n"
+"      \"PutBucketRequestPayment\",\n"
+"      \"PutBucketVersioning\",\n"
+"      \"PutBucketWebsite\",\n"
+"      \"PutBucketEncryption\",\n"
+"      \"DeleteBucketEncryption\",\n"
+"      \"DeleteBucketPublicAccessBlock\",\n"
+"      \"PutBucketPublicAccessBlock\"\n"
+"    ]\n"
+"  }\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:269
+#, no-wrap
+msgid ""
+"We want to be informed on the list of events.\n"
+"The eventpattern json can be built by hand, but also through the AWS console UI, through a series of dropdown menus during the rule creation.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:271
+#, no-wrap
+msgid "One important note on the usage of AWS Eventbridge is the following: to create a rule that triggers on an action by an AWS service that does not emit events, you can base the rule on API calls made by that service. The API calls are recorded by AWS CloudTrail, so you’ll need to have CloudTrail enabled. In this way you'll be notified anyway.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:273
+#, no-wrap
+msgid "Through an AWS SQS consumer, we should be able to consume the events coming in from the eventbridge.\n"
+msgstr ""
+
+#. type: Fenced code block (java)
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:274
+#, no-wrap
+msgid ""
+"public class MyRouteBuilder extends EndpointRouteBuilder {\n"
+"\n"
+"    @Override\n"
+"    public void configure() throws Exception {\n"
+"\n"
+"        from(aws2Sqs(\"{{sqs-queue-name}}\").deleteAfterRead(true))\n"
+"        .log(\"${body}\");\n"
+"    }\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:287
+#, no-wrap
+msgid "The sqs-queue-name is camel-connector-test in this example. The property is defined in an application.properties file. All is well explained in the example anyway.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:289
+#, no-wrap
+msgid "We can now try to create events to consume. Through the following route:\n"
+msgstr ""
+
+#. type: Fenced code block (java)
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:290
+#, no-wrap
+msgid ""
+"public class MyRouteBuilder extends EndpointRouteBuilder {\n"
+"\n"
+"    @Override\n"
+"    public void configure() throws Exception {\n"
+"\n"
+"    \tfrom(timer(\"fire\").repeatCount(\"1\"))\n"
+"    \t.setBody(constant(\"Camel rocks\"))\n"
+"    \t.to(aws2S3(\"{{bucketName}}\").keyName(\"firstfile\"));\n"
+"    }\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:304
+#, no-wrap
+msgid "In this case the bucketName will be the name of a not already created bucket. In my example I was using camel-bucket-12567. The aws2-s3 has the autocreateBucket option set to true by default, so it will be created during the route execution and the event will be created.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:306
+#, no-wrap
+msgid "In the terminal of the SQS consumer you should see a CreateBucket event logged.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:307
+#, no-wrap
+msgid ""
+"14:08:16.585 [Camel (AWS2-SQS-Consumer) thread #0 - aws2-sqs://camel-connector-test] INFO  route1 - {\"version\":\"0\",\"id\":\"a79c33f3-fd64-481c-7964-8929b26ac2ae\",\"detail-type\":\"AWS API Call via CloudTrail\",\"source\":\"aws.s3\",\"account\":\"xxxx\",\"time\":\"2020-10-16T12:08:12Z\",\"region\":\"eu-west-1\",\"resources\":[],\"detail\":{\"eventVersion\":\"1.05\",\"userIdentity\":{\"type\":\"xxx\",\"principalId\":\"xxx\",\"arn\":\"arn:xxx\",\"accountId\":\"xxx\",\"accessKeyId\":\"xxx\"},\"eventTime\":\"2020-10-16T12:08:12Z\",\"eventSource\":\"s3.amazonaws.com\",\"eventName\":\"CreateBucket\",\"awsRegion\":\"eu-west-1\",\"sourceIPAddress\":\"xxx\",\"userAgent\":\"[aws-sdk-java/2.15.8 Linux/3.10.0-1127.19.1.el7.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 Java/1.8.0_252 vendor/AdoptOpenJDK io/sync http/Apache]\",\"requestParameters\":{\"CreateBucketConfiguration\":{\"LocationConstraint\":\"eu-west-1\",\"xmlns\":\"http://s3.amazonaws.com/doc/2006-03-01/\"},\"bucketName\":\"camel-bucket-12567\",\"Host\":\"camel-bucket-12567.s3.eu-west-1.amazonaws.com\"}\n"
+".\n"
+".\n"
+".\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:315
+#, no-wrap
+msgid "You can also try to delete the bucket from the AWS Console too and you should get a message like this one:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:316
+#, no-wrap
+msgid ""
+"13:42:55.560 [Camel (AWS2-SQS-Consumer) thread #0 - aws2-sqs://camel-connector-test] INFO  route1 - {\"version\":\"0\",\"id\":\"f8f289ab-bb8f-65c5-0bf6-a4929333bc4c\",\"detail-type\":\"AWS API Call via CloudTrail\",\"source\":\"aws.s3\",\"account\":\"xxx\",\"time\":\"2020-10-16T11:42:33Z\",\"region\":\"eu-west-1\",\"resources\":[],\"detail\":{\"eventVersion\":\"1.05\",\"userIdentity\":{\"type\":\"xxx\",\"principalId\":\"xxx\",\"arn\":\"arn:xxx\",\"accountId\":\"xxx\",\"accessKeyId\":\"xxxx\",\"sessionContext\":{\"sessionIssuer\":{},\"webIdFederationData\":{}}},\"eventTime\":\"2020-10-16T11:42:33Z\",\"eventSource\":\"s3.amazonaws.com\",\"eventName\":\"DeleteBucket\",\"awsRegion\":\"eu-west-1\",\"sourceIPAddress\":\"xxxx\",\"userAgent\":\"[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.3.ac.206.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]\",\"requestParameters\":{\"bucketName\":\"camel-bucket-12567\",\"Host\":\"s3-eu-west-1.amazonaws.com\"},\"responseElements\":null ...\n"
+".\n"
+".\n"
+".\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:324
+#, no-wrap
+msgid "As you may see the userAgent is different in this case.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:325
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:329
+#, no-wrap
+msgid ""
+"This is just a really basic example, but you may have triggered an action on receiving the events, like for example adding a bucketPolicy to the newly created bucket.\n"
+"AWS Eventbridge is for sure an interesting service. The camel component can be improved by better supporting not only the default event bus of AWS Services but also external buses.\n"
+"We are working on that and on expanding the AWS services supported at the same time: you're welcome to help!\n"
+msgstr ""

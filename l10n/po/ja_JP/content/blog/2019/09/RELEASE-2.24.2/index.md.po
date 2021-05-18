@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2019/09/RELEASE-2.24.2/index.md:1
+#, no-wrap
+msgid "The Camel community announces the immediate availability of the new patch release Camel 2.24.2"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2019/09/RELEASE-2.24.2/index.md:1
+#, no-wrap
+msgid "RELEASE 2.24.2"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/09/RELEASE-2.24.2/index.md:13
+#, no-wrap
+msgid ""
+"The Camel community announces the immediate availability of the new patch release Camel 2.24.2.\n"
+"This release contains 20 fixes and improvements applied in the past weeks by the community on the camel-2.24.x branch.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/09/RELEASE-2.24.2/index.md:15
+#, no-wrap
+msgid "The artifacts are published and ready for you to download either from the Apache mirrors or from the Central Maven repository. For more details please take a look at the  [resolved issues](/releases/release-2.24.2/#resolved).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/09/RELEASE-2.24.2/index.md:17
+#, no-wrap
+msgid "Many thanks to all who made this release possible.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/09/RELEASE-2.24.2/index.md:19
+#, no-wrap
+msgid ""
+"On behalf of the Camel PMC,\n"
+"Gregor Zurowski\n"
+msgstr ""

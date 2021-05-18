@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: upstream/content/misc/privacy-policy.md:1
+#, no-wrap
+msgid "Privacy Policy"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/misc/privacy-policy.md:6
+#, no-wrap
+msgid "Apache Camel Privacy Policy"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/misc/privacy-policy.md:9
+#, no-wrap
+msgid "The Apache Software Foundation (ASF) is an open source project organized under the auspices of a public benefit corporation. Our challenges and goals are large. For that reason, we have a very permissive (non) privacy policy that mirrors our public mission.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/misc/privacy-policy.md:11
+#, no-wrap
+msgid "Please assume that everything you contribute intentionally to The ASF, or any project at The ASF, is public. This includes emails on public lists, wikis, online discussions of all sorts, and software or documentation that you post to this website or our revision control repositories.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/misc/privacy-policy.md:13
+#, no-wrap
+msgid "Because we follow an academic model that expects mutual personal respect, disclosure of interests and openness of expression is public information. There may be cases where you are invited to share private information for various purposes, and denote that information as such. In those cases, we commit to only disclosing that information without your permission upon receipt of a valid subpoena and following notice from The ASF to you.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/misc/privacy-policy.md:15
+#, no-wrap
+msgid "Although what you disclose here is public, we are all limited by copyright and patent law in how we may use your contributions. Therefore, The ASF only accepts voluntary contributions of software and documentation that are expressly licensed to The ASF under an approved open source license.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/misc/privacy-policy.md:16
+#, no-wrap
+msgid "Website Usage Privacy Policy"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/misc/privacy-policy.md:19
+#, no-wrap
+msgid "Information about your use of this website is collected using server access logs and a tracking cookie. The collected information consists of the following:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/misc/privacy-policy.md:25
+#, no-wrap
+msgid "The IP address from which you access the website\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/misc/privacy-policy.md:25
+#, no-wrap
+msgid "The type of browser and operating system you use to access our site\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/misc/privacy-policy.md:25
+#, no-wrap
+msgid "The date and time you access our site\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/misc/privacy-policy.md:25
+#, no-wrap
+msgid "The pages you visit\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/misc/privacy-policy.md:25
+#, no-wrap
+msgid "The pages from where you followed a link to our site.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/misc/privacy-policy.md:27
+#, no-wrap
+msgid "We use the gathered information to help us make our site more useful to visitors and to better understand how and when our site is used. We do not track or collect personally identifiable information or associate gathered data with any personally identifying information from other sources.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/misc/privacy-policy.md:28
+#, no-wrap
+msgid "By using this website, you consent to the collection of this data in the manner and for the purpose described above.\n"
+msgstr ""

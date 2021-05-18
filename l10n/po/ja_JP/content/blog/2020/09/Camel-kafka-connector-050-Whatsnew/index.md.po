@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:1
+#, no-wrap
+msgid "Details of what we have done in the Camel Kafka Connector 0.5.0 release."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:1
+#, no-wrap
+msgid "Apache Camel Kafka Connector 0.5.0: What's New"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:10
+#, no-wrap
+msgid "Apache Camel Kafka Connector 0.5.0 has just been released.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:12
+#, no-wrap
+msgid "This is based on the non-LTS release of Apache Camel 3.5.0, this means we will not provide patch releases, but use the release _as-is_.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:14
+#, no-wrap
+msgid "So what's in this release?"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:17
+#, no-wrap
+msgid "This release introduce bug fixes, improvements and new connectors obviously\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:18
+#, no-wrap
+msgid "New connectors"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:21
+#, no-wrap
+msgid "The new connectors introduced in this release are the following:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:30
+#, no-wrap
+msgid "ArangoDB: Perform operations on ArangoDb when used as a Document Database, or as a Graph Database.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:30
+#, no-wrap
+msgid "AWS2-STS: Manage AWS STS cluster instances using AWS SDK version 2.x.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:30
+#, no-wrap
+msgid "Azure Eventhubs: The azure-eventhubs component which integrates Azure Event Hubs using AMQP protocol.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:30
+#, no-wrap
+msgid "JSonata: JSON to JSON transformation using JSONATA.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:30
+#, no-wrap
+msgid "Minio: Store and retrieve objects from Minio Storage Service using Minio SDK.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:30
+#, no-wrap
+msgid "OAI-PMH: Harvest metadata using OAI-PMH protocol.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:30
+#, no-wrap
+msgid "Vert.x HTTP Client: Camel HTTP client support with Vert.x.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:30
+#, no-wrap
+msgid "Vert.x WebSocket: Camel WebSocket support with Vert.x.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:31
+#, no-wrap
+msgid "Support for multiple topics from the source side"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:35
+#, no-wrap
+msgid ""
+"Users are now able to specify multiple topics as target for the source connector configuration.\n"
+"This field needs a comma-separated list of topics.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:36
+#, no-wrap
+msgid "Documentation"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:39
+#, no-wrap
+msgid "The documentation of each connector (source/sink or both) now contains reference to the following information\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:44
+#, no-wrap
+msgid "Explicit connector class to be used\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:44
+#, no-wrap
+msgid "Converters list available in the connector as out of the box solutions\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:44
+#, no-wrap
+msgid "Transformers list available in the connector as out of the box solutions\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:44
+#, no-wrap
+msgid "Aggregation Strategies list available in the connector as out of the box solutions\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:47
+#, no-wrap
+msgid ""
+"On the Archetypes side: the archetype provided to extend the current connectors is now able to use a parameter to specify what connector you want to extend.\n"
+"More information available at [Camel-Kafka-connector archetype documentation](/camel-kafka-connector/latest/archetypes.html).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:49
+#, no-wrap
+msgid "We added also a troubleshooting section in our documentation, to be able to debug and use the connectors in the best way possible.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:50
+#, no-wrap
+msgid "Improved performance"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:53
+#, no-wrap
+msgid "Thanks to our users we found out we could improve the performance of Source connectors: more details at https://github.com/apache/camel-kafka-connector/issues/414\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:54
+#, no-wrap
+msgid "Examples"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:57
+#, no-wrap
+msgid "We added a bunch of new examples to the [camel-kafka-connector-examples repository](https://github.com/apache/camel-kafka-connector-examples)\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:58
+#, no-wrap
+msgid "What to expect"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/09/Camel-kafka-connector-050-Whatsnew/index.md:60
+#, no-wrap
+msgid "We are already working on the next release based on the upcoming 3.6.0 Camel release: we'll add new connectors, we'll improve the user experience and we'll focus on improving the codebase and introducing new features.\n"
+msgstr ""

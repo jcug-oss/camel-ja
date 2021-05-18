@@ -1,0 +1,240 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:1
+#, no-wrap
+msgid "AWS S3 Streaming upload"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:1
+#, no-wrap
+msgid "Camel-AWS-S3 - New Streaming upload feature"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:11
+#, no-wrap
+msgid "In the last weeks I was focused on a particular feature for the Camel AWS S3 component: the streaming upload feature.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:13
+#, no-wrap
+msgid "In this post I'm going to summarize what it is an how to use it.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:14
+#, no-wrap
+msgid "Streaming upload"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:17
+#, no-wrap
+msgid "The AWS S3 component had already a multipart upload feature in his producer operations: the main \"problem\" with it, was the need of knowing the size of the upload ahead of time. \n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:19
+#, no-wrap
+msgid "The streaming upload feature coming in Camel 3.10.0 won't need to know the size before starting the upload.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:20
+#, no-wrap
+msgid "How it works"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:23
+#, no-wrap
+msgid "Obviously this feature has been implemented on the S3 component producer side.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:28
+#, no-wrap
+msgid ""
+"The idea is to continuously send data to the producer and batching the messages. On the endpoint you'll have three possible way of stopping the batching:\n"
+"- timeout\n"
+"- buffer size\n"
+"- batch size\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:30
+#, no-wrap
+msgid "Buffer size and batch size will work together, this means that the batch will be completed when the batch size is complete or when the set buffer size has been excedeed.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:32
+#, no-wrap
+msgid "With the timeout in the picture the batching will be stopped and the upload completed (also) when the timeout will be reached.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:33
+#, no-wrap
+msgid "S3 Files naming"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:38
+#, no-wrap
+msgid ""
+"In the streaming upload producer two different naming strategy are provided:\n"
+"- progressive\n"
+"- random\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:40
+#, no-wrap
+msgid "The progressive one will add a progressive suffix to the uploaded part, while the random one will add a random id as keyname suffix.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:42
+#, no-wrap
+msgid "If the S3 key name you'll specify on your endpoint will be \"file_upload_part.txt\", during the upload you can expect a list like:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:46
+#, no-wrap
+msgid "file_upload_part.txt\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:46
+#, no-wrap
+msgid "file_upload_part-1.txt\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:46
+#, no-wrap
+msgid "file_upload_part-2.txt\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:48
+#, no-wrap
+msgid "and so on.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:50
+#, no-wrap
+msgid "The progressive naming strategy will make you ask how does it work when I stop and restart the route?\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:51
+#, no-wrap
+msgid "Restarting Strategies"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:54
+#, no-wrap
+msgid "The restarting strategies provided in the S3 Streaming upload producer are:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:57
+#, no-wrap
+msgid "lastPart\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:57
+#, no-wrap
+msgid "override\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:59
+#, no-wrap
+msgid "the lastPart strategy will make sense only in combination with the progressive naming strategy, obviously.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:61
+#, no-wrap
+msgid "At the time of restarting the route, the producer will check for the S3 keyname prefix in the bucket specified and get the last index uploaded.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:63
+#, no-wrap
+msgid "The index will be used to start again from the same point.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:64
+#, no-wrap
+msgid "Sample"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:67
+#, no-wrap
+msgid "This feature is very nice to see in action.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:69
+#, no-wrap
+msgid "In the [camel-examples repository](https://github.com/apache/camel-examples/tree/master/examples/aws/main-endpointdsl-kafka-aws2-s3-restarting-policy) I added an example of the feature with Kafka as consumer.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:71
+#, no-wrap
+msgid "The example will poll one kafka topic s3.topic.1 and upload batch of 25 messages (or 1 Mb batch) as single file into an s3 bucket (mycamel-1).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:73
+#, no-wrap
+msgid "In the [how to run section](https://github.com/apache/camel-examples/tree/master/examples/aws/main-endpointdsl-kafka-aws2-s3-restarting-policy#how-to-run) of the README it is explained well how to ingest data to your Kafka broker.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:74
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:77
+#, no-wrap
+msgid "The streaming upload feature will be useful in situation where the user don't know the amount of data he wants to upload to S3, but also when he just wants to ingest data continuously without having to care about the size.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:79
+#, no-wrap
+msgid "There is probably more work to do, but this can be a feature to introduce even in other storage components we have in Apache Camel. \n"
+msgstr ""

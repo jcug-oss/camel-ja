@@ -1,0 +1,380 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:1
+#, no-wrap
+msgid "Camel Quarkus 1.7.0 Released"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:11
+#, no-wrap
+msgid "<sub><sup>Original image by <a href=\"https://commons.wikimedia.org/wiki/User:99of9\">Toby Hudson</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> via <a href=\"https://en.wikipedia.org/wiki/Camel_racing#/media/File:CamelRacingCamelCup2009Heat.JPG\">Wikipedia</a></sup></sub>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:13
+#, no-wrap
+msgid "We are pleased to announce the release 1.7.0 of Camel Quarkus! Here are the highlights.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:14
+#, no-wrap
+msgid "Camel 3.8.0 and Quarkus 1.12.0.Final"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:18
+#, no-wrap
+msgid ""
+"We stand on the shoulders of two giants. Please check the release announcements for\n"
+"[Camel 3.8.0](/blog/2021/02/Camel38-Whatsnew/) and [Quarkus 1.12.0.Final](https://quarkus.io/blog/quarkus-1-12-0-final-released/) to learn about the news they bring.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:22
+#, no-wrap
+msgid ""
+"The [change of default packaging format](https://quarkus.io/blog/quarkus-1-12-0-final-released/#fast-jar-as-default)\n"
+"to Fast JAR in Quarkus 1.12 is worth mentioning also here. Before Camel Quarkus 1.7.0 you used to start your application\n"
+"in JVM mode via something like\n"
+msgstr ""
+
+#. type: Fenced code block (sh)
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:23
+#, no-wrap
+msgid "$ java -jar target/*-runner.jar\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:28
+#, no-wrap
+msgid "and now since Camel Quarkus 1.7.0, you have to use\n"
+msgstr ""
+
+#. type: Fenced code block (sh)
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:29
+#, no-wrap
+msgid "$ java -jar target/quarkus-app/quarkus-run.jar\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:34
+#, no-wrap
+msgid "Your Docker files and deployment scripts might need an adjustment when you upgrade to Camel Quarkus 1.7.0.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:37
+#, no-wrap
+msgid ""
+"You can go back to the original behavior by setting `quarkus.package.type=legacy-jar` in your\n"
+"`application.properties`.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:38
+#, no-wrap
+msgid "Support for more Camel components"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:41
+#, no-wrap
+msgid "Camel Quarkus brings support for six new Camel components:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:48
+#, no-wrap
+msgid "[Azure Event Hubs](/camel-quarkus/latest/reference/extensions/azure-eventhubs.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:48
+#, no-wrap
+msgid "[Kamelet](/camel-quarkus/latest/reference/extensions/kamelet.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:48
+#, no-wrap
+msgid "[OAI-PMH](/camel-quarkus/latest/reference/extensions/oaipmh.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:48
+#, no-wrap
+msgid "[Spring RabbitMQ](/camel-quarkus/latest/reference/extensions/spring-rabbitmq.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:48
+#, no-wrap
+msgid "[XML Security Sign and Verify](/camel-quarkus/latest/reference/extensions/xmlsecurity.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:48
+#, no-wrap
+msgid "[JFR](/camel-quarkus/latest/reference/extensions/jfr.html) (JVM only)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:50
+#, no-wrap
+msgid "Components newly supported in native mode:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
+#, no-wrap
+msgid "[AtlasMap](/camel-quarkus/latest/reference/extensions/atlasmap.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
+#, no-wrap
+msgid "[AWS 2 Eventbridge](/camel-quarkus/latest/reference/extensions/aws2-eventbridge.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
+#, no-wrap
+msgid "[AWS 2 Kinesis and Firehose](/camel-quarkus/latest/reference/extensions/aws2-kinesis.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
+#, no-wrap
+msgid "[Azure Storage Queue Service](/camel-quarkus/latest/reference/extensions/azure-storage-queue.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
+#, no-wrap
+msgid "[Cassandra CQL](/camel-quarkus/latest/reference/extensions/cassandraql.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
+#, no-wrap
+msgid "[IPFS](/camel-quarkus/latest/reference/extensions/ipfs.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
+#, no-wrap
+msgid "[PubNub](/camel-quarkus/latest/reference/extensions/pubnub.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
+#, no-wrap
+msgid "[StAX](/camel-quarkus/latest/reference/extensions/stax.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
+#, no-wrap
+msgid "[CBOR](/camel-quarkus/latest/reference/extensions/cbor.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
+#, no-wrap
+msgid "[Syslog](/camel-quarkus/latest/reference/extensions/syslog.html)\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:62
+#, no-wrap
+msgid "Deprecated extensions"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:65
+#, no-wrap
+msgid "We are following the deprecation of the underlying Camel components:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
+#, no-wrap
+msgid "AWS EC2 (SDK v1)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
+#, no-wrap
+msgid "AWS ECS (SDK v1)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
+#, no-wrap
+msgid "AWS EKS (SDK v1)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
+#, no-wrap
+msgid "AWS IAM (SDK v1)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
+#, no-wrap
+msgid "AWS Kinesis (SDK v1)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
+#, no-wrap
+msgid "AWS KMS (SDK v1)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
+#, no-wrap
+msgid "AWS Lambda (SDK v1)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
+#, no-wrap
+msgid "AWS S3 (SDK v1)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
+#, no-wrap
+msgid "AWS SDB (SDK v1)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
+#, no-wrap
+msgid "AWS SNS (SDK v1)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
+#, no-wrap
+msgid "AWS SQS (SDK v1)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
+#, no-wrap
+msgid "AWS SWF (SDK v1)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
+#, no-wrap
+msgid "AWS Translate (SDK v1)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
+#, no-wrap
+msgid "Azure (old SDK)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
+#, no-wrap
+msgid "Javax Websocket (JSR 356)\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:82
+#, no-wrap
+msgid "More test coverage for AWS 2 components"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:88
+#, no-wrap
+msgid ""
+"So far, our AWS SDK v2 extensions were not tested properly. We started adding\n"
+"[tests](https://github.com/apache/camel-quarkus/tree/master/integration-tests-aws2) that check their behavior\n"
+"against the real AWS services. Some of the tests can also run against a\n"
+"[Localstack](https://github.com/localstack/localstack) mock container.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:89
+#, no-wrap
+msgid "Full Changelog of Camel Quarkus 1.7.0"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:93
+#, no-wrap
+msgid "[Fixed issues](https://github.com/apache/camel-quarkus/milestone/11?closed=1)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:93
+#, no-wrap
+msgid "[All commits](https://github.com/apache/camel-quarkus/compare/1.6.0...1.7.0)\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:94
+#, no-wrap
+msgid "Known issues"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:99
+#, no-wrap
+msgid "[Upgrading to Jackson 2.12.1 via Quarkus BOM 1.12 breaks Azure SDK v12 extensions](https://github.com/apache/camel-quarkus/issues/2207) - possible workarounds: force Jackson 2.11.3 in your application or stay on Camel Quarkus 1.6.0\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:99
+#, no-wrap
+msgid ""
+"* [Camel Quarkus OptaPlanner does not work as of Quarkus 1.12 in apps generated by code.quarkus.io](https://github.com/apache/camel-quarkus/issues/2253) - this is caused by a conflicting OptaPlanner version in Quarkus Universe BoM. Workaround:\n"
+"use plain Camel Quarkus BoM instead of Quarkus Universe BoM.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:100
+#, no-wrap
+msgid "What's next?"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:103
+#, no-wrap
+msgid "Camel Quarkus 1.8.0 should appear within a couple of weeks, shortly after Quarkus 1.13.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:105
+#, no-wrap
+msgid ""
+"There is still a lot of [Camel components to port](https://github.com/apache/camel-quarkus/issues?q=is%3Aissue+is%3Aopen+label%3Aextension) to Quarkus.\n"
+"Please upvote your favorites, or even better [contribute](/camel-quarkus/latest/contributor-guide/index.html)!\n"
+msgstr ""

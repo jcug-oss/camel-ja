@@ -1,0 +1,452 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:1
+#, no-wrap
+msgid "If you missed some of the talks on the Camel/Integration or would like to revisit your favorites, video recordings from ApacheCon @Home 2020 are now available on The Apache Software Foundation YouTube channel."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:1
+#, no-wrap
+msgid "Recordings from ApacheCon @Home 2020"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:17
+#, no-wrap
+msgid ""
+"This year's ApacheCon was an [overwhelming\n"
+"success](https://blogs.apache.org/conferences/entry/apachecon-home-2020-was-a),\n"
+"with many tracks running in parallel. If you missed some of the talks on\n"
+"the Camel/Integration or would like to revisit your favorites, video\n"
+"recordings from ApacheCon @Home 2020 are now available on [The Apache\n"
+"Software Foundation YouTube\n"
+"channel](https://www.youtube.com/c/TheApacheFoundation).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:21
+#, no-wrap
+msgid ""
+"You can watch the content from all three days in [one\n"
+"playlist](https://www.youtube.com/playlist?list=PLU2OcwpQkYCxv3E0e1UU6F_b-ceqotcnN),\n"
+"with over 10 hours of content.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:24
+#, no-wrap
+msgid ""
+"For convenience, we listed the talks as they appear in the schedule here\n"
+"along with the slides shared by the speakers.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:25
+#, no-wrap
+msgid "Sessions"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:28
+#, no-wrap
+msgid "Sessions ran for two days with six talks each day.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:29
+#, no-wrap
+msgid "What's new with Apache Camel 3?"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:33
+#, no-wrap
+msgid ""
+"by [Andrea Cosentino](https://twitter.com/oscerd2) and\n"
+"[Claus Ibsen](https://twitter.com/davsclaus/)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:35
+#, no-wrap
+msgid "[Slides](Cosentino_Andrea,_Ibsen_Claus_Whats_new_with_Apache_Camel_3.pdf)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:37
+#, no-wrap
+msgid "{{< youtube id=\"MBTtRE_n5Ng\" class=\"video\" >}}\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:38
+#, no-wrap
+msgid "Making Enterprise Integration Patterns Work for You"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:41
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:70
+#, no-wrap
+msgid "by [Justin Reock](https://twitter.com/jreock)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:43
+#, no-wrap
+msgid "{{< youtube id=\"reiIjLWaFg8\" class=\"video\" >}}\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:44
+#, no-wrap
+msgid "Getting started with Apache Camel on Quarkus"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:47
+#, no-wrap
+msgid "by [Alexandre Gallice](https://twitter.com/AlexGallice)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:49
+#, no-wrap
+msgid "{{< youtube id=\"POWsZnGhVHM\" class=\"video\" >}}\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:50
+#, no-wrap
+msgid "Build and Deploy Cloud Native Camel Quarkus Routes With Tekton and Knative"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:53
+#, no-wrap
+msgid "by [Omar Al-Safi](https://twitter.com/omarsmak)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:55
+#, no-wrap
+msgid "[Slides](Omar_Al-Safi_Build_and_Deploy_Cloud_Native_Camel_Quarkus_Routes_With_Tekton_and_Knative.pptx)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:57
+#, no-wrap
+msgid "{{< youtube id=\"k8OFq6CnySE\" class=\"video\" >}}\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:58
+#, no-wrap
+msgid "Camel Kafka Connectors: when Camel meets Kafka"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:62
+#, no-wrap
+msgid ""
+"by [Andrea Tarocchi](https://twitter.com/valdar) and [Hugo\n"
+"Guerrero](https://twitter.com/hguerreroo)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:64
+#, no-wrap
+msgid "[Slides](Tarocchi_Andrea,_Guerrero_Hugo_Camel_Kafka_Connectors_-_when_Camel_meets_Kafka.pdf)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:66
+#, no-wrap
+msgid "{{< youtube id=\"0THM_HFFWTI\" class=\"video\" >}}\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:67
+#, no-wrap
+msgid "Integrating Postgres with Apache Camel and ActiveMQ"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:72
+#, no-wrap
+msgid "{{< youtube id=\"QZdktRXet2k\" class=\"video\" >}}\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:73
+#, no-wrap
+msgid "Camel API Gateway"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:76
+#, no-wrap
+msgid "by [Rodrigo Coelho](https://twitter.com/rcoelho)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:78
+#, no-wrap
+msgid "[Slides](Rodrigo_Coelho_Open_Source_light_API_Gateway_built_with_Apache_Camel.pptx)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:80
+#, no-wrap
+msgid "{{< youtube id=\"sEKCI8IBCfc\" class=\"video\" >}}\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:81
+#, no-wrap
+msgid "How to contribute textual tooling for Apache Camel in several IDEs"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:84
+#, no-wrap
+msgid "by [Aurélien Pupier](https://twitter.com/apupier)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:86
+#, no-wrap
+msgid "[Slides](Pupier_Aurelien_How_to_contribute_textual_tooling_for_Apache_Camel_in_several_IDEs.pdf)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:88
+#, no-wrap
+msgid "{{< youtube id=\"gL3GIzPT36Y\" class=\"video\" >}}\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:89
+#, no-wrap
+msgid "Serverless Integration Anatomy"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:92
+#, no-wrap
+msgid "by [Christina Lin](https://twitter.com/Christina_wm)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:94
+#, no-wrap
+msgid "{{< youtube id=\"etSwmRP8-Eo\" class=\"video\" >}}\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:95
+#, no-wrap
+msgid "Testing Camel K integrations with Cloud Native BDD"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:98
+#, no-wrap
+msgid "by [Christoph Deppisch](https://twitter.com/freaky_styley)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:100
+#, no-wrap
+msgid "[Slides](Deppisch_Christoph_Testing_CamelK_with_Cloud_Native_BDD.pdf)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:102
+#, no-wrap
+msgid "{{< youtube id=\"aYLLtj6TdjM\" class=\"video\" >}}\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:103
+#, no-wrap
+msgid "\"Cloud Native\" My Camel"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:106
+#, no-wrap
+msgid "by [Michael Costello](https://mike-costello.github.io/) and [David Gordon](https://twitter.com/aph3lio)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:108
+#, no-wrap
+msgid "[Slides](Costello_Michael_CloudNativeMyCamel.1.00.001.pdf)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:110
+#, no-wrap
+msgid "{{< youtube id=\"HEB8TMmsEDg\" class=\"video\" >}}\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:111
+#, no-wrap
+msgid "Software Architecture and Architectors: useless VS valuable"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:114
+#, no-wrap
+msgid "by [Andrei Shakirin](https://twitter.com/ashakirin)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:116
+#, no-wrap
+msgid "{{< youtube id=\"SI1WqGST1SI\" class=\"video\" >}}\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:117
+#, no-wrap
+msgid "Panel and lightning talks"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:120
+#, no-wrap
+msgid "On the last day we had the panel and lightning talks.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:121
+#, no-wrap
+msgid "Panel on the future of software integration"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:128
+#, no-wrap
+msgid ""
+"Panelists: [Omar Al-Safi](https://twitter.com/omarsmak),\n"
+"[Christina Lin](https://twitter.com/Christina_wm),\n"
+"[Margara Tejera](https://dl.acm.org/profile/81492655297),\n"
+"[Gunnar Morling](https://twitter.com/gunnarmorling),\n"
+"[Sanjna Verma](https://twitter.com/_sanjuverm)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:130
+#, no-wrap
+msgid "Moderated by [María Arias de Reyna](https://twitter.com/delawen/)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:132
+#, no-wrap
+msgid "{{< youtube id=\"6EQy1kw03Ig\" class=\"video\" >}}\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:133
+#, no-wrap
+msgid "Lightning talks"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:138
+#, no-wrap
+msgid ""
+"**The journey of Outreachy with Apache**, by [Aemie\n"
+"Jariwala](https://twitter.com/AemieJariwala), [follow-up\n"
+"link](https://aemiej.netlify.app/blog-post-6/)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:143
+#, no-wrap
+msgid ""
+"**Experience of Google Summer of Code with Apache Camel**, by [Nayananga\n"
+"Muhandiram](https://lk.linkedin.com/in/nayananga-anuradha-muhandiram-30b376137),\n"
+"[follow-up\n"
+"link](https://medium.com/@nayanangamuhandiram/my-final-submission-of-gsoc-2020-camel-minio-component-for-apache-camel-d2318e2eaa4f)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:146
+#, no-wrap
+msgid ""
+"**How to monitor Camel applications with nJAMS**, by Abdelghani Faiz,\n"
+"[follow-up link](http://www.integrationmatters.com/)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:150
+#, no-wrap
+msgid ""
+"**Real time Camel route visualizer while coding**, by [Claus\n"
+"Ibsen](https://twitter.com/davsclaus/), [follow-up\n"
+"link](https://github.com/davsclaus/camel-visual)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:154
+#, no-wrap
+msgid ""
+"**VS Code Tooling for Apache Camel K tour**, by [Aurélien\n"
+"Pupier](https://twitter.com/apupier), [follow-up\n"
+"link](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-camelk)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:158
+#, no-wrap
+msgid ""
+"**Syndesis: Low code integration with Apache Camel**, [Kurt\n"
+"Stam](https://twitter.com/KurtStam), [follow-up\n"
+"link](https://github.com/syndesisio/syndesis-quickstarts#4-lets-run-some-quickstarts)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:162
+#, no-wrap
+msgid ""
+"**Introducing AtlasMap Data Mapper**, [Tomohisa\n"
+"Igarashi](https://twitter.com/igarashitm), [follow-up\n"
+"link](https://www.atlasmap.io/)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:165
+#, no-wrap
+msgid ""
+"**Camel from an outsider: Insights on the way to adoption**, [Jose Raez\n"
+"Rodriguez](https://twitter.com/JoshiRaez)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:166
+#, no-wrap
+msgid "{{< youtube id=\"Y40ebvXbQmU\" class=\"video\" >}}\n"
+msgstr ""

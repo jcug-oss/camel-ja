@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:1
+#, no-wrap
+msgid "What's new with Apache Camel 3 webinar."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:1
+#, no-wrap
+msgid "What's new with Apache Camel 3 webinar"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:10
+#, no-wrap
+msgid "Apache Camel is a leading open source integration framework that has been around for more than a decade.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:14
+#, no-wrap
+msgid ""
+"With the release of Apache Camel 3, the Camel family has been extended to include a full range of projects\n"
+"that are tailored to popular platforms including Spring Boot, Quarkus, Kafka, Kubernetes, and others;\n"
+"creating an ecosystem.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:17
+#, no-wrap
+msgid ""
+"Claus Ibsen and Andrea Cosentino presented \n"
+"[What's new in Camel 3, focusing on the most innovative Camel projects](https://www.youtube.com/watch?v=HS8fPyCkgyU) at the DevNation Tech Talk on June 5th.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:19
+#, no-wrap
+msgid "The presentation covered:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:25
+#, no-wrap
+msgid "Quick introduction to what is Camel\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:25
+#, no-wrap
+msgid "Overview of Camel 3 and the projects\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:25
+#, no-wrap
+msgid "Camel K with live demo\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:25
+#, no-wrap
+msgid "Camel Quarkus with live demo\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:25
+#, no-wrap
+msgid "Camel Kafka Connector with live demo\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:27
+#, no-wrap
+msgid "The recording (approx 35 min) of the [webinar is online on youtube](https://www.youtube.com/watch?v=HS8fPyCkgyU). \n"
+msgstr ""

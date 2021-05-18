@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2019/09/ApacheConNA-2019/index.md:1
+#, no-wrap
+msgid "Plenty of Camel at the ApacheCon 2019 in Las Vegas"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2019/09/ApacheConNA-2019/index.md:1
+#, no-wrap
+msgid "Camel at ApacheCon North America 2019"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/09/ApacheConNA-2019/index.md:11
+#, no-wrap
+msgid ""
+"Apache Camel is part of ApacheCon 2019 in North America this year celebrating\n"
+"the 20th year anniversary of Apache Software Foundation.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/09/ApacheConNA-2019/index.md:23
+#, no-wrap
+msgid ""
+"On the Integration track you will find out all about the [state of Apache\n"
+"Camel](https://www.apachecon.com/acna19/s/#/scheduledEvent/1141) from Claus\n"
+"Ibsen, Sami Adranly will present Camel based [data integration platform at Uber\n"
+"called Medley](https://www.apachecon.com/acna19/s/#/scheduledEvent/1034) Nicola\n"
+"Ferraro and Andrea Tarocchi will be talking about [Camel\n"
+"K](https://www.apachecon.com/acna19/s/#/scheduledEvent/1142) and [Camel K with\n"
+"Knative](https://www.apachecon.com/acna19/s/#/scheduledEvent/1059), Bob Paulin\n"
+"will make the cloud integration friendly in [Configuring Apache Camel for the\n"
+"Cloud](https://www.apachecon.com/acna19/s/#/scheduledEvent/1111) and Michael\n"
+"Costello will talk about [serverless integration with\n"
+"Camel](https://www.apachecon.com/acna19/s/#/scheduledEvent/1130).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2019/09/ApacheConNA-2019/index.md:28
+#, no-wrap
+msgid ""
+"Don’t miss talks and presentations about Apache Software Foundation projects,\n"
+"open source governance, community, and software development at the Flamingo\n"
+"Hotel in Las Vegas September 9-12! More details more details\n"
+"[here](https://www.apachecon.com/acna19/index.html).\n"
+msgstr ""

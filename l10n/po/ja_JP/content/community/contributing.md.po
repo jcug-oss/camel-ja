@@ -1,0 +1,489 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title ##
+#: upstream/content/community/contributing.md:1
+#, no-wrap
+msgid "Contributing to Apache Camel"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:3
+#, no-wrap
+msgid "First of all, thank you for having an interest in contributing to Apache Camel.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:6
+#, no-wrap
+msgid ""
+"Here are some guidelines on how to best approach the Apache Camel community and how to best apply yourself.\n"
+"There are many ways you can help make Camel a better piece of software - please dive in and help!\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/community/contributing.md:13
+#, no-wrap
+msgid "Try surfing the documentation - if something confuses you, [bring it to our attention or suggest an improvement](#working-on-the-documentation).\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/community/contributing.md:13
+#, no-wrap
+msgid "Download the code & try it out and see what you think.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/community/contributing.md:13
+#, no-wrap
+msgid "Browse the source code. Got an itch to scratch, want to tune some operation, or add some feature?\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/community/contributing.md:13
+#, no-wrap
+msgid "Want to do some hacking on Camel? Try surfing our [issue tracker](https://issues.apache.org/jira/browse/CAMEL) for open issues or features that need to be implemented. Take ownership of a particular issue, and try to fix it.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/community/contributing.md:13
+#, no-wrap
+msgid "If you are a new Camel rider and would like to help us, you can also find [some easy to resolve issues](https://issues.apache.org/jira/issues/?filter=12348073) or [issues we need help with](https://issues.apache.org/jira/issues/?filter=12348074).\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/community/contributing.md:13
+#, no-wrap
+msgid "Leave a comment on the issue to let us know you are working on it, and add yourself as a watcher to get informed about all modifications.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:15
+#, no-wrap
+msgid "Identify areas you can contribute first. You don't have to be an expert in an area, the Apache Camel developers are available to offer help and guidance.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:17
+#, no-wrap
+msgid "Introduce yourself on the [developer's mailing list] (#getting-in-touch), tell us what area of work or problem you wish to address in Camel. Create a draft of your solution, this can be simple 1-2 sentences on the change you wish to make. Try to be as specific as you can: include a short description of your intent, what you tried and what didn't work, or what you need help with. The best way of approaching the developers is by describing what you would like to work on and asking specific questions on how to get started. We'll do our best to guide you and help you make your contribution. \n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:19
+#, no-wrap
+msgid "We also participate in Google Summer of Code and Outreachy programs; for information about those look at those program websites. If you wish to participate in either of those follow the guidelines and schedule set by those programs. If you are unsure please reach out via official communication channels of those programs, or ask on the developer's mailing list for help.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/community/contributing.md:20
+#, no-wrap
+msgid "Getting in touch"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:23
+#, no-wrap
+msgid "Apache Camel is an Apache Software Foundation project, all communication is done in the open on the project mailing lists. You can [read more on the reasoning behind this](https://www.apache.org/foundation/mailinglists.html) to get a better understanding of this.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:25
+#, no-wrap
+msgid "All communication is subject to the [ASF Code of Conduct](https://www.apache.org/foundation/policies/conduct.html).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:29
+#, no-wrap
+msgid ""
+"There are various ways of communicating with the Camel community.\n"
+"For questions and guidance around contributing subscribe to the developer's mailing list by sending an e-mail to dev-subscribe@camel.apache.org.\n"
+"[This page](../mailing-list/) describes all the Camel mailing lists.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:31
+#, no-wrap
+msgid "We can also be reached on the Zulip chat at https://camel.zulipchat.com.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/community/contributing.md:32
+#, no-wrap
+msgid "If you find a bug or problem"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:37
+#, no-wrap
+msgid ""
+"Please raise a new issue in our [issue tracker](https://issues.apache.org/jira/browse/CAMEL). This way we’ll know when the issue has been fixed and we can ensure that the problem stays fixed in future releases. Please describe the bug/issue clearly, and add pictures/screenshots if necessary.\n"
+"If you can create a JUnit test case which demonstrates the problem, then your issue is more likely to be resolved quickly.\n"
+"For examples, take a look at some of the existing [unit test cases](https://github.com/apache/camel/tree/main/core/camel-core/src/test/java/org/apache/camel).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:39
+#, no-wrap
+msgid "**NOTE:** you will need to register to create or comment on JIRA issues. The \"Log In\" link in the upper right will allow you to login with an existing account or sign up for an account.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/community/contributing.md:40
+#, no-wrap
+msgid "Working on the documentation"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:44
+#, no-wrap
+msgid ""
+"Documentation is extremely important to help users make the most of Apache Camel and it's probably the area that needs the most help!\n"
+"So if you are interested in helping the documentation effort; whether it's just to fix a page here or there, correct a link or even write a tutorial or improve existing documentation please do dive in and help! Most of the documentation is managed in the same repositories as the related source code so the process is similar to working on the code. For more details please refer to [Improving the documentation in the User Manual](/manual/latest/improving-the-documentation.html).\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/community/contributing.md:45
+#, no-wrap
+msgid "Working on the code"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:48
+#, no-wrap
+msgid "We recommend working on the code from the [camel GitHub repository](https://github.com/apache/camel/). Camel subprojects are maintained in [separate repositories in GitHub](https://github.com/apache?q=camel).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:51
+#, no-wrap
+msgid ""
+"    git clone https://github.com/apache/camel.git\n"
+"    cd camel\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:53
+#, no-wrap
+msgid "**NOTE:** If you are an Apache Camel committer, then you may also clone the [ASF git repo](https://gitbox.apache.org/repos/asf/camel.git).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:55
+#, no-wrap
+msgid "Build the project with [Maven](http://maven.apache.org/download.html). Maven 3.6.x or newer is required to build Camel 3 or later. The following command will do a fast build.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:57
+#, no-wrap
+msgid "    mvn clean install -Pfastinstall\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:60
+#, no-wrap
+msgid ""
+"**NOTE:** You might need to build multiple times (if you get a build error) because sometimes maven fails to download all the required jars.\n"
+"Then import the projects into your workspace.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:62
+#, no-wrap
+msgid "You can find more details about building camel in the User Manual [Building](/manual/latest/building.html) page.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:64
+#, no-wrap
+msgid "If you aren't able to build a component after adding some new URI parameters due to `Empty doc for option: [OPTION], parent options: <null>` please make sure that you either added properly javadoc for get/set method or description in `@UriPath` annotation.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/community/contributing.md:66
+#, no-wrap
+msgid "Verify Karaf features"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:69
+#, no-wrap
+msgid "Camel-Karaf now lives in its own repository, so to verify a Karaf feature, you'll need to fork the [camel-karaf repository](https://github.com/apache/camel-karaf).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:72
+#, no-wrap
+msgid ""
+"To check a new Karaf feature or an existing one, you should run a verification on the features.xml file. You'll need to follow these steps:\n"
+"The first step is to run a full build of Camel. Then\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:75
+#, no-wrap
+msgid ""
+"    cd platform/karaf/features/\n"
+"    mvn clean install\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:77
+#, no-wrap
+msgid "If you modified a component/dataformat or updated a dependency in the main camel repository, you'll first need to build the main camel locally and then run a full build of camel-karaf.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/community/contributing.md:80
+#, no-wrap
+msgid "Testing the changes"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:83
+#, no-wrap
+msgid "If you need to implement tests for your changes (highly recommended!), you will probably need to handle 3 separate things: \n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/community/contributing.md:92
+#, no-wrap
+msgid "simulate the infrastructure required for the test (ie.: JMS brokers, Kafka, etc), \n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/community/contributing.md:92
+#, no-wrap
+msgid "writing testable code,\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:92
+#, no-wrap
+msgid ""
+"- the test logic itself. \n"
+"Naturally, there is no rule of\n"
+"thumb for how the code changes and test logic should be written. The [Testing](/manual/latest/testing.html) page in the User Manual provides detailed information and examples for writing Camel unit tests.\n"
+"With regard to simulating the test infrastructure, there is a\n"
+"growing library of reusable components that can be helpful. These components are located in the test-infra module and provide\n"
+"support for simulating message brokers, cloud environments, databases and much more.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:94
+#, no-wrap
+msgid "Using these components is usually as simple as registering them as JUnit 5 extensions:\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:97
+#, no-wrap
+msgid ""
+"    @RegisterExtension\n"
+"    static NatsService service = NatsServiceFactory.createService();\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:99
+#, no-wrap
+msgid "Then you can access the service by using the methods and properties provided by the services. This varies according to each service.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:101
+#, no-wrap
+msgid "If you need to implement a new test-infra service, check the [readme on the test-infra module](https://github.com/apache/camel/tree/main/test-infra#readme) for additional details.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/community/contributing.md:102
+#, no-wrap
+msgid "Running checkstyle"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:107
+#, no-wrap
+msgid ""
+"Apache Camel source code uses a coding style/format that can \n"
+"be verified for compliance using the checkstyle plugin.\n"
+"To enable source style checking with checkstyle, build Camel with the -Psourcecheck parameter:\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:109
+#, no-wrap
+msgid "    mvn clean install -Psourcecheck\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:111
+#, no-wrap
+msgid "Please remember to run this check on your code changes before submitting a patch or Github PR. You do not need to run this against the entire project, but only in the modules you modified. Let's say you do some code changes in the camel-ftp component, following which you can run the check from within this directory:\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:114
+#, no-wrap
+msgid ""
+"    cd camel-ftp\n"
+"    mvn clean install -Psourcecheck\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/community/contributing.md:116
+#, no-wrap
+msgid "Submitting your contribution"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:119
+#, no-wrap
+msgid ""
+"We gladly accept patches if you can find ways to improve, tune, or fix Camel in some way.\n"
+"Make sure you have followed the steps and guidelines outlined in this document. For larger changes, make sure that you have discussed them on the developer's mailing list or in the Jira issue tracker before hand. To get the best response from the team, make sure that the reasoning behind the contribution you wish to make is clear: outline the problem and explain your solution for it. Describe any changes you have made for which you are unaware or unsure of any consequences or side effects.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:121
+#, no-wrap
+msgid "Be mindful of the source checks, formatting and the structure of the git commit message we abide by. In particular, if there is a JIRA issue, reference it in the first line of your commit message, for example:\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:123
+#, no-wrap
+msgid "    CAMEL-9999: Some message goes here\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:126
+#, no-wrap
+msgid ""
+"Ensure that the unit tests include proper assertions, and not only system.out or logging.\n"
+"Please also avoid unnecessary changes, like reordering methods and fields, which will make your PR harder to review.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:128
+#, no-wrap
+msgid "Following these guidelines will help you in getting your contribution accepted. \n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/community/contributing.md:129
+#, no-wrap
+msgid "Creating a Pull Request at Github"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:133
+#, no-wrap
+msgid ""
+"The *preferred* way of submitting your contribution is to fork the camel Github repository and push your changes there.\n"
+"You can find many resources online explaining how to work on GitHub projects and how to submit work to these projects.\n"
+"After updating your private repository, create a Pull Request (PR). One of the committers then needs to accept your PR to bring the code into the ASF codebase. \n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:135
+#, no-wrap
+msgid "Expect that your Pull Request will receive a review and that you will need to respond and correspond to that via comments at GitHub.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:137
+#, no-wrap
+msgid "Stay engaged, follow and respond to comments or questions you might be asked.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:139
+#, no-wrap
+msgid "After the code has been included into the ASF codebase, you need to close the Pull Request because we can't do that...\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/community/contributing.md:140
+#, no-wrap
+msgid "Manual patch files"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:143
+#, no-wrap
+msgid "For smaller patches, you may also submit a patch file instead of using a Pull Request. To do this:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/community/contributing.md:147
+#, no-wrap
+msgid "[create a new JIRA issue](https://issues.apache.org/jira/browse/CAMEL)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/community/contributing.md:147
+#, no-wrap
+msgid "attach the patch or tarball as an attachment\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/community/contributing.md:147
+#, no-wrap
+msgid "**tick the Patch Attached** button on the issue\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:150
+#, no-wrap
+msgid ""
+"Most IDEs can create nice patches now very easily. e.g., on Eclipse, right-click on a file/directory, and select Team -> Create Patch. Then save the patch as a file and attach it to the corresponding JIRA issue.\n"
+"If you prefer working on the command-line, try the following to create the patch:\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:152
+#, no-wrap
+msgid "    diff -u Main.java.orig Main.java >> patchfile.txt\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:154
+#, no-wrap
+msgid "or\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:156
+#, no-wrap
+msgid "    git diff --no-prefix > patchfile.txt\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/community/contributing.md:159
+#, no-wrap
+msgid "Becoming a committer"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/community/contributing.md:162
+#, no-wrap
+msgid "Once you've become involved as above, we may well invite you to be a committer. See [How do I become a committer](/manual/latest/faq/how-do-i-become-a-committer.html) for more details.\n"
+msgstr ""

@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2021/04/camel-quarkus-release-1.8.1/index.md:1
+#, no-wrap
+msgid "Camel Quarkus 1.8.1 Released"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/camel-quarkus-release-1.8.1/index.md:11
+#, no-wrap
+msgid "<sub><sup>Image by <a href=\"https://www.flickr.com/photos/lanzen/5984113332\">Anders Lanzen</a> <a href=\"https://creativecommons.org/licenses/by-nc-sa/2.0\">CC BY-NC-SA 2.0</a></sup></sub>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/camel-quarkus-release-1.8.1/index.md:14
+#, no-wrap
+msgid ""
+"We are pleased to announce the release 1.8.1 of Camel Quarkus. This is a patch release with 14 improvements and fixes.\n"
+"For more details please take a look at the [release notes](/releases/q-1.8.1/).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/04/camel-quarkus-release-1.8.1/index.md:15
+#, no-wrap
+msgid "Many thanks to all all contributors!\n"
+msgstr ""
