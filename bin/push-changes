@@ -8,7 +8,9 @@ cd $L10N_HOME
 source config/l10n-kit.conf
 
 git add upstream
-git add l10n
+if [ -z "l10n" ]; then
+    git add l10n
+fi
 
 set +e
 git diff --cached --exit-code --quiet
