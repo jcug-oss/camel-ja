@@ -20,76 +20,64 @@ msgstr ""
 #: upstream/layouts/index.html:1
 #, fuzzy
 msgid "{{ partial \"header.html\" . }}"
-msgstr "{{ partial \"header.html\" .}}"
+msgstr "{{ partial \"header.html\" . }}"
 
 #. type: Content of: <header><div><h1>
 #: upstream/layouts/index.html:5
-#, fuzzy
 msgid "Apache Camel"
 msgstr "Apache Camel"
 
 #. type: Content of: <header><div><p>
 #: upstream/layouts/index.html:7
-#, fuzzy
 msgid "Camel is an Open Source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data."
-msgstr "Camelは、オープンソースの統合フレームワークで、データを消費または生成する様々なシステムを迅速かつ容易に統合することができます。"
+msgstr "Camelはオープンソースのインテグレーションフレームワークです。データの入出力を行う様々なシステムを迅速かつ容易に統合することができます。"
 
 #. type: Content of: <header><div><p>
 #: upstream/layouts/index.html:11
-#, fuzzy
 msgid "<a class=\"button dark\" href=\"/manual/latest/getting-started.html\">Get Started</a> <a class=\"button light\" href=\"/manual/latest/faq/what-is-camel.html\">What is Camel?</a>"
-msgstr "<a class=\"button dark\" href=\"/manual/latest/getting-started.html\">はじめに</a> <a class=\"button light\" href=\"/manual/latest/faq/what-is-camel.html\">Camelとは？</a>"
+msgstr "<a class=\"button dark\" href=\"/manual/latest/getting-started.html\">始めよう</a> <a class=\"button light\" href=\"/manual/latest/faq/what-is-camel.html\">Camelとは？</a>"
 
 #. type: Attribute 'alt' of: <header><img>
 #: upstream/layouts/index.html:14
-#, fuzzy
 msgid "Computer with gears depicting data processing"
-msgstr "データ処理を表す歯車が付いたコンピュータ"
+msgstr "コンピュータとデータ処理を表す歯車"
 
 #. type: Content of: <div><h2>
 #: upstream/layouts/index.html:18
-#, fuzzy
 msgid "What's New?"
-msgstr "What's New?"
+msgstr "最新情報"
 
 #. type: Content of: <section><ul>
 #: upstream/layouts/index.html:23
-#, fuzzy
 msgid "{{with .Site.GetPage \"section\" \"blog\"}} {{range .Pages | first 3}}"
-msgstr "{{with .Site.GetPage \"section\" \"blog\"}}。{{range .Pages | first 3}}。"
+msgstr "{{with .Site.GetPage \"section\" \"blog\"}} {{range .Pages | first 3}}"
 
 #. type: Content of: <section><ul><li><time><data>
 #: upstream/layouts/index.html:29
-#, fuzzy
 msgid "{{ dateFormat \"2\" .PublishDate }}"
-msgstr "{{ dateFormat \"2\" .PublishDate }}。"
+msgstr "{{ dateFormat \"2\" .PublishDate }}"
 
 #. type: Content of: <section><ul><li><time><data>
 #: upstream/layouts/index.html:32
-#, fuzzy
 msgid "{{ dateFormat \"Jan\" .PublishDate }} {{ dateFormat \"2006\" .PublishDate }}"
-msgstr "{{ dateFormat \"Jan\" .PublishDate }}。{{ dateFormat \"2006\" .PublishDate }}。"
+msgstr "{{ dateFormat \"Jan\" .PublishDate }} {{ dateFormat \"2006\" .PublishDate }}"
 
 #. type: Content of: <section><ul><li><div><h2>
 #: upstream/layouts/index.html:37
-#, fuzzy
 msgid "{{ .Title }}"
-msgstr "{{ .Title }}。"
+msgstr "{{ .Title }}"
 
 #. type: Content of: <section><ul><li><div><p>
 #: upstream/layouts/index.html:38
-#, fuzzy
 msgid "{{ .Params.preview }}... <a href=\"{{ .RelPermalink }}\">Read More</a>"
-msgstr "{{ .Params.preview }}...<a href=\"{{ .RelPermalink }}\">続きを読む</a>"
+msgstr "{{ .Params.preview }}... <a href=\"{{ .RelPermalink }}\">続きを読む</a>"
 
 #. type: Content of: <section><ul>
 #: upstream/layouts/index.html:41
-#, fuzzy
 msgid "{{end}} {{end}}"
-msgstr "{{end}}{{end}}となります。"
+msgstr "{{end}} {{end}}"
 
 #. type: Content of: outside any tag (error?)
 #: upstream/layouts/index.html:46
-#, fuzzy
 msgid "{{ .Content }} {{ partial \"footer.html\" . }}"
-msgstr "{{ .コンテンツ }}。{{ partial \"footer.html\" .}}"
+msgstr "{{ .Content }} {{ partial \"footer.html\" . }}"
