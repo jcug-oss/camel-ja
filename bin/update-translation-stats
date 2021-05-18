@@ -7,11 +7,15 @@ cd $L10N_HOME
 
 source config/l10n-kit.conf
 
+STATS_FILE=l10n/stats/translation.csv
+
 # For initial run
 mkdir -p l10n/stats
 
-echo "Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement" > l10n/stats/translation.csv
-pocount --csv `find l10n/po/ja_JP/docs/ -name "*.adoc.po"`  | awk -F ',' 'NR>1 && $9>0 {print $1 "," $5 "," $9 "," $6 "," $10 "," 100-int($6*100/$10) "%"}' | sort --reverse -t, -nk6 >> l10n/stats/translation.csv
-pocount --csv `find l10n/po/ja_JP/dsl/ -name "*.adoc.po"` | awk -F ',' 'NR>1 && $9>0 {print $1 "," $5 "," $9 "," $6 "," $10 "," 100-int($6*100/$10) "%"}' | sort --reverse -t, -nk6 >> l10n/stats/translation.csv
-pocount --csv `find l10n/po/ja_JP/core/ -name "*.adoc.po"` | awk -F ',' 'NR>1 && $9>0 {print $1 "," $5 "," $9 "," $6 "," $10 "," 100-int($6*100/$10) "%"}' | sort --reverse -t, -nk6 >> l10n/stats/translation.csv
-pocount --csv `find l10n/po/ja_JP/components/ -name "*.adoc.po"` | awk -F ',' 'NR>1 && $9>0 {print $1 "," $5 "," $9 "," $6 "," $10 "," 100-int($6*100/$10) "%"}' | sort --reverse -t, -nk6 >> l10n/stats/translation.csv
+function run-pocount() {
+    pocount --csv `find $1 -name "*.po"` | awk -F ',' 'NR>1 && $9>0 {print $1 "," $5 "," $9 "," $6 "," $10 "," 100-int($6*100/$10) "%"}' | sort --reverse -t, -nk6 >> $STATS_FILE
+}
+
+echo "Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement" > $STATS_FILE
+run-pocount "l10n/po/ja_JP/content/"
+run-pocount "l10n/po/ja_JP/layouts/"
