@@ -11,7 +11,7 @@ mkdir -p vendor
 curl -L https://github.com/doc-l10n-kit/quarkus-adoc-po-translator/releases/download/$QUARKUS_ADOC_PO_TRANSLATOR_VERSION/quarkus-adoc-po-translator-runner.jar -o vendor/quarkus-adoc-po-translator-runner.jar
 
 function translate() {
-    find $1 -name "*.po" | xargs java -jar vendor/quarkus-adoc-po-translator-runner.jar --srcLang=en --dstLang=ja
+    find $1 -name "*.po" | xargs java -Dtranslator.engine=deepL -jar vendor/quarkus-adoc-po-translator-runner.jar translate --srcLang=en --dstLang=ja --asciidoctor=false
 }
 
 translate "l10n/po/ja_JP/content/"
