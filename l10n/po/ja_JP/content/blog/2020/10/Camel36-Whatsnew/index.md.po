@@ -18,349 +18,380 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Details of what we have done in the Camel 3.6 release."
-msgstr ""
+msgstr "Camel 3.6のリリースで行われたことの詳細です。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3.6 What's New"
-msgstr ""
+msgstr "Apache Camel 3.6 What's New"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3.6 has just been released.\n"
-msgstr ""
+msgstr "Apache Camel 3.6がリリースされました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This is a non-LTS release which means we will not provide patch releases but use the release _as-is_.\n"
 "The next planned LTS release is 3.7 scheduled towards the end of the year.\n"
 msgstr ""
+"これは非LTSリリースで、パッチリリースは行わず、リリースをそのまま使用することを意味します。\n"
+"次回のLTSリリースは、年末に予定されている3.7です。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "So what's in this release?"
-msgstr ""
+msgstr "では、今回のリリースには何が入っているのでしょうか？"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release introduces a set of new features and noticeable improvements that we will cover in this blog post.\n"
-msgstr ""
+msgstr "今回のリリースでは、一連の新機能と顕著な改善点が導入されており、このブログ記事でご紹介します。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Spring Boot"
-msgstr ""
+msgstr "Spring Boot"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We have upgraded to the latest release at this time which is Spring Boot 2.3.4.\n"
 "Support for Spring Boot 2.4 is planned for Camel 3.7.\n"
 msgstr ""
+"現時点での最新リリースであるSpring Boot 2.3.4にアップグレードしました。\n"
+"Camel 3.7ではSpring Boot 2.4のサポートが予定されています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Optimizations"
-msgstr ""
+msgstr "最適化"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "To speed up the startup we switched to a new UUID generator. The old (classic) generator was inherited from Apache ActiveMQ which needed to ensure its ids were unique in a network of brokers, and therefore to ensure this the generator was using the hostname as the prefix in the id. This required on startup to do network access to obtain this information which costs a little time. Also depending on networks this can be more restrictive and delay the startup. The new generator is a pure in-memory fast generator that was used by Camel K and Camel Quarkus.\n"
-msgstr ""
+msgstr "起動を高速化するために、新しいUUIDジェネレータに切り替えました。従来のジェネレーターはApache ActiveMQから引き継いだもので、ブローカーのネットワーク内でIDが一意であることを保証する必要があり、そのためにジェネレーターはホスト名をIDのプレフィックスとして使用していました。そのため、ジェネレーターはホスト名をIDのプレフィックスとして使用していました。この情報を得るために、起動時にネットワークアクセスを行う必要があり、少し時間がかかりました。また、ネットワークによっては、これがより制限され、起動が遅れることもあります。新しいジェネレータは、Camel KやCamel Quarkusで使用されていた純粋なインメモリの高速ジェネレータです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We also identified a few other spots during route initialization. For example, one small change was to avoid doing some regular expression masking on route endpoints which weren't necessary anymore.\n"
-msgstr ""
+msgstr "また、ルートの初期化時にもいくつかの問題がありました。例えば、小さな変更点としては、もう必要のないルートのエンドポイントでの正規表現によるマスキングを行わないようにしました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Now the bigger improvements are in the following areas\n"
-msgstr ""
+msgstr "現在、大きな改善点は以下の部分です。\n"
 
 #. type: Title ####
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Avoid throwing exceptions"
-msgstr ""
+msgstr "例外を発生させない"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We identified on spring runtimes that Camel would query the spring bean registry for known beans by id, which the Spring framework would throw a NoSuchBeanDefinitionException if the bean is not present. As Camel does a bit of optional bean discovery during bootstrap, we found a way to avoid this which prevents this.\n"
-msgstr ""
+msgstr "Springのランタイムでは、CamelがSpringのBeanレジストリにIDで既知のBeanを問い合わせ、そのBeanが存在しない場合にSpringフレームワークがNoSuchBeanDefinitionExceptionを投げることが確認されました。Camelはブートストラップ時に任意のBeanを発見するため、これを回避する方法を見つけました。\n"
 
 #. type: Title ####
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Singleton languages"
-msgstr ""
+msgstr "シングルトン言語"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Another related problem is that in Camel 3 due to the modularization then some of the languages (bean, simple, and others) have been changed from being a singleton to prototype scoped. This is one of the biggest problems and we had a Camel user report a problem with thread contention in a high concurrent use-case would race for resolving languages (they are prototype scoped). So you would have this problem, and because the language resolver would query the registry first then Spring would throw `NoSuchBeanDefinitionException`, and then Camel would resolve the language via its own classpath resolver. So all together this cost performance. We can see this in the screenshots from the profiler in the following.\n"
-msgstr ""
+msgstr "もう一つの関連する問題は、Camel 3ではモジュール化により、いくつかの言語（bean、simpleなど）がシングルトンからプロトタイプスコープに変更されたことです。これは最大の問題の一つで、あるCamelユーザーから、同時実行率の高いユースケースでは、言語の解決のためにスレッドの競合が発生するという問題が報告されました（プロトタイプスコープになっています）。言語リゾルバが最初にレジストリに問い合わせを行うため、Springは「NoSuchBeanDefinitionException」をスローし、Camelは独自のクラスパスリゾルバを介して言語を解決することになります。このようにして、パフォーマンスが低下します。以下のプロファイラのスクリーンショットでこれを見ることができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"350-blocked.png\" \"Camel 3.5 Blocked Threads\" >}}\n"
 msgstr ""
+"< image \"350-blocked.png\" \"Camel 3.5 Blocked Threads\" >{{}}\n"
+"</image>"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"360-blocked.png\" \"Camel 3.6 Blocked Threads\" >}}\n"
 msgstr ""
+"< image \"360-blocked.png\" \"Camel 3.6 Blocked Threads\" >{{}}\n"
+"</image>"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The top screenshot is using Camel 3.5 and the bottom 3.6. At the top, we can see the threads are blocked in Camel's `resolveLanguage` method. And in 3.6 then it's the log4j logger that is blocking for writing to the log file. Both applications are using the same Camel application and have been running for about 8 minutes.\n"
-msgstr ""
+msgstr "上のスクリーンショットはCamel 3.5、下のスクリーンショットはCamel 3.6を使用しています。上のスクリーンショットでは、スレッドがCamelの`resolveLanguage`メソッドでブロックされているのがわかります。そして3.6では、ログファイルへの書き込みをブロックしているのはlog4jのロガーです。どちらのアプリケーションも同じCamelアプリケーションを使用しており、約8分間実行しています。\n"
 
 #. type: Title ####
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Reduce object allocations"
-msgstr ""
+msgstr "オブジェクトの割り当てを減らす"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The next screenshots are showing a sample of the object allocations.\n"
-msgstr ""
+msgstr "次のスクリーンショットは、オブジェクトの割り当てのサンプルを示しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"350-allocations.png\" \"Camel 3.5 Average Object Allocations Per Seconds\" >}}\n"
 msgstr ""
+"< image \"350-allocations.png\" \"Camel 3.5 Average Object Allocations Per Seconds\" >{{}}\n"
+"</image>"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"360-allocations.png\" \"Camel 3.6 Average Object Allocations Per Seconds\" >}}\n"
 msgstr ""
+"< image \"360-allocations.png\" \"Camel 3.6 Average Object Allocations Per Seconds\" >{{}}\n"
+"</image>"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:58
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "With Camel 3.5 we are average about 1000 obj/sec and with 3.6 we are down to about a 1/3th.\n"
-msgstr ""
+msgstr "Camel 3.5では平均約1000obj/secでしたが、3.6では約1/3になりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "One of the improvements to help reduce the object allocations was how parameters to languages was changed from using a Map to a plain object array. The Map takes up more memory and object allocations than a single fixed object array. \n"
-msgstr ""
+msgstr "オブジェクトの割り当てを減らすための改良点のひとつは、言語へのパラメータをMapから単なるオブジェクト配列に変更したことです。Mapは、単一の固定オブジェクト配列よりも多くのメモリとオブジェクトの割り当てを必要とします。 \n"
 
 #. type: Title ####
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Do as much init as possible"
-msgstr ""
+msgstr "なるべく多くのinitを行う"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:64
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Another performance improvement that aids during runtime was that we moved as much we could from the evaluation to the initialization phase in the Camel languages (simple, bean, etc.). We did this by introducing the init phase and ensuring CamelContext was carried around in the interns so we can use the context during the init phase, where its really needed. This ensures the runtime evaluation is as fast as possible.\n"
-msgstr ""
+msgstr "ランタイムに役立つもう一つのパフォーマンス改善は、Camel言語（simple、beanなど）で評価から初期化フェーズにできるだけ移行したことです。これは、initフェーズを導入し、CamelContextがインターンで持ち運ばれるようにすることで、本当に必要とされるinitフェーズでコンテキストを使用できるようにしました。これにより、ランタイムの評価が可能な限り速くなりました。\n"
 
 #. type: Title ####
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:65
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Other smaller optimizations"
-msgstr ""
+msgstr "その他の細かい最適化"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:68
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We also improved the simple language to be a bit smarter in its binary operators (such as header.foo > 100). Now the simple language has stronger types for numeric and boolean types during its parsing, which allows us to know better from the right and left hand side of the binary operator to do type coercion so the types are comparable by the JVM. Before we may end up with falling back to converting to string types on both sides. And there is more to come, I have some ideas how to work on a compiled simple language.\n"
-msgstr ""
+msgstr "また、シンプルな言語の二項演算子（header.foo &gt; 100など）も少し賢くなりました。これにより、バイナリ演算子の右辺と左辺の型をより正確に把握して型の強制を行うことができ、JVMでの型の比較が可能になりました。これにより、二項演算子の右手側と左手側の型がより明確になり、JVMによる型の比較が可能になります。まだまだ続きます。コンパイルされたシンプルな言語に取り組むためのアイデアがいくつかあります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:70
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The screenshots below show a chart with the CPU, object allocations, and thrown exceptions.\n"
-msgstr ""
+msgstr "以下のスクリーンショットは、CPU、オブジェクトの割り当て、およびスローされた例外のチャートを示しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:72
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"350-performance.png\" \"Camel 3.5 Performance Charts\" >}}\n"
 msgstr ""
+"< image \"350-performance.png\" \"Camel 3.5 Performance Charts\" >{{}}\n"
+"</image>"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:74
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"360-performance.png\" \"Camel 3.6 Performance Charts\" >}}\n"
 msgstr ""
+"< image \"360-performance.png\" \"Camel 3.6 Performance Charts\" >{{}}\n"
+"</image>"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:77
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As we can see this summarise what was mentioned was done to optimize. The number of exceptions has been reduced to 0 at runtime. There is about 3500 thrown during bootstrap (that is Java JAXB which is used for loading the spring XML file with the Camel routes used for the sample application). We do have a fast XML loader in Camel that is not using JAXB.\n"
-msgstr ""
+msgstr "これを見ると、最適化のために何が行われたかがわかります。実行時に発生する例外の数は0になりました。起動時には約3,500件の例外が発生しています（これはJavaのJAXBで、サンプルアプリケーションに使用されているCamelルートでspring XMLファイルを読み込むのに使用されています）。Camelには、JAXBを使用しない高速なXMLローダーがあります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:79
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Another improvement we did was to build a source code generator for a new `UriFactory` which allows each component to quickly build dynamic endpoint URIs from a `Map` of parameters. The previous solution was to use `RuntimeCamelCatalog` that was more generic and required loading component metadata from JSON descriptor files. A few components use this to optimize the `toD` (such as HTTP components). By this change, we avoid the runtime catalog as a dependency (reduce JAR size) and the source code generated URI factory is much faster (its speedy plain Java). However, the sample application used for this blog did not use `toD` nor the `UriFactory`.\n"
-msgstr ""
+msgstr "もう一つの改善点は、新しい `UriFactory` のソースコード・ジェネレータを構築したことです。これにより、各コンポーネントは、パラメータの `Map` から動的なエンドポイント URI を素早く構築することができます。以前のソリューションは、より汎用的で、JSON記述子ファイルからコンポーネントのメタデータを読み込む必要のある`RuntimeCamelCatalog`を使用していました。いくつかのコンポーネントは、`toD`を最適化するためにこれを使用します(HTTPコンポーネントなど)。この変更により、依存関係にあるランタイムカタログを避けることができ(JARのサイズを小さくすることができ)、ソースコードで生成されるURIファクトリがより高速になりました(その高速なプレーンJava)。ただし、このブログで使用しているサンプルアプリケーションでは、`toD`も`UriFactory`も使用していません。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Source from [external blog post](http://www.davsclaus.com/2020/10/apache-camel-36-more-camel-core.html)\n"
-msgstr ""
+msgstr "出典：[外部ブログ記事](http://www.davsclaus.com/2020/10/apache-camel-36-more-camel-core.html)\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:83
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "API Components overhaul"
-msgstr ""
+msgstr "APIコンポーネントのオーバーホール"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:86
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There are several API based components which are source code generated from _external API_. We have overhauled\tthe code generator which now scrapes and includes documentation and keep the documentation up to date as well.\n"
-msgstr ""
+msgstr "APIベースのコンポーネントの中には、外部のAPIからソースコードを生成するものがいくつかあります。私たちはコードジェネレーターを改良し、ドキュメントをスクレイピングして含めるようにし、ドキュメントも最新の状態に保つようにしました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:88
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Also, we include additional metadata for Camel tooling so they can provide code assistance when Camel end-users are using these API based components. Some of those external APIs are huge and you can have hundreds of APIs.\n"
-msgstr ""
+msgstr "また、CamelのエンドユーザーがこれらのAPIベースのコンポーネントを使用する際に、Camelツールがコードアシスタンスを提供できるように、Camelツール用の追加のメタデータも含まれています。これらの外部APIの中には巨大なものもあり、何百ものAPIがある場合もあります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:90
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The API based components are: [AS2](/components/latest/as2-component.html), [Box](/components/latest/box-component.html), [Braintree](/components/latest/braintree-component.html), [FHIR](/components/latest/fhir-component.html), Google [Calendar](/components/latest/google-calendar-component.html)/[Drive](/components/latest/google-drive-component.html)/[Mail](/components/latest/google-mail-component.html)/[Sheets](/components/latest/google-sheets-component.html), [Olingo](/components/latest/olingo4-component.html), [Twillio](/components/latest/twilio-component.html), and [Zendesk](/components/latest/zendesk-component.html).\n"
-msgstr ""
+msgstr "APIベースのコンポーネントです。AS2](/components/latest/as2-component.html)、[Box](/components/latest/box-component.html)、[Braintree](/components/latest/braintree-component.html)、[FHIR](/components/latest/fhir-component.html)。html)、[FHIR](/components/latest/fhir-component.html)、Google [Calendar](/components/latest/google-calendar-component.html)/[Drive](/components/latest/google-drive-component.html)/[Mail](/components/latest/google-mail-component.html)/[Sheets](/components/latest/google-sheets-component.html)、[Olingo](/components/latest/olingo4-component.html)、[Twillio](/components/latest/twilio-component.html)、[Zendesk](/components/latest/zendesk-component.html)などがあります。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:92
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Reduce reflection"
-msgstr ""
+msgstr "反射を減らす"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:95
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Yet another release where we reduced using reflections in a few spots in Camel core and in some of the components.\n"
-msgstr ""
+msgstr "今回のリリースでは、Camelコアといくつかのコンポーネントの中で、反射の使用を減らしました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:97
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Language precompilation"
-msgstr ""
+msgstr "言語プリコンパイル"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "As mentioned in the optimization section we moved initialization of languages to an earlier phase.\n"
 "Camel now pre compile languages when its applicable, for example JSonPath, and XPath language.\n"
 msgstr ""
+"最適化の項で述べたように、言語の初期化をより早い段階で行うようにしました。\n"
+"Camelでは、JSonPathやXPathなどの言語が適用可能な場合、言語を事前にコンパイルするようになりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:104
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "And speaking of pre-compiled languages then Camel 3.7 introduces the [jOOR language](/components/latest/languages/joor-language.html)\n"
 "to use runtime compile Java in the Camel DSL. A compiled simple language is also on the roadmap.\n"
 msgstr ""
+"プリコンパイルされた言語といえば、Camel 3.7では[jOOR言語](/components/latest/languages/joor-language.html)が導入されました。\n"
+"が導入され、ランタイムコンパイルされたJavaをCamel DSLで使用できるようになりました。また、コンパイル済みのシンプルな言語もロードマップにあります。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:106
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Optimized components startup"
-msgstr ""
+msgstr "コンポーネントの起動を最適化"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:110
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The camel core has been optimized in Camel 3 to be small, slim, and fast on startup. This benefits Camel Quarkus which\n"
 "can do built time optimizations that take advantage of the optimized camel core.\n"
 msgstr ""
+"Camel 3では、Camelコアが最適化され、小さく、スリムで、起動が速いものになりました。これにより、Camel Quarkusは\n"
+"は、最適化されたキャメルコアを利用したビルドタイム最適化を行うことができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:114
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We have continued this effort in the Camel components where whenever possible initialization is moved ahead\n"
 "to an earlier phase during startup, that allows enhanced built time optimizations. As there are a lot of Camel\n"
 "components then this work will progress over the next couple of Camel releases.\n"
 msgstr ""
+"この取り組みはCamelコンポーネントでも継続しており、起動時の初期化を可能な限り前倒しすることで\n"
+"初期化は可能な限り起動時の早い段階に移され、ビルド時間の最適化が図られています。多くのCamelコンポーネントがあるので\n"
+"コンポーネントがたくさんあるので、この作業は次の数回のCamelのリリースで進むでしょう。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:116
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New components"
-msgstr ""
+msgstr "新しいコンポーネント"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:119
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This was a historical slow release in terms of new components. In fact there is only 1 new component:\n"
-msgstr ""
+msgstr "今回のリリースは、新しいコンポーネントという点では歴史的なスローリリースでした。実際のところ、新しいコンポーネントは1つしかありません。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:121
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS2-EventBridge: Manage AWS EventBridge cluster instances\n"
-msgstr ""
+msgstr "AWS2-EventBridge。AWS EventBridgeのクラスター・インスタンスの管理\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:124
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "You can read more about the new AWS EventBridge component\n"
 "in the [blog announcement](/blog/2020/10/camel-aws2-eventbridge-intro/). \n"
 msgstr ""
+"新しいAWS EventBridgeコンポーネントの詳細については\n"
+"を[ブログ告知](/blog/2020/10/camel-aws2-eventbridge-intro/)で紹介しています。 \n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:126
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Upgrading"
-msgstr ""
+msgstr "アップグレード"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:130
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Make sure to read the [upgrade guide](/manual/latest/camel-3x-upgrade-guide-3_6.html) if you\n"
 "are upgrading to this release from a previous Camel version.\n"
 msgstr ""
+"前のバージョンのCamelからこのリリースにアップグレードする場合は、[アップグレードガイド](/manual/latest/camel-3x-upgrade-guide-3_6.html)を必ずお読みください。\n"
+"アップグレードガイド](/manual/latest/camel-3x-upgrade-guide-3_6 html)をご覧ください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:132
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Release Notes"
-msgstr ""
+msgstr "リリースノート"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:135
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "You can find more information about this release in the [release notes](/releases/release-3.6.0/),\n"
 "with a list of JIRA tickets resolved in the release.\n"
 msgstr ""
+"このリリースに関する詳細は、[リリースノート](/releases/release-3.6.0/)に記載されています。\n"
+"このリリースで解決されたJIRAチケットのリストも掲載されています。\n"

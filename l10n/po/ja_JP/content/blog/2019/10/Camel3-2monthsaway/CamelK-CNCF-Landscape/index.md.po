@@ -18,24 +18,26 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/CamelK-CNCF-Landscape/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel K is now added to the CNCF Interactive Serverless Landscape"
-msgstr ""
+msgstr "Apache Camel KがCNCF Interactive Serverless Landscapeに追加されました。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/CamelK-CNCF-Landscape/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel K on CNCF Serverless Landscape"
-msgstr ""
+msgstr "Camel K on CNCF Serverless Landscape"
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/CamelK-CNCF-Landscape/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The [Apache Camel K](/projects/camel-k/) project is now listed on the CNCF (Cloud Native Computing Foundation) [interactive landscape](https://landscape.cncf.io/format=serverless&zoom=150); which lists all known open source projects that works with kubernetes and cloud platforms. \n"
-msgstr ""
+msgstr "Apache Camel K](/projects/camel-k/)プロジェクトは、CNCF (Cloud Native Computing Foundation) [interactive landscape](https://landscape.cncf.io/format=serverless&amp;zoom=150)に掲載されています。CNCFは、kubernetesやクラウドプラットフォームで動作する、すべての既知のオープンソースプロジェクトをリストアップしています。 \n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/CamelK-CNCF-Landscape/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"camelk-landscape.png\" \"Camel K CNCF landscape\" >}}\n"
 msgstr ""
+"< image \"camelk-landscape.png\" \"Camel K CNCF landscape\" >{{}}\n"
+"</image>"

@@ -18,19 +18,19 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/community/user-stories.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "User Stories"
-msgstr ""
+msgstr "ユーザーストーリー"
 
 #. type: Plain text
 #: upstream/content/community/user-stories.md:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This page is intended as a place to collect user stories and feedback on Apache Camel. If you are using or have tried Apache Camel please add an entry or comment; or post to the mailing list.\n"
-msgstr ""
+msgstr "このページは、Apache Camelに関するユーザーストーリーやフィードバックを集めるための場所です。Apache Camelを使用している、または使用したことがある方は、エントリーやコメントを追加したり、メーリングリストに投稿してください。\n"
 
 #. type: Plain text
 #: upstream/content/community/user-stories.md:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "{{< table >}}\n"
 "| Company, Product, or Project  | Description |\n"
@@ -75,16 +75,58 @@ msgid ""
 "|[Platform6](https://www.platform6.io/) | Decentralised application framework for blockchains, called Platform 6 which heavily uses Apache Camel and Web3j.|\n"
 "{{< /table >}}\n"
 msgstr ""
+"< table ><table >{{}}\n"
+"| 会社名、製品名、またはプロジェクト名 | 説明名\n"
+"|-------------------------------|------------|\n"
+"|[Apache ActiveMQ](http://activemq.apache.org)｜Camelを使用して、[ActiveMQ broker](http://activemq.apache.org/enterprise-integration-patterns.html)に[Enterprise Integration Patterns](../../components/latest/eips/enterprise-integration-patterns.html)のサポートを追加します。ActiveMQブローカを使用している場合、*conf/camel.xml*を見ると、いくつかのルーティングルールの例がある&lt;camelContext&gt;があります。ActiveMQとcamelの[Components](../../manual/latest/component.html)の橋渡しにも使えます。\n"
+"|[Apache ServiceMix](https://servicemix.apache.org/home.html)｜JBIエンドポイント間をルーティングするために[JBIサービス](https://servicemix.apache.org/docs/4.4.x/jbi/components/index.html)またはOSGiのいずれかで使用するための[JBIサービス](http://servicemix.apache.org/servicemix-camel.html)ユニットとしてルーティングエンジンとしてCamelを使用します。tutorial](https://servicemix.apache.org/3-beginner-using-apache-camel-inside-servicemix.html)または[example](https://servicemix.apache.org/camel-example.html)を参照してください。 *** TODO, servicemix camel links broken ***|。\n"
+"|[Apache Ignite](https://ignite.apache.org/)|Apache Ignite In-Memory Data Fabricは、大規模なデータセットをリアルタイムに、従来のディスクベースやフラッシュ技術よりも数桁早く計算・取引するための、高性能な統合分散型インメモリプラットフォームです。\n"
+"|[Red Hat integration](https://www.redhat.com/en/technologies/jboss-middleware/fuse)｜Red Hatは、Camel、ActiveMQ、CXF、ServiceMix、Karaf、[Fabric8](http://fabric8.io)、[Hawtio](http://hawt.io)を含むESBの商用ディストリビューションを提供しています。\n"
+"|[Open eHealth Integration Platform](https://openehealth.org/display/ipf2/Home)｜Open eHealth Integration Platform (IPF)は、Apache Camelのルーティングおよびメディエーションエンジンを拡張したものです。IPFは、Groovyプログラミング言語をベースにしたアプリケーションプログラミング層を持ち、メッセージ処理とeHealth領域のシステム接続を包括的にサポートしています。\n"
+"|[Camel SOAP](https://code.google.com/p/camel-soap)｜Apache Camel用のゼロコードのWSDLベースのSOAPクライアントコンポーネントです。\n"
+"|[PrismTech](https://www.opensplice.com/section-item.asp?id=964)｜PrismTechは、オープンソースのOpenSplice DDS Connector for Apache Camelのリリースにより、システム統合とSOA接続を簡素化する。\n"
+"|[Capital Region of Denmark](https://www.regionh.dk/English/English.htm)｜プロプライエタリなESBをオープンソースのApache Camelに切り替えることを選択。\n"
+"|[Arla Foods](https://www.arla.com)｜Camelを使用してビジネスバックエンドと、農家が配達されたミルクの品質に関する情報にアクセスするためのウェブアプリケーションを統合。このアプリケーションはヨーロッパの多くの国で使用されています。\n"
+"|[Akka](https://akkasource.org)｜Akka は Apache Camel を使用して、[actors](https://doc.akkasource.org/actors)用の追加メッセージングインターフェースを実装しています。あらゆる Camel [component](../../components/latest/index.html) を使用して、Akka アクターからメッセージを送受信することができます。詳細については、[akka-camel](https://doc.akkasource.org/camel)拡張モジュールのドキュメントを参照してください。\n"
+"|[JBoss Drools](https://www.drools.org)|[Drools](https://blog.athico.com/2010/07/declarative-rest-services-for-drools.html)は Camel と統合しています。\n"
+"|[JBoss ESB](https://jbossesb.jboss.org/jbossesb)｜JBoss ESB は Camel と統合します。\n"
+"|[Simple-dm](https://code.google.com/archive/p/simple-dm)｜Simple Dynamic Module System for Maven は Camel.と統合されています。\n"
+"|[JOnAS Application Server](https://jonas.ow2.org/view/Documentation/JOnAS%20Camel)｜JOnAS Application Server は Camel と統合されています。\n"
+"|[Active BAM](https://code.google.com/p/active-bam)｜ServiceMix、CamelおよびActiveMQのためのWebコンソールビジネスアクティビティモニタリング。\n"
+"|[TouK](https://touk.pl/toukeu/rw/pages/index.en.do)｜ミドルウェア統合プラットフォームとして、Apache Camel、[Apache ODE](https://ode.apache.org/)、[Apache HISE](https://incubator.apache.org/hise/)とともにApache ServiceMix(3.xおよび4.x)を使用しており、ポーランドの携帯電話事業者である[Play](https://www.playmobile.pl)への導入が最大の実績です。\n"
+"|[camel-camelpe](https://github.com/obergner/camelpe)｜A CDI Portable Extension for Apache Camel(英語)\n"
+"|[CaerusOne](http://code.google.com/p/caerusone)｜CaerusOneは、高度なアプリケーション統合フレームワーク、SDK、サーバ・アプリケーション・サーバです。コアプロセスエンジンの一部としてApache Camelのルーティングエンジンを使用しています。\n"
+"|[JBoss SwitchYard](https://switchyard.jboss.org)｜SwitchYardは、SOAのための軽量なサービス提供フレームワークで、すぐにCamelと統合されます。\n"
+"|[camel-play](https://github.com/marcuspocus/play-camel)｜Play!フレームワーク\n"
+"|[EasyForms Camel Support](https://easyforms-camel.forge.onehippo.org)｜EasyForms Camel Support Components は、Apache Camel Routes を呼び出すことができる拡張 HST EasyForms Components を提供します。\n"
+"|[CamelWatch](https://sksamuel.github.com/camelwatch)｜Camelアプリケーションを監視するためのウェブアプリです。\n"
+"|[Streamz](https://github.com/krasserm/streamz)｜Functional Streams for Scala (FS2)、Akka Streams、Apache Camelを統合するためのコンビナートライブラリ。\n"
+"|[scalaz-camel](https://github.com/krasserm/scalaz-camel)｜Apache Camel 用の Scala(z)ベースの DSL｜。\n"
+"|[Babel](https://crossing-tech.github.io/babel)｜BabelはScalaで作られた統合のためのドメイン固有言語です。よく知られた統合フレームワークを使用するためのエレガントなAPIを提供しています。Babelは、Apache Camelの上にAPIを提供し、Scalaで使用することができます。\n"
+"|[Wildfly Camel](https://github.com/wildflyext/wildfly-camel)｜WildFly-Camel Subsystemでは、WildFly構成の一部としてCamel Routesを追加することができます。ルートは、JavaEEアプリケーションの一部として展開できます。JavaEEコンポーネントは、Camel Core APIやさまざまなCamel Component APIにアクセスできます。企業統合ソリューションは、JavaEEとCamelの機能の組み合わせとして構築することができます。\n"
+"|[Camel M2M gateway](https://github.com/hekonsek/camel-m2m-gateway)｜このプロジェクトは、Internet Of ThingsのM2MゲートウェイとしてApache Camelを採用するプロセスに関する研究開発活動をまとめたものです。ゲートウェイとは、適度な処理能力を持つフィールドデバイス（Raspberry PiやBeagleBone Blackなど）で、IoTエッジデバイス（センサー、ドローン、自動車など）とデータセンター間のメッセージのルーティングを担当するものです。\n"
+"|[Netflix](https://www.youtube.com/watch?v=k_ckJ7QgLW0#t=480)｜Netflixでは、クラウドペイメントシステムの一部としてApache Camelを使用しています。\n"
+"|[Islandora](http://islandora.ca)｜Islandoraはオープンソースのソフトウェアフレームワークで、機関や組織とそのオーディエンスが共同でデジタル資産を管理、発見できるよう、ベストプラクティスのフレームワークを用いて設計されています。このプラットフォームでは、CamelとJMSキューを使用しています。\n"
+"|[SAP HANA](https://blogs.saphana.com/2016/02/01/hana-smart-data-integration-simplifies-connecting-consuming-facebook-data-hana-apache-camel-adapter)｜SAPのプラットフォームでは、Apache Camelを使用しています。\n"
+"|[Hammock](https://github.com/hammock-project/hammock)｜Hammockは、CDIベースのマイクロサービスフレームワーク。HammockはCamelと統合されています。\n"
+"|[OpenHub](http://www.openhub.cz)｜OpenHubは、Apache Camelの上に構築された統合プラットフォームです。\n"
+"|[Assimbly Gateway](https://github.com/assimbly/gateway)｜Apache Camelをベースにしたメッセージゲートウェイです。\n"
+"|[GraphAwareHume Orchestra](https://graphaware.com/products/hume/)｜Apache Camelの上に構築された統合フレームワークで、クリックするだけで簡単に利用できます｜ ** MDに追加されました**。\n"
+"|[Yeoman generator-camel-project](https://www.npmjs.com/package/generator-camel-project)｜Yeomanフレームワークとnode.jsを使って、Apache Camelプロジェクトのための足場と、出発点として使用できるシンプルなテンプレートを生成するプロジェクトです。\n"
+"|[Camel-graph](https://github.com/avvero/camel-graph)｜Camel-graphは、ServiceMixとCamelアプリケーションのためのルートグラフビューアで、ルートのトポロジーをメトリクスで視覚化します。\n"
+"|[Camel Extra project](https://camel-extra.github.io/)|GPL/LGPL ライセンスのために Apache でホストすることができない多くの拡張コンポーネントを含んでいます。\n"
+"|[Platform6](https://www.platform6.io/)｜ブロックチェーン用の分散型アプリケーションフレームワークで、Apache CamelとWeb3jを多用したPlatform 6と呼ばれています。< /table >\n"
+"<table >{{}}< /table ></table>\n"
 
 #. type: Title ##
 #: upstream/content/community/user-stories.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Developer Tooling"
-msgstr ""
+msgstr "デベロッパーツール"
 
 #. type: Plain text
 #: upstream/content/community/user-stories.md:70
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "{{< table >}}\n"
 "| Company, Product, or Project  | Description |\n"
@@ -106,16 +148,35 @@ msgid ""
 "|[API Tracker 4j](https://abi-laboratory.pro/java/tracker/timeline/camel-core) of camel-core|The review of API changes for the Camel Core library since Camel 2.16 which is updated several times per week.|\n"
 "{{< /table >}}\n"
 msgstr ""
+"< table ><table >{{}}\n"
+"| 会社名、製品名、またはプロジェクト名 | 説明名\n"
+"|-------------------------------|-------------|\n"
+"|[Eclipse Desktop Tools for Apache Camel](http://tools.jboss.org/features/fusetools.html)｜レッドハットは、Camel、ActiveMQ、ServiceMix、Karaf、CXF、[Fabric8](http://fabric8.io)用の開発者ツールを提供しています。このツールは、グラフィカルなCamelエディタなどのEclipseプラグインのセットであり、ルートにブレークポイントを設定できるCamelルートデバッガも含まれています。\n"
+"|[Apache Camel IDEA Plugin](https://github.com/camel-idea-plugin/camel-idea-plugin)｜コードエディタにApache Camel関連の編集機能一式を提供するIntellij IDEA用プラグイン。\n"
+"|[Camel Language Server](https://github.com/camel-tooling/camel-language-server)｜Camel DSLのスマートネス（補完、検証、ホバー、アウトライン）を提供する[Language Server protocol](https://github.com/Microsoft/language-server-protocol)のサーバー実装です。VS Code](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-apache-camel)、[Eclipse Desktop IDE](https://marketplace.eclipse.org/content/language-support-apache-camel)、[Eclipse Che](https://www.eclipse.org/che/)用にパッケージ化されています。他のエディタやIDE](https://github.com/camel-tooling/camel-language-server#clients)にも組み込むことができます。\n"
+"|[VS Code extension pack for Camel](https://marketplace.visualstudio.com/items?itemName=redhat.apache-camel-extension-pack)｜Camelアプリケーションを開発するためのツールセットを提供します。\n"
+"|[Camel Designer](https://marketplace.visualstudio.com/items?itemName=brunoNetId.camel-designer)｜CamelのXMLルートを生成するビジュアルデザイナーです。\n"
+"|[Syndesis](https://syndesis.io)｜Syndesisは、サービスを統合したいと考えている人のためのツールです。コーディングの必要はありません...どうしてもしたい場合を除いて、Syndesisではコードに飛び込んだり、独自のコネクタを開発したり（まだ存在していない場合）、統合定義を直接ハックしたりすることができます。\n"
+"|[Fabric8](http://fabric8.io)｜Fabric8はオープンソースの統合プラットフォームで、オンプレミスでもクラウドでも、どこでもCamelアプリケーションを実行することができます。\n"
+"|[hawt.io](http://hawt.io)|hawt.ioは、Camelのルートやエンドポイント、ActiveMQブローカー、JMX、OSGi、ロギングなどを視覚化、管理、トレースするためのオープンソースのHTML5ウェブアプリケーションです。\n"
+"|[Axiom](http://github.com/hyperthunk/axiom)｜Axiomは統合シナリオをテストするためのフレームワークで、統合スタックと対話するためにApache Camelを使用しています。\n"
+"|[CamelDiagramGenerator](http://code.google.com/p/rmannibucau/wiki/CamelDiagramGenerator)｜ルートからキャメルのダイアグラムを生成するためのmavenプラグインです。\n"
+"|[JRebel](http://zeroturnaround.com/software/jrebel)｜JRebel はアプリケーションサーバーの再起動なしに Camel ルートの [リロード](http://zeroturnaround.com/jrebel/jrebel-5-1-2-released-apache-camel-now-supported)をサポートします。\n"
+"|[Camelry](https://github.com/AlanFoster/Camelry)｜このIntelliJプラグインは、Apache Blueprint、Apache karaf、Apache Camelを使用する際の開発体験を向上させるために設計されています。\n"
+"|[Jel](http://giacomolm.github.io/Jel)｜DSLを生成するJavascriptグラフィカルエディタ。これは、XML DSLを使用してApache Camelのルートを定義・編集するためのGUIを提供するWebベースのツーリングです。｜[Jel]()｜DSLを生成するJavascriptグラフィカルエディタ。\n"
+"|[JBoss Forge](http://forge.jboss.org)｜[Fabric8](http://fabric8.io)の[Camel](http://forge.jboss.org/addon/io.fabric8.forge:camel)アドオンは、CLI、Eclipse、IDEA、NetBeansからApache Camelのmavenプロジェクトをセットアップおよび管理することができます。これらのIDEからこのアドオンを使用すると、ウィザード駆動のUIを使用して新しいCamelコンポーネントを追加したり、よりタイプセーフな方法で各オプションを個別に編集できるUIで既存のエンドポイントを追加/編集したりすることができます。また、DockerやKubernetesのプラットフォーム用にMavenプロジェクトをセットアップすることもできます。\n"
+"|[API Tracker 4j](https://abi-laboratory.pro/java/tracker/timeline/camel-core) of camel-core|Camel 2.16以降のCamel CoreライブラリのAPI変更点をまとめたもので、週に数回更新されています。< /table >\n"
+"<table >{{}}< /table ></table>\n"
 
 #. type: Title ##
 #: upstream/content/community/user-stories.md:71
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "User Groups"
-msgstr ""
+msgstr "ユーザーグループ"
 
 #. type: Plain text
 #: upstream/content/community/user-stories.md:82
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "{{< table >}}\n"
 "| User Groups  | Description |\n"
@@ -127,16 +188,25 @@ msgid ""
 "|[Apache Camel User Group Japan](https://jcug-oss.github.io/)|A Japanese user group for Apache Camel.|\n"
 "{{< /table >}}\n"
 msgstr ""
+"< table ><table >{{}}\n"
+"| ユーザーグループ | 説明 |\n"
+"|--------------|-------------|\n"
+"|[Apache Camel User Group Denmark](https://groups.google.com/group/camel-user-group-denmark)｜Apache Camelのデンマークのユーザグループです。\n"
+"|[Apache Camel User Group Tunisia](http://groups.google.com/group/apache-camel-user-group-tunisia)｜Apache Camelのチュニジアのユーザーグループです。\n"
+"|[Linkedin Apache Camel Group](http://www.linkedin.com/groups?gid=2447439&amp;trk=hb_side_g)｜LinkedinのApache Camelグループ。\n"
+"|[Google+ Apache Camel Group](https://plus.google.com/communities/106271384875356488225)｜google+のApache Camelグループです。\n"
+"|[Apache Camel User Group Japan](https://jcug-oss.github.io/)｜Apache Camelの日本のユーザーグループです。< /table >\n"
+"<table >{{}}< /table ></table>\n"
 
 #. type: Title ##
 #: upstream/content/community/user-stories.md:83
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "External Camel Components"
-msgstr ""
+msgstr "Camelの外部コンポーネント"
 
 #. type: Plain text
 #: upstream/content/community/user-stories.md:107
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "{{< table >}}\n"
 "| External Camel Components  | Description |\n"
@@ -162,3 +232,26 @@ msgid ""
 "|[camel-rocketmq](https://github.com/TeslaCN/camel-rocketmq)|A component to integrate with Apache RocketMQ|\n"
 "{{< /table >}}\n"
 msgstr ""
+"< table ><table >{{}}\n"
+"| キャメルの外部コンポーネント | 説明 |\n"
+"|----------------------------|-------------|\n"
+"|[camel-apama](https://github.com/gerco/camel-apama)|[Progress Apama](http://web.progress.com/en/apama/index.html)用のCamelコンポーネント||。\n"
+"|[camel-arangdodb](https://github.com/bbonnin/camel-arangodb)｜ArangoDBにアクセスするためのCamelコンポーネント|。\n"
+"|[camel-beanstalk](http://github.com/osinka/camel-beanstalk)｜beanstalk.のためのApache Camelコンポーネント|。\n"
+"|[camel-cassandra](http://github.com/ticktock/camel-cassandra)|Camel Cassandraコンポーネント。\n"
+"|[camel-cassandra](https://github.com/oscerd/camel-cassandra)｜Cassandra Datastax Java Driverに基づくもうひとつのCamel Cassandraコンポーネントです。\n"
+"|[camel-gdrive](https://github.com/jdavisonc/camel-gdrive)｜Google Drive用のCamelコンポーネントです。\n"
+"|[camel-grizzly](https://github.com/cdollins/camel-grizzly)｜Glassfish Grizzly ネットワーキングライブラリで動作するコンポーネント|。\n"
+"|[camel-isotypes](https://code.google.com/p/isotypes/)｜ISO8583 isotypes 用 Camel コンポーネント。\n"
+"|[camel-oftp2](http://accord.ow2.org/odetteftp/camel.html)｜[Neociclo](http://www.neociclo.com/)は Apache Camel 用の [OFTP2](http://accord.ow2.org/odetteftp/protocol.html)コンポーネントを提供します。\n"
+"|[camel-sipe](https://bitbucket.org/arkadi/camel-sipe)｜Microsoft Office Communicator および Lync Server と通信するための Camel コンポーネントです。\n"
+"|[camel-smb](https://github.com/Redpill-Linpro/camel-smb)｜このプロジェクトは、[JCIFS](http://jcifs.samba.org)の上に構築されたSamba Camelコンポーネントです。\n"
+"|[camel-tika](https://github.com/wheijke/camel-tika)｜[Apache Tika](http://tika.apache.org/)用の Camel データフォーマットです。\n"
+"|[camel-tumblr](https://github.com/soluvas/tumblej)｜Tumblrに投稿するためのCamelコンポーネントです。\n"
+"|[Oracle Coherence Camel Component](http://code.google.com/p/oracle-coherence-camel-component/)｜Oracle Coherence と統合するための Camel コンポーネントです。\n"
+"|[camel-scala-extra](https://github.com/osinka/camel-scala-extra)｜Scala 用の Apache Camel メソッドの追加\n"
+"|[camel-spring-amqp](https://github.com/Bluelock/camel-spring-amqp)｜RabbitMQ.などと通信するための Spring AMQP と統合する Camel コンポーネントです。\n"
+"|[camel-kamon](https://github.com/osinka/camel-kamon)｜Apache Camel のルート、プロセッサ用の Kamon メトリクスおよびトレース\n"
+"|[camel-spring-cloud-stream](https://github.com/donovanmuller/)｜Spring Cloud Stream と統合するコンポーネントです。\n"
+"|[camel-rocketmq](https://github.com/TeslaCN/camel-rocketmq)｜Apache RocketMQ と統合するコンポーネント|。< /table >\n"
+"<table >{{}}< /table ></table>\n"

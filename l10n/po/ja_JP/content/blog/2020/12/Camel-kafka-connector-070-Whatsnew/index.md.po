@@ -18,256 +18,260 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Details of what we have done in the Camel Kafka Connector 0.7.0 release."
-msgstr ""
+msgstr "Camel Kafka Connector 0.7.0のリリースで行われたことの詳細です。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel Kafka Connector 0.7.0: What's New"
-msgstr ""
+msgstr "Apache Camel Kafka Connector 0.7.0:新機能"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel Kafka Connector 0.7.0 has just been released.\n"
-msgstr ""
+msgstr "Apache Camel Kafka Connector 0.7.0がリリースされました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is based on the LTS release of Apache Camel 3.7.0, this means we will provide patch releases, as Camel 3.7.x is an LTS release.\n"
-msgstr ""
+msgstr "これは、Apache Camel 3.7.0のLTSリリースに基づいています。これは、Camel 3.7.xがLTSリリースであるため、パッチリリースを提供することを意味しています。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "So what's in this release?"
-msgstr ""
+msgstr "では、今回のリリースには何が入っているのでしょうか？"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release introduce bug fixes, improvements, new features and new connectors obviously\n"
-msgstr ""
+msgstr "今回のリリースでは、バグフィックス、改善、新機能、新コネクターが追加されました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New connectors"
-msgstr ""
+msgstr "新型コネクタ"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The new connectors introduced in this release are the following:\n"
-msgstr ""
+msgstr "今回のリリースで導入された新しいコネクターは以下の通りです。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AtlasMap: Transforms the message using an AtlasMap transformation\n"
-msgstr ""
+msgstr "AtlasMapです。アトラスマップ変換を使用してメッセージを変換します。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kubernetes Custom Resources: Perform operations on Kubernetes Custom Resources and get notified on Deployment changes\n"
-msgstr ""
+msgstr "Kubernetesのカスタムリソース。Kubernetes Custom Resourcesに対する操作を行い、Deploymentの変更に関する通知を受けることができます。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Vert.X Kafka: Sent and receive messages to/from an Apache Kafka broker using vert.x Kafka client\n"
-msgstr ""
+msgstr "Vert.X Kafkaです。vert.x Kafkaクライアントを使用して、Apache Kafkaブローカーとの間でメッセージを送受信します。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "JSON JSON-B: Marshal POJOs to JSON and back using JSON-B\n"
-msgstr ""
+msgstr "JSON JSON-B: JSON-Bを使用してPOJOをJSONにマーシャリングして戻す。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "CSimple: Evaluate a compiled simple expression language\n"
-msgstr ""
+msgstr "CSimple:コンパイルされたシンプルな表現言語を評価する\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "DataSonnet: To use DataSonnet scripts in Camel expressions or predicates\n"
-msgstr ""
+msgstr "DataSonnetです。Camelの式や述語でDataSonnetのスクリプトを使用するには\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "jOOR: Evaluate a jOOR (Java compiled once at runtime) expression language\n"
-msgstr ""
+msgstr "jOOR: jOOR(Java compiled once at runtime)式言語を評価する\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Support for idempotent repository"
-msgstr ""
+msgstr "idempotent repositoryのサポート"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In this release we introduced the idempotency support. \n"
-msgstr ""
+msgstr "今回のリリースでは、idempotencyのサポートを導入しました。 \n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The initial support will provide:\n"
-msgstr ""
+msgstr "初期サポートでは\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "in-memory idempotent repository\n"
-msgstr ""
+msgstr "インメモリ・アイデポテント・リポジトリ\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "kafka idempotent repository\n"
-msgstr ""
+msgstr "kafka idempotent repository\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:39
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The idempotency will be supported on both source and sink connector, this means:\n"
-msgstr ""
+msgstr "idempotencyは、ソースとシンクの両方のコネクターでサポートされます。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "From a source point of view, by enabling the idempotency, you'll be able to avoid ingesting the same payload to the target Kafka topic. This can be done at body or header level.\n"
-msgstr ""
+msgstr "ソース側から見ると、idempotencyを有効にすることで、同じペイロードをターゲットのKafkaトピックに取り込むことを避けることができます。これは、ボディまたはヘッダーレベルで行うことができます。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "From a sink point of view, by enabling the idempotency, you'll be able to avoid sending the same payload to an external system, through checking body or header of the Kafka record from the Kafka source topic.\n"
-msgstr ""
+msgstr "シンク側から見ると、idempotencyを有効にすることで、KafkaソーストピックからKafkaレコードのボディやヘッダーをチェックすることで、同じペイロードを外部システムに送信することを避けることができます。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Support for remove headers option"
-msgstr ""
+msgstr "remove headers オプションのサポート"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There are situation in which you'll be using a Camel-Kafka-Connector source connector and sink connector together. Sometimes you'll need to remove some of the Camel headers to achieve a particular behavior. This option should be used in this case. The value of this option can be a list of headers or a regexp.\n"
-msgstr ""
+msgstr "Camel-Kafka-Connectorのソース・コネクタとシンク・コネクタを一緒に使う場合があります。特定の動作を実現するために、Camelのヘッダーの一部を削除する必要がある場合があります。このオプションはそのような場合に使用します。このオプションの値には、ヘッダーのリストまたは正規表現を指定できます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In the [camel-kafka-connector-examples repository](https://github.com/apache/camel-kafka-connector-examples/tree/master/aws2-s3/aws2-s3-move-bucket-to-bucket) we provided a little example based on 0.7.0 SNAPSHOT version.\n"
-msgstr ""
+msgstr "camel-kafka-connector-examples repository](https://github.com/apache/camel-kafka-connector-examples/tree/master/aws2-s3/aws2-s3-move-bucket-to-bucket)では、0.7.0 SNAPSHOTバージョンをベースにした小さな例を提供しています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Json marshal/unmarshal present by default in each connector"
-msgstr ""
+msgstr "各コネクタにデフォルトで存在するJson marshal/unmarshal"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We added `camel-jackson` in each connector so that is possible to use `json-jackson` marshal/unmarshal out of the box. \n"
-msgstr ""
+msgstr "各コネクターに`camel-jackson`を追加し、`json-jackson`のmarshal/unmarshalをそのまま使えるようにしました。 \n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New Archetypes"
-msgstr ""
+msgstr "新しいアーキタイプ"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We added two new archetypes:\n"
-msgstr ""
+msgstr "新たに2つのアーキタイプを追加しました。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:59
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apicurio Archetype: To be able to leveraging the apicurio service registry\n"
-msgstr ""
+msgstr "Apicurio Archetype。apicurioのサービスレジストリを利用できるようにする。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:59
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Dataformat Archetype: To extend a connector by adding a dataformat to it\n"
-msgstr ""
+msgstr "Dataformat Archetype:データフォーマットを追加してコネクタを拡張すること。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Improved integration tests"
-msgstr ""
+msgstr "統合テストの改善"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:64
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We improved the integration tests by leveraging the really good work by [Otavio R. Piske](https://github.com/orpiske) on the camel-test-infra platform.\n"
 "We are now basing the integration on the camel-test-infra modules coming from the Camel release.\n"
 msgstr ""
+"camel-test-infra プラットフォームの [Otavio R. Piske](https://github.com/orpiske) による優れた作業を活用して統合テストを改善しました。\n"
+"現在では、Camel リリースの camel-test-infra モジュールに基づいて統合を行っています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:65
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Documentation"
-msgstr ""
+msgstr "ドキュメンテーション"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:68
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "On the Archetypes side we added more documentation about the base extensible connector and on the apicurio archetype and dataformat archetype (added in this release)\n"
-msgstr ""
+msgstr "Archetypes側では、ベースとなる拡張可能なコネクタ、apicurio archetypeとdataformat archetypeに関するドキュメントを追加しました（本リリースで追加）。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Strimzi and Kafka Version"
-msgstr ""
+msgstr "ストリムジとカフカ編"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:72
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release has been based on Kafka 2.6.0 and Strimzi 0.20.1\n"
-msgstr ""
+msgstr "このリリースは、Kafka 2.6.0とStrimzi 0.20.1をベースにしています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:73
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Examples"
-msgstr ""
+msgstr "例"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:76
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We added a bunch of new examples to the [camel-kafka-connector-examples repository](https://github.com/apache/camel-kafka-connector-examples)\n"
-msgstr ""
+msgstr "camel-kafka-connector-examples repository](https://github.com/apache/camel-kafka-connector-examples)に新しいサンプルを多数追加しました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:77
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What to expect"
-msgstr ""
+msgstr "期待すること"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel-kafka-connector-070-Whatsnew/index.md:80
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We are already working on the next release based on the upcoming 3.8.0 Camel release.\n"
 "We are working on improving the documentation and adding new stuff.\n"
 msgstr ""
+"私たちは、来るべき3.8.0 Camelのリリースに基づいて、すでに次のリリースに取り組んでいます。\n"
+"ドキュメントの改善と新しいものの追加に取り組んでいます。\n"

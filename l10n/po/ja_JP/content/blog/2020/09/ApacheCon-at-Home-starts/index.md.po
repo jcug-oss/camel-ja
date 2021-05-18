@@ -18,36 +18,41 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/09/ApacheCon-at-Home-starts/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "ApacheConf @Home 2020, free online conference featuring Apache Camel and Software Integration track starts tomorrow, here's how to make the most of it"
-msgstr ""
+msgstr "Apache CamelとSoftware Integrationトラックをフィーチャーした無料オンラインカンファレンス「ApacheConf @Home 2020」が明日から開催、その活用方法をご紹介します。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/09/ApacheCon-at-Home-starts/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel at ApacheCon @Home starts tomorrow!"
-msgstr ""
+msgstr "Camel at ApacheCon @Home は明日からです。"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/ApacheCon-at-Home-starts/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "[ApacheCon @Home](https://www.apachecon.com/acna2020/index.html) starts\n"
 "tomorrow, here is how to make the most of it.\n"
 msgstr ""
+"[ApacheCon @Home](https://www.apachecon.com/acna2020/index.html)が始まります。\n"
+"明日からは、それを最大限に活用する方法をご紹介します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/ApacheCon-at-Home-starts/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "First, if you haven't already registered there is still time, go over to the\n"
 "[conference page](https://www.apachecon.com/acna2020/index.html) to do so. It's\n"
 "free (small donation encouraged)!\n"
 msgstr ""
+"まず、まだ登録していない方は、まだ間に合いますので、[カンファレンスページ]()にアクセスしてください。\n"
+"カンファレンス・ページ](https://www.apachecon.com/acna2020/index.html)から登録してください。参加費は\n"
+"無料です（少額の寄付をお勧めします）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/ApacheCon-at-Home-starts/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Browse the [track\n"
 "schedule](https://www.apachecon.com/acah2020/tracks/camel.html) and use the\n"
@@ -55,10 +60,15 @@ msgid ""
 "software, this way you'll be reminded when a session you don't want to miss is\n"
 "about to start.\n"
 msgstr ""
+"トラック\n"
+"スケジュール](https://www.apachecon.com/acah2020/tracks/camel.html)を参照して\n"
+"カレンダーのアイコンを使って、お使いのカレンダーソフトにセッションカレンダーのエントリをインポートしてください。\n"
+"そうすれば、見逃したくないセッションが始まったときに、すぐに知らせてくれます。\n"
+"これで、見逃せないセッションの開始をお知らせします。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/ApacheCon-at-Home-starts/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Take advantage of different ways to participate in discussions and network\n"
 "during the conference. Chat [on Slack](http://s.apache.org/apachecon-slack) by\n"
@@ -68,19 +78,30 @@ msgid ""
 "end of scheduled sessions. Also, after the sessions, join the \"BoF Oasis\" and\n"
 "make this our hallway or water cooler meeting place.\n"
 msgstr ""
+"会議期間中、様々な方法でディスカッションに参加したり、ネットワークを構築したりすることができます。\n"
+"様々な方法を活用して、会議に参加してください。Slackでのチャット](http://s.apache.org/apachecon-slack)で\n"
+"スラックでチャットしたり、[#camel\n"
+"チャンネル](https://apachecon.slack.com/archives/C018EK9AXAN)に移動します。ここでは\n"
+"ここでは、予定されたセッションの終了後、毎日有効なアドホック・セッションでフォークを招待することができます。\n"
+"ここでは、予定されたセッションの終了後に、アドホック・セッションでの議論に参加することができます。また、セッション終了後には、「BoF Oasis」に参加して\n"
+"ここを私たちの廊下やウォータークーラーのような場所にしましょう。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/ApacheCon-at-Home-starts/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Do you have something to share? Submit your 10-minute lightning talk on the\n"
 "[track page](https://www.apachecon.com/acah2020/tracks/camel.html#R1735).\n"
 msgstr ""
+"伝えたいことがありますか？10分間のライトニングトークを\n"
+"[トラックページ](https://www.apachecon.com/acah2020/tracks/camel.html#R1735)からご応募ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/ApacheCon-at-Home-starts/index.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Be sure to participate by asking questions on the session chat. We'll try to\n"
 "get to as many questions as the time allows at the end of each session.\n"
 msgstr ""
+"ぜひ、セッションチャットで質問をして参加してください。各セッションの最後には\n"
+"各セッションの最後に、時間の許す限り質問をお受けします。\n"

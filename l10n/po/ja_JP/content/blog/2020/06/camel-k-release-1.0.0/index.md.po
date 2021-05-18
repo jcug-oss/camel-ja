@@ -18,703 +18,770 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's new in the Camel K 1.0 GA release."
-msgstr ""
+msgstr "Camel K 1.0 GAリリースの新機能です。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel K 1.0 is here"
-msgstr ""
+msgstr "Camel K 1.0はこちら"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Apache Camel K has made a lot of progress since its inception and we're now proud to **announce the 1.0 release**.\n"
 "We've been working hard in the past months to add more awesome features to Camel K, but also to improve stability\n"
 "and performance. This post contains a list of cool stuff that you'll find in the 1.0 GA release.\n"
 msgstr ""
+"Apache Camel Kは設立以来、多くの進歩を遂げてきましたが、このたび1.0リリースを発表することになりました。\n"
+"この数ヶ月間は、Camel Kに素晴らしい機能を追加するだけでなく、安定性とパフォーマンスを向上させるために懸命に取り組んできました。\n"
+"パフォーマンスの向上にも努めてきました。この記事では、1.0 GAリリースに含まれるクールなもののリストを紹介します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "First of all, if you're living under a rock and it's the first time you hear about Camel K, \n"
 "you can read some introductory blog posts here ([1 - introducing camel k](https://nicolaferraro.me/2018/10/15/introducing-camel-k/), [2 - camel k on knative](https://www.nicolaferraro.me/2018/12/10/camel-k-on-knative/))\n"
 "or look at the Apache Camel website that contains a [Camel K section](/camel-k/latest/)\n"
 "with a lot of material that is automatically generated from the [Github repository](https://github.com/apache/camel-k).\n"
 msgstr ""
+"まず最初に、もしあなたが岩の下に住んでいて、Camel K.について聞くのが初めてならば、ここでいくつかの紹介ブログ記事を読むことができます。 \n"
+"ここでいくつかの入門的なブログ記事を読むことができます ([1 - introduce camel k](https://nicolaferraro.me/2018/10/15/introducing-camel-k/), [2 - camel k on knative](https://www.nicolaferraro.me/2018/12/10/camel-k-on-knative/))\n"
+"あるいは、Apache Camelのウェブサイトにある[Camel K section](/camel-k/latest/)を見てください。\n"
+"には、[Github リポジトリ](https://github.com/apache/camel-k)から自動生成された多くの資料が含まれています。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "User experience"
-msgstr ""
+msgstr "ユーザーエクスペリエンス"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Camel K development style is minimalistic: you need just to write a single file with your integration routes and you can immediately \n"
 "run them on any Kubernetes cluster. This way of defining things is common to many FaaS platforms (although Camel K is not a proper FaaS platform, \n"
 "but a lightweight *integration* platform) and it's technically difficult to provide IDE support, such as code completion and other utilities, \n"
 "to developers.\n"
 msgstr ""
+"Camel Kの開発スタイルはミニマルで、統合ルートを記述した1つのファイルを書くだけで、どんなKubernetesクラスタでもすぐに実行することができます。 \n"
+"どのKubernetesクラスタでもすぐに実行できます。このような定義の仕方は、多くのFaaSプラットフォームに共通しています（ただし、Camel Kは適切なFaaSプラットフォームではなく、軽量な*統合*プラットフォームです）。 \n"
+"ではなく、軽量の*統合*プラットフォームです）、コード補完などのユーティリティーなどのIDEサポートを提供することは技術的に困難です。 \n"
+"開発者に提供することは技術的に困難です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "But now we've done it. The integration tooling team has created some cool extensions for VS Code that make the development experience\n"
 "with Camel K even more exciting.\n"
 "You don't need to remember the Camel DSL syntax, the IDE will give you suggestions and error highlighting.\n"
 msgstr ""
+"しかし、今、私たちはそれを成し遂げました。統合ツールチームは、VS Codeのために、Camel Kでの開発体験をよりエキサイティングにするいくつかのクールな拡張機能を作成しました。\n"
+"Camel Kでの開発をよりエキサイティングなものにします。\n"
+"Camel DSLの構文を覚える必要はありません。IDEがサジェストとエラーハイライトを表示してくれます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![IDE Autocompletion](./ide-autocompletion.gif)\n"
-msgstr ""
+msgstr "![IDEオートコンプリート](./ide-autocompletion.gif)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Code completion works with Java code, but it's not only limited to it: you also have suggestions and documentation out of the box when writing the Camel URIs and property files.\n"
 "And you also have many options to run integrations and interact with them, all integrated in the IDE.\n"
 msgstr ""
+"コード補完はJavaコードで動作しますが、それだけではありません。CamelのURIやプロパティファイルを書く際には、すぐに提案やドキュメントが表示されます。\n"
+"また、統合機能を実行したり、統合機能と対話したりするための多くのオプションが、IDEに統合されています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Just install the VS Code [Extension Pack for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.apache-camel-extension-pack) to have all these features available.\n"
-msgstr ""
+msgstr "VS Code [Extension Pack for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.apache-camel-extension-pack)をインストールするだけで、これらの機能を利用することができます。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Getting started tutorials"
-msgstr ""
+msgstr "スタートアップ・チュートリアル"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Good tools are fundamental to have a great development experience with Camel K, but then you need to learn what you can do with such a great power.\n"
 "We've created a new repository in the Apache organization that hosts getting started examples: the [camel-k-examples](https://github.com/apache/camel-k-examples) repository.\n"
 msgstr ""
+"優れたツールは Camel K で素晴らしい開発体験をするための基本ですが、その上で、このような大きな力で何ができるのかを学ぶ必要があります。\n"
+"私たちは、入門用のサンプルを保管する新しいリポジトリをApache組織内に作成しました： [camel-k-examples](https://github.com/apache/camel-k-examples) リポジトリです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "So far we've added guides that drive you through:\n"
-msgstr ""
+msgstr "これまでに、あなたを案内するガイドを追加しました。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[01 Basic](https://github.com/apache/camel-k-examples/tree/master/01-basic): Learn the basics of Camel K and some interesting use cases\n"
-msgstr ""
+msgstr "01 Basic](https://github.com/apache/camel-k-examples/tree/master/01-basic)をご覧ください。Camel Kの基本的な使い方と、興味深いユースケースをご紹介します。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[02 Serverless APIs](https://github.com/apache/camel-k-examples/tree/master/02-serverless-api): How to design a serverless (i.e. auto-scaling, scaling to zero) API and run it in a few minutes\n"
-msgstr ""
+msgstr "[02 Serverless APIs](https://github.com/apache/camel-k-examples/tree/master/02-serverless-api): サーバーレス（＝自動スケーリング、ゼロへのスケーリング）のAPIを設計し、数分で実行する方法\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The **basic quickstart is [also available online](https://learn.openshift.com/middleware/courses/middleware-camelk/camel-k-basic)**, so you can have a look at how camel k works **without installing anything on your laptop**.\n"
-msgstr ""
+msgstr "基本的なクイックスタートは[オンラインでも利用可能](https://learn.openshift.com/middleware/courses/middleware-camelk/camel-k-basic)**なので、ラップトップに何もインストールしなくても** camel kがどのように動作するかを見ることができます**。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "More tutorials are expected to come in the following months. You are also welcome if you want to help us by **contributing your own**.\n"
 "They are based on the [VSCode Didact](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-didact) project, that provides an\n"
 "awesome user experience.\n"
 msgstr ""
+"今後も、より多くのチュートリアルを提供していく予定です。また、あなた自身のチュートリアルを投稿することで、私たちを助けてくださる方も歓迎します。\n"
+"これらは、素晴らしいユーザーエクスペリエンスを提供する[VSCode Didact](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-didact)プロジェクトに基づいています。\n"
+"素晴らしいユーザーエクスペリエンスを提供します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you are looking for Camel K code samples that you can just pick and run using the CLI, the [examples directory](https://github.com/apache/camel-k/tree/master/examples) of the Camel K main repository contains a lot of them. You can also run them directly from Github:\n"
-msgstr ""
+msgstr "Camel Kのコードサンプルを探しているなら、Camel Kメインリポジトリの[examples directory](https://github.com/apache/camel-k/tree/master/examples)に多くのサンプルが含まれています。また、Githubから直接実行することもできます。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "kamel run https://raw.githubusercontent.com/apache/camel-k/master/examples/Sample.java\n"
-msgstr ""
+msgstr "kamel run https://raw.githubusercontent.com/apache/camel-k/master/examples/Sample.java\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can find ready-to-use examples written in different languages (e.g. [XML](https://github.com/apache/camel-k/blob/5fb589090c2f45b28aef586118df48fad8838b3f/examples/hello.xml), [JavaScript](https://github.com/apache/camel-k/blob/5fb589090c2f45b28aef586118df48fad8838b3f/examples/simple.js) and others).\n"
-msgstr ""
+msgstr "様々な言語で書かれたすぐに使えるサンプルを見つけることができます（例：[XML](https://github.com/apache/camel-k/blob/5fb589090c2f45b28aef586118df48fad8838b3f/examples/hello.xml)、[JavaScript](https://github.com/apache/camel-k/blob/5fb589090c2f45b28aef586118df48fad8838b3f/examples/simple.js)など）。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:62
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Serverless"
-msgstr ""
+msgstr "サーバーレス"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Serverless is the most important area where we're focusing the new developments in Apache Camel K, although, you should remember, \n"
 "you can have a wonderful Camel K experience even without serverless features.\n"
 "To enable the serverless profile in Camel K, you just need to have **[Knative](https://knative.dev) installed**.\n"
 msgstr ""
+"サーバーレスは、Apache Camel Kの新機能を開発する上で最も重要な分野ですが、忘れてはいけません。 \n"
+"しかし、サーバーレス機能がなくても、素晴らしいCamel Kを体験することができます。\n"
+"Camel Kでサーバーレスプロファイルを有効にするには、**[Knative](https://knative.dev)がインストールされている必要があります**。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:70
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In recent releases, we have added support for the most recent advancements in Knative, for example, Camel K is very well integrated \n"
 "with the **Knative event broker** and you can easily produce or consume events from it.\n"
 msgstr ""
+"最近のリリースでは、Knativeの最新の機能をサポートしています。例えば、Camel Kは**Knativeのイベントブローカー**と非常によく統合されており、イベントを簡単に生成または消費することができます。 \n"
+"例えば、Camel Kは**Knativeのイベントブローカー**と非常によく統合されており、簡単にイベントを生成したり消費したりすることができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:72
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "With **2 lines of code** you can transfer events (e.g. generated by IoT devices) **from your MQTT broker to the mesh**:\n"
-msgstr ""
+msgstr "2行のコード**で、イベント（IoTデバイスから生成されたものなど）を**MQTTブローカーからメッシュ**に転送することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:74
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "*bridge.groovy*\n"
-msgstr ""
+msgstr "*bridge.groovy*（ブリッジ・グルーヴィー\n"
 
 #. type: Fenced code block (groovy)
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:74
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "from('paho:mytopic?brokerUrl=tcp://broker-address:1883&clientId=knative-bridge')\n"
 "  .to('knative:event/device-event')\n"
 msgstr ""
+".from('paho:mytopic?brokerUrl=tcp://broker-address:1883&amp;clientId=knative-bridge')\n"
+"  .to('knative:event/device-event')\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "No kidding, you just need to write those two lines of code in a file and run it with `kamel run bridge.groovy` to \n"
 "push data into the Knative broker.\n"
 msgstr ""
+"冗談ではなく、この2行のコードをファイルに書いて、`kamel run bridge.groovy`で実行するだけで \n"
+"データをKnativeブローカーにプッシュします。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:84
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "And you can also scale the Integration out (*Integration* is a Kubernetes custom resource, `kubectl get integrations` to see all of them)\n"
 "to have a higher throughput. Scaling here is manual because the source of events is a MQTT broker (but we've plans to put [auto-scaling also in this scenario](https://github.com/apache/camel-k/issues/1107)).\n"
 msgstr ""
+"また、Integrationをスケールアウトすることもできます（*Integration*はKubernetesのカスタムリソースで、`kubectl get integrations`で全てのIntegrationを見ることができます）。\n"
+"で、より高いスループットを得ることができます。イベントのソースがMQTTブローカーなので、ここでのスケーリングは手動です（ただし、[このシナリオでもオートスケーリング](https://github.com/apache/camel-k/issues/1107)を導入する予定です）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:86
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel K embedded auto-scaling feature works really well when you want to react to some Knative events:\n"
-msgstr ""
+msgstr "Camel Kに組み込まれたオートスケーリング機能は、Knativeのイベントに反応させたいときにとても有効です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:88
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "*listener.groovy*\n"
-msgstr ""
+msgstr "*listener.groovy*\n"
 
 #. type: Fenced code block (groovy)
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:88
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "from('knative:event/device-event')\n"
 "  .to('http://myhost/webhook/random-id')\n"
 msgstr ""
+".from('knative:event/device-event')\n"
+"  .to('http://myhost/webhook/random-id')\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:95
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This integration is configured to receive all events with `type=device-event` and **scales automatically with the load** because it is materialized into a [Knative Serving Service](https://knative.dev/docs/serving/spec/knative-api-specification-1.0/#service)\n"
 "and automatically [subscribed to the Eventing Broker via a Trigger](https://knative.dev/docs/eventing/broker/).\n"
 msgstr ""
+"このインテグレーションは、`type=device-event`ですべてのイベントを受信するように構成されており、[Knative Serving Service](https://knative.dev/docs/serving/spec/knative-api-specification-1.0/#service)に実体化され、自動的に[Triggerを介してEventing Brokerにサブスクライブ]されるため、**負荷に応じて自動的にスケールします**。\n"
+"また、自動的に[Triggerを介してEventing Brokerにサブスクライブ](https://knative.dev/docs/eventing/broker/)されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:99
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "It then receives a [CloudEvent](https://cloudevents.io/) when your IoT devices produce something and scales down to zero if there's no data coming.\n"
 "You just need to create it (as before, just `kamel run listener.groovy`), all the remaining configuration is \n"
 "done **automatically by the Camel K operator**.\n"
 msgstr ""
+"IoTデバイスが何かを生成すると[CloudEvent](https://cloudevents.io/)を受信し、データが来ない場合はゼロにスケールダウンします。\n"
+"これを作成する必要があるだけで(以前と同様、`kamel run listener.groovy`)、残りのすべての設定は \n"
+"残りの設定はすべて、CamelのKオペレータによって**自動的に**行われます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We've added much more features for having a better integration with the Knative ecosystem and we've also fixed some compatibility and performance issues that were present in previous versions. The user experience is now much smoother.\n"
-msgstr ""
+msgstr "Knativeエコシステムとの連携を強化するための機能を大幅に追加したほか、以前のバージョンで発生していた互換性やパフォーマンスに関する問題を修正しました。よりスムーズな操作性を実現しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:105
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "If you are a Knative YAML developer (!), instead of using Camel K directly, you also have the option to use **[Knative Camel Sources](https://knative.dev/docs/eventing/samples/apache-camel-source/)** which are part of the Knative release. They are wrappers for Camel K integrations that are compatible with all the tools used by Knative developers (such as the `kn` CLI or the OpenShift serverless console).\n"
 "Sources in Knative can only push data into the various Knative endpoints, but not the other way around (i.e. they cannot be used to publish data from Knative to the outside).\n"
 "In Camel K you don't have this limitation: the Route is the fundamental building block of a Camel integration and you can do whatever you want with it. \n"
 msgstr ""
+"KnativeのYAML開発者（！）であれば、Camel Kを直接使用する代わりに、Knativeリリースの一部である**[Knative Camel Sources](https://knative.dev/docs/eventing/samples/apache-camel-source/)**を使用するという選択肢もあります。これはKnativeのリリースに含まれている**[Knative Camel Sources]()**で、Knativeの開発者が使用するすべてのツール（`kn` CLIやOpenShift serverless consoleなど）と互換性のあるCamel Kの統合用ラッパーです。\n"
+"Knativeのソースは、さまざまなKnativeのエンドポイントにデータをプッシュすることができるだけで、その逆はできません（つまり、Knativeから外部にデータをパブリッシュするのには使えません）。\n"
+"Camel Kではこのような制限はありません。RouteはCamelインテグレーションの基本的な構成要素であり、これを使って何でもできるのです。 \n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:106
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fast startup and low memory"
-msgstr ""
+msgstr "高速起動と低メモリ"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:109
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We cannot say we're serverless without mentioning the work that we've been doing in improving the performance of Camel K integrations.\n"
-msgstr ""
+msgstr "Camel Kのインテグレーションのパフォーマンスを向上させるために行ってきた作業を抜きにして、我々がサーバーレスであるとは言えません。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:111
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Starting from **Camel 3.3.0** which is the default version used by Camel K 1.0.0, you can benefit from all improvements that have been made directly in the Camel core to make it much more lightweight. More in depth details of the Camel core improvements can be found the following blog series that highlights what has been changed in the 3.x Camel timeline to reduce memory footprint and speedup the startup time, which is foundamental when running integrations in a serverless environment: [part 1](http://www.davsclaus.com/2020/01/apache-camel-31-more-camel-core.html?m=1), [part 2](http://www.davsclaus.com/2020/01/apache-camel-31-more-camel-core_30.html?m=1), [part 3](http://www.davsclaus.com/2020/02/apache-camel-31-more-camel-core.html?m=1), [part 4](http://www.davsclaus.com/2020/03/apache-camel-32-reflection-free.html?m=1).\n"
-msgstr ""
+msgstr "Camel K 1.0.0のデフォルトバージョンである**Camel 3.3.0**からは、Camelコアに直接行われた軽量化のためのすべての改善の恩恵を受けることができます。Camel K 1.0.0のデフォルトバージョンであるCamel K 1.0.0**では、Camelコアで直接行われた改善により、より軽量化されています。パート1](http://www.davsclaus.com/2020/01/apache-camel-31-more-camel-core.html?m=1)、[パート2](http://www.davsclaus.com/2020/01/apache-camel-31-more-camel-core_30.html?m=1)、[パート3](http://www.davsclaus.com/2020/02/apache-camel-31-more-camel-core.html?m=1)、[パート4](http://www.davsclaus.com/2020/03/apache-camel-32-reflection-free.html?m=1)です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:113
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "But improvements are not only limited to the Camel core: we're doing much more. Several months ago we've started a new subproject of Apache Camel named [\"Camel Quarkus\"](https://github.com/apache/camel-quarkus) with the goal of seamlessly running integrations on top of the Quarkus framework. As you probably know, Quarkus is able to reduce the memory footprint of Java applications and improve the startup time, because it moves much startup logic to the build phase. And Quarkus applications can also be compiled to a native binary, allowing a dramatic improvements in startup performance and very low memory footprint.\n"
-msgstr ""
+msgstr "しかし、改善はCamelコアだけではなく、もっと多くのことを行っています。数ヶ月前、私たちはQuarkusフレームワークの上でシームレスに統合を実行することを目的として、[\"Camel Quarkus\"](https://github.com/apache/camel-quarkus)というApache Camelの新しいサブプロジェクトを立ち上げました。ご存知のように、QuarkusはJavaアプリケーションのメモリフットプリントを削減し、起動ロジックの多くをビルドフェーズに移動させることで起動時間を改善することができます。また、Quarkusのアプリケーションはネイティブバイナリにコンパイルすることができるため、起動時のパフォーマンスが劇的に向上し、メモリフットプリントが非常に小さくなります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:115
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In Camel K 1.0.0 we support **Camel Quarkus in JVM mode**. A goal is to have also the in-cluster native compilation soon (for some DSL languages, such as YAML), in one of next releases!\n"
-msgstr ""
+msgstr "Camel K 1.0.0では、**Camel QuarkusのJVMモード**をサポートしています。次のリリースでは、（YAMLのようないくつかのDSL言語の）インクラスター・ネイティブ・コンパイルを実現することを目標としています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:117
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "To use Quarkus as underlying runtime, you just need to enable the **[Quarkus trait](/camel-k/latest/traits/quarkus.html)** when running an integration:\n"
-msgstr ""
+msgstr "基礎となるランタイムとしてQuarkusを使用するには、インテグレーションを実行する際に**[Quarkus trait](/camel-k/latest/traits/quarkus.html)**を有効にする必要があります。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:118
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "kamel run myintegration.groovy -t quarkus.enabled=true\n"
-msgstr ""
+msgstr "kamel run myintegration.groovy -t quarkus.enabled=true\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:124
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Quarkus is expected to be the default underlying runtime in the next release, and support for Standalone mode (via camel-main) will be deprecated and removed.\n"
 "This means that you won't need to enable Quarkus manually in the next releases, but you still need to do it in 1.0.\n"
 msgstr ""
+"次のリリースでは、Quarkusが基礎となるランタイムのデフォルトとなり、（camel-mainによる）Standaloneモードのサポートは非推奨となり、削除される予定です。\n"
+"つまり、次のリリースではQuarkusを手動で有効にする必要はありませんが、1.0ではまだ有効にする必要があります。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:125
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fast build time"
-msgstr ""
+msgstr "速いビルドタイム"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:128
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Every application running on Kubernetes needs to be packaged in a container image, but **in Camel K you only provide the integration DSL and the operator does what it takes to run it**, including building images directly in the cluster.\n"
-msgstr ""
+msgstr "Kubernetes上で動作するすべてのアプリケーションは、コンテナイメージにパッケージ化される必要がありますが、**Camel Kでは、統合DSLを提供するだけで、クラスタ内で直接イメージを構築するなど、オペレータが実行に必要なことを行います**。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:130
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The operator manages a pool of reusable container images and if you redeploy your integration code, it does try to reuse existing images from the pool rather than building a new one at each change, because it takes some time to build a new one. **It was 1 minute at the beginning...**\n"
-msgstr ""
+msgstr "オペレータは再利用可能なコンテナイメージのプールを管理しており、統合コードを再デプロイした場合、新しいイメージを構築するのに時間がかかるため、変更のたびに新しいイメージを構築するのではなく、プールから既存のイメージを再利用しようとします。**最初は1分だったのに...**。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:132
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "But Kubernetes is moving so fast that you cannot solve a problem once and forget about it, you need to take care of it continuously. It happened that some of our third party dependencies that we used for doing builds in \"vanilla Kube\" has slowly degraded in performance up to a point where Camel K user experience was highly affected.\n"
-msgstr ""
+msgstr "しかし、Kubernetesの動きは非常に速いので、問題を一度解決して忘れることはできず、継続的に対処する必要があります。バニラKube」でのビルドに使用していたサードパーティの依存関係の一部が、徐々にパフォーマンスを低下させ、Camel Kのユーザーエクスペリエンスに大きな影響を与えるまでになってしまいました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:134
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We decided to work harder on the build system in order to dramatically improve (again!) the build phase of Camel K integrations.\n"
-msgstr ""
+msgstr "Camel Kインテグレーションのビルドフェーズを劇的に改善するために、ビルドシステムに力を入れることにしました（再び！）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:136
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Build time can be be now measured in seconds in dev environments such as Minikube. **A bunch of seconds**, most of the times. This is more than a simple improvement!\n"
-msgstr ""
+msgstr "Minikubeのような開発環境では、ビルド時間を秒単位で計測できるようになりました。ほとんどの場合、**数秒**です。これは単なる改善ではありません。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:138
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Better CLI"
-msgstr ""
+msgstr "より良いCLI"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:141
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The 'kamel' CLI is the main tool we provide to developers to run integrations. It's not a mandatory requirement: at the end, an Integration is a Kubernetes custom resources and you can manage it with any Kubernetes standard tool (e.g. `kubectl`). But the `kamel` CLI adds a lot of value for integration developers.\n"
-msgstr ""
+msgstr "CLIの「kamel」は、インテグレーションを実行するために開発者に提供する主なツールです。これは必須の要件ではありません。結局、インテグレーションはKubernetesのカスタムリソースであり、任意のKubernetes標準ツール（例：`kubectl`）で管理することができます。しかし、`kamel`というCLIは、インテグレーションの開発者にとって多くの価値をもたらします。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:143
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For example, if you're a Camel Java developer it's not super easy to remember the boilerplate that you have to write in order to instantiate a Camel route builder. Now you don't have to remember that:\n"
-msgstr ""
+msgstr "例えば、あなたがCamelのJava開発者であれば、Camelのルートビルダをインスタンス化するために書かなければならない定型文を覚えるのはとても簡単ではありません。しかし、今ではそのようなことを思い出す必要はありません。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:144
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "kamel init Handler.java\n"
-msgstr ""
+msgstr "kamel init Handler.java\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:149
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You get a Java file with **all the boilerplate written for you** and you just have to write your integration routes.\n"
-msgstr ""
+msgstr "すべての定型文が書かれたJavaファイルが手に入りますので、あとは統合ルートを書くだけです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:152
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "It works also with all other languages: Groovy, XML, YAML, Kotlin and JavaScript.\n"
 "For example you can write:\n"
 msgstr ""
+"また、他のすべての言語でも動作します。Groovy、XML、YAML、Kotlin、JavaScript。\n"
+"例えば、次のように書くことができます。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:153
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "kamel init foo.js\n"
-msgstr ""
+msgstr "kamel init foo.js\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:158
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This way you get a simple route written in JavaScript.\n"
-msgstr ""
+msgstr "このようにして、JavaScriptで書かれたシンプルなルートを得ることができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:160
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It's not just that. Often Camel K developers need to add a lot of command line options to configure the final behavior of their integration. For example, you may want to add a custom library with the `-d` option or configure a trait with `-t`. E.g.:\n"
-msgstr ""
+msgstr "それだけではありません。Camel Kの開発者は、統合の最終的な動作を設定するために、多くのコマンドラインオプションを追加する必要があることがよくあります。例えば、`-d`オプションでカスタムライブラリを追加したり、`-t`でtraitを設定したりすることができます。例を挙げます。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:161
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "kamel run -d mvn:org.my:lib:1.0.0 -d mvn:org.my:otherlib:2.0.0 -t quarkus.enabled=true Handler.java\n"
-msgstr ""
+msgstr "kamel run -d mvn:org.my:lib:1.0.0 -d mvn:org.my:otherlib:2.0.0 -t quarkus.enabled=true Handler.java\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:166
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Sometimes the number of command line parameters you've to add **can become too many**. For this reason we've added the possibility to specify them as **modeline options** in the integration file (done by adding a comment line with `camel-k:` as prefix).\n"
-msgstr ""
+msgstr "時には、コマンドラインに追加しなければならないパラメータの数が **多すぎる** ことがあります。このため、統合ファイルの中で**modeline options**として指定できるようにしました（`camel-k:`をプレフィックスとしたコメント行を追加することで実現）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:168
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "*Handler.java*\n"
-msgstr ""
+msgstr "*Handler.java*を参照してください。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:168
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "// camel-k: dependency=mvn:org.my:lib:1.0.0 dependency=mvn:org.my:otherlib:2.0.0 trait=quarkus.enabled=true\n"
 "\n"
 "// ...\n"
 "// your routes here\n"
 msgstr ""
+"// camel-k: dependency=mvn:org.my:lib:1.0.0 dependency=mvn:org.my:otherlib:2.0.0 trait=quarkus.enabled=true\n"
+"\n"
+"// ...\n"
+"// あなたのルートはこちら\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:176
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Once the options are written in the file, you can run the routes with just:\n"
-msgstr ""
+msgstr "オプションがファイルに書き込まれたら、そのままでルートを実行できます。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:177
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "// simply this, additional args are read from the file\n"
 "kamel run Handler.java\n"
 msgstr ""
+"// 単にこれだけで、追加の引数をファイルから読み込む\n"
+"kamel run Handler.java\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:183
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The other options are taken automatically from the file modeline. The CLI also displays the full command to let you know what's running.\n"
-msgstr ""
+msgstr "その他のオプションは、modelineというファイルから自動的に取得されます。CLIでは、何が実行されているかを知るために、完全なコマンドも表示されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:185
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This kind of configuration is extremely useful in CI/CD scenarios because it allows you to have self-contained integration files and you don't need to change the pipeline to setup additional options. If you're curious about the CI/CD configurations, you can follow the [tutorial about Tekton pipelines](/camel-k/latest/tutorials/tekton/tekton.html) to have more information.\n"
-msgstr ""
+msgstr "この種の設定は、自己完結型の統合ファイルを作成することができ、追加オプションを設定するためにパイプラインを変更する必要がないため、CI/CDシナリオにおいて非常に便利です。CI/CD構成について興味のある方は、[tutorial about Tekton pipelines](/camel-k/latest/tutorials/tekton/tekton.html)を参考にしてみてください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:186
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Monitoring and Tracing"
-msgstr ""
+msgstr "モニタリングとトレーシング"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:190
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Ok, you've finished level 1 of Camel K development and you want to make serious things. You're in a very good position because Camel K provides a lot of \n"
 "useful tools to add visibility on **what your integration routes are doing**.\n"
 msgstr ""
+"さて、あなたはCamel K開発のレベル1を終え、本格的なものを作りたいと考えています。Camel Kには、統合ルートが何をしているか**を可視化するための便利なツールがたくさんあるからです。 \n"
+"Camel Kは、統合ルートが何をしているのか**を可視化するための便利なツールをたくさん提供しているからです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:192
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Let's suppose you've a **[Prometheus](https://prometheus.io/)** instance in your namespace and you want to **publish your integration metrics**:\n"
-msgstr ""
+msgstr "自分の名前空間に**[Prometheus](https://prometheus.io/)**インスタンスがあり、**統合メトリクス**を公開したいとします。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:193
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "kamel run Routes.java -t prometheus.enabled=true\n"
-msgstr ""
+msgstr "kamel run Routes.java -t prometheus.enabled=true\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:198
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "That's it. No need to setup services and labels to enable scraping. A default prometheus configuration file is also provided for the integration, with sensible defaults. Of course you also have the option to provide [your own configuration](/camel-k/latest/traits/prometheus.html) for advanced use cases.\n"
-msgstr ""
+msgstr "以上で終了です。スクレイピングを有効にするために、サービスやラベルを設定する必要はありません。デフォルトのprometheus設定ファイルも統合のために提供されており、適切なデフォルト値が設定されています。もちろん、高度なユースケースのために、[あなた自身の設定](/camel-k/latest/traits/prometheus.html)を提供するオプションもあります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:200
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Now, let's suppose you want to see what your routes are doing and trace the execution flow of an integration. What you need to do is to install an opentracing compatible application in the namespace, such as **[Jaeger](https://www.jaegertracing.io/)**, and run the integration as:\n"
-msgstr ""
+msgstr "さて、自分のルートが何をしているかを確認し、統合の実行フローをトレースしたいとします。そのために必要なことは、**[Jaeger](https://www.jaegertracing.io/)**のようなopentracing互換のアプリケーションを名前空間にインストールして、統合を次のように実行することです。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:201
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "kamel run Routes.java -t prometheus.enabled=true -t tracing.enabled=true\n"
-msgstr ""
+msgstr "kamel run Routes.java -t prometheus.enabled=true -t tracing.enabled=true\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:207
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "That's it again. The Camel K operator will add the [camel-opentracing library](/components/latest/others/opentracing.html) and **connect it to the Jaeger collector that is available in the namespace**.\n"
 "Here again, [advanced use cases](/camel-k/latest/traits/tracing.html) are supported.\n"
 msgstr ""
+"またそれです。Camel Kのオペレータは、[camel-opentracing library](/components/latest/others/opentracing.html)を追加し、**名前空間で利用可能なJaegerコレクタに接続します**。\n"
+"ここでも、[高度な使用例](/camel-k/latest/traits/tracing.html)がサポートされています。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:208
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Master routes"
-msgstr ""
+msgstr "マスタールート"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:211
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Good old Camel users know why and when master routes are useful, but for those who are not familiar with the term, I'm going to provide a brief explanation.\n"
-msgstr ""
+msgstr "古くからのCamelユーザーは、マスタールートがなぜ、どのような場合に有用なのかを知っていますが、この言葉に馴染みのない方のために、簡単な説明をしておきます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:213
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Whenever you have an integration route that must be running, at any point in time, in at most one single Camel instance, you need to use a master route. Master routes can be declared by simply prefixing the consumer endpoint by the 'master' keyword and a name that will be used to create a named lock, e.g.\n"
-msgstr ""
+msgstr "ある時点で最大1つのCamelインスタンスで実行しなければならない統合ルートがある場合は、マスタールートを使用する必要があります。マスタールートを宣言するには、コンシューマーエンドポイントの前に「master」キーワードと、名前付きロックを作成するために使用する名前を付けるだけです。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:214
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "from('master:mylock:telegram:bots')\n"
 "  .to('log:info')\n"
 msgstr ""
+".from('master:mylock:telegram:bots')\n"
+"  .to('log:info')\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:220
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It can be used to print all messages that are sent to your Telegram bot. Since the Telegram API support a single consumer only, you can guard the route with a master prefix to have the guarantee that there will be at most only one consumer at any given time.\n"
-msgstr ""
+msgstr "このルートは、Telegramボットに送信されたすべてのメッセージを表示するために使用できます。Telegram APIは単一の消費者のみをサポートしているため、マスタープレフィックスでルートをガードすることで、常に最大でも1つの消費者しか存在しないことが保証されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:222
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you're wondering how there can be two instances running of you deploy one, well, think just to when you change your code and need to do a rolling update: for some time there'll be two pods running in parallel. In some cases, you may decide to scale your service out but keep only one instance of a particular route among all the pods of your service. Or you may want to embed a master route in a Knative autoscaling service: in this case, the service can scale autonomously based on the load, but there'll be only one telegram consumer at any time.\n"
-msgstr ""
+msgstr "コードを変更してローリング・アップデートが必要になったときのことを考えると、1つのデプロイに対して2つのインスタンスが実行されるのは不思議ですね。場合によっては、サービスをスケールアウトさせても、サービスのすべてのポッドの中で特定のルートのインスタンスを1つだけ残しておきたいこともあるでしょう。また、マスター・ルートをKnativeの自動スケーリング・サービスに組み込みたい場合もあります。この場合、サービスは負荷に応じて自律的にスケーリングできますが、テレグラム・コンシューマーは常に1つだけになります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:224
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Master routes **work out of the box** in Camel K, you just need to put a prefix in your endpoint uri. **A leader election protocol** based on Kubernetes APIs resource locks will be **automatically configured** for you!\n"
-msgstr ""
+msgstr "Camel Kではマスタールートが **すぐに使える** 、エンドポイントのuriにプレフィックスを入れるだけです。Kubernetes APIのリソースロックに基づいた**リーダー選挙プロトコル**が**自動的に設定されます。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:225
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "CronJobs"
-msgstr ""
+msgstr "CronJobs"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:228
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "All complex enough systems contain several scheduled jobs. This is especially true for that part of the system that handles integration with the outside.\n"
-msgstr ""
+msgstr "十分に複雑なシステムには、いくつかのスケジュールされたジョブが含まれています。特に、外部との連携を行うシステムの部分では、その傾向が顕著です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:230
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Ideally, if you need to execute a quick periodic task, say, every two seconds, you would startup an integration with a route based on timer to execute the periodic task. E.g.\n"
-msgstr ""
+msgstr "理想的には、例えば2秒ごとのような迅速な定期タスクを実行する必要がある場合、定期タスクを実行するためにタイマーに基づくルートとの統合を開始することです。例えば、以下のようになります。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:231
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "from(\"timer:task?period=2000\")\n"
 "  .to(this, \"businessLogic\")\n"
 msgstr ""
+".from(\"timer:task?period=2000\")\n"
+"  .to(this, \"businessLogic\")\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:237
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "But if the period between two executions, instead of 2 seconds (\"2000\" in the Camel URI, which is measured in milliseconds) is 2 minutes (\"120000\") or 2 hours (\"7200000\")?\n"
-msgstr ""
+msgstr "しかし、2回の実行の間の期間が、2秒（CamelのURIでは \"2000\"、ミリ秒単位）ではなく、2分（\"120000\"）や2時間（\"7200000\"）だとしたら？\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:239
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can see that keeping a container with a JVM running for a task that should be executed once every two minutes may be overkill (it is overkill for sure when the period is 2 hours). We live in a time where resources such as **memory and CPU are really valuable**.\n"
-msgstr ""
+msgstr "2分に1回実行されるべきタスクのために、JVMを搭載したコンテナを稼働させ続けるのは、やり過ぎかもしれないことがわかります（期間が2時間の場合は確実にやり過ぎです）。私たちは、メモリやCPUなどのリソースが本当に貴重な時代に生きています**。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:241
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "So the Camel K operator automatically handles this situation by deploying your integration not as a Kubernetes deployment, but as a **Kubernetes CronJob**. This saves a lot of resources, especially when the period between executions is high. When it's time to run your integration code, a container starts, triggers the execution and then gracefully terminates. Everything is handled automatically by Camel K and Kubernetes.\n"
-msgstr ""
+msgstr "そこで、Camel Kオペレータは、統合をKubernetesのデプロイとしてではなく、**Kubernetes CronJob**としてデプロイすることで、この状況を自動的に処理します。これにより、特に実行間の期間が長い場合には、多くのリソースを節約できます。統合コードを実行する時には、コンテナが起動し、実行をトリガーして、潔く終了します。すべてはCamel KとKubernetesによって自動的に処理されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:243
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There are cases when you don't want this feature to be enabled, for example, when your code makes use of in memory caches that is better to keep between executions. In these cases, you can safely turn off the feature by passing the flag `-t cron.enabled=false` to the `kamel run` command.\n"
-msgstr ""
+msgstr "この機能を有効にしたくない場合もあります。例えば、コードがメモリ内のキャッシュを使用していて、実行の間に保持しておく方が良い場合などです。このような場合には、`kamel run`コマンドにフラグ`-t cron.enabled=false`を渡すことで、この機能を安全にオフにすることができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:245
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Cron feature does not only work with the `timer` component. We've also added a [cron component](/components/latest/cron-component.html) since Camel 3.1 that works really well in combination with the [cron trait](/camel-k/latest/traits/cron.html).\n"
-msgstr ""
+msgstr "Cron機能は、`timer`コンポーネントだけではありません。Camel 3.1以降では、[cron trait](/camel-k/latest/traits/cron.html)と組み合わせて非常によく機能する[cron component](/components/latest/cron-component.html)も追加されています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:247
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "So you can also write the cron expression in the route directly:\n"
-msgstr ""
+msgstr "そのため、ルートに直接cron式を記述することもできます。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:248
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "from(\"cron:job?schedule=0/5+*+*+*+?\")\n"
 "  .to(this, \"businessLogic\")\n"
 msgstr ""
+"from(\"cron:job?schedule=0/5+*+*+*+?\")\n"
+"  .to(this, \"businessLogic\")\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:254
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In this case, a new pod with a JVM is started every 5 minutes to execute your scheduled task. For the remaining 4+ minutes you don't use any resource.\n"
-msgstr ""
+msgstr "この場合、スケジュールされたタスクを実行するために、JVMを搭載した新しいポッドが5分ごとに起動されます。残りの4分以上は、どのリソースも使用しません。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:255
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Transparency"
-msgstr ""
+msgstr "透明性"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:258
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel K does a lot of work for you when you run your integration code in the cluster and it's possible that you put some errors in the code that can block the deployment process. We've added a lot of visibility on the deployment process that now communicates with the users via Kubernetes events that are printed to the console when you use the CLI.\n"
-msgstr ""
+msgstr "Camel Kは、クラスタ内で統合コードを実行する際に多くの作業を行いますが、コード内にエラーがあるとデプロイプロセスが阻害される可能性があります。私たちは、CLIを使用したときにコンソールに出力されるKubernetesイベントを介してユーザーと通信するデプロイメントプロセスに多くの可視性を追加しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:260
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This way you're always notified of problems in the code and you can better understand what to fix to make your integration run.\n"
-msgstr ""
+msgstr "こうすることで、コードの問題が常に通知され、統合を実行するために何を修正すべきかをよりよく理解することができます。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:261
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "How to try Camel K 1.0"
-msgstr ""
+msgstr "Camel K 1.0を試すには"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:264
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The first step is to go to the [Camel K release page](https://github.com/apache/camel-k/releases) on Github (or the official [Apache release repository](https://dist.apache.org/repos/dist/release/camel/camel-k/1.0.0/)), **download the kamel CLI** for your OS and put it in your system path.\n"
-msgstr ""
+msgstr "まず、Githubの[Camel K release page](https://github.com/apache/camel-k/releases)または公式の[Apache release repository](https://dist.apache.org/repos/dist/release/camel/camel-k/1.0.0/)にアクセスして、**お使いのOS用のkamel CLI**をダウンロードして、システムパスに入れてください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:268
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Installation is done usually using the `kamel install` command, but, depending on the kind of Kubernetes cluster you're using, \n"
 "you may need to execute additional configuration steps.\n"
 "The Camel K documentation contains a section about **[installing it on various types of Kubernetes clusters](/camel-k/latest/installation/installation.html)**.\n"
 msgstr ""
+"インストールは通常、`kamel install`コマンドで行いますが、使用しているKubernetesクラスタの種類によっては \n"
+"追加の設定手順を実行する必要があるかもしれません。\n"
+"Camel Kのドキュメントには、**[様々な種類のKubernetesクラスターへのインストール](/camel-k/latest/installation/installation.html)**についてのセクションがあります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:271
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "If you have trouble or you need to install it on a particular cluster that is not listed, just reach out in the [Gitter chat](https://gitter.im/apache/camel-k) and\n"
 "we'll do our best to help you.\n"
 msgstr ""
+"もし問題があったり、リストにない特定のクラスタにインストールする必要がある場合は、[Gitterチャット](https://gitter.im/apache/camel-k)で連絡してください。\n"
+"私たちはあなたを助けるために最善を尽くします。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:272
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Future"
-msgstr ""
+msgstr "未来"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:275
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We've reached version 1.0.0 and this is a great milestone for us. But we are not going to stop now: we've big plans for the future and we'll continue to develop awesome new features.\n"
-msgstr ""
+msgstr "バージョン1.0.0に到達し、これは私たちにとって大きな節目となりました。しかし、これで終わりではありません。将来に向けた大きな計画があり、素晴らしい新機能を開発していきます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:277
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We need your help to improve Camel K and **we love contributions!**\n"
-msgstr ""
+msgstr "私たちはCamel Kをより良くするために皆さんの協力を必要としていますし、**投稿を歓迎しています！**。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:279
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Join us on:\n"
-msgstr ""
+msgstr "に参加してみてはいかがでしょうか。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:281
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Gitter: https://gitter.im/apache/camel-k\n"
-msgstr ""
+msgstr "Gitter: https://gitter.im/apache/camel-k\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/06/camel-k-release-1.0.0/index.md:281
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "GitHub: https://github.com/apache/camel-k\n"
-msgstr ""
+msgstr "GitHub: https://github.com/apache/camel-k\n"

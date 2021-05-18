@@ -18,18 +18,18 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/releases/release-3.0.1.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Minor update of the 3.0.x branch"
-msgstr ""
+msgstr "3.0.xブランチのマイナーアップデート"
 
 #. type: YAML Front Matter: title
 #: upstream/content/releases/release-3.0.1.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Release 3.0.1"
-msgstr ""
+msgstr "リリース3.0.1"
 
 #. type: Plain text
 #: upstream/content/releases/release-3.0.1.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release is a minor update of the 3.0.x branch.\n"
-msgstr ""
+msgstr "このリリースは、3.0.xブランチのマイナーアップデートです。\n"

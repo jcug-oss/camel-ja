@@ -18,126 +18,126 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Language Support for Apache Camel - VS Code extension 0.0.20"
-msgstr ""
+msgstr "Apache Camelの言語サポート - VS Code extension 0.0.20"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "During the past months, several noticeable new features have been added to improve the developer experience of application based on Apache Camel. These updates are available in the [0.0.20 release of Visual Studio (VS) Code extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-apache-camel).\n"
-msgstr ""
+msgstr "この数ヶ月の間に、Apache Camelをベースにしたアプリケーションの開発環境を改善するために、いくつかの注目すべき新機能が追加されました。これらのアップデートは、[0.0.20 release of Visual Studio (VS) Code extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-apache-camel)で利用可能です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Before going into the list of updates in detail, I want to note that I mentioned in the title the VS Code Extension release because VS Code extension is covering the broader set of new features. Don't worry if you are using another IDE, though, most features are also available in all other IDEs that support the Camel Language Server (Eclipse Desktop, Eclipse Che, and more).\n"
-msgstr ""
+msgstr "アップデートの一覧を詳しく説明する前に、タイトルにVS Code Extensionのリリースと書いたのは、VS Code extensionの方がより広範な新機能をカバーしているからであることを記しておきたい。ほとんどの機能は、Camel Language Serverをサポートする他のすべてのIDE（Eclipse Desktop、Eclipse Cheなど）でも利用できますので、他のIDEをお使いの方もご心配なく。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel 3 inside"
-msgstr ""
+msgstr "キャメル3内"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel 3 was [released](/blog/2019/11/RELEASE-3.0.0/) a few weeks ago, and the Camel Language Server is already relying on it internally. What does that mean for the end user? It means that the default catalog is now using Camel 3.\n"
-msgstr ""
+msgstr "Camel 3は数週間前に[リリース](/blog/2019/11/RELEASE-3.0.0/)され、Camel Language Serverはすでに内部で依存しています。これはエンドユーザーにとってどのような意味があるのでしょうか？それは、デフォルトのカタログがCamel 3を使うようになったということです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you are still based on Camel 2.x, no problem; check out the following awesome feature.\n"
-msgstr ""
+msgstr "まだCamel 2.xをお使いの方は、以下の素晴らしい機能をご覧ください。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel catalog version options"
-msgstr ""
+msgstr "Camelカタログバージョンオプション"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A parameter is now available to choose the Camel catalog version that you want. This can be specified in *File -> Preferences -> Settings -> Apache Camel Tooling -> Camel catalog version*.\n"
-msgstr ""
+msgstr "必要なCamelカタログのバージョンを選択するパラメータが用意されました。これは、*File -&gt; Preferences -&gt; Settings -&gt; Apache Camel Tooling -&gt; Camel catalog version*で指定できます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Camel Catalog Version preference](./CamelCatalogVersionPreference.gif)\n"
-msgstr ""
+msgstr "![Camel Catalog Version Preference](./CamelCatalogVersionPreference.gif)\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Diagnostics with quick fixes and more precise range"
-msgstr ""
+msgstr "素早く修正でき、より正確なレンジでの診断が可能"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Diagnostics are really useful to pinpoint issues in our code. In previous versions, the diagnostic range error was provided on the full Camel URI. Now, for invalid component parameter keys and invalid component parameter enum values, the range is more precise and is pointing to the exact incriminated key or value.\n"
-msgstr ""
+msgstr "診断は、コードの問題点を特定するのにとても便利です。以前のバージョンでは、診断範囲のエラーはCamelの完全なURIで提供されていました。今回のバージョンでは、無効なコンポーネントパラメータキーや無効なコンポーネントパラメータenumの値に対して、範囲がより正確になり、問題となっているキーや値を正確に指し示しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Diagnostic range improved](./diagnosticRangeImproved.png)\n"
-msgstr ""
+msgstr "![診断範囲の改善](./diagnosticRangeImproved.png)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For unknown component parameter keys, there is also a quick fix provided if a component parameter key relatively similar exists. It is very useful in case of small typos.\n"
-msgstr ""
+msgstr "不明なコンポーネントのパラメータキーについては、比較的類似したコンポーネントのパラメータキーが存在する場合、クイックフィックスが提供されます。この機能は、ちょっとしたタイプミスの際にとても便利です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Filtered List of quickfix](./filteredListOfQuickfix.gif)\n"
-msgstr ""
+msgstr "![フィルタリングされたクイックフィックスのリスト](./filteredListOfQuickfix.gif)\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Additional Camel components"
-msgstr ""
+msgstr "Camelの追加コンポーネント"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you are using Camel components that are not part of Camel core catalog, it is now possible to provide the Camel component definition to have it fully supported by the tooling. The Camel component definition is defined as JSON. The JSON file can be found in the jar of the Camel component. The preference can be specified through *File -> Preferences -> Settings -> Apache Camel Tooling -> Extra-components -> Edit in settings.json*. Demo video [here](https://www.youtube.com/watch?v=U015RzlgFNM)\n"
-msgstr ""
+msgstr "Camelコアカタログに含まれていないCamelコンポーネントを使用している場合、Camelコンポーネント定義を提供して、ツールで完全にサポートすることができるようになりました。Camelコンポーネントの定義は、JSONで定義されています。このJSONファイルは、Camelコンポーネントのjarファイルに含まれています。この設定は、「ファイル」→「環境設定」→「設定」→「Apache Camel Tooling」→「Extra-components」→「Settings.json*で編集」で指定できます。デモビデオ [こちら](https://www.youtube.com/watch?v=U015RzlgFNM)\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Properties file support"
-msgstr ""
+msgstr "プロパティファイル対応"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel allows you to configure general component properties using a Properties file (see [here](https://github.com/apache/camel/blob/cfc9abf5f464057fa343a1a70a25a72c33c408bd/examples/camel-example-main/src/main/resources/application.properties#L42) for an example). Completion is available for component ids and component property keys.\n"
-msgstr ""
+msgstr "Camelでは、Propertiesファイルを使ってコンポーネントの一般的なプロパティを設定することができます（例として[こちら](https://github.com/apache/camel/blob/cfc9abf5f464057fa343a1a70a25a72c33c408bd/examples/camel-example-main/src/main/resources/application.properties#L42)を参照）。コンポーネントIDとコンポーネント・プロパティ・キーの補完が可能です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Completion in Properties files](./completionProperties.gif)\n"
-msgstr ""
+msgstr "![プロパティファイルでの補完](./completionProperties.gif)\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's next?"
-msgstr ""
+msgstr "次は何ですか？"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/LanguageSupportTooling-0.0.20/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is very opened for the future. There will surely be improvements directed to Apache Camel K support. You can provide feedback on the [Camel Tooling GitHub repository](https://github.com/camel-tooling), it will help drive the future roadmap.\n"
-msgstr ""
+msgstr "これは将来に向けて非常に開かれたものです。Apache Camel Kのサポートに向けた改善が必ず行われます。Camel Tooling GitHub repository](https://github.com/camel-tooling)にフィードバックをいただければ、今後のロードマップの参考になります。\n"

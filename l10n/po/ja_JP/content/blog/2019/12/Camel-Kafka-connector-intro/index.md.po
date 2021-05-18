@@ -18,100 +18,104 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2019/12/Camel-Kafka-connector-intro/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Introducing Camel-Kafka-connector"
-msgstr ""
+msgstr "Camel-Kafka-connectorの紹介"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2019/12/Camel-Kafka-connector-intro/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel Kafka Connector: Introducing the latest project in the ecosystem"
-msgstr ""
+msgstr "Apache Camel Kafka Connector。エコシステムの最新プロジェクトの紹介"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel-Kafka-connector-intro/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The Apache Camel community introduces a new subproject in the ecosystem: Camel-Kafka-Connector. This project born as a PoC exploring the possibility of leveraging the Apache Camel components as Kafka source and sink connectors.\n"
 "The main idea behind the project is reusing the Camel Components' flexibility in a simple way, through a configuration file mixing Kafka Connect configuration and Camel route definitions and options.\n"
 msgstr ""
+"Apache Camelコミュニティは、エコシステムにおける新しいサブプロジェクトを紹介しています。Camel-Kafka-Connectorです。このプロジェクトは、Apache CamelコンポーネントをKafkaのソースとシンクのコネクタとして活用する可能性を探るためのPoCとして生まれました。\n"
+"このプロジェクトの主なアイデアは、Kafka Connectの設定とCamelのルート定義やオプションを組み合わせた設定ファイルを通じて、Camelコンポーネントの柔軟性をシンプルな方法で再利用することです。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/Camel-Kafka-connector-intro/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What is Kafka Connect?"
-msgstr ""
+msgstr "Kafka Connectとは何ですか？"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel-Kafka-connector-intro/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "It is an Apache Kafka's framework that defines a standardized way to stream data in and out a kafka broker. In Kafka connect a user can define source and sink connectors to stream data, respectively, in and out a kafka broker.\n"
 "This framework features:\n"
 msgstr ""
+"Kafka connectは、Apache Kafkaのフレームワークであり、kafkaブローカーとの間でデータをストリームする標準的な方法を定義しています。Kafka connectでは、ユーザーはソースコネクターとシンクコネクターを定義することができ、それぞれがkafkaブローカーとの間でデータをストリームすることができます。\n"
+"このフレームワークには以下の特徴があります。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel-Kafka-connector-intro/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "_Distributed and standalone mode_\n"
-msgstr ""
+msgstr "_Distributed and standalone mode_\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel-Kafka-connector-intro/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "_Rest interface_\n"
-msgstr ""
+msgstr "_Restインターフェース_\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel-Kafka-connector-intro/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "_Automatic offset management_\n"
-msgstr ""
+msgstr "オートマティック・オフセット・マネージメント\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/Camel-Kafka-connector-intro/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kafka connect key concepts"
-msgstr ""
+msgstr "Kafka connectのキーコンセプト"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel-Kafka-connector-intro/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "_Connector_: generally refer to a source/sink implemented using kafka connect framework.\n"
-msgstr ""
+msgstr "_Connector_：一般的には、kafka connectフレームワークを使って実装されたソース/シンクを指す。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel-Kafka-connector-intro/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "_SinkConnector_ / _SourceConnector_: are responsible to setting up the connector and partitioning the work by creating SinkTask / SourceTask.\n"
-msgstr ""
+msgstr "_SinkConnector_ / _SourceConnector_: コネクタを設定し、SinkTask / SourceTaskを作成して作業を分割する役割を担います。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel-Kafka-connector-intro/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "_SinkTask_ / _SourceTask_: are responsible to handle the actual work.\n"
-msgstr ""
+msgstr "_SinkTask_ / _SourceTask_: 実際の作業を処理する責任があります。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel-Kafka-connector-intro/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "_Key_ / _value converter_: a component able to convert the key or value of a kafka message from a format to another.\n"
-msgstr ""
+msgstr "_Key_ / _value converter_: kafkaメッセージのキーや値を、あるフォーマットから別のフォーマットに変換するコンポーネントです。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel-Kafka-connector-intro/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "_Transformer_: a component able to manipulate a message.\n"
-msgstr ""
+msgstr "_Transformer_: メッセージを操作することができるコンポーネント。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/Camel-Kafka-connector-intro/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Summarizing"
-msgstr ""
+msgstr "サマライズ"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel-Kafka-connector-intro/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is just an introduction to the new subproject: we'll add more information and more posts while the project will go ahead. For the moment stay tuned and as always contributions are welcome. Show your love for the new arrival in the Camel family: [https://github.com/apache/camel-kafka-connector](https://github.com/apache/camel-kafka-connector):\n"
-msgstr ""
+msgstr "これは新しいサブプロジェクトの紹介です。プロジェクトの進行に合わせて、より多くの情報や記事を追加していきます。今のところは期待していてください。また、いつものように投稿を歓迎します。Camelファミリーに新しく加わった製品への愛を示してください。[https://github.com/apache/camel-kafka-connector](https://github.com/apache/camel-kafka-connector)。\n"

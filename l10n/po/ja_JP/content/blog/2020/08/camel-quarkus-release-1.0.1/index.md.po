@@ -18,86 +18,94 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.1/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The first maintenance release of Camel Quarkus in the 1.0.x branch"
-msgstr ""
+msgstr "Camel Quarkusの1.0.xブランチでの最初のメンテナンスリリースです。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.1/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus 1.0.1 Released"
-msgstr ""
+msgstr "Camel Quarkus 1.0.1リリース"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.1/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Enjoy the first maintenance release in the 1.0.x branch of Camel Quarkus!\n"
-msgstr ""
+msgstr "Camel Quarkusの1.0.xブランチにおける最初のメンテナンスリリースをお楽しみください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.1/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's inside"
-msgstr ""
+msgstr "中身について"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.1/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Highlights:\n"
-msgstr ""
+msgstr "ハイライト\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.1/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel 3.4.3\n"
-msgstr ""
+msgstr "Camel 3.4.3\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.1/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Quarkus 1.7.1\n"
-msgstr ""
+msgstr "Quarkus 1.7.1\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.1/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Details:\n"
-msgstr ""
+msgstr "詳細はこちらをご覧ください。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.1/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[All changes since 1.0.0](https://github.com/apache/camel-quarkus/compare/1.0.0...1.0.1)\n"
-msgstr ""
+msgstr "1.0.0以降のすべての変更点](https://github.com/apache/camel-quarkus/compare/1.0.0...1.0.1)\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.1/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's next?"
-msgstr ""
+msgstr "次は何ですか？"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.1/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Camel Quarkus 1.1.0 will be released shortly after Camel 3.5.0. We will possibly release some candidate releases (CRs)\n"
 "depending on the availability of Camel 3.5.0 CRs.\n"
 msgstr ""
+"Camel Quarkus 1.1.0は、Camel 3.5.0の直後にリリースされる予定です。Camel 3.5.0のCRの有無によっては、いくつかの候補リリース（CR）をリリースする可能性があります。\n"
+"Camel 3.5.0のCRが利用可能になった時点で、いくつかの候補リリース（CR）をリリースする可能性があります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.1/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "To get an idea which new extensions are coming, look for the extensions\n"
 "having `since = 1.1.0` in the [list of extensions](/camel-quarkus/latest/reference/index.html).\n"
 "You may also check the [issues assigned to milestone 1.1.0](https://github.com/apache/camel-quarkus/milestone/5?closed=1).\n"
 msgstr ""
+"どの新しい拡張機能が登場するかを知るには、[拡張機能リスト](/camel-quarkus/latest/referenceindexhtml)で\n"
+"を探してみてください（[list of extensions](/camel-quarkus/latest/reference/index.html)）。\n"
+"また、[milestone 1.1.0に割り当てられた課題](https://github.com/apache/camel-quarkus/milestone/5?closed=1)をチェックすることもできます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.1/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We are looking forward to your participation through\n"
 "[contributing](/camel-quarkus/latest/contributor-guide/index.html) and/or\n"
 "[filing bugs](https://github.com/apache/camel-quarkus/issues/new)!\n"
 msgstr ""
+"皆様のご参加をお待ちしております。\n"
+"貢献](/camel-quarkus/latest/contributor-guide/index.html) や\n"
+"バグの報告](https://github.com/apache/camel-quarkus/issues/new)をお願いします。\n"

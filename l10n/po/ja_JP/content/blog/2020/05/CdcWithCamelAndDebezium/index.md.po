@@ -18,154 +18,175 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "CDC approaches based on Camel and Debezium."
-msgstr ""
+msgstr "CamelとDebeziumをベースにしたCDCアプローチ。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "CDC with Camel and Debezium"
-msgstr ""
+msgstr "CamelとDebeziumのCDC"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Change Data Capture (CDC) is a well-established software design pattern for a system that monitors and captures\n"
 "data changes, so that other software can respond to those events.\n"
 msgstr ""
+"Change Data Capture (CDC) は、データの変更を監視して記録し、他のソフトウェアがそのイベントに対応できるようにするシステムのための、確立されたソフトウェア・デザイン・パターンです。\n"
+"他のソフトウェアがそのイベントに対応できるように、データの変更を監視し、捕捉するシステムのデザインパターンとして確立されています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Using a CDC engine like [Debezium](https://debezium.io) along with [Camel]() integration\n"
 "framework, we can easily build data pipelines to bridge traditional data stores and new cloud-native event-driven\n"
 "architectures.\n"
 msgstr ""
+"Debezium](https://debezium.io)のようなCDCエンジンと[Camel](統合フレームワーク)を使って\n"
+"統合フレームワークを使うことで、従来のデータストアと新しいクラウドネイティブなイベントドリブンアーキテクチャをつなぐデータパイプラインを簡単に構築することができます。\n"
+"アーキテクチャの架け橋となるデータパイプラインを簡単に構築できます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The advantages of CDC comparing to a simple poll-based or query-based process are:\n"
-msgstr ""
+msgstr "CDCの利点は、単純な投票ベースや問い合わせベースのプロセスと比較して、次のとおりです。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "*All changes captured*: intermediary changes (updates, deletes) between two runs of the poll loop may be missed.\n"
-msgstr ""
+msgstr "*All changes captured*：ポールループの2回の実行の間の中間的な変更（更新、削除）は見逃される可能性があります。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "*Low overhead*: near real-time reaction to data changes avoids increased CPU load due to frequent polling.\n"
-msgstr ""
+msgstr "低オーバーヘッド*：データの変化にほぼリアルタイムで対応することで、頻繁なポーリングによるCPU負荷の増加を防ぎます。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "*No data model impact*: timestamp columns to determine the last update of data are not needed.\n"
-msgstr ""
+msgstr "*データモデルへの影響なし*：データの最終更新を判断するためのタイムスタンプカラムは必要ありません。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There are two main aproaches for building a CDC pipeline:\n"
-msgstr ""
+msgstr "CDCのパイプラインを構築するには、主に2つのアプローチがあります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The first approach is *configuration-driven* and runs on top of [KafkaConnect](https://kafka.apache.org/documentation/#connect),\n"
 "the streaming integration platform based on Kafka. The second approach is *code-driven* and it is purely implemented with Camel\n"
 "(no Kafka dependency).\n"
 msgstr ""
+"1つ目のアプローチは、*設定駆動型*で、[KafkaConnect](https://kafka.apache.org/documentation/#connect)の上で動作します。\n"
+"KafkaConnect]()の上で動作します。2つ目のアプローチは*コードドリブン*で、純粋にCamelで実装されています。\n"
+"で純粋に実装されています（Kafkaへの依存はありません）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "While KafkaConnect provides some *Connectors* for zero or low coding integrations, Camel's extensive collection of *Components*\n"
 "(300+) enables you to connect to all kinds of external systems. The great news is that these Components can now be used as\n"
 "Connectors thanks to a new sub-project called *CamelKafkaConnect* (will use the SJMS2 as an example).\n"
 msgstr ""
+"KafkaConnectはゼロまたはローコーディングでの統合のためにいくつかの*Connectors*を提供していますが、Camelの豊富な*Components*のコレクション（300以上）は、あらゆる種類の外部システムとの接続を可能にします。\n"
+"(300以上)の豊富なコレクションにより、あらゆる種類の外部システムに接続することができます。素晴らしいニュースは、新しいサブプロジェクトのおかげで、これらのコンポーネントが次のように使用できるということです。\n"
+"CamelKafkaConnect*と呼ばれる新しいサブプロジェクトのおかげで、これらのコンポーネントはコネクタとして使用できるようになりました（SJMS2を例として使用します）。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Use case"
-msgstr ""
+msgstr "使用例"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We want to focus on the technology, so the use case is relatively simple, but includes both routing and transformation\n"
 "logic. The requirement is to stream all new customers from a source table to XML and JSON sink queues.\n"
 msgstr ""
+"テクノロジーに焦点を当てたいので、ユースケースは比較的シンプルですが、ルーティングとトランスフォームの両方の\n"
+"ロジックが含まれます。要件は、すべての新規顧客をソーステーブルからXMLとJSONのシンクキューにストリーミングすることです。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "                                     |---> (xml-sink-queue)\n"
 "(source-table) ---> [cdc-process] ---|\n"
 "                                     |---> (json-sink-queue)\n"
 msgstr ""
+"                                     |---&gt; (xml-sink-queue)\n"
+"(source-table) ---&gt; [cdc-process] ---|。\n"
+"                                     |---&gt; (json-sink-queue)\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Implementations"
-msgstr ""
+msgstr "実装"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "No matter what technology you use, the CDC process must run as a single thread to maintain ordering.\n"
 "Since Debezium records the log offset asyncronously, any final consumer of these changes must be idempotent.\n"
 msgstr ""
+"どのような技術を使っていても、CDCプロセスは順序を維持するためにシングルスレッドとして実行されなければなりません。\n"
+"Debezium はログのオフセットを非同期に記録するので、これらの変更の最終的な消費者は冪等でなければなりません。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Important change event properties: `lsn` (offset) is the log sequence number that tracks the position in the database\n"
 "WAL (write ahead log), `txId` represents the identifier of the server transaction which caused the event, `ts_ms`\n"
 "represents the number of microseconds since Unix Epoch as the server time at which the transaction was committed.\n"
 msgstr ""
+"重要な変更イベントのプロパティです。lsn` (offset)はデータベース内の位置を追跡するログのシーケンス番号です。\n"
+"WAL (write ahead log)の位置を追跡するログシーケンス番号です。\n"
+"はトランザクションがコミットされたサーバの時刻としてのUnix Epochからのマイクロ秒数を表す。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Prerequisites: Postgres 11, OpenJDK 1.8 and Maven 3.5+.\n"
-msgstr ""
+msgstr "前提条件Postgres 11、OpenJDK 1.8、Maven 3.5+が必要です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[GET CODE HERE](https://github.com/fvaleri/cdc/tree/blog)\n"
-msgstr ""
+msgstr "[get code here](https://github.com/fvaleri/cdc/tree/blog)\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "External systems setup"
-msgstr ""
+msgstr "外部システムのセットアップ"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:59
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Enable transaction log access and start Postgres.\n"
-msgstr ""
+msgstr "トランザクションログへのアクセスを有効にし、Postgresを起動します。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:59
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "# postgresql.conf: configure replication slot\n"
 "wal_level = logical\n"
@@ -176,98 +197,128 @@ msgid ""
 "host    cdcdb       cdcadmin        127.0.0.1/32            trust\n"
 "host    cdcdb       cdcadmin        ::1/128                 trust\n"
 msgstr ""
+"# postgresql.conf: レプリケーションスロットの設定\n"
+"wal_level = logical\n"
+"max_wal_sender = 1\n"
+"max_replication_slots = 1\n"
+"# pg_hba.conf: debeziumユーザにローカルホストのレプリケーションを許可する。\n"
+"ローカル cdcdb cdcadmin trust\n"
+"ホスト cdcdb cdcadmin 127.0.0.1/32 trust\n"
+"ホスト cdcdb cdcadmin ::1/128 トラスト\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:72
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "There is a simple script to create and initialize the database.\n"
 "This script can also be used to query the table and produce a stream of changes.\n"
 msgstr ""
+"データベースを作成し、初期化するための簡単なスクリプトがあります。\n"
+"このスクリプトは、テーブルを照会し、変更のストリームを生成するためにも使用できます。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:72
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "./run.sh --database\n"
 "./run.sh --query\n"
 "./run.sh --stream\n"
 msgstr ""
+"./run.sh --database\n"
+"./run.sh --クエリ\n"
+"./run.sh --ストリーム\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:79
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Then, start Artemis broker and open the [web console](http://localhost:8161/console) (login: admin/admin).\n"
-msgstr ""
+msgstr "そして、Artemis brokerを起動し、[web console](http://localhost:8161/console)を開きます(ログイン: admin/admin)。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:79
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "./run.sh --artemis\n"
 "# status check\n"
 "ps -ef | grep \"[A]rtemis\" | wc -l\n"
 msgstr ""
+"./run.sh --artemis\n"
+"ステータスチェック\n"
+"ps -ef | grep \"[A]rtemis\" | wc -l\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:85
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "KafkaConnect CDC pipeline"
-msgstr ""
+msgstr "KafkaConnect CDC パイプライン"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:88
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is the KafkaConnect distributed mode architecture that we will configure to fit our use case.\n"
-msgstr ""
+msgstr "これがKafkaConnectの分散モードアーキテクチャで、ユースケースに合わせて構成していきます。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:88
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "SourceConnector --> KafkaConnectDM [Worker0JVM(TaskA0, TaskB0, TaskB1),...] --> SinkConnector\n"
 "                                |\n"
 "                    Kafka (offsets, config, status)\n"
 msgstr ""
+"SourceConnector --&gt; KafkaConnectDM [Worker0JVM(TaskA0, TaskB0, TaskB1),...] --&gt; SinkConnector\n"
+"                                |\n"
+"                    Kafka (offsets, config, status)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:97
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We will run all components on localhost, but ideally each one should run in a different host (physical, VM or container).\n"
 "Connect workers operate well in containers and in managed environments. Take a look at the [Strimzi](https://strimzi.io)\n"
 "project if you want to know how to easily operate Kafka and KafkaConnect on Kubernetes platform.\n"
 msgstr ""
+"ここでは、すべてのコンポーネントをlocalhostで実行しますが、理想的には、それぞれのコンポーネントを別のホスト（物理、VM、またはコンテナ）で実行する必要があります。\n"
+"コネクトワーカーは、コンテナやマネージド環境でもうまく動作します。Strimzi](https://strimzi.io)のプロジェクトを見てみましょう。\n"
+"KafkaとKafkaConnectをKubernetesプラットフォームで簡単に運用する方法を知りたい方は、[Strimzi]()プロジェクトをご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:100
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We need a Kafka cluster up and running (3 ZooKeeper + 3 Kafka). This step also download and install all required Connectors\n"
 "(debezium-connector-postgres, camel-sjms2-kafka-connector) and dependencies.\n"
 msgstr ""
+"Kafkaクラスターを稼働させる必要があります（3 ZooKeeper + 3 Kafka）。このステップでは、すべての必要なコネクター\n"
+"(debezium-connector-postgres, camel-sjms2-kafka-connector)と依存関係をダウンロードしてインストールします。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:100
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "./run.sh --kafka\n"
 "# status check\n"
 "ps -ef | grep \"[Q]uorumPeerMain\" | wc -l\n"
 "ps -ef | grep \"[K]afka\" | wc -l\n"
 msgstr ""
+"./run.sh --kafka\n"
+"ステータスチェック\n"
+"ps -ef | grep \"[Q]uorumPeerMain\" | wc -l\n"
+"ps -ef | grep \"[K]afka\" | wc -l\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:109
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Now we can start our 3-nodes KafkaConnect cluster in distributed mode (workers that are configured with matching `group.id`\n"
 "values automatically discover each other and form a cluster).\n"
 msgstr ""
+"これで、3ノードのKafkaConnectクラスターを分散モードで起動できるようになりました（一致する`group.id`の値で設定されたワーカーが自動的にお互いを発見してクラスターを形成します）。\n"
+"の値が一致するように設定されたワーカーが自動的にお互いを発見し、クラスターを形成します）。)\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:109
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "./run.sh --connect\n"
 "# status check\n"
@@ -276,16 +327,22 @@ msgid ""
 "/tmp/kafka/bin/kafka-topics.sh --zookeeper localhost:2180 --list\n"
 "curl localhost:7070/connector-plugins | jq\n"
 msgstr ""
+"./run.sh --connect\n"
+"ステータスチェック\n"
+"ps -ef | grep \"[C]onnectDistributed\" | wc -l\n"
+"テール -n100 /tmp/kafka/logs/connect.log\n"
+"/tmp/kafka/bin/kafka-topics.sh --zookeeper localhost:2180 --list\n"
+"curl localhost:7070/connector-plugins | jq\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:119
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The infrastructure is ready and we can finally configure our CDC pipeline.\n"
-msgstr ""
+msgstr "インフラの準備が整い、ようやくCDCパイプラインの設定ができるようになりました。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:119
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "# debezium source task (topic name == serverName.schemaName.tableName)\n"
 "curl -sX POST -H \"Content-Type: application/json\" localhost:7070/connectors -d @connect-cdc/src/main/connectors/dbz-source.json\n"
@@ -300,112 +357,147 @@ msgid ""
 "curl -s localhost:7070/connectors/json-jms-sink/status | jq\n"
 "curl -s localhost:7070/connectors/xml-jms-sink/status | jq\n"
 msgstr ""
+"# debezium ソースタスク (トピック名 == serverName.schemaName.tableName)\n"
+"curl -sX POST -H \"Content-Type: application/json\" localhost:7070/connectors -d @connect-cdc/src/main/connectors/dbz-source.json\n"
+"\n"
+"# jmsシンクタスク(sjms2コンポーネントで動作)\n"
+"curl -sX POST -H \"Content-Type: application/json\" localhost:7070/connectors -d @connect-cdc/src/main/connectors/json-jms-sink.json\n"
+"curl -sX POST -H \"Content-Type: application/json\" localhost:7070/connectors -d @connect-cdc/src/main/connectors/xml-jms-sink.json\n"
+"\n"
+"ステータスチェック\n"
+"curl -s localhost:7070/connectors | jq\n"
+"curl -s localhost:7070/connectors/dbz-source/status | jq\n"
+"curl -s localhost:7070/connectors/json-jms-sink/status | jq\n"
+"curl -s localhost:7070/connectors/xml-jms-sink/status | jq\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:135
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:157
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Produce some more changes and check queues.\n"
-msgstr ""
+msgstr "さらにいくつかの変更を加えて、キューをチェックします。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:135
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:157
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "./run.sh --stream\n"
-msgstr ""
+msgstr "./run.sh --stream\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:139
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel CDC pipeline"
-msgstr ""
+msgstr "キャメルCDCのパイプライン"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:142
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is our Camel CDC pipeline designed using EIPs.\n"
-msgstr ""
+msgstr "これは、EIPを使って設計されたCamelのCDCパイプラインです。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:142
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "                                                                       |--> [format-converter] --> (xml-queue)\n"
 "(postgres-db) --> [dbz-endpoint] --> [type-converter]--> [multicast] --|\n"
 "                                                                       |--> [format-converter] --> (json-queue)\n"
 msgstr ""
+"                                                                       |--&gt; [format-converter] --&gt; (xml-queue)\n"
+"(postgres-db) --&gt; [dbz-endpoint] --&gt; [type-converter]--&gt; [multicast] --|。\n"
+"                                                                       |--&gt; [format-converter] --&gt; (Json-queue)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:150
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We use the *Debezium PostgreSQL Component* as the endpoint which creates an event-driven consumer.\n"
 "This is a wrapper around Debezium embedded engine which enables CDC without the need to maintain Kafka clusters.\n"
 msgstr ""
+"イベントドリブンなコンシューマーを作るエンドポイントとして、*Debezium PostgreSQL Component*を使用しています。\n"
+"これはDebezium embedded engineのラッパーで、Kafkaクラスターを維持することなくCDCを実現します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:152
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Compile and run the application.\n"
-msgstr ""
+msgstr "アプリケーションをコンパイルして実行します。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:152
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "mvn clean compile exec:java -f ./camel-cdc/pom.xml\n"
-msgstr ""
+msgstr "mvn clean compile exec:java -f ./camel-cdc/pom.xml\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:161
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Considerations"
-msgstr ""
+msgstr "考察"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:166
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Both CDC solutions are perfectly valid but, depending on your experience, you may find one of them more convenient.\n"
 "If you already have a Kafka cluster, an implicit benefit of using KafkaConnect is that it stores the whole change log\n"
 "in a topic, so you can easily rebuild the application state if needed.\n"
 msgstr ""
+"どちらのCDCソリューションも完全に有効ですが、経験に応じて、どちらかがより便利だと感じるかもしれません。\n"
+"すでに Kafka クラスタを持っている場合、KafkaConnect を使用することの暗黙のメリットは、変更ログ全体をトピックに保存することです。\n"
+"をトピックに保存するため、必要に応じてアプリケーションの状態を簡単に再構築できることです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:171
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Another benefit of running on top of KafkaConnect in  distributed mode is that you have a fault tolerant CDC process.\n"
 "It is possible to achieve the same by running the Camel process as\n"
 "[clustered singleton service](https://www.nicolaferraro.me/2017/10/17/creating-clustered-singleton-services-on-kubernetes)\n"
 "on top of Kubernetes.\n"
 msgstr ""
+"KafkaConnectの上で分散モードで実行することのもう一つの利点は、フォールトトレラントなCDCプロセスを持つことです。\n"
+"Camelプロセスを以下のように実行することで同様のことが実現できます。\n"
+"[クラスター化されたシングルトンサービス](https://www.nicolaferraro.me/2017/10/17/creating-clustered-singleton-services-on-kubernetes)\n"
+"をKubernetesの上で実行することで実現できます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:175
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "One thing to be aware of is that Debezium offers better performance because of the access to the internal transaction log,\n"
 "but there is no standard for it, so a change to the database implementation may require a rewrite of the corresponding plugin.\n"
 "This also means that every data source has its own procedure to enable access to its internal log.\n"
 msgstr ""
+"気をつけなければならないのは、Debeziumでは内部のトランザクションログにアクセスできるため、パフォーマンスが向上することです。\n"
+"しかし、これには標準規格がないため、データベースの実装を変更すると、対応するプラグインの書き換えが必要になることがある。\n"
+"また、データソースごとに内部ログへのアクセスを有効にするための手順が決まっているということです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:180
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Connectors configuration allows you to transform message payload by using single message transformations (SMTs), that can be\n"
 "chained (sort of Unix pipeline) and extended with custom implementations. They are actually designed for simple modifications\n"
 "and long chains of SMTs are hard to maintain and reason about. Moreover, remember that transformations are synchronous and\n"
 "applied on each message, so you can really slowdown the streaming pipeline with heavy processing or external service calls.\n"
 msgstr ""
+"コネクタの設定では、シングルメッセージトランスフォーメーション（SMT）を使用してメッセージペイロードを変換することができます。\n"
+"カスタム実装で拡張することができます。これらは実際には単純な変更のために設計されています。\n"
+"長く続くSMTの連鎖は、メンテナンスや推論が大変です。さらに、変換は同期的で、各メッセージに適用されることを覚えておいてください。\n"
+"各メッセージに適用されるので、重い処理や外部サービスの呼び出しがあると、ストリーミングパイプラインが本当に遅くなってしまいます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/CdcWithCamelAndDebezium/index.md:184
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In cases where you need to do heavy processing, split, enrich, aggregate records or call external services, you should use a\n"
 "stream processing layer between Connectors such as Kafka Streams or plain Camel. Just remember that Kafka Streams creates\n"
 "internal topics and you are forced to put transformed data back into some Kafka topic (data duplication), while this is just\n"
 "an option using Camel.\n"
 msgstr ""
+"レコードの分割、エンリッチ、集約、外部サービスの呼び出しなど、重い処理が必要な場合は\n"
+"コネクタの間にKafka StreamsやプレーンなCamelなどのストリーム処理レイヤーを使用する必要があります。ただし、Kafka Streamsは内部トピックを作成するので\n"
+"内部トピックを作成し、変換されたデータをどこかのKafkaトピックに戻さなければなりません（データの重複）。\n"
+"Camelではこのようなことはありません。\n"

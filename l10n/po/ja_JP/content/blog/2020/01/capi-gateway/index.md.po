@@ -18,225 +18,229 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/01/capi-gateway/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "How an API Gateway is implemented using Camel at the European Comission"
-msgstr ""
+msgstr "欧州委員会におけるCamelを使ったAPIゲートウェイの実装方法"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/01/capi-gateway/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "CAPI Gateway: Using Apache Camel at the European Commission"
-msgstr ""
+msgstr "CAPIゲートウェイ。欧州委員会でのApache Camelの使用"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "I've been working at the European Commission for the last 4 years as a Software Architect, working for a unit responsible for developing reusable components, and advocating open source software. In this context, we organized already a couple of Hackathons and Bug bounties open to all the open source communities.\n"
-msgstr ""
+msgstr "この4年間、欧州委員会でソフトウェアアーキテクトとして、再利用可能なコンポーネントの開発やオープンソースソフトウェアの推進を担当する部署で働いてきました。このような状況の中で、私たちはすでにいくつかのハッカソンを開催し、すべてのオープンソースコミュニティに開かれたバグバウンティを実施しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In the team, we worked already a couple of times with Apache Camel, and I like the elegance and performance compared with other integration frameworks.\n"
-msgstr ""
+msgstr "チーム内では、すでにApache Camelを何度か使っていましたが、他の統合フレームワークと比較して、そのエレガントさとパフォーマンスが気に入っています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Recently I was challenged to find alternatives to the existing API Gateway infrastructure and immediately started to search for products implemented on top of Apache Camel.\n"
-msgstr ""
+msgstr "最近、私は既存のAPIゲートウェイのインフラに代わるものを探すという課題に直面し、すぐにApache Camelの上に実装された製品を探し始めました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Not being able to find any solution with all we need to offer, I decided to work on a small POC with the following features:\n"
-msgstr ""
+msgstr "私たちが提供しなければならないものを備えたソリューションを見つけることができなかったので、以下の機能を備えた小さなPOCに取り組むことにしました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Easy to customize API Gateway (since we have several customers, with a wide scope of needs and technologies, we need to be able to easily build custom components on top of an API Gateway core.) Ex.: Customize processors, Integrate with externals IdP, Implement custom API Manager Interface.)\n"
-msgstr ""
+msgstr "API Gatewayのカスタマイズが容易であること(複数の顧客を持ち、ニーズや技術の範囲が広いため、API Gatewayコアの上にカスタムコンポーネントを簡単に構築できる必要がある)例：プロセッサのカスタマイズ、外部のIdPとの統合、カスタムAPIマネージャインタフェースの実装など)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Light and easy to install.\n"
-msgstr ""
+msgstr "軽くて取り付けも簡単。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Decoupled components, Observability, Metrics, Database, API Manager Interface, Authorization, and Gateway.\n"
-msgstr ""
+msgstr "デカップリングされたコンポーネント、Observability、Metrics、Database、API Manager Interface、Authorization、Gateway。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Traffic management (Applied per API or API Path)\n"
-msgstr ""
+msgstr "トラフィック管理（APIまたはAPIパスごとに適用\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Automated traceability. (When a user deploys an API, we create Zipkin traces)\n"
-msgstr ""
+msgstr "自動化されたトレーサビリティー。(ユーザーがAPIをデプロイする際、Zipkinのトレースを作成します)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Automated Metrics (When a user deploys an API, we create Prometheus metrics)\n"
-msgstr ""
+msgstr "自動化されたメトリクス（ユーザーがAPIをデプロイすると、Prometheusのメトリクスを作成します。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Automated Dashboards (When a user deploys an API, we create Grafana dashboards)\n"
-msgstr ""
+msgstr "自動化されたダッシュボード（ユーザーがAPIをデプロイした際に、Grafanaのダッシュボードを作成する\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Block APIs after failed attempts.\n"
-msgstr ""
+msgstr "失敗したAPIをブロックする。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "REST endpoints to manage your API's, Clients, Subscriptions, Certificates.\n"
-msgstr ""
+msgstr "API、クライアント、サブスクリプション、証明書を管理するためのRESTエンドポイント。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Authorization integration with Keycloak.\n"
-msgstr ""
+msgstr "Keycloakとの認証統合。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "SO, WHY APACHE CAMEL?\n"
-msgstr ""
+msgstr "では、なぜapache camelなのでしょうか？\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Open Source.\n"
-msgstr ""
+msgstr "オープンソースです。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Big and active community.\n"
-msgstr ""
+msgstr "大きくて活発なコミュニティ。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fast and reliable.\n"
-msgstr ""
+msgstr "速くて信頼できる。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Deep integration with Spring Boot.\n"
-msgstr ""
+msgstr "Spring Bootとの深い連携。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "DSL Language.\n"
-msgstr ""
+msgstr "DSL言語。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Know-how in the team.\n"
-msgstr ""
+msgstr "チーム内のノウハウ\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It supports all the integration patterns that you can remember.\n"
-msgstr ""
+msgstr "覚えられる限りの統合パターンに対応しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:39
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As part of the POC, I've decided already to combine other technologies:\n"
-msgstr ""
+msgstr "POCの一環として、他の技術を組み合わせることもすでに決めています。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Spring Boot\n"
-msgstr ""
+msgstr "Spring Boot\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Hazelcast distributed cache\n"
-msgstr ""
+msgstr "Hazelcastの分散型キャッシュ\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Prometheus\n"
-msgstr ""
+msgstr "プロメテウス\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Grafana\n"
-msgstr ""
+msgstr "Grafana\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Zipkin\n"
-msgstr ""
+msgstr "ジプキン\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "MongoDB\n"
-msgstr ""
+msgstr "MongoDB\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Keycloak\n"
-msgstr ""
+msgstr "キークローク\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The POC is available, and currently being tested, already working with Apache Camel 3.0.0.\n"
 "Let's then go for some technical details...\n"
 msgstr ""
+"POCは入手可能で、現在テスト中であり、Apache Camel 3.0.0ですでに動作しています。\n"
+"それでは、技術的な詳細について説明します。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/01/capi-gateway/index.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Architecture Overview"
-msgstr ""
+msgstr "アーキテクチャの概要"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"CAPI-Gateway.png\" \"Architecture Overview\" >}}\n"
 msgstr ""
+"< image \"CAPI-Gateway.png\" \"Architecture Overview\" >{{}}\n"
+"</image>"
 
 #. type: Title ##
 #: upstream/content/blog/2020/01/capi-gateway/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Basic Route Definition"
-msgstr ""
+msgstr "基本的なルートの定義"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/01/capi-gateway/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "routeDefinition\n"
 "  .streamCaching()\n"
@@ -258,16 +262,35 @@ msgid ""
 "      .end()\n"
 "      .setId(routeID);\n"
 msgstr ""
+"routeDefinition\n"
+"  .StreamCaching()\n"
+"  .setHeader(...) //コア・ヘッダー\n"
+"  .process(authenticationProcessor)\n"
+"  .choice()\n"
+"      .when(...) //認証プロセッサの実行をチェックする\n"
+"      .process(pathProcessor) //パスの評価を行います。\n"
+"      .toF(toEndpoint) //デプロイされたバックエンドへのプロキシ\n"
+"      .removeHeader(...) //いくつかのコアヘッダーを削除します\n"
+"      .process(metricsProcessor) //メトリクスの処理\n"
+"\n"
+"  //APIが認証されませんでした（例：期限切れのトークン）。\n"
+"  .otherwise()\n"
+"      .setHeader(...) //コアなエラーヘッダー\n"
+"      .toF(apiGatewayErrorEndpoint) //デフォルトのエラーエンドポイントへのプロキシ\n"
+"      .removeHeader(...) //いくつかのコアヘッダーを削除します。\n"
+"      .process(metricsProcessor) //メトリクスの処理\n"
+"      .end()\n"
+"      .setId(routeID);\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:80
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The *toEndpoint* contains the default configuration:\n"
-msgstr ""
+msgstr "toEndpoint*には、デフォルトの設定が含まれています。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/01/capi-gateway/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "throwExceptionOnFailure=false //we will catch the exceptions\n"
 "connectTimeout=...\n"
@@ -275,16 +298,21 @@ msgid ""
 "copyHeaders=true\n"
 "connectionClose=true\n"
 msgstr ""
+"throwExceptionOnFailure=false //例外をキャッチします\n"
+"connectTimeout=...\n"
+"bridgeEndpoint=true\n"
+"copyHeaders=true\n"
+"connectionClose=true\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:90
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Since we want to be able to catch Network, IO exceptions we also do this on the route definition:\n"
-msgstr ""
+msgstr "NetworkやIOの例外をキャッチできるようにしたいので、ルート定義でもこれを行います。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/01/capi-gateway/index.md:91
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "routeDefinition\n"
 "  .onException(exceptionClass)\n"
@@ -294,108 +322,117 @@ msgid ""
 "  .removeHeader(...) //remove some core headers\n"
 "  .end();\n"
 msgstr ""
+"routeDefinition\n"
+"  .onException(exceptionClass)\n"
+"  .continue(続き)\n"
+"  .setHeader(...) //例外のヘッダー\n"
+"  .toF(apiGatewayErrorEndpoint) //デフォルトのエラーエンドポイントへのプロキシ\n"
+"  .removeHeader(...) //いくつかのコア・ヘッダーを削除する\n"
+"  .end();\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:103
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "All information about a running API can be found in the shared cache. This allows the component that manages APIs to know if an API must be suspended or temporarily blocked (due to failed attempts and/or many calls exceeding the defined threshold.)\n"
 "Information about a running API includes:\n"
 msgstr ""
+"実行中のAPIに関するすべての情報は、共有キャッシュにあります。これにより、APIを管理するコンポーネントは、APIを一時的に中断またはブロックする必要があるかどうかを知ることができます（試行の失敗や、定義されたしきい値を超える多数のコールが原因です）。\n"
+"実行中のAPIに関する情報は以下の通りです。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:115
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Route ID\n"
-msgstr ""
+msgstr "ルートID\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:115
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Secured\n"
-msgstr ""
+msgstr "確保\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:115
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Zipkin Service Name and Prometheus Metrics Name\n"
-msgstr ""
+msgstr "ジプキンサービス名とプロメテウスメトリックス名\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:115
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Context\n"
-msgstr ""
+msgstr "コンテクスト\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:115
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Path\n"
-msgstr ""
+msgstr "パス\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:115
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Verb\n"
-msgstr ""
+msgstr "動詞\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:115
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Failed calls\n"
-msgstr ""
+msgstr "失敗した通話\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:115
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Max allowed failed calls\n"
-msgstr ""
+msgstr "最大許容失敗通話数\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:115
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Disabled (temporarily disabled, a candidate to be removed)\n"
-msgstr ""
+msgstr "Disabled（一時的な障害、解除候補者\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:115
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Removed (removed Route)\n"
-msgstr ""
+msgstr "削除された（削除されたルート\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:115
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Suspended info (type [ERROR, THROTTLING] and reason)\n"
-msgstr ""
+msgstr "停止した情報（タイプ[ERROR, THROTTLING]とその理由\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:117
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Main components Managing enabled Routes:\n"
-msgstr ""
+msgstr "主な構成要素 有効なルートの管理\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:120
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "@Component @Scheduled *ThrottlingInspector* - Periodically checks the traffic on the deployed API Path level\n"
-msgstr ""
+msgstr "Configuration @Scheduled *ThrottlingInspector* - デプロイされたAPI Pathレベルのトラフィックを定期的にチェックする。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:120
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "@Component @Scheduled *Running API's* - Periodically checks for API errors, candidates routes to suspend.\n"
-msgstr ""
+msgstr "コンポーネント @Scheduled *Running API's* - APIのエラーを定期的にチェックし、サスペンドするルートの候補を表示します。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/01/capi-gateway/index.md:121
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Example of an API definition"
-msgstr ""
+msgstr "API定義の例"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/01/capi-gateway/index.md:123
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "{\n"
 "    \"_id\" : \"XXX-XXX-XXX-XXX\",\n"
@@ -418,22 +455,42 @@ msgid ""
 "    }\n"
 "}\n"
 msgstr ""
+"{\n"
+"    \"_id\" : \"XXX-XXX-XXX-XXX\",\n"
+"    \"endpoint\" :\"remote.domain.com:8080\",\n"
+"    \"endpointType\" : \"HTTPS\",\n"
+"    \"name\" : \"Friendly API Name\",\n"
+"    \"secured\" : true,\n"
+"    \"context\" : \"context-name\",\n"
+"    \"swagger\" : true,\n"
+"    \"swaggerEndpoint\" :\"https://remote.domain.com:8080/v2/api-docs\" です。\n"
+"    \"blockIfInError\" : true,\n"
+"    \"maxAllowedFailedCalls\" : 10, //10回コールに失敗すると、ルートは削除されます。\n"
+"    \"unblockAfter\" : true,\n"
+"    \"unblockAfterMinutes\" : 2, //削除されてから2分後に、ルートが追加されます。\n"
+"    //1分あたり100回の通話、これを超えるとルートは停止されます。\n"
+"    \"throttlingPolicy\" : {\n"
+"        \"maxCallsAllowed\" : \"100\",\n"
+"        \"periodForMaxCalls\" : \"60000\",\n"
+"        \"applyPerPath\" : 真\n"
+"    }\n"
+"}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:147
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "With the following configuration your service will be available at:\n"
-msgstr ""
+msgstr "以下の設定で、サービスが利用できるようになります。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/01/capi-gateway/index.md:148
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "https://localhost:8380/gateway/context-name/\n"
-msgstr ""
+msgstr "https://localhost:8380/gateway/context-name/\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:157
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The following configuration will be applied:\n"
 "* secured: true - Meaning, that the CAPI Gateway expects a Bearer token sign by the authorization server (currently integrating with Keycloak) provided by the CAPI Rest Server.\n"
@@ -441,22 +498,27 @@ msgid ""
 "* throttlingPolicy.maxCallsAllowed: 100 / throttlingPolicy.periodForMaxCalls - You can only call your API/Path 100 times per minute.\n"
 "* throttlingPolicy.applyPerPath: true - If true the policy will be applied by the path and NOT the total amount for the API.\n"
 msgstr ""
+"以下の構成が適用されます。\n"
+"secured: true - CAPI Gatewayが、CAPI Rest Serverによって提供される認証サーバー（現在はKeycloakと統合）によるBearerトークンの署名を期待することを意味します。\n"
+"blockIfInError: true - 例えば、間違ったトークンを10回以上（maxAllowedFailedCalls）送信した場合、APIは2分間（unblockAfterMinutes）停止されることを意味します。\n"
+"* throttlingPolicy.maxCallsAllowed:100 / throttlingPolicy.periodForMaxCalls - 1 分間に 100 回だけ API/Path を呼び出すことができます。\n"
+"* throttlingPolicy.applyPerPath: true - trueの場合、ポリシーはAPIの総量ではなく、パスごとに適用されます。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/01/capi-gateway/index.md:158
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Optional Configuration"
-msgstr ""
+msgstr "オプション構成"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:160
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can define custom paths, in case you don't have a Swagger Endpoint (Swagger 2/Open API), so if swagger: false, then CAPI will look for a list of PATH like the below example:\n"
-msgstr ""
+msgstr "Swagger Endpoint（Swagger 2/Open API）がない場合には、カスタムパスを定義することができます。swagger: falseの場合、CAPIは以下の例のようにPATHのリストを検索します。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/01/capi-gateway/index.md:161
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 " {\n"
 "     \"_id\" : \"XXX-XXX-XXX-XXX\",\n"
@@ -481,24 +543,48 @@ msgid ""
 "     ]\n"
 " }\n"
 msgstr ""
+"{\n"
+"     \"_id\" : \"XXX-XXX-XXX-XXX\",\n"
+"     \"endpoint\" :\"remote.domain.com:8080\",\n"
+"     \"endpointType\" : \"HTTPS\",\n"
+"     \"name\" : \"Friendly API Name\",\n"
+"     //今回は、誰でも利用できるAPIにします\n"
+"     \"secured\" : falseです。\n"
+"     \"context\" : \"context-name\",\n"
+"     \"blockIfInError\" : falseです。\n"
+"     //swaggerの定義が存在しないので、利用可能なパスを定義する必要があります。\n"
+"     \"swagger\" : falseです。\n"
+"     \"path\" : [\n"
+"         {\n"
+"         \"verb\" : \"GET\",\n"
+"         \"path\" : \"/services/path\"\n"
+"         },\n"
+"         {\n"
+"         \"verb\" : \"POST\",\n"
+"         \"path\" : \"/services/path\"\n"
+"         }\n"
+"     ]\n"
+" }\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/01/capi-gateway/index.md:186
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Client (consumer) object"
-msgstr ""
+msgstr "クライアント（コンシューマー）オブジェクト"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:189
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This will change after the integration with Keycloak.\n"
 "Example of a client (with the password: web-client-secret)\n"
 msgstr ""
+"これは、Keycloakとの統合後に変更されます。\n"
+"クライアントの例 (パスワード: web-client-secret)\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/01/capi-gateway/index.md:190
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "{\n"
 "    \"_id\" : \"XXX-XXX-XXX-XXX\",\n"
@@ -531,24 +617,56 @@ msgid ""
 "    \"autoApprove\" : false\n"
 "}\n"
 msgstr ""
+"{\n"
+"    \"_id\" : \"XXX-XXX-XXX-XXX\",\n"
+"    \"clientId\" : \"web-publisher\",\n"
+"    \"resourceIds\" :[],\n"
+"    \"secretRequired\" : true,\n"
+"    \"clientSecret\" : \"$2a$10$oQBqS4ZOEiIGVNiZnB0nMuFw/n/Od57IG/uy4nFuOJxLtHE/Z5jDC\",\n"
+"    \"scoped\" : falseです。\n"
+"    \"scope\" : [\n"
+"        \"read-foo\"\n"
+"    ],\n"
+"    \"authorizedGrantTypes\" : [\n"
+"        \"refresh_token\",\n"
+"        \"client_credentials\",\n"
+"    ],\n"
+"    \"registeredRedirectUri\" : [],\n"
+"    \"authorities\" : [\n"
+"        {\n"
+"            \"role\" : \"ROLE_USER\",\n"
+"            \"_class\" : \"org.springframework.security.core.authority.SingleGrantedAuthority\"\n"
+"        },\n"
+"        {\n"
+"            \"role\" : \"ROLE_PUBLISHER\"（ロールパブリッシャー）。\n"
+"            \"_class\" : \"org.springframework.security.core.authority.SimpleGrantedAuthority\".\n"
+"        }\n"
+"        // 購読するすべてのAPIがオーソリティになる\n"
+"    ],\n"
+"    \"accessTokenValiditySeconds\" : 60,\n"
+"    \"refreshTokenValiditySeconds\" : 14400,\n"
+"    \"autoApprove\" : false\n"
+"}\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/01/capi-gateway/index.md:223
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Consuming your API"
-msgstr ""
+msgstr "APIを利用する"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:226
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "If you wish to enable security for your API (api.secured = true), then you will need to define a *client*.\n"
 "Your API ID will be added as an authority in the authorities list of your client.\n"
 msgstr ""
+"APIのセキュリティを有効にしたい（api.secured = true）場合は、*client*を定義する必要があります。\n"
+"あなたのAPI IDは、あなたのクライアントの権限リストに権限として追加されます。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/01/capi-gateway/index.md:227
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\"authorities\" : [\n"
 "    {\n"
@@ -565,109 +683,128 @@ msgid ""
 "    }\n"
 "]\n"
 msgstr ""
+"\"authorities\" : [\n"
+"    {\n"
+"        \"role\" : \"ROLE_USER\",\n"
+"        \"_class\" : \"org.springframework.security.core.authority.SingleGrantedAuthority\"\n"
+"    },\n"
+"    {\n"
+"        \"role\" : \"ROLE_PUBLISHER\"（ロールパブリッシャー）。\n"
+"        \"_class\" : \"org.springframework.security.core.authority.SimpleGrantedAuthority\".\n"
+"    },\n"
+"    {\n"
+"        \"role\" : \"YOUR API ID\",\n"
+"        \"_class\" : \"org.springframework.security.core.authority.SimpleGrantedAuthority\".\n"
+"    }\n"
+"]\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/01/capi-gateway/index.md:244
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Play with CAPI Gateway"
-msgstr ""
+msgstr "CAPI Gatewayで遊ぶ"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:247
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Clone the project.\n"
-msgstr ""
+msgstr "プロジェクトのクローンを作成します。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:247
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Execute\n"
-msgstr ""
+msgstr "実行\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/01/capi-gateway/index.md:248
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "$ sudo docker-compose up -d\n"
-msgstr ""
+msgstr "$ sudo docker-compose up -d\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:254
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you are starting a new MongoDB instance, a default CAPI Client will be created for you.\n"
-msgstr ""
+msgstr "新しいMongoDBインスタンスを起動する場合は、デフォルトのCAPIクライアントが作成されます。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:254
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Request your first access token:\n"
-msgstr ""
+msgstr "最初のアクセストークンをリクエストします。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/01/capi-gateway/index.md:255
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "$ curl -X POST https://localhost:8080/oauth/token -H 'Authorization: Basic d2ViLXB1Ymxpc2hlcjp3ZWItY2xpZW50LXNlY3JldA==' -H 'Content-Type: multipart/form-data;' -F grant_type=client_credentials -F 'response_type=access_token'\n"
-msgstr ""
+msgstr "$ curl -X POST https://localhost:8080/oauth/token -H 'Authorization:Basic d2ViLXB1Ymxpc2hlcjp3ZWItY2xpZW50LXNlY3JldA==' -H 'Content-Type: multipart/form-data;' -F grant_type=client_credentials -F 'response_type=access_token' です。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:262
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Go to http://localhost:8080/swagger-ui.html\n"
-msgstr ""
+msgstr "http://localhost:8080/swagger-ui.html に移動します。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:262
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Authenticate with the token you obtained from the previous step. (Don't forget to specify: Bearer _the token_)\n"
-msgstr ""
+msgstr "前のステップで取得したトークンで認証してください。(Bearer _the token_と指定するのを忘れずに)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:262
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Publish your first API:\n"
-msgstr ""
+msgstr "最初のAPIを公開します。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/01/capi-gateway/index.md:263
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "$ curl -X POST \"http://localhost:8080/route/simple-rest\" -H \"accept: application/json\" -H \"Content-Type: application/json\" -d \"<your-api>\" (see Example of an API definition)\n"
 msgstr ""
+"$ curl -X POST \"http://localhost:8080/route/simple-rest\" -H \"accept: application/json\" -H \"Content-Type: application/json\" -d<your-api>\"\" （「API定義の例」参照\n"
+"</your-api>"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/01/capi-gateway/index.md:268
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Imagine that your context was: test and one of your GET path was /user you can then test: http://localhost:8380/gateway/test/user\n"
-msgstr ""
+msgstr "コンテキストが「test」で、GETパスの一つが「/user」だったとすると、次のようにテストできます： http://localhost:8380/gateway/test/user\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:270
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Docker Compose will create instances of Grafana, Prometheus and Zipkin, but if you wish to use already existing instances you just need to change this environment variables:\n"
-msgstr ""
+msgstr "Docker ComposeはGrafana、Prometheus、Zipkinのインスタンスを作成しますが、既にあるインスタンスを使用したい場合は、この環境変数を変更するだけです。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/01/capi-gateway/index.md:271
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "api.gateway.prometheus.endpoint=http://prometheus:9090\n"
 "api.gateway.zipkin.endpoint=http://zipkin:9411/api/v2/spans\n"
 "api.gateway.grafana.endpoint=http://localhost:8080/grafana\n"
 msgstr ""
+"api.gateway.prometheus.endpoint=http://prometheus:9090\n"
+"api.gateway.zipkin.endpoint=http://zipkin:9411/api/v2/spans\n"
+"api.gateway.grafana.endpoint=http://localhost:8080/grafana\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/01/capi-gateway/index.md:277
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Some load results (Calling a protected service)"
-msgstr ""
+msgstr "いくつかの負荷の結果（保護されたサービスの呼び出し"
 
 #. type: Title ####
 #: upstream/content/blog/2020/01/capi-gateway/index.md:278
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Using apache benchmark on a 1 node docker container with SSL"
-msgstr ""
+msgstr "1ノードのDockerコンテナでSSLを使用したapacheベンチマークの使用"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:286
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    Results for 20k calls 1000 concurrency level:\n"
 "    Server Hostname:        localhost\n"
@@ -676,18 +813,26 @@ msgid ""
 "    Server Temp Key:        ECDH P-256 256 bits\n"
 "    TLS Server Name:        localhost\n"
 msgstr ""
+"    20k コール 1000 コンカレンシーレベルの場合の結果です。\n"
+"    サーバー ホスト名：ローカルホスト\n"
+"    サーバーポート：8380\n"
+"    SSL/TLSプロトコル       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256\n"
+"    Server Temp Key:        ECDH P-256 256ビット\n"
+"    TLSサーバー名：localhost\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:289
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    Document Path:          /gateway/myctx/internal/12345\n"
 "    Document Length:        33 bytes\n"
 msgstr ""
+"    ドキュメントパスです。          gateway/myctx/internal/12345\n"
+"    ドキュメントの長さ：33バイト\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:300
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    Concurrency Level:      1000\n"
 "    Time taken for tests:   65.563 seconds\n"
@@ -700,10 +845,20 @@ msgid ""
 "    Time per request:       3.278 [ms] (mean, across all concurrent requests)\n"
 "    Transfer rate:          97.71 [Kbytes/sec] received\n"
 msgstr ""
+"    コンカレンシーレベル：1000\n"
+"    テストにかかった時間   65.563秒\n"
+"    完了したリクエスト数：20000\n"
+"    失敗したリクエスト        0\n"
+"    転送された総量      6560000バイト\n"
+"    HTMLが転送されました。       660000バイト\n"
+"    1秒あたりのリクエスト数： 305.05 [#/sec] (平均)\n"
+"    1リクエストあたりの時間：3278.129 [ms] (平均)\n"
+"    1リクエストあたりの時間：3.278 [ms] (平均、すべての同時リクエストを含む)\n"
+"    転送レート          97.71 [Kbytes/sec] 受信\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:307
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    Connection Times (ms)\n"
 "                  min  mean[+/-sd] median   max\n"
@@ -712,11 +867,19 @@ msgid ""
 "    Waiting:        3  796 883.3    681   13862\n"
 "    Total:         58 3229 1683.6   3091   18639\n"
 msgstr ""
+"    接続時間(ms)\n"
+"                  最小値 平均値[+/-sd] 中央値 最大値\n"
+"    接続する        7 2431 1388.0   2260   18381\n"
+"    処理中     5  798 883.7    684   13862\n"
+"    待機中        3  796 883.3    681   13862\n"
+"    合計：58 3229 1683.6 3091 18639\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/capi-gateway/index.md:309
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "It would be amazing to have feedback from the Apache Camel Community. If you have any questions, feel free to contact me.\n"
 "The repo is located at https://github.com/rodrigoserracoelho/capi-gateway\n"
 msgstr ""
+"Apache Camel Communityからのフィードバックがあれば、素晴らしいことだと思います。ご質問がありましたら、お気軽にご連絡ください。\n"
+"レポは https://github.com/rodrigoserracoelho/capi-gateway にあります。\n"

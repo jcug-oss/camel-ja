@@ -18,148 +18,152 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New release of VS Code Language Support for Apache Camel 0.0.29: API based components initial support and Camel K Modeline improvements"
-msgstr ""
+msgstr "VS Code Language Support for Apache Camelの新リリース 0.0.29：APIベースのコンポーネントの初期サポートとCamel K Modelineの改善"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New release of VS Code Language Support for Apache Camel 0.0.29"
-msgstr ""
+msgstr "VS Code Language Support for Apache Camel 0.0.29」をリリースしました。"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A new release of [VS Code Language Support for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-apache-camel) 0.0.29 is available. It includes an interesting set of new features and two important bugfixes.\n"
-msgstr ""
+msgstr "VS Code Language Support for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-apache-camel) 0.0.29 がリリースされました。このリリースには、興味深い新機能と2つの重要なバグフィックスが含まれています。\n"
 
 #. type: Title #
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "API based components support"
-msgstr ""
+msgstr "APIベースのコンポーネントをサポート"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel has several API based components which are source code generated from external API. In [3.6.0](/blog/2020/10/Camel36-Whatsnew/#api-components-overhaul), finer grained information is available through additional metadata (Camel catalog). This release is leveraging these metadata to propose improved completion, documentation and validation for these APU based components.\n"
-msgstr ""
+msgstr "Camelには、外部APIから生成されたソースコードであるAPIベースのコンポーネントがいくつかあります。3.6.0](/blog/2020/10/Camel36-Whatsnew/#api-components-overhaul)では、追加のメタデータ(Camel catalog)により、より詳細な情報が得られるようになりました。今回のリリースでは、これらのメタデータを活用して、APUベースのコンポーネントの補完、文書化、検証の改善を提案しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It is proposing completion for api name:\n"
-msgstr ""
+msgstr "api名の補完を提案しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Completion for API Name](apiNameCompletion.png \"Completion for API Name\")\n"
-msgstr ""
+msgstr "![API名の補完](apiNameCompletion.png \"API名の補完\")\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It is proposing completion for method name available depending on the method name:\n"
-msgstr ""
+msgstr "メソッド名に応じて利用可能なメソッド名の補完を提案します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Completion for Method Name](methodNameCompletion.png \"Completion for Method Name\")\n"
-msgstr ""
+msgstr "![メソッド名の補完](methodNameCompletion.png \"メソッド名の補完\")\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It is proposing completion for properties depending on the api/method name combination of the component with a different icon:\n"
-msgstr ""
+msgstr "コンポーネントのapi/method名の組み合わせに応じたプロパティの補完を、別のアイコンで提案しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Completion for API properties](parameterCompletion.png \"Completion for API properties\")\n"
-msgstr ""
+msgstr "![APIプロパティの補完](parameterCompletion.png \"APIプロパティの補完\")\n"
 
 #. type: Title #
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel K Modeline improvements"
-msgstr ""
+msgstr "Camel K Modelineの改良"
 
 #. type: Title ####
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Jitpack completion"
-msgstr ""
+msgstr "Jitpackの完成"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "During development phase, it can be interesting to point to a repository directly. [Jitpack](https://jitpack.io/) is very convenient for that. Camel K modeline is leveraging it through the dependency parameter. This release introduce completion for the syntax that can be used.\n"
-msgstr ""
+msgstr "開発段階では、リポジトリを直接指定することは興味深いことです。Jitpack](https://jitpack.io/)はそのような場合にとても便利です。Camel K modeline は dependency パラメータを使ってこれを利用しています。今回のリリースでは、使用可能な構文の補完が導入されました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Completion for jitpack](completionJitpack.gif \"Completion for jitpack\")\n"
-msgstr ""
+msgstr "![jitpackの補完](completionJitpack.gif \"jitpackの補完\")\n"
 
 #. type: Title ####
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Multi-lines"
-msgstr ""
+msgstr "マルチライン"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Initially, Camel K modelines were available on the first line only. it is now possible to use Camel K modelines in every parts of the file and still leverage the language support in the IDE.\n"
-msgstr ""
+msgstr "当初、Camel Kのモデルラインは1行目でしか使用できませんでしたが、現在ではファイルのすべての部分でCamel Kのモデルラインを使用することができ、IDEの言語サポートを活用することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It is especially useful when there are a lot of parameters provided. It allows to split and organize the different kind of parameters a bit.\n"
-msgstr ""
+msgstr "特にパラメータがたくさん用意されている場合に便利です。さまざまな種類のパラメータを少しずつ分割して整理することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![multi-lines](multiline.png \"Muti-lines for Camel K modeline\")\n"
-msgstr ""
+msgstr "![multi-lines](multiline.png \"Muti-lines for Camel K modeline\")\n"
 
 #. type: Title #
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Bugfixes"
-msgstr ""
+msgstr "バグフィックス"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The version 0.0.28 is broken on Windows. It is fixed in the 0.0.29 version. Test suite is now launched for the Camel Language Server on Windows too. Thanks to [hemangajmera](https://github.com/hemangajmera) for reporting the [issue](https://github.com/camel-tooling/camel-lsp-client-vscode/issues/472) and to Camel Kafka committers that released a maintenance version specifically for this issue.\n"
-msgstr ""
+msgstr "バージョン0.0.28は、Windowsで壊れています。バージョン0.0.29では修正されています。WindowsでもCamel Language Serverのテストができるようになりました。問題](https://github.com/camel-tooling/camel-lsp-client-vscode/issues/472)を報告してくれた[hemangajmera](https://github.com/hemangajmera)と、この問題のためにメンテナンスバージョンをリリースしたCamel Kafkaのコミッターに感謝します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Annoying error notifications were happening when a project was containing Java interfaces. Thanks to [Rafael T. C. Soares](https://github.com/rafaeltuelho) for reporting the [issue](https://github.com/camel-tooling/camel-lsp-client-vscode/issues/475).\n"
-msgstr ""
+msgstr "プロジェクトにJavaインターフェイスが含まれていると、迷惑なエラー通知が発生していました。この問題を報告してくれた [Rafael T. C. Soares](https://github.com/rafaeltuelho)に感謝します(https://github.com/camel-tooling/camel-lsp-client-vscode/issues/475)。\n"
 
 #. type: Title #
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's next?"
-msgstr ""
+msgstr "次は何ですか？"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/VSCode-LanguageSupport-0.0.29/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Provide your feedback and ideas!\n"
 "You can start discussions on [Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling).\n"
 "You can create and vote for issues on github [Camel Language Server](https://github.com/camel-tooling/camel-language-server/issues) and [VS Code Language support for Apache Camel](https://github.com/camel-tooling/camel-lsp-client-vscode/issues) repositories.\n"
 "You can create and vote for issues on the [jira](https://issues.redhat.com/browse/FUSETOOLS2) used by the Red Hat Integration tooling team.\n"
 msgstr ""
+"ご意見・ご感想をお寄せください\n"
+"Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling)で議論を始めることができます。\n"
+"github の [Camel Language Server](https://github.com/camel-tooling/camel-language-server/issues) および [VS Code Language support for Apache Camel](https://github.com/camel-tooling/camel-lsp-client-vscode/issues) リポジトリで課題を作成し、投票することができます。\n"
+"Red Hat Integration tooling team が使用している [jira](https://issues.redhat.com/browse/FUSETOOLS2) で課題を作成し、投票することができます。\n"

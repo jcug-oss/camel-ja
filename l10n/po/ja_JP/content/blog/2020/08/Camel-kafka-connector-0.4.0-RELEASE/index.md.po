@@ -18,60 +18,60 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Kafka Connector 0.4.0 Released"
-msgstr ""
+msgstr "Camel Kafka Connector 0.4.0リリース"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We recently released camel-kafka-connector 0.4.0. This is the first release of the latest project in the Camel’s ecosystem, based on an [LTS camel release](/blog/2020/03/LTS-Release-Schedule/). \n"
-msgstr ""
+msgstr "先日、 camel-kafka-connector 0.4.0 をリリースしました。これはCamelのエコシステムにおける最新プロジェクトの最初のリリースで、[LTS camel release](/blog/2020/03/LTS-Release-Schedule/)をベースにしています。 \n"
 
 #. type: Bullet: ' * '
 #: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The main features of this release are:\n"
-msgstr ""
+msgstr "本リリースの主な機能は以下の通りです。\n"
 
 #. type: Bullet: ' * '
 #: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Introduction of aggregation support\n"
-msgstr ""
+msgstr "アグリゲーションサポートの導入\n"
 
 #. type: Bullet: ' * '
 #: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Introduction of marshalling and unmarshalling support on both sink and source connectors\n"
-msgstr ""
+msgstr "シンクとソースの両方のコネクタにマーシャリングとアンマーシャリングのサポートを導入。\n"
 
 #. type: Bullet: ' * '
 #: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Upgrade to the latest Apache Camel release 3.4.2\n"
-msgstr ""
+msgstr "Apache Camelの最新リリース3.4.2へのアップグレード\n"
 
 #. type: Bullet: ' * '
 #: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Addition of new examples in the camel-kafka-connector-examples repository\n"
-msgstr ""
+msgstr "camel-kafka-connector-examples リポジトリへの新しいサンプルの追加\n"
 
 #. type: Bullet: ' * '
 #: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Integration tests added for HDFS (sink), Cassandra/CQL (source), Slack (Source), JDBC (sink) and MongoDB (sink/source).\n"
-msgstr ""
+msgstr "HDFS(シンク)、Cassandra/CQL(ソース)、Slack(ソース)、JDBC(シンク)、MongoDB(シンク/ソース)の統合テストが追加されました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This project is still under heavy development but we are already at a good point in stabilizing the codebase. Expect new features and improvements in the next releases!\n"
-msgstr ""
+msgstr "このプロジェクトは現在も開発が進められていますが、コードベースを安定させるための良い段階にきています。次のリリースでは、新しい機能や改善を期待しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/Camel-kafka-connector-0.4.0-RELEASE/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you want to see it in action here a link to a recorded demo: https://youtu.be/7Co2AN_AoM4\n"
-msgstr ""
+msgstr "実際の動作をご覧になりたい方は、録画されたデモへのリンクをご覧ください。https://youtu.be/7Co2AN_AoM4\n"

@@ -18,156 +18,156 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus 1.4.0 Released"
-msgstr ""
+msgstr "Camel Quarkus 1.4.0リリース"
 
 #. type: Plain text
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel Quarkus 1.4.0 has been released!\n"
-msgstr ""
+msgstr "Apache Camel Quarkus 1.4.0がリリースされました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We continue to integrate with the latest Camel and [Quarkus](https://quarkus.io/) releases, whilst adding new features and fixing bugs.\n"
-msgstr ""
+msgstr "最新のCamelや[Quarkus](https://quarkus.io/)のリリースとの統合を継続し、新機能の追加やバグの修正を行っています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For a full overview of the changes see the [1.4.0 milestone details](https://github.com/apache/camel-quarkus/milestone/8?closed=1).\n"
-msgstr ""
+msgstr "変更点の概要については、[1.4.0マイルストーンの詳細](https://github.com/apache/camel-quarkus/milestone/8?closed=1)をご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Here are some of the highlights.\n"
-msgstr ""
+msgstr "ここではその一部をご紹介します。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Major component upgrades"
-msgstr ""
+msgstr "主要コンポーネントのアップグレード"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Quarkus 1.10.0\n"
-msgstr ""
+msgstr "Quarkus 1.10.0\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New extensions"
-msgstr ""
+msgstr "新しいエクステンション"
 
 #. type: Plain text
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As ever, we added some new extensions and enhanced existing ones with native support.\n"
-msgstr ""
+msgstr "これまで同様、いくつかの新しいエクステンションを追加し、既存のエクステンションをネイティブサポートで強化しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "1 new JVM only extension was added:\n"
-msgstr ""
+msgstr "JVM専用の拡張機能が1つ追加されました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AWS 2 Eventbridge](/camel-quarkus/latest/reference/extensions/aws2-eventbridge.html)\n"
-msgstr ""
+msgstr "AWS 2 イベントブリッジ](/camel-quarkus/latest/reference/extensions/aws2-eventbridge.html)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "7 extensions were enhanced with native support.\n"
-msgstr ""
+msgstr "7つの拡張機能がネイティブサポートで強化されました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[JSLT](/camel-quarkus/latest/reference/extensions/jslt.html)\n"
-msgstr ""
+msgstr "JSLT](/camel-quarkus/latest/reference/extensions/jslt.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Lumberjack](/camel-quarkus/latest/reference/extensions/lumberjack.html)\n"
-msgstr ""
+msgstr "ランバージャック](/camel-quarkus/latest/reference/extensions/lumberjack.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[MSV](/camel-quarkus/latest/reference/extensions/msv.html)\n"
-msgstr ""
+msgstr "MSV](/camel-quarkus/latest/reference/extensions/msv.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Nagios](/camel-quarkus/latest/reference/extensions/nagios.html)\n"
-msgstr ""
+msgstr "Nagios](/camel-quarkus/latest/reference/extensions/nagios.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Saga](/camel-quarkus/latest/reference/extensions/saga.html)\n"
-msgstr ""
+msgstr "佐賀県](/camel-quarkus/latest/reference/extensions/saga.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Twilio](/camel-quarkus/latest/reference/extensions/twilio.html)\n"
-msgstr ""
+msgstr "Twilio](/camel-quarkus/latest/reference/extensions/twilio.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Zendesk](/camel-quarkus/latest/reference/extensions/zendesk.html)\n"
-msgstr ""
+msgstr "[Zendesk](/camel-quarkus/latest/reference/extensions/zendesk.html)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can browse the full list of supported extensions over at the [extensions reference](/camel-quarkus/latest/reference/index.html).\n"
-msgstr ""
+msgstr "サポートされているエクステンションの全リストは、[extensions reference](/camel-quarkus/latest/reference/index.html)でご覧いただけます。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Improved integration with Quarkus Spring extensions"
-msgstr ""
+msgstr "Quarkus Springの拡張機能との連携強化"
 
 #. type: Plain text
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release fixes a [bug](https://github.com/apache/camel-quarkus/issues/1759) which highlighted some incompatibilities between the Quarkus Spring extensions and some of the Camel Quarkus extensions that depend on Spring libraries for JDBC, JMS & transaction support. This prevented applications from being built successfully, but the problem is now fixed.\n"
-msgstr ""
+msgstr "このリリースでは、JDBC、JMS、トランザクションのサポートのためにSpringライブラリに依存しているQuarkus SpringエクステンションとCamel Quarkusエクステンションの間の非互換性を強調する[バグ](https://github.com/apache/camel-quarkus/issues/1759)が修正されています。これにより、アプリケーションが正常にビルドされませんでしたが、この問題は修正されました。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's next?"
-msgstr ""
+msgstr "次は何ですか？"
 
 #. type: Plain text
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We move onwards towards supporting Camel 3.7.0, Quarkus 1.11.0 and continuing to work through the [list](https://github.com/apache/camel-quarkus/issues?q=is%3Aissue+is%3Aopen+label%3Anative) of extensions that need native support. \n"
-msgstr ""
+msgstr "Camel 3.7.0、Quarkus 1.11.0のサポートに向けて前進し、ネイティブサポートを必要とする拡張機能の[リスト](https://github.com/apache/camel-quarkus/issues?q=is%3Aissue+is%3Aopen+label%3Anative)の作業を続けています。 \n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As ever, we love contributions. So if you'd like to fix a bug, add a new extension or add native support to an existing one, check out the [list of issues](https://github.com/apache/camel-quarkus/issues) and the [contributor guide](/camel-quarkus/latest/contributor-guide/index.html).\n"
-msgstr ""
+msgstr "いつものように、私たちは貢献を歓迎します。バグを修正したり、新しい拡張機能を追加したり、既存の拡張機能にネイティブサポートを追加したりしたい場合は、[List of issues](https://github.com/apache/camel-quarkus/issues)や[contributor guide](/camel-quarkus/latest/contributor-guide/index.html)をご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/11/camel-quarkus-release-1.4.0/index.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We hope you enjoy Camel Quarkus 1.4.0 and we look forward to your feedback and participation!\n"
-msgstr ""
+msgstr "Camel Quarkus 1.4.0をお楽しみください。また、皆様からのご意見やご参加をお待ちしております。\n"

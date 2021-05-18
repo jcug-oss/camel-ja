@@ -18,58 +18,74 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/02/ApacheConNA-2020-CFP/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "ApacheCon 2020 in New Orleans"
-msgstr ""
+msgstr "ApacheCon 2020 in New Orleans"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/02/ApacheConNA-2020-CFP/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "CFP for ApacheCon North America 2020"
-msgstr ""
+msgstr "ApacheCon North America 2020」のCFP"
 
 #. type: Plain text
 #: upstream/content/blog/2020/02/ApacheConNA-2020-CFP/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "As [previous year](/blog/2019/09/ApacheConNA-2019/) Apache Camel is part of ApacheCon\n"
 "2020 in North America. This year the conference will be held at the [Sheraton,\n"
 "in New Orleans](https://apachecon.com/acna2020/location.html), September 28th\n"
 "through October 2nd, 2020.\n"
 msgstr ""
+"前回](/blog/2019/09/ApacheConNA-2019/)のように、Apache CamelはApacheConの一部です。\n"
+"2020 in North Americaに参加します。今年のカンファレンスは、[Sheraton,\n"
+"in New Orleans](https://apachecon.com/acna2020/location.html)で、9月28日\n"
+"から10月2日まで、2020年に開催されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/02/ApacheConNA-2020-CFP/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The call for presentations for ApacheCon North America 2020 is [now\n"
 "open](https://apachecon.com/acna2020/cfp) and the wider Camel community\n"
 "members are encouraged to submit. Look for the **Camel/Integration** track\n"
 "when submitting.\n"
 msgstr ""
+"ApacheCon North America 2020のプレゼンテーションの募集が[現在\n"
+"オープン](https://apachecon.com/acna2020/cfp)となっており、Camelコミュニティの幅広い\n"
+"メンバーの方はぜひご応募ください。応募の際には、 **Camel/Integration** トラックを探してください。\n"
+"トラックを探してください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/02/ApacheConNA-2020-CFP/index.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We're most interested to see talks that offer a learning experience to the\n"
 "attendees, so talks that present new parts of the Camel ecosystem (Camel K,\n"
 "Camel Quarkus, Camel Kafka Connector), talks showing off lessons learned, use\n"
 "cases, and visions on where software integration is heading in the future.\n"
 msgstr ""
+"私たちは、参加者に学習体験を提供する講演に最も関心があります。\n"
+"つまり、Camelエコシステムの新しい部分を紹介する講演（Camel K,\n"
+"Camel K、Camel Quarkus、Camel Kafka Connector）、学んだこと、使用例、ソフトウェア統合が将来的にどこに向かうかのビジョンを示す講演などです。\n"
+"学んだこと、使用例、ソフトウェア統合が将来どこに向かうかについてのビジョンを示す講演などです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/02/ApacheConNA-2020-CFP/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "**The call for presentations will close Friday, May 1, 2020 8:00 (America/New\n"
 "York time).**\n"
 msgstr ""
+"**プレゼンテーションの募集は、2020年5月1日（金）8:00（アメリカ/ニューヨーク時間）に締め切ります。\n"
+"ニューヨーク時間）です。)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/02/ApacheConNA-2020-CFP/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Submit early, submit often, at\n"
 "[https://apachecon.com/acna2020/cfp](https://apachecon.com/acna2020/cfp)\n"
 msgstr ""
+"早めに、そして頻繁に投稿してください。\n"
+"[https://apachecon.com/acna2020/cfp](https://apachecon.com/acna2020/cfp)\n"

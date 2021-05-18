@@ -18,132 +18,155 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New Camel K Logging Features"
-msgstr ""
+msgstr "キャメルKロギングの新機能"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "As part of our continuous work to improve Camel K and improve its stability, features and\n"
 "usefulness to our community, we recently worked on logging improvements for different\n"
 "parts of Camel K and the integrations it generated.\n"
 msgstr ""
+"Camel Kを改良し、その安定性、機能、コミュニティの有用性を向上させるための継続的な作業の一環として\n"
+"コミュニティへの有用性を向上させるための継続的な取り組みの一環として、私たちは最近、Camel Kのさまざまな部分のロギングの改善に取り組みました。\n"
+"Camel Kのさまざまな部分と、それによって生成された統合のログを改善しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "During the 1.5 development release we dedicated some time to review the logging capabilities\n"
 "of Camel K. This version introduces a new [logging trait](/camel-k/latest/traits/logging.html) that simplifies access to the logging configuration available on the runtime.\n"
 msgstr ""
+"1.5の開発リリースでは、Camel Kのロギング機能の見直しに時間を費やしました。\n"
+"このバージョンでは、新しい [logging trait](/camel-k/latest/traits/logging.html) が導入され、ランタイムで利用可能なログ設定へのアクセスが簡単になりました。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Colorized logs"
-msgstr ""
+msgstr "カラー化されたログ"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "By default, Camel K will colorize the log output, making it easier to distinguish between\n"
 "log levels, loggers, timestamps and the logging message. Naturally, we understand that not\n"
 "everyone likes colorized logs. As such it's possible to disable it by using the `logging.color`\n"
 "trait option.\n"
 msgstr ""
+"デフォルトでは、Camel Kはログ出力をカラー化し、ログレベル、ロガー、タイムスタンプ、ログメッセージの区別を容易にします。\n"
+"ログレベル、ロガー、タイムスタンプ、ログメッセージの区別が容易になります。当然ながら、誰もが色付きのログを好むわけではないことは理解しています。\n"
+"誰もが色付きのログを好むわけではありません。そのため、`logging.color` という trait オプションを使ってこれを無効にすることができます。\n"
+"オプションで無効にすることができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is what it looks like:\n"
-msgstr ""
+msgstr "こんな感じになっています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Colorized Camel K Logs](colorized-camel-k-logs.png)\n"
-msgstr ""
+msgstr "![カラー化されたキャメルKのログ](colorized-camel-k-logs.png)\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Easier support for additional debug levels"
-msgstr ""
+msgstr "追加のデバッグレベルを容易にサポート"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Additional log levels can be turned on or off at ease, using the `logging.level` trait. Users\n"
 "can inform the minimum log level (i.e.: `TRACE`, `DEBUG`, `INFO`, etc) and control how much\n"
 "information is presented by the logger.\n"
 msgstr ""
+"追加のログレベルは、`logging.level`という形容詞を使って、簡単にオン・オフできます。ユーザー\n"
+"最低限のログレベル(例: `TRACE`, `DEBUG`, `INFO` など)を知らせたり、ロガーが提示する情報量を制御することができます。\n"
+"ロガーが表示する情報の量を制御することができます。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Custom logging format"
-msgstr ""
+msgstr "カスタムロギングフォーマット"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Leveraging the previous features, it's also possible to control the format of the\n"
 "displayed message. The `logging.format` trait provides the ability to control what fields\n"
 "will be logged, their formats and their orders.\n"
 msgstr ""
+"前述の機能を利用して、表示されるメッセージの形式を制御することも可能です。\n"
+"表示されるメッセージのフォーマットを制御することもできます。logging.format`は、どのフィールドがログに記録されるか、そのフォーマットや順序を制御する機能を提供します。\n"
+"を制御することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "For example, you can customize the log message so that it displays the hour, the log level,\n"
 "the thread name, the message, the exception information, finished with a new line. To do so,\n"
 "you can use the following to set the logging format:\n"
 msgstr ""
+"例えば、ログメッセージをカスタマイズして、時間、ログレベル、スレッド名、メッセージ、例外情報を表示し、改行で終わるようにすることができます。\n"
+"例えば、ログメッセージをカスタマイズして、時間、ログレベル、スレッド名、メッセージ、例外情報を表示し、最後に改行することができます。そのためには\n"
+"を使ってログの形式を設定することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`--trait logging.format='%d{HH:mm:ss} %-5p (%t) %s%e%n'`.\n"
-msgstr ""
+msgstr "`--trait logging.format='%d{HH:mm:ss} %-5p (%t) %s%e%n'`.\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This would result in log messages similar to these:\n"
-msgstr ""
+msgstr "この場合、以下のようなログメッセージが表示されます。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "[1] 11:21:59 INFO  (main) Apache Camel 3.9.0 (camel-1) started in 74ms (build:0ms init:58ms start:16ms)\n"
 "[1] 11:21:59 INFO  (main) camel-k-integration 1.5.0-SNAPSHOT on JVM (powered by Quarkus 1.13.0.Final) started in 1.362s.\n"
 msgstr ""
+"[1] 11:21:59 INFO (main) Apache Camel 3.9.0 (camel-1) started in 74ms (build:0ms init:58ms start:16ms)\n"
+"[1] 11:21:59 INFO (main) camel-k-integration 1.5.0-SNAPSHOT on JVM (powered by Quarkus 1.13.0.Final)は1.362sで起動しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:59
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Since the runtime leverages Camel Quarkus and, by extension, Quarkus itself, all the\n"
 "[logging format symbols](https://quarkus.io/guides/logging) suported by Quarkus can be used\n"
 "to customize the integration logs.\n"
 msgstr ""
+"ランタイムはCamel Quarkusを利用しており、さらにQuarkus自体も利用しているため、Quarkusでサポートされているすべての\n"
+"統合ログをカスタマイズするために、Quarkusでサポートされている[logging format symbols](https://quarkus.io/guides/logging)を使用することができます。\n"
+"を使用して統合ログをカスタマイズすることができます。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Logging in JSON format"
-msgstr ""
+msgstr "JSON形式のロギング"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Although log colorization is a nice improvement to the usability of Camel K in development\n"
 "mode, most users will eventually run the integrations in production. In such scenarios, it's\n"
@@ -151,48 +174,62 @@ msgid ""
 "of processing on top of them. Structured logging, in JSON format, makes it possible to reuse\n"
 "plugins available in those tools and may simplify the job of processing them.\n"
 msgstr ""
+"ログのカラー化は、開発モードでのCamel Kの使い勝手を向上させてくれますが\n"
+"モードでのCamel Kの使い勝手を向上させますが、ほとんどのユーザーは最終的に本番環境で統合を実行します。そのようなシナリオでは\n"
+"このようなシナリオでは、FluentDやLogstashのようなツールを使ってログを消費し、その上で様々な処理を行うことが珍しくありません。\n"
+"ログを利用して様々な処理を行うことも珍しくありません。JSON形式で構造化されたログは、これらのツールで利用可能なプラグインの再利用を可能にします。\n"
+"ログを構造化することで、これらのツールで利用可能なプラグインを再利用することができ、ログの処理を簡素化することができます。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:68
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{\"timestamp\":\"2021-05-10T11:28:26.99Z\",\"sequence\":99,\"loggerClassName\":\"org.jboss.logging.Logger\",\"loggerName\":\"io.quarkus\",\"level\":\"INFO\",\"message\":\"Installed features: [camel-bean, camel-core, camel-java-joor-dsl, camel-k-core, camel-k-runtime, camel-log, camel-support-common, camel-timer, cdi]\",\"threadName\":\"main\",\"threadId\":1,\"mdc\":{},\"ndc\":\"\",\"hostName\":\"basic-5b57bcf589-kbzvp\",\"processName\":\"io.quarkus.bootstrap.runner.QuarkusEntryPoint\",\"processId\":1}\n"
-msgstr ""
+msgstr "{\"timestamp\": \"2021-05-10T11:28:26.99Z\", \"sequence\": 99, \"loggerClassName\": \"org.jboss.logging.Logger\", \"loggerName\": \"io.quarkus\", \"level\": \"INFO\", \"message\": \"Installed features:[camel-bean, camel-core, camel-java-joor-dsl, camel-k-core, camel-k-runtime, camel-log, camel-support-common, camel-timer, cdi]\", \"threadName\": \"main\", \"threadId\":1, \"mdc\":{}, \"ndc\":\", \"hostName\": \"basic-5b57bcf589-kbzvp\", \"processName\": \"io.quarkus.bootstrap.runner.QuarkusEntryPoint\", \"processId\":1}。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:73
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Maven Build Logs"
-msgstr ""
+msgstr "Mavenビルドログ"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:79
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Lastly, we also modified the Camel K operator itself so that we normalize the log format of\n"
 "the integration's build messages. Previously, our build would output unstructured log\n"
 "messages for the build process, which would make it more complicated to parse and process\n"
 "the messages for build errors.\n"
 msgstr ""
+"最後に、Camel Kオペレータ自体を修正し、統合のビルドメッセージのログフォーマットを正規化しました。\n"
+"のログ形式を正規化しました。これまでのビルドでは、構造化されていないログメッセージが出力されていました。\n"
+"メッセージを出力していましたが、これではビルドエラーのメッセージを解析・処理するのが\n"
+"ビルドエラーのためのメッセージの解析と処理が複雑になっていました。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{\"level\":\"info\",\"ts\":1620393185.321101,\"logger\":\"camel-k.maven.build\",\"msg\":\"Downloading from repository-000: http://my.repository.com:8081/artifactory/fuse-brno/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/2.2.4/shrinkwrap-resolver-bom-2.2.4.pom\"}\n"
-msgstr ""
+msgstr "{\"level\": \"info\", \"ts\":1620393185.321101, \"logger\": \"camel-k.maven.build\", \"msg\": \"Downloading from repository-000: http://my.repository.com:8081/artifactory/fuse-brno/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/2.2.4/shrinkwrap-resolver-bom-2.2.4.pom\"}。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:88
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "All in all, these set of small logging improvements aim to make Camel K friendlier for the\n"
 "developer and more flexible for different monitoring use cases, eventually simplifying\n"
 "running integrations in an autonomous way.\n"
 msgstr ""
+"これらの小さなロギングの改善は、Camel Kを開発者にとってより親しみやすく\n"
+"最終的には、自律的な方法で統合を実行するのを簡単にするために\n"
+"自律的な方法で統合を実行することができるようになります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/new-camel-k-logging-features/index.md:91
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Do you have any suggestions about how we could improve usability and make Camel K operate\n"
 "even more autonomously? [Let us know](https://github.com/apache/camel-k/issues).\n"
 msgstr ""
+"Camel Kをより使いやすく、より自律的に動作させるためにはどうしたらよいか、ご意見をお聞かせください。\n"
+"より自律的に動くようにするにはどうしたらいいか？お聞かせください】(https://github.com/apache/camel-k/issues)。\n"

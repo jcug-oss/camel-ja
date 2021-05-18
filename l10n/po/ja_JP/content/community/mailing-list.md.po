@@ -18,40 +18,43 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/community/mailing-list.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Mailing Lists"
-msgstr ""
+msgstr "メーリング・リスト"
 
 #. type: Title ##
 #: upstream/content/community/mailing-list.md:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Use Camel User List"
-msgstr ""
+msgstr "Camelユーザーリストの使用"
 
 #. type: Plain text
 #: upstream/content/community/mailing-list.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "You should post and subscribe to the Camel User List for all your questions on using Camel, or how to do X with Camel etc. If in doubt use this list.\n"
 "The Camel Developer List, is for the Camel team to discus development of the actual Camel project; do not use this list for questions on using Camel.\n"
 "Again to re-iterate, use the Camel User List, for your Camel questions. This is the correct mailing list, and has the most people there ready for helping you.\n"
 msgstr ""
+"Camelの使用に関する質問や、CamelでXを行う方法などについては、Camel User Listに投稿し、購読するべきです。疑問があればこのリストを使ってください。\n"
+"Camel開発者リストは、Camelチームが実際のCamelプロジェクトの開発について議論するためのものですが、Camelの使用に関する質問には使用しないでください。\n"
+"繰り返しになりますが、Camelに関する質問はCamel User Listを使用してください。これは正しいメーリングリストであり、最も多くの人があなたを助ける準備ができています。\n"
 
 #. type: Title ##
 #: upstream/content/community/mailing-list.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Post plain text mails"
-msgstr ""
+msgstr "プレーンテキストメールの投稿"
 
 #. type: Plain text
 #: upstream/content/community/mailing-list.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "When posting to the mailing lists, use plain text mails. Do not use HTML mails. HTML mails is more likely to be targeted as spam mails and will be rejected; as well it's not easily readable by others.\n"
-msgstr ""
+msgstr "メーリングリストに投稿する際は、プレーンテキストメールを使用してください。HTMLメールは使用しないでください。HTMLメールは、スパムメールとみなされて拒否される可能性が高く、また他の人が読むこともできません。\n"
 
 #. type: Plain text
 #: upstream/content/community/mailing-list.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "{{< table >}}\n"
 "| List Name  | Address | Subscribe | Unsubscribe | Archive | Comment |\n"
@@ -62,3 +65,11 @@ msgid ""
 "| Camel Issues List  | issues@camel.apache.org | [subscribe](mailto:issues-subscribe@camel.apache.org) | [unsubscribe](mailto:issues-unsubscribe@camel.apache.org) | [Archives](https://lists.apache.org/list.html?issues@camel.apache.org) | Notifications of JIRA issues |\n"
 "{{< /table >}}\n"
 msgstr ""
+"< table ><table >{{}}\n"
+"リスト名｜アドレス｜登録｜解除｜アーカイブ｜コメント\n"
+"|------------|---------|-----------|-------------|---------|---------|\n"
+"| Camel User List | users@camel.apache.org | [subscribe](mailto:users-subscribe@camel.apache.org) | [unsubscribe](mailto:users-unsubscribe@camel.apache.org) | [Archives](https://lists.apache.org/list.html?users@camel.apache.org) | Camelに関する質問はこのリストを使ってください。|\n"
+"| Camel Developer List | dev@camel.apache.org | [subscribe](mailto:dev-subscribe@camel.apache.org) | [unsubscribe](mailto:dev-unsubscribe@camel.apache.org) | [Archives](https://lists.apache.org/list.html?dev@camel.apache.org) | Camel の開発について議論するために Camel の貢献者によって使われます。|\n"
+"| Camel Commits List | commits@camel.apache.org | [subscribe](mailto:commits-subscribe@camel.apache.org) | [unsubscribe](mailto:commits-unsubscribe@camel.apache.org) | [Archives](https://lists.apache.org/list.html?commits@camel.apache.org) | Camel のコードの変更に関する通知です。\n"
+"| Camel Issues List | issues@camel.apache.org | [subscribe](mailto:issues-subscribe@camel.apache.org) | [unsubscribe](mailto:issues-unsubscribe@camel.apache.org) | [Archives](https://lists.apache.org/list.html?issues@camel.apache.org) | JIRA の課題を通知します。< /table >\n"
+"<table >{{}}< /table ></table>\n"

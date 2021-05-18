@@ -18,38 +18,40 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2019/10/RELEASE-3.0.0-RC3/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel community announces the immediate availability of a new release candidate Camel 3.0.0-RC3"
-msgstr ""
+msgstr "Camelコミュニティは、新しいリリース候補であるCamel 3.0.0-RC3の即時公開を発表しました。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2019/10/RELEASE-3.0.0-RC3/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "RELEASE 3.0.0-RC3"
-msgstr ""
+msgstr "リリース 3.0.0-rc3"
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/RELEASE-3.0.0-RC3/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel community announces the immediate availability of Camel 3.0.0-RC3, the third release candidate towards a new 3.0.0 major release with 48 improvements and fixes.\n"
-msgstr ""
+msgstr "Camelコミュニティは、48の改良と修正を施した新しい3.0.0メジャーリリースに向けた3番目のリリース候補であるCamel 3.0.0-RC3を直ちに提供することを発表しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/RELEASE-3.0.0-RC3/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The artifacts are published and ready for you to download from the Central Maven repository. For more details please take a look at the  [resolved issues](/releases/release-3.0.0-RC3/#resolved).\n"
-msgstr ""
+msgstr "成果物が公開され、Central Maven リポジトリからダウンロードできるようになりました。詳細については、[解決済みの問題](/releases/release-3.0.0-RC3/#resolved)を参照してください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/RELEASE-3.0.0-RC3/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Many thanks to all who made this release possible.\n"
-msgstr ""
+msgstr "今回のリリースにご協力いただいた皆様に感謝いたします。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/RELEASE-3.0.0-RC3/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "On behalf of the Camel PMC,\n"
 "Gregor Zurowski\n"
 msgstr ""
+"Camel PMCを代表して。\n"
+"グレゴール・ズロウスキー\n"

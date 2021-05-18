@@ -18,223 +18,230 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS S3 Streaming upload"
-msgstr ""
+msgstr "AWS S3 ストリーミングアップロード"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel-AWS-S3 - New Streaming upload feature"
-msgstr ""
+msgstr "Camel-AWS-S3 - ストリーミングアップロード機能の追加"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In the last weeks I was focused on a particular feature for the Camel AWS S3 component: the streaming upload feature.\n"
-msgstr ""
+msgstr "ここ数週間、私はCamelのAWS S3コンポーネントの特定の機能に集中していました：ストリーミングアップロード機能です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In this post I'm going to summarize what it is an how to use it.\n"
-msgstr ""
+msgstr "この記事では、それが何であるか、どのように使用するかをまとめようと思います。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Streaming upload"
-msgstr ""
+msgstr "ストリーミングアップロード"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The AWS S3 component had already a multipart upload feature in his producer operations: the main \"problem\" with it, was the need of knowing the size of the upload ahead of time. \n"
-msgstr ""
+msgstr "AWS S3コンポーネントは、彼のプロデューサー業務の中ですでにマルチパートのアップロード機能を持っていましたが、その主な「問題」は、アップロードのサイズを事前に知る必要があることでした。 \n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The streaming upload feature coming in Camel 3.10.0 won't need to know the size before starting the upload.\n"
-msgstr ""
+msgstr "Camel 3.10.0に搭載されるストリーミングアップロード機能では、アップロードを開始する前にサイズを知る必要がありません。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "How it works"
-msgstr ""
+msgstr "その仕組み"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Obviously this feature has been implemented on the S3 component producer side.\n"
-msgstr ""
+msgstr "もちろん、この機能はS3コンポーネントの生産者側に実装されています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The idea is to continuously send data to the producer and batching the messages. On the endpoint you'll have three possible way of stopping the batching:\n"
 "- timeout\n"
 "- buffer size\n"
 "- batch size\n"
 msgstr ""
+"このアイデアは、データを継続的にプロデューサーに送信し、メッセージをバッチ処理するというものです。エンドポイントでは、3つの方法でバッチ処理を停止することができます。\n"
+"- タイムアウト\n"
+"- バッファサイズ\n"
+"- バッチサイズ\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Buffer size and batch size will work together, this means that the batch will be completed when the batch size is complete or when the set buffer size has been excedeed.\n"
-msgstr ""
+msgstr "バッファサイズとバッチサイズは連動しており、バッチサイズが完了したとき、または設定したバッファサイズを超えたときに、バッチが完了することを意味します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "With the timeout in the picture the batching will be stopped and the upload completed (also) when the timeout will be reached.\n"
-msgstr ""
+msgstr "写真のタイムアウトでは、タイムアウトに達するとバッチ処理が停止され、アップロードが完了します。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "S3 Files naming"
-msgstr ""
+msgstr "S3ファイルのネーミング"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In the streaming upload producer two different naming strategy are provided:\n"
 "- progressive\n"
 "- random\n"
 msgstr ""
+"ストリーミング・アップロード・プロデューサーでは、2種類のネーミング・ストラテジーが用意されています。\n"
+"- プログレッシブ\n"
+"- ランダム\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The progressive one will add a progressive suffix to the uploaded part, while the random one will add a random id as keyname suffix.\n"
-msgstr ""
+msgstr "プログレッシブはアップロードされた部分にプログレッシブなサフィックスを追加し、ランダムはキーネームのサフィックスとしてランダムなIDを追加します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If the S3 key name you'll specify on your endpoint will be \"file_upload_part.txt\", during the upload you can expect a list like:\n"
-msgstr ""
+msgstr "エンドポイントで指定するS3キーの名前が「file_upload_part.txt」の場合、アップロード中に以下のようなリストが表示されます。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "file_upload_part.txt\n"
-msgstr ""
+msgstr "ファイル_アップロード_パーツ.txt\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "file_upload_part-1.txt\n"
-msgstr ""
+msgstr "ファイルupload_part-1.txt\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "file_upload_part-2.txt\n"
-msgstr ""
+msgstr "ファイルupload_part-2.txt\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "and so on.\n"
-msgstr ""
+msgstr "などがあります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The progressive naming strategy will make you ask how does it work when I stop and restart the route?\n"
-msgstr ""
+msgstr "プログレッシブ・ネーミング・ストラテジーでは、「ルートを止めて再スタートするときはどうするの？\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Restarting Strategies"
-msgstr ""
+msgstr "リスタート戦略"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The restarting strategies provided in the S3 Streaming upload producer are:\n"
-msgstr ""
+msgstr "S3 Streaming upload producerで提供されている再起動ストラテジーは以下の通りです。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "lastPart\n"
-msgstr ""
+msgstr "ラストパート\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "override\n"
-msgstr ""
+msgstr "オーバーライド\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:59
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "the lastPart strategy will make sense only in combination with the progressive naming strategy, obviously.\n"
-msgstr ""
+msgstr "lastPart戦略は、当然ながらプログレッシブ・ネーミング戦略との組み合わせでのみ意味を持ちます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "At the time of restarting the route, the producer will check for the S3 keyname prefix in the bucket specified and get the last index uploaded.\n"
-msgstr ""
+msgstr "ルートの再起動時に、プロデューサーは指定されたバケットのS3キーネームのプレフィックスを確認し、最後にアップロードされたインデックスを取得します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The index will be used to start again from the same point.\n"
-msgstr ""
+msgstr "このインデックスは、同じ地点から再スタートするために使われます。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:64
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Sample"
-msgstr ""
+msgstr "サンプル"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This feature is very nice to see in action.\n"
-msgstr ""
+msgstr "この機能は、実際に使ってみるととてもいいですね。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In the [camel-examples repository](https://github.com/apache/camel-examples/tree/master/examples/aws/main-endpointdsl-kafka-aws2-s3-restarting-policy) I added an example of the feature with Kafka as consumer.\n"
-msgstr ""
+msgstr "camel-examples repository](https://github.com/apache/camel-examples/tree/master/examples/aws/main-endpointdsl-kafka-aws2-s3-restarting-policy)に、Kafkaを消費者とした機能の例を追加しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:71
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The example will poll one kafka topic s3.topic.1 and upload batch of 25 messages (or 1 Mb batch) as single file into an s3 bucket (mycamel-1).\n"
-msgstr ""
+msgstr "この例では、1つのkafkaトピックs3.topic.1をポーリングし、25メッセージのバッチ（または1MBのバッチ）を1つのファイルとしてs3バケット（mycamel-1）にアップロードします。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:73
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In the [how to run section](https://github.com/apache/camel-examples/tree/master/examples/aws/main-endpointdsl-kafka-aws2-s3-restarting-policy#how-to-run) of the README it is explained well how to ingest data to your Kafka broker.\n"
-msgstr ""
+msgstr "READMEの[How to run section](https://github.com/apache/camel-examples/tree/master/examples/aws/main-endpointdsl-kafka-aws2-s3-restarting-policy#how-to-run)には、Kafkaブローカーにデータを取り込む方法がよく説明されています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:74
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Conclusion"
-msgstr ""
+msgstr "結論"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:77
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The streaming upload feature will be useful in situation where the user don't know the amount of data he wants to upload to S3, but also when he just wants to ingest data continuously without having to care about the size.\n"
-msgstr ""
+msgstr "ストリーミングアップロード機能は、S3にアップロードしたいデータの量がわからない場合や、サイズを気にせずに継続的にデータを取り込みたい場合に便利です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/s3-streaming-upload-3.10.0/index.md:79
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There is probably more work to do, but this can be a feature to introduce even in other storage components we have in Apache Camel. \n"
-msgstr ""
+msgstr "もっとやるべきことがあるかもしれませんが、これはApache Camelにある他のストレージコンポーネントにも導入できる機能です。 \n"

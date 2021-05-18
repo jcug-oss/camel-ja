@@ -18,37 +18,37 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The first stable release of Camel Quarkus"
-msgstr ""
+msgstr "Camel Quarkusの最初の安定したリリース"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus 1.0.0 Released"
-msgstr ""
+msgstr "Camel Quarkus 1.0.0リリース"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<sub><sup>Original image by <a href=\"https://commons.wikimedia.org/wiki/User:99of9\">Toby Hudson</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> via <a href=\"https://en.wikipedia.org/wiki/Camel_racing#/media/File:CamelRacingCamelCup2009Heat.JPG\">Wikipedia</a></sup></sub>\n"
-msgstr ""
+msgstr "<sub><sup>Original image by<a href=\"https://commons.wikimedia.org/wiki/User:99of9\">Toby Hudson</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>via<a href=\"https://en.wikipedia.org/wiki/Camel_racing#/media/File:CamelRacingCamelCup2009Heat.JPG\">Wikipedia</a></sup></sub>\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Apache Camel community celebrates the release 1.0.0 of Camel Quarkus!\n"
-msgstr ""
+msgstr "Apache Camelコミュニティは、Camel Quarkusの1.0.0のリリースを祝います。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What is Camel Quarkus?"
-msgstr ""
+msgstr "キャメル・クォークスとは？"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Camel Quarkus brings the outstanding integration capabilities of Apache Camel to [Quarkus](https://quarkus.io/) - the\n"
 "toolkit for writing subatomically small and supersonically fast Java and Kotlin applications. In addition to\n"
@@ -56,137 +56,155 @@ msgid ""
 "[native executables](/camel-quarkus/latest/user-guide/first-steps.html#_package_and_run_the_application)\n"
 "thus improving the performance characteristics even more.\n"
 msgstr ""
+"Camel Quarkusは、Apache Camelの優れた統合機能を[Quarkus](https://quarkus.io/)に導入しています。\n"
+"Quarkusは、超小型で超高速なJavaおよびKotlinアプリケーションを作成するためのツールキットである[Quarkus]()に、Apache Camelの優れた統合機能をもたらします。加えて\n"
+"純正JVMでのメモリ消費量と起動時間の改善に加えて、Quarkusはアプリケーションを次のようにコンパイルすることができます。\n"
+"ネイティブの実行ファイル](/camel-quarkus/latest/user-guide/first-steps.html#_package_and_run_the_application)にコンパイルすることができます。\n"
+"これにより、パフォーマンス特性がさらに向上しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Camel Quarkus is suitable not only for creating long living services and potentially short living serverless\n"
 "applications but also for\n"
 "[command-style applications](/blog/2020/07/command-line-utility-with-camel-quarkus/)\n"
 "that execute some specific task (or wait for some specific condition) and exit.\n"
 msgstr ""
+"Camel Quarkusは、長寿命のサービスや潜在的に短命のサーバーレスアプリケーションを作成するのに適しているだけでなく\n"
+"アプリケーションだけでなく、以下のようなアプリケーションにも適しています。\n"
+"コマンドスタイルのアプリケーション](/blog/2020/07/command-line-utility-with-camel-quarkus/)\n"
+"ある特定のタスクを実行して（あるいはある特定の条件を待って）終了するような\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Developer joy"
-msgstr ""
+msgstr "開発者の喜び"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Writing integrations has never been more joyful for developers than with Camel Quarkus:\n"
-msgstr ""
+msgstr "Camel Quarkusほど、開発者にとって統合機能の作成が楽しいものはありません。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Easy to start with: either via [code.quarkus.io](https://code.quarkus.io/) or using `mvn quarkus:create`\n"
-msgstr ""
+msgstr "簡単に始めることができます。[code.quarkus.io](https://code.quarkus.io/)を経由するか、`mvn quarkus:create`を使用します。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The \"live coding\" feature, a.k.a. `mvn compile quarkus:dev` shortens your development iterations - check\n"
 "[this 2 mins video](https://www.youtube.com/watch?v=4lXSf8DBQkQ)\n"
 msgstr ""
+"ライブコーディング」機能、通称`mvn compile quarkus:dev`は、開発の繰り返しを短縮します。\n"
+"[この2分間のビデオ](https://www.youtube.com/watch?v=4lXSf8DBQkQ)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Easy to test using JUnit 5 extensions\n"
-msgstr ""
+msgstr "JUnit 5の拡張機能を使って簡単にテストできる\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Hides the complexity of the native compilation using [GraalVM](https://www.graalvm.org/) or\n"
 "[Mandrell](https://github.com/graalvm/mandrel)\n"
 msgstr ""
+"GraalVM](https://www.graalvm.org/)や[Mandrell](https://www.graalvm.org/)を用いたネイティブ・コンパイルの複雑さを隠しています。\n"
+"[Mandrell](https://github.com/graalvm/mandrel)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:39
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Check our [User guide](/camel-quarkus/latest/user-guide/first-steps.html)!\n"
-msgstr ""
+msgstr "ユーザーガイド](/camel-quarkus/latest/user-guide/first-steps.html)をご覧ください!\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel components coverage"
-msgstr ""
+msgstr "Camelコンポーネントのカバー"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Since the [early beginnings](https://github.com/quarkusio/quarkus/tree/0.11.0/extensions/camel) the number of supported\n"
 "Camel bits went up substantially. As of Quarkus 1.0.0 and\n"
 "Camel 3.4, Camel Quarkus supports:\n"
 msgstr ""
+"初期の頃](https://github.com/quarkusio/quarkus/tree/0.11.0/extensions/camel)から、サポートされている\n"
+"Camelのビット数は大幅に増加しました。Quarkus 1.0.0およびCamel 3.4では、Camel Quarkusは以下をサポートしています。\n"
+"Camel 3.4では、Camel Quarkusは以下をサポートしています。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "155 out of 350 Camel components (44%)\n"
-msgstr ""
+msgstr "350個のCamelコンポーネントのうち155個(44%)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "27 out of 43 Camel data formats (63%)\n"
-msgstr ""
+msgstr "43種類のCamelデータフォーマットのうち27種類(63%)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "13 out of 17 Camel languages (76%)\n"
-msgstr ""
+msgstr "キャメル語17言語中13言語（76\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "17 out of 42 miscellaneous Camel components (40%)\n"
-msgstr ""
+msgstr "キャメルの雑多な部品42個のうち17個（40\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Some of these are supported in JVM mode only - please refer to the\n"
 "[complete list](/camel-quarkus/latest/reference/index.html) for details.\n"
 msgstr ""
+"これらの中には、JVMモードでのみサポートされているものもあります。\n"
+"詳細は[完全なリスト](/camel-quarkus/latest/reference/index.html)を参照してください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Bootstrapping methods"
-msgstr ""
+msgstr "ブートストラッピング法"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There are two ways to bootstrap and configure Camel Quarkus:\n"
-msgstr ""
+msgstr "Camel Quarkusの起動と設定には2つの方法があります。\n"
 
 #. type: Bullet: '1. '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Bare\n"
-msgstr ""
+msgstr "ベア\n"
 
 #. type: Bullet: '2. '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "With Camel Main\n"
-msgstr ""
+msgstr "キャメルメインで\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:66
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Both methods configure and start a Camel Context for you. The main difference is in how much the resulting Camel Context\n"
 "obeys the conventions known from Camel on other platforms. If you like to configure your routes using\n"
@@ -194,75 +212,97 @@ msgid ""
 "will work as usual on Camel standalone or Camel Spring Boot. You may prefer this option if you used Camel before or if\n"
 "you are migrating from other platform.\n"
 msgstr ""
+"どちらの方法でも、Camel Contextを設定して起動することができます。主な違いは、生成されるCamel Contextが、他のプラットフォームのCamelの\n"
+"が、他のプラットフォームのCamelで知られている規約にどれだけ従うかという点です。もし、`camel.component.*`プロパティを使ってルートを設定したい場合は\n"
+"プロパティを使ってルートを設定したい場合には、`camel-quarkus-main` という依存関係を追加する必要があります。\n"
+"は Camel standalone や Camel Spring Boot で通常通り動作します。以前にCamelを使用していた場合や、他のプラットフォームから移行する場合は、このオプションをお勧めします。\n"
+"他のプラットフォームから移行している場合は、このオプションを選択するとよいでしょう。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:70
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "If you rather come from the CDI side and you never wrote Camel integrations before, you may choose to use the bare\n"
 "bootstrap and configure your routes using CDI. You can configure Camel using CDI even if you have Camel Main in your\n"
 "application.\n"
 msgstr ""
+"もし、あなたがCDI側から来て、Camel統合を書いたことがないのであれば、むき出しのブートストラップを使い、CDIを使ってルートを設定することもできます。\n"
+"ブートストラップを使い、CDIを使ってルートを設定することができます。アプリケーションにCamel Mainがあっても、CDIを使ってCamelを設定することができます。\n"
+"アプリケーションでもCDIを使ってCamelを設定することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:73
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "See the [defining Camel routes](/camel-quarkus/latest/user-guide/defining-camel-routes.html) section of the User guide\n"
 "for more details.\n"
 msgstr ""
+"ユーザーガイドの[Camelのルートを定義する](/camel-quarkus/latest/user-guide/defining-camel-routes.html)のセクションを参照してください。\n"
+"を参照してください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:74
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "CDI"
-msgstr ""
+msgstr "CDI"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:80
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "CDI plays a central role in Quarkus and Camel Quarkus offers a first class support for it too. You may use `@Inject`,\n"
 "`@ConfigProperty` and other annotations e.g. to inject beans and configuration values to your Camel RouteBuilder's.\n"
 "See the [CDI section](/camel-quarkus/latest/user-guide/cdi.html) of the User guide for more\n"
 "details.\n"
 msgstr ""
+"CDIはQuarkusで中心的な役割を果たしていますが、Camel QuarkusでもCDIのファーストクラスのサポートを提供しています。Inject`,\n"
+"例えば、ビーンズや設定値をCamelのRouteBuilderに注入するために、`@Inject`や`@ConfigProperty`などのアノテーションを使用することができます。\n"
+"詳しくは、ユーザーガイドの[CDI section](/camel-quarkus/latest/user-guide/cdi.html)をご覧ください。\n"
+"をご覧ください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Native mode"
-msgstr ""
+msgstr "ネイティブモード"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:85
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "As mentioned above, Quarkus brings the option to compile an application to native executable. Compared to running on\n"
 "JVM, native applications start faster, require less memory at runtime and are also smaller on disk.\n"
 msgstr ""
+"前述の通り、Quarkusではアプリケーションをネイティブの実行ファイルにコンパイルするオプションがあります。JVM上で実行する場合と比較して\n"
+"JVM上で実行するのに比べて、ネイティブアプリケーションは起動が速く、実行時に必要なメモリも少なく、ディスク容量も小さくなります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:90
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "However, the native compilation with GraalVM is all but easy and straightforward. First, there are\n"
 "[limitations](https://github.com/oracle/graal/blob/master/substratevm/LIMITATIONS.md) for what your code and all your\n"
 "dependencies may or may not do. Second, the native compiler needs to be configured through many options that may not be\n"
 "easy to figure out and maintain.\n"
 msgstr ""
+"しかし、GraalVMでのネイティブなコンパイルは、すべてが簡単でわかりやすいものです。まず、そこには\n"
+"制約](https://github.com/oracle/graal/blob/master/substratevm/LIMITATIONS.md)があります。\n"
+"第一に、あなたのコードとすべての依存関係ができること、できないことに制限があります。第二に、ネイティブ・コンパイラは、多くのオプションを通じて設定する必要があります。\n"
+"把握して維持するのは簡単ではありません。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:93
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Quarkus isolates application developers from most of those subtleties. The native compilation is driven by\n"
 "extensions which configure the native compiler in a way suitable for the given aspect of the application.\n"
 msgstr ""
+"Quarkusは、アプリケーション開発者をそのような微妙な問題のほとんどから隔離します。ネイティブのコンパイルは\n"
+"エクステンションによって駆動されます。エクステンションは、アプリケーションの特定の側面に適した方法でネイティブコンパイラを設定します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:100
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "On Camel Quarkus, the extensions roughly correspond to camel components - i.e. if you\n"
 "need `camel-sql` you add the `camel-quarkus-sql` extension as a dependency to your application and it takes\n"
@@ -271,25 +311,34 @@ msgid ""
 "[SQL extension](/camel-quarkus/latest/reference/extensions/sql.html#_additional_camel_quarkus_configuration),\n"
 "the `quarkus.camel.sql.script-files` property needs to be set.\n"
 msgstr ""
+"Camel Quarkusでは、拡張機能はほぼcamelのコンポーネントに対応しています。\n"
+"例えば、`camel-sql`が必要な場合、`camel-quarkus-sql`エクステンションをアプリケーションに依存関係として追加すると、`camel-sql`アーティファクトの取得とネイティブコンパイラの設定の両方が行われます。\n"
+"例えば、`camel-sql` が必要な場合は、`camel-quarkus-sql` エクステンションをアプリケーションの依存関係として追加します。エクステンションページでは\n"
+"拡張機能のページには、アプリケーション開発者が行う必要のある追加設定が記載されています。例えば、次のような場合です。\n"
+"SQL拡張](/camel-quarkus/latest/reference/extensions/sql.html#_additional_camel_quarkus_configuration)の場合。\n"
+"の場合、`quarkus.camel.sql.script-files` プロパティを設定する必要があります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:104
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Check the [Native mode](/camel-quarkus/latest/user-guide/native-mode.html) section of the Camel\n"
 "Quarkus User guide and [Quarkus Native guide](https://quarkus.io/guides/writing-native-applications-tips) for more\n"
 "details about the native compilation on Quarkus.\n"
 msgstr ""
+"CamelのQuarkusユーザーガイドの[Native mode](/camel-quarkus/latest/user-guide/native-mode.html)のセクションを確認してください。\n"
+"Quarkusユーザーガイドの[Native mode](/camel-quarkus/latest/user-guide/native-mode.html)セクションと[Quarkus Native guide](https://quarkus.io/guides/writing-native-applications-tips)をご覧ください。\n"
+"Quarkusのネイティブコンパイルの詳細については、[Quarkus Native guide]()を参照してください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:105
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Who is using Camel Quarkus?"
-msgstr ""
+msgstr "Camel Quarkusを利用している人は？"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:112
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "While we mostly have only indirect information about the usage via\n"
 "[GitHub issues](https://github.com/apache/camel-quarkus/issues), there is one prominent user, we are especially proud\n"
@@ -297,71 +346,78 @@ msgid ""
 "[Camel K 1.0](/blog/2020/06/camel-k-release-1.0.0/#fast-startup-and-low-memory), Camel Quarkus is\n"
 "one of the two supported runtimes and \"is expected to be the default underlying runtime in the next release\".\n"
 msgstr ""
+"使用方法については、ほとんどの場合、[GitHub issues]()を通じての間接的な情報しかありません。\n"
+"[GitHub issues](https://github.com/apache/camel-quarkus/issues)を介した間接的な情報しかありませんが、私たちが特に誇りに思っている著名なユーザーがいます。\n"
+"誇りに思っています。Camel K](/camel-k/latest/index.html)です。現時点では\n"
+"Camel K 1.0](/blog/2020/06/camel-k-release-1.0.0/#fast-startup-and-low-memory)の時点で、Camel Quarkusは\n"
+"サポートされている2つのランタイムのうちの1つで、「次のリリースではデフォルトの基礎ランタイムになることが期待されています」とあります。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:113
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Highlights of the release 1.0.0"
-msgstr ""
+msgstr "リリース1.0.0のハイライト"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:116
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "General:\n"
-msgstr ""
+msgstr "一般的には\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:119
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel 3.4.2\n"
-msgstr ""
+msgstr "Camel 3.4.2\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:119
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Quarkus 1.7.0.Final\n"
-msgstr ""
+msgstr "Quarkus 1.7.0.Final\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:121
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New extensions:\n"
-msgstr ""
+msgstr "新しいエクステンション。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:124
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Grok](/camel-quarkus/latest/reference/extensions/grok.html)\n"
-msgstr ""
+msgstr "Grok](/camel-quarkus/latest/reference/extensions/grok.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:124
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[JPA](/camel-quarkus/latest/reference/extensions/jpa.html)\n"
-msgstr ""
+msgstr "JPA](/camel-quarkus/latest/reference/extensions/jpa.html)\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:125
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's next?"
-msgstr ""
+msgstr "次は何ですか？"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:130
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "[More extensions](https://github.com/apache/camel-quarkus/issues?q=is%3Aissue+is%3Aopen+label%3Aextension) - upvote\n"
 "or even better [contribute](/camel-quarkus/latest/contributor-guide/index.html)!\n"
 msgstr ""
+"その他の拡張機能](https://github.com/apache/camel-quarkus/issues?q=is%3Aissue+is%3Aopen+label%3Aextension) - upvote\n"
+"または、もっと良い [contribute](/camel-quarkus/latest/contributor-guide/index.html)!\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:130
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Even less reflection with Camel 3.5\n"
-msgstr ""
+msgstr "Camel 3.5ではさらに反映されない\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/08/camel-quarkus-release-1.0.0/index.md:131
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We wish you a lot of joy with Camel Quarkus and we look forward to your feedback and participation!\n"
-msgstr ""
+msgstr "キャメル・クォークスをご愛用いただき、ご意見やご参加をお待ちしております。\n"

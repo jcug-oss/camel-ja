@@ -18,40 +18,43 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's new in Camel Quarkus 1.0.0-M7"
-msgstr ""
+msgstr "Camel Quarkus 1.0.0-M7の新機能"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus 1.0.0-M7 Released"
-msgstr ""
+msgstr "Camel Quarkus 1.0.0-M7リリース"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The Apache Camel community is pleased to announce the release 1.0.0-M7 of Camel Quarkus. Camel Quarkus ports the\n"
 "outstanding integration capabilities of Apache Camel to [Quarkus](https://quarkus.io/) - the toolkit for writing subatomically small and\n"
 "supersonically fast Java, Kotlin and Scala applications.\n"
 msgstr ""
+"Apache Camelコミュニティは、Camel Quarkusの1.0.0-M7のリリースを発表します。Camel Quarkusは、Apache Camelの優れた統合機能を\n"
+"Camel Quarkusは、Apache Camelの優れた統合機能を、超小型で超高速なJava、Kotlin、Scalaアプリケーションを書くためのツールキットである[Quarkus](https://quarkus.io/)に移植しています。\n"
+"超音速のJava、Kotlin、Scalaアプリケーションを書くためのツールキットです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "So what is new in Camel Quarkus 1.0.0-M7?\n"
-msgstr ""
+msgstr "では、Camel Quarkus 1.0.0-M7の新機能は？\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Java 8 is deprecated"
-msgstr ""
+msgstr "Java 8は推奨されていない"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Camel Quarkus works well on Java 11 (thanks Luca and James!). We can hardly support Java 8 without Quarkus itself\n"
 "supporting it. As a matter of fact, Quarkus\n"
@@ -59,197 +62,210 @@ msgid ""
 "as of Quarkus 1.4 they are deprecating Java 8 and that it will be removed in Quarkus 1.6 in about two months from now.\n"
 "Based on that we are deprecating Java 8 now.\n"
 msgstr ""
+"Camel QuarkusはJava 11でうまく動作します（LucaとJamesに感謝！）。Quarkus自体がJava 8をサポートしていないと、ほとんどサポートできません。\n"
+"サポートしていません。実際のところ、Quarkusは\n"
+"[アナウンス](https://quarkus.io/blog/quarkus-1-4-final-released/#java-8-deprecated)が3日前(2010-04-27)に\n"
+"Quarkus 1.4ではJava 8を非推奨とし、約2ヶ月後のQuarkus 1.6ではJava 8を削除すると発表しました。\n"
+"それに基づき、私たちは現在Java 8を非推奨としています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Supporting both Java 8 and 11 binds some resources in our rather small team. We would like to simplify our testing\n"
 "matrix and remove some Java version specific Maven profiles. We prefer doing it sooner rather than later so that we can\n"
 "concentrate on other useful stuff (porting new extensions, etc.) So we are going to drop Java 8 support two Camel\n"
 "Quarkus releases from now.\n"
 msgstr ""
+"Java 8と11の両方をサポートすることは、私たちの小さなチームにいくつかのリソースをもたらします。テストマトリクスを単純化し、Javaバージョン固有のMavenプロファイルを削除したいと考えています。\n"
+"マトリックスをシンプルにして、Javaバージョン固有のMavenプロファイルを削除したいと考えています。他の有用なこと(新しい拡張機能の移植など)に集中できるように、早急に行いたいと考えています。\n"
+"そのため、今後2回のCamel\n"
+"Quarkusの2つのリリースでJava 8のサポートを停止します。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New bits"
-msgstr ""
+msgstr "ニュービット"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We do not have many new extensions this time. Most of the work was invested into adding native support to existing\n"
 "JVM-only components.\n"
 msgstr ""
+"今回、新しい拡張機能はあまりありません。ほとんどの作業は、既存のJVM専用コンポーネントにネイティブサポートを追加することに費やされました。\n"
+"JVM専用のコンポーネントにネイティブサポートを追加することに費やされました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New components:\n"
-msgstr ""
+msgstr "新しいコンポーネント。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS 2 S3 Storage Service\n"
-msgstr ""
+msgstr "AWS 2 S3 Storage Service\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Components promoted from JVM-only to JVM+native:\n"
-msgstr ""
+msgstr "コンポーネントがJVM-onlyからJVM+nativeに昇格しました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS 2 CloudWatch\n"
-msgstr ""
+msgstr "AWS 2 CloudWatch\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS 2 Simple Notification System\n"
-msgstr ""
+msgstr "AWS 2 シンプルな通知システム\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS 2 Simple Queue Service\n"
-msgstr ""
+msgstr "AWS 2 Simple Queue Service\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "InfluxDB\n"
-msgstr ""
+msgstr "InfluxDB\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kubernetes ConfigMap\n"
-msgstr ""
+msgstr "Kubernetes ConfigMap\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kubernetes Deployments\n"
-msgstr ""
+msgstr "Kubernetesのデプロイメント\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kubernetes HPA\n"
-msgstr ""
+msgstr "Kubernetes HPA\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kubernetes Job\n"
-msgstr ""
+msgstr "Kubernetesの仕事\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kubernetes Namespaces\n"
-msgstr ""
+msgstr "Kubernetesの名前空間\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kubernetes Nodes\n"
-msgstr ""
+msgstr "Kubernetes Nodes\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kubernetes Persistent Volume\n"
-msgstr ""
+msgstr "Kubernetes Persistent Volume\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kubernetes Persistent Volume Claim\n"
-msgstr ""
+msgstr "Kubernetes Persistent Volumeの主張\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kubernetes Pods\n"
-msgstr ""
+msgstr "Kubernetes ポッド\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kubernetes Replication Controller\n"
-msgstr ""
+msgstr "Kubernetesのレプリケーションコントローラー\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kubernetes Resources Quota\n"
-msgstr ""
+msgstr "Kubernetesのリソースクオータ\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kubernetes Secrets\n"
-msgstr ""
+msgstr "Kubernetesの秘密\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kubernetes Service Account\n"
-msgstr ""
+msgstr "Kubernetesサービスアカウント\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kubernetes Services\n"
-msgstr ""
+msgstr "Kubernetesのサービス\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kudu\n"
-msgstr ""
+msgstr "クドゥ\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Openshift Build Config\n"
-msgstr ""
+msgstr "Openshiftのビルド設定\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Openshift Builds\n"
-msgstr ""
+msgstr "Openshiftのビルド\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:62
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "All supported bits can be seen in the [List of Camel Quarkus extensions](/camel-quarkus/latest/reference/index.html).\n"
-msgstr ""
+msgstr "サポートされているすべてのビットは、[List of Camel Quarkus extensions](/camel-quarkus/latest/reference/index.html)で見ることができます。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Quarkus 1.4.1"
-msgstr ""
+msgstr "Quarkus 1.4.1"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:66
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Quarkus was upgraded to 1.4.1 (from 1.3.2 in Camel Quarkus 1.0.0-M6).\n"
-msgstr ""
+msgstr "Quarkusが1.4.1にアップグレードされました（Camel Quarkus 1.0.0-M6の1.3.2から）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel-Quarkus-release-1.0.0-M7/index.md:68
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Enjoy and give feedback either via [mailing lists](/community/mailing-list/)\n"
 "or [GitHub issues](https://github.com/apache/camel-quarkus/issues)!\n"
 msgstr ""
+"楽しんで、フィードバックは[メーリングリスト](/community/mailing-list/)か\n"
+"または[GitHub issues](https://github.com/apache/camel-quarkus/issues)でフィードバックをお願いします。\n"

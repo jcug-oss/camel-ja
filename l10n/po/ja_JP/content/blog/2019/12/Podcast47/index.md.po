@@ -18,34 +18,38 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2019/12/Podcast47/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "JBoss Community Asylum Podcast epiosode 47 about Apache Camel 3"
-msgstr ""
+msgstr "JBoss Community Asylum Podcast epiosode 47 Apache Camel 3について"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2019/12/Podcast47/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "JBoss Asylum Podcast about Apache Camel 3"
-msgstr ""
+msgstr "Apache Camel 3に関するJBoss Asylum Podcast"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Podcast47/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[JBoss Asylm Podcast episode 47: What do you call an Apache Camel with 3 humps](http://asylum.libsyn.com/podcast-46-what-do-you-call-a-camel-with-3-humps)\n"
-msgstr ""
+msgstr "JBoss Asylm Podcastエピソード47。What do you call an Apache Camel with 3 humps](http://asylum.libsyn.com/podcast-46-what-do-you-call-a-camel-with-3-humps)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Podcast47/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Claus Ibsen and Luca Burgazzoli sits down with Emanual and Max (hosts)\n"
 "and talks about what is coming in Apache Camel 3 on topics like Camel K and Camel Quarkus.\n"
 "We also cover Camel's place in the modern world with cloud native and serverless workloads.\n"
 "And at the end we have some bits about what's coming next in Camel 3.1.\n"
 msgstr ""
+"Claus IbsenとLuca BurgazzoliがEmanualとMax(ホスト)と一緒に座って\n"
+"と一緒に、Camel KやCamel Quarkusなどのトピックについて、Apache Camel 3で何が起こるのかを語ります。\n"
+"また、クラウドネイティブやサーバーレスのワークロードなど、現代におけるCamelの位置づけについても説明します。\n"
+"そして最後には、Camel 3.1で次に何が起こるのかについても少し触れています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Podcast47/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[The podcast](http://asylum.libsyn.com/podcast-46-what-do-you-call-a-camel-with-3-humps) is about 80 minutes so embrace yourself with patience.\n"
-msgstr ""
+msgstr "ポッドキャスト](http://asylum.libsyn.com/podcast-46-what-do-you-call-a-camel-with-3-humps)は約80分なので、我慢して受け入れてください。\n"

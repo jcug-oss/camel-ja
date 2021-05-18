@@ -18,272 +18,317 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Details of what we have done in the Camel 3.8 release."
-msgstr ""
+msgstr "Camel 3.8のリリースで行われたことの詳細です。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3.8 What's New"
-msgstr ""
+msgstr "Apache Camel 3.8 What's New"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3.8 has just been released.\n"
-msgstr ""
+msgstr "Apache Camel 3.8がリリースされました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This is a non-LTS release which means we will not provide patch releases.\n"
 "The next planned LTS release is 3.10 scheduled for June 2021.\n"
 msgstr ""
+"これは非LTSリリースであり、パッチリリースを提供しないことを意味しています。\n"
+"次回のLTSリリースは、2021年6月に予定されている3.10です。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "So what's in this release"
-msgstr ""
+msgstr "今回のリリースに含まれるもの"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release introduces a set of new features and noticeable improvements that we will cover in this blog post.\n"
-msgstr ""
+msgstr "今回のリリースでは、一連の新機能と顕著な改善点が導入されており、このブログ記事でご紹介します。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Startup and Shutdown Logging"
-msgstr ""
+msgstr "スタートアップとシャットダウンのロギング"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "A noticeable difference is we changed the logging noise during startup and shutdown of Camel.\n"
 "The logging better reflect that Camel is a tiny framework that has a low footprint.\n"
 msgstr ""
+"顕著な違いは、Camelのスタートアップとシャットダウン時のロギングノイズを変更したことです。\n"
+"このロギングは、Camelが小さなフレームワークであり、フットプリントが少ないことをよりよく反映しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The level of details can be customized with the __StartupSummaryLevel__ option.\n"
 "You can go as low as a __oneline__'r or even turn it __off__.\n"
 msgstr ""
+"詳細のレベルは、__StartupSummaryLevel__オプションでカスタマイズできます。\n"
+"これは、__oneline__'rのように低くすることも、__off__にすることもできます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "If the change is too radical, then you can set the option to __classic__ so the logging\n"
 "is as it was previously, and has been for over a decade.\n"
 msgstr ""
+"あまりにも急激な変更の場合は、オプションを__classic__に設定することで、ロギングが以前と同じように\n"
+"に設定することで、以前のように、そして10年以上前からそうであったように、ログが記録されます。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Java Flight Recorder"
-msgstr ""
+msgstr "Javaフライトレコーダー"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Camel is now capable of capturing \"work steps\" during startup that can be recorded with Java Flight Recorder.\n"
 "This can be used to better diagnose and find where your Camel applications may be slow to startup, for example due to a misbehaving component or custom user code.\n"
 msgstr ""
+"Camelは、起動時の「ワークステップ」をキャプチャし、Java Flight Recorderで記録できるようになりました。\n"
+"これにより、コンポーネントやカスタムユーザーコードが原因でCamelアプリケーションの起動に時間がかかっている場合、その原因をより正確に診断し、発見することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The screenshot below shows a recording that has captured a Camel application that takes about 3 seconds to startup.\n"
 "It's a very tiny application so we expected it to be faster.\n"
 msgstr ""
+"下のスクリーンショットは、Camelアプリケーションの起動に約3秒かかる様子を録画したものです。\n"
+"非常に小さなアプリケーションなので、もっと速くなると思っていました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"jdk-mission-control.png\" \"JDK Mission Control\" >}}\n"
 msgstr ""
+"< image \"jdk-mission-control.png\" \"JDK Mission Control\" >{{}}\n"
+"</image>"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "If we sort the events by duration in the JDK mission control, we can see that there are 4 events that take over 2 seconds,\n"
 "and this helps us pin-point to where the bottleneck is located.\n"
 msgstr ""
+"JDKのミッション・コントロールでイベントを時間でソートすると、2秒以上かかるイベントが4つあることがわかります。\n"
+"これにより、ボトルネックがどこにあるかを特定することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There are more details on this [blog post](http://www.davsclaus.com/2021/01/apache-camel-38-and-java-flight-recorder.html).\n"
-msgstr ""
+msgstr "詳細はこちらの[ブログ記事](http://www.davsclaus.com/2021/01/apache-camel-38-and-java-flight-recorder.html)に記載されています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Optimized core"
-msgstr ""
+msgstr "最適化されたコア"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We have continued the optimizations and have separated route startup into an initialization and startup phase.\n"
 "This allows Camel to perform route initialization as part of its own initialization. Meaning the start phase has been reduced\n"
 "in needed work, and allows Camel to startup routes faster.\n"
 msgstr ""
+"最適化を進め、ルートの起動を初期化と起動フェーズに分けました。\n"
+"これにより、Camelは自身の初期化の一部としてルートの初期化を行うことができます。つまり、起動フェーズは必要な作業が削減され\n"
+"必要な作業が減り、Camelはより早くルートを起動できるようになりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We will continue this effort for Camel 3.9 and 3.10 to allow routes to be enabled for built-time optimization,\n"
 "making Camel faster to startup on frameworks such as Camel Quarkus and Graal VM.\n"
 msgstr ""
+"Camel 3.9および3.10ではこの取り組みを継続し、ビルド時の最適化のためにルートを有効にできるようにする予定です。\n"
+"これにより、Camel QuarkusやGraal VMなどのフレームワーク上でのCamelの起動が速くなります。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Optimized toD"
-msgstr ""
+msgstr "最適化されたD"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:59
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The dynamic to EIP has been optimized to not rely on an embedded `camel-catalog` at runtime.\n"
 "Instead we have source code generated Java code that toD is using when optimizing the routing for you.\n"
 "This reduces the footprint as previously toD would have to parse a JSON model to built up an internal model of the endpoint that\n"
 "is used dynamically. Instead the component now carries Java source code that is optimized for toD to use.\n"
 msgstr ""
+"EIPへのダイナミックは、ランタイムに組み込まれた`camel-catalog`に依存しないように最適化されています。\n"
+"その代わりに、ソースコードで生成されたJavaコードをtoDがルーティングの最適化に使用しています。\n"
+"従来のtoDでは、動的に使用されるエンドポイントの内部モデルを構築するためにJSONモデルを解析する必要があったので、これによりフットプリントが削減されました。\n"
+"が動的に使用されるエンドポイントの内部モデルを構築するために、JSONモデルを解析する必要がありました。その代わりに、コンポーネントはtoDが使用するために最適化されたJavaソースコードを運ぶようになりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "All the messaging components have been improved to take advantage of toD.\n"
-msgstr ""
+msgstr "すべてのメッセージングコンポーネントは、toDを活用するために改良されています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:62
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Reflection free components"
-msgstr ""
+msgstr "リフレクションフリーコンポーネント"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We identified about 10 components that are using the `@InvokeOnHeader` function in their producers.\n"
 "We made those reflection free by source code generated Java code that setup and invokes the appropiate Java methods\n"
 "as direct Java method calls, eliminating reflection all together.\n"
 msgstr ""
+"プロデューサの中で`@InvokeOnHeader`関数を使用しているコンポーネントが10個ほどありました。\n"
+"適切なJavaメソッドを設定し、直接Javaメソッドコールとして呼び出すJavaコードをソースコードとして生成することで、これらのコンポーネントをリフレクションフリーにしました。\n"
+"ソースコードを生成し、適切なJavaメソッドを直接呼び出すことで、リフレクションを排除しました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:68
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Loading routes from source files"
-msgstr ""
+msgstr "ソースファイルからのルート読み込み"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:72
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "A new `RoutesLoader` system was implemented which allows to plug in custom route loaders for source files.\n"
 "This is ported from Camel K which is capable of loading routes from Java, XML, Groovy, JavaScript, Kotlin, YAML and other languages.\n"
 msgstr ""
+"新しい `RoutesLoader` システムが実装され、ソースファイル用のカスタムルートローダーをプラグインできるようになりました。\n"
+"これは、Java、XML、Groovy、JavaScript、Kotlin、YAMLなどの言語からルートを読み込むことができるCamel Kから移植されたものです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:74
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As a start we ported over the Java loader from Camel K, and improved our own XML loader.\n"
-msgstr ""
+msgstr "手始めに、Camel KからJavaローダーを移植し、独自のXMLローダーを改良しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:79
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "An [example is provided](https://github.com/apache/camel-examples/tree/master/examples/camel-example-routeloader)\n"
 "that shows loading both Java and XML routes from the file system.\n"
 "The Java routes are compiled at runtime with the same system we used for compiling the CSimple language\n"
 "that was introduced in Camel 3.8.\n"
 msgstr ""
+"例を示します](https://github.com/apache/camel-examples/tree/master/examples/camel-example-routeloader)\n"
+"この例では、ファイルシステムからJavaとXMLの両方のルートを読み込むことを示しています。\n"
+"Javaルートは、Camel 3.8で導入されたCSimple言語のコンパイルに使用したのと同じシステムで実行時にコンパイルされます。\n"
+"のコンパイルに使用したのと同じシステムで実行時にコンパイルされます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:83
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We plan to port over support for more sources in Camel 3.9 such as JavaScript, Groovy, Kotlin etc.\n"
 "The YAML source is currently being worked on and to make it reflection free, so it can be\n"
 "optimized for modern runtimes such as Quarkus and GraalVM.\n"
 msgstr ""
+"Camel 3.9では、JavaScript、Groovy、Kotlinなど、より多くのソースのサポートを移植する予定です。\n"
+"YAMLのソースは現在、リフレクションフリーを目指しており、QuarkusやGraalVMなどの最新のランタイムに最適化できるようにしています。\n"
+"QuarkusやGraalVMのような最新のランタイムに最適化できるようにしています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:85
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Speaking of YAML that brings us to the next feature - Kamelets.\n"
-msgstr ""
+msgstr "YAMLといえば、次の機能であるKameletがあります。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:86
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kamelets"
-msgstr ""
+msgstr "カメレッツ"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:90
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The `camel-kamelet` component has been stabilized as part of Camel K and is now ready\n"
 "and have been ported over to the main Camel project.\n"
 msgstr ""
+"camel-kamelet`コンポーネントは、Camel Kの一部として安定しており、現在、準備が整っています。\n"
+"メインのCamelプロジェクトに移植されました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:93
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "There is a [little example here](https://github.com/apache/camel-examples/tree/master/examples/kamelet)\n"
 "of using Kamelet in vanilla Camel.\n"
 msgstr ""
+"ちょっとした例があります](https://github.com/apache/camel-examples/tree/master/examples/kamelet)\n"
+"バニラCamelでKameletを使う例があります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:96
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We have previously introduced Kamelet, which was created in Camel K.\n"
 "We foresee Kamelets play a bigger role and wanted to bring them out to the main Camel project.\n"
 msgstr ""
+"以前、Camel Kで作成されたKameletを紹介しました。\n"
+"私たちは、Kameletがより大きな役割を果たすことを予見し、CamelのメインプロジェクトにKameletを導入したいと考えました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:98
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "More information about Kamelets to come - stay tuned.\n"
-msgstr ""
+msgstr "カメレッツについての情報は、今後も継続していきます。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:99
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Sensitive values"
-msgstr ""
+msgstr "センシティブな価値観"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:103
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Camel will mask sensitive information when logging, such as password or access tokens.\n"
 "As there are 300+ components then there are many different options that carry sensitive informaiton.\n"
 msgstr ""
+"Camelは、パスワードやアクセストークンなどの機密情報をマスクして記録します。\n"
+"300以上のコンポーネントがあるので、機密情報を伝えるさまざまなオプションがあります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:109
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We now scan all these components for options marked with `secret=true`\n"
 "and generate an up-to-date Java source code directly in the `SensitiveUtils.java`\n"
@@ -291,144 +336,158 @@ msgid ""
 "Before the listed options were hardcoded by hand. At this time of writing there are 61\n"
 "unique keys for sensitive data.\n"
 msgstr ""
+"ここで、これらのコンポーネントをスキャンして、`secret=true`でマークされたオプションを探します。\n"
+"最新のJavaソースコードをCamelがマスキングに使用する`SensitiveUtils.java`に直接生成しています。\n"
+"に直接最新のJavaソースコードを生成します。これにより、マスキングされるオプションが常に最新のものになりました。\n"
+"以前は、リストアップされたオプションは手作業でハードコードされていました。この記事を書いている時点では、61\n"
+"個のセンシティブデータ用のキーがあります。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:110
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Spring Boot"
-msgstr ""
+msgstr "Spring Boot"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:113
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We have upgraded to latest Spring Boot 2.4.2 release.\n"
-msgstr ""
+msgstr "最新のSpring Boot 2.4.2リリースにアップグレードしました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:114
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Infinispan"
-msgstr ""
+msgstr "Infinispan"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:118
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The `camel-infinispan` component has been split up into a client and embedded component.\n"
 "A reason is that most users would use the client mode, which allows us to offer a dedicated component with a smaller set of dependencies. The embedded component is heavier and has a lot more dependencies to include an Infinispan Server.\n"
 msgstr ""
+"camel-infinispan`コンポーネントは、クライアントコンポーネントと組み込みコンポーネントに分割されました。\n"
+"その理由は、ほとんどのユーザーがクライアントモードを使用するため、より少ない依存関係で専用のコンポーネントを提供することができるからです。埋め込みコンポーネントはより重く、Infinispanサーバを含めるために多くの依存関係があります。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:119
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Salesforce"
-msgstr ""
+msgstr "セールスフォース"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:123
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The `camel-salesforce` component has yet again had some bug fixes, improvements and new features implemented, with thanks to our\n"
 "new committer Jeremy.\n"
 msgstr ""
+"新しいコミッターJeremyのおかげで、`camel-salesforce`コンポーネントに再びバグフィックス、改善、新機能が実装されました。\n"
+"新しいコミッターJeremyのおかげです。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:124
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "SJMS"
-msgstr ""
+msgstr "SJMS"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:129
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The SJMS component has been overhauled to be more aligned with the Spring based JMS component.\n"
 "It no longer has its own connection pool, but allows you to use any of the 3rd party connection pooling\n"
 "that is standard practice.\n"
 msgstr ""
+"SJMSコンポーネントは、SpringベースのJMSコンポーネントにより近いものになるように改良されました。\n"
+"SJMSは独自のコネクションプールを持たず、標準的なサードパーティのコネクションプールを使用できるようになりました。\n"
+"を使用することができます。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:130
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "RabbitMQ using Spring Client"
-msgstr ""
+msgstr "Spring Clientを使用したRabbitMQ"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:134
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "A noteworthy mention is that we have added a new `camel-spring-rabbitmq` component that is using Spring RabbitMQ\n"
 "to integrate with RabbitMQ. RabbitMQ is from the same company as Spring so its likely better to use their RabbitMQ client.\n"
 msgstr ""
+"特筆すべきは、新しい `camel-spring-rabbitmq` コンポーネントを追加したことです。これは Spring RabbitMQ\n"
+"を使ってRabbitMQと統合しています。RabbitMQはSpringと同じ会社のものなので、彼らのRabbitMQクライアントを使うのが良いでしょう。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:135
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New components"
-msgstr ""
+msgstr "新しいコンポーネント"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:138
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release has a number of new components, data formats and languages:\n"
-msgstr ""
+msgstr "今回のリリースでは、多くの新しいコンポーネント、データフォーマット、言語が追加されています。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:145
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`camel-kamelet` - The Kamelet Component provides support for interacting with the Camel Route Template engine\n"
-msgstr ""
+msgstr "camel-kamelet` - Kameletコンポーネントは、Camel Route Templateエンジンとの連携をサポートします。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:145
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`camel-azure-storage-datalake` - Camel Azure Datalake Gen2 Component\n"
-msgstr ""
+msgstr "`camel-azure-storage-datalake` - Camel Azure Datalake Gen2 コンポーネント\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:145
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`camel-paho-mqtt5` - Communicate with MQTT message brokers using Eclipse Paho MQTT v5 Client\n"
-msgstr ""
+msgstr "camel-paho-mqtt5` - Eclipse Paho MQTT v5 Clientを使ってMQTTメッセージブローカーと通信する。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:145
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`camel-huaweicloud-smn` - Huawei Cloud component to integrate with SimpleNotification services\n"
-msgstr ""
+msgstr "`camel-huaweicloud-smn` - SimpleNotificationサービスと統合するHuawei Cloudコンポーネント\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:145
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`camel-spring-rabbitmq` - Send and receive messages from RabbitMQ using Spring RabbitMQ client\n"
-msgstr ""
+msgstr "`camel-spring-rabbitmq` - SpringのRabbitMQクライアントを使ってRabbitMQからメッセージを送信・受信する。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:145
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`camel-stich` - Stitch is a cloud ETL service that integrates various data sources into a central data warehouse through various integrations\n"
-msgstr ""
+msgstr "`camel-stich` - Stitchは、様々なデータソースを様々な統合によって中央のデータウェアハウスに統合するクラウドETLサービスです。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:146
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Upgrading"
-msgstr ""
+msgstr "アップグレード"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:149
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Make sure to read the [upgrade guide](/manual/latest/camel-3x-upgrade-guide-3_8.html) if you are upgrading from a previous Camel version.\n"
-msgstr ""
+msgstr "旧バージョンのCamelからアップグレードする場合は、[アップグレードガイド](/manual/latest/camel-3x-upgrade-guide-3_8.html)を必ずお読みください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:150
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Release Notes"
-msgstr ""
+msgstr "リリースノート"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:152
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can find more information about this release in the [release notes](/releases/release-3.8.0/), with a list of JIRA tickets resolved in the release.\n"
-msgstr ""
+msgstr "このリリースに関する詳細は、[リリースノート](/releases/release-3.8.0/)に、このリリースで解決されたJIRAチケットのリストが掲載されています。\n"

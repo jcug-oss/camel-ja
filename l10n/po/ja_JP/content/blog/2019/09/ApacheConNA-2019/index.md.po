@@ -18,27 +18,29 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2019/09/ApacheConNA-2019/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Plenty of Camel at the ApacheCon 2019 in Las Vegas"
-msgstr ""
+msgstr "ラスベガスで開催された「ApacheCon 2019」では、たくさんのCamelが登場しました。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2019/09/ApacheConNA-2019/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel at ApacheCon North America 2019"
-msgstr ""
+msgstr "Camel at ApacheCon North America 2019"
 
 #. type: Plain text
 #: upstream/content/blog/2019/09/ApacheConNA-2019/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Apache Camel is part of ApacheCon 2019 in North America this year celebrating\n"
 "the 20th year anniversary of Apache Software Foundation.\n"
 msgstr ""
+"Apache Camelは、北米で開催されるApacheCon 2019の一部であり、Apache Software Foundationの20周年を記念して開催されます。\n"
+"Apache Software Foundationの設立20周年を記念して開催されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/09/ApacheConNA-2019/index.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "On the Integration track you will find out all about the [state of Apache\n"
 "Camel](https://www.apachecon.com/acna19/s/#/scheduledEvent/1141) from Claus\n"
@@ -52,13 +54,28 @@ msgid ""
 "Costello will talk about [serverless integration with\n"
 "Camel](https://www.apachecon.com/acna19/s/#/scheduledEvent/1130).\n"
 msgstr ""
+"統合トラックでは、[Apacheの状態]についてのすべてを知ることができます。\n"
+"Camel](https://www.apachecon.com/acna19/s/#/scheduledEvent/1141)について、Claus\n"
+"Ibsen、Sami AdranlyがCamelベースの[Uberにおけるデータ統合プラットフォーム Medley]()を発表します。\n"
+"Medley](https://www.apachecon.com/acna19/s/#/scheduledEvent/1034) Nicola\n"
+"FerraroとAndrea Tarocchiは、[Camel\n"
+"K](https://www.apachecon.com/acna19/s/#/scheduledEvent/1142)と[Camel K with\n"
+"Knative](https://www.apachecon.com/acna19/s/#/scheduledEvent/1059), Bob Paulin\n"
+"Bob Paulinは[Configuring Apache Camel for the Cloud]()でクラウドとの統合を容易にします。\n"
+"クラウド](https://www.apachecon.com/acna19/s/#/scheduledEvent/1111)、Michael\n"
+"Costelloは[Serverless integration with Camel]()について話します。\n"
+"Camel](https://www.apachecon.com/acna19/s/#/scheduledEvent/1130)について話します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/09/ApacheConNA-2019/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Don’t miss talks and presentations about Apache Software Foundation projects,\n"
 "open source governance, community, and software development at the Flamingo\n"
 "Hotel in Las Vegas September 9-12! More details more details\n"
 "[here](https://www.apachecon.com/acna19/index.html).\n"
 msgstr ""
+"アパッチソフトウェア財団のプロジェクトに関する講演やプレゼンテーションをお見逃しなく。\n"
+"オープンソースガバナンス、コミュニティ、ソフトウェア開発についての講演やプレゼンテーションを、9月9日から12日までラスベガスのフラミンゴホテルで開催します。\n"
+"9月9日から12日まで、ラスベガスのフラミンゴホテルで開催されます。詳細はこちら 詳細はこちら\n"
+"[こちら](https://www.apachecon.com/acna19/index.html)をご覧ください。\n"

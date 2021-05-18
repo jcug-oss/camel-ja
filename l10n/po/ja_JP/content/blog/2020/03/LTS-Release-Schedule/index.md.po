@@ -18,83 +18,94 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Apache Camel project is moving to release schedule with Long Term Support (LTS) and non-LTS releases."
-msgstr ""
+msgstr "Apache Camelプロジェクトは、Long Term Support (LTS)とNon-LTSのリリーススケジュールを進めています。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 2020 Release Schedule"
-msgstr ""
+msgstr "Apache Camel 2020年リリース予定"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Apache Camel project is moving to release schedule with Long Term Support (LTS) and non-LTS releases.\n"
-msgstr ""
+msgstr "Apache Camelプロジェクトは、Long Term Support (LTS)とNon-LTSのリリーススケジュールを進めています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The plan is to have 2 yearly LTS releases and then non-LTS releases in between.\n"
-msgstr ""
+msgstr "計画では、年2回のLTSリリースと、その間の非LTSリリースを予定しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This allows the Camel project to innovate and move much faster in non-LTS releases.\n"
-msgstr ""
+msgstr "これにより、Camelプロジェクトは、LTSではないリリースにおいても、革新的で迅速な対応が可能となります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "And as well to offer production stable branches (LTS) where end users can stay on\n"
 "for a longer period of time and get CVEs and important/critical bug fixes only.\n"
 "On these LTS branches, we plan to avoid introducing new features, improvements etc, and\n"
 "keep changes with production in-mind only. However exceptions can be made.\n"
 msgstr ""
+"また、エンドユーザーがより長い期間、CVEや重要/クリティカルなバグ修正のみを受けることができる生産安定化ブランチ(LTS)を提供します。\n"
+"CVEや重要なバグフィックスのみを提供しています。\n"
+"これらのLTSブランチでは、新機能や改良点などの導入を避け、本番環境のみを念頭に置いた変更を行う予定です。\n"
+"運用を念頭に置いた変更のみを行う予定です。ただし、例外もあります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "For non-LTS releases then we plan to not release patch releases, for example there will\n"
 "not be 3.1.1, 3.1.2 patch releases for the non-LTS release of Camel 3.1.0.\n"
 msgstr ""
+"LTS以外のリリースでは、パッチリリースを行わない予定です。\n"
+"例えば、LTSではないCamel 3.1.0の3.1.1、3.1.2のパッチリリースはありません。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Other projects like Java JDK have moved to LTS and non-TLS releases as well. So we are doing the same,\n"
 "but our LTS is limited to a 1-year schedule (typically same timeframe for Camel 2.x).\n"
 msgstr ""
+"Java JDKのような他のプロジェクトも同様に、LTSや非TLSのリリースに移行しています。だから私たちも同じことをしています。\n"
+"しかし、私たちのLTSは1年のスケジュールに限定されています（通常、Camel 2.xのスケジュールと同じです）。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Release Schedule"
-msgstr ""
+msgstr "発売予定"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The tentative release schedule for 2020 is as follows:\n"
-msgstr ""
+msgstr "2020年の暫定的なリリーススケジュールは以下の通りです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "{{< table >}}\n"
 "| Release | Date     | LTS | EOL      | Java  \n"
 msgstr ""
+"< table >{{}}\n"
+"| リリース｜日付｜LTS｜EOL｜Java  \n"
+"</table>"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "|---------|----------|-----|----------|------\n"
 "| 2.25.0  | Jan 2020 | Yes | Jan 2022 | 8\n"
@@ -107,65 +118,83 @@ msgid ""
 "| 3.7.0   | Dec 2020 | Yes | Dec 2021 | 8, 11, 14\n"
 "{{< /table >}}\n"
 msgstr ""
+"<table >|---------|----------|-----|----------|------\n"
+"| 2.25.0｜2020年1月｜あり｜2022年1月｜8\n"
+"| 3.1.0 | 2020年2月 | なし | 8, 11\n"
+"| 3.2.0｜2020年4月｜なし｜8、11\n"
+"| 3.3.0｜2020年5月｜なし｜8、11\n"
+"| 3.4.0｜2020年6月｜有｜2021年6月｜8, 11\n"
+"| 3.5.0｜2020年8月｜なし｜8, 11\n"
+"| 3.6.0｜2020年10月｜なし｜8、11\n"
+"| 3.7.0｜2020年12月｜はい｜2021年12月｜8、11、14< /table >\n"
+"<table >{{}}< /table >\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "**NOTE:** The schedule is tentative and subject for change\n"
 "(for example date's may slip into the following month). \n"
 msgstr ""
+"注：**スケジュールは暫定的なものであり、変更される可能性があります。\n"
+"翌月にずれ込む場合もあります。 \n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "So for 2020, we have planned 2 LTS releases, Camel 3.4.x and 3.7.x where we will release\n"
 "patch releases. The LTS releases has support for 1-year.\n"
 msgstr ""
+"2020年には、Camel 3.4.xと3.7.xの2つのLTSリリースを計画しています。\n"
+"パッチリリースを行います。LTSリリースのサポート期間は1年間です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For each Camel release, we will mark in the release notes whether it's a LTS or non-LTS release.\n"
-msgstr ""
+msgstr "Camelのリリースごとに、LTSか非LTSかをリリースノートに記載します。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Java 8"
-msgstr ""
+msgstr "Java 8"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Java 8 is still supported, but at some time in the future we will drop Java 8.\n"
 "Java 8 is best effort supported as Java 11 is the primary version used for development, testing, and QA.\n"
 msgstr ""
+"Java 8は現在もサポートされていますが、将来のある時期にJava 8を廃止する予定です。\n"
+"Java 11は開発、テスト、およびQAに使用される主要なバージョンであるため、Java 8はベストエフォートでサポートされます。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Java 11"
-msgstr ""
+msgstr "Java 11"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Java 11 is the primary supported version.\n"
-msgstr ""
+msgstr "Java 11が主な対応バージョンです。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Java 14"
-msgstr ""
+msgstr "Java 14"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/LTS-Release-Schedule/index.md:64
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We have not yet started working on support for Java 14. However after the first LTS release\n"
 "where we drop Java 8, then this will give us space to work on support for Java 14.\n"
 msgstr ""
+"Java 14のサポートにはまだ着手していません。しかし、最初のLTSリリースの後\n"
+"の後には、Java 14のサポートに取り組むためのスペースができるでしょう。\n"

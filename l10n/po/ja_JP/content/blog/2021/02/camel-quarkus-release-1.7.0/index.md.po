@@ -18,363 +18,378 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus 1.7.0 Released"
-msgstr ""
+msgstr "Camel Quarkus 1.7.0リリース"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<sub><sup>Original image by <a href=\"https://commons.wikimedia.org/wiki/User:99of9\">Toby Hudson</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> via <a href=\"https://en.wikipedia.org/wiki/Camel_racing#/media/File:CamelRacingCamelCup2009Heat.JPG\">Wikipedia</a></sup></sub>\n"
-msgstr ""
+msgstr "<sub><sup>Original image by<a href=\"https://commons.wikimedia.org/wiki/User:99of9\">Toby Hudson</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>via<a href=\"https://en.wikipedia.org/wiki/Camel_racing#/media/File:CamelRacingCamelCup2009Heat.JPG\">Wikipedia</a></sup></sub>\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We are pleased to announce the release 1.7.0 of Camel Quarkus! Here are the highlights.\n"
-msgstr ""
+msgstr "Camel Quarkusの1.7.0がリリースされました。ハイライトをご紹介します。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel 3.8.0 and Quarkus 1.12.0.Final"
-msgstr ""
+msgstr "Camel 3.8.0およびQuarkus 1.12.0.Final"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We stand on the shoulders of two giants. Please check the release announcements for\n"
 "[Camel 3.8.0](/blog/2021/02/Camel38-Whatsnew/) and [Quarkus 1.12.0.Final](https://quarkus.io/blog/quarkus-1-12-0-final-released/) to learn about the news they bring.\n"
 msgstr ""
+"私たちは、2人の巨人の肩の上に立っています。のリリースアナウンスをご覧ください。\n"
+"Camel 3.8.0](/blog/2021/02/Camel38-Whatsnew/)と[Quarkus 1.12.0.Final](https://quarkus.io/blog/quarkus-1-12-0-final-released/)のリリースアナウンスをご確認ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The [change of default packaging format](https://quarkus.io/blog/quarkus-1-12-0-final-released/#fast-jar-as-default)\n"
 "to Fast JAR in Quarkus 1.12 is worth mentioning also here. Before Camel Quarkus 1.7.0 you used to start your application\n"
 "in JVM mode via something like\n"
 msgstr ""
+"Quarkus 1.12での[デフォルトパッケージングフォーマットの変更](https://quarkus.io/blog/quarkus-1-12-0-final-released/#fast-jar-as-default)\n"
+"は、Quarkus 1.12でFast JARに変更されましたが、ここでも言及する価値があります。Camel Quarkus 1.7.0以前は、次のような方法でアプリケーションをJVMモードで起動していました。\n"
+"をJVMモードで起動していましたが、以下のようになりました。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "$ java -jar target/*-runner.jar\n"
-msgstr ""
+msgstr "$ java -jar target/*-runner.jar\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "and now since Camel Quarkus 1.7.0, you have to use\n"
-msgstr ""
+msgstr "で、Camel Quarkus 1.7.0からは\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "$ java -jar target/quarkus-app/quarkus-run.jar\n"
-msgstr ""
+msgstr "$ java -jar target/quarkus-app/quarkus-run.jar\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Your Docker files and deployment scripts might need an adjustment when you upgrade to Camel Quarkus 1.7.0.\n"
-msgstr ""
+msgstr "Camel Quarkus 1.7.0にアップグレードする際に、Dockerファイルやデプロイメントスクリプトの調整が必要になる場合があります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "You can go back to the original behavior by setting `quarkus.package.type=legacy-jar` in your\n"
 "`application.properties`.\n"
 msgstr ""
+"アプリケーションのプロパティで `quarkus.package.type=legacy-jar` を設定すれば、元の動作に戻すことができます。\n"
+"元の動作に戻すことができます。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Support for more Camel components"
-msgstr ""
+msgstr "より多くのCamelコンポーネントのサポート"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus brings support for six new Camel components:\n"
-msgstr ""
+msgstr "Camel Quarkusは、6つの新しいCamelコンポーネントをサポートしています。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Azure Event Hubs](/camel-quarkus/latest/reference/extensions/azure-eventhubs.html)\n"
-msgstr ""
+msgstr "Azure Event Hubs](/camel-quarkus/latest/reference/extensions/azure-eventhubs.html)を参照してください。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Kamelet](/camel-quarkus/latest/reference/extensions/kamelet.html)\n"
-msgstr ""
+msgstr "カメレット](/camel-quarkus/latest/reference/extensions/kamelet.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[OAI-PMH](/camel-quarkus/latest/reference/extensions/oaipmh.html)\n"
-msgstr ""
+msgstr "OAI-PMH](/camel-quarkus/latest/reference/extensions/oaipmh.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Spring RabbitMQ](/camel-quarkus/latest/reference/extensions/spring-rabbitmq.html)\n"
-msgstr ""
+msgstr "Spring RabbitMQ](/camel-quarkus/latest/reference/extensions/spring-rabbitmq.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[XML Security Sign and Verify](/camel-quarkus/latest/reference/extensions/xmlsecurity.html)\n"
-msgstr ""
+msgstr "XML Security Sign and Verify](/camel-quarkus/latest/reference/extensions/xmlsecurity.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[JFR](/camel-quarkus/latest/reference/extensions/jfr.html) (JVM only)\n"
-msgstr ""
+msgstr "JFR](/camel-quarkus/latest/reference/extensions/jfr.html) (JVMのみ)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Components newly supported in native mode:\n"
-msgstr ""
+msgstr "新たにネイティブモードに対応したコンポーネント。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AtlasMap](/camel-quarkus/latest/reference/extensions/atlasmap.html)\n"
-msgstr ""
+msgstr "アトラスマップ](/camel-quarkus/latest/reference/extensions/atlasmap.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AWS 2 Eventbridge](/camel-quarkus/latest/reference/extensions/aws2-eventbridge.html)\n"
-msgstr ""
+msgstr "AWS 2 イベントブリッジ](/camel-quarkus/latest/reference/extensions/aws2-eventbridge.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AWS 2 Kinesis and Firehose](/camel-quarkus/latest/reference/extensions/aws2-kinesis.html)\n"
-msgstr ""
+msgstr "[AWS 2 Kinesis and Firehose](/camel-quarkus/latest/reference/extensions/aws2-kinesis.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Azure Storage Queue Service](/camel-quarkus/latest/reference/extensions/azure-storage-queue.html)\n"
-msgstr ""
+msgstr "Azure Storage Queue Service](/camel-quarkus/latest/reference/extensions/azure-storage-queue.html)を公開しました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Cassandra CQL](/camel-quarkus/latest/reference/extensions/cassandraql.html)\n"
-msgstr ""
+msgstr "Cassandra CQL](/camel-quarkus/latest/reference/extensions/cassandraql.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[IPFS](/camel-quarkus/latest/reference/extensions/ipfs.html)\n"
-msgstr ""
+msgstr "IPFS](/camel-quarkus/latest/reference/extensions/ipfs.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[PubNub](/camel-quarkus/latest/reference/extensions/pubnub.html)\n"
-msgstr ""
+msgstr "[PubNub](/camel-quarkus/latest/reference/extensions/pubnub.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[StAX](/camel-quarkus/latest/reference/extensions/stax.html)\n"
-msgstr ""
+msgstr "StAX](/camel-quarkus/latest/reference/extensions/stax.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[CBOR](/camel-quarkus/latest/reference/extensions/cbor.html)\n"
-msgstr ""
+msgstr "CBOR](/camel-quarkus/latest/reference/extensions/cbor.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Syslog](/camel-quarkus/latest/reference/extensions/syslog.html)\n"
-msgstr ""
+msgstr "[Syslog](/camel-quarkus/latest/reference/extensions/syslog.html)\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:62
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Deprecated extensions"
-msgstr ""
+msgstr "非推奨のエクステンション"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:65
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We are following the deprecation of the underlying Camel components:\n"
-msgstr ""
+msgstr "私たちは、基盤となるCamelコンポーネントの非推奨化に従っています。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS EC2 (SDK v1)\n"
-msgstr ""
+msgstr "AWS EC2 (SDK v1)\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS ECS (SDK v1)\n"
-msgstr ""
+msgstr "AWS ECS (SDK v1)\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS EKS (SDK v1)\n"
-msgstr ""
+msgstr "AWS EKS (SDK v1)\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS IAM (SDK v1)\n"
-msgstr ""
+msgstr "AWS IAM (SDK v1)\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS Kinesis (SDK v1)\n"
-msgstr ""
+msgstr "AWS Kinesis (SDK v1)\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS KMS (SDK v1)\n"
-msgstr ""
+msgstr "AWS KMS (SDK v1)\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS Lambda (SDK v1)\n"
-msgstr ""
+msgstr "AWS Lambda (SDK v1)\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS S3 (SDK v1)\n"
-msgstr ""
+msgstr "AWS S3 (SDK v1)\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS SDB (SDK v1)\n"
-msgstr ""
+msgstr "AWS SDB (SDK v1)\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS SNS (SDK v1)\n"
-msgstr ""
+msgstr "AWS SNS (SDK v1)\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS SQS (SDK v1)\n"
-msgstr ""
+msgstr "AWS SQS (SDK v1)\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS SWF (SDK v1)\n"
-msgstr ""
+msgstr "AWS SWF (SDK v1)\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS Translate (SDK v1)\n"
-msgstr ""
+msgstr "AWS Translate (SDK v1)\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Azure (old SDK)\n"
-msgstr ""
+msgstr "Azure (旧SDK)\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Javax Websocket (JSR 356)\n"
-msgstr ""
+msgstr "Javax Websocket (JSR 356)\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:82
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "More test coverage for AWS 2 components"
-msgstr ""
+msgstr "AWS 2コンポーネントのテストカバレッジの向上"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:88
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "So far, our AWS SDK v2 extensions were not tested properly. We started adding\n"
 "[tests](https://github.com/apache/camel-quarkus/tree/master/integration-tests-aws2) that check their behavior\n"
 "against the real AWS services. Some of the tests can also run against a\n"
 "[Localstack](https://github.com/localstack/localstack) mock container.\n"
 msgstr ""
+"これまでのところ、私たちのAWS SDK v2の拡張機能は正しくテストされていませんでした。私たちは\n"
+"テスト](https://github.com/apache/camel-quarkus/tree/master/integration-tests-aws2)を追加しました。\n"
+"テストを追加し始めました。いくつかのテストは、[Localstack]()のモックコンテナに対しても実行できます。\n"
+"[Localstack](https://github.com/localstack/localstack)のモックコンテナに対しても実行できます。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:89
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Full Changelog of Camel Quarkus 1.7.0"
-msgstr ""
+msgstr "Camel Quarkus 1.7.0のフルチェンジログ"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:93
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Fixed issues](https://github.com/apache/camel-quarkus/milestone/11?closed=1)\n"
-msgstr ""
+msgstr "問題点の修正](https://github.com/apache/camel-quarkus/milestone/11?closed=1)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:93
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[All commits](https://github.com/apache/camel-quarkus/compare/1.6.0...1.7.0)\n"
-msgstr ""
+msgstr "すべてのコミット](https://github.com/apache/camel-quarkus/compare/1.6.0...1.7.0)\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:94
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Known issues"
-msgstr ""
+msgstr "既知の問題"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:99
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Upgrading to Jackson 2.12.1 via Quarkus BOM 1.12 breaks Azure SDK v12 extensions](https://github.com/apache/camel-quarkus/issues/2207) - possible workarounds: force Jackson 2.11.3 in your application or stay on Camel Quarkus 1.6.0\n"
-msgstr ""
+msgstr "[Upgrading to Jackson 2.12.1 via Quarkus BOM 1.12 breaks Azure SDK v12 extensions](https://github.com/apache/camel-quarkus/issues/2207) - 可能な回避策：アプリケーションにJackson 2.11.3を強制的に適用するか、Camel Quarkus 1.6.0のままにする。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:99
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "* [Camel Quarkus OptaPlanner does not work as of Quarkus 1.12 in apps generated by code.quarkus.io](https://github.com/apache/camel-quarkus/issues/2253) - this is caused by a conflicting OptaPlanner version in Quarkus Universe BoM. Workaround:\n"
 "use plain Camel Quarkus BoM instead of Quarkus Universe BoM.\n"
 msgstr ""
+"* [Camel Quarkus OptaPlanner does not work as of Quarkus 1.12 in app generated by code.quarkus.io](https://github.com/apache/camel-quarkus/issues/2253) - これは、Quarkus Universe BoM内のOptaPlannerのバージョンが競合していることが原因です。回避策としては\n"
+"Quarkus Universe BoMの代わりに、プレーンなCamel Quarkus BoMを使用してください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:100
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's next?"
-msgstr ""
+msgstr "次は何ですか？"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:103
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus 1.8.0 should appear within a couple of weeks, shortly after Quarkus 1.13.\n"
-msgstr ""
+msgstr "Camel Quarkus 1.8.0は、Quarkus 1.13の直後、数週間以内に登場する予定です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/camel-quarkus-release-1.7.0/index.md:105
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "There is still a lot of [Camel components to port](https://github.com/apache/camel-quarkus/issues?q=is%3Aissue+is%3Aopen+label%3Aextension) to Quarkus.\n"
 "Please upvote your favorites, or even better [contribute](/camel-quarkus/latest/contributor-guide/index.html)!\n"
 msgstr ""
+"まだまだQuarkusには[Camel components to port](https://github.com/apache/camel-quarkus/issues?q=is%3Aissue+is%3Aopen+label%3Aextension)がたくさんあります。\n"
+"気に入ったものがあればupvoteしてください。また、ぜひ[contribute](/camel-quarkus/latest/contributor-guide/index.html)してください。\n"

@@ -18,188 +18,196 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's new in Camel Quarkus 1.0.0-CR3"
-msgstr ""
+msgstr "Camel Quarkus 1.0.0-CR3の新機能"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus 1.0.0-CR3 Released"
-msgstr ""
+msgstr "Camel Quarkus 1.0.0-CR3リリース"
 
 #. type: Plain text
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We are pleased to announce the release 1.0.0-CR3 of Camel Quarkus. Camel Quarkus brings the outstanding integration\n"
 "capabilities of Apache Camel to [Quarkus](https://quarkus.io/) - the toolkit for writing subatomically small and\n"
 "supersonically fast Java, Kotlin and Scala applications.\n"
 msgstr ""
+"Camel Quarkusの1.0.0-CR3がリリースされましたのでお知らせします。Camel Quarkusは、Apache Camelの優れた統合機能を\n"
+"Quarkus](https://quarkus.io/)に、Apache Camelの優れた統合機能が加わりました。\n"
+"超音速のJava、Kotlin、Scalaアプリケーションを書くためのツールキットです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Here are some highlights of Camel Quarkus 1.0.0-CR3.\n"
-msgstr ""
+msgstr "Camel Quarkus 1.0.0-CR3のハイライトをご紹介します。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New extensions"
-msgstr ""
+msgstr "新しいエクステンション"
 
 #. type: Plain text
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The following new extensions were added:\n"
-msgstr ""
+msgstr "以下の新しいエクステンションが追加されました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AWS 2 Athena](/camel-quarkus/latest/reference/extensions/aws2-athena.html)\n"
-msgstr ""
+msgstr "AWS 2 Athena](/camel-quarkus/latest/reference/extensions/aws2-athena.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Component DSL](/camel-quarkus/latest/reference/extensions/componentdsl.html)\n"
-msgstr ""
+msgstr "コンポーネントDSL](/camel-quarkus/latest/reference/extensions/componentdsl.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[JOLT](/camel-quarkus/latest/reference/extensions/jolt.html)\n"
-msgstr ""
+msgstr "JOLT](/camel-quarkus/latest/reference/extensions/jolt.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[JTA](/camel-quarkus/latest/reference/extensions/jta.html)\n"
-msgstr ""
+msgstr "JTA](/camel-quarkus/latest/reference/extensions/jta.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[OpenApi Java](/camel-quarkus/latest/reference/extensions/openapi-java.html)\n"
-msgstr ""
+msgstr "OpenApi Java](/camel-quarkus/latest/reference/extensions/openapi-java.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Tika](/camel-quarkus/latest/reference/extensions/tika.html)\n"
-msgstr ""
+msgstr "ティカ】(/camel-quarkus/latest/reference/extensions/tika.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Vert.x](/camel-quarkus/latest/reference/extensions/vertx.html)\n"
-msgstr ""
+msgstr "[Vert.x](/camel-quarkus/latest/reference/extensions/vertx.html)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The following extensions added native mode support:\n"
-msgstr ""
+msgstr "以下の拡張機能がネイティブモードに対応しました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AWS 2 DynamoDB Streams](/camel-quarkus/latest/reference/extensions/aws2-ddb.html)\n"
-msgstr ""
+msgstr "[AWS 2 DynamoDB Streams](/camel-quarkus/latest/reference/extensions/aws2-ddb.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AWS 2 Elastic Compute Cloud (EC2)](/camel-quarkus/latest/reference/extensions/aws2-ec2.html)\n"
-msgstr ""
+msgstr "[AWS 2 Elastic Compute Cloud (EC2)](/camel-quarkus/latest/reference/extensions/aws2-ec2.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AWS 2 Elastic Container Service (ECS)](/camel-quarkus/latest/reference/extensions/aws2-ecs.html)\n"
-msgstr ""
+msgstr "[AWS 2 Elastic Container Service (ECS)](/camel-quarkus/latest/reference/extensions/aws2-ecs.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AWS 2 Elastic Kubernetes Service (EKS)](/camel-quarkus/latest/reference/extensions/aws2-eks.html)\n"
-msgstr ""
+msgstr "[AWS 2 Elastic Kubernetes Service (EKS)](/camel-quarkus/latest/reference/extensions/aws2-eks.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AWS 2 Identity and Access Management (IAM)](/camel-quarkus/latest/reference/extensions/aws2-iam.html)\n"
-msgstr ""
+msgstr "[AWS 2 Identity and Access Management (IAM)](/camel-quarkus/latest/reference/extensions/aws2-iam.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AWS 2 Key Management Service (KMS)](/camel-quarkus/latest/reference/extensions/aws2-kms.html)\n"
-msgstr ""
+msgstr "[AWS 2 Key Management Service (KMS)](/camel-quarkus/latest/reference/extensions/aws2-kms.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AWS 2 Managed Streaming for Apache Kafka (MSK)](/camel-quarkus/latest/reference/extensions/aws2-msk.html)\n"
-msgstr ""
+msgstr "[AWS 2 Managed Streaming for Apache Kafka (MSK)](/camel-quarkus/latest/reference/extensions/aws2-msk.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AWS 2 MQ](/camel-quarkus/latest/reference/extensions/aws2-mq.html)\n"
-msgstr ""
+msgstr "[AWS 2 MQ](/camel-quarkus/latest/reference/extensions/aws2-mq.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AWS 2 Simple Email Service (SES)](/camel-quarkus/latest/reference/extensions/aws2-ses.html)\n"
-msgstr ""
+msgstr "[AWS 2 Simple Email Service (SES)](/camel-quarkus/latest/reference/extensions/aws2-ses.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AWS 2 Translate](/camel-quarkus/latest/reference/extensions/aws2-translate.html)\n"
-msgstr ""
+msgstr "[AWS 2 Translate](/camel-quarkus/latest/reference/extensions/aws2-translate.html)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "All supported extensions can be seen in the [List of Camel Quarkus extensions](/camel-quarkus/latest/reference/).\n"
-msgstr ""
+msgstr "サポートされているすべての拡張機能は、[List of Camel Quarkus extensions](/camel-quarkus/latest/reference/)で確認できます。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel 3.4.0"
-msgstr ""
+msgstr "Camel 3.4.0"
 
 #. type: Plain text
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Camel was upgraded to [3.4.0](/blog/2020/06/camel34-whatsnew/). For Quarkus this brings some performance improvements, \n"
 "with JAXB dependencies having been removed from the OpenAPI components. There's also some enhancements to the health check APIs and a new \n"
 "[health example](https://github.com/apache/camel-quarkus/tree/master/examples/health) was added to demonstrate this.\n"
 msgstr ""
+"Camel が [3.4.0] にアップグレードされました(/blog/2020/06/camel34-whatsnew/)。これにより、Quarkusのパフォーマンスが向上しました。 \n"
+"OpenAPIコンポーネントからJAXBへの依存が削除されました。また、ヘルスチェックAPIにもいくつかの改良が加えられ、新しい \n"
+"health example](https://github.com/apache/camel-quarkus/tree/master/examples/health)が追加され、デモンストレーションが行われました。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Quarkus 1.6.0.Final"
-msgstr ""
+msgstr "Quarkus 1.6.0.Final"
 
 #. type: Plain text
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Quarkus was upgraded to 1.6.0.Final.\n"
-msgstr ""
+msgstr "Quarkusが1.6.0.Finalにアップグレードされました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/07/camel-quarkus-release-1.0.0-CR3/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Enjoy! Feel free to give feedback via the [mailing lists](/community/mailing-list/)\n"
 "or [GitHub issues](https://github.com/apache/camel-quarkus/issues).\n"
 msgstr ""
+"お楽しみください。ご意見・ご感想は、[メーリングリスト](/community/mailing-list/)\n"
+"または[GitHub issues](https://github.com/apache/camel-quarkus/issues)でフィードバックをお願いします。\n"

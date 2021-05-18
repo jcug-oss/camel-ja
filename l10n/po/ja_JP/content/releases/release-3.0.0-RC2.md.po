@@ -18,18 +18,18 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/releases/release-3.0.0-RC2.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Second release candidate for 3.0.0"
-msgstr ""
+msgstr "3.0.0の2回目のリリース候補"
 
 #. type: YAML Front Matter: title
 #: upstream/content/releases/release-3.0.0-RC2.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Release 3.0.0-RC2"
-msgstr ""
+msgstr "リリース3.0.0-RC2"
 
 #. type: Plain text
 #: upstream/content/releases/release-3.0.0-RC2.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release the second release candidate towards Camel 3.0.0 release.\n"
-msgstr ""
+msgstr "このリリースは、Camel 3.0.0のリリースに向けた第2のリリース候補です。\n"

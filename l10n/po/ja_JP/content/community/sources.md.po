@@ -18,78 +18,78 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/community/sources.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Sources"
-msgstr ""
+msgstr "ソース"
 
 #. type: Plain text
 #: upstream/content/community/sources.md:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "## Web Browsing of git\n"
-msgstr ""
+msgstr "## gitのウェブブラウジング\n"
 
 #. type: Plain text
 #: upstream/content/community/sources.md:8
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "To browse via the web:\n"
-msgstr ""
+msgstr "ウェブで閲覧すること。\n"
 
 #. type: Fenced code block
 #: upstream/content/community/sources.md:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "https://gitbox.apache.org/repos/asf/camel.git\n"
-msgstr ""
+msgstr "https://gitbox.apache.org/repos/asf/camel.git\n"
 
 #. type: Plain text
 #: upstream/content/community/sources.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "## Web Browing Using FishEye\n"
-msgstr ""
+msgstr "## Web Browing Using FishEye\n"
 
 #. type: Plain text
 #: upstream/content/community/sources.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A hearty thanks to Atlassian for providing FishEye hosting for Camel. Below is the URL to browse the Subversion repo via FishEye:\n"
-msgstr ""
+msgstr "CamelにFishEyeのホスティングを提供してくれたAtlassianに心から感謝します。以下は、FishEyeを使ってSubversionのリポジトリを閲覧するためのURLです。\n"
 
 #. type: Fenced code block
 #: upstream/content/community/sources.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "https://fisheye6.atlassian.com/browse/camel-git\n"
-msgstr ""
+msgstr "https://fisheye6.atlassian.com/browse/camel-git\n"
 
 #. type: Plain text
 #: upstream/content/community/sources.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "## Checking out from git\n"
-msgstr ""
+msgstr "## gitからのチェックアウト\n"
 
 #. type: Fenced code block
 #: upstream/content/community/sources.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "git clone https://gitbox.apache.org/repos/asf/camel.git\n"
-msgstr ""
+msgstr "git clone https://gitbox.apache.org/repos/asf/camel.git\n"
 
 #. type: Plain text
 #: upstream/content/community/sources.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Only project developers can commit to the git via this method. SSH must be installed on your client machine. Enter your site password when prompted.\n"
-msgstr ""
+msgstr "この方法では、プロジェクトの開発者のみがgitにコミットすることができます。クライアントマシンにSSHがインストールされている必要があります。プロンプトが表示されたら、サイトのパスワードを入力します。\n"
 
 #. type: Title ##
 #: upstream/content/community/sources.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Using github"
-msgstr ""
+msgstr "githubの利用"
 
 #. type: Plain text
 #: upstream/content/community/sources.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The source code is mirrored to github, so you can also checkout the source code from github, if you are familiar with using github. By using github you can submit pull requests to the project using the standard github way.\n"
-msgstr ""
+msgstr "ソースコードはgithubにミラーリングされていますので、githubを使い慣れている方は、githubからソースコードをチェックアウトすることもできます。また、githubを利用することで、githubの標準的な方法でプロジェクトにプルリクエストを提出することができます。\n"
 
 #. type: Fenced code block
 #: upstream/content/community/sources.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "https://github.com/apache/camel/\n"
-msgstr ""
+msgstr "https://github.com/apache/camel/\n"

@@ -18,12 +18,12 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/news/_index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "News"
-msgstr ""
+msgstr "ニュース"
 
 #. type: Title #
 #: upstream/content/news/_index.md:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel news"
-msgstr ""
+msgstr "Apache Camelのニュース"

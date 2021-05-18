@@ -18,42 +18,42 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/04/100Camels/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "10 minute video of how to run Camel with Quarkus in both JVM and native compiled mode."
-msgstr ""
+msgstr "CamelとQuarkusをJVMとネイティブコンパイルモードの両方で実行する方法を10分のビデオで紹介しています。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/04/100Camels/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "How to quickly run 100 Camels with Apache Camel, Quarkus and GraalVM"
-msgstr ""
+msgstr "Apache Camel、Quarkus、GraalVMを使って100個のCamelを素早く実行する方法"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/100Camels/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Today I continue me practice on youtube and recorded a [10 minute video](https://www.youtube.com/watch?v=4lXSf8DBQkQ) on creating a new Camel and Quarkus project that includes Rest and HTTP services with health checks and metrics out of the box.\n"
-msgstr ""
+msgstr "今日、私はyoutubeでの練習を続け、ヘルスチェックとメトリクスを備えたRestとHTTPサービスを含む新しいCamelとQuarkusのプロジェクトの作成に関する[10分ビデオ](https://www.youtube.com/watch?v=4lXSf8DBQkQ)を録画しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/100Camels/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Then comparing the memory usage of running the example in JVM mode vs native compiled with GraalVM. Then showing for the finale how to quickly run 100 instances of the example each on their own TCP port and how quick Camel are to startup and service the first requests faster than you can type and click.\n"
-msgstr ""
+msgstr "そして、例題をJVMモードで実行した場合と、GraalVMでネイティブコンパイルした場合のメモリ使用量を比較します。そして、100個の例題のインスタンスをそれぞれのTCPポートで迅速に実行する方法と、Camelがいかに迅速に起動し、最初のリクエストに対応するかを、タイプしてクリックするよりも早く示すことができました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/100Camels/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For this demo I am using Java 11, Apache Camel 3.2.0, Quarkus 1.3.2 and GaalVM CE 20.0.0. You can find the source code for the example at camel-quarkus github with instructions how to try for yourself.\n"
-msgstr ""
+msgstr "このデモでは、Java 11、Apache Camel 3.2.0、Quarkus 1.3.2、GaalVM CE 20.0.0を使用しています。このサンプルのソースコードは、githubのcamel-quarkusで見ることができ、自分で試す方法も説明されています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/100Camels/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We are working on reducing the binary image size for Camel 3.3, by eliminating more classes that GraalVM includes that are not necessary. And we also have an experiment with an alternative lightweight CamelContext that are non dynamic at runtime which can improve this further. And then GraalVM and Quarkus will of course also keep innovative and make it smaller and faster.\n"
-msgstr ""
+msgstr "Camel 3.3では、GraalVMに含まれている不要なクラスを削除することで、バイナリイメージのサイズを小さくすることに取り組んでいます。また、実行時に動的ではない軽量のCamelContextを使った実験も行っており、これによりさらに改善することができます。そして、GraalVMとQuarkusは、もちろん革新を続け、より小さく、より速くしていきます。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/04/100Camels/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Link to video: https://www.youtube.com/watch?v=4lXSf8DBQkQ\n"
-msgstr ""
+msgstr "動画へのリンク： https://www.youtube.com/watch?v=4lXSf8DBQkQ\n"

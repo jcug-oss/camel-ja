@@ -18,248 +18,262 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Details of what we have done in the Camel K 1.4.0 release."
-msgstr ""
+msgstr "Camel K 1.4.0のリリースで行われたことの詳細です。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel K 1.4.0 What's New"
-msgstr ""
+msgstr "Apache Camel K 1.4.0 What's New"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel K 1.4.0 has just been released!\n"
-msgstr ""
+msgstr "Apache Camel K 1.4.0がリリースされました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This is a new major release of Camel K with an improved stability over previous versions, but also adding new features\n"
 "that simplify the overall user experience.\n"
 msgstr ""
+"このリリースは、Camel Kの新しいメジャー・リリースで、以前のバージョンよりも安定性が向上しているだけでなく、新しい機能が追加されています。\n"
+"新機能が追加され、ユーザーエクスペリエンス全体が向上しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It is based on Camel 3.9.0 and Camel-Quarkus 1.8.1, providing all improvements that they bring, plus much more. In this blog post, we're going to describe the most important changes.\n"
-msgstr ""
+msgstr "Camel 3.9.0とCamel-Quarkus 1.8.1をベースにしており、それらがもたらすすべての改善と、それ以上のものを提供しています。このブログ記事では、最も重要な変更点を説明します。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Embedded Kamelet catalog"
-msgstr ""
+msgstr "組み込み型亀甲カタログ"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel K 1.4.0 comes with an embedded [Kamelet catalog](/camel-kamelets/latest/) containing multiple connectors ready for use.\n"
-msgstr ""
+msgstr "Camel K 1.4.0には、複数のコネクタをすぐに使えるようにした[Kamelet catalog](/camel-kamelets/latest/)が組み込まれています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "When installing the operator into a namespace (but also globally in the cluster), the operator installs all the kamelets from the catalog ([version 0.2.1](https://github.com/apache/camel-kamelets/tree/v0.2.1)), so that any integration can use them directly.\n"
-msgstr ""
+msgstr "名前空間(クラスタ内でもグローバル)にオペレータをインストールする際、オペレータはカタログ([version 0.2.1](https://github.com/apache/camel-kamelets/tree/v0.2.1))からすべてのkameletをインストールし、どのような統合でもそれらを直接使用できるようにします。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Users can bind them to a specific destination by writing a YAML binding file, as explained in the [specific documentation related to each Kamelet](/camel-kamelets/latest/aws-sqs-source.html#_knative_source).\n"
-msgstr ""
+msgstr "ユーザーは、[各Kameletに関連する具体的なドキュメント](/camel-kamelets/latest/aws-sqs-source.html#_knative_source)で説明されているように、YAMLバインディングファイルを記述することで、特定の目的地にバインドすることができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Or, you can use the new `kamel bind` command (see below).\n"
-msgstr ""
+msgstr "あるいは、新しい `kamel bind` コマンドを使うこともできます（下記参照）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "**Note:** it's easy to write your own Kamelet and publish it to the Apache Catalog. Take a look at the [Kamelets developer guide](/camel-k/latest/kamelets/kamelets-dev.html).\n"
-msgstr ""
+msgstr "**Note:** 独自のKameletを書いてApache Catalogに公開するのは簡単です。Kamelets開発者ガイド](/camel-k/latest/kamelets/kamelets-dev.html)を参照してください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kamel bind command"
-msgstr ""
+msgstr "カメル式バインドコマンド"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We've added a `bind` subcommand to the  `kamel` CLI that provides a new way to use Kamelets directly when you need to connect them to Knative channels, Kafka topics and any other endpoint.\n"
-msgstr ""
+msgstr "CLIの`kamel`に`bind`サブコマンドを追加しました。このサブコマンドは、KnativeチャンネルやKafkaトピック、その他のエンドポイントにKameletを接続する必要がある場合に、Kameletを直接使用する新しい方法を提供します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "E.g. Suppose that you want to get events of earthquakes happening around the world, as JSON objects, in your Knative channel named `earthquakes`. All you need to do is to install Camel K on your cluster and then execute the following command:\n"
-msgstr ""
+msgstr "例えば、世界中で起きている地震のイベントをJSONオブジェクトとして、`earthquakes`という名前のKnativeチャンネルで取得したいとします。必要なのは、クラスタにCamel Kをインストールして、次のコマンドを実行することです。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "kamel bind earthquake-source channel:earthquakes\n"
-msgstr ""
+msgstr "kamel bind earthquakes-source channel:earthquakes\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This command creates the KameletBinding resource for you and the Camel K operator does the rest to bring that data into your channel.\n"
 "Data is produced using the [Earthquake Source](/camel-kamelets/latest/earthquake-source.html) Kamelet available in the embedded Katalog.\n"
 msgstr ""
+"このコマンドはKameletBindingリソースを作成し、あとはCamel Kオペレータがそのデータをあなたのチャンネルに取り込みます。\n"
+"データは、埋め込まれたKatalogで利用可能な[Earthquake Source](/camel-kamelets/latest/earthquake-source.html)のKameletを使って生成されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can use any other Kamelet from the catalog using the `kamel bind` command.\n"
-msgstr ""
+msgstr "カタログに掲載されている他のKameletを使用するには、`kamel bind`コマンドを使用します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can also target any other Kubernetes reference that is supported by Camel K, for example, sink into a [Strimzi KafkaTopic](https://strimzi.io/), using a fully qualified reference, for example:\n"
-msgstr ""
+msgstr "また、Camel Kでサポートされている他のKubernetesの参照をターゲットにすることもできます。例えば、完全修飾された参照を使って、[Strimzi KafkaTopic](https://strimzi.io/)にシンクすることができます。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "kamel bind earthquake-source kafka.strimzi.io/v1beta1:KafkaTopic:mytopic\n"
-msgstr ""
+msgstr "kamel bind earthquake-source kafka.strimzi.io/v1beta1:KafkaTopic:mytopic\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Of course, the command also supports plain Camel URIs, which are useful especially when you're developing a new Kamelet. For example, you can write:\n"
-msgstr ""
+msgstr "もちろん、このコマンドはプレーンなCamel URIもサポートしており、特に新しいKameletを開発しているときには便利です。例えば、次のように書くことができます。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "kamel bind earthquake-source log:info?showHeaders=true\n"
-msgstr ""
+msgstr "kamel bind earthquake-source log:info?showHeaders=true\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "And the command will create a binding that just prints to the log the JSON data produced by the source.\n"
-msgstr ""
+msgstr "そして、このコマンドは、ソースが生成したJSONデータをログに出力するだけのバインディングを作成します。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kamel dump command"
-msgstr ""
+msgstr "カメルのダンプコマンド"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "When users have issues understanding why Camel K is not behaving as expected, they often need to provide useful information \n"
 "about the current state of their cluster, to let Camel K developers investigate the issue and provide a solution or a quick workaround (e.g. in a Github issue, or in the Zulip chat).\n"
 msgstr ""
+"Camel Kが期待通りの動作をしない理由をユーザーが理解できない場合、多くの場合、ユーザーはクラスタの現在の状態に関する有用な情報を提供する必要があります。 \n"
+"Camel Kの開発者が問題を調査し、解決策や迅速な回避策を提供するために、クラスターの現在の状態に関する有用な情報を提供する必要があります（例：Githubの課題やZulipのチャット）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Usually, to identify the root cause of an issue, developers need to know things like:\n"
-msgstr ""
+msgstr "通常、問題の根本的な原因を特定するために、開発者は次のようなことを知る必要があります。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What routes the user is trying to run\n"
-msgstr ""
+msgstr "ユーザーが実行しようとしているルート\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What the Camel K operator is doing\n"
-msgstr ""
+msgstr "Camel Kのオペレーターが行っていること\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What images have been built, which versions of all libraries are they using\n"
-msgstr ""
+msgstr "どのようなイメージが構築されているのか、すべてのライブラリのどのバージョンを使用しているのか\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's the state of the Camel K custom resources\n"
-msgstr ""
+msgstr "キャメルKのカスタムリソースの状況は？\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What errors do Camel K integration throw when they start\n"
-msgstr ""
+msgstr "Camel Kの統合が開始されると、どのようなエラーが発生しますか？\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:71
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Providing such information has always been hard, but we now have a quick way to obtain all that.\n"
-msgstr ""
+msgstr "そのような情報を提供することはこれまでも困難でしたが、今ではすべての情報を素早く入手できるようになりました。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:72
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "kamel dump status.log\n"
-msgstr ""
+msgstr "kamel dump status.log\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:79
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This simple command will store in a text file all the information needed to investigate a possible issue in the cluster.\n"
 "The user can now *edit the file to remove sensitive information* (which the command may not be able to tell apart), then \n"
 "share it with developers to have much better insights.\n"
 msgstr ""
+"このシンプルなコマンドは、クラスターで起こりうる問題を調査するために必要なすべての情報をテキストファイルに保存します。\n"
+"ユーザーは、機密情報*（コマンドでは区別できないかもしれません）を削除するためにファイルを*編集してから \n"
+"それを開発者と共有することで、より良い洞察力を得ることができます。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:80
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Stability and compatibility"
-msgstr ""
+msgstr "安定性と互換性"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:83
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We focused a lot on stability and improved compatibility with other tools of the ecosystem.\n"
-msgstr ""
+msgstr "安定性を重視し、エコシステムの他のツールとの互換性を高めました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:87
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "**Knative support** (0.22.0) has been improved by fixing compatibility issues that sometimes caused multiple revisions\n"
 "to be present for the same service. We've also changed the way channels and brokers are bound to the integrations. Now it's possible\n"
 "to bind integrations to multiple channels and even create sequences of integrations attached to channels without any issue (e.g. [#2190](https://github.com/apache/camel-k/pull/2190), [#2115](https://github.com/apache/camel-k/pull/2115)).\n"
 msgstr ""
+"Knativeサポート** (0.22.0)では、同一サービスに複数のリビジョンが存在する場合があるという互換性の問題を修正し、改善しました。\n"
+"が存在することがあるという互換性の問題を修正しました。また、チャンネルやブローカーが統合機能にバインドされる方法を変更しました。今回の変更により\n"
+"複数のチャンネルにインテグレーションをバインドしたり、チャンネルに接続されたインテグレーションのシーケンスを作成したりすることが問題なくできるようになりました（例：[#2190](https://github.com/apache/camel-k/pull/2190), [#2115](https://github.com/apache/camel-k/pull/2115)）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:90
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We've improved **installation options**, letting you configure things that may be important in a production environment, like [setting toleration](https://github.com/apache/camel-k/pull/2114) or using a [secured maven repository](https://github.com/apache/camel-k/pull/2180).\n"
 "At the same time, we've fixed compatibility with recent dev environments, e.g. letting you [smoothly install Camel K in K3S](/camel-k/latest/installation/registry/k3s.html).\n"
 msgstr ""
+"インストールオプション**が改善され、[許容範囲の設定](https://github.com/apache/camel-k/pull/2114)や[保護されたmavenリポジトリ](https://github.com/apache/camel-k/pull/2180)の使用など、本番環境で重要と思われる設定を行うことができるようになりました。\n"
+"同時に、最近の開発環境との互換性も改善しており、例えば、「K3SにCamel Kをスムーズにインストールする」(/camel-k/latest/installation/registry/k3s.html)ことができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:92
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We also kept doing changes to continuously improve speed. On the runtime side of Camel K, we now use the [Quarkus fast-jar format](https://github.com/apache/camel-k/pull/1931) to reduce boot times. And last but not least on the operator side, it's possible to install Camel K globally in a cluster and have much faster build times by [sharing base images across the cluster](https://github.com/apache/camel-k/pull/2058).\n"
-msgstr ""
+msgstr "また、継続的に速度を向上させるための変更も続けました。Camel Kのランタイム側では、起動時間を短縮するために[Quarkus fast-jar format](https://github.com/apache/camel-k/pull/1931)を使用しています。そして最後になりましたが、オペレーター側では、Camel Kをクラスター内にグローバルにインストールし、ベースイメージをクラスター内で共有することで、ビルド時間を大幅に短縮することが可能になりました(https://github.com/apache/camel-k/pull/2058)。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-k-140-Whatsnew/index.md:93
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The list of important changes in the [1.4.0 release](https://github.com/apache/camel-k/releases/tag/v1.4.0) is too long for this blog post. There have **never been so many contributors** as in this release and we **thank them all for their awesome work!**\n"
-msgstr ""
+msgstr "1.4.0リリース](https://github.com/apache/camel-k/releases/tag/v1.4.0)の重要な変更点のリストは、このブログ記事では書ききれません。今回のリリースほど多くの貢献者**がいたことはありません。\n"

@@ -18,78 +18,78 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/03/Outreachy-May2020/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel community is participating in the Outreachy program, we welcome internship candidates for the May 2020 internship round."
-msgstr ""
+msgstr "キャメルのコミュニティは、アウトリーチプログラムに参加しています。2020年5月のインターンシップ候補者を歓迎します。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/03/Outreachy-May2020/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Outreachy internship contributions open"
-msgstr ""
+msgstr "アウトリーチ・インターンシップの募集を開始"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This year in addition to the [Google Summer of Code](/blog/2020/02/GSoC-2020-announced/) we're participating in the [Outreachy](https://www.outreachy.org/) internship program as well.\n"
-msgstr ""
+msgstr "今年は[Google Summer of Code](/blog/2020/02/GSoC-2020-announced/)に加えて、[Outreachy](https://www.outreachy.org/)というインターンシップ・プログラムにも参加しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For those that might not be aware of the Outreachy, Outreachy is a paid, remote internship program. Outreachy's goal is to support people from groups underrepresented in tech. They help newcomers to free software and open source make their first contributions.\n"
-msgstr ""
+msgstr "Outreachyをご存じない方もいらっしゃるかもしれませんが、Outreachyは有給のリモート・インターンシップ・プログラムです。Outreachyの目標は、技術分野で十分な地位を得ていないグループの人々をサポートすることです。彼らは、フリーソフトウェアやオープンソースの新参者が最初の貢献をするのを支援しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel is looking for contributions to the website you're reading this blog post on. Even though the Camel website is only a year old, it could do with some improvements.\n"
-msgstr ""
+msgstr "Apache Camelは、あなたがこのブログ記事を読んでいるウェブサイトへの貢献を求めています。Camelのウェブサイトはまだ1年しか経っていませんが、いくつかの改善が必要です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "During last year's (2019) Google Summer of Code, we migrated the content from the Confluence Wiki into Asciidoc documents, created a build process using Hugo and Antora for the static content (frontpage, blog, release notes, downloads) and the project documentation (user manual, component reference, sub-projects documentation), and created the design of the website we currently have.\n"
-msgstr ""
+msgstr "昨年（2019年）のGoogle Summer of Codeでは、Confluence WikiのコンテンツをAsciidocドキュメントに移行し、静的コンテンツ（フロントページ、ブログ、リリースノート、ダウンロード）とプロジェクトのドキュメント（ユーザーマニュアル、コンポーネントリファレンス、サブプロジェクトのドキュメント）にHugoとAntoraを使ってビルドプロセスを作成し、現在あるウェブサイトのデザインを作成しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "With the affordance of hindsight, we now see some improvements that can be made to the website. Some examples include the ever-expanding top navigation menu, low color contrast, small touch targets for menus in mobile version, poor content organization (especially in the user manual) and the improvements to search. With that we identified four main focus areas: more modern design, usability, content organization and improvement, and improving the search.\n"
-msgstr ""
+msgstr "後から振り返ってみると、ウェブサイトに改善すべき点がいくつか見えてきました。例えば、拡大し続けるトップナビゲーションメニュー、色のコントラストの低さ、モバイル版のメニューのタッチターゲットの小ささ、コンテンツの構成の悪さ（特にユーザーマニュアル）、検索の改善などが挙げられます。これにより、私たちは4つの主な重点分野を特定しました：よりモダンなデザイン、ユーザビリティ、コンテンツの整理と改善、検索の改善です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We're looking for an intern interested in working on multiple aspects of the website: design (HTML and CSS), static site generation ([Hugo](https://gohugo.io/), [Antora](https://antora.org/)), web development (JavaScript). We also welcome any content improvement such as corrections to the existing documentation or adding new documentation to the project. One example could be migrating the blog content from the Confluence wiki to the new Hugo based blog.\n"
-msgstr ""
+msgstr "デザイン（HTML、CSS）、静的サイト生成（[Hugo](https://gohugo.io/)、[Antora](https://antora.org/)）、ウェブ開発（JavaScript）など、ウェブサイトの多方面での作業に興味のあるインターンを募集しています。また、既存のドキュメントの修正や新しいドキュメントの追加など、コンテンツの改善も大歓迎です。一例としては、Confluence wikiから新しいHugoベースのブログへのブログコンテンツの移行などが考えられます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020/index.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We offer [smaller tasks to start with](https://issues.apache.org/jira/issues/?filter=12348381), but feel free to look at other issues or propose some simple changes yourself.\n"
-msgstr ""
+msgstr "私たちは、[小さなタスクから始める](https://issues.apache.org/jira/issues/?filter=12348381)を提供していますが、他の問題を見たり、自分で簡単な変更を提案することも可能です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We'd like to see some concept designs or designs of project websites that would inspire the redesign. We firmly believe in having automated checks for issues (broken links, malformed HTML), it would be good to see a check added for usability and website performance.\n"
-msgstr ""
+msgstr "デザイン変更のきっかけとなるような、コンセプトデザインやプロジェクトサイトのデザインを見てみたいと思います。私たちは、問題点（リンク切れ、不正なHTML）を自動チェックすることを強く信じていますが、ユーザビリティやウェブサイトのパフォーマンスについてもチェックを加えてほしいと思います。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel is a project with a great community, we are here to help, mentor and learn together. The Camel website is a large project with many interesting opportunities to learn about building a mid-size website. We like to focus on the details, usability, and performance. We think this would be a good learning opportunity for someone interested in website development. We also see opportunities to contribute to other projects that we use in building the website (for example to Antora).\n"
-msgstr ""
+msgstr "Apache Camelは素晴らしいコミュニティを持つプロジェクトであり、私たちはここで共に助け合い、指導し、学ぶことができます。Camelのウェブサイトは大規模なプロジェクトであり、中規模なウェブサイトの構築について学ぶ興味深い機会がたくさんあります。私たちは、細部、ユーザビリティ、パフォーマンスに注目したいと思っています。Webサイトの開発に興味がある人にとっては、良い学習機会になると思います。また、ウェブサイトの構築に使用している他のプロジェクトに貢献する機会もあると思います（例えば、Antoraへの貢献など）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As part of the application process, all applicants must make at least one contribution to be accepted as an intern for this project. Only applicants who make a contribution will be eligible to be accepted as interns.\n"
-msgstr ""
+msgstr "本プロジェクトのインターンとして受け入れられるためには、応募者全員が最低1回の寄付を行う必要があります。寄付を行った応募者のみが、インターンとして受け入れられることになります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Look at the [contributing to Camel page](/community/contributing/) for details on how to get started contributing and how to reach out to the Camel community via various communication channels. And look at the [README](https://github.com/apache/camel-website/blob/main/README.md) in the Camel Website repository on how to get started with the website itself.\n"
-msgstr ""
+msgstr "貢献を始める方法や、様々な通信手段を使ってCamelコミュニティに連絡を取る方法については、[camelへの貢献ページ](/community/contributing/)をご覧ください。また、Camel Websiteのリポジトリにある[README](https://github.com/apache/camel-website/blob/main/README.md)には、Webサイトを使い始める方法が記載されています。\n"

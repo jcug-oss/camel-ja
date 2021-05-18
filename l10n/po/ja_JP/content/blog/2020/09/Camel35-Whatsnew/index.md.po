@@ -18,275 +18,315 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Details of what we have done in the Camel 3.5 release."
-msgstr ""
+msgstr "Camel 3.5のリリースで行われたことの詳細です。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3.5 What's New"
-msgstr ""
+msgstr "Apache Camel 3.5 What's New!"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3.5 has just been released.\n"
-msgstr ""
+msgstr "Apache Camel 3.5がリリースされました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This is a non-LTS release which means we will not provide patch releases, but use the release _as-is_.\n"
 "The next planned LTS release is 3.7 scheduled towards end of the year.\n"
 msgstr ""
+"これは非LTSリリースであり、パッチリリースを行わず、リリースをそのまま使用することを意味します。\n"
+"次に予定されているLTSリリースは、年末に予定されている3.7です。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "So what's in this release?"
-msgstr ""
+msgstr "では、今回のリリースには何が入っているのでしょうか？"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release introduces new set of features and noticeable improvements that will we cover in this blog post.\n"
-msgstr ""
+msgstr "今回のリリースでは、新しい機能や顕著な改善点が導入されており、このブログ記事でご紹介します。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Java 14"
-msgstr ""
+msgstr "Java 14"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is the first release that supports Java 14. \n"
-msgstr ""
+msgstr "今回のリリースは、Java 14をサポートする最初のリリースです。 \n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Spring Boot"
-msgstr ""
+msgstr "Spring Boot"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We have upgraded to latest release at this time which is Spring Boot 2.3.3.\n"
-msgstr ""
+msgstr "現時点での最新リリースであるSpring Boot 2.3.3にアップグレードしました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "A new `camel-spring-boot-bom` BOM has been added that only contains the supported Camel Spring JARs for Spring Boot.\n"
 "The existing `camel-spring-boot-dependencies` is a much bigger set of BOM that is curated to align Camel and Spring Boot\n"
 "dependencies. For more details see the [following documentation](/camel-spring-boot/latest/#_camel_spring_boot_bom_vs_camel_spring_boot_dependencies_bom).\n"
 msgstr ""
+"新しい `camel-spring-boot-bom` BOM が追加され、Spring Boot でサポートされている Camel Spring JAR のみが含まれています。\n"
+"既存の `camel-spring-boot-dependencies` は、Camel と Spring Boot の依存関係を調整するために作成された、より大規模な BOM セットです。\n"
+"依存関係を整えるために調整された、より大規模なBOMセットです。詳細は [以下のドキュメント](/camel-spring-boot/latest/#_camel_spring_boot_bom_vs_camel_spring_boot_dependencies_bom) をご覧ください。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "JUnit 5"
-msgstr ""
+msgstr "JUnit 5"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We have finished migrating all the unit tests of Camel itself to JUnit 5. Support for JUnit 4 is still present\n"
 "but will eventually be deprecated and removed in the future (when JUnit 5 is widespread adopted).\n"
 msgstr ""
+"Camel本体のユニットテストをすべてJUnit 5に移行しました。JUnit 4のサポートはまだ残っていますが\n"
+"将来的にはJUnit 5が普及した時点で非推奨となり、削除される予定です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:39
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel test modules that support JUnit 5 has conveniently -junit5 in their JAR name.\n"
-msgstr ""
+msgstr "JUnit 5に対応したCamelのテストモジュールは、JAR名に-junit5が付いているので便利です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We have also refactored the `camel-test-spring-junit5` for Spring Boot users with a new `@CamelSpringBootTest` annotation\n"
 "that you mark on your unit test class instead of using JUnit 4.x `@RunWith`.\n"
 msgstr ""
+"また、Spring Boot ユーザーのために、`camel-test-spring-junit5` をリファクタリングし、新しい `@CamelSpringBootTest` アノテーションを追加しました。\n"
+"これは、JUnit 4.x の `@RunWith` を使う代わりに、ユニットテストクラスにマークするものです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "See the [camel-spring-boot-example](https://github.com/apache/camel-spring-boot-examples/tree/master/camel-example-spring-boot)\n"
 "for an example, or the Camel 3.5 [upgrade guide](/manual/latest/camel-3x-upgrade-guide-3_5.html#_spring_boot_testing_with_junit_5).\n"
 msgstr ""
+"例は [camel-spring-boot-example](https://github.com/apache/camel-spring-boot-examples/tree/master/camel-example-spring-boot) を参照してください。\n"
+"または Camel 3.5 [upgrade-guide](/manual/latest/camel-3x-upgrade-guide-3_5.html#_spring_boot_testing_with_junit_5) を参照してください。\n"
 
 #. type: Title ####
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "LambdaRouteBuilder"
-msgstr ""
+msgstr "LambdaRouteBuilder"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We have added a new `LambdaRouteBuilder` which allows to easily define a Camel route using Java lambda style:\n"
-msgstr ""
+msgstr "新しい `LambdaRouteBuilder` を追加しました。これは、Java のラムダスタイルを使って Camel のルートを簡単に定義できるものです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "    rb -> rb.from(\"timer:foo\").log(\"Hello Lambda\");\n"
-msgstr ""
+msgstr "    rb -&gt; rb.from(\"timer:foo\").log(\"Hello Lambda\")です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "For example users with Spring Boot or Quarkus may want to use dependency injection style to define\n"
 "beans and configurations; and now also Camel routes via lambda styles.\n"
 msgstr ""
+"例えば、Spring BootやQuarkusを使用しているユーザーは、ビーンや設定を定義するために依存性注入スタイルを使用したいと思うかもしれません。\n"
+"また、ラムダスタイルによるCamelのルートもあります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For example in a Spring Boot configuration class you can add a Camel route via `@Bean` annotation:\n"
-msgstr ""
+msgstr "例えば、Spring Bootの設定クラスでは、`@Bean`アノテーションでCamelのルートを追加できます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:62
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    @Bean\n"
 "    public LambdaRouteBuilder myRoute() {\n"
 "        return rb -> rb.from(\"kafka:cheese\").to(\"jms:cheese\");\n"
 "    }\n"
 msgstr ""
+"    @Bean\n"
+"    public LambdaRouteBuilder myRoute() {。\n"
+"        return rb -&gt; rb.from(\"kafka:cheese\").to(\"jms:cheese\");\n"
+"    }\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:65
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Notice you can only define 1 route per lambda route builder (you can have many `@Bean` methods).\n"
 "The regular `RouteBuilder` can define as many routes you want in the same builder.\n"
 msgstr ""
+"ラムダルートビルダー1つにつき、1つのルートしか定義できないことに注意してください（多くの`@Bean`メソッドを持つことができます）。\n"
+"通常の `RouteBuilder` では、同じビルダー内で必要な数のルートを定義できます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:68
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "See more details at the [LambdaRouteBuilder](/manual/latest/lambda-route-builder.html)\n"
 "documentation.\n"
 msgstr ""
+"詳細は[LambdaRouteBuilder](/manual/latest/lambda-route-builder.html)の\n"
+"のドキュメントを参照してください。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:70
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Parameterize routes"
-msgstr ""
+msgstr "ルートのパラメータ化"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:76
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This is one of the biggest new feature which goes by the name [route templates](/manual/latest/route-template.html).\n"
 "A route template is a way of parameterizing a route where you specify parameters that are mandatory,\n"
 "and which are optional, and potential default values and descriptions. Then you can instantiate new routes\n"
 "from the route templates by its template id, and the provided parameters.\n"
 msgstr ""
+"これは、[ルートテンプレート](/manual/latest/route-template.html)と呼ばれる最大の新機能の1つです。\n"
+"ルートテンプレートとは、ルートをパラメータ化する方法で、必須のパラメータとオプションのパラメータ、そしてデフォルト値と説明を指定します。\n"
+"必須のパラメータ、オプションのパラメータ、デフォルト値と説明を指定します。そして、新しいルートをインスタンス化します。\n"
+"ルートテンプレートのテンプレートIDとパラメータを使って、新しいルートをインスタンス化することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:79
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "For example you can have a route template that define how clients can integrate with a given system of yours.\n"
 "Then as new clients is added, you can standup a new route from the template with client specific parameters.\n"
 msgstr ""
+"例えば、顧客が自社の特定のシステムとどのように統合できるかを定義するルートテンプレートを持つことができます。\n"
+"そして、新しいクライアントが追加されると、クライアント固有のパラメータを持つテンプレートから新しいルートを立ち上げることができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:83
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This feature will also play a great role in Apache Camel K and the serverless landscape with Knative.\n"
 "In this world the route templates are used as part of a bigger puzzle which we named _kamelets_. More details\n"
 "is coming in a new blog posts.\n"
 msgstr ""
+"この機能は、Apache Camel Kや、Knativeによるサーバーレスの世界でも大きな役割を果たすでしょう。\n"
+"この世界では、ルートテンプレートは、私たちが_kamelets_と名付けた大きなパズルの一部として使用されます。詳細は\n"
+"は、新しいブログ記事でご紹介します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:86
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "See more details at the [route templates](/manual/latest/route-template.html) documentation,\n"
 "and in this [little example](https://github.com/apache/camel-examples/tree/master/examples/camel-example-routetemplate).\n"
 msgstr ""
+"詳細は、[ルートテンプレート](/manual/latest/route-template.html)のドキュメントをご覧ください。\n"
+"また、この[ちょっとした例](https://github.com/apache/camel-examples/tree/master/examples/camel-example-routetemplate)もご覧ください。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:88
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Optimized components startup"
-msgstr ""
+msgstr "コンポーネントの起動を最適化"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:92
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The camel core has been optimized in Camel 3 to be small, slim and fast on startup. This benefits Camel Quarkus which\n"
 "can do built time optimizations that take advantage of the optimized camel core.\n"
 msgstr ""
+"Camel 3では、Camelコアが最適化され、小さく、スリムで、起動が速いものになりました。これにより、Camel Quarkusは\n"
+"は、最適化されたキャメルコアを利用したビルドタイム最適化を行うことができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:96
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We have continued this effort in the Camel components where whenever possible works is moved ahead\n"
 "to an earlier phase during startup, that allows enhanced built time optimizations. As there are a lot of Camel\n"
 "components then this work will progress over the next couple of Camel releases.\n"
 msgstr ""
+"この取り組みはCamelコンポーネントでも継続しており、起動時に可能な限り作業を前倒しすることで\n"
+"これにより、ビルド時間の最適化が可能になります。多くのCamelコンポーネントがあるので\n"
+"コンポーネントが多いので、この作業は次の数回のCamelのリリースで進行するでしょう。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:98
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Even more reflection free"
-msgstr ""
+msgstr "さらに映り込みのない"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:103
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We continued to remove usage of reflection in Camel and this time we discovered that were some parts\n"
 "of API components that could still use reflection. This has now been improved so they are using source code\n"
 "generated _configurers_ to configure themselves which means its all just regular Java method calls (no reflection).\n"
 msgstr ""
+"Camelではリフレクションの使用を排除し続けてきましたが、今回はまだリフレクションを使用しているAPIコンポーネントの部分があることを発見しました。\n"
+"今回は、APIコンポーネントの中に、まだリフレクションを使用できる部分があることを発見しました。現在は改善されており、ソースコードで生成された\n"
+"リフレクションを使わずに、ソースコードで生成された_configurers_を使って自分自身を設定しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:105
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There were also a few spots in Rest DSL which wasn't reflection free either, this has been corrected.\n"
-msgstr ""
+msgstr "また、Rest DSLにも反射していない箇所がいくつかありましたが、これは修正されています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:107
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Enhanced properties binding"
-msgstr ""
+msgstr "強化された特性結合"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:110
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We have also enhanced the _configurers_ to include details about what value types collections contain (eg Map, List, arrays).\n"
-msgstr ""
+msgstr "また、_configurers_には、コレクションに含まれる値の種類（Map、List、arraysなど）の詳細が追加されています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:112
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For example given the below configuration:\n"
-msgstr ""
+msgstr "例えば、以下のような構成を考えてみましょう。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:119
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    camel.beans.foo.countries[usa] = #class:com.foo.MyCountry\n"
 "    camel.beans.foo.countries[usa].name = United States of America\n"
@@ -295,185 +335,220 @@ msgid ""
 "    camel.beans.foo.countries[de].name = Germany\n"
 "    camel.beans.foo.countries[de].language = DE\n"
 msgstr ""
+"    camel.bean.foo.countries[usa] = #class:com.foo.MyCountry\n"
+"    camel.bean.foo.countries[usa].name = United States of America\n"
+"    camel.bean.foo.countries[usa].language = EN\n"
+"    camel.bean.foo.countries[de] = #class:com.foo.MyCountry\n"
+"    camel.bean.foo.countries[de].name = Germany\n"
+"    camel.bean.foo.countries[de].language = DE\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:122
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Then the `foo` bean has a property named `countries` that is a `java.util.Map` type.\n"
 "The Map contains element of type `com.foo.MyCountry` that has been explicit configured above.\n"
 msgstr ""
+"そして、`foo` ビーンは `countries` という名前のプロパティを持っており、これは `java.util.Map` 型です。\n"
+"このMapには、上記で明示的に設定された `com.foo.MyCountry` 型の要素が含まれています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:124
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "However Camel is now capable to know this information by source code generated _configurers_:\n"
-msgstr ""
+msgstr "しかし、Camelはソースコードで生成された_configurers_によってこの情報を知ることができるようになりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:127
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "        @Configurer\n"
 "        public class Foo\n"
 msgstr ""
+"        コンフィグレータ\n"
+"        パブリッククラス Foo\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:129
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "            private Map<String, Country> countries;\n"
 msgstr ""
+"            プライベートマップの<String, Country>国</String,>。<String, Country>\n"
+"</String,> "
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:132
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "            // getter/setter omitted\n"
 "        }\n"
 msgstr ""
+"            // ゲッター/セッター省略\n"
+"        }\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:137
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The `Foo` class has been annotated with `@Configurer` which allows Camel tooling to generate reflection free configurers source code.\n"
 "This is what Camel internally uses to do its vast configuration of all its EIPs, components and so on. Now we have exposed\n"
 "this for end users. Notice how the Map contains the collection type as a generic type with `Map<String, Country>`. That information\n"
 "is now generated in the configurers, so Camel knows the value types in the collections. The configuration can therefore be shortened to:\n"
 msgstr ""
+"Foo` クラスは `@Configurer` でアノテーションされており、これにより Camel ツールはリフレクションフリーの configurers ソースコードを生成することができます。\n"
+"これにより、Camelツールはリフレクションフリーのコンフィギュアラのソースコードを生成することができます。これはCamelが内部でEIPやコンポーネントなどの膨大なコンフィギュレーションを行うために使用するものです。今回、これをエンドユーザー向けに\n"
+"エンドユーザに公開しています。Mapには、`Map<String, Country>`</String,>というジェネリックタイプとしてコレクションタイプが含まれていることに注目してください。<String, Country>この情報は\n"
+"これで、Camelはコレクションの値の型を知ることができます。そのため、コンフィグは次のように短縮することができます。\n"
+"</String,>"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:142
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    camel.beans.foo.countries[usa].name = United States of America\n"
 "    camel.beans.foo.countries[usa].language = EN\n"
 "    camel.beans.foo.countries[de].name = Germany\n"
 "    camel.beans.foo.countries[de].language = DE\n"
 msgstr ""
+"    camel.bean.foo.countries[usa].name = United States of America\n"
+"    camel.bean.foo.countries[usa].language = EN\n"
+"    camel.bean.foo.countries[de].name = ドイツ\n"
+"    camel.bean.foo.countries[de].language = DE\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:145
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The work did not stop there. By knowing the value type of the collection types, we allow to do reflection free\n"
 "[binding collections](/manual/latest/property-binding.html).\n"
 msgstr ""
+"作業はそれだけではありませんでした。コレクションタイプの値の型を知ることで、リフレクションを自由に行うことができます。\n"
+"バインディング・コレクション](/manual/latest/property-binding.html)を参照してください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:150
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "There has been many other smaller improvements in Camels properties binding. Camel uses this heavily internally during\n"
 "startup to configure and setup all of its things such as components, EIPs, routes etc. This work has been streamlined\n"
 "across the various runtimes; whether its standalone, Spring Boot, Quarkus, Camel K, Camel Kafka Connector,\n"
 "or the good old XML routes.\n"
 msgstr ""
+"Camelsのプロパティ・バインディングには、他にも多くの小さな改良が加えられています。Camelは、コンポーネントやEIP、ルートなどのすべてのものを設定するために、起動時にこのプロパティを\n"
+"コンポーネント、EIP、ルートなどのすべてのものを設定するために、Camelは起動時にこのプロパティを多用します。この作業は合理化されています。\n"
+"この作業は、スタンドアロン、Spring Boot、Quarkus、Camel K、Camel Kafka Connectorなど、様々なランタイムで合理化されています。\n"
+"または古き良きXMLルート。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:152
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel Kafka Connector project is using property binding in its configuration and therefore is a heavy user of this.\n"
-msgstr ""
+msgstr "Camel Kafka Connectorプロジェクトでは、設定にプロパティバインディングを使用しているため、この機能を多用しています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:154
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "FluentProducerTemplate thread-safety"
-msgstr ""
+msgstr "FluentProducerTemplateのスレッドセーフ性について"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:157
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The fluent `ProducerTemplate` had an issue where it may not be thread-safe. This has been corrected.\n"
-msgstr ""
+msgstr "流れるような `ProducerTemplate` には、スレッドセーフでない可能性があるという問題がありました。これは修正されました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:159
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New components"
-msgstr ""
+msgstr "新しいコンポーネント"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:162
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There are 8 new components:\n"
-msgstr ""
+msgstr "8つの新しいコンポーネントがあります。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:171
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "ArangoDB: Perform operations on ArangoDb when used as a Document Database, or as a Graph Database.\n"
-msgstr ""
+msgstr "ArangoDB：ArangoDbをドキュメントデータベース、グラフデータベースとして利用する際の操作を行います。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:171
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS2-STS: Manage AWS STS cluster instances using AWS SDK version 2.x.\n"
-msgstr ""
+msgstr "AWS2-STSAWS SDKバージョン2.xを使用して、AWS STSクラスタインスタンスを管理します。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:171
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Azure Eventhubs: The azure-eventhubs component which integrates Azure Event Hubs using AMQP protocol.\n"
-msgstr ""
+msgstr "Azure Eventhubsです。AMQPプロトコルを使用してAzure Event Hubsを統合するazure-eventhubsコンポーネントです。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:171
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "JSonata: JSON to JSON transformation using JSONATA.\n"
-msgstr ""
+msgstr "JSonataです。JSONATAを使ったJSONからJSONへの変換。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:171
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Minio: Store and retrieve objects from Minio Storage Service using Minio SDK.\n"
-msgstr ""
+msgstr "Minio: Minio SDKを使用して、Minio Storage Serviceからオブジェクトを保存および取得します。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:171
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "OAI-PMH: Harvest metadata using OAI-PMH protocol.\n"
-msgstr ""
+msgstr "OAI-PMH：OAI-PMHプロトコルを使用してメタデータを収集します。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:171
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Vert.x HTTP Client: Camel HTTP client support with Vert.x.\n"
-msgstr ""
+msgstr "Vert.xのHTTPクライアント。Vert.xでCamelのHTTPクライアントをサポートします。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:171
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Vert.x WebSocket: Camel WebSocket support with Vert.x.\n"
-msgstr ""
+msgstr "Vert.xのWebSocket。CamelのWebSocketがVert.xでサポートされました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:173
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel-Kafka-connector"
-msgstr ""
+msgstr "Camel-Kafka-connector"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:179
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The next Camel-Kafka-connector 0.5.0 (not LTS) will be based on Camel 3.5.0.\n"
 "The project will leverage all the new shiny improvements done on the Property Binding.\n"
 "With 3.5.0 Camel-Kafka-connector will also get a bunch of new connectors for free and this is super cool.\n"
 "So stay tuned for the next non-LTS release.\n"
 msgstr ""
+"次のCamel-Kafka-connector 0.5.0（LTSではない）は、Camel 3.5.0をベースにしています。\n"
+"このプロジェクトでは、Property Bindingで行われた新しい改良をすべて活用します。\n"
+"3.5.0では、Camel-Kafka-connectorはたくさんの新しいコネクタを無料で手に入れることができ、これはとても素晴らしいことです。\n"
+"次のLTSではないリリースに期待してください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:181
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Upgrading"
-msgstr ""
+msgstr "アップグレード"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/Camel35-Whatsnew/index.md:184
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Make sure to read the [upgrade guide](/manual/latest/camel-3x-upgrade-guide-3_5.html) if you\n"
 "are upgrading to this release from a previous Camel version.\n"
 msgstr ""
+"前のバージョンのCamelからこのリリースにアップグレードする場合は、[アップグレードガイド](/manual/latest/camel-3x-upgrade-guide-3_5.html)を必ずお読みください。\n"
+"アップグレードガイド](/manual/latest/camel-3x-upgrade-guide-3_5.html)をご覧ください。\n"

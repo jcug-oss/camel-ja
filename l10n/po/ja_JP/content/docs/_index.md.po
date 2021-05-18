@@ -18,23 +18,27 @@ msgstr ""
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< div \"box left camel-core\" >}}\n"
 msgstr ""
+"< div \"box left camel-core\" >{{}}\n"
+"</div>"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:7 upstream/content/docs/_index.md:60
 #: upstream/content/docs/_index.md:70 upstream/content/docs/_index.md:108
 #: upstream/content/docs/_index.md:118 upstream/content/docs/_index.md:156
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< div \"icon\" >}}\n"
 msgstr ""
+"< div \"icon\" >{{}}\n"
+"</div>"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[![Camel](/_/img/logo-d.svg)](/camel-k/latest/)\n"
-msgstr ""
+msgstr "[![キャメル](/_/img/logo-d.svg)](/camel-k/latest/)\n"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:11 upstream/content/docs/_index.md:33
@@ -46,31 +50,33 @@ msgstr ""
 #: upstream/content/docs/_index.md:122 upstream/content/docs/_index.md:136
 #: upstream/content/docs/_index.md:138 upstream/content/docs/_index.md:154
 #: upstream/content/docs/_index.md:160 upstream/content/docs/_index.md:161
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< /div >}}\n"
-msgstr ""
+msgstr "<div >{{}}< /div >\n"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< div \"content\" >}}\n"
 msgstr ""
+"< div \"content\" >{{}}\n"
+"</div>"
 
 #. type: Title ##
 #: upstream/content/docs/_index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Core"
-msgstr ""
+msgstr "キャメルコア"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The [User Manual](/manual/latest/) is a comprehensive guide meant to help you with the key concepts of Apache Camel and software integration, from how to [get started](/manual/latest/getting-started.html) with Apache Camel, how to [upgrade to Camel 3.x](/manual/latest/camel-3x-upgrade-guide.html), to [architecture](/manual/latest/architecture.html) or [integration patterns](/components/latest/eips/enterprise-integration-patterns.html).\n"
-msgstr ""
+msgstr "ユーザーマニュアル](/manual/latest/)は、Apache Camelとソフトウェアインテグレーションの重要なコンセプトを理解するための包括的なガイドで、Apache Camelの[スタートアップ](/manual/latest/getting-started.また、「アーキテクチャ」（/manual/latest/architecture.html）や「統合パターン」（/components/latest/eips/enterpris-integration-patterns.html）についても説明しています。\n"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<p>\n"
 "<a class=\"button dark\" href=\"/manual/latest/\">Documentation</a>\n"
@@ -78,53 +84,66 @@ msgid ""
 "<a class=\"button light\" href=\"https://github.com/apache/camel-examples\">Examples</a>\n"
 "</p>\n"
 msgstr ""
+"<p>\n"
+"<a class=\"button dark\" href=\"/manual/latest/\">ドキュメンテーション</a>\n"
+"<a class=\"button light\" href=\"https://github.com/apache/camel/\">ソース</a>\n"
+"<a class=\"button light\" href=\"https://github.com/apache/camel-examples\">例\n"
+"</a></p>\n"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel is packed with several hundred components that are used to access databases, message queues and APIs. The [Component reference](/components/latest/) provides you information about the functionality and configuration of each component.\n"
-msgstr ""
+msgstr "Camelには、データベースやメッセージキュー、APIにアクセスするためのコンポーネントが数百個詰め込まれています。コンポーネントリファレンス](/components/latest/)には、各コンポーネントの機能や設定についての情報が掲載されています。\n"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<p>\n"
 "<a class=\"button dark\" href=\"/components/latest/\">Component Reference</a>\n"
 "<a class=\"button light\" href=\"https://www.javadoc.io/doc/org.apache.camel/camel-api/latest/index.html\">API Documentation</a>\n"
 "</p>\n"
 msgstr ""
+"<p>\n"
+"<a class=\"button dark\" href=\"/components/latest/\">コンポーネントリファレンス</a>\n"
+"<a class=\"button light\" href=\"https://www.javadoc.io/doc/org.apache.camel/camel-api/latest/index.html\">APIドキュメント</a>\n"
+"</p>\n"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:37 upstream/content/docs/_index.md:92
 #: upstream/content/docs/_index.md:140
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< div \"box right\" >}}\n"
 msgstr ""
+"< div \"box right\" >{{}}\n"
+"</div>"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:39 upstream/content/docs/_index.md:76
 #: upstream/content/docs/_index.md:94 upstream/content/docs/_index.md:124
 #: upstream/content/docs/_index.md:142
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< div \"content\">}}\n"
 msgstr ""
+"< div \"content\">{{}}\n"
+"</div>"
 
 #. type: Title ##
 #: upstream/content/docs/_index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel K"
-msgstr ""
+msgstr "キャメルK"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel K is a lightweight integration framework built on Apache Camel that runs natively on [Kubernetes](https://kubernetes.io/) and is specifically designed for serverless and micro service architectures. It allows you to run integration code written in Camel DSL on your cloud.\n"
-msgstr ""
+msgstr "Apache Camel Kは、[Kubernetes](https://kubernetes.io/)上でネイティブに動作するApache Camelで構築された軽量のインテグレーションフレームワークで、特にサーバーレスやマイクロサービスアーキテクチャ向けに設計されています。Camel DSLで書かれた統合コードを、クラウド上で実行することができます。\n"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<p>\n"
 "<a class=\"button dark\" href=\"/camel-k/latest/\">Documentation</a>\n"
@@ -132,57 +151,69 @@ msgid ""
 "<a class=\"button light\" href=\"https://github.com/apache/camel-k-examples\">Examples</a>\n"
 "</p>\n"
 msgstr ""
+"<p>\n"
+"<a class=\"button dark\" href=\"/camel-k/latest/\">ドキュメンテーション</a>\n"
+"<a class=\"button light\" href=\"https://github.com/apache/camel-k/\">ソース</a>\n"
+"<a class=\"button light\" href=\"https://github.com/apache/camel-k-examples\">例\n"
+"</a></p>\n"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Apache Camel K now leverages a catalog of connectors called \"Kamelets\" (_Kamel_ route snipp_ets_) that allow creating sources or sinks towards external systems via a \n"
 "simplified interface, hiding all the low level details about how those connections are implemented.\n"
 msgstr ""
+"Apache Camel Kは、\"Kamelets\"(_Kamel_ route snipp_ets_)と呼ばれるコネクタのカタログを活用しています。 \n"
+"簡略化されたインターフェイスで、外部システムへのソースやシンクを作成することができます。\n"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<p>\n"
 "<a class=\"button dark\" href=\"/camel-kamelets/latest/\">Kamelet Catalog</a>\n"
 "</p>\n"
 msgstr ""
+"<p>\n"
+"<a class=\"button dark\" href=\"/camel-kamelets/latest/\">カメレットカタログ</a>\n"
+"</p>\n"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:62
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[![Camel](/_/img/logo-d.svg)![Knative](/_/img/knative.svg)](/camel-k/latest/)\n"
-msgstr ""
+msgstr "[![キャメル](/_/img/logo-d.svg)![クナティヴ](/_/img/knative.svg)](/camel-k/latest/)\n"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:68 upstream/content/docs/_index.md:116
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< div \"box left\" >}}\n"
 msgstr ""
+"< div \"box left\" >{{}}\n"
+"</div>"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:72
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[![Camel](/_/img/logo-d.svg)![Knative](/_/img/apache-kafka.svg)](/camel-k/latest/)\n"
-msgstr ""
+msgstr "[![Camel](/_/img/logo-d.svg)![Knative](/_/img/apache-kafka.svg)](/camel-k/latest/)\n"
 
 #. type: Title ##
 #: upstream/content/docs/_index.md:77
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Kafka Connector"
-msgstr ""
+msgstr "Camel Kafkaコネクタ"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:80
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Kafka Connector allows you to use all [Camel components](/components/latest/) as [Kafka Connect](http://kafka.apache.org/documentation/#connect) connectors, which, as a result, expands Kafka Connect compatibility by allowing all Camel components to be used in the Kafka ecosystem.\n"
-msgstr ""
+msgstr "Camel Kafka Connectorでは、すべての[Camelコンポーネント](/components/latest/)を[Kafka Connect](http://kafka.apache.org/documentation/#connect)のコネクタとして使用することができ、結果的にすべてのCamelコンポーネントがKafkaエコシステムで使用できるようになり、Kafka Connectの互換性が拡大します。\n"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:86
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<p>\n"
 "<a class=\"button dark\" href=\"/camel-kafka-connector/latest/\">Documentation</a>\n"
@@ -190,22 +221,27 @@ msgid ""
 "<a class=\"button light\" href=\"https://github.com/apache/camel-kafka-connector-examples/\">Examples</a>\n"
 "</p>\n"
 msgstr ""
+"<p>\n"
+"<a class=\"button dark\" href=\"/camel-kafka-connector/latest/\">ドキュメンテーション</a>\n"
+"<a class=\"button light\" href=\"https://github.com/apache/camel-kafka-connector/\">ソース</a>\n"
+"<a class=\"button light\" href=\"https://github.com/apache/camel-kafka-connector-examples/\">例\n"
+"</a></p>\n"
 
 #. type: Title ##
 #: upstream/content/docs/_index.md:95
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus"
-msgstr ""
+msgstr "キャメル・クォークス"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:98
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This project hosts the efforts to port and package the 280+ Camel components as Quarkus extensions. [Quarkus](https://quarkus.io/) is a Java platform offering fast boot times and low memory footprint. It targets both stock JVMs and GraalVM.\n"
-msgstr ""
+msgstr "このプロジェクトでは、280以上のCamelコンポーネントをQuarkusの拡張機能として移植し、パッケージ化する作業を行っています。Quarkus](https://quarkus.io/)は、高速な起動時間と低いメモリフットプリントを提供するJavaプラットフォームです。純正JVMとGraalVMの両方を対象としています。\n"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:104
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<p>\n"
 "<a class=\"button dark\" href=\"/camel-quarkus/latest/\">Documentation</a>\n"
@@ -213,34 +249,39 @@ msgid ""
 "<a class=\"button light\" href=\"https://github.com/apache/camel-quarkus/tree/master/examples\">Examples</a>\n"
 "</p>\n"
 msgstr ""
+"<p>\n"
+"<a class=\"button dark\" href=\"/camel-quarkus/latest/\">ドキュメンテーション</a>\n"
+"<a class=\"button light\" href=\"https://github.com/apache/camel-quarkus/\">ソース</a>\n"
+"<a class=\"button light\" href=\"https://github.com/apache/camel-quarkus/tree/master/examples\">例\n"
+"</a></p>\n"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:110
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[![Camel](/_/img/logo-d.svg)![Quarkus](/_/img/quarkus.svg)](/camel-quarkus/latest/)\n"
-msgstr ""
+msgstr "[![キャメル](/_/img/logo-d.svg)![クォークス](/_/img/quarkus.svg)](/camel-quarkus/latest/)\n"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:120
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[![Camel](/_/img/logo-d.svg)![Spring Boot](/_/img/spring-boot.svg)](/camel-spring-boot/latest/)\n"
-msgstr ""
+msgstr "[![Camel](/_/img/logo-d.svg)![Spring Boot](/_/img/spring-boot.svg)](/camel-spring-boot/latest/)\n"
 
 #. type: Title ##
 #: upstream/content/docs/_index.md:125
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Spring Boot"
-msgstr ""
+msgstr "Camel Spring Boot"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:128
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel support for Spring Boot provides auto-configuration of the Camel context by auto-detecting Camel routes available in the Spring context and registers the key Camel utilities as beans. It also provides starters for many Camel components.\n"
-msgstr ""
+msgstr "Spring BootのCamelサポートでは、Springコンテキストで利用可能なCamelルートを自動検出してCamelコンテキストを自動構成し、主要なCamelユーティリティをBeanとして登録します。また、多くのCamelコンポーネントのスターターを提供します。\n"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:134
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<p>\n"
 "<a class=\"button dark\" href=\"/camel-spring-boot/latest/\">Documentation</a>\n"
@@ -248,22 +289,27 @@ msgid ""
 "<a class=\"button light\" href=\"https://github.com/apache/camel-spring-boot-examples\">Examples</a>\n"
 "</p>\n"
 msgstr ""
+"<p>\n"
+"<a class=\"button dark\" href=\"/camel-spring-boot/latest/\">ドキュメンテーション</a>\n"
+"<a class=\"button light\" href=\"https://github.com/apache/camel-spring-boot\">ソース</a>\n"
+"<a class=\"button light\" href=\"https://github.com/apache/camel-spring-boot-examples\">例\n"
+"</a></p>\n"
 
 #. type: Title ##
 #: upstream/content/docs/_index.md:143
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Karaf"
-msgstr ""
+msgstr "キャメルカラフ"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:146
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Apache Karaf](https://karaf.apache.org/) makes running Apache Camel in [OSGi](https://www.osgi.org/) container easy, which as a result, expands Apache Camel's compatibility by allowing all Camel components to run in the OSGi environment.\n"
-msgstr ""
+msgstr "Apache Karaf](https://karaf.apache.org/)は、[OSGi](https://www.osgi.org/)コンテナでのApache Camelの実行を容易にし、その結果、すべてのCamelコンポーネントをOSGi環境で実行できるようにすることで、Apache Camelの互換性を拡大しています。\n"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:152
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<p>\n"
 "<a class=\"button dark\" href=\"/camel-karaf/latest/\">Documentation</a>\n"
@@ -271,9 +317,14 @@ msgid ""
 "<a class=\"button light\" href=\"https://github.com/apache/camel-karaf-examples\">Examples</a>\n"
 "</p>\n"
 msgstr ""
+"<p>\n"
+"<a class=\"button dark\" href=\"/camel-karaf/latest/\">ドキュメンテーション</a>\n"
+"<a class=\"button light\" href=\"https://github.com/apache/camel-karaf\">ソース</a>\n"
+"<a class=\"button light\" href=\"https://github.com/apache/camel-karaf-examples\">例\n"
+"</a></p>\n"
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:158
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[![Camel](/_/img/logo-d.svg)![Karaf](/_/img/apache-karaf.svg)](/camel-karaf/latest/)\n"
-msgstr ""
+msgstr "[![キャメル](/_/img/logo-d.svg)![カラフ](/_/img/apache-karaf.svg)](/camel-karaf/latest/)\n"

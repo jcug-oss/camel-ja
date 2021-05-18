@@ -18,111 +18,123 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Details of what we have done in the Camel 3.9 release."
-msgstr ""
+msgstr "Camel 3.9のリリースで行われたことの詳細です。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3.9 What's New"
-msgstr ""
+msgstr "Apache Camel 3.9 What's New"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3.9 has just been released.\n"
-msgstr ""
+msgstr "Apache Camel 3.9がリリースされました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This is a non-LTS release which means we will not provide patch releases.\n"
 "The next planned LTS release is 3.11 scheduled for June 2021.\n"
 msgstr ""
+"これは非LTSリリースであり、パッチリリースを提供しないことを意味しています。\n"
+"次回のLTSリリースは、2021年6月に予定されている3.11です。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "So what's in this release"
-msgstr ""
+msgstr "今回のリリースに含まれるもの"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release introduces a set of new features and noticeable improvements that we will cover in this blog post.\n"
-msgstr ""
+msgstr "今回のリリースでは、一連の新機能と顕著な改善点が導入されており、このブログ記事でご紹介します。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Reduced object allocations"
-msgstr ""
+msgstr "オブジェクトの割り当ての減少"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We have optimized the core by dramatically reducing object allocations - in fact\n"
 "the routing engine will produce ZERO or little objects during routing.\n"
 msgstr ""
+"オブジェクトの割り当てを大幅に減らし、コアを最適化しました。\n"
+"ルーティングエンジンがルーティング中に生成するオブジェクトは、ほとんどありません。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "If you have seen Java monitoring tools then they will show memory usage charts\n"
 "that has _saw tooth's_ where objects are allocated and later reclaimed by the JVM garabage collector.\n"
 msgstr ""
+"Javaの監視ツールを見たことがあれば、メモリ使用量のチャートが表示されます。\n"
+"そこには、オブジェクトが割り当てられ、JVMのガベージコレクタによって回収される「ノコギリの歯」のようなものが描かれています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The diagrams below illustrate the same example of using Camel 3.8 vs 3.9\n"
-msgstr ""
+msgstr "以下の図は、Camel 3.8と3.9を使用した同じ例を示しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"memory-camel38.png\" \"Camel 3.8\" >}}\n"
 msgstr ""
+"< image \"memory-camel38.png\" \"Camel 3.8\" >{{}}\n"
+"</image>"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In Camel 3.8 597mb of objects is allocated by Camel in total (running 10 minute).\n"
-msgstr ""
+msgstr "Camel 3.8では、合計で597MBのオブジェクトがCamelによって割り当てられています（10分間実行）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"memory-camel39.png\" \"Camel 3.9\" >}}\n"
 msgstr ""
+"< image \"memory-camel39.png\" \"Camel 3.9\" >{{}}\n"
+"</image>"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "And in Camel 3.9 that is **ZERO**\n"
-msgstr ""
+msgstr "Camel 3.9では、それは **ゼロ** です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "For more details read [Claus blog post](http://www.davsclaus.com/2021/03/apache-camel-39-no-more-saw-tooth-jvm.html)\n"
 "which explains how this was done.\n"
 msgstr ""
+"詳細は[クラウスのブログ記事](http://www.davsclaus.com/2021/03/apache-camel-39-no-more-saw-tooth-jvm.html)をご覧ください。\n"
+"をご覧ください。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:39
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Optimized core"
-msgstr ""
+msgstr "最適化されたコア"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We continue to optimize the Camel core. For this release we have continued\n"
 "to optimize the startup phase of Camel. Camel now prepare and wireup Camel routes\n"
@@ -130,232 +142,262 @@ msgid ""
 "optimizations (with GraalVM, Quarkus, etc.) of the Camel routes, which makes Camel\n"
 "startup even faster and quicker.\n"
 msgstr ""
+"Camelコアの最適化を続けています。今回のリリースでは、引き続き\n"
+"今回のリリースでは、Camelのスタートアップフェーズの最適化を進めました。Camelは、Camelルートの準備と配線を早い段階で行うようになりました。\n"
+"これにより、近い将来、ビルド時の最適化（GraalVM、Quarkusなど）が可能になります。\n"
+"最適化（GraalVM、Quarkusなど）ができるようになり、Camelの起動がより速く、より\n"
+"の起動がより早くなります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We also began optimizing for loading classes earlier. We identified that when Camel routes\n"
 "is executing the first message, then the JVM classloader may load some Camel classes that\n"
 "are needed for routing. For this release we optimize some of the most common classes being loaded,\n"
 "but we want to implement a more automated solution for Camel 3.10, ensuring new classes are also eager loaded in the future.\n"
 msgstr ""
+"また、ローディングクラスの最適化も早めに始めました。Camel routes\n"
+"が最初のメッセージを実行するときに、JVMのクラスローダがルーティングに必要なCamelのクラスをロードすることがあります。\n"
+"ルーティングに必要なCamelクラスがロードされることがあります。このリリースでは、ロードされる最も一般的なクラスのいくつかを最適化しています。\n"
+"しかし、Camel 3.10では、より自動化されたソリューションを実装し、将来的には新しいクラスも熱心にロードされるようにしたいと考えています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The Camel components that uses __header filtering__ has been optimized to\n"
 "filtering that are faster and much reduced object allocations.\n"
 msgstr ""
+"ヘッダーフィルタリングを使用するCamelコンポーネントは、以下のように最適化されています。\n"
+"フィルタリングが高速化され、オブジェクトの割り当てが大幅に減りました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Optimized HTTP component"
-msgstr ""
+msgstr "最適化されたHTTPコンポーネント"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The `camel-http` component has been optimized to reduce object allocations, and be a little bit faster.\n"
 "We also introduce more options which can be used to turn off various functionality\n"
 "from the underlying HTTP client that are not needed (such as cookie management), which\n"
 "optimizes for better performance.\n"
 msgstr ""
+"camel-http`コンポーネントが最適化され、オブジェクトの割り当てが減り、少しだけ速くなりました。\n"
+"また、必要のないHTTPクライアントの様々な機能（クッキー管理など）を\n"
+"オプションが追加され、必要のないHTTPクライアントの機能（クッキー管理など）を\n"
+"これにより、パフォーマンスが向上しました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:62
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Multi language DSLs"
-msgstr ""
+msgstr "多言語DSL"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:66
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In Camel 3.8 we started porting over Camel K's support for DSLs in alternative languages.\n"
 "For this release we added support for:\n"
 msgstr ""
+"Camel 3.8では、Camel KがサポートしていたDSLの代替言語への移植を開始しました。\n"
+"このリリースでは、以下のサポートを追加しました。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:70
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "JavaScript\n"
-msgstr ""
+msgstr "JavaScript\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:70
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Groovy\n"
-msgstr ""
+msgstr "Groovy\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:70
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kotlin\n"
-msgstr ""
+msgstr "Kotlin\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:72
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This means you can implement Camel routes in different languages and run them together.\n"
-msgstr ""
+msgstr "つまり、異なる言語でCamelのルートを実装し、それらを一緒に実行することができるのです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:76
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This little [example](https://github.com/apache/camel-examples/tree/master/examples/routeloader)\n"
 "shows using Java and XML routes together. You can drop a .ktn file in the [myroutes](https://github.com/apache/camel-examples/tree/master/examples/routeloader/src/main/resources/myroutes)\n"
 "directory and Camel will during startup compile the Kotlin route and add its routes to the running Camel.\n"
 msgstr ""
+"この小さな[例](https://github.com/apache/camel-examples/tree/master/examples/routeloader)\n"
+"は、JavaとXMLルートの併用を示しています。.ktnファイルを[miroutes](https://github.com/apache/camel-examples/tree/master/examples/routeloader/src/main/resources/myroutes)ディレクトリにドロップすると\n"
+"Camelは起動時にKotlinルートをコンパイルし、そのルートを実行中のCamelに追加します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:78
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Notice that this approach is based on the principe of runtime compiling small route DSL snippets.\n"
-msgstr ""
+msgstr "このアプローチは、小さなルートDSLスニペットを実行時にコンパイルするという原則に基づいていることに注意してください。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:79
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Optional Property Placeholders"
-msgstr ""
+msgstr "オプションのプロパティプレースホルダー"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:83
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Camel's elaborate property placeholder feature now supports optional placeholders,\n"
 "which is defined by a `?` (question mark) as prefix for the key name, eg\n"
 msgstr ""
+"Camelの精巧なプロパティプレースホルダー機能が、オプションのプレースホルダーをサポートするようになりました。\n"
+"これは、キー名の前に `?` (クエスチョンマーク) をつけることで定義されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:85
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "    {{?myBufferSize}}\n"
-msgstr ""
+msgstr "    {{?myBufferSize}}となります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:87
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "And Camel understands when you use optional parameters when defining Camel endpoints, eg:\n"
-msgstr ""
+msgstr "また、Camelは、Camelのエンドポイントを定義する際に、オプションのパラメータを使用しても理解します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:89
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "    file:foo?bufferSize={{?myBufferSize}}\n"
-msgstr ""
+msgstr "    file:foo?bufferSize={{?myBufferSize}}。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:92
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Then the `bufferSize` option will only be configured if a placeholder exists.\n"
 "Otherwise the option will not be set on the endpoint, which allows to use any default value instead.\n"
 msgstr ""
+"この場合、`bufferSize`オプションは、プレースホルダーが存在する場合にのみ設定されます。\n"
+"それ以外の場合は、エンドポイントにこのオプションは設定されず、代わりに任意のデフォルト値を使用することができます。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:94
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kafka"
-msgstr ""
+msgstr "カフカ"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:100
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The `camel-kafka` component has been made more fault tolerant and is now better able to recover from various errors\n"
 "with connectivity to Kafka Brokers, or payload serialization errors, etc. You can for example configure what Camel should do\n"
 "based on the kind of caused `Exception`; whether to retry, or disconnect/reconnect, or something else.\n"
 "And for more control you can plugin your own custom strategy when the out of the box settings are not sufficient.\n"
 msgstr ""
+"camel-kafka`コンポーネントの耐障害性が向上し、Kafkaブローカーへの接続やペイロードのシリアライズエラーなどの\n"
+"Kafka ブローカーへの接続や、ペイロードのシリアライズエラーなど、さまざまなエラーが発生した場合に、より適切に回復できるようになりました。例えば、発生したExceptionの種類に応じて、Camelが何をすべきかを設定することができます。\n"
+"再試行するのか、切断/再接続するのかなど、原因となった `Exception` の種類に応じて Camel が何をすべきかを設定できます。\n"
+"また、ボックス内の設定だけでは不十分な場合には、独自のカスタムストラテジーをプラグインすることで、さらにコントロールすることができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:102
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The `camel-vertx-kafka` now has support for using manual offset commits.\n"
-msgstr ""
+msgstr "camel-vertx-kafka` では、マニュアルオフセットコミットの使用がサポートされました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:105
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The `camel-kafka` has fixed some issues when using manual commit which would cause camel-kafka\n"
 "to automatic commit anyway (such as on shutdown).\n"
 msgstr ""
+"camel-kafka`では、手動コミットを使うと camel-kafka が自動コミットしてしまう問題が修正されました。\n"
+"が自動コミットしてしまう問題が修正されました（シャットダウン時など）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:107
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The components are upgraded to Kafka 2.7.\n"
-msgstr ""
+msgstr "コンポーネントはKafka 2.7にアップグレードされています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:108
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Spring Boot"
-msgstr ""
+msgstr "Spring Boot"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:111
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We have upgraded to latest Spring Boot 2.4.4 release.\n"
-msgstr ""
+msgstr "最新のSpring Boot 2.4.4リリースにアップグレードしました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:112
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New components"
-msgstr ""
+msgstr "新しいコンポーネント"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:115
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release has a number of new components, data formats and languages:\n"
-msgstr ""
+msgstr "今回のリリースでは、多くの新しいコンポーネント、データフォーマット、言語が追加されています。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:119
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`camel-aws-secrets-manager` - Manage AWS Secrets Manager services\n"
-msgstr ""
+msgstr "`camel-aws-secrets-manager` - AWS Secrets Managerのサービスを管理する\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:119
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`camel-google-storage` - Store and retrieve objects from Google Cloud Storage Service\n"
-msgstr ""
+msgstr "CAMEL-GOOGLE-STORAGE` - Google Cloud Storage Serviceからオブジェクトを保存、取得する\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:119
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`camel-google-functions` - Manage and invoke Google Cloud Functions\n"
-msgstr ""
+msgstr "CAMEL-GOOGLE-FUNCTION` - Google Cloud Functionsを管理、起動する\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:120
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Upgrading"
-msgstr ""
+msgstr "アップグレード"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:123
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Make sure to read the [upgrade guide](/manual/latest/camel-3x-upgrade-guide-3_9.html) if you are upgrading from a previous Camel version.\n"
-msgstr ""
+msgstr "旧バージョンのCamelからアップグレードする場合は、[アップグレードガイド](/manual/latest/camel-3x-upgrade-guide-3_9.html)を必ずお読みください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:124
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Release Notes"
-msgstr ""
+msgstr "リリースノート"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:126
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can find more information about this release in the [release notes](/releases/release-3.9.0/), with a list of JIRA tickets resolved in the release.\n"
-msgstr ""
+msgstr "このリリースに関する詳細は、[リリースノート](/releases/release-3.9.0/)に、このリリースで解決されたJIRAチケットのリストが掲載されています。\n"

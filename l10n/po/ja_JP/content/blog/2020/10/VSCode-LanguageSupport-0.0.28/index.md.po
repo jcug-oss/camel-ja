@@ -18,196 +18,206 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New release of VS Code Language Support for Apache Camel 0.0.28: Camel 3.6.0, Camel Kafka Connector and Camel K Modeline and outline"
-msgstr ""
+msgstr "Apache Camel 0.0.28のVSコード言語サポートの新リリース。Camel 3.6.0、Camel Kafkaコネクタ、Camel K Modelineとアウトライン"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New release of VS Code Language Support for Apache Camel 0.0.28"
-msgstr ""
+msgstr "VS Code Language Support for Apache Camel 0.0.28」をリリースしました。"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A new release of [VS Code Language Support for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-apache-camel) 0.0.28 is available. It includes an interesting set of new features.\n"
-msgstr ""
+msgstr "VS Code Language Support for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-apache-camel) 0.0.28 がリリースされました。興味深い新機能が追加されています。\n"
 
 #. type: Title #
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel 3.6.0 upgrade"
-msgstr ""
+msgstr "Camel 3.6.0 アップグレード"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel [3.6.0](/blog/2020/10/Camel36-Whatsnew/) catalog is now provided by default. The 3.6.0 version is also leveraged internally.\n"
-msgstr ""
+msgstr "Camel [3.6.0](/blog/2020/10/Camel36-Whatsnew/)カタログがデフォルトで提供されるようになりました。内部的にも3.6.0バージョンが活用されています。\n"
 
 #. type: Title #
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Kafka Connector Properties file improvements"
-msgstr ""
+msgstr "Camel Kafka コネクタのプロパティファイルの改善"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Previously, the support for [Camel Kafka Connector](/camel-kafka-connector/latest/index.html) was limited to Camel URI in `camel.(sink|source).url` property value.\n"
 "This release adds support for the list of properties provided for each parameter instead of using a potentially long Camel URI. It relies on the new Camel Kafka Connector Catalog.\n"
 msgstr ""
+"これまで、[Camel Kafka Connector](/camel-kafka-connector/latest/index.html) のサポートは、`camel.(sink|source).url` プロパティ値の Camel URI に限定されていました。\n"
+"このリリースでは、長くなる可能性のある Camel URI を使用する代わりに、各パラメータに提供されるプロパティのリストをサポートするようになりました。これは、新しい Camel Kafka Connector Catalog に依存しています。\n"
 
 #. type: Title ####
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Completion for `connector.class` property value"
-msgstr ""
+msgstr "connector.class` プロパティ値の補完"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There is completion for the `connector.class` property value. The display name of the completion item is the simple class name. The fully qualified name is inserted.\n"
-msgstr ""
+msgstr "connector.class`プロパティ値の補完があります。補完項目の表示名は、単純なクラス名です。完全修飾名が挿入されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Completion for connector.class](completionConnectorClass.gif \"Completion for connector.class\") \n"
-msgstr ""
+msgstr "![connector.classの補完](completionConnectorClass.gif \"connector.classの補完\") \n"
 
 #. type: Title ####
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Completion and hover for component properties"
-msgstr ""
+msgstr "コンポーネントプロパティの補完とホバー"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There is completion and hover for `camel.sink.*` and `camel.source.*` property keys based on Camel Kafka Connector Catalog.\n"
-msgstr ""
+msgstr "Camel Kafka Connector Catalogに基づいて、`camel.sink.*`と`camel.source.*`のプロパティキーに補完とホバーが追加されました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Completion and hover for component properties](completionAndHoverForCamelSinkSourceProperties.gif \"Completion and hover for component properties\") \n"
-msgstr ""
+msgstr "![Completion and hover for component properties](completionAndHoverForCamelSinkSourceProperties.gif \"Completion and hover for component properties\") \n"
 
 #. type: Title ####
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Completion for Converters"
-msgstr ""
+msgstr "コンバーターの完成度"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Kafka Connector provides specific Kafka [key](https://kafka.apache.org/documentation/#key.converter) and [value](https://kafka.apache.org/documentation/#value.converter) Converters for some connectors. In this case, they are proposed for completion as property value of `key.converter` and `value.converter`.\n"
-msgstr ""
+msgstr "Camel Kafka コネクタは、いくつかのコネクタに対して特定の Kafka [key](https://kafka.apache.org/documentation/#key.converter) と [value](https://kafka.apache.org/documentation/#value.converter) コンバータを提供します。この場合は、`key.converter`と`value.converter`のプロパティ値として補完することが提案されています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Completion for Converters](completionConverter.gif \"Completion for Converters\") \n"
-msgstr ""
+msgstr "![コンバータの補完](completionConverter.gif \"Completion for Converters\") \n"
 
 #. type: Title ####
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Completion for Transformers"
-msgstr ""
+msgstr "トランスフォーマーの完成"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Kafka Connector provides specific [Kafka Transformers](https://kafka.apache.org/documentation/#connect_transforms) for some connectors. In this case, they are proposed for completion as property value of `transforms.*.type`.\n"
-msgstr ""
+msgstr "Camel Kafka Connectorは、いくつかのコネクタに対して特定の[Kafka Transformers](https://kafka.apache.org/documentation/#connect_transforms)を提供しています。この場合には、`transforms.*.type` のプロパティ値として補完することが提案されています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Completion for Transformers](completionTransformer.gif \"Completion for Transformers\") \n"
-msgstr ""
+msgstr "![トランスフォーマーの完成](completionTransformer.gif \"トランスフォーマーの完成\") \n"
 
 #. type: Title ####
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Refactor action to convert Camel URI to list of properties"
-msgstr ""
+msgstr "CamelのURIをプロパティのリストに変換するアクションをリファクタリングしました。"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "When a lot of parameters are required to configure the Camel components, using the Camel URI through the `camel.(sink|source).url` can lead to a very long string which is not easy to read. Camel Kafka Connector allows to use a list of properties instead. A refactor action is available to convert a Camel URI to a list of properties.\n"
-msgstr ""
+msgstr "Camel コンポーネントの設定に多くのパラメータが必要な場合、`camel.(sink|source).url` を通じて Camel の URI を使用すると、非常に長い文字列になってしまい、読むのが容易ではありません。Camel Kafka Connectorでは、代わりにプロパティのリストを使用することができます。CamelのURIをプロパティのリストに変換するリファクタリングアクションが用意されています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Refactor action to convert Camel URI to list of properties](convertCamelURlToListOfProperties.gif \"Refactor action to convert Camel URI to list of properties\") \n"
-msgstr ""
+msgstr "![Refactor action to convert Camel URI to list of properties](convertCamelURlToListOfProperties.gif \"Refactor action to convert Camel URI to list of properties\") \n"
 
 #. type: Title #
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel K modeline improvements"
-msgstr ""
+msgstr "Camel K modelineの改良"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The completion for resource-like options `open-api`, `property-file` and `resource` are now filtering files inside the IDE specific folder `.vscode`. For `open-api`, only json and yaml files are now proposed.\n"
-msgstr ""
+msgstr "リソースライクなオプション `open-api`, `property-file`, `resource` の補完は、IDE特有のフォルダ `.vscode` 内のファイルをフィルタリングするようになりました。open-api`では、jsonとyamlのファイルのみが提案されるようになりました。\n"
 
 #. type: Title #
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Outlines and Document symbols"
-msgstr ""
+msgstr "アウトラインと文書記号"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Previously, there was outlines and Document symbols for Camel contexts and routes for XML DSL only.\n"
-msgstr ""
+msgstr "これまでは、CamelのコンテクストにはアウトラインとDocumentシンボル、XML DSLにはルートのみでした。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:59
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In this release, the Camel route steps are provided for XML and Java DSL.\n"
-msgstr ""
+msgstr "このリリースでは、XMLとJava DSLに対応したCamelのルートステップが提供されています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:62
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "It can be leveraged in the outline, or using the `Find symbol` command or even with the breadcrumb.\n"
 "A little trick to have the flow of routes displayed in execution order in the Outline view is to select `Sort by position` option.\n"
 msgstr ""
+"これは、アウトラインでも、`Find symbol`コマンドを使っても、パンくずでも活用できます。\n"
+"アウトラインビューでルートの流れを実行順に表示するには、「位置でソート」オプションを選択するというちょっとしたコツがあります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:65
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "![Document Symbol Java](DocumentSymbolJava.gif \"Document Symbol Java\")\n"
 "![Document Symbol XML](DocumentSymbolXML.gif \"Document Symbol XML\")\n"
 msgstr ""
+"![文書記号Java](DocumentSymbolJava.gif \"文書記号Java\")\n"
+"![ドキュメント・シンボル XML](DocumentSymbolXML.gif \"ドキュメント・シンボル XML\")\n"
 
 #. type: Title #
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:66
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's next?"
-msgstr ""
+msgstr "次は何ですか？"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/VSCode-LanguageSupport-0.0.28/index.md:71
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Provide your feedback and ideas!\n"
 "You can start discussions on [Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling).\n"
 "You can create and vote for issues on github [Camel Language Server](https://github.com/camel-tooling/camel-language-server/issues) and [VS Code Language support for Apache Camel](https://github.com/camel-tooling/camel-lsp-client-vscode/issues) repositories.\n"
 "You can create and vote for issues on the [jira](https://issues.redhat.com/browse/FUSETOOLS2) used by the Red Hat Integration tooling team.\n"
 msgstr ""
+"ご意見・ご感想をお寄せください\n"
+"Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling)で議論を始めることができます。\n"
+"github の [Camel Language Server](https://github.com/camel-tooling/camel-language-server/issues) および [VS Code Language support for Apache Camel](https://github.com/camel-tooling/camel-lsp-client-vscode/issues) リポジトリで課題を作成し、投票することができます。\n"
+"Red Hat Integration tooling team が使用している [jira](https://issues.redhat.com/browse/FUSETOOLS2) で課題を作成し、投票することができます。\n"

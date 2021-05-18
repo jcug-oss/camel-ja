@@ -18,513 +18,534 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Top 10 of what's new in Apache Camel version 3"
-msgstr ""
+msgstr "Apache Camelバージョン3の新機能トップ10"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3 What's New (top 10)"
-msgstr ""
+msgstr "Apache Camel 3 What's New (トップ10)"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3 was released last thursday November 28th 2019, which also happens to be the day of the US Thanksgiving. This was not intentionally but we can say its a big thanks from us to the community with a brand new major version of Camel - this does not come often by. In fact, its 10 years since Camel 2 hit the streets. So this 3rd generation is long overdue.\n"
-msgstr ""
+msgstr "去る2019年11月28日木曜日にApache Camel 3がリリースされましたが、この日はアメリカの感謝祭の日でもあります。これは意図的なものではありませんでしたが、Camelの新しいメジャーバージョンがリリースされたことで、私たちからコミュニティへの大きな感謝の気持ちが込められています - これは滅多にあることではありません。実際、Camel 2が発売されてから10年が経過しています。ですから、この第3世代は長い間待ち望まれていたものなのです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This blog post highlights the noteworthy new features and improvements in Camel v3.\n"
-msgstr ""
+msgstr "このブログ記事では、Camel v3の注目すべき新機能や改善点を紹介しています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "1) Camel is now a family of projects"
-msgstr ""
+msgstr "1) Camelはプロジェクトのファミリーになった"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel, is now a family of projects (3 at this time of writing).\n"
-msgstr ""
+msgstr "Apache Camelは、現在3つのプロジェクトから構成されています（本稿執筆時点では3つ）。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "[Camel 3](https://github.com/apache/camel):\n"
 "**Integration Framework** _Swiss knife of integration_\n"
 msgstr ""
+"[Camel 3](https://github.com/apache/camel)。\n"
+"**統合フレームワーク** _統合のスイス・ナイフ\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "[Camel K](https://github.com/apache/camel-k/):\n"
 "**Lightweight Serverless Integration Platform** _Camel on Kubernetes & Knative_\n"
 msgstr ""
+"Camel K](https://github.com/apache/camel-k/)です。\n"
+"**軽量なサーバーレス統合プラットフォーム** _Camel on Kubernetes &amp; Knative_.\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "[Camel Quarkus](https://github.com/apache/camel-quarkus):\n"
 "**Camel extensions for Quarkus** _Optimized JVM & Native compiled Java (GraalVM)_\n"
 msgstr ""
+"Camel Quarkus](https://github.com/apache/camel-quarkus)。\n"
+"CamelによるQuarkusの拡張** _Optimized JVM &amp; Native compiled Java (GraalVM)_。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"camel3-projects.png\" \"Camel 3 projects\" >}}\n"
 msgstr ""
+"< image \"camel3-projects.png\" \"Camel 3 projects\" >{{}}\n"
+"</image>"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel code-base is very large, and we have setup sub-projects for new innovative projects using Camel. The first sub-project was to run Camel as cloud-native on Kubernetes in a serverless manner which became Camel K. Then Camel Quarkus came to make Java and Camel with very fast startup and very small memory footprint primary for container based deployments. \n"
-msgstr ""
+msgstr "Camelのコードベースは非常に大きく、Camelを使った新しい革新的なプロジェクトのためにサブプロジェクトを立ち上げました。最初のサブプロジェクトは、CamelをサーバーレスでKubernetes上でクラウドネイティブに動作させるもので、Camel Kとなりました。その後、Camel Quarkusが登場し、コンテナベースのデプロイメントのために、非常に高速なスタートアップと非常に小さなメモリフットプリントでJavaとCamelを実現しました。 \n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "2) New Website"
-msgstr ""
+msgstr "2）新しいウェブサイト"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"camel3-website.png\" \"Camel 3 website\" >}}\n"
 msgstr ""
+"< image \"camel3-website.png\" \"Camel 3 website\" >{{}}\n"
+"</image>"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "A major goal for Camel 3 was to finally revamp the old aging website to use modern technologies and be able to auto-generate content from the source code. This has taken years to get to this point as we have built tools over the last many Camel 2.x releases that could take us closer.\n"
 "At the end of 2019 then the Camel community and others stepped up and provided the new art-work, logo, and look and feel for the new website - thank you very much!.\n"
 msgstr ""
+"Camel 3の主な目標は、老朽化したウェブサイトを最新技術を用いて刷新し、ソースコードからコンテンツを自動生成できるようにすることでした。過去の多くのCamel 2.xのリリースで、私たちを近づけることができるツールを構築してきたので、ここまで来るのに何年もかかりました。\n"
+"2019年末には、Camelコミュニティやその他の人々がステップアップして、新しいウェブサイトのための新しいアートワーク、ロゴ、ルック＆フィールを提供してくれました - ありがとうございました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For Camel 3.x we will continue to improve the website and the documentation. This is much easier for us to do, and also for people to contribute changes as its just a regular github PR to provide updates. We love contributions.\n"
-msgstr ""
+msgstr "Camel 3.xでは、ウェブサイトとドキュメントの改善を続けていきます。これは、私たちにとってはるかに簡単なことであり、また、通常のgithub PRで更新情報を提供することで、人々が変更に貢献することもできます。私たちは貢献を歓迎します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:39
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Zoran had some fun with the new look and feel and he added a little gem; if you stare at the front page, then you should see a little animation of the curved bezel ;)\n"
-msgstr ""
+msgstr "Zoranは、新しいルック＆フィールを楽しみながら、小さな宝石を加えました。フロントページをじっと見ていると、カーブしたベゼルの小さなアニメーションが見えるはずです。)\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "3) Java 11"
-msgstr ""
+msgstr "3) Java 11"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel 3 is the first official release that supports Java 11. Java 8 will still be supported for the first number of 3.x releases, but is expected to be dropped later in 2020. However we wanted to provide Java 8 support to help migrate Camel 2.x users who may be restricted to Java 8 for some time to come.\n"
-msgstr ""
+msgstr "Camel 3は、Java 11をサポートする最初の公式リリースとなります。Java 8は3.xの最初のリリースではまだサポートされますが、2020年後半にはサポートが打ち切られる予定です。しかし、私たちは、今後しばらくの間、Java 8に制限される可能性のあるCamel 2.xユーザーの移行を支援するために、Java 8のサポートを提供したいと考えました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "4) Modularized camel-core"
-msgstr ""
+msgstr "4) モジュール化されたキャメルコア"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The camel-core has been modularized from 1 JAR to 33 JARs. The core functionality has been splitup into:\n"
-msgstr ""
+msgstr "camel-coreは、1つのJARから33のJARにモジュール化されました。コア機能は以下のように分割されました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:49
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:77
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "**Artifact**\n"
-msgstr ""
+msgstr "**アーティファクト**。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-api\n"
-msgstr ""
+msgstr "camel-api\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-base\n"
-msgstr ""
+msgstr "キャメルベース\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-caffeine-lrucache\n"
-msgstr ""
+msgstr "キャメル・カフェー・ルカッシュ\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-cloud\n"
-msgstr ""
+msgstr "キャメルクラウド\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-core\n"
-msgstr ""
+msgstr "camel-core\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-core-engine\n"
-msgstr ""
+msgstr "camel-core-engine\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-core-osgi\n"
-msgstr ""
+msgstr "camel-core-osgi\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-core-xml\n"
-msgstr ""
+msgstr "camel-core-xml\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-endpointdsl\n"
-msgstr ""
+msgstr "Camel-Endpointdsl\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-headersmap\n"
-msgstr ""
+msgstr "camel-headersmap\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-jaxp\n"
-msgstr ""
+msgstr "キャメル・ジャックスプ\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-main\n"
-msgstr ""
+msgstr "キャメルメイン\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-management-api\n"
-msgstr ""
+msgstr "camel-management-api\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-management-impl\n"
-msgstr ""
+msgstr "Camel-Management-impl\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-support\n"
-msgstr ""
+msgstr "キャメルサポート\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-util\n"
-msgstr ""
+msgstr "camel-util\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-util-json\n"
-msgstr ""
+msgstr "camel-util-json\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For Camel end users then only a few JARs are relevant.\n"
-msgstr ""
+msgstr "Camelのエンドユーザーにとっては、いくつかのJARしか関係ありません。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:71
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "**camel-api** contains the public API for Camel (eg interfaces such as CamelContext, Endpoint, Exchange, Message, and so on).\n"
-msgstr ""
+msgstr "camel-api** CamelのパブリックAPI（CamelContext、Endpoint、Exchange、Messageなどのインターフェイス）が含まれています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:73
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "**camel-support** contains the base classes and `RouteBuilder` which you would use to build Camel routes and applications. This JAR also contains necessary base classes for building custom Camel components, and other kinds of plugins.\n"
-msgstr ""
+msgstr "camel-support**には、Camelのルートやアプリケーションを構築するための基本クラスと`RouteBuilder`が含まれています。このJARには、カスタムのCamelコンポーネントや他の種類のプラグインを構築するために必要なベースクラスも含まれています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:75
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The components that resided in camel-core has also be externalized into individual components:\n"
-msgstr ""
+msgstr "camel-coreにあったコンポーネントは、個々のコンポーネントに外部化されました。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-bean\n"
-msgstr ""
+msgstr "カメルーン\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-log\n"
-msgstr ""
+msgstr "キャメル・ログ\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-stub\n"
-msgstr ""
+msgstr "キャメルスタブ\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-browse\n"
-msgstr ""
+msgstr "キャメルブラウジング\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-mock\n"
-msgstr ""
+msgstr "キャメルモック\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-timer\n"
-msgstr ""
+msgstr "キャメルタイマー\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-controlbus\n"
-msgstr ""
+msgstr "キャメル・コントロール・バス\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-properties\n"
-msgstr ""
+msgstr "キャメル・プロパティーズ\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-validator\n"
-msgstr ""
+msgstr "キャメル・バリデーター\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-dataformat\n"
-msgstr ""
+msgstr "キャメルデータフォーマット\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-ref\n"
-msgstr ""
+msgstr "キャメルレフ\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-vm\n"
-msgstr ""
+msgstr "camel-vm\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-direct\n"
-msgstr ""
+msgstr "キャメル・ダイレクト\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-rest\n"
-msgstr ""
+msgstr "キャメルレスト\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-xpath\n"
-msgstr ""
+msgstr "camel-xpath\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-directvm\n"
-msgstr ""
+msgstr "camel-directvm\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-saga\n"
-msgstr ""
+msgstr "キャメルサーガ\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-xslt\n"
-msgstr ""
+msgstr "キャメルXSLT\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-file\n"
-msgstr ""
+msgstr "キャメルファイル\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-scheduler\n"
-msgstr ""
+msgstr "camel-scheduler\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-zip-deflater\n"
-msgstr ""
+msgstr "キャメル・ジップ・デフラーター\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-language\n"
-msgstr ""
+msgstr "カメルーン語\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-seda\n"
-msgstr ""
+msgstr "キャメルセダ\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:103
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel end users can then pick and choose exactly only what they need, or keep using everything.\n"
-msgstr ""
+msgstr "Camelのエンドユーザーは、必要なものだけを選んだり、すべてを使い続けたりすることができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:107
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Therefore we have `camel-core` and `camel-core-engine` as two starting dependencies.\n"
 "You can use `camel-core` which gives you all the JARs which is similar to Camel 2.x.\n"
 "When you use `camel-core-engine` you get the minimum set of JARs that makes a functional Camel.\n"
 msgstr ""
+"そのため、出発点となる2つの依存関係として、`camel-core`と`camel-core-engine`があります。\n"
+"camel-core`を使うと、Camel 2.xに似たすべてのJARを入手することができます。\n"
+"また、`camel-core-engine`を使うと、Camelの機能を実現するための最小のJARセットを得ることができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:109
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"camel3-core-vs-engine.png\" \"Camel 3 core vs engine\" >}}\n"
 msgstr ""
+"< image \"camel3-core-vs-engine.png\" \"Camel 3 core vs engine\" >{{}}\n"
+"</image>"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:111
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`camel-core` contains 33 JARs and `camel-core-engine` contains 12 JARs.\n"
-msgstr ""
+msgstr "camel-core` には 33 個の JAR が含まれており、`camel-core-engine` には 12 個の JAR が含まれています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:112
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "5) Faster startup and lower footprint"
-msgstr ""
+msgstr "5) 起動の高速化とフットプリントの低減"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:115
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We have reduced the size of core Camel and the number of classes loaded. For example, in Camel 2 about 5200 classes were loaded, which has been reduced to about 4300 loaded classes in Camel 3.\n"
-msgstr ""
+msgstr "コアとなるCamelのサイズを縮小し、ロードされるクラスの数を減らしました。例えば、Camel 2では約5200のクラスが読み込まれていましたが、Camel 3では約4300のクラスが読み込まれるようになりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:117
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We have also done many smaller optimizations in the core, to reduce the number of allocated Java objects, and speed-up initialization and other means. We have used JVM profiling tools to assist and find the bottlenecks.\n"
-msgstr ""
+msgstr "また、割り当てられたJavaオブジェクトの数を減らし、初期化などを高速化するために、コア部分で多くの小さな最適化を行いました。JVMのプロファイリングツールを使用して、ボトルネックの発見を支援しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:119
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Another area of improvement is to reduce Java reflections. In Camel 2 all the configuration of Camel components, endpoints, and routes are reflection based. In Camel 3 we have source code generated Java code for a configuration that allows us to use direct Java calls instead of reflection. \n"
-msgstr ""
+msgstr "もう一つの改善点は、Javaのリフレクションを減らすことです。Camel 2では、Camelのコンポーネント、エンドポイント、ルートの設定はすべてリフレクションベースです。Camel 3では、ソースコードで生成された設定用のJavaコードがあり、リフレクションの代わりに直接Javaコールを使用することができます。 \n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:121
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Another similar area is Camel's type converters which in Camel 2 are Java reflection based (you could build custom type converts that were not reflection based). In Camel 3 we also generate Java source code which means that type converting is direct Java calls at runtime.\n"
-msgstr ""
+msgstr "もう一つの類似した分野はCamelの型変換で、Camel 2ではJavaのリフレクションベースでした（リフレクションベースではないカスタム型変換を作ることもできました）。Camel 3では、Javaのソースコードも生成するので、型変換はランタイムに直接Javaを呼び出すことになります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:123
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We have also moved initialization logic to earlier phases when it was possible. For example, there is a new build phase that allows Camel to do special initialization during building your project (this requires Camel Quarkus).\n"
-msgstr ""
+msgstr "また、初期化ロジックが可能な場合は、初期のフェーズに移動しました。例えば、新しいビルドフェーズでは、プロジェクトのビルド中にCamelが特別な初期化を行うことができます（これにはCamel Quarkusが必要です）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:125
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "All this optimization improves the startup performance of Camel and reduces the memory overhead. With Camel Quarkus you can natively compile your Camel application and make it startup in 30 milli seconds and consume only 10mb of memory (RSS) with a full blown HTTP REST server and health-checks and metrics.\n"
-msgstr ""
+msgstr "これらの最適化により、Camelの起動パフォーマンスが向上し、メモリオーバーヘッドが削減されます。Camel Quarkusでは、Camelアプリケーションをネイティブにコンパイルし、30ミリ秒で起動し、10MBのメモリしか消費しない（RSS）、本格的なHTTP RESTサーバーとヘルスチェックやメトリクスを備えたアプリケーションを作ることができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:127
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"camel3-quarkus.png\" \"Camel 3 Quarkus native compiled\" >}}\n"
 msgstr ""
+"< image \"camel3-quarkus.png\" \"Camel 3 Quarkus native compiled\" >{{}}\n"
+"</image>"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:129
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There are still a few items on the agenda that we want to work on in Camel 3.x to further optimize Camel core.\n"
-msgstr ""
+msgstr "Camel 3.xでは、Camelコアをさらに最適化するために取り組みたい項目がまだいくつかあります。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:130
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "6) Type Safe Endpoint DSL"
-msgstr ""
+msgstr "6) Type Safe Endpoint DSL"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:133
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel end users whom have configured endpoints using URI strings, would all have experienced the problem when you make a configuration mistake in the endpoint, which then makes Camel fail on startup.\n"
-msgstr ""
+msgstr "URI文字列を使ってエンドポイントを設定したことのあるCamelのエンドユーザーなら、エンドポイントの設定を間違えると、Camelが起動時に失敗するという問題を経験したことがあるでしょう。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:136
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In Camel 3, we have a new type-safe DSL for endpoints that you can use in Java routes.\n"
 "You can continue to use the classic URI strings, but if you want to try the endpoint DSL, then you need to add `camel-endpointdsl` to your classpath. Then you should extend `EndpointRouteBuilder` instead of `RouteBuilder` to access the endpoint DSL.\n"
 msgstr ""
+"Camel 3では、エンドポイントのための新しいタイプセーフなDSLが用意されており、Javaのルートで使用することができます。\n"
+"従来の URI 文字列を使い続けることもできますが、エンドポイント DSL を試してみたい場合は、クラスパスに `camel-endpointdsl` を追加する必要があります。そして、エンドポイントDSLにアクセスするためには、`RouteBuilder`ではなく、`EndpointRouteBuilder`を拡張する必要があります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:138
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Here is a basic example without and with the endpoint DSL:\n"
-msgstr ""
+msgstr "ここでは、エンドポイントDSLを使用しない場合と使用した場合の基本的な例を示します。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:139
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "from(\"timer:click?period=3000&fixedRate=true\")\n"
 "    .to(\"seda:foo?blockWhenFull=true\");\n"
@@ -532,131 +553,138 @@ msgid ""
 "from(timer(\"click\").period(3000).fixedRate(true))\n"
 "    .to(seda(\"foo\").blockWhenFull(true));\n"
 msgstr ""
+".from(\"timer:click?period=3000&amp;fixedRate=true\")\n"
+"    .to(\"seda:foo?blockWhenFull=true\");\n"
+"\n"
+"from(timer(\"click\").period(3000).fixedRate(true))\n"
+"    .to(seda(\"foo\").blockWhenFull(true));\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:148
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can also find a [little example](https://github.com/apache/camel/tree/master/examples/camel-example-cafe-endpointdsl) in the source code.\n"
-msgstr ""
+msgstr "また、ソースコードには[little example](https://github.com/apache/camel/tree/master/examples/camel-example-cafe-endpointdsl)が掲載されています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:149
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "7) Reactive Routing Engine"
-msgstr ""
+msgstr "7)リアクティブ・ルーティング・エンジン"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:152
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The routing engine in Camel has internally been reactive'fied and all EIPs has been retrofitted to work in a reactive manner. However this is internal only, and the Camel API for both end users and component developers are based on existing callback behavior.\n"
-msgstr ""
+msgstr "Camelのルーティングエンジンは内部的にリアクティブ化されており、すべてのEIPはリアクティブな方法で動作するように改造されています。しかし、これは内部的なものであり、エンドユーザーとコンポーネント開発者の両方にとってのCamel APIは、既存のコールバック動作に基づいています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:154
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We will later introduce and work on a client-side facing reactive API after we have jumped to Java 11 as minimum version (then we can support Java 9 flowable API). \n"
-msgstr ""
+msgstr "今後、クライアントサイドに対応したリアクティブAPIを導入していくのは、Java 11を最小バージョンにしてからになります（そうすれば、Java 9のフローラブルAPIをサポートできます）。 \n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:156
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel already has integrations with reactive frameworks such as Vert.X, RxJava and Reactor Core in the dedicated Camel components.\n"
-msgstr ""
+msgstr "Camelはすでに、Vert.X、RxJava、Reactor Coreなどのリアクティブフレームワークとの統合を、専用のCamelコンポーネントで実現しています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:157
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "8) Camel Main"
-msgstr ""
+msgstr "8) キャメル・メイン"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:161
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We have introduced `camel-main` as a standalone JAR that makes it easier to run just Camel.\n"
 "There are a [couple of examples](https://github.com/apache/camel-examples/blob/master/examples/camel-example-main/readme.adoc) with the source code that demonstrates how to do that.\n"
 msgstr ""
+"Camelだけを簡単に走らせることができるスタンドアロンのJARとして、`camel-main`を導入しました。\n"
+"その方法を示す[いくつかの例](https://github.com/apache/camel-examples/blob/master/examples/camel-example-main/readme.adoc)がソースコードとともに用意されています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:163
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We also use `camel-main` to have common code to configure and bootstrap Camel for standalone, Spring Boot, Camel K, and Camel Quarkus. This allows us to share the same code, and configuration options.\n"
-msgstr ""
+msgstr "また、Camel for standalone、Spring Boot、Camel K、Camel Quarkusの設定やブートストラップを行うための共通のコードとして、`camel-main`を使用しています。これにより、同じコードや設定オプションを共有することができます。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:164
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "9) Camel Microprofile"
-msgstr ""
+msgstr "9) キャメルマイクロプロファイル"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:167
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel 3 now integrates better with Eclipse Microprofile and we have Camel components for Microprofile configuration, metrics, health checks, and fault tolerance (on the way).\n"
-msgstr ""
+msgstr "Camel 3はEclipse Microprofileとの統合が強化され、Microprofileの設定、メトリクス、ヘルスチェック、フォールトトレランスのためのCamelコンポーネントが用意されています（予定）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:169
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "More components to come in upcoming Camel releases. These microprofile components are also used by Camel Quarkus.\n"
-msgstr ""
+msgstr "今後のCamelのリリースでは、さらに多くのコンポーネントが登場する予定です。これらのマイクロプロファイルコンポーネントは、Camel Quarkusでも使用されています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:170
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "10) Miscellaneous improvements"
-msgstr ""
+msgstr "10）その他の改善"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:173
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel 3 now supports JUnit 5 for unit tests, with the test components that have -junit5 as suffix.\n"
-msgstr ""
+msgstr "Camel 3はユニットテストにJUnit 5をサポートし、サフィックスに-junit5を持つテストコンポーネントを使用するようになりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:175
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel `Registry` is now also writeable, so you can add beans to the registry at runtime, or from unit tests etc.\n"
-msgstr ""
+msgstr "Camelの`レジストリ`も書き込み可能になったので、ランタイムやユニットテストなどから、レジストリにビーンズを追加することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:177
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can also configure endpoints (producer) to a lazy start. By default Camel works in a fail-fast mode, which means that Camel components that fail to connect to external systems during startup may cause the route to fail on startup. For Camel 3 you can now configure these endpoints to a lazy start, which means the route will startup and they will first fail when a message is routed to the endpoint.\n"
-msgstr ""
+msgstr "また、エンドポイント（プロデューサー）をレイジースタートに設定することもできます。デフォルトでは、Camelはフェイルファーストモードで動作します。つまり、起動時に外部システムへの接続に失敗したCamelコンポーネントは、起動時にルートが失敗することがあります。Camel 3では、これらのエンドポイントをレイジースタートに設定できるようになりました。これは、エンドポイントにメッセージがルーティングされたときに、ルートが起動して最初に失敗することを意味します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:179
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel also allows to configure your routes to be supervised during startup, which allows Camel to more intelligently start routes in a more safe manner, by restarting routes that failed.\n"
-msgstr ""
+msgstr "また、Camelでは起動時にルートを監視するように設定することができます。これにより、Camelは失敗したルートを再起動することで、よりインテリジェントに安全な方法でルートを起動することができます。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:180
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "11) Migrating to Camel 3"
-msgstr ""
+msgstr "11)Camel 3への移行について"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:183
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We have of course cleaned up the code base, such as removing all deprecated APIs and components. We have also adjusted some APIs to make them easier to use from end users, and more Java 8 lambda friendly.\n"
-msgstr ""
+msgstr "もちろん、非推奨のAPIやコンポーネントをすべて削除するなど、コードベースを整理しました。また、いくつかのAPIを調整し、エンドユーザーが使いやすく、Java 8のラムダにも対応できるようにしました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:185
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Internally we have also adjusted the route model, to make it easier to extend into new DSLs; and there is a YAML DSL on the way which was initiated in Camel K.\n"
-msgstr ""
+msgstr "また、内部的にはルートモデルを調整し、新しいDSLへの拡張を容易にしています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:187
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In terms of backward compatibility then Camel 3 is mostly compatibility for regular Camel applications. However, if you are using some of the more advanced features and other plugins in Camel then migration is needed. Also, custom components must be migrated and recompiled. There are other adjustments such as Spring Boot users must use `org.apache.camel.springboot` as groupId instead of `org.apache.camel` etc. All details can be seen in the [migration guide](/manual/latest/camel-3-migration-guide.html).\n"
-msgstr ""
+msgstr "下位互換性という意味では、Camel 3は通常のCamelアプリケーションとほとんど互換性があります。しかし、Camelの高度な機能や他のプラグインを使用している場合は、移行が必要です。また、カスタムコンポーネントも移行して再コンパイルする必要があります。他にも、Spring Boot のユーザーは groupId として `org.apache.camel.springboot` ではなく `org.apache.camel` を使用しなければならないなどの調整があります。すべての詳細は[移行ガイド](/manual/latest/camel-3-migration-guide.html)をご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:188
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Good luck with your migration if you decide to continue your Camel journey. And for new users to Camel then good luck getting onboard.\n"
-msgstr ""
+msgstr "Camelの旅を続けることを決めた方は、移行を頑張ってください。また、新たにCamelをご利用になる方には、幸運を祈ります。\n"

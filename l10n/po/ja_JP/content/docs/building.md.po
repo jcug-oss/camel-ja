@@ -18,37 +18,37 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/docs/building.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Building"
-msgstr ""
+msgstr "建物"
 
 #. type: Title ##
 #: upstream/content/docs/building.md:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Building Camel from Source"
-msgstr ""
+msgstr "ソースからCamelを構築する"
 
 #. type: Plain text
 #: upstream/content/docs/building.md:8
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel uses [Maven](http://maven.apache.org/) as its build and management tool. If you don't fancy using Maven you can use your IDE directly or [Download](/download/) a distribution or JAR.\n"
-msgstr ""
+msgstr "Camelは、ビルドおよび管理ツールとして[Maven](http://maven.apache.org/)を使用しています。Mavenを使いたくない場合は、IDEを直接使うか、ディストリビューションやJARを[Download](/download/)することができます。\n"
 
 #. type: Title ##
 #: upstream/content/docs/building.md:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Prequisites"
-msgstr ""
+msgstr "前提条件"
 
 #. type: Title ###
 #: upstream/content/docs/building.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Required:"
-msgstr ""
+msgstr "必要です。"
 
 #. type: Plain text
 #: upstream/content/docs/building.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "*  Download and [install Maven](http://maven.apache.org/download.html)\n"
 "  *  (Maven 3.1.1 or newer is required to build Camel 2.14 onwards)\n"
@@ -60,179 +60,190 @@ msgid ""
 "  *  (1.8 to build Camel 2.18 onwards)\n"
 "  *  (1.9 experimental support for building Camel 2.19 onwards)\n"
 msgstr ""
+"* Maven をダウンロードして [install Maven](http://maven.apache.org/download.html)\n"
+"  * (Camel 2.14以降のビルドにはMaven 3.1.1以降が必要です)\n"
+"  * (Camel 2.18以降をビルドするには、Maven 3.2.5以降が必要です)\n"
+"  * (Camel 2.20以降をビルドするには、Maven 3.3.3以降が必要です)\n"
+"最新の[Source](/download/)を入手する。\n"
+"* Java\n"
+"  * (Camel 2.14以降のビルドには1.7または1.8)\n"
+"  * (1.8 で Camel 2.18 以降をビルド)\n"
+"  * (Camel 2.19以降をビルドするための1.9実験的サポート)\n"
 
 #. type: Title ##
 #: upstream/content/docs/building.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Maven options"
-msgstr ""
+msgstr "Mavenオプション"
 
 #. type: Plain text
 #: upstream/content/docs/building.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "To build camel maven has to be configured to use more memory:\n"
-msgstr ""
+msgstr "camelをビルドするには、より多くのメモリを使用するようにmavenを設定する必要があります。\n"
 
 #. type: Title ###
 #: upstream/content/docs/building.md:27 upstream/content/docs/building.md:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Unix/Linux/Mac"
-msgstr ""
+msgstr "Unix/Linux/Mac"
 
 #. type: Fenced code block
 #: upstream/content/docs/building.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "export MAVEN_OPTS=\"-Xms3000m -Xmx3000m -XX:MaxPermSize=512m\"\n"
-msgstr ""
+msgstr "export MAVEN_OPTS=\"-Xms3000m -Xmx3000m -XX:MaxPermSize=512m\"\n"
 
 #. type: Title ###
 #: upstream/content/docs/building.md:33 upstream/content/docs/building.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #. type: Fenced code block
 #: upstream/content/docs/building.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "set MAVEN_OPTS=-Xms3000m -Xmx3000m -XX:MaxPermSize=512m\n"
-msgstr ""
+msgstr "set MAVEN_OPTS=Xms3000m -Xmx3000m -XX:MaxPermSize=512m\n"
 
 #. type: Plain text
 #: upstream/content/docs/building.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "To conserve memory with Java 8 you can set two additional Java options -XX:+UseG1GC to enable G1 garbage collector (default in Java 9) and -XX:+UseStringDeduplication to help decrease Maven memory usage (up to 1.5GB is required currently, but set it a higher):\n"
-msgstr ""
+msgstr "Java 8でメモリを節約するために、2つの追加のJavaオプションを設定することができます -XX:+UseG1GCでG1ガベージコレクタを有効にし(Java 9のデフォルト)、-XX:+UseStringDeduplicationでMavenのメモリ使用量を減らすことができます(現在は最大1.5GBが必要ですが、これより高く設定してください)。\n"
 
 #. type: Fenced code block
 #: upstream/content/docs/building.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "export MAVEN_OPTS=\"-Xmx2G -XX:+UseG1GC -XX:+UseStringDeduplication\"\n"
 "\n"
 msgstr ""
+"export MAVEN_OPTS=\"-Xmx2G -XX:+UseG1GC -XX:+UseStringDeduplication\"\n"
+"\n"
 
 #. type: Fenced code block
 #: upstream/content/docs/building.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "set MAVEN_OPTS=-Xmx2G -XX:+UseG1GC -XX:+UseStringDeduplication\n"
-msgstr ""
+msgstr "set MAVEN_OPTS=-Xmx2G -XX:+UseG1GC -XX:+UseStringDeduplication\n"
 
 #. type: Plain text
 #: upstream/content/docs/building.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can try to experiment with parallel builds by adding -T1.5C to MAVEN_OPTS, but be wary as some of the plugins are not thread safe, and the console output will be intertwined. With parallel builds and when using the install goal you might experience race conditions with the local repository, using [Takari Concurrent Local Repository](https://github.com/takari/takari-local-repository) will help with that.\n"
-msgstr ""
+msgstr "MAVEN_OPTSに-T1.5Cを追加することでパラレルビルドを試すことができますが、いくつかのプラグインはスレッドセーフではなく、コンソール出力が絡み合ってしまうので注意が必要です。並列ビルドやinstall goalを使用した場合、ローカルリポジトリとの間で競合状態が発生する可能性がありますが、[Takari Concurrent Local Repository](https://github.com/takari/takari-local-repository)を使用することで解決します。\n"
 
 #. type: Title ###
 #: upstream/content/docs/building.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A normal build"
-msgstr ""
+msgstr "普通の体格"
 
 #. type: Fenced code block
 #: upstream/content/docs/building.md:58
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "mvn clean install\n"
-msgstr ""
+msgstr "mvnクリーンインストール\n"
 
 #. type: Title ##
 #: upstream/content/docs/building.md:62
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A normal build without running tests"
-msgstr ""
+msgstr "テストを行わない通常のビルド"
 
 #. type: Fenced code block
 #: upstream/content/docs/building.md:64
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "mvn clean install -Pfastinstall\n"
-msgstr ""
+msgstr "mvn clean install -Pfastinstall\n"
 
 #. type: Title ##
 #: upstream/content/docs/building.md:68
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A normal build without running tests but checkstyle verification enabled"
-msgstr ""
+msgstr "テストを実行しない通常のビルドですが、checkstyleの検証は有効です。"
 
 #. type: Fenced code block
 #: upstream/content/docs/building.md:70
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "mvn clean install -Pfastinstall,sourcecheck\n"
-msgstr ""
+msgstr "mvn clean install -Pfastinstall,sourcecheck\n"
 
 #. type: Title ##
 #: upstream/content/docs/building.md:74
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Doing a Quick Build"
-msgstr ""
+msgstr "クイックビルド"
 
 #. type: Plain text
 #: upstream/content/docs/building.md:77
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The following skips building the manual, the distro and does not execute the unit tests.\n"
-msgstr ""
+msgstr "以下は、マニュアルやディストロの構築を省略し、ユニットテストを実行しません。\n"
 
 #. type: Fenced code block
 #: upstream/content/docs/building.md:78
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "mvn install -Pfastinstall\n"
-msgstr ""
+msgstr "mvn install -Pfastinstall\n"
 
 #. type: Title ##
 #: upstream/content/docs/building.md:82
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Updating the license headers"
-msgstr ""
+msgstr "ライセンスヘッダーの更新"
 
 #. type: Plain text
 #: upstream/content/docs/building.md:85
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Proper license headers are enforced using Apache RAT and Checkstyle Maven plugins. To make it less tedious and error prone you can update the license headers by using:\n"
-msgstr ""
+msgstr "適切なライセンスヘッダは、Apache RATとCheckstyle Mavenプラグインを使用して実施されます。面倒な作業やエラーを減らすために、以下の方法でライセンスヘッダーを更新することができます。\n"
 
 #. type: Fenced code block
 #: upstream/content/docs/building.md:86
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "mvn -Plicense license:format\n"
-msgstr ""
+msgstr "mvn -Plicense license:format\n"
 
 #. type: Plain text
 #: upstream/content/docs/building.md:91
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This can be invoked from any module, which makes it useful when working on components. You can find the various license headers that the Camel project uses in buildtools/src/main/resources/header-*.txt files. These are regenerated at build time from header.txt in the same directory.\n"
-msgstr ""
+msgstr "これは、どのモジュールからでも呼び出すことができるので、コンポーネントを扱うときに便利です。Camelプロジェクトが使用している様々なライセンス・ヘッダは、buildtools/src/main/resources/header-*.txtファイルにあります。これらは、ビルド時に同じディレクトリにあるheader.txtから再生成されます。\n"
 
 #. type: Title ##
 #: upstream/content/docs/building.md:92
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Building source jars"
-msgstr ""
+msgstr "ソースジャーの構築"
 
 #. type: Plain text
 #: upstream/content/docs/building.md:95
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you want to build jar files with the source code, that for instance Eclipse can important so you can debug the Camel code as well. Then you can run this command from the camel root folder:\n"
-msgstr ""
+msgstr "ソースコードと一緒にjarファイルをビルドしたい場合は、例えばEclipseが重要な役割を果たすので、Camelのコードをデバッグすることもできます。その場合は、camelのルートフォルダからこのコマンドを実行します。\n"
 
 #. type: Fenced code block
 #: upstream/content/docs/building.md:96
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "mvn clean source:jar install -Pfastinstall\n"
-msgstr ""
+msgstr "mvn clean source:jar install -Pfastinstall\n"
 
 #. type: Title ##
 #: upstream/content/docs/building.md:100
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Working with Karaf features"
-msgstr ""
+msgstr "Karafの機能を使う"
 
 #. type: Plain text
 #: upstream/content/docs/building.md:103
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you change anything in the features.xml from platform/karaf (in camel-karaf project) you can run a validation step to ensure the generated features.xml file is correct. You can do this running the following maven goal from the platform directory.\n"
-msgstr ""
+msgstr "platform/karaf（camel-karafプロジェクト内）のfeatures.xml内で何かを変更した場合は、検証ステップを実行して、生成されたfeatures.xmlファイルが正しいことを確認できます。これは、platform ディレクトリから次の maven ゴールを実行することで可能です。\n"
 
 #. type: Fenced code block
 #: upstream/content/docs/building.md:104
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "mvn clean install -Pvalidate\n"
-msgstr ""
+msgstr "mvn clean install -Pvalidate\n"

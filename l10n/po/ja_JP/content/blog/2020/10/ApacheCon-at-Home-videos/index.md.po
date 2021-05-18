@@ -18,19 +18,19 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you missed some of the talks on the Camel/Integration or would like to revisit your favorites, video recordings from ApacheCon @Home 2020 are now available on The Apache Software Foundation YouTube channel."
-msgstr ""
+msgstr "Camel/Integrationに関する講演を聞き逃した方や、お気に入りの講演をもう一度聞きたい方のために、ApacheCon @Home 2020の録画ビデオをThe Apache Software FoundationのYouTubeチャンネルで公開しています。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Recordings from ApacheCon @Home 2020"
-msgstr ""
+msgstr "ApacheCon @Home 2020の記録"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This year's ApacheCon was an [overwhelming\n"
 "success](https://blogs.apache.org/conferences/entry/apachecon-home-2020-was-a),\n"
@@ -40,314 +40,354 @@ msgid ""
 "Software Foundation YouTube\n"
 "channel](https://www.youtube.com/c/TheApacheFoundation).\n"
 msgstr ""
+"今年のApacheConは、「圧倒的な成功」を収めました。\n"
+"成功](https://blogs.apache.org/conferences/entry/apachecon-home-2020-was-a)でした。\n"
+"多くのトラックが並行して行われました。Camel/Integrationに関するいくつかの講演を見逃した方や\n"
+"Camel/Integrationに関するいくつかの講演を見逃したり、お気に入りの講演を再訪したい場合は、ApacheCon @Home 2020のビデオ録画を\n"
+"ApacheCon @Home 2020のビデオ録画は、[The Apache\n"
+"ソフトウェア財団のYouTube\n"
+"チャンネル](https://www.youtube.com/c/TheApacheFoundation)で公開しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "You can watch the content from all three days in [one\n"
 "playlist](https://www.youtube.com/playlist?list=PLU2OcwpQkYCxv3E0e1UU6F_b-ceqotcnN),\n"
 "with over 10 hours of content.\n"
 msgstr ""
+"3日間のコンテンツを[1つにまとめて]見ることができます。\n"
+"プレイリスト](https://www.youtube.com/playlist?list=PLU2OcwpQkYCxv3E0e1UU6F_b-ceqotcnN)で見ることができます。\n"
+"10時間以上のコンテンツが含まれています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "For convenience, we listed the talks as they appear in the schedule here\n"
 "along with the slides shared by the speakers.\n"
 msgstr ""
+"ここでは、スケジュールに掲載されている講演内容と、登壇者のスライドをご紹介します。\n"
+"また、講演者のスライドも掲載しています。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Sessions"
-msgstr ""
+msgstr "セッション"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Sessions ran for two days with six talks each day.\n"
-msgstr ""
+msgstr "セッションは2日間で、各日6件の講演が行われました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's new with Apache Camel 3?"
-msgstr ""
+msgstr "Apache Camel 3の新機能とは？"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "by [Andrea Cosentino](https://twitter.com/oscerd2) and\n"
 "[Claus Ibsen](https://twitter.com/davsclaus/)\n"
 msgstr ""
+"アンドレア・コセンティーノ(https://twitter.com/oscerd2)と\n"
+"クラウス・イプセン](https://twitter.com/davsclaus/)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Slides](Cosentino_Andrea,_Ibsen_Claus_Whats_new_with_Apache_Camel_3.pdf)\n"
-msgstr ""
+msgstr "スライド](Cosentino_Andrea,_Ibsen_Claus_Whats_new_with_Apache_Camel_3.pdf)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< youtube id=\"MBTtRE_n5Ng\" class=\"video\" >}}\n"
 msgstr ""
+"< youtube id=\"MBTtRE_n5Ng\" class=\"video\" >{{}}\n"
+"</youtube>"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Making Enterprise Integration Patterns Work for You"
-msgstr ""
+msgstr "エンタープライズ・インテグレーション・パターンの活用"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:41
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:70
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "by [Justin Reock](https://twitter.com/jreock)\n"
-msgstr ""
+msgstr "by [Justin Reock](https://twitter.com/jreock)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< youtube id=\"reiIjLWaFg8\" class=\"video\" >}}\n"
 msgstr ""
+"< youtube id=\"reiIjLWaFg8\" class=\"video\" >{{}}\n"
+"</youtube>"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Getting started with Apache Camel on Quarkus"
-msgstr ""
+msgstr "QuarkusでのApache Camelの使用方法"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "by [Alexandre Gallice](https://twitter.com/AlexGallice)\n"
-msgstr ""
+msgstr "by [Alexandre Gallice](https://twitter.com/AlexGallice)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< youtube id=\"POWsZnGhVHM\" class=\"video\" >}}\n"
 msgstr ""
+"< youtube id=\"POWsZnGhVHM\" class=\"video\" >{{}}\n"
+"</youtube>"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Build and Deploy Cloud Native Camel Quarkus Routes With Tekton and Knative"
-msgstr ""
+msgstr "TektonとKnativeによるクラウドネイティブCamel Quarkus Routesの構築と導入"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "by [Omar Al-Safi](https://twitter.com/omarsmak)\n"
-msgstr ""
+msgstr "by [Omar Al-Safi](https://twitter.com/omarsmak)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Slides](Omar_Al-Safi_Build_and_Deploy_Cloud_Native_Camel_Quarkus_Routes_With_Tekton_and_Knative.pptx)\n"
-msgstr ""
+msgstr "[スライド](Omar_Al-Safi_Build_and_Deploy_Cloud_Native_Camel_Quarkus_Routes_With_Tekton_and_Knative.pptx)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< youtube id=\"k8OFq6CnySE\" class=\"video\" >}}\n"
 msgstr ""
+"< youtube id=\"k8OFq6CnySE\" class=\"video\" >{{}}\n"
+"</youtube>"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:58
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Kafka Connectors: when Camel meets Kafka"
-msgstr ""
+msgstr "Camel Kafka Connectors: CamelとKafkaの出会い"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:62
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "by [Andrea Tarocchi](https://twitter.com/valdar) and [Hugo\n"
 "Guerrero](https://twitter.com/hguerreroo)\n"
 msgstr ""
+"by [Andrea Tarocchi](https://twitter.com/valdar) and [Hugo\n"
+"Guerrero](https://twitter.com/hguerreroo)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:64
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Slides](Tarocchi_Andrea,_Guerrero_Hugo_Camel_Kafka_Connectors_-_when_Camel_meets_Kafka.pdf)\n"
-msgstr ""
+msgstr "[スライド](Tarocchi_Andrea,_Guerrero_Hugo_Camel_Kafka_Connectors_-when_Camel_meets_Kafka.pdf)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:66
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< youtube id=\"0THM_HFFWTI\" class=\"video\" >}}\n"
 msgstr ""
+"< youtube id=\"0THM_HFFWTI\" class=\"video\" >{{}}\n"
+"</youtube>"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Integrating Postgres with Apache Camel and ActiveMQ"
-msgstr ""
+msgstr "PostgresとApache CamelおよびActiveMQの統合"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:72
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< youtube id=\"QZdktRXet2k\" class=\"video\" >}}\n"
 msgstr ""
+"< youtube id=\"QZdktRXet2k\" class=\"video\" >{{}}\n"
+"</youtube>"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:73
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel API Gateway"
-msgstr ""
+msgstr "Camel API Gateway"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:76
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "by [Rodrigo Coelho](https://twitter.com/rcoelho)\n"
-msgstr ""
+msgstr "by [ロドリゴ・コエーリョ](https://twitter.com/rcoelho)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:78
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Slides](Rodrigo_Coelho_Open_Source_light_API_Gateway_built_with_Apache_Camel.pptx)\n"
-msgstr ""
+msgstr "[Slides](Rodrigo_Coelho_Open_Source_light_API_Gateway_built_with_Apache_Camel.pptx)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:80
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< youtube id=\"sEKCI8IBCfc\" class=\"video\" >}}\n"
 msgstr ""
+"< youtube id=\"sEKCI8IBCfc\" class=\"video\" >{{}}\n"
+"</youtube>"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "How to contribute textual tooling for Apache Camel in several IDEs"
-msgstr ""
+msgstr "複数のIDEでApache Camelのテキストツールに貢献する方法"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:84
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "by [Aurélien Pupier](https://twitter.com/apupier)\n"
-msgstr ""
+msgstr "by [Aurélien Pupier](https://twitter.com/apupier)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:86
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Slides](Pupier_Aurelien_How_to_contribute_textual_tooling_for_Apache_Camel_in_several_IDEs.pdf)\n"
-msgstr ""
+msgstr "スライド](Pupier_Aurelien_How_to_contribute_textual_tooling_for_Apache_Camel_in_several_IDEs.pdf)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:88
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< youtube id=\"gL3GIzPT36Y\" class=\"video\" >}}\n"
 msgstr ""
+"< youtube id=\"gL3GIzPT36Y\" class=\"video\" >{{}}\n"
+"</youtube>"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:89
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Serverless Integration Anatomy"
-msgstr ""
+msgstr "サーバーレス・インテグレーション・アナトミー"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:92
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "by [Christina Lin](https://twitter.com/Christina_wm)\n"
-msgstr ""
+msgstr "by [Christina Lin](https://twitter.com/Christina_wm)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:94
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< youtube id=\"etSwmRP8-Eo\" class=\"video\" >}}\n"
 msgstr ""
+"< youtube id=\"etSwmRP8-Eo\" class=\"video\" >{{}}\n"
+"</youtube>"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:95
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Testing Camel K integrations with Cloud Native BDD"
-msgstr ""
+msgstr "Cloud Native BDDによるCamel Kの統合テスト"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:98
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "by [Christoph Deppisch](https://twitter.com/freaky_styley)\n"
-msgstr ""
+msgstr "by [Christoph Deppisch](https://twitter.com/freaky_styley)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:100
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Slides](Deppisch_Christoph_Testing_CamelK_with_Cloud_Native_BDD.pdf)\n"
-msgstr ""
+msgstr "[スライド](Deppisch_Christoph_Testing_CamelK_with_Cloud_Native_BDD.pdf)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:102
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< youtube id=\"aYLLtj6TdjM\" class=\"video\" >}}\n"
 msgstr ""
+"< youtube id=\"aYLLtj6TdjM\" class=\"video\" >{{}}\n"
+"</youtube>"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:103
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "\"Cloud Native\" My Camel"
-msgstr ""
+msgstr "\"クラウドネイティブ \"マイキャメル"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:106
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "by [Michael Costello](https://mike-costello.github.io/) and [David Gordon](https://twitter.com/aph3lio)\n"
-msgstr ""
+msgstr "by [Michael Costello](https://mike-costello.github.io/) and [David Gordon](https://twitter.com/aph3lio)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:108
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Slides](Costello_Michael_CloudNativeMyCamel.1.00.001.pdf)\n"
-msgstr ""
+msgstr "[スライド](Costello_Michael_CloudNativeMyCamel.1.00.001.pdf)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:110
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< youtube id=\"HEB8TMmsEDg\" class=\"video\" >}}\n"
 msgstr ""
+"< youtube id=\"HEB8TMmsEDg\" class=\"video\" >{{}}\n"
+"</youtube>"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:111
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Software Architecture and Architectors: useless VS valuable"
-msgstr ""
+msgstr "ソフトウェア・アーキテクチャとアーキテクト： 役に立たない VS 役に立つ"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:114
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "by [Andrei Shakirin](https://twitter.com/ashakirin)\n"
-msgstr ""
+msgstr "by [Andrei Shakirin](https://twitter.com/ashakirin)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:116
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< youtube id=\"SI1WqGST1SI\" class=\"video\" >}}\n"
 msgstr ""
+"< youtube id=\"SI1WqGST1SI\" class=\"video\" >{{}}\n"
+"</youtube>"
 
 #. type: Title ##
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:117
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Panel and lightning talks"
-msgstr ""
+msgstr "パネル＆ライトニングトーク"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:120
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "On the last day we had the panel and lightning talks.\n"
-msgstr ""
+msgstr "最終日には、パネルとライトニングトークが行われました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:121
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Panel on the future of software integration"
-msgstr ""
+msgstr "ソフトウェア・インテグレーションの未来に関するパネル"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:128
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Panelists: [Omar Al-Safi](https://twitter.com/omarsmak),\n"
 "[Christina Lin](https://twitter.com/Christina_wm),\n"
@@ -355,98 +395,130 @@ msgid ""
 "[Gunnar Morling](https://twitter.com/gunnarmorling),\n"
 "[Sanjna Verma](https://twitter.com/_sanjuverm)\n"
 msgstr ""
+"パネリストOmar Al-Safi](https://twitter.com/omarsmak)。\n"
+"クリスティーナ・リン](https://twitter.com/Christina_wm)。\n"
+"[Margara Tejera](https://dl.acm.org/profile/81492655297)。\n"
+"Gunnar Morling](https://twitter.com/gunnarmorling)。\n"
+"Sanjna Verma](https://twitter.com/_sanjuverm)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:130
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Moderated by [María Arias de Reyna](https://twitter.com/delawen/)\n"
-msgstr ""
+msgstr "司会：[マリア・アリアス・デ・レイナ](https://twitter.com/delawen/)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:132
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< youtube id=\"6EQy1kw03Ig\" class=\"video\" >}}\n"
 msgstr ""
+"< youtube id=\"6EQy1kw03Ig\" class=\"video\" >{{}}\n"
+"</youtube>"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:133
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Lightning talks"
-msgstr ""
+msgstr "ライトニングトーク"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:138
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "**The journey of Outreachy with Apache**, by [Aemie\n"
 "Jariwala](https://twitter.com/AemieJariwala), [follow-up\n"
 "link](https://aemiej.netlify.app/blog-post-6/)\n"
 msgstr ""
+"アパッチとアウトリーチの旅**, by [Aemie\n"
+"Jariwala](https://twitter.com/AemieJariwala), [follow-up\n"
+"リンク](https://aemiej.netlify.app/blog-post-6/)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:143
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "**Experience of Google Summer of Code with Apache Camel**, by [Nayananga\n"
 "Muhandiram](https://lk.linkedin.com/in/nayananga-anuradha-muhandiram-30b376137),\n"
 "[follow-up\n"
 "link](https://medium.com/@nayanangamuhandiram/my-final-submission-of-gsoc-2020-camel-minio-component-for-apache-camel-d2318e2eaa4f)\n"
 msgstr ""
+"Apache CamelによるGoogle Summer of Codeの経験**, by [Nayananga\n"
+"Muhandiram](https://lk.linkedin.com/in/nayananga-anuradha-muhandiram-30b376137)です。\n"
+"[フォローアップ\n"
+"リンク](https://medium.com/@nayanangamuhandiram/my-final-submission-of-gsoc-2020-camel-minio-component-for-apache-camel-d2318e2eaa4f)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:146
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "**How to monitor Camel applications with nJAMS**, by Abdelghani Faiz,\n"
 "[follow-up link](http://www.integrationmatters.com/)\n"
 msgstr ""
+"**How to monitor Camel applications with nJAMS**, by Abdelghani Faiz,\n"
+"[フォローアップリンク](http://www.integrationmatters.com/)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:150
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "**Real time Camel route visualizer while coding**, by [Claus\n"
 "Ibsen](https://twitter.com/davsclaus/), [follow-up\n"
 "link](https://github.com/davsclaus/camel-visual)\n"
 msgstr ""
+"**コーディング中にリアルタイムでキャメルのルートを視覚化**, by [Claus\n"
+"Ibsen](https://twitter.com/davsclaus/), [フォローアップ\n"
+"リンク](https://github.com/davsclaus/camel-visual)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:154
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "**VS Code Tooling for Apache Camel K tour**, by [Aurélien\n"
 "Pupier](https://twitter.com/apupier), [follow-up\n"
 "link](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-camelk)\n"
 msgstr ""
+"**VS Code Tooling for Apache Camel K tour**, by [Aurélien\n"
+"Pupier](https://twitter.com/apupier), [フォローアップ\n"
+"リンク](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-camelk)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:158
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "**Syndesis: Low code integration with Apache Camel**, [Kurt\n"
 "Stam](https://twitter.com/KurtStam), [follow-up\n"
 "link](https://github.com/syndesisio/syndesis-quickstarts#4-lets-run-some-quickstarts)\n"
 msgstr ""
+"**Syndesis:Apache Camelとの低コード統合**, [Kurt\n"
+"Stam](https://twitter.com/KurtStam), [follow-up\n"
+"リンク](https://github.com/syndesisio/syndesis-quickstarts#4-lets-run-some-quickstarts)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:162
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "**Introducing AtlasMap Data Mapper**, [Tomohisa\n"
 "Igarashi](https://twitter.com/igarashitm), [follow-up\n"
 "link](https://www.atlasmap.io/)\n"
 msgstr ""
+"**アトラスマップデータマッパーの紹介**, [Tomohisa\n"
+"五十嵐](https://twitter.com/igarashitm), [フォローアップ\n"
+"リンク](https://www.atlasmap.io/)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:165
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "**Camel from an outsider: Insights on the way to adoption**, [Jose Raez\n"
 "Rodriguez](https://twitter.com/JoshiRaez)\n"
 msgstr ""
+"**Camel from an outsider:Insights on the way to adoption**, [Jose Raez\n"
+"Rodriguez](https://twitter.com/JoshiRaez)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:166
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< youtube id=\"Y40ebvXbQmU\" class=\"video\" >}}\n"
 msgstr ""
+"< youtube id=\"Y40ebvXbQmU\" class=\"video\" >{{}}\n"
+"</youtube>"

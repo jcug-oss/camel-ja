@@ -18,151 +18,151 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Some updates on Outreachy internship program"
-msgstr ""
+msgstr "アウトリーチ・インターンシップ・プログラムの更新情報"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Outreachy update"
-msgstr ""
+msgstr "アウトリーチ・アップデート"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Apache Camel community is excited to have such a great response and effort already put in by the Outreachy applicants. We are grateful to all that contributed with code, ideas, helping others and being a part of our community.\n"
-msgstr ""
+msgstr "Apache Camelコミュニティは、Outreachyの応募者の方々がこれほど大きな反響と努力をしてくださったことに興奮しています。コードやアイデアを提供してくださった方、他の人を助けてくださった方、コミュニティの一員として参加してくださった方に感謝しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We received similar inquiries from several applicants, asking help with the timeline for the final application, intern selection criteria and similar. To help answer this and to be transparent to all involved, so each individual can reflect and make informed decisions, here are some of our thoughts.\n"
-msgstr ""
+msgstr "何人かの応募者の方から、最終的な応募までのスケジュールやインターンの選考基準などについて、同様のお問い合わせをいただきました。この質問に答えるために、また、関係者全員に透明性を保ち、各人がよく考え、十分な情報を得た上で決断できるように、私たちの考えを以下にまとめました。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Intern selection"
-msgstr ""
+msgstr "インターン選考"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We will select *two* interns for this season. In doing so, we will use the following criteria:\n"
-msgstr ""
+msgstr "今シーズンのインターン生は、2名*を選出します。その際、以下のような基準で選考を行います。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Communication"
-msgstr ""
+msgstr "コミュニケーション"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Mentors prefer interns that communicate explicitly and frequently, so mentors have a good overview of what interns are doing and if they encounter any problem that prevents them from continuing their work.\n"
-msgstr ""
+msgstr "メンターは、インターンが何をしているのか、仕事を続けられないような問題が発生していないかを把握するために、明確かつ頻繁にコミュニケーションをとるインターンを好む。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Applicants that have already interacted through the community using the official channels (Github, Gitter and/or the Mailing list) would be preferred. We value public communications over private messages to promote transparency.\n"
-msgstr ""
+msgstr "公式チャンネル（Github、Gitter、Mailing List）を利用して、すでにコミュニティでの交流がある方が望ましいです。私たちは、透明性を高めるために、プライベートメッセージよりもパブリックコミュニケーションを重視しています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Self-starting"
-msgstr ""
+msgstr "セルフスタート"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Mentors prefer interns that are proactive and take the initiative on their tasks. While mentors will help interns when they get stuck and can advise on the best options, interns should be able to make decisions and work around problems on their own.\n"
-msgstr ""
+msgstr "メンターは、積極的に自分の仕事を率先して行うインターンを好みます。インターンが行き詰ったときにはメンターが助け、最善の選択肢をアドバイスしますが、インターンは自分で判断し、問題を解決できるようにならなければなりません。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Please, make explicit how you intend to approach issues and describe any experience that can serve as an example of your way of working.\n"
-msgstr ""
+msgstr "あなたがどのように問題に取り組もうとしているかを明確にし、あなたの仕事のやり方の例となるような経験を記述してください。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Skillset"
-msgstr ""
+msgstr "スキルセット"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It is important to us that the intern has at least a basic understanding of what they are doing. It is not expected that the chosen intern already has all the skills required, on the contrary, this is an opportunity to learn and advance during the internship, but we can’t be full-time teachers. Interns have to be able to do most of the work on their own. There will be times when interns get stuck and we expect that, we’re here to help.\n"
-msgstr ""
+msgstr "私たちにとって重要なのは、インターンが自分のやっていることについて少なくとも基本的な理解をしていることです。選ばれたインターンがすでに必要とされるすべてのスキルを持っていることを期待しているわけではありません。それどころか、これはインターンの間に学び、進歩する機会でもありますが、私たちはフルタイムの教師になることはできません。インターンは、ほとんどの作業を自分で行うことができなければなりません。インターンが行き詰まることもあるでしょうが、それを期待して、私たちは支援しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We prefer someone that is basic skilled in *Website Development* (HTML, CSS, and JavaScript). We prefer someone that has at least basic notions on *Design*, *Interaction Design*, and *Usability*.\n"
-msgstr ""
+msgstr "Webサイト開発*（HTML、CSS、JavaScript）の基本的なスキルを持っている人を希望します。デザイン」「インタラクションデザイン」「ユーザビリティ」について、少なくとも基本的な考え方を持っている方を希望しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It *would be nice* that the intern has at least *basic notions* on how to use *Git* and/or *GitHub*.\n"
-msgstr ""
+msgstr "インターンは、少なくとも*Git*や*GitHub*の使い方の基本的な概念を持っているといいですね*。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Existing experience"
-msgstr ""
+msgstr "既存の経験"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Applicants that can demonstrate experience in the project area will be preferred. That experience doesn’t have to be extensive, but applicants that demonstrate some prior experience on similar projects or have experience working in (remote) teams will be preferred.\n"
-msgstr ""
+msgstr "プロジェクト分野での経験を示すことができる応募者が望ましい。その経験は広範囲である必要はありませんが、同様のプロジェクトに携わった経験や、（遠隔地の）チームで働いた経験があることを証明できる方が望ましいです。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Project timeline"
-msgstr ""
+msgstr "プロジェクトのタイムライン"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As the project description discusses in May-August 2020 Outreachy internship period we’re focusing on the Apache Camel website. There are three main areas intern can choose to focus on:\n"
-msgstr ""
+msgstr "2020年5月から8月までのOutreachyインターンシップ期間では、プロジェクトの説明にもあるように、Apache Camelのウェブサイトに焦点を当てています。インターンは主に3つの分野を選択することができます。\n"
 
 #. type: Bullet: ' * '
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Website design, including usability, functionality, and structure\n"
-msgstr ""
+msgstr "ユーザビリティー、機能性、構造を含むウェブサイトのデザイン\n"
 
 #. type: Bullet: ' * '
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Content, including structuring, updating and polishing the documentation\n"
-msgstr ""
+msgstr "ドキュメントの構造化、更新、研磨などのコンテンツ\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We prefer to work in an Agile fashion, so the work will be done in 1-2 week sprints. We prefer interns collaborating and coordinating on the tasks. The choice of tasks will be up to the two interns to decide among themselves.\n"
-msgstr ""
+msgstr "私たちはアジャイル方式で仕事をしたいと考えていますので、仕事は1～2週間のスプリントで行われます。インターンが協力してタスクに取り組むことを希望しています。タスクの選択は、2人のインターンの間で決めていただきます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "With that in mind we have the following *draft* timeline in mind:\n"
-msgstr ""
+msgstr "それを踏まえた上で、以下のような*ドラフト*のタイムラインを考えています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Outreachy-May2020-Update/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 " 1. Getting started\n"
 "   * Study the current website and the technology stack involved. By the end of this, you will be able to articulate how the website is built, where each aspect of the website is defined and how to go about implementing changes. A good outcome of this would be writing the website contribution guide with the acquired knowledge.\n"
@@ -173,3 +173,11 @@ msgid ""
 " 1. Implement changes\n"
 " 1. Reflect on implemented changes and repeat the process changing previous assumptions and decisions as needed\n"
 msgstr ""
+"1.スタートアップ\n"
+"   現在のWebサイトと、それに関わる技術スタックを研究します。これを終える頃には、Webサイトがどのように構築されているか、Webサイトの各側面がどこで定義されているか、変更をどのように実施するかを明確にできるようになるでしょう。このようにして得られた知識をもとに、Webサイト貢献ガイドを書くことが良い結果につながります。\n"
+"   インスピレーションを得るために、似たようなウェブサイトを研究する。これが終わる頃には、類似のウェブサイトを紹介し、そのアプローチの長所と短所を議論し、現在のウェブサイトと対比させることができるようになります。その結果、以下のような文書を作成するとよいでしょう。\n"
+" 1.情報アーキテクチャに取り組む。結果として、Webサイトの構成を示すWebサイトのビジュアルマップを作成します。\n"
+" 1.ウェブサイトのデザイン案を作成する。最終的には、デザインのモックアップを作成します。\n"
+" 1.事前に行ったタスクに基づいて、実装をより小さなタスクに分割し、各タスクの概要をJIRA課題として作成します。\n"
+" 1.変更の実施\n"
+" 1.実施した変更を振り返り、必要に応じて以前の仮定や決定を変更してプロセスを繰り返します。\n"

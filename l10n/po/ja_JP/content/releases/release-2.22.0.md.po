@@ -18,61 +18,61 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/releases/release-2.22.0.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Major release for 2.22.x"
-msgstr ""
+msgstr "2.22.xのメジャーリリース"
 
 #. type: YAML Front Matter: title
 #: upstream/content/releases/release-2.22.0.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Release 2.22.0"
-msgstr ""
+msgstr "リリース 2.22.0"
 
 #. type: Plain text
 #: upstream/content/releases/release-2.22.0.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Welcome to the 2.22.0 release which resolved 216 issues including new features, improvements and bug fixes.\n"
-msgstr ""
+msgstr "新機能、改善、バグ修正を含む216の問題を解決した2.22.0リリースへようこそ。\n"
 
 #. type: Plain text
 #: upstream/content/releases/release-2.22.0.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release supports only Spring Boot 2. Spring Boot v1 is no longer supported.\n"
-msgstr ""
+msgstr "本リリースでは、Spring Boot 2のみをサポートしています。Spring Boot v1のサポートは終了しています。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.22.0.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel has upgraded from Spring Boot v1 to v2 and therefore v1 is no longer supported. \n"
-msgstr ""
+msgstr "Camelは、Spring Boot v1からv2にアップグレードしたため、v1はサポートされなくなりました。 \n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.22.0.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Upgraded to Spring Framework 5. Camel should work with Spring 4.3.x as well, but going forward Spring 5.x will be the minimum Spring version in future releases. \n"
-msgstr ""
+msgstr "Spring Framework 5にアップグレードしました。CamelはSpring 4.3.xでも動作しますが、今後のリリースではSpring 5.xが最小のSpringバージョンとなります。 \n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.22.0.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Upgraded to Karaf 4.2. You may run Camel on Karaf 4.1 but we only officially support Karaf 4.2 in this release.\n"
-msgstr ""
+msgstr "Karaf 4.2にアップグレードしました。CamelはKaraf 4.1でも動作しますが、本リリースではKaraf 4.2のみを公式にサポートしています。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.22.0.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Optimised using toD DSL to reuse endpoints and producers for components where its possible. For example HTTP based components will now reuse producer (http clients) with dynamic uris sending to the same host. See more details in the toD documentation.\n"
-msgstr ""
+msgstr "toD DSLを使用して、コンポーネントのエンドポイントとプロデューサーを可能な限り再利用するように最適化しました。例えば、HTTPベースのコンポーネントでは、同じホストに送信するダイナミックURIを持つプロデューサー（httpクライアント）を再利用できるようになりました。詳細は toD のドキュメントをご覧ください。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.22.0.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The File2 consumer with read-lock idempotent/idempotent-changed can now be configured to delay the release tasks to expand the window when a file is regarded as in-process, which is usable in active/active cluster settings with a shared idempotent repository to ensure other nodes dont too quickly see a processed file as a file they can process (only needed if you have readLockRemoveOnCommit=true).\n"
-msgstr ""
+msgstr "リードロックが idempotent/idempotent-changed の File2 コンシューマーは、ファイルが処理中とみなされたときに、リリースタスクを遅らせてウィンドウを拡大するように構成できるようになりました。これは、共有 idempotent リポジトリを使用したアクティブ/アクティブ クラスタ設定で使用でき、他のノードが処理済みのファイルを処理可能なファイルと早合点しないようにします (readLockRemoveOnCommit=true を設定している場合のみ必要)。\n"
 
 #. type: Plain text
 #: upstream/content/releases/release-2.22.0.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "* Allow to plugin a custom request/reply correlation id manager implementation on Netty4 producer in request/reply mode.\n"
 "The Twitter component now uses extended mode by default to support tweets > 140 characters\n"
@@ -83,51 +83,59 @@ msgid ""
 "* The SEDA component now has a default queue size of 1000 instead of unlimited. \n"
 "And these important fixes:\n"
 msgstr ""
+"リクエスト/リプライモードのNetty4プロデューサー上で、カスタムのリクエスト/リプライ相関IDマネージャー実装をプラグインできるようになりました。\n"
+"Twitterコンポーネントは、140文字以上のツイートをサポートするために、デフォルトで拡張モードを使用するようになりました。\n"
+"* Rest DSLプロデューサーは、endpointPropertiesを介してレストコンフィギュレーションで構成されることをサポートするようになりました。\n"
+"* Kafkaコンポーネントは、CamelとKafkaメッセージ間のヘッダマッピングを制御するためのカスタム実装をプラグインするHeaderFilterStrategyをサポートするようになりました。\n"
+"* Rest DSLは、Content-Type/Acceptヘッダがレストサービスで可能かどうかを検証するために、クライアントリクエストバリデーションをサポートします。\n"
+"Camelの実装やSpring Cloudを使用して、consul、etcd、zookeeperなどのサービスレジストリへのルートを登録できるサービスレジストリSPIができました。\n"
+"SEDAコンポーネントのデフォルトのキューサイズは、無制限ではなく1000です。 \n"
+"その他、重要な修正があります。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.22.0.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fixed a CXF continuation timeout issue with camel-cxf consumer could cause the consumer to return a response with data instead of triggering a timeout to the calling SOAP client.\n"
-msgstr ""
+msgstr "camel-cxfコンシューマーのCXF継続タイムアウトの問題を修正しました。コンシューマーが、呼び出したSOAPクライアントにタイムアウトをトリガするのではなく、データを含むレスポンスを返すことがありました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.22.0.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fixed camel-cxf consumer doesn't release UoW when using robust oneway operation\n"
-msgstr ""
+msgstr "Fixed camel-cxf consumer doesn't release UoW when using robust oneway operation\n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.22.0.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fixed using AdviceWith and using weave methods on onException etc. not working. \n"
-msgstr ""
+msgstr "AdviceWithを使用し、onExceptionなどでweaveメソッドを使用すると動作しないのを修正しました。 \n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.22.0.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fixed Splitter in parallel processing and streaming mode may block, while iterating message body when the iterator throws exception in first invoked next() method call.\n"
-msgstr ""
+msgstr "並列処理やストリーミングモードのSplitterで、最初に呼び出されたnext()メソッドの呼び出しでイテレータが例外を起こした場合、メッセージボディの反復処理中にブロックすることがありました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.22.0.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fixed Kafka consumer to not auto commit if autoCommitEnable=false.\n"
-msgstr ""
+msgstr "autoCommitEnable=falseの場合にKafkaコンシューマーが自動コミットしないように修正しました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.22.0.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fixed file consumer was using markerFile as read-lock by default, which should have been none. \n"
-msgstr ""
+msgstr "ファイルコンシューマーがデフォルトで markerFile をリードロックとして使用していたのを修正しました（本来ならば、なしにすべきでした）。 \n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.22.0.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fixed using manual commit with Kafka to provide the current record offset and not the previous (and -1 for first)\n"
-msgstr ""
+msgstr "Kafkaの手動コミットで、前のレコードではなく、現在のレコードのオフセットを提供するように修正（最初のレコードには-1を提供）。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.22.0.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fixed Content Based Router in Java DSL may not resolve property placeholders in when predicates\n"
-msgstr ""
+msgstr "Java DSL の Content Based Router で、when 述語の中のプロパティプレースホルダーを解決できないことがある。\n"

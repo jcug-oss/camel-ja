@@ -18,66 +18,70 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Status update on Camel 3 only 2 months away"
-msgstr ""
+msgstr "Camel 3の発売まであと2ヶ月となりました。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3 is only 2 months away"
-msgstr ""
+msgstr "Apache Camel 3のリリースまであと2ヶ月"
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel team is busy working on the last set of work for Apache Camel 3. Today the 2nd release candidate was built and published on a staging repository for [early adopters to give it a try](https://mail-archives.apache.org/mod_mbox/camel-dev/201910.mbox/%3CCADL1oAqjZVvbJ1cnxqzdcUk%2BkuyCMdyc7w8agZuoN6SYZjPDnA%40mail.gmail.com%3E).\n"
-msgstr ""
+msgstr "Camelチームは、Apache Camel 3に向けた最後の作業に忙しく取り組んでいます。本日、第2回目のリリース候補がビルドされ、[アーリーアダプターの皆様にお試しいただくために]ステージングリポジトリで公開されました(https://mail-archives.apache.org/mod_mbox/camel-dev/201910.mbox/%3CCADL1oAqjZVvbJ1cnxqzdcUk%2BkuyCMdyc7w8agZuoN6SYZjPDnA%40mail.gmail.com%3E)。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As I am busy myself then I just wanted to write a short blog post to keep the community posted that Apache Camel 3 is on the way, and that we expect it to be released by end of this year (sometime in November or December).\n"
-msgstr ""
+msgstr "私自身も忙しいので、短いブログ記事を書いて、コミュニティにApache Camel 3のリリースが近づいていること、そして今年末（11月か12月の間）にリリースされる予定であることをお知らせしたいと思います。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The latest deadline is to release Camel 3.0 before December 19th, 2019 as it was exactly on that day 1 year ago, we switched the master branch to become the work branch for Apache Camel 3. That means the total development time for Camel 3 would be 1 year.\n"
-msgstr ""
+msgstr "最新の期限は、2019年12月19日までにCamel 3.0をリリースすることです。というのも、ちょうど1年前のその日に、Apache Camel 3のmasterブランチをworkブランチに切り替えたからです。つまり、Camel 3の総開発期間は1年ということになります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Here is an illustration that highlights the timeline of Camel 3:\n"
-msgstr ""
+msgstr "ここでは、Camel 3のタイムラインを強調したイラストを紹介します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"camel3-progress.png\" \"Camel 3 timeline\" >}}\n"
 msgstr ""
+"< image \"camel3-progress.png\" \"Camel 3 timeline\" >{{}}\n"
+"</image>"
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "That is not all Apache Camel, is now a family of 3 projects (at this moment). So working on Camel 3 is not all we do. [Camel K](https://github.com/apache/camel-k/) and [Camel Quarkus](https://github.com/apache/camel-quarkus) are very promising for cloud-native integration (microservices and serverless).\n"
-msgstr ""
+msgstr "それだけではありません。Apache Camelは現在、（現時点で）3つのプロジェクトからなるファミリーです。ですから、Camel 3に取り組むことが私たちの仕事のすべてではありません。Camel K](https://github.com/apache/camel-k/)と[Camel Quarkus](https://github.com/apache/camel-quarkus)は、クラウドネイティブな統合（マイクロサービスやサーバーレス）のために非常に有望です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"camel3-projects.png\" \"Camel 3 projects\" >}}\n"
 msgstr ""
+"< image \"camel3-projects.png\" \"Camel 3 projects\" >{{}}\n"
+"</image>"
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "These projects have their own lifecycle. Will will post more details about these projects, and what’s new in Camel 3 in the following months leading up to the final release of Camel 3. So stay tuned.\n"
-msgstr ""
+msgstr "これらのプロジェクトは、それぞれ独自のライフサイクルを持っています。ウィルは、これらのプロジェクトやCamel 3の新機能について、Camel 3の最終リリースまでの数ヶ月間に、より詳細な情報を掲載する予定です。どうぞご期待ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "PS: If you are migrating Camel 2.x applications to Camel 3, then read the [migration guide](/manual/latest/camel-3-migration-guide.html).\n"
-msgstr ""
+msgstr "PS: Camel 2.xのアプリケーションをCamel 3に移行する場合は、[移行ガイド](/manual/latest/camel-3-migration-guide.html)をお読みください。\n"

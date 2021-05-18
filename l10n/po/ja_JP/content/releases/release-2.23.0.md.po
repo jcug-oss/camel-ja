@@ -18,33 +18,35 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/releases/release-2.23.0.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Major release for 2.23.x"
-msgstr ""
+msgstr "2.23.xのメジャーリリース"
 
 #. type: YAML Front Matter: title
 #: upstream/content/releases/release-2.23.0.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Release 2.23.0"
-msgstr ""
+msgstr "リリース 2.23.0"
 
 #. type: Plain text
 #: upstream/content/releases/release-2.23.0.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Welcome to the Apache Camel 2.23.0 release which is a new minor release and resolved 262 issues\n"
 "including new features, improvements and bux fixes.\n"
 msgstr ""
+"Apache Camel 2.23.0リリースへようこそ！このリリースは新しいマイナーリリースで、新機能、改善、バグ修正を含む262の問題を解決しています。\n"
+"新機能、改善、バグ修正を含む262の問題を解決しました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.23.0.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Upgraded to Spring Boot 2.1.\n"
-msgstr ""
+msgstr "Spring Boot 2.1にアップグレードしました。\n"
 
 #. type: Plain text
 #: upstream/content/releases/release-2.23.0.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "* Additional component level options can now be configured via spring-boot auto-configuration and\n"
 "these options is included in spring-boot component metadata json file descriptor for tooling\n"
@@ -63,16 +65,32 @@ msgid ""
 "* The swagger-restdsl maven plugin now has supports for generating DTO model classes from the\n"
 "swagger specification file.\n"
 msgstr ""
+"コンポーネントレベルの追加オプションを、spring-bootの自動設定で設定できるようになりました。\n"
+"これらのオプションは、ツールの支援のために spring-boot component metadata json file descriptor に含まれます。\n"
+"をサポートしました。\n"
+"* すべてのコンポーネントのためのすべてのスプリングブート自動構成オプションのセクションを追加しました。\n"
+"すべてのコンポーネント、データフォーマット、言語のためのすべてのスプリングブート自動設定オプションのセクションをドキュメントに追加しました。\n"
+"* すべてのCamel Spring BootスターターJARは、以下を含むようになりました。\n"
+"META-INF/spring-autoconfigure-metadata.propertiesファイルをJARに含めることで、Spring Bootの\n"
+"自動設定を最適化します。\n"
+"スロットラーが動的表現に基づく相関グループをサポートし、メッセージを異なるスロットルセットにグループ化できるようになりました。\n"
+"スロットラーがダイナミック式による相関グループをサポートしたことで、メッセージを異なるスロットルセットにグループ化できるようになりました。\n"
+"Hystrix EIPでは、Camelのエラーハンドラを継承できるようになりました。\n"
+"ブロック全体を再試行します。\n"
+"Hystrix EIPでは、Camelのエラーハンドラを継承することができます。これまでは、シンプルな\n"
+"簡単な式で豆を呼び出すのが主な目的であることに注意してください。\n"
+"* swagger-restdsl mavenプラグインは、swagger仕様ファイルからのDTOモデルクラスの生成をサポートします。\n"
+"swagger仕様ファイルからDTOモデルクラスを生成する機能が追加されました。\n"
 
 #. type: Plain text
 #: upstream/content/releases/release-2.23.0.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The following noteworthy bugs has been fixed:\n"
-msgstr ""
+msgstr "以下の注目すべきバグが修正されました。\n"
 
 #. type: Plain text
 #: upstream/content/releases/release-2.23.0.md:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "* The Aggregator2 has been fixed to not propagate control headers for forcing completion of all\n"
 "groups, so it will not happen again if another aggregator EIP are in use later during routing.\n"
@@ -91,3 +109,19 @@ msgid ""
 "OPTIONS requests (such as when using rest-dsl)\n"
 "* Fixed thread-safety issue with FluentProducerTemplate\n"
 msgstr ""
+"Aggregator2では、全グループを強制的に完了させるための制御ヘッダを伝搬しないように修正しました。\n"
+"これにより、ルーティング中に別のアグリゲータのEIPが使用されていても、再度発生しないようになりました。\n"
+"これにより、ルーティング中に別のアグリゲータのEIPが使用された場合に、再度発生することはありません。\n"
+"* XMLドキュメントの組み込み型コンバータが、標準出力にパースエラーを出力することがありました。\n"
+"ロギングAPI経由で出力されるように修正されました。\n"
+"* メッセージボディがストリーミングベースの場合、charset オプションを使った SFTP によるファイルの書き込みが機能しない問題を修正しました。\n"
+"をベースにしました。\n"
+"* Fixed Zipkin root id is not reused when routing over multiple routes to group them together into single parent span.\n"
+"再利用されないように修正しました。\n"
+"HTTP エンドポイントを使用する際、ホスト名に数字を含む IP アドレスが含まれている場合にバグがあったため、最適化された toD を修正しました。\n"
+"数字\n"
+"一時的なキューを介してリクエスト/リプライを行うRabbitMQで、マニュアルアクノレッジモードを使用した場合に、一時的なアクノレッジを行わない問題を修正しました。\n"
+"モードを使用すると、一時的なキューを確認しない問題を修正しました。\n"
+"HTTPコンシューマーコンポーネントが、OPTIONSリクエストのAllowヘッダーに許可された全てのHTTP動詞を返さないことがある問題を修正しました。\n"
+"OPTIONSリクエストのAllowヘッダーで、許可されたすべてのHTTP動詞を返さない場合がありました（rest-dsl使用時など）。\n"
+"FluentProducerTemplateのスレッドセーフの問題を修正しました。\n"

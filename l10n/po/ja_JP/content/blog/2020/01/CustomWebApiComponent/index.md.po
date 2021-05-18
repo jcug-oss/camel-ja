@@ -18,69 +18,71 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Build your own custom Web API Component from scratch."
-msgstr ""
+msgstr "独自のカスタムWeb APIコンポーネントをゼロから構築することができます。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Custom Web API Component"
-msgstr ""
+msgstr "カスタムWeb APIコンポーネント"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Have you built a new great Web API for your product? Wouldn't be wonderful to have it available as a part of the great [Apache Camel component family](/components/latest/)? We would love it.\n"
-msgstr ""
+msgstr "あなたの製品のために新しい素晴らしいWeb APIを構築しましたか？それが、素晴らしい[Apache Camel component family](/components/latest/)の一部として利用できるようになったら、素晴らしいと思いませんか？私たちはそれを望んでいます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The community just released [Camel 3](/blog/2019/12/Camel3-Whatsnew/) which is more modular, lightweight and already includes lots of components (300+) to quickly integrate various systems consuming or producing data. All of these components can be used with the same integration domain specific language (DSL) based on the famous [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com) (EIPs).\n"
-msgstr ""
+msgstr "Camel 3](/blog/2019/12/Camel3-Whatsnew/)がリリースされました。このCamel 3は、よりモジュール化され、軽量化されており、データを消費または生成する様々なシステムを迅速に統合するための多くのコンポーネント(300以上)がすでに含まれています。これらのコンポーネントはすべて、有名な[Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com) (EIPs)に基づいた同じ統合ドメイン固有言語(DSL)で使用することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Creating a new component is actually pretty simple and, as a benefit, you will also have the possibility to use Camel sub-projects to make your Web API available within different runtimes: [SpringBoot](https://github.com/apache/camel-spring-boot) (auto-config), [Quarkus](https://github.com/apache/camel-quarkus) (Java native compilation) and [Camel-K](https://github.com/apache/camel-k) (serverless work).\n"
-msgstr ""
+msgstr "新しいコンポーネントの作成は非常に簡単で、Camelのサブプロジェクトを使用して、さまざまなランタイムでWeb APIを利用できるようにすることもできます。SpringBoot](https://github.com/apache/camel-spring-boot) (自動設定)、[Quarkus](https://github.com/apache/camel-quarkus) (Javaネイティブコンパイル)、[Camel-K](https://github.com/apache/camel-k) (サーバーレス作業)です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This minimal, yet complete, example will focus on all the steps required to create and contribute your own Web API component to the Apache Camel codebase.\n"
-msgstr ""
+msgstr "この最小かつ完全な例では、独自のWeb APIコンポーネントを作成してApache Camelのコードベースに貢献するために必要なすべてのステップに焦点を当てています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "As prerequisites you just need OpenJDK 1.8 and Maven 3.5+.\n"
 "[Download the complete source code](camel-chuck.zip).\n"
 msgstr ""
+"前提条件として、OpenJDK 1.8とMaven 3.5+が必要です。\n"
+"完全なソースコードのダウンロード](camel-chuck.zip)。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "API endpoint"
-msgstr ""
+msgstr "APIエンドポイント"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "To keep the example short and simple, we have chosen the [free JSON API for hand curated Chuck Norris facts](https://api.chucknorris.io). This is perfect to showcase how to create our new component, without having to deal with all the details and complexity of a full blown API.\n"
-msgstr ""
+msgstr "例を短くシンプルにするために、[free JSON API for hand curated Chuck Norris facts](https://api.chucknorris.io)を選びました。これは、本格的なAPIの詳細や複雑さに対処することなく、新しいコンポーネントを作成する方法を紹介するのに最適です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There are a few endpoints available, but we will use the following to retrieve a random joke in JSON format:\n"
-msgstr ""
+msgstr "いくつかのエンドポイントが用意されていますが、ここでは以下の方法でランダムなジョークをJSON形式で取得します。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "$ curl https://api.chucknorris.io/jokes/random | jq\n"
 "{\n"
@@ -93,36 +95,48 @@ msgid ""
 "  \"value\": \"Who wins in a race car race? chuck Norris always wins. No excuses.\"\n"
 "}\n"
 msgstr ""
+"$ curl https://api.chucknorris.io/jokes/random | jq\n"
+"{\n"
+"  \"categories\":[],\n"
+"  \"created_at\":\"2016-05-01 10:51:41.584544\",\n"
+"  \"icon_url\":\"https://assets.chucknorris.host/img/avatar/chuck-norris.png\"。\n"
+"  \"id\":\"TMGDYHjLSu-G5Jkueph9lA\",\n"
+"  \"updated_at\":\"2016-05-01 10:51:41.584544\",\n"
+"  \"url\":\"https://api.chucknorris.io/jokes/TMGDYHjLSu-G5Jkueph9lA\" です。\n"
+"  \"value\":\"レーシングカーのレースでは誰が勝つのか？ チャック・ノリスは常に勝つ。言い訳しないで。\"\n"
+"}\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Checkout and initial setup"
-msgstr ""
+msgstr "チェックアウトと初期設定"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The first step is to fork the official [Camel project on Github](https://github.com/apache/camel) and then clone it on your local machine with the following shell command (replace `$USERNAME` with yours):\n"
-msgstr ""
+msgstr "まず最初に、公式の[Camel project on Github](https://github.com/apache/camel)をフォークし、以下のシェルコマンドでローカルマシンにクローンします（`$USERNAME`はあなたのものに置き換えてください）。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "$ git clone git@github.com:$USERNAME/camel.git\n"
 "$ cd camel/components\n"
 msgstr ""
+"$ git clone git@github.com:$USERNAME/camel.git\n"
+"$ cd camel/components\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "At this point we could use the `camel-archetype-component` to generate the project skeleton, but I usually prefer to do it from scratch:\n"
-msgstr ""
+msgstr "この時点で、`camel-archetype-component`を使ってプロジェクトのスケルトンを生成することもできますが、私は通常、最初から作成することを好みます。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "$ mkdir -p camel-chuck/src/main/java/org/apache/camel/component/chuck \\\n"
 "    && mkdir -p camel-chuck/src/main/docs/chuck-component.adoc \\\n"
@@ -130,16 +144,21 @@ msgid ""
 "    && mkdir -p camel-chuck/src/test/resources \\\n"
 "    && cd camel-chuck\n"
 msgstr ""
+"$ mkdir -p camel-chuck/src/main/java/org/apache/camel/component/chuck\n"
+"    mkdir -p camel-chuck/src/main/docs/chuck-component.adoc\n"
+"    mkdir -p camel-chuck/src/test/java/org/apache/camel/component/chuck\n"
+"    mkdir -p camel-chuck/src/test/resources\n"
+"    &amp;&amp; cd camel-chuck\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Now we need to create the project object module (POM) for Maven build (use the same parent version that you find in `camel/pom.xml`):\n"
-msgstr ""
+msgstr "次に、Mavenビルド用のプロジェクト・オブジェクト・モジュール（POM）を作成する必要があります（`camel/pom.xml`にあるのと同じ親バージョンを使用します）。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "$ cat <<EOF > pom.xml\n"
 "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n"
@@ -182,16 +201,56 @@ msgid ""
 "    </dependencies>\n"
 "EOF\n"
 msgstr ""
+"$ cat &lt;<EOF >pom.xml\n"
+"<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n"
+"<project xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n"
+"    xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd\">\n"
+"<modelVersion>4.0.0</modelVersion>\n"
+"\n"
+"   <parent>\n"
+"       <groupId>org.apache.camel</groupId>\n"
+"       <artifactId>コンポーネント</artifactId>\n"
+"       <version>3.1.0-SNAPSHOT</version> </parent>\n"
+"   \n"
+"\n"
+"   <artifactId>camel-chuck</artifactId>\n"
+"   <packaging>壺</packaging>\n"
+"   <name>Camel ::チャック</name>\n"
+"   <description>キャメル・チャック・ノリスAPI</description>\n"
+"\n"
+"   <dependencies>\n"
+"       <dependency>\n"
+"           <groupId>org.apache.camel</groupId>\n"
+"           <artifactId>camel-support</artifactId> </dependency>\n"
+"       \n"
+"       <!-- test dependencies -->\n"
+"       <dependency>\n"
+"           <groupId>org.apache.camel</groupId>\n"
+"           <artifactId>camel-test-junit5</artifactId>\n"
+"           <scope>テスト</scope> </dependency>\n"
+"       \n"
+"       <dependency>\n"
+"           <groupId>org.apache.logging.log4j</groupId>\n"
+"           <artifactId>log4j-core</artifactId>\n"
+"           <scope>テスト</scope> </dependency>\n"
+"       \n"
+"       <dependency>\n"
+"           <groupId>org.apache.logging.log4j</groupId>\n"
+"           <artifactId>log4j-slf4j-impl</artifactId>\n"
+"           <scope>テスト</scope> </dependency> </dependencies></project></?xml></EOF>\n"
+"       \n"
+"   \n"
+"EOF\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:105
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Let's also add the log4j2 configuration that will be useful while testing:\n"
-msgstr ""
+msgstr "また、テスト時に役立つlog4j2の設定を追加しましょう。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:106
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "$ cat <<EOF > src/test/resources/log4j2.properties\n"
 "appender.out.type = Console\n"
@@ -206,16 +265,29 @@ msgid ""
 "logger.mine.level = INFO\n"
 "EOF\n"
 msgstr ""
+"$ cat &lt;<EOF >src/test/resources/log4j2.properties\n"
+"appender.out.type = Console\n"
+"アペンダー.アウト.ネーム = アウト\n"
+"appender.out.layout.type = PatternLayout\n"
+"appender.out.layout.pattern = %d [%15.15t] %highlight{%-5p}.%-30.30c - %m%n\n"
+"rootLogger.level = INFO\n"
+"rootLogger.appenderRef.out.ref = out\n"
+"\n"
+"ロガー = mine\n"
+"logger.mine.name = org.apache.camel.component.chuck\n"
+"logger.mine.level = INFO\n"
+"EOF\n"
+"</EOF> "
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:122
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "That's all for the initial setup, your project folder should look like this:\n"
-msgstr ""
+msgstr "以上で初期設定は完了です。プロジェクトフォルダは以下のようになっているはずです。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:123
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "$ tree\n"
 ".\n"
@@ -240,34 +312,56 @@ msgid ""
 "│       └── resources\n"
 "│           └── log4j2.properties\n"
 msgstr ""
+"ツリー\n"
+".\n"
+"├── pom.xml\n"
+"├──src\n"
+"│ ├── main\n"
+"│ ├──docs\n"
+"│ │ └──chuck-component.adoc\n"
+"│ └...java\n"
+"│ └── org\n"
+"│ └──apache\n"
+"│ └──キャメル\n"
+"│ └──コンポーネント\n"
+"│ └──chuck\n"
+"│ └──テスト\n"
+"\n"
+"│ └── org\n"
+"│ └──apache\n"
+"│ └──キャメル\n"
+"│ └──コンポーネント\n"
+"│ └──chuck\n"
+"│ └──リソース\n"
+"│ └──log4j2.properties\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:148
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Component creation"
-msgstr ""
+msgstr "コンポーネントの作成"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:151
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "After the initial project setup, we are ready to add the component main building blocks.\n"
-msgstr ""
+msgstr "プロジェクトの初期設定が終わると、コンポーネントの主要な構成要素を追加する準備が整います。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:153
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "When the Camel Context starts, it creates the Component object, that creates the Endpoint object, that in turns creates the Producer and the Consumer objects as needed. The Camel API includes convenient default implementation for all of them, that are also easy to extend.\n"
-msgstr ""
+msgstr "Camel Contextが起動すると、Componentオブジェクトが作成され、Endpointオブジェクトが作成され、さらに必要に応じてProducerとConsumerオブジェクトが作成されます。Camel APIには、これらのオブジェクトの便利なデフォルト実装が含まれており、簡単に拡張することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:155
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Our component class extends the DefaultComponent class and we also add a configuration class to hold component's query parameters that will allow some level of customization.\n"
-msgstr ""
+msgstr "コンポーネントクラスはDefaultComponentクラスを継承していますが、コンポーネントのクエリパラメータを保持するためのコンフィギュレーションクラスを追加し、ある程度のカスタマイズを可能にしています。\n"
 
 #. type: Fenced code block (java)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:156
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "@Component(\"chuck\")\n"
 "public class ChuckComponent extends DefaultComponent {\n"
@@ -278,16 +372,25 @@ msgid ""
 "    }\n"
 "}\n"
 msgstr ""
+"@Component(\"chuck\")\n"
+"public class ChuckComponent extends DefaultComponent {.\n"
+"    オーバーライド\n"
+"    protected Endpoint createEndpoint(final String uri, String remaining, final Map<String, Object>parameters) throws Exception { @</String,>Override<String, Object>\n"
+"        final ChuckConfiguration configuration = new ChuckConfiguration();\n"
+"        //…\n"
+"    }\n"
+"}\n"
+"</String,> "
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:168
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Then, we need to extend the DefaultEndpoint and the DefaultAsyncProducer to be able to support asynchronous HTTP requests. For the vast majority of web APIs we don't need to create a Consumer, unless you have a polling endpoint. In that case, you would need to extend ScheduledPollEndpoint and ScheduledPollConsumer.\n"
-msgstr ""
+msgstr "そして、DefaultEndpointとDefaultAsyncProducerを拡張して、非同期のHTTPリクエストをサポートする必要があります。ポーリングエンドポイントがある場合を除き、大部分のWeb APIではConsumerを作成する必要はありません。その場合は、ScheduledPollEndpointとScheduledPollConsumerを拡張する必要があります。\n"
 
 #. type: Fenced code block (java)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:169
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "@UriEndpoint(firstVersion = \"3.0.0\", scheme = \"chuck\", title = \"Chuck\", syntax = \"chuck:type\", label = \"chuck\", producerOnly = true)\n"
 "public class ChuckEndpoint extends DefaultEndpoint {\n"
@@ -320,28 +423,58 @@ msgid ""
 "    }\n"
 "}\n"
 msgstr ""
+"@UriEndpoint(firstVersion = \"3.0.0\", scheme = \"chuck\", title = \"Chuck\", syntax = \"chuck:type\", label = \"chuck\", producerOnly = true)\n"
+"public class ChuckEndpoint extends DefaultEndpoint {\n"
+"    UriParam\n"
+"    private ChuckConfiguration コンフィギュレーション。\n"
+"    //…\n"
+"    @Override\n"
+"    protected void doStart() throws Exception {...\n"
+"        //…\n"
+"    }\n"
+"    @オーバーライド\n"
+"    protected void doStop() throws Exception { //...\n"
+"        //…\n"
+"    }\n"
+"    @オーバーライド\n"
+"    public Producer createProducer() throws Exception {.\n"
+"        return new ChuckProducer(this);\n"
+"    }\n"
+"    オーバーライド\n"
+"    パブリックConsumer createConsumer(Processor processor) throws Exception {\n"
+"        throw new UnsupportedOperationException(\"No support for consumers\");\n"
+"    }\n"
+"}\n"
+"\n"
+"public class ChuckProducer extends DefaultAsyncProducer {.\n"
+"    @オーバーライド\n"
+"    public boolean process(Exchange exchange, AsyncCallback callback) {.\n"
+"        //…\n"
+"        falseを返します。\n"
+"    }\n"
+"}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:203
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In the process method of the Producer we return false to signal that the processing will be executed asynchronously. Look at the repository for the full source code, but these are the only classes needed to start building a new component.\n"
-msgstr ""
+msgstr "Producerのprocessメソッドでは、処理が非同期に実行されることを示すためにfalseを返しています。ソースコードの全文はリポジトリをご覧ください。しかし、新しいコンポーネントを作り始めるのに必要なクラスはこれだけです。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:204
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "API service"
-msgstr ""
+msgstr "APIサービス"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:207
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "To implement the call logic we need to add some more dependencies, mainly to deal with the HTTP request and JSON parsing.\n"
-msgstr ""
+msgstr "呼び出しロジックを実装するためには、さらにいくつかの依存関係を追加する必要があります。主に、HTTPリクエストとJSONの解析を処理します。\n"
 
 #. type: Fenced code block (xml)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:208
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "        <dependency>\n"
 "            <groupId>org.asynchttpclient</groupId>\n"
@@ -363,22 +496,41 @@ msgid ""
 "            <version>${jackson2-version}</version>\n"
 "        </dependency>\n"
 msgstr ""
+"        <dependency>\n"
+"            <groupId>org.asynchttpclient</groupId>\n"
+"            <artifactId>非同期型httpクライアント</artifactId>\n"
+"            <version>${ahc-version}の場合</version>\n"
+"        </dependency>\n"
+"        <dependency>\n"
+"            <groupId>com.fetterxml.jackson.core</groupId>\n"
+"            <artifactId>jackson-databind</artifactId>\n"
+"        </dependency>\n"
+"        <dependency>\n"
+"            <groupId>com.fetterxml.jackson.core</groupId>\n"
+"            <artifactId>jackson-annotations</artifactId>\n"
+"            <version>${jackson2-version}に対応しています。</version>\n"
+"        </dependency>\n"
+"        <dependency>\n"
+"            <groupId>com.fetterxml.jackson.datatype</groupId>\n"
+"            <artifactId>jackson-datatype-jsr310</artifactId>\n"
+"            <version>${jackson2-version} jackson-datatype-jsr310</version>\n"
+"        </dependency>\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:231
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The [AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client) (AHC) library is built on top of Netty and allows Java applications to easily execute asynchronous HTTP requests and it fits nicely with the Camel asynchronous routing engine. [JacksonDataBind](https://github.com/FasterXML/jackson-databind) is used to convert JSON data to and from plain old Java object (POJO) using annotations.\n"
-msgstr ""
+msgstr "AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client) (AHC)ライブラリは、Nettyの上に構築されており、Javaアプリケーションが簡単に非同期HTTPリクエストを実行することができ、Camelの非同期ルーティングエンジンとうまく適合します。JacksonDataBind](https://github.com/FasterXML/jackson-databind)は、アノテーションを使用して、JSONデータをPOJO(plain old Java object)との間で変換するために使用されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:233
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The model for our API is really basic and consists of one annotated class:\n"
-msgstr ""
+msgstr "私たちのAPIのモデルは非常に基本的で、1つのアノテーションされたクラスで構成されています。\n"
 
 #. type: Fenced code block (java)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:234
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "@JsonIgnoreProperties(ignoreUnknown = true)\n"
 "public class RandomJoke {\n"
@@ -391,49 +543,62 @@ msgid ""
 "    …\n"
 "}\n"
 msgstr ""
+"@JsonIgnoreProperties(ignoreUnknown = true)\n"
+"パブリッククラスRandomJoke {\n"
+"    @JsonProperty(\"id\")\n"
+"    private String id;\n"
+"    @JsonProperty(\"url\")\n"
+"    プライベート String url;\n"
+"    @JsonProperty(\"value\")\n"
+"    private String value;\n"
+"    …\n"
+"}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:248
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The service interface represents our API adapter and contains a method to call the random jokes endpoint which takes a callback object. This is the method called by our AsyncProducer class as defined by the message pipeline (see the test example in the next section).\n"
-msgstr ""
+msgstr "サービス・インターフェースは、APIアダプターを表し、コールバック・オブジェクトを取るランダム・ジョーク・エンドポイントを呼び出すメソッドを含んでいます。これは、メッセージ・パイプラインで定義されたAsyncProducerクラスから呼び出されるメソッドです（次のセクションのテスト例を参照）。\n"
 
 #. type: Fenced code block (java)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:249
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "public interface ApiService {\n"
 "    void randomJoke(Exchange exchange, AsyncCallback callback);\n"
 "}\n"
 msgstr ""
+"public interface ApiService {\n"
+"    void randomJoke(Exchange exchange, AsyncCallback callback);\n"
+"}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:256
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can check the implementation of this interface which uses the AsyncHttpClient to actually do the HTTP request. The most interesting part is the ChuckAsyncHandler inner class, that gets the response and handles the Camel Exchange object (message container).\n"
-msgstr ""
+msgstr "このインターフェースの実装を確認すると、AsyncHttpClientを使って実際にHTTPリクエストを行っています。一番面白いのはChuckAsyncHandlerというインナークラスで、レスポンスを取得し、Camel Exchangeオブジェクト(メッセージコンテナ)を処理します。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:257
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Unit and integration tests"
-msgstr ""
+msgstr "ユニットテストと統合テスト"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:260
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A component would not be complete without a good set of unit and integration tests. This is also an easy task to do thanks to the CamelTestSupport which has some nice abstractions that allows you to create and test your routes.\n"
-msgstr ""
+msgstr "コンポーネントは、ユニットテストや統合テストがなければ完成しません。CamelTestSupportには、ルートの作成とテストを可能にする素晴らしい抽象化機能があるので、これも簡単に行うことができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:262
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In this case we add the [Wiremock](https://github.com/tomakehurst/wiremock) dependency, which is a tool for HTTP response stubbing:\n"
-msgstr ""
+msgstr "ここでは、HTTPレスポンススタッビングのためのツールである[Wiremock](https://github.com/tomakehurst/wiremock)の依存関係を追加しています。\n"
 
 #. type: Fenced code block (xml)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:263
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "        <dependency>\n"
 "            <groupId>com.github.tomakehurst</groupId>\n"
@@ -442,16 +607,22 @@ msgid ""
 "            <scope>test</scope>\n"
 "        </dependency>\n"
 msgstr ""
+"        <dependency>\n"
+"            <groupId>com.github.tomakehurst</groupId>\n"
+"            <artifactId>ワイヤーモック</artifactId>\n"
+"            <version>${wiremock-version}を使用しています。</version>\n"
+"            <scope>テスト</scope>\n"
+"        </dependency>\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:273
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In the integration test we simply create a RouteBuilder and call our Web API by using Message Endpoint EIP (`to`) and our component's URI (`chuck:jokes`), also logging the response. We are implicitly using the default base API URL that you can find in the ChuckConfiguration class, among the other parameters.\n"
-msgstr ""
+msgstr "統合テストでは、単純にRouteBuilderを作成し、メッセージエンドポイントEIP(`to`)とコンポーネントのURI(`chuck:jokes`)を使ってWeb APIを呼び出し、レスポンスのログも取っています。ここでは、ChuckConfigurationクラスにあるデフォルトのベースAPI URLを、他のパラメータと一緒に暗黙のうちに使用しています。\n"
 
 #. type: Fenced code block (java)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:274
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "public class ChuckComponentTest extends CamelTestSupport {\n"
 "    @Test\n"
@@ -476,16 +647,38 @@ msgid ""
 "    }\n"
 "}\n"
 msgstr ""
+"public class ChuckComponentTest extends CamelTestSupport {.\n"
+"    テスト\n"
+"    public void testRandomJoke() throws Exception {.\n"
+"        MockEndpoint mock = getMockEndpoint(\"mock:result\");\n"
+"        mock.expectedMinimumMessageCount(1);\n"
+"        mock.expectedBodyReceived().body(RandomJoke.class);\n"
+"        template.sendBody(\"direct:test\", \"\");\n"
+"        assertMockEndpointsSatisfied()を行います。\n"
+"    }\n"
+"\n"
+"    オーバーライド\n"
+"    プロテクトされたRouteBuilder createRouteBuilder() throws Exception { 。\n"
+"        return new RouteBuilder() {\n"
+"            public void configure() {\n"
+"                .from(\"direct:test\")\n"
+"                  .to(\"chuck:jokes\")\n"
+"                  .log(\"${body}\")\n"
+"                  .to(\"mock:result\");\n"
+"            }\n"
+"        };\n"
+"    }\n"
+"}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:300
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The unit test is the same, but this time we need to abstract away the real API by using a Fake web server running on localhost that will return a fixed response contained in `src/main/resource/__files/json/random-joke.json`. Note how we use the Camel's `AvailablePortFinder` utility to get the mock's port.\n"
-msgstr ""
+msgstr "ユニットテストの内容は同じですが、今回は実際のAPIを抽象化するために、localhost上で動作するFake Webサーバーを使用します。このFake Webサーバーは、`src/main/resource/__files/json/random-joke.json`に含まれる固定のレスポンスを返します。Camelの `AvailablePortFinder` ユーティリティを使って、モックのポートを取得していることに注目してください。\n"
 
 #. type: Fenced code block (java)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:301
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    private static WireMockServer wireMockServer;\n"
 " \n"
@@ -505,16 +698,33 @@ msgid ""
 "                .withBodyFile(\"json/random-joke.json\")));\n"
 "    }\n"
 msgstr ""
+"    private static WireMockServer wireMockServer;\n"
+" \n"
+"    ビフォアオール\n"
+"    public static void startServer() {\n"
+"        port = AvailablePortFinder.getNextAvailable();\n"
+"        wireMockServer = new WireMockServer(port);\n"
+"        wireMockServer.start();\n"
+"        setupStubs()です。\n"
+"    }\n"
+"\n"
+"    public static void setupStubs() {\n"
+"        WireMockServer.stubFor(get(urlEqualTo(\"/jokes/random\"))\n"
+"            .willReturn(aResponse())\n"
+"                .withHeader(\"Content-Type\", \"application/json; charset=UTF-8\")\n"
+"                .withStatus(HttpURLConnection.HTTP_OK)\n"
+"                .withBodyFile(\"json/random-joke.json\"))となります。)\n"
+"    }\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:322
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As an additional step we also need to customize the component's base URL to make it use our fake server on localhost:\n"
-msgstr ""
+msgstr "さらに、コンポーネントのベースURLをカスタマイズして、localhostのフェイクサーバーを使用するようにする必要があります。\n"
 
 #. type: Fenced code block (java)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:323
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    @Override\n"
 "    protected CamelContext createCamelContext() throws Exception {\n"
@@ -526,46 +736,55 @@ msgid ""
 "        return context;\n"
 "    }\n"
 msgstr ""
+"    オーバーライド\n"
+"    protected CamelContext createCamelContext() throws Exception {.\n"
+"        final CamelContext context = super.createCamelContext();\n"
+"        context.disableJMX();\n"
+"        final ChuckComponent component = new ChuckComponent();\n"
+"        component.setBaseUrl(\"http://localhost:\" + port);\n"
+"        context.addComponent(\"chuck\", component);\n"
+"        コンテキストを返します。\n"
+"    }\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:336
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "To run unit tests and code style check use the following command (check the required `maven-surefire-plugin` configuration in `pom.xml`):\n"
-msgstr ""
+msgstr "ユニットテストとコードスタイルチェックを実行するには、以下のコマンドを使用します (必要な `maven-surefire-plugin` の設定が `pom.xml` にあることを確認してください)。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:337
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "$ mvn clean install -Psourcecheck\n"
-msgstr ""
+msgstr "$ mvn clean install -Psourcecheck\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:342
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We run the slow integration tests using a different profile, that is not executed as part of the default build lifecycle:\n"
-msgstr ""
+msgstr "遅い統合テストは、デフォルトのビルドライフサイクルの一部としては実行されない、別のプロファイルを使用して実行します。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:343
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "$ mvn clean test -Pint\n"
-msgstr ""
+msgstr "$ mvn clean test -Pint\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:347
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Final integration and PR"
-msgstr ""
+msgstr "最終的な統合とPR"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:350
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The component is almost ready to be integrated in the current Camel codebase. To automatically generate the component documentation you just need to add the following placeholders and Camel plugins will take care of it.\n"
-msgstr ""
+msgstr "このコンポーネントは、現在の Camel のコードベースに統合する準備がほぼ整っています。コンポーネントのドキュメントを自動的に生成するには、以下のプレースホルダーを追加するだけで、Camelのプラグインがそれを処理します。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:351
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "$ cat <<EOF > src/docs/chuck-component.adoc\n"
 "\n"
@@ -577,16 +796,26 @@ msgid ""
 "\n"
 "EOF\n"
 msgstr ""
+"$ cat &lt;<EOF >src/docs/chuck-component.adoc\n"
+"\n"
+"// コンポーネントのオプション。START\n"
+"// コンポーネントのオプションEND\n"
+"\n"
+"// エンドポイントのオプションSTART\n"
+"// エンドポイントのオプションEND\n"
+"\n"
+"EOF\n"
+"</EOF> "
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:364
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Then, put the new component into the list of all Camel components by manually adding the module in `components/pom.xml`. Before doing a full build, it is also good to rebase the project to get the latest changes:\n"
-msgstr ""
+msgstr "そして、`components/pom.xml`に手動でモジュールを追加して、新しいコンポーネントをすべてのCamelコンポーネントのリストに入れます。完全なビルドを行う前に、最新の変更点を得るためにプロジェクトをリベースするのも良いでしょう。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:365
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "$ git remote add upstream git@github.com:apache/camel.git\n"
 "$ git pull --rebase upstream master\n"
@@ -594,31 +823,40 @@ msgid ""
 "$ cd ../..\n"
 "$ mvn clean install -Pfastinstall\n"
 msgstr ""
+"$ git remote add upstream git@github.com:apache/camel.git\n"
+"$ git pull --rebase upstream master\n"
+"\n"
+"$ cd .../...\n"
+"$ mvn clean install -Pfastinstall\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:374
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Finally, if the build is successful, you can create a new branch to host your changes, commit to your local repository and push the branch:\n"
-msgstr ""
+msgstr "最後に、ビルドが成功したら、変更内容をホストするための新しいブランチを作成し、ローカルリポジトリにコミットして、ブランチをプッシュします。\n"
 
 #. type: Fenced code block (sh)
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:375
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "$ git checkout -b camel-chuck\n"
 "$ git add .\n"
 "$ git commit -m \"camel-chuck component\"\n"
 "$ git push\n"
 msgstr ""
+"$ git checkout -b camel-chuck\n"
+"$ git add .\n"
+"$ git commit -m \"camel-chuck component\"\n"
+"$ git push\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:383
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The last step is to open a Pull Request (PR) directly from GitHub pages and wait for the community review and feedback. If you need any help before the PR, simply send an email to the developers mailing list and we will do our best to help.\n"
-msgstr ""
+msgstr "最後のステップは、GitHubページから直接プルリクエスト（PR）を開き、コミュニティのレビューやフィードバックを待つことです。PRの前に何かお困りのことがあれば、開発者用メーリングリストにメールを送っていただければ、全力でお手伝いします。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/01/CustomWebApiComponent/index.md:384
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Happy coding :)\n"
-msgstr ""
+msgstr "Happy coding :)\n"

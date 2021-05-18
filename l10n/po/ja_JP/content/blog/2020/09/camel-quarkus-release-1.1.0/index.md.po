@@ -18,240 +18,246 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus 1.1.0 Released"
-msgstr ""
+msgstr "Camel Quarkus 1.1.0リリース"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel Quarkus 1.1.0 has been released!\n"
-msgstr ""
+msgstr "Apache Camel Quarkus 1.1.0がリリースされました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We continue to integrate with the latest Camel and [Quarkus](https://quarkus.io/) releases, whilst adding new features and fixing bugs.\n"
-msgstr ""
+msgstr "最新のCamelや[Quarkus](https://quarkus.io/)のリリースとの統合を継続し、新機能の追加やバグの修正を行っています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For a full overview of the changes see the [1.1.0 milestone details](https://github.com/apache/camel-quarkus/milestone/5?closed=1).\n"
-msgstr ""
+msgstr "変更点の概要については、[1.1.0マイルストーンの詳細](https://github.com/apache/camel-quarkus/milestone/5?closed=1)をご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Here are some of the highlights.\n"
-msgstr ""
+msgstr "ここではその一部をご紹介します。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Major component upgrades"
-msgstr ""
+msgstr "主要コンポーネントのアップグレード"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Camel 3.5.0](/blog/2020/09/Camel35-Whatsnew/)\n"
-msgstr ""
+msgstr "[Camel 3.5.0](/blog/2020/09/Camel35-Whatsnew/)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Quarkus 1.8.0\n"
-msgstr ""
+msgstr "Quarkus 1.8.0\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New extensions"
-msgstr ""
+msgstr "新しいエクステンション"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We added a whopping 174 new extensions in this release! This is because Camel Quarkus will shortly become [the only and default runtime](http://camel.465427.n5.nabble.com/camel-k-switch-to-Quarkus-as-default-framework-for-integrations-td5869959.html) in our sibling project [Camel K](/camel-k/latest/). \n"
 "159 of the new extensions initially have support for JVM mode only.\n"
 msgstr ""
+"今回のリリースでは、なんと174もの新しい拡張機能を追加しました。これは、Camel Quarkusがまもなく兄弟プロジェクトである[Camel K](/camel-k/latest/)の[唯一かつデフォルトのランタイム](http://camel.465427.n5.nabble.com/camel-k-switch-to-Quarkus-as-default-framework-for-integrations-td5869959.html)になるためです。 \n"
+"新しいエクステンションのうち159個は、最初はJVMモードのみのサポートです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In addition, native support has been added to the following 16 extensions:\n"
-msgstr ""
+msgstr "また、以下の16種類の拡張機能にネイティブサポートが追加されています。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[ArangoDB](/camel-quarkus/latest/reference/extensions/arangodb.html)\n"
-msgstr ""
+msgstr "ArangoDB](/camel-quarkus/latest/reference/extensions/arangodb.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AS2](/camel-quarkus/latest/reference/extensions/as2.html)\n"
-msgstr ""
+msgstr "AS2](/camel-quarkus/latest/reference/extensions/as2.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AWS 2 Lambda](/camel-quarkus/latest/reference/extensions/aws2-lambda.html)\n"
-msgstr ""
+msgstr "[AWS 2 Lambda](/camel-quarkus/latest/reference/extensions/aws2-lambda.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AWS 2 Security Token Service (STS)](/camel-quarkus/latest/reference/extensions/aws2-sts.html)\n"
-msgstr ""
+msgstr "[AWS 2 Security Token Service (STS)](/camel-quarkus/latest/reference/extensions/aws2-sts.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS IAM\n"
-msgstr ""
+msgstr "AWS IAM\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Dropbox](/camel-quarkus/latest/reference/extensions/dropbox.html)\n"
-msgstr ""
+msgstr "Dropbox](/camel-quarkus/latest/reference/extensions/dropbox.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Flatpack](/camel-quarkus/latest/reference/extensions/flatpack.html)\n"
-msgstr ""
+msgstr "フラットパック](/camel-quarkus/latest/reference/extensions/flatpack.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Git](/camel-quarkus/latest/reference/extensions/git.html)\n"
-msgstr ""
+msgstr "Git](/camel-quarkus/latest/reference/extensions/git.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Master](/camel-quarkus/latest/reference/extensions/master.html)\n"
-msgstr ""
+msgstr "マスター](/camel-quarkus/latest/reference/extensions/master.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[NATS](/camel-quarkus/latest/reference/extensions/nats.html)\n"
-msgstr ""
+msgstr "NATS](/camel-quarkus/latest/reference/extensions/nats.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[RabbitMQ](/camel-quarkus/latest/reference/extensions/rabbitmq.html)\n"
-msgstr ""
+msgstr "RabbitMQ](/camel-quarkus/latest/reference/extensions/rabbitmq.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[SmallRye Reactive Messaging](/camel-quarkus/latest/reference/extensions/smallrye-reactive-messaging.html)\n"
-msgstr ""
+msgstr "スモールライ・リアクティブ・メッセージング](/camel-quarkus/latest/reference/extensions/smallrye-reactive-messaging.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[ThreadPoolFactory Vert.x](/camel-quarkus/latest/reference/extensions/threadpoolfactory-vertx.html)\n"
-msgstr ""
+msgstr "ThreadPoolFactory Vert.x](/camel-quarkus/latest/reference/extensions/threadpoolfactory-vertx.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Vert.x HTTP Client](/camel-quarkus/latest/reference/extensions/vertx-http.html)\n"
-msgstr ""
+msgstr "Vert.x HTTPクライアント](/camel-quarkus/latest/reference/extensions/vertx-http.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Vert.x WebSocket](/camel-quarkus/latest/reference/extensions/vertx-websocket.html)\n"
-msgstr ""
+msgstr "Vert.x WebSocket](/camel-quarkus/latest/reference/extensions/vertx-websocket.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Weather](/camel-quarkus/latest/reference/extensions/weather.html)\n"
-msgstr ""
+msgstr "天気予報】(/camel-quarkus/latest/reference/extensions/weather.html)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can browse the full list of supported extensions over at the [extensions reference](/camel-quarkus/latest/reference/index.html).\n"
-msgstr ""
+msgstr "サポートされているエクステンションの全リストは、[extensions reference](/camel-quarkus/latest/reference/index.html)でご覧いただけます。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Less use of reflection"
-msgstr ""
+msgstr "映り込みが少ない"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Over the past months, we have gradually reduced the number of Camel classes that were needlessly required to be registered for reflection. Thanks to Camel 3.5.0, \n"
 "we have been able to eliminate all of these remaining cases and take advantage of the resulting performance boost.\n"
 msgstr ""
+"この数ヶ月の間に、無駄にリフレクション登録が必要だったCamelのクラスを徐々に減らしてきました。Camel 3.5.0, \n"
+"のおかげで、これらの残りのケースをすべて排除することができ、結果的にパフォーマンスが向上しました。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "SNAPSHOT builds"
-msgstr ""
+msgstr "スナップショット ビルド"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The project has started publishing SNAPSHOT releases from the `master` branch (builds with stable Camel & Quarkus releases), the `camel-master` branch (builds with the latest Camel SNAPSHOT) and also from the `quarkus-master` branch (builds with the latest Quarkus SNAPSHOT). There are more details about this here:\n"
-msgstr ""
+msgstr "プロジェクトでは、`master`ブランチ（安定したCamelとQuarkusのリリースを含むビルド）、`camel-master`ブランチ（最新のCamelのSNAPSHOTを含むビルド）、`quarkus-master`ブランチ（最新のQuarkusのSNAPSHOTを含むビルド）からSNAPSHOTリリースの公開を開始しました。この件に関する詳細はこちらです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:58
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "/camel-quarkus/latest/contributor-guide/ci.html#_snapshot_deploy_build\n"
-msgstr ""
+msgstr "/camel-quarkus/latest/contributor-guide/ci.html#_snapshot_deploy_build\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:59
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We ❤️ new contributors!"
-msgstr ""
+msgstr "We ❤️ new contributors!"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:62
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We were happy to welcome as many as four new contributors in this release period. [Lukáš](https://github.com/llowinge) improved some of our tests, [Zineb](https://twitter.com/ZinebBendhiba) and [Marcel](https://twitter.com/JeansenML) were brave enough to deliver two native extensions each and [Pooja](https://github.com/PoojaChandak) invested her time in improving our documentation.\n"
 "Many thanks for the contributions!\n"
 msgstr ""
+"今回のリリースでは、4人もの新しい貢献者を迎えることができました。Lukáš](https://github.com/llowinge)さんはいくつかのテストを改善してくださり、[Zineb](https://twitter.com/ZinebBendhiba)さんと[Marcel](https://twitter.com/JeansenML)さんはそれぞれ2つのネイティブエクステンションを提供してくださり、[Pooja](https://github.com/PoojaChandak)さんはドキュメントの改善に時間を費やしてくださいました。\n"
+"これらの貢献に感謝します。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's next?"
-msgstr ""
+msgstr "次は何ですか？"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:66
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We move onwards towards supporting Camel 3.6.0 and Quarkus 1.9.0. There's also a [large list](https://github.com/apache/camel-quarkus/issues?q=is%3Aissue+is%3Aopen+label%3Anative) of extensions that need native support. \n"
-msgstr ""
+msgstr "Camel 3.6.0とQuarkus 1.9.0のサポートに向けて進んでいます。また、ネイティブサポートが必要な拡張機能の[大きなリスト](https://github.com/apache/camel-quarkus/issues?q=is%3Aissue+is%3Aopen+label%3Anative)があります。 \n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:68
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As ever, we love contributions. So if you'd like to fix a bug, add a new extension or add native support to an existing one, check out the [list of issues](https://github.com/apache/camel-quarkus/issues) and the [contributor guide](/camel-quarkus/latest/contributor-guide/index.html).\n"
-msgstr ""
+msgstr "いつものように、私たちは貢献を歓迎します。バグを修正したり、新しい拡張機能を追加したり、既存の拡張機能にネイティブサポートを追加したりしたい場合は、[List of issues](https://github.com/apache/camel-quarkus/issues)や[contributor guide](/camel-quarkus/latest/contributor-guide/index.html)をご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/camel-quarkus-release-1.1.0/index.md:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We hope you enjoy Camel Quarkus 1.1.0 and we look forward to your feedback and participation!\n"
-msgstr ""
+msgstr "Camel Quarkus 1.1.0を楽しんでいただき、ご意見やご参加をお待ちしております。\n"

@@ -18,77 +18,82 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's new with Apache Camel 3 webinar."
-msgstr ""
+msgstr "What's new with Apache Camel 3 webinar."
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's new with Apache Camel 3 webinar"
-msgstr ""
+msgstr "Apache Camel 3ウェビナーの新機能"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel is a leading open source integration framework that has been around for more than a decade.\n"
-msgstr ""
+msgstr "Apache Camelは、10年以上の歴史を持つ、オープンソースの代表的な統合フレームワークです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "With the release of Apache Camel 3, the Camel family has been extended to include a full range of projects\n"
 "that are tailored to popular platforms including Spring Boot, Quarkus, Kafka, Kubernetes, and others;\n"
 "creating an ecosystem.\n"
 msgstr ""
+"Apache Camel 3のリリースにより、Camelファミリーは、Spring BootやQuarkus、Kafka、Kubernetesなどの人気プラットフォームに合わせたプロジェクト\n"
+"Spring Boot、Quarkus、Kafka、Kubernetesなどの人気プラットフォームに合わせた\n"
+"エコシステムを構築しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Claus Ibsen and Andrea Cosentino presented \n"
 "[What's new in Camel 3, focusing on the most innovative Camel projects](https://www.youtube.com/watch?v=HS8fPyCkgyU) at the DevNation Tech Talk on June 5th.\n"
 msgstr ""
+"Claus IbsenとAndrea Cosentinoが発表しました。 \n"
+"What's new in Camel 3, focusing on the most innovative Camel projects](https://www.youtube.com/watch?v=HS8fPyCkgyU)を6月5日に開催されたDevNation Tech Talkで発表しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The presentation covered:\n"
-msgstr ""
+msgstr "このプレゼンテーションでは\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Quick introduction to what is Camel\n"
-msgstr ""
+msgstr "Camelとは何かを簡単にご紹介します。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Overview of Camel 3 and the projects\n"
-msgstr ""
+msgstr "Camel 3の概要とプロジェクト\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel K with live demo\n"
-msgstr ""
+msgstr "Camel K with live demo\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus with live demo\n"
-msgstr ""
+msgstr "Camel Quarkusのライブデモ\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Kafka Connector with live demo\n"
-msgstr ""
+msgstr "Camel Kafka Connectorのライブデモ\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/whatsnew-camel-3-webinar/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The recording (approx 35 min) of the [webinar is online on youtube](https://www.youtube.com/watch?v=HS8fPyCkgyU). \n"
-msgstr ""
+msgstr "ウェビナーの録画（約35分）をyoutubeで公開しています](https://www.youtube.com/watch?v=HS8fPyCkgyU)をご覧ください。 \n"

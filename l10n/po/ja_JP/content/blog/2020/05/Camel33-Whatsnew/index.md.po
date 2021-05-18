@@ -18,161 +18,184 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Details of what we have done in the Camel 3.3 release."
-msgstr ""
+msgstr "Camel 3.3のリリースで行われたことの詳細です。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3.3 What's New"
-msgstr ""
+msgstr "Apache Camel 3.3 What's New"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A few days ago Apache Camel 3.3 was released. This is a continuation of the work we are doing on Camel leading up to the first long term support release (LTS) that will be the next release v3.4.\n"
-msgstr ""
+msgstr "数日前、Apache Camel 3.3がリリースされました。これは、次のリリースv3.4となる最初の長期サポートリリース(LTS)に向けて、Camelで行っている作業の継続です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In case you have missed this, the release model in Camel 3.x is following the principe of LTS and non-LTS releases (like Java JDKs). For more details see this [blog post](/blog/2020/03/LTS-Release-Schedule/).\n"
-msgstr ""
+msgstr "Camel 3.xのリリースモデルは、（Java JDKのような）LTSと非LTSリリースの原則に従っていますので、お見逃しなく。詳細はこちらの[blog post](/blog/2020/03/LTS-Release-Schedule/)をご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What this means is that we will not do patch releases for Camel 3.3.x, but move ahead for Camel 3.4.\n"
-msgstr ""
+msgstr "これは、Camel 3.3.xのパッチリリースを行わず、Camel 3.4の開発を進めることを意味しています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "So whats in this release?"
-msgstr ""
+msgstr "さて、今回のリリースの内容は？"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release is mostly a more robust and bug fix release. \n"
-msgstr ""
+msgstr "今回のリリースは、ほとんどがより強固でバグフィックスされたものです。 \n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We have also continued the work to make Camel more modular and lighter. There was some work done to\n"
 "separate Camel more from JAXB which now should be complete. This helps Camel on GraalVM and native compilation\n"
 "as JAXB is a heavy piece of stack, allowing GraalVM to eliminate it more easily.\n"
 msgstr ""
+"また、Camelをよりモジュール化、軽量化するための作業も続けています。CamelをJAXBから分離するための作業も行われました。\n"
+"JAXBからCamelを分離する作業がありましたが、これは完了しているはずです。これは、JAXBが重いスタックの一部であるため、GraalVMやネイティブコンパイルでのCamelの使用に役立ちます。\n"
+"JAXBはスタックの重たい部分なので、GraalVMではより簡単に取り除くことができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We continued to remove usage of reflection in Camel and now all Circuit Breaker\n"
 "implementations are reflection free. The rest-dsl is now also reflection free.\n"
 msgstr ""
+"私たちは、Camelでのリフレクションの使用を削除し続け、現在ではすべてのCircuit Breaker\n"
+"の実装はすべてリフレクションフリーになりました。また、rest-dslもリフレクションフリーになりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We also identified a bug reported that revealed the reactive routing engine would not in some rare\n"
 "situations not execute tasks fairly.\n"
 msgstr ""
+"また、リアクティブ・ルーティング・エンジンがまれにタスクを公平に実行しないことがあるというバグが報告されています。\n"
+"タスクが公平に実行されないというバグが報告されています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The component list now lists whether a component is Stable, Preview or Experimental. This allows\n"
 "our end users to better judge when to use a component. We have also updated the one line summary\n"
 "of each component to better explain what the component does.\n"
 msgstr ""
+"コンポーネントリストに、コンポーネントが安定版、プレビュー版、実験版のいずれであるかが表示されるようになりました。これにより\n"
+"これにより、エンドユーザーはコンポーネントを使用するタイミングをより適切に判断することができます。また、各コンポーネントの1行の概要を更新しました。\n"
+"が更新され、コンポーネントの機能がよりわかりやすくなりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The endpoint-dsl had a number of annoying bugs fixed and other improvements.\n"
 "More improvements coming in Camel 3.4.\n"
 msgstr ""
+"endpoint-dslでは、いくつかの厄介なバグが修正され、その他の改善も行われました。\n"
+"Camel 3.4ではさらに多くの改善が行われます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We also worked on the supervising route controller which allows to startup Camel\n"
 "and let the route controller gracefully handle routes that fails during startup, and\n"
 "then have strategies for restarting those routes with backoff delays.\n"
 "More improvements coming in Camel 3.4.\n"
 msgstr ""
+"また、Camelを起動して、ルートコントローラーが起動中に失敗したルートを優雅に処理できるようにする、スーパーバイジング・ルートコントローラーにも取り組みました。\n"
+"を起動し、起動時に失敗したルートをルートコントローラーがグレースフルに処理して\n"
+"また、Camelを起動し、起動時に失敗したルートをルートコントローラにグレースフルに処理させ、それらのルートをバックオフディレイで再起動する戦略をとることができます。\n"
+"Camel 3.4ではさらに多くの改善が行われます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The `camel-main` has also been improved to give a better foundation for running Camel\n"
 "across different runtimes such as Spring Boot, Standalone, Quarkus, Camel K, and Camel Kafka Connector.\n"
 "More to come in Camel 3.4.\n"
 msgstr ""
+"また、`camel-main`が改良され、Spring Boot、Standalone、Quarkus、Camel K、Camel Kafka Connectorなど、さまざまなランタイムでCamel\n"
+"を、Spring Boot、Standalone、Quarkus、Camel K、Camel Kafka Connector などのさまざまなランタイムで実行するためのより良い基盤を提供します。\n"
+"Camel 3.4ではさらに進化します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A few more components added to the release:\n"
-msgstr ""
+msgstr "いくつかのコンポーネントが追加されました。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Azure Storage Blob Service\n"
-msgstr ""
+msgstr "Azure Storage Blob Service\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Azure Queue Blob Service\n"
-msgstr ""
+msgstr "Azure Queue Blob Service\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Deep Java Library\n"
-msgstr ""
+msgstr "Deep Javaライブラリ\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Splunk HEC\n"
-msgstr ""
+msgstr "Splunk HEC\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Roadmap to Camel 3.4 LTS"
-msgstr ""
+msgstr "Camel 3.4 LTSへのロードマップ"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The next release 3.4 is the first LTS release of Camel 3.x. This means the release will have patch releases\n"
 "containing important bug fixes and security vulnerabilities (we focus on production stability).\n"
 msgstr ""
+"次のリリース3.4は、Camel 3.xの最初のLTSリリースです。これは、重要なバグ修正やセキュリティ脆弱性を含むパッチリリース\n"
+"重要なバグフィックスやセキュリティ上の脆弱性を含んだパッチリリースが行われることを意味します（私たちは本番の安定性を重視しています）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:58
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We aim to release 3.4 in June or maybe it slips into start of July.\n"
-msgstr ""
+msgstr "6月中に3.4をリリースすることを目指していますが、もしかしたら7月の初めにずれ込むかもしれません。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/05/Camel33-Whatsnew/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In this release we expect to upgrade to Spring Boot 2.3, finish the work on endpoint-dsl, \n"
 "and the supervising route controller, and the usual stuff with bug fixes and what else.\n"
 msgstr ""
+"今回のリリースでは、Spring Boot 2.3へのアップグレード、endpoint-dsl.とsupervising route controllerの作業終了、そしてバグフィックスなどの通常の作業を予定しています。 \n"
+"の作業を終了し、バグフィックスなどの通常の作業を行います。\n"

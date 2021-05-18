@@ -18,12 +18,12 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/releases/_index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Releases"
-msgstr ""
+msgstr "リリース"
 
 #. type: Title #
 #: upstream/content/releases/_index.md:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel releases archive"
-msgstr ""
+msgstr "Apache Camel リリースアーカイブ"

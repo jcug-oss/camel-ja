@@ -18,28 +18,31 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "ApacheConf @Home 2020, free online conference featuring Apache Camel and Software Integration track"
-msgstr ""
+msgstr "ApacheConf @Home 2020、Apache CamelとSoftware Integrationトラックをフィーチャーした無料オンラインカンファレンス"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel at ApacheCon @Home 2020"
-msgstr ""
+msgstr "Camel at ApacheCon @Home 2020"
 
 #. type: Plain text
 #: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We are pleased to announce that [ApacheCon\n"
 "2020](https://www.apachecon.com/acna2020/index.html) will be held *online*,\n"
 "September 29th through October 1st, 2020.\n"
 msgstr ""
+"この度、【ApacheCon\n"
+"2020](https://www.apachecon.com/acna2020/index.html)が*オンライン*で開催されます。\n"
+"2020年9月29日から10月1日まで。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "If you wish to present at the event please submit your talk proposal for the\n"
 "**Camel/Integration** track when at [ApacheCon 2020\n"
@@ -47,10 +50,15 @@ msgid ""
 "July 13th by noon in the UTC timezone**. Please do not wait for the last minute\n"
 "to submit.\n"
 msgstr ""
+"本イベントでの発表をご希望の方は、以下のトラックでの発表をご提案ください。\n"
+"ApacheCon 2020ウェブサイト]()にて、 **Camel/Integration**トラックの講演案を、 **月曜日までに提出してください。\n"
+"ウェブサイト](https://www.apachecon.com/acna2020/cfp.html)にて、 **Monday,\n"
+"7月13日(月)正午(UTCタイムゾーン)までにお願いします。ぎりぎりにならないようにお願いします。\n"
+"ぎりぎりまで待たずに提出してください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We are most interested to see talks that offer a learning experience to the\n"
 "attendees, so talks that present new parts of the Camel ecosystem (Camel K,\n"
@@ -58,50 +66,66 @@ msgid ""
 "cases, and visions on where software integration is heading in the future. We\n"
 "also welcome talk proposals on other projects in the software integration space.\n"
 msgstr ""
+"私たちは、参加者に学習体験を提供する講演に最も関心があります。\n"
+"つまり、Camelエコシステムの新しい部分を紹介する講演（Camel K,\n"
+"Camel K、Camel Quarkus、Camel Kafka Connector）、学んだこと、使用例、ソフトウェア統合が将来的にどこに向かうかのビジョンを示す講演などです。\n"
+"学んだこと、使用例、ソフトウェア統合が将来どこに向かうのかについてのビジョンを示す講演です。また\n"
+"また、ソフトウェア・インテグレーション分野の他のプロジェクトに関する講演の提案も歓迎します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Attend for **free** or a small donation to the Apache Software Foundation, to\n"
 "register, go to the [Hopin registration\n"
 "page](https://hopin.to/events/apachecon-home). Here are some of the reasons why\n"
 "you should attend:\n"
 msgstr ""
+"参加費は**無料**、もしくはApache Software Foundationへの少額の寄付となります。\n"
+"登録は、[Hopin登録ページ]()から。\n"
+"ページ](https://hopin.to/events/apachecon-home)にアクセスしてください。以下は、参加すべき理由の一部です。\n"
+"参加すべき理由は以下の通りです。\n"
 
 #. type: Bullet: ' * '
 #: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "learn about the latest in Apache Camel and the software integration space,\n"
-msgstr ""
+msgstr "は、Apache Camelとソフトウェア・インテグレーション分野の最新情報を提供します。\n"
 
 #. type: Bullet: ' * '
 #: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "get a chance to interact, ask questions and influence roadmaps in the\n"
 "participant lead discussions, or at the panel on the future of software\n"
 "integration\n"
 msgstr ""
+"参加者主導のディスカッションや、未来のソフトウェアに関するパネルでは、対話や質問をしたり、ロードマップに影響を与えたりするチャンスがあります。\n"
+"参加者主導のディスカッションや、ソフトウェア統合の未来に関するパネルでは\n"
+"統合\n"
 
 #. type: Bullet: ' * '
 #: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "you can, if you wish to do so, present a 10-minute lightning talk (no need to\n"
 "submit one now as we will gather lightning talks at the conference)\n"
 msgstr ""
+"希望者は、10分間のライトニングトークを発表することができます。\n"
+"会議ではライトニング・トークを集めますので、今すぐ提出する必要はありません。)\n"
 
 #. type: Bullet: ' * '
 #: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "the conference is free to attend and online, no need for pesky traveling or\n"
 "expense reimbursements\n"
 msgstr ""
+"カンファレンスは参加費無料で、オンラインなので、旅費や経費の精算は必要ありません。\n"
+"経費精算の必要もありません。\n"
 
 #. type: Bullet: ' * '
 #: upstream/content/blog/2020/07/ApacheCon-2020-at-home/index.md:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "celebrate the Apache Camel and the wider Apache Software Foundation community\n"
-msgstr ""
+msgstr "Apache CamelとApache Software Foundationのコミュニティを祝う。\n"

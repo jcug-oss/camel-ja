@@ -18,295 +18,308 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel AWS2 Components are here"
-msgstr ""
+msgstr "Camel AWS2コンポーネントはこちら"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel AWS2 Components are here: what are the changes for end users?"
-msgstr ""
+msgstr "Camel AWS2 Components are here: What is the changes for end users?"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In Camel 3.2.0 we'll release the complete set of Camel AWS2 components. In Camel 3.1.0 we already have a bunch of AWS2 components living together with the original AWS components.\n"
 "The aim of this post is giving a full perspective of what will change for the end users and the roadmap for new features.\n"
 msgstr ""
+"Camel 3.2.0では、Camel AWS2コンポーネントの完全なセットをリリースします。Camel 3.1.0では、すでに多くのAWS2コンポーネントがオリジナルのAWSコンポーネントと共存しています。\n"
+"この投稿の目的は、エンドユーザーにとって何が変わるのか、新機能のロードマップを完全に把握することです。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New components"
-msgstr ""
+msgstr "新しいコンポーネント"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Except camel-aws-xray, which is a particular component needing much more work to be migrated, all the original AWS components have been migrated to AWS SDK v2.\n"
 "The original set of supported components was:\n"
 msgstr ""
+"camel-aws-xrayを除いて、すべてのオリジナルのAWSコンポーネントはAWS SDK v2に移行されました。\n"
+"元々サポートされていたコンポーネントのセットは\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-cw\n"
-msgstr ""
+msgstr "キャメルAWS-CW\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-ddb\n"
-msgstr ""
+msgstr "キャメルAW-ddb\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-ec2\n"
-msgstr ""
+msgstr "キャメル・aws-ec2\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-ecs\n"
-msgstr ""
+msgstr "キャメル・オー・イーシー\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-eks\n"
-msgstr ""
+msgstr "キャメル・オーズ・イークス\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-iam\n"
-msgstr ""
+msgstr "キャメル・オーズ・アイアム\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-kinesis\n"
-msgstr ""
+msgstr "キャメル・アウ・キネシス\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-kms\n"
-msgstr ""
+msgstr "キャメル・オー・ケーエムズ\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-lambda\n"
-msgstr ""
+msgstr "キャメル・オーズ・ラムダ\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-mq\n"
-msgstr ""
+msgstr "Camel-aws-mq\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-msk\n"
-msgstr ""
+msgstr "キャメルAW-MSK\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-s3\n"
-msgstr ""
+msgstr "Camel-aws-S3\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-sdb\n"
-msgstr ""
+msgstr "Camel-aws-Sdb\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-ses\n"
-msgstr ""
+msgstr "キャメル・オズセズ\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-sns\n"
-msgstr ""
+msgstr "キャメル・オーズ・サンズ\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-sqs\n"
-msgstr ""
+msgstr "キャメルAWS-SQ\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-swf\n"
-msgstr ""
+msgstr "Camel-aws-SWF\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-translate\n"
-msgstr ""
+msgstr "キャメル・オーズ・トランスレート\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws-xray\n"
-msgstr ""
+msgstr "キャメル・オー・エックスレイ\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We now have also:\n"
-msgstr ""
+msgstr "私たちは今、また\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws2-cw\n"
-msgstr ""
+msgstr "Camel-aws2-cw\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws2-ddb\n"
-msgstr ""
+msgstr "camel-aws2-ddb\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws2-ec2\n"
-msgstr ""
+msgstr "Camel-aws2-ec2\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws2-ecs\n"
-msgstr ""
+msgstr "Camel-aws2-ecs\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws2-eks\n"
-msgstr ""
+msgstr "キャメルAWS2-EKS\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws2-iam\n"
-msgstr ""
+msgstr "キャメルAWS2-AM\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws2-kinesis\n"
-msgstr ""
+msgstr "キャメルAWS2-キネシス\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws2-kms\n"
-msgstr ""
+msgstr "キャメルAWS2-KMS\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws2-lambda\n"
-msgstr ""
+msgstr "ラクダ-aws2-ラムダ\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws2-mq\n"
-msgstr ""
+msgstr "Camel-aws2-mq\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws2-msk\n"
-msgstr ""
+msgstr "Camel-aws2-msk\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws2-s3\n"
-msgstr ""
+msgstr "キャメルAWS2-S3\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws2-ses\n"
-msgstr ""
+msgstr "キャメル・aws2・セス\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws2-sns\n"
-msgstr ""
+msgstr "Camel-aws2-sns\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws2-sqs\n"
-msgstr ""
+msgstr "Camel-aws2-sqs\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-aws2-translate\n"
-msgstr ""
+msgstr "camel-aws2-translate\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Moving from v1 to v2"
-msgstr ""
+msgstr "v1からv2への移行"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:62
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "For the end users, nothing will change, except the needed model classes coming from the SDK v2. So migrating should be a matter of changing imports and scheme.\n"
 "The first effort for the community was being able to obtain features parity between old and new components, and we did that.\n"
 "The AWS2-S3 components is still under heavy development, but the basic features are still the same.\n"
 "The Camel community really expects feedback from end users before deprecating the original AWS components. We won't deprecate them until we'll be totally sure the community is totally happy with the AWS2 support.\n"
 msgstr ""
+"エンドユーザーにとっては、SDK v2から提供される必要なモデルクラス以外は何も変わりません。したがって、移行はインポートとスキームの変更だけで済みます。\n"
+"コミュニティが最初に取り組んだのは、新旧のコンポーネント間で機能の互換性を確保することでしたが、私たちはそれを実現しました。\n"
+"AWS2-S3のコンポーネントはまだ開発中ですが、基本的な機能は変わりません。\n"
+"Camelコミュニティは、オリジナルのAWSコンポーネントを非推奨にする前に、エンドユーザーからのフィードバックを期待しています。私たちは、コミュニティがAWS2のサポートに完全に満足していると確信するまで、それらを非推奨にすることはありません。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Supported Platforms"
-msgstr ""
+msgstr "対応プラットフォーム"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Actually the AWS2 components are not supported in OSGi containers. We need to work on the needed bundles first but this will be an optional effort and we'll focus on it if there will be real interest from the community. \n"
 "Camel Spring Boot starters for AWS2 components are already developed and generated in the [Camel-spring-boot Repository](https://github.com/apache/camel-spring-boot/). There is an ongoing effort for supporting them on Quarkus too, through the [Camel-Quarkus project](https://github.com/apache/camel-quarkus/) and we are creating new examples for the [Camel-kafka-connector project](https://github.com/apache/camel-kafka-connector/).\n"
 msgstr ""
+"実際、AWS2コンポーネントはOSGiコンテナではサポートされていません。最初に必要なバンドルに取り組む必要がありますが、これは任意の取り組みであり、コミュニティから実際に関心が寄せられれば、それに集中します。 \n"
+"Camel Spring Boot starters for AWS2 コンポーネントは、[Camel-spring-boot Repository](https://github.com/apache/camel-spring-boot/)ですでに開発・生成されています。Camel-Quarkus project](https://github.com/apache/camel-quarkus/)を通じて、Quarkus上でもサポートするための継続的な取り組みが行われており、[Camel-kafka-connector project](https://github.com/apache/camel-kafka-connector/)では新しい例を作成しています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:68
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Future and roadmap"
-msgstr ""
+msgstr "今後の展開とロードマップ"
 
 #. type: Plain text
 #: upstream/content/blog/2020/03/Camel3-AWS2-Whatsnew/index.md:72
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "As already said, our plan is to deprecate the original AWS components, but we'll do this only after the community will confirm the features parity and we'll have enough feedback. So, please, test them and report bugs, improvements and whatever you've in mind while using them.\n"
 "We are working on more components to add for AWS2 components family, like Athena, RDS, DocumentDB and more. At the same time, we'd like to improve the existing AWS2 components, by supporting the new features coming in the new SDK, like the non-blocking I/O and the ability to plug in a different HTTP implementation at run time (actually we are using only the Apache-client one).\n"
 "So there is still a lot of work to do and this is a good area for getting started and starting your contributions history to Apache Camel. We're waiting for you!\n"
 msgstr ""
+"すでに述べたように、私たちの計画はオリジナルのAWSコンポーネントを廃止することですが、これはコミュニティが機能の同等性を確認し、十分なフィードバックを得た後に行う予定です。ですので、ぜひテストしていただき、バグや改善点など、使っていて思ったことを報告してください。\n"
+"Athena、RDS、DocumentDBなど、AWS2コンポーネントファミリーに追加するコンポーネントをさらに増やしていきます。同時に、ノンブロッキングI/Oや実行時に別のHTTP実装をプラグインする機能など、新しいSDKで提供される新機能をサポートすることで、既存のAWS2コンポーネントを改善したいと考えています（実際には、Apacheクライアントのみを使用しています）。\n"
+"まだまだやるべきことはたくさんありますが、この分野はApache Camelへの貢献の歴史を始めるのに適しています。皆様のご参加をお待ちしております。\n"

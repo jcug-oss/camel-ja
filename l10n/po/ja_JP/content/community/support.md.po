@@ -18,255 +18,270 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/community/support.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Support"
-msgstr ""
+msgstr "サポート"
 
 #. type: Title ##
 #: upstream/content/community/support.md:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Getting help"
-msgstr ""
+msgstr "助けを求める"
 
 #. type: Plain text
 #: upstream/content/community/support.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "If you are experiencing problems using Camel then please report your problem to our mailing list or Zulip chat. This allows the entire community to help with your problem.\n"
 "If indeed a bug has been identified in the Camel software, then document the problem in our [Issue Tracker](https://issues.apache.org/jira/browse/CAMEL).\n"
 "Please refrain from immediately opening a ticket in the issue tracker unless you are certain it's a problem in the Camel software.\n"
 msgstr ""
+"Camelを使用していて問題が発生した場合は、メーリングリストやZulipチャットに問題を報告してください。そうすることで、コミュニティ全体であなたの問題を解決することができます。\n"
+"もし、Camelのソフトウェアにバグが確認された場合は、[Issue Tracker](https://issues.apache.org/jira/browse/CAMEL)にその問題を記録してください。\n"
+"Camelソフトウェアの問題であることが確実でない限り、すぐに課題トラッカーにチケットを開くことは控えてください。\n"
 
 #. type: Plain text
 #: upstream/content/community/support.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you are in doubt, we appreciate asking the [mailing list](/community/mailing-list/) or [Zulip](https://camel.zulipchat.com) chat first.\n"
-msgstr ""
+msgstr "疑問がある場合は、まず[メーリングリスト](/community/mailing-list/)や[Zulip](https://camel.zulipchat.com)のチャットに聞いてみるといいと思います。\n"
 
 #. type: Plain text
 #: upstream/content/community/support.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Please read the section below (How to get help), and follow the bullets advised there first:\n"
-msgstr ""
+msgstr "以下のセクション（ヘルプを受けるには）をお読みになり、まずそこでアドバイスされた箇条書きに従ってください。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/community/support.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Issue tracker](https://issues.apache.org/jira/browse/CAMEL)\n"
-msgstr ""
+msgstr "[Issue tracker](https://issues.apache.org/jira/browse/CAMEL)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/community/support.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[FAQ](/manual/latest/faq/index.html)\n"
-msgstr ""
+msgstr "FAQ](/manual/latest/faq/index.html)\n"
 
 #. type: Title ###
 #: upstream/content/community/support.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Reporting bugs - Please read this first"
-msgstr ""
+msgstr "バグを報告する - 最初にお読みください"
 
 #. type: Plain text
 #: upstream/content/community/support.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We prefer people to get in touch first using the mailing list, or Zulip chat. Or take time to read FAQs, or search in the mailing list archives to find answers.\n"
 "Unfortunately some people create a JIRA ticket as first thing. **Please don't do that!** Only if you are sure it really is a bug etc. JIRA tickets create noise\n"
 "for the Camel team to react on issues that are not bugs but are already covered in FAQs, in the mailing lists etc., or in the existing documentation.\n"
 "Also on the mailing lists there are more people active to help you better.\n"
 msgstr ""
+"私たちは、まずメーリングリストやZulipチャットで連絡を取っていただきたいと思っています。また、時間をかけてFAQを読んだり、メーリングリストのアーカイブを検索したりして答えを見つけてください。\n"
+"残念なことに、最初にJIRAのチケットを作成する人もいます。そんなことはしないでください！** 本当にバグであると確信している場合に限ります。JIRAチケットはノイズを発生させます。\n"
+"JIRAチケットは、バグではなく、FAQやメーリングリスト、既存のドキュメントですでにカバーされている問題にCamelチームが反応するためのノイズとなります。\n"
+"また、メーリングリストにはより多くの人が参加していますので、より良いサポートを受けることができます。\n"
 
 #. type: Plain text
 #: upstream/content/community/support.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Also please avoid sending direct emails to members of the Camel team - we are busy already. And conversations about Camel should happen in the public, and not via private emails.\n"
-msgstr ""
+msgstr "また、Camelチームのメンバーに直接メールを送らないようにしてください - 私たちはすでに忙しいのです。また、Camelに関する会話は、個人的なメールではなく、公の場で行うべきです。\n"
 
 #. type: Title ###
 #: upstream/content/community/support.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Reporting security issues"
-msgstr ""
+msgstr "セキュリティ問題の報告"
 
 #. type: Plain text
 #: upstream/content/community/support.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you have found a security issue in Camel please contact the Apache Software Foundation [security team](https://www.apache.org/security/). Don't share the details in public (i.e. chat or users/developer mailing lists). We will receive details you send and resolve the issue as soon as possible. We might also contact you requesting further details as needed.\n"
-msgstr ""
+msgstr "Camelのセキュリティ問題を発見した場合は、Apache Software Foundation [security team](https://www.apache.org/security/)までご連絡ください。公的な場（チャットやユーザー/開発者向けのメーリングリストなど）で詳細を共有しないでください。お送りいただいた詳細を受け取り、可能な限り早く問題を解決します。また、必要に応じて詳細をお聞きするためにご連絡を差し上げることがあります。\n"
 
 #. type: Title ###
 #: upstream/content/community/support.md:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Alternative discussion forums"
-msgstr ""
+msgstr "代替ディスカッションフォーラム"
 
 #. type: Plain text
 #: upstream/content/community/support.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "There's a number of sites outside Apache that offer discussion forums on Camel. For example, [Stack Overflow](http://stackoverflow.com/) is a popular Q & A site with a dedicated [Apache Camel forum](http://stackoverflow.com/questions/tagged/apache-camel).\n"
 "You are also likely to find helpful discussions on technical blogs, on [Google](https://www.google.com/search?q=apache+camel), or even on [Twitter](https://twitter.com/#!/search/apache%20camel).\n"
 msgstr ""
+"Apache以外のサイトでも、Camelに関するディスカッションフォーラムを提供しているところはたくさんあります。例えば、[Stack Overflow](http://stackoverflow.com/)は人気のあるQ&amp;Aサイトで、専用の[Apache Camel forum](http://stackoverflow.com/questions/tagged/apache-camel)があります。\n"
+"また、技術系ブログや[Google](https://www.google.com/search?q=apache+camel)、さらには[Twitter](https://twitter.com/#!/search/apache%20camel)でも、有益な議論を見つけることができるでしょう。\n"
 
 #. type: Title ###
 #: upstream/content/community/support.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Using deprecated components"
-msgstr ""
+msgstr "非推奨のコンポーネントの使用"
 
 #. type: Plain text
 #: upstream/content/community/support.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Deprecated components are *not* supported and issues such as bugs may not be fixed. We encourage users to migrate away from using any deprecated component.\n"
 "A list of deprecated components is listed on the github page at: https://github.com/apache/camel/tree/master/components#components\n"
 msgstr ""
+"非推奨のコンポーネントはサポートされておらず、バグなどの問題は修正されない可能性があります。ユーザーの皆様には、非推奨のコンポーネントを使用しないように移行することをお勧めします。\n"
+"非推奨コンポーネントのリストは、githubページに掲載されています。https://github.com/apache/camel/tree/master/components#components\n"
 
 #. type: Title ###
 #: upstream/content/community/support.md:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "How to get help"
-msgstr ""
+msgstr "支援を受けるには"
 
 #. type: Plain text
 #: upstream/content/community/support.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Before you report a problem, you may wish to read the [FAQ](/manual/latest/faq/index.html).\n"
 "When you report an issue, please be sure to include as much information as possible. The more we know, the easier it is to reach an effective solution quickly.\n"
 msgstr ""
+"問題を報告する前に、[FAQ](/manual/latest/faq/index.html)をお読みになるとよいでしょう。\n"
+"問題を報告する際には、できるだけ多くの情報を含めるようにしてください。情報が多ければ多いほど、効果的な解決策を迅速に導き出すことができます。\n"
 
 #. type: Plain text
 #: upstream/content/community/support.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "*What version do you use*\n"
-msgstr ""
+msgstr "どのバージョンを使っているか\n"
 
 #. type: Plain text
 #: upstream/content/community/support.md:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What version of Camel do you use? Remember to include this information.\n"
-msgstr ""
+msgstr "お使いのCamelのバージョンは？この情報を忘れずに入れてください。\n"
 
 #. type: Bullet: '*  '
 #: upstream/content/community/support.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "what are the version numbers of involved software components? (this is very important to detail)\n"
-msgstr ""
+msgstr "関係するソフトウェアコンポーネントのバージョン番号は何ですか？これは非常に重要なことです。\n"
 
 #. type: Bullet: '*  '
 #: upstream/content/community/support.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "what platform and JDK?\n"
-msgstr ""
+msgstr "プラットフォームとJDKを教えてください。\n"
 
 #. type: Bullet: '*  '
 #: upstream/content/community/support.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "any particular container being used? and if so, what version?\n"
-msgstr ""
+msgstr "使用しているコンテナの種類とバージョンを教えてください。\n"
 
 #. type: Bullet: '*  '
 #: upstream/content/community/support.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "stack traces generally really help! (Remember to post which version of Camel you use, this is important to know when posting stacktraces.) If in doubt, include the whole thing; often exceptions get wrapped in other exceptions and the exception right near the bottom explains the actual error, not the first few lines at the top. It's very easy for us to skim-read past unnecessary parts of a stack trace.\n"
-msgstr ""
+msgstr "スタックトレースは本当に役に立ちます。(スタックトレースを投稿する際には、使用しているCamelのバージョンを忘れずに投稿してください。)よくあることですが、例外は他の例外に巻き込まれ、一番上の最初の数行ではなく、一番下の例外が実際のエラーを説明しています。私たちは、スタックトレースの不要な部分を読み飛ばしてしまうことがよくあります。\n"
 
 #. type: Bullet: '*  '
 #: upstream/content/community/support.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "log output can be useful too; sometimes [enabling DEBUG logging] (/manual/latest/faq/how-do-i-change-the-logging.html) can help\n"
-msgstr ""
+msgstr "DEBUGログを有効にする] (/manual/latest/faq/how-do-i-change-the-logging.html)が有効な場合もあります。\n"
 
 #. type: Bullet: '*  '
 #: upstream/content/community/support.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "your code & configuration files are often useful\n"
-msgstr ""
+msgstr "あなたのコードや設定ファイルは、しばしば有用です。\n"
 
 #. type: Bullet: '*  '
 #: upstream/content/community/support.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "did it work before? what have you changed to break it?\n"
-msgstr ""
+msgstr "以前はうまくいっていたのか、何を変えて壊れたのか？\n"
 
 #. type: Bullet: '*  '
 #: upstream/content/community/support.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "try upgrading to the latest release and see if it's fixed there\n"
-msgstr ""
+msgstr "最新のリリースにアップグレードして、修正されているかどうかを確認してください。\n"
 
 #. type: Bullet: '*  '
 #: upstream/content/community/support.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "try the latest SNAPSHOT to see if it's fixed in the pre-release\n"
-msgstr ""
+msgstr "プレリリースで修正されているかどうかは、最新のSNAPSHOTでお試しください。\n"
 
 #. type: Bullet: '*  '
 #: upstream/content/community/support.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "search the user forum to see if has been discussed before\n"
-msgstr ""
+msgstr "以前に議論されたことがないか、ユーザーフォーラムを検索してみてください。\n"
 
 #. type: Bullet: '*  '
 #: upstream/content/community/support.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "see the \"known issues\" section in the release notes\n"
-msgstr ""
+msgstr "リリースノートの「既知の問題」セクションを参照してください。\n"
 
 #. type: Bullet: '*  '
 #: upstream/content/community/support.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "and check the issue tracker to see if the issue has already been reported\n"
-msgstr ""
+msgstr "そして、その問題がすでに報告されているかどうかを確認するために、課題トラッカーをチェックします。\n"
 
 #. type: Bullet: '*  '
 #: upstream/content/community/support.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "do *not* send private emails to Camel Team members to ask them to help you faster, or in the private only. Help on Apache Camel is volunteer based and must happen in the open on the public Mailing Lists. If you want to get help faster or in private, then see further below.\n"
-msgstr ""
+msgstr "Camelチームのメンバーにプライベートなメールを送って、より早く助けてくれるように頼んだり、プライベートな場所でのみ助けを求めたりしないでください。Apache Camelのヘルプはボランティアベースであり、公開されたメーリングリストでオープンに行われなければなりません。もし、より早く、あるいはプライベートに助けを得たいのであれば、以下を参照してください。\n"
 
 #. type: Title ###
 #: upstream/content/community/support.md:64
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "How to get help faster"
-msgstr ""
+msgstr "より早く支援を受けるには"
 
 #. type: Plain text
 #: upstream/content/community/support.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We can help you much quicker if you try the following\n"
-msgstr ""
+msgstr "以下のことをお試しいただければ、より迅速な対応が可能です。\n"
 
 #. type: Bullet: '*  '
 #: upstream/content/community/support.md:71
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "provide us with a JUnit test case that demonstrates your issue. e.g. if you think you've found a bug, can you create a test case to demonstrate the bug?\n"
-msgstr ""
+msgstr "問題を実証するJUnitテストケースを提供してください。例えば、バグを発見したと思ったら、そのバグを実証するテストケースを作成してもらえますか？\n"
 
 #. type: Bullet: '*  '
 #: upstream/content/community/support.md:71
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[submit a patch](/community/contributing/) fixing the bug! (We also buy you beer when we meet you if you submit bug fixes (smile) )\n"
-msgstr ""
+msgstr "パッチを投稿する](/community/contributing/)バグを修正します!(バグフィックスを提出してくれた方には、お会いした時にビールもおごります（笑）)\n"
 
 #. type: Bullet: '*  '
 #: upstream/content/community/support.md:71
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "for memory leak or performance related issues, if you can run a profiler on your test case and attach the output as a file (or zipped file if it's huge) to the JIRA we can normally fix things much faster. For example, you could run jmap/jhat, JProfiler or YourKit on your code and send us the output. To find memory leaks it's quicker to resolve if you can tell us what classes are taking up all of the RAM; we can normally figure out what's wrong from that.\n"
-msgstr ""
+msgstr "メモリリークやパフォーマンスに関連する問題については、テストケースでプロファイラを実行し、その出力をファイル（巨大な場合はzipファイル）としてJIRAに添付していただければ、通常はより迅速に問題を解決することができます。例えば、コードにjmap/jhat、JProfiler、YourKitなどを実行して、その出力を私たちに送ることができます。メモリリークを発見するには、どのクラスが RAM をすべて消費しているかを教えてくれれば、より早く解決できます。\n"
 
 #. type: Title ##
 #: upstream/content/community/support.md:72
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Commercial Support"
-msgstr ""
+msgstr "商用サポート"
 
 #. type: Plain text
 #: upstream/content/community/support.md:75
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This is an open source project, so the amount of time we have available to help resolve your issue is often limited as all help is provided on a volunteer basis.\n"
 "If you want to get priority help, need to get up to speed quickly, require some training or mentoring, or need full 24 x 7 production support you could contact one of the following companies with [Commercial Camel Offerings](/manual/latest/commercial-camel-offerings.html).\n"
 msgstr ""
+"これはオープンソースのプロジェクトであり、すべてのサポートはボランティアベースで提供されているため、お客様の問題を解決するために利用できる時間は限られています。\n"
+"優先的にサポートを受けたい場合、すぐにスピードアップしたい場合、トレーニングやメンタリングが必要な場合、または24時間×7日の完全なプロダクションサポートが必要な場合は、以下の会社の[Commercial Camel Offerings](/manual/latest/commercial-camel-offerings.html)にお問い合わせください。\n"

@@ -18,265 +18,285 @@ msgstr ""
 
 #. type: Title ##
 #: upstream/content/community/contributing.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Contributing to Apache Camel"
-msgstr ""
+msgstr "Apache Camelへの貢献"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "First of all, thank you for having an interest in contributing to Apache Camel.\n"
-msgstr ""
+msgstr "まず最初に、Apache Camelへの貢献に関心を持ってくださったことに感謝します。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Here are some guidelines on how to best approach the Apache Camel community and how to best apply yourself.\n"
 "There are many ways you can help make Camel a better piece of software - please dive in and help!\n"
 msgstr ""
+"ここでは、どのようにしてApache Camelコミュニティにアプローチし、どのようにして自分自身を適用するかについてのガイドラインをご紹介します。\n"
+"Camelをより良いソフトウェアにするために、あなたができることはたくさんあります-ぜひ協力してください。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/community/contributing.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Try surfing the documentation - if something confuses you, [bring it to our attention or suggest an improvement](#working-on-the-documentation).\n"
-msgstr ""
+msgstr "ドキュメントを読んでみて、もし何か混乱したことがあれば、[それを私たちに知らせたり、改善点を提案してください](#working-on-the-documentation)。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/community/contributing.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Download the code & try it out and see what you think.\n"
-msgstr ""
+msgstr "コードをダウンロードして、試してみてはいかがでしょうか。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/community/contributing.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Browse the source code. Got an itch to scratch, want to tune some operation, or add some feature?\n"
-msgstr ""
+msgstr "ソースコードの閲覧。痒いところに手が届く、操作を調整したい、機能を追加したい。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/community/contributing.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Want to do some hacking on Camel? Try surfing our [issue tracker](https://issues.apache.org/jira/browse/CAMEL) for open issues or features that need to be implemented. Take ownership of a particular issue, and try to fix it.\n"
-msgstr ""
+msgstr "Camelのハッキングをしてみませんか？私たちの[issue tracker](https://issues.apache.org/jira/browse/CAMEL)で未解決の問題や実装すべき機能を探してみてください。特定の問題を自分のものにして、それを解決しようとしてください。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/community/contributing.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you are a new Camel rider and would like to help us, you can also find [some easy to resolve issues](https://issues.apache.org/jira/issues/?filter=12348073) or [issues we need help with](https://issues.apache.org/jira/issues/?filter=12348074).\n"
-msgstr ""
+msgstr "もしあなたがキャメルの新米ライダーで、私たちを助けたいと思っているなら、[some easy to resolve issues](https://issues.apache.org/jira/issues/?filter=12348073)や[usually us need help with](https://issues.apache.org/jira/issues/?filter=12348074)も参考にしてください。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/community/contributing.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Leave a comment on the issue to let us know you are working on it, and add yourself as a watcher to get informed about all modifications.\n"
-msgstr ""
+msgstr "その問題に取り組んでいることを知らせるために、問題にコメントを残し、すべての修正について情報を得るために自分をウォッチャーとして追加してください。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Identify areas you can contribute first. You don't have to be an expert in an area, the Apache Camel developers are available to offer help and guidance.\n"
-msgstr ""
+msgstr "まず、自分が貢献できる分野を特定してください。その分野の専門家である必要はありません。Apache Camelの開発者が支援や指導をしてくれます。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Introduce yourself on the [developer's mailing list] (#getting-in-touch), tell us what area of work or problem you wish to address in Camel. Create a draft of your solution, this can be simple 1-2 sentences on the change you wish to make. Try to be as specific as you can: include a short description of your intent, what you tried and what didn't work, or what you need help with. The best way of approaching the developers is by describing what you would like to work on and asking specific questions on how to get started. We'll do our best to guide you and help you make your contribution. \n"
-msgstr ""
+msgstr "開発者用メーリングリスト](#getting-in-touch)で自己紹介をして、Camelで解決したい分野や問題点を教えてください。解決策のドラフトを作成してください。これは、あなたが行いたい変更についての簡単な1-2文で構いません。できるだけ具体的に、あなたの意図、試したこと、うまくいかなかったこと、助けが必要なことなどを簡潔に記述してください。開発者への最良のアプローチ方法は、あなたが取り組みたいことを説明し、どうやって始めればよいかを具体的に質問することです。私たちは全力であなたを指導し、あなたが貢献できるようお手伝いします。 \n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We also participate in Google Summer of Code and Outreachy programs; for information about those look at those program websites. If you wish to participate in either of those follow the guidelines and schedule set by those programs. If you are unsure please reach out via official communication channels of those programs, or ask on the developer's mailing list for help.\n"
-msgstr ""
+msgstr "また、Google Summer of CodeやOutreachyなどのプログラムにも参加しています。これらのプログラムに参加したい場合は、そのプログラムが定めたガイドラインやスケジュールに従ってください。わからないことがあれば、そのプログラムの公式な連絡手段に問い合わせるか、開発者用のメーリングリストに問い合わせてください。\n"
 
 #. type: Title ##
 #: upstream/content/community/contributing.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Getting in touch"
-msgstr ""
+msgstr "お問い合わせ"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel is an Apache Software Foundation project, all communication is done in the open on the project mailing lists. You can [read more on the reasoning behind this](https://www.apache.org/foundation/mailinglists.html) to get a better understanding of this.\n"
-msgstr ""
+msgstr "Apache CamelはApache Software Foundationのプロジェクトであり、すべてのコミュニケーションはプロジェクトのメーリングリストでオープンに行われています。その理由については[詳しくはこちら](https://www.apache.org/foundation/mailinglists.html)をご覧いただくと、より理解が深まると思います。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "All communication is subject to the [ASF Code of Conduct](https://www.apache.org/foundation/policies/conduct.html).\n"
-msgstr ""
+msgstr "すべてのコミュニケーションは、[ASF Code of Conduct](https://www.apache.org/foundation/policies/conduct.html)に従います。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "There are various ways of communicating with the Camel community.\n"
 "For questions and guidance around contributing subscribe to the developer's mailing list by sending an e-mail to dev-subscribe@camel.apache.org.\n"
 "[This page](../mailing-list/) describes all the Camel mailing lists.\n"
 msgstr ""
+"Camelコミュニティと連絡を取るには様々な方法があります。\n"
+"貢献に関する質問やガイダンスについては、電子メールを dev-subscribe@camel.apache.org に送ることで、開発者向けのメーリングリストを購読することができます。\n"
+"このページ](../mailing-list/)では、すべてのCamelのメーリングリストについて説明しています。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We can also be reached on the Zulip chat at https://camel.zulipchat.com.\n"
-msgstr ""
+msgstr "また、Zulipのチャット（https://camel.zulipchat.com）でも連絡を取ることができます。\n"
 
 #. type: Title ##
 #: upstream/content/community/contributing.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you find a bug or problem"
-msgstr ""
+msgstr "バグや問題を見つけたら"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Please raise a new issue in our [issue tracker](https://issues.apache.org/jira/browse/CAMEL). This way we’ll know when the issue has been fixed and we can ensure that the problem stays fixed in future releases. Please describe the bug/issue clearly, and add pictures/screenshots if necessary.\n"
 "If you can create a JUnit test case which demonstrates the problem, then your issue is more likely to be resolved quickly.\n"
 "For examples, take a look at some of the existing [unit test cases](https://github.com/apache/camel/tree/main/core/camel-core/src/test/java/org/apache/camel).\n"
 msgstr ""
+"私たちの[issue tracker](https://issues.apache.org/jira/browse/CAMEL)に新しい問題を提起してください。こうすることで、問題がいつ修正されたかを知ることができ、今後のリリースでもその問題が修正されないようにすることができます。バグや問題を明確に記述し、必要に応じて写真やスクリーンショットを追加してください。\n"
+"問題を実証するJUnitテストケースを作成することができれば、問題が迅速に解決される可能性が高くなります。\n"
+"例としては、既存の[unit test case](https://github.com/apache/camel/tree/main/core/camel-core/src/test/java/org/apache/camel)をご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:39
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "**NOTE:** you will need to register to create or comment on JIRA issues. The \"Log In\" link in the upper right will allow you to login with an existing account or sign up for an account.\n"
-msgstr ""
+msgstr "注：**JIRA課題の作成やコメントをするには、登録が必要です。右上の「Log In」リンクから、既存のアカウントでログインするか、アカウントを登録することができます。\n"
 
 #. type: Title ##
 #: upstream/content/community/contributing.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Working on the documentation"
-msgstr ""
+msgstr "ドキュメントの作成"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Documentation is extremely important to help users make the most of Apache Camel and it's probably the area that needs the most help!\n"
 "So if you are interested in helping the documentation effort; whether it's just to fix a page here or there, correct a link or even write a tutorial or improve existing documentation please do dive in and help! Most of the documentation is managed in the same repositories as the related source code so the process is similar to working on the code. For more details please refer to [Improving the documentation in the User Manual](/manual/latest/improving-the-documentation.html).\n"
 msgstr ""
+"ドキュメンテーションは、ユーザーがApache Camelを最大限に活用するために非常に重要であり、おそらく最も助けを必要としている分野です。\n"
+"もしあなたがドキュメンテーション作業に興味があれば、あちこちのページを修正したり、リンクを修正したり、あるいはチュートリアルを書いたり、既存のドキュメンテーションを改善したりするだけでも構いませんので、ぜひ参加して手伝ってください。ほとんどのドキュメントは、関連するソースコードと同じリポジトリで管理されているため、コードの作業と同じようなプロセスで作業を行うことができます。詳しくは、[ユーザーマニュアルのドキュメント改善](/manual/latest/improving-the-documentation.html)をご覧ください。\n"
 
 #. type: Title ##
 #: upstream/content/community/contributing.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Working on the code"
-msgstr ""
+msgstr "コードの作成"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We recommend working on the code from the [camel GitHub repository](https://github.com/apache/camel/). Camel subprojects are maintained in [separate repositories in GitHub](https://github.com/apache?q=camel).\n"
-msgstr ""
+msgstr "camelのGitHubリポジトリ](https://github.com/apache/camel/)のコードに取り組むことをお勧めします。Camelのサブプロジェクトは、[GitHubの個別リポジトリ](https://github.com/apache?q=camel)で管理されています。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    git clone https://github.com/apache/camel.git\n"
 "    cd camel\n"
 msgstr ""
+"    git clone https://github.com/apache/camel.git\n"
+"    cd camel\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "**NOTE:** If you are an Apache Camel committer, then you may also clone the [ASF git repo](https://gitbox.apache.org/repos/asf/camel.git).\n"
-msgstr ""
+msgstr "**NOTE:** もしあなたがApache Camelのコミッターであれば、[ASF git repo](https://gitbox.apache.org/repos/asf/camel.git)をクローンすることもできます。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Build the project with [Maven](http://maven.apache.org/download.html). Maven 3.6.x or newer is required to build Camel 3 or later. The following command will do a fast build.\n"
-msgstr ""
+msgstr "Maven](http://maven.apache.org/download.html)でプロジェクトをビルドします。Camel 3以降のビルドにはMaven 3.6.x以降が必要です。以下のコマンドで高速なビルドを行います。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "    mvn clean install -Pfastinstall\n"
-msgstr ""
+msgstr "    mvn clean install -Pfastinstall\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "**NOTE:** You might need to build multiple times (if you get a build error) because sometimes maven fails to download all the required jars.\n"
 "Then import the projects into your workspace.\n"
 msgstr ""
+"注意：** maven が必要な jar ファイルのダウンロードに失敗することがあるため、複数回ビルドする必要があるかもしれません（ビルドエラーが発生する場合）。\n"
+"次に、プロジェクトをワークスペースにインポートします。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:62
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can find more details about building camel in the User Manual [Building](/manual/latest/building.html) page.\n"
-msgstr ""
+msgstr "camelのビルドについては、ユーザーマニュアル[ビルド](/manual/latest/building.html)のページで詳しく説明しています。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:64
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you aren't able to build a component after adding some new URI parameters due to `Empty doc for option: [OPTION], parent options: <null>` please make sure that you either added properly javadoc for get/set method or description in `@UriPath` annotation.\n"
 msgstr ""
+"新しいURIパラメータを追加した後に、`Empty doc for option''が発生してコンポーネントをビルドできない場合。[OPTION], parent options:<null>と表示される場合は、get/setメソッドのjavadocが適切に追加されているか、`@UriPath`アノテーションに説明が追加されているかを確認してください。\n"
+"</null>"
 
 #. type: Title ###
 #: upstream/content/community/contributing.md:66
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Verify Karaf features"
-msgstr ""
+msgstr "Karafの機能を確認する"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel-Karaf now lives in its own repository, so to verify a Karaf feature, you'll need to fork the [camel-karaf repository](https://github.com/apache/camel-karaf).\n"
-msgstr ""
+msgstr "Camel-Karafは独自のリポジトリになったので、Karafの機能を検証するには、[camel-karaf repository](https://github.com/apache/camel-karaf)をフォークする必要があります。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:72
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "To check a new Karaf feature or an existing one, you should run a verification on the features.xml file. You'll need to follow these steps:\n"
 "The first step is to run a full build of Camel. Then\n"
 msgstr ""
+"Karafの新しい機能や既存の機能を確認するには、features.xmlファイルの検証を実行する必要があります。以下の手順を踏む必要があります。\n"
+"最初のステップは、Camel のフルビルドを実行することです。次に\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:75
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    cd platform/karaf/features/\n"
 "    mvn clean install\n"
 msgstr ""
+"    cd platform/karaf/features/\n"
+"    mvnクリーンインストール\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:77
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you modified a component/dataformat or updated a dependency in the main camel repository, you'll first need to build the main camel locally and then run a full build of camel-karaf.\n"
-msgstr ""
+msgstr "コンポーネント/データフォーマットを変更したり、メインの camel リポジトリの依存関係を更新したりした場合は、まずメインの camel をローカルにビルドしてから camel-karaf のフルビルドを実行する必要があります。\n"
 
 #. type: Title ##
 #: upstream/content/community/contributing.md:80
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Testing the changes"
-msgstr ""
+msgstr "変更点のテスト"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:83
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you need to implement tests for your changes (highly recommended!), you will probably need to handle 3 separate things: \n"
-msgstr ""
+msgstr "変更内容に対してテストを実装する必要がある場合（強くお勧めします！）、おそらく3つの別々の処理が必要になるでしょう。 \n"
 
 #. type: Bullet: '- '
 #: upstream/content/community/contributing.md:92
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "simulate the infrastructure required for the test (ie.: JMS brokers, Kafka, etc), \n"
-msgstr ""
+msgstr "テストに必要なインフラをシミュレートする（例：JMSブローカー、Kafkaなど）。 \n"
 
 #. type: Bullet: '- '
 #: upstream/content/community/contributing.md:92
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "writing testable code,\n"
-msgstr ""
+msgstr "テスト可能なコードを書く。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:92
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "- the test logic itself. \n"
 "Naturally, there is no rule of\n"
@@ -285,205 +305,227 @@ msgid ""
 "growing library of reusable components that can be helpful. These components are located in the test-infra module and provide\n"
 "support for simulating message brokers, cloud environments, databases and much more.\n"
 msgstr ""
+"- は、テストロジックそのものです。 \n"
+"当然のことながら、コード変更やテストロジックをどのように書くべきか、経験則はありません。\n"
+"コードの変更やテストロジックをどのように書くべきかという経験則は当然ありません。ユーザーマニュアルの[Testing](/manual/latest/testing.html)のページには、Camelのユニットテストを書くための詳細な情報と例が記載されています。\n"
+"テストインフラのシミュレーションに関しては、再利用可能なコンポーネントのライブラリが増えています。\n"
+"再利用可能なコンポーネントのライブラリが増えてきており、それが役に立ちます。これらのコンポーネントは test-infra モジュールにあります。\n"
+"メッセージブローカー、クラウド環境、データベースなどをシミュレートすることができます。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:94
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Using these components is usually as simple as registering them as JUnit 5 extensions:\n"
-msgstr ""
+msgstr "これらのコンポーネントを使用するには、通常、JUnit 5 のエクステンションとして登録するだけです。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:97
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    @RegisterExtension\n"
 "    static NatsService service = NatsServiceFactory.createService();\n"
 msgstr ""
+"    拡張機能の登録\n"
+"    static NatsService service = NatsServiceFactory.createService();\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:99
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Then you can access the service by using the methods and properties provided by the services. This varies according to each service.\n"
-msgstr ""
+msgstr "そして、サービスが提供するメソッドやプロパティを使って、サービスにアクセスします。これは各サービスによって異なります。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you need to implement a new test-infra service, check the [readme on the test-infra module](https://github.com/apache/camel/tree/main/test-infra#readme) for additional details.\n"
-msgstr ""
+msgstr "新しいtest-infraサービスを実装する必要がある場合は、[readme on the test-infra module](https://github.com/apache/camel/tree/main/test-infra#readme)で詳細を確認してください。\n"
 
 #. type: Title ##
 #: upstream/content/community/contributing.md:102
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Running checkstyle"
-msgstr ""
+msgstr "ランニングチェックスタイル"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:107
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Apache Camel source code uses a coding style/format that can \n"
 "be verified for compliance using the checkstyle plugin.\n"
 "To enable source style checking with checkstyle, build Camel with the -Psourcecheck parameter:\n"
 msgstr ""
+"Apache Camelのソースコードは、チェックスタイル・プラグインを使って準拠性を検証できるコーディングスタイル/フォーマットを使用しています。 \n"
+"チェックスタイル・プラグインを使って、その準拠を検証することができます。\n"
+"checkstyleによるソーススタイルチェックを有効にするには、-Psourcecheckパラメータを指定してCamelをビルドします。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:109
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "    mvn clean install -Psourcecheck\n"
-msgstr ""
+msgstr "    mvn clean install -Psourcecheck\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:111
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Please remember to run this check on your code changes before submitting a patch or Github PR. You do not need to run this against the entire project, but only in the modules you modified. Let's say you do some code changes in the camel-ftp component, following which you can run the check from within this directory:\n"
-msgstr ""
+msgstr "パッチやGithub PRを提出する前に、コードの変更に対してこのチェックを実行することを忘れないでください。プロジェクト全体に対して実行する必要はありませんが、変更したモジュールに対してのみ実行してください。例えば、camel-ftp コンポーネントのコードを変更したとすると、このディレクトリ内でチェックを実行できます。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:114
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    cd camel-ftp\n"
 "    mvn clean install -Psourcecheck\n"
 msgstr ""
+"    cd camel-ftp\n"
+"    mvn clean install -Psourcecheck\n"
 
 #. type: Title ##
 #: upstream/content/community/contributing.md:116
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Submitting your contribution"
-msgstr ""
+msgstr "投稿内容の確認"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:119
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We gladly accept patches if you can find ways to improve, tune, or fix Camel in some way.\n"
 "Make sure you have followed the steps and guidelines outlined in this document. For larger changes, make sure that you have discussed them on the developer's mailing list or in the Jira issue tracker before hand. To get the best response from the team, make sure that the reasoning behind the contribution you wish to make is clear: outline the problem and explain your solution for it. Describe any changes you have made for which you are unaware or unsure of any consequences or side effects.\n"
 msgstr ""
+"パッチは、Camelを何らかの形で改善、調整、修正する方法を見つけていただければ、喜んでお受けします。\n"
+"このドキュメントに記載されている手順とガイドラインに従っていることを確認してください。大きな変更の場合は、事前に開発者用のメーリングリストやJiraの課題追跡システムで議論していることを確認してください。チームから最高の反応を得るために、あなたが行いたい貢献の理由が明確であることを確認してください：問題の概要とその解決策を説明してください。問題の概要とそれに対する解決策を説明してください。また、あなたが行った変更のうち、結果や副作用について知らない、あるいは確信が持てないものについても説明してください。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:121
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Be mindful of the source checks, formatting and the structure of the git commit message we abide by. In particular, if there is a JIRA issue, reference it in the first line of your commit message, for example:\n"
-msgstr ""
+msgstr "ソースチェック、フォーマット、そして私たちが遵守しているgitコミットメッセージの構造に留意してください。特に、JIRAの課題がある場合は、コミットメッセージの1行目でそれを参照するようにしてください。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:123
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "    CAMEL-9999: Some message goes here\n"
-msgstr ""
+msgstr "    CAMEL-9999: Some message goes here\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:126
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Ensure that the unit tests include proper assertions, and not only system.out or logging.\n"
 "Please also avoid unnecessary changes, like reordering methods and fields, which will make your PR harder to review.\n"
 msgstr ""
+"ユニットテストには、system.outやloggingだけでなく、適切なアサーションが含まれていることを確認してください。\n"
+"また、メソッドやフィールドの順番を入れ替えるような不必要な変更は避けてください。これにより、PRのレビューが難しくなります。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:128
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Following these guidelines will help you in getting your contribution accepted. \n"
-msgstr ""
+msgstr "これらのガイドラインに従うことで、あなたの投稿が受け入れられやすくなります。 \n"
 
 #. type: Title ###
 #: upstream/content/community/contributing.md:129
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Creating a Pull Request at Github"
-msgstr ""
+msgstr "Githubでのプルリクエストの作成"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:133
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The *preferred* way of submitting your contribution is to fork the camel Github repository and push your changes there.\n"
 "You can find many resources online explaining how to work on GitHub projects and how to submit work to these projects.\n"
 "After updating your private repository, create a Pull Request (PR). One of the committers then needs to accept your PR to bring the code into the ASF codebase. \n"
 msgstr ""
+"貢献度を提出するための*望ましい*方法は、camelのGithubリポジトリをフォークして、そこに変更をプッシュすることです。\n"
+"GitHub プロジェクトでの作業方法やプロジェクトへの投稿方法については、オンラインで多くのリソースを見つけることができます。\n"
+"プライベートリポジトリを更新したら、プルリクエスト (PR) を作成します。ASFのコードベースにコードを取り込むためには、コミッターの一人がPRを承認する必要があります。 \n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:135
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Expect that your Pull Request will receive a review and that you will need to respond and correspond to that via comments at GitHub.\n"
-msgstr ""
+msgstr "Pull Requestがレビューされ、それに対してGitHubのコメントで対応しなければならないことを想定してください。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:137
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Stay engaged, follow and respond to comments or questions you might be asked.\n"
-msgstr ""
+msgstr "コメントや質問があった場合には、フォローしたり、回答したりしてください。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:139
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "After the code has been included into the ASF codebase, you need to close the Pull Request because we can't do that...\n"
-msgstr ""
+msgstr "コードがASFのコードベースに含まれた後、Pull Requestを閉じる必要がありますが、それはできませんので...。\n"
 
 #. type: Title ###
 #: upstream/content/community/contributing.md:140
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Manual patch files"
-msgstr ""
+msgstr "マニュアルパッチファイル"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:143
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For smaller patches, you may also submit a patch file instead of using a Pull Request. To do this:\n"
-msgstr ""
+msgstr "小規模なパッチの場合、Pull Requestではなくパッチファイルを提出することもできます。これを行うには\n"
 
 #. type: Bullet: '- '
 #: upstream/content/community/contributing.md:147
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[create a new JIRA issue](https://issues.apache.org/jira/browse/CAMEL)\n"
-msgstr ""
+msgstr "新しいJIRA課題の作成](https://issues.apache.org/jira/browse/CAMEL)\n"
 
 #. type: Bullet: '- '
 #: upstream/content/community/contributing.md:147
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "attach the patch or tarball as an attachment\n"
-msgstr ""
+msgstr "パッチやtarballを添付ファイルとして付ける\n"
 
 #. type: Bullet: '- '
 #: upstream/content/community/contributing.md:147
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "**tick the Patch Attached** button on the issue\n"
-msgstr ""
+msgstr "課題の「Patch Attached」ボタンを押してください。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:150
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Most IDEs can create nice patches now very easily. e.g., on Eclipse, right-click on a file/directory, and select Team -> Create Patch. Then save the patch as a file and attach it to the corresponding JIRA issue.\n"
 "If you prefer working on the command-line, try the following to create the patch:\n"
 msgstr ""
+"ほとんどのIDEは、今ではとても簡単に素敵なパッチを作成することができます。例えば、Eclipseでは、ファイルやディレクトリを右クリックして、「チーム」→「パッチの作成」を選択します。その後、パッチをファイルとして保存し、対応するJIRAの課題に添付します。\n"
+"コマンドラインで作業したい場合は、以下のようにしてパッチを作成してみてください。\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:152
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "    diff -u Main.java.orig Main.java >> patchfile.txt\n"
-msgstr ""
+msgstr "    diff -u Main.java.orig Main.java &gt;&gt; patchfile.txt\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:154
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "or\n"
-msgstr ""
+msgstr "または\n"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:156
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "    git diff --no-prefix > patchfile.txt\n"
-msgstr ""
+msgstr "    git diff --no-prefix &gt; patchfile.txt\n"
 
 #. type: Title ##
 #: upstream/content/community/contributing.md:159
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Becoming a committer"
-msgstr ""
+msgstr "コミッターになる"
 
 #. type: Plain text
 #: upstream/content/community/contributing.md:162
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Once you've become involved as above, we may well invite you to be a committer. See [How do I become a committer](/manual/latest/faq/how-do-i-become-a-committer.html) for more details.\n"
-msgstr ""
+msgstr "上記のように参加していただいた方には、コミッターになっていただくこともあります。詳しくは[How do I become a committer](/manual/latest/faq/how-do-i-become-a-committer.html)をご覧ください。\n"

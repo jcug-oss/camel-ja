@@ -18,259 +18,284 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus Configuration Tips"
-msgstr ""
+msgstr "Camel Quarkus設定のヒント"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Lately, I have exchanged with a member of the Camel community around configuration properties in Camel Quarkus.\n"
 "It's really interesting to hear about situations people are facing out there, so please keep reaching out to the community.\n"
 "Thinking back about the case at hand, I think there is room for a refresher about some configuration tips.\n"
 msgstr ""
+"最近、Camelコミュニティのメンバーと、Camel Quarkusのコンフィギュレーション・プロパティをめぐってやりとりをしています。\n"
+"みんなが直面している状況を聞くのは本当に面白いので、どんどんコミュニティに声をかけてください。\n"
+"今回の件を振り返ってみると、設定のヒントについて再確認する余地があると思います。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Configuration via application.properties file"
-msgstr ""
+msgstr "application.propertiesファイルによる設定"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Among the multiple ways to define configurations in Camel Quarkus, the more common must be the `application.properties` file, as illustrated below:\n"
-msgstr ""
+msgstr "Camel Quarkusで設定を定義する複数の方法の中で、より一般的なのは、以下の図のように、`application.properties`ファイルです。\n"
 
 #. type: Fenced code block (properties)
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "basic=a-basic-value\n"
-msgstr ""
+msgstr "basic=a-basic-value\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "There are few possibilities for a developer to use the defined configurations.\n"
 "One could use the `@ConfigProperty` annotation as beneath:\n"
 msgstr ""
+"開発者が定義された設定を使用する方法はいくつかあります。\n"
+"以下のように、`@ConfigProperty`アノテーションを使用することができます。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "@ConfigProperty(name = \"basic\")\n"
 "String basicPropertyFromAnnotation;\n"
 msgstr ""
+"@ConfigProperty(name = \"basic\")\n"
+"文字列 basicPropertyFromAnnotation;\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It's also possible to access the configuration values programmatically via the following code:\n"
-msgstr ""
+msgstr "また、以下のコードでプログラム的に設定値にアクセスすることも可能です。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "String basicPropertyFromConfigProvider = ConfigProvider.getConfig().getValue(\"basic\", String.class);\n"
-msgstr ""
+msgstr "String basicPropertyFromConfigProvider = ConfigProvider.getConfig().getValue(\"basic\", String.class);\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "From the Camel side, the `{{...}}` notation could be issued, for instance, in a simple expression:\n"
-msgstr ""
+msgstr "Camel側からは、例えば、単純な式の中で、`{{...}}`という記法を発行することができます。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "from(...).setBody(simple(\"{{basic}}\"))\n"
-msgstr ""
+msgstr "from(...).setBody(simple(\"{{basic}}\"))\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "It's worth noting that in a first pass the `application.properties` file is parsed thanks to `java.util.Properties`.\n"
 "And as such, the corresponding character escaping rules apply. For instance one could define a configuration using the mathematical square root sign `\\u221A` as beneath:\n"
 msgstr ""
+"最初のパスでは、`java.util.Properties`のおかげで、`application.properties`ファイルが解析されることに注目してください。\n"
+"そのため、対応する文字エスケープのルールが適用されます。例えば、数学的な平方根の記号である「\\u221A」を使った構成を以下のように定義することができます。\n"
 
 #. type: Fenced code block (properties)
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "unicode = a-value-with-unicode-character-(\\u221A9=3)\n"
-msgstr ""
+msgstr "unicode = a-value-with-unicode-character-(\\u221A9=3)\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Property expressions"
-msgstr ""
+msgstr "プロパティの表現"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "But there is more processing happening in a second pass thanks to [smallrye-common](https://github.com/smallrye/smallrye-common) and it leads to more features.\n"
 "For instance, with property expressions one could define a configuration as below:\n"
 msgstr ""
+"しかし、[smallrye-common](https://github.com/smallrye/smallrye-common)のおかげで、2回目のパスではより多くの処理が行われ、より多くの機能が得られます。\n"
+"例えば、property expressionを使って、以下のような構成を定義することができます。\n"
 
 #. type: Fenced code block (properties)
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "embedded = resolved-via-a\n"
 "property-expression = a-value-${embedded}-property-expression\n"
 msgstr ""
+"埋め込まれたもの = 解決されたもの\n"
+"property-expression = a-value-${embedded}-property-expression\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Notice how the property from the second line embeds the value from the first line. The resulting value at the end would be `a-value-resolved-via-a-property-expression`.\n"
-msgstr ""
+msgstr "2行目のプロパティが1行目の値を埋め込んでいることに注目してください。最後に得られる値は `a-value-resolved-via-a-property-expression` となります。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Environment variables"
-msgstr ""
+msgstr "環境変数"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:58
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Another topic of interest is environment variable expansion. Look at the following property definition where the USERNAME environment variable is used:\n"
-msgstr ""
+msgstr "もう一つの関心事は、環境変数の拡張です。環境変数「USERNAME」が使用されている次のプロパティ定義を見てください。\n"
 
 #. type: Fenced code block (properties)
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:58
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "environment-variable = a-value-with-environment-variable-${USERNAME}\n"
-msgstr ""
+msgstr "environment-variable = a-value-with-environment-variable-${USERNAME}。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:64
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "So, it is possible to include references to environment variables. In case Camel Quarkus runs in an environment where the variable is not defined,\n"
 "it is even feasible to define a default value after the `:` character like this:\n"
 msgstr ""
+"そのため、環境変数への参照を含めることが可能です。変数が定義されていない環境でCamel Quarkusが動作した場合、次のように`:`文字の後にデフォルト値を定義することも可能です。\n"
+"以下のように`:`の後にデフォルト値を定義することも可能です。\n"
 
 #. type: Fenced code block (properties)
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:64
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "environment-variable-or-default = ${UNEXISTING_ENV_VAR:a-default-value}\n"
-msgstr ""
+msgstr "環境変数のデフォルト値 = ${UNEXISTING_ENV_VAR:a-default-value}.\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Last but not least, it's also possible to mix property expressions with environment variables as in the following lines:\n"
-msgstr ""
+msgstr "最後になりましたが、以下の行のように、プロパティ式と環境変数を混在させることも可能です。\n"
 
 #. type: Fenced code block (properties)
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "default-value = a-default-value-resolved-via-a-property-expression\n"
 "envvar-or-default-via-property-expression = ${UNEXISTING_ENV_VAR:${default-value}}\n"
 msgstr ""
+"default-value = a-default-value-resolved-via-property-expression\n"
+"環境変数またはデフォルト値を使ったプロパティ式 = ${UNEXISTING_ENV_VAR:${default-value}}。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:74
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The more meaningful part is `${UNEXISTING_ENV_VAR:${default-value}}`. If the environment variable `UNEXISTING_ENV_VAR` is not defined, we end up embedding the `default-value` configured one line above.\n"
-msgstr ""
+msgstr "より意味のある部分は、`${UNEXISTING_ENV_VAR:${default-value}}`です。環境変数`UNEXISTING_ENV_VAR`が定義されていない場合は、1行上に設定された`default-value`を埋め込んでしまいます。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:75
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A tricky situation"
-msgstr ""
+msgstr "厄介な状況"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:79
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The previous syntax `${VAR:default}` may sound familiar for some Camel users. Indeed, it reminds us of some parts of the [Camel simple language](/components/latest/languages/simple-language.html).\n"
 "For instance, some developers could end up defining a property like below:\n"
 msgstr ""
+"以前の構文`${VAR:default}`は、一部のCamelユーザーにとっては馴染みがあるかもしれません。実際、[Camel simple language](/components/latest/languages/simple-language.html)の一部を思い出させます。\n"
+"例えば、開発者の中には、以下のようなプロパティを定義してしまう人もいるでしょう。\n"
 
 #. type: Fenced code block (properties)
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:79
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "date-expression = ${date:now}\n"
-msgstr ""
+msgstr "日付式 = ${date:now}.\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:83
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "And then using it in a Camel simple expression like that:\n"
-msgstr ""
+msgstr "そして、それをCamelのシンプルな表現で使う、というようなことです。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:83
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "from(...).setBody(simple(\"{{date-expression}}\")\n"
-msgstr ""
+msgstr "from(...).setBody(simple(\"{{date-expression}}\"))\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:87
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "But when the simple expression `{{date-expression}}` is evaluated at runtime, the resulting body is... `null`\n"
-msgstr ""
+msgstr "しかし、単純な式 `{{date-expression}}` を実行時に評価すると、結果として得られるボディは...。`null` です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:90
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "It could sound a bit strange at first, but let's review this situation with what we have learned so far.\n"
 "On the first pass, the `application.properties` file is parsed with respect to the [Properties file format](https://docs.oracle.com/javase/7/docs/api/java/util/Properties.html). No special characters are used, so the parsing outcome would be `${date:now}` as expected.\n"
 msgstr ""
+"最初はちょっと不思議な感じがするかもしれませんが、この状況をこれまでの学習内容と照らし合わせて確認してみましょう。\n"
+"最初のパスでは、`application.properties` ファイルは [Properties file format](https://docs.oracle.com/javase/7/docs/api/java/util/Properties.html) に従ってパースされます。特別な文字は使われていないので、解析結果は予想通り `${date:now}` となります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:93
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "But in the second pass, it turns out that this property value is interpreted as the expansion of an environment variable named `date` with a default value. As such, Camel is wrongly provided with the value `now`. The expansion algorithm is detailed in [io.smallrye.common.expression.Expression.parseString(...)](https://github.com/smallrye/smallrye-common/blob/0b59733491ff936808cd26a4b300f11fe3f2a5f0/expression/src/main/java/io/smallrye/common/expression/Expression.java#L245).\n"
 "Paying close attention, it appears that the environment value expansion could be avoided using `$$`:\n"
 msgstr ""
+"しかし、2回目の処理では、このプロパティ値が、デフォルト値を持つ`date`という環境変数の展開として解釈されていることが判明しました。そのため、Camelには`now`という値が誤って与えられています。展開のアルゴリズムは[io.smallrye.common.expression.Expression.parseString(...)](https://github.com/smallrye/smallrye-common/blob/0b59733491ff936808cd26a4b300f11fe3f2a5f0/expression/src/main/java/io/smallrye/common/expression/Expression.java#L245)に詳しく書かれています。\n"
+"よくよく考えてみると、環境値の展開は、`$$`を使えば回避できるようです。\n"
 
 #. type: Fenced code block (properties)
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:93
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "date-expression = $${date:now}\n"
-msgstr ""
+msgstr "dat-expression = $${date:now}となります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:97
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Exactly what we needed, Camel is now provided with the simple expression `${date:now}` and set the body to a value like `Fri Jan 29 17:07:44 CET 2021` on execution.\n"
-msgstr ""
+msgstr "まさに私たちが必要としていたもので、Camelはシンプルな式 `${date:now}` を提供し、実行時にボディに `Fri Jan 29 17:07:44 CET 2021` のような値を設定します。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:98
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Summary"
-msgstr ""
+msgstr "概要"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:102
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "At the end of the day, we had a refresher about `application.properties`, property expressions, and environment variables.\n"
 "We have seen how to deal with a tricky situation. There must be even more corner cases out there but we hope this article offered some pointers to help.\n"
 msgstr ""
+"この日の終わりには、`application.properties`、プロパティ式、環境変数について再確認しました。\n"
+"厄介な状況に対処する方法を見てきました。世の中にはもっと多くのコーナーケースがあるはずですが、この記事が何かのヒントになれば幸いです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:104
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The source code for this example could be found [here](https://github.com/aldettinger/camel-quarkus-properties). And, the Quarkus configuration reference guide is located [there](https://quarkus.io/guides/config-reference).\n"
-msgstr ""
+msgstr "この例のソースコードは[こちら](https://github.com/aldettinger/camel-quarkus-properties)に掲載されています。また、Quarkusの設定リファレンスガイドは[こちら](https://quarkus.io/guides/config-reference)にあります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/camel-quarkus-configuration-tips/index.md:105
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Many thanks for reading.\n"
-msgstr ""
+msgstr "お読みいただきありがとうございました。\n"

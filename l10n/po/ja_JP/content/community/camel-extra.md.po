@@ -18,12 +18,12 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/community/camel-extra.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Extra components"
-msgstr ""
+msgstr "キャメルエクストラコンポーネント"
 
 #. type: Plain text
 #: upstream/content/community/camel-extra.md:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Camel Extra project](https://camel-extra.github.io/) contains a number of extension components which due to GPL/LGPL licensing cannot be hosted at Apache.\n"
-msgstr ""
+msgstr "Camel Extra project](https://camel-extra.github.io/)には、GPL/LGPLライセンスのためにApacheではホストできない多くの拡張コンポーネントが含まれています。\n"

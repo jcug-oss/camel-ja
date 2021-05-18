@@ -18,6 +18,6 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/sitemap/_index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Sitemap"
-msgstr ""
+msgstr "サイトマップ"

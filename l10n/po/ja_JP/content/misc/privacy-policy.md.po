@@ -18,90 +18,90 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/misc/privacy-policy.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Privacy Policy"
-msgstr ""
+msgstr "プライバシーポリシー"
 
 #. type: Title ##
 #: upstream/content/misc/privacy-policy.md:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel Privacy Policy"
-msgstr ""
+msgstr "Apache Camel プライバシーポリシー"
 
 #. type: Plain text
 #: upstream/content/misc/privacy-policy.md:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Apache Software Foundation (ASF) is an open source project organized under the auspices of a public benefit corporation. Our challenges and goals are large. For that reason, we have a very permissive (non) privacy policy that mirrors our public mission.\n"
-msgstr ""
+msgstr "Apache Software Foundation（ASF）は、公益法人の支援のもとに組織されたオープンソースプロジェクトです。私たちの課題と目標は大きなものです。そのため、私たちの公的使命を反映して、非常に寛容な（非）プライバシーポリシーを採用しています。\n"
 
 #. type: Plain text
 #: upstream/content/misc/privacy-policy.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Please assume that everything you contribute intentionally to The ASF, or any project at The ASF, is public. This includes emails on public lists, wikis, online discussions of all sorts, and software or documentation that you post to this website or our revision control repositories.\n"
-msgstr ""
+msgstr "あなたがASFまたはASFのプロジェクトに意図的に貢献したものは、すべて公開されるものとお考えください。これには、公開リスト上の電子メール、Wiki、あらゆる種類のオンライン・ディスカッション、このウェブサイトや私たちのリビジョンコントロール・リポジトリに投稿したソフトウェアや文書が含まれます。\n"
 
 #. type: Plain text
 #: upstream/content/misc/privacy-policy.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Because we follow an academic model that expects mutual personal respect, disclosure of interests and openness of expression is public information. There may be cases where you are invited to share private information for various purposes, and denote that information as such. In those cases, we commit to only disclosing that information without your permission upon receipt of a valid subpoena and following notice from The ASF to you.\n"
-msgstr ""
+msgstr "私たちは、相互に個人を尊重することを前提とした学術的モデルに従っているため、関心事や表現の開放性の開示は公開情報となります。様々な目的のために個人情報の共有を求められる場合がありますが、その際にはそのような情報として表示します。そのような場合、私たちは、有効な召喚状を受け取り、ASFからあなたへの通知があった場合にのみ、あなたの許可なくその情報を開示することを約束します。\n"
 
 #. type: Plain text
 #: upstream/content/misc/privacy-policy.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Although what you disclose here is public, we are all limited by copyright and patent law in how we may use your contributions. Therefore, The ASF only accepts voluntary contributions of software and documentation that are expressly licensed to The ASF under an approved open source license.\n"
-msgstr ""
+msgstr "ここで開示された内容は公開されていますが、私たちは皆、あなたの貢献をどのように使用できるかについて、著作権法および特許法によって制限されています。したがって、ASFは、承認されたオープンソース・ライセンスに基づいてASFに明示的にライセンスされたソフトウェアおよび文書の自発的な提供のみを受け付けます。\n"
 
 #. type: Title ##
 #: upstream/content/misc/privacy-policy.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Website Usage Privacy Policy"
-msgstr ""
+msgstr "ウェブサイト利用に関するプライバシーポリシー"
 
 #. type: Plain text
 #: upstream/content/misc/privacy-policy.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Information about your use of this website is collected using server access logs and a tracking cookie. The collected information consists of the following:\n"
-msgstr ""
+msgstr "このウェブサイトの利用に関する情報は、サーバーのアクセスログとトラッキングクッキーを使って収集されます。収集される情報は以下のように構成されています。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/misc/privacy-policy.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The IP address from which you access the website\n"
-msgstr ""
+msgstr "お客様がウェブサイトにアクセスする際のIPアドレス\n"
 
 #. type: Bullet: '* '
 #: upstream/content/misc/privacy-policy.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The type of browser and operating system you use to access our site\n"
-msgstr ""
+msgstr "お客様が当社のサイトにアクセスする際に使用したブラウザの種類とオペレーティング・システム\n"
 
 #. type: Bullet: '* '
 #: upstream/content/misc/privacy-policy.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The date and time you access our site\n"
-msgstr ""
+msgstr "お客様が当サイトにアクセスした日付と時間\n"
 
 #. type: Bullet: '* '
 #: upstream/content/misc/privacy-policy.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The pages you visit\n"
-msgstr ""
+msgstr "お客様が訪れたページ\n"
 
 #. type: Bullet: '* '
 #: upstream/content/misc/privacy-policy.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The pages from where you followed a link to our site.\n"
-msgstr ""
+msgstr "お客様が当サイトへのリンクを辿ったページ。\n"
 
 #. type: Plain text
 #: upstream/content/misc/privacy-policy.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We use the gathered information to help us make our site more useful to visitors and to better understand how and when our site is used. We do not track or collect personally identifiable information or associate gathered data with any personally identifying information from other sources.\n"
-msgstr ""
+msgstr "収集した情報は、当サイトを訪問者にとってより便利なものにするため、また、当サイトがいつどのように利用されているかをよりよく理解するために使用します。当社は、個人を特定できる情報を追跡・収集したり、収集したデータを他の情報源からの個人を特定できる情報と関連付けたりすることはありません。\n"
 
 #. type: Plain text
 #: upstream/content/misc/privacy-policy.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "By using this website, you consent to the collection of this data in the manner and for the purpose described above.\n"
-msgstr ""
+msgstr "このウェブサイトを利用することにより、お客様は上記の方法および目的でこのデータが収集されることに同意したことになります。\n"

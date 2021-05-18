@@ -18,46 +18,49 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel: mocking more than ever helped by Quarkus friend"
-msgstr ""
+msgstr "ラクダ：Quarkusの友人に助けられて今まで以上にコケる"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Even implementing a simple stateless micro-service, one could face situations where testing becomes hard.\n"
 "A lot of tools and techniques could help, but having something at hand quickly is very handy.\n"
 "In this post, I'm introducing a Quarkus feature that plays nice with Camel in order to mock beans for test purpose.\n"
 msgstr ""
+"シンプルなステートレス・マイクロサービスを実装しても、テストが困難な状況に直面することがあります。\n"
+"多くのツールやテクニックが役立ちますが、何かをすぐに手に入れられるというのはとても便利なことです。\n"
+"この記事では、テスト用にBeansをモックするためにCamelと連携するQuarkusの機能を紹介します。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel and Quarkus together for mocking beans"
-msgstr ""
+msgstr "ラクダとクォークスが一緒になって豆をあつかう"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It's long known that Camel offers great support for Java beans. Every time a developer needs custom code, this feature comes to the rescue.\n"
-msgstr ""
+msgstr "CamelがJava Beanをサポートしていることは以前から知られています。開発者がカスタムコードを必要とするたびに、この機能が助けてくれます。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A route using a bean"
-msgstr ""
+msgstr "ビーンを使ったルート"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Let's take a simple route below for demonstration purpose:\n"
-msgstr ""
+msgstr "ここでは、簡単なルートを示します。\n"
 
 #. type: Fenced code block (java)
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "from(\"platform-http:/semester\").\n"
 "choice().\n"
@@ -67,31 +70,41 @@ msgid ""
 "  setBody(constant(\"SECOND semester\")).\n"
 "end();\n"
 msgstr ""
+"from(\"platform-http:/semester\").\n"
+"choice().\n"
+"  when(simple(\"${bean:monthBean} &lt;= 6\")).\n"
+"  setBody(constant(\"FIRST semester\")).\n"
+"そうでなければ().\n"
+"  setBody(constant(\"SECOND semester\")).\n"
+"end();\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This simple Camel route informs the web client about the current semester. Step by step, it reacts to an incoming HTTP request, invokes a select method on a bean\n"
 "named `monthBean`, compares the returned value against the number `6` and finally set the reply accordingly. For instance, the HTTP response body will be\n"
 "`FIRST semester` when executed from January until June.\n"
 msgstr ""
+"このシンプルなCamelルートは、Webクライアントに現在のセメスターを通知します。順を追って、HTTPリクエストの受信に反応し、`monthBean`という名前のBeanのselectメソッドを呼び出し、返された値を数字の`6`と比較し、最後にそれに応じた応答を設定します。\n"
+"という名前のBeanのselectメソッドを呼び出し、返された値を数字の`6`と比較し、最終的にそれに応じて応答を設定します。例えば，HTTPのレスポンスボディは次のようになります。\n"
+"1月から6月までの間に実行された場合は、`FIRST semester`となります。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A bean used from a route"
-msgstr ""
+msgstr "ルートから使用されるBean"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Now let's define the bean invoked from the route with the code beneath:\n"
-msgstr ""
+msgstr "では、ルートから起動されるBeanを以下のコードで定義してみましょう。\n"
 
 #. type: Fenced code block (java)
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "@ApplicationScoped\n"
 "@Named(\"monthBean\")\n"
@@ -102,30 +115,40 @@ msgid ""
 "  }\n"
 "}\n"
 msgstr ""
+"@ApplicationScoped\n"
+"@Named(\"monthBean\")\n"
+"レギスタフォーリフレクション\n"
+"パブリック・クラス MonthBean {\n"
+"  パブリック int month() {\n"
+"    LocalDateTime.now().getMonth().getValue()を返します。\n"
+"  }\n"
+"}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Helped with the `@Named` CDI annotation, we have just defined a bean named `monthBean` that could be referenced from a route.\n"
 "The `month()` method will return values ranging from `1` when executed in January up to `12` when executed in December.\n"
 msgstr ""
+"CDIの`@Named`アノテーションを利用して，ルートから参照できる`monthBean`という名前のBeanを定義しました．\n"
+"month()`メソッドは，1月に実行された場合には`1`から12月に実行された場合には`12`までの値を返します．\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A first canvas for testing"
-msgstr ""
+msgstr "テストのための最初のキャンバス"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As we are creating a simple HTTP based service, we could leverage on the `@QuarkusTest` annotation and the `RestAssured.given()` method for testing purpose. A possible implementation is proposed underneath:\n"
-msgstr ""
+msgstr "今回はシンプルなHTTPベースのサービスを作成しているので、テストのために`@QuarkusTest`アノテーションと`RestAssured.given()`メソッドを利用することができます。以下に実装例を示します。\n"
 
 #. type: Fenced code block (java)
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "@QuarkusTest\n"
 "public class SemesterRouteTest {\n"
@@ -135,32 +158,43 @@ msgid ""
 "  }\n"
 "}\n"
 msgstr ""
+"@QuarkusTest\n"
+"public class SemesterRouteTest {\n"
+"  テスト\n"
+"  void runningThisTestInOctoberShouldIssueSecondSemester() { 。\n"
+"    given().get(\"/semester\").then().statusCode(200).body(is(\"SECOND semester\"));\n"
+"  }\n"
+"}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "It looks to be a good start. However, this test will obviously fail when executed from January until June.\n"
 "In other words, the test is not reproducible and it would be appreciable to fix this issue by mocking the `monthBean`.\n"
 msgstr ""
+"順調にスタートできそうです。しかし、このテストは1月から6月まで実行すると明らかに失敗します。\n"
+"言い換えれば、このテストは再現性がなく、`monthBean`をモックすることでこの問題を解決することは評価できるでしょう。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:64
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "@InjectMock to the rescue"
-msgstr ""
+msgstr "@InjectMockの救済"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:68
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Luckily, Quarkus is providing the `@InjectMock` annotation in order to inject mocks in the CDI bean registry.\n"
 "This annotation is packaged in the `quarkus-junit5-mockito` artifact, so maven users would need to add a dependency like below:\n"
 msgstr ""
+"幸運なことに、QuarkusはCDI Beanレジストリにモックを注入するために、`@InjectMock`アノテーションを提供しています。\n"
+"このアノテーションは、`quarkus-junit5-mockito`というアーティファクトにパッケージされているので、mavenユーザーは以下のように依存関係を追加する必要があります。\n"
 
 #. type: Fenced code block (xml)
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:68
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<dependency>\n"
 "  <groupId>io.quarkus</groupId>\n"
@@ -168,16 +202,21 @@ msgid ""
 "  <scope>test</scope>\n"
 "</dependency>\n"
 msgstr ""
+"<dependency>\n"
+"  <groupId>io.quarkus</groupId>\n"
+"  <artifactId>quarkus-junit5-mockito</artifactId>\n"
+"  <scope>テスト</scope>\n"
+"</dependency>\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:76
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel is well integrated with the Quarkus registry, allowing us to write the following kind of tests:\n"
-msgstr ""
+msgstr "CamelはQuarkusのレジストリとよく統合されており、以下のようなテストを書くことができます。\n"
 
 #. type: Fenced code block (java)
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:76
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "@QuarkusTest\n"
 "public class SemesterRouteTest {\n"
@@ -191,31 +230,45 @@ msgid ""
 "  }\n"
 "}\n"
 msgstr ""
+"@QuarkusTest\n"
+"パブリッククラス SemesterRouteTest {\n"
+"  @InjectMock\n"
+"  MonthBeanのmonthBean。\n"
+"\n"
+"  テスト\n"
+"  void januaryShouldIssueFirstSemester() {。\n"
+"    when(monthBean.month()).thenReturn(1);\n"
+"    given().get(\"/semester\").then().statusCode(200).body(is(\"FIRST semester\"));\n"
+"  }\n"
+"}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:92
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "At first, notice how we used `@InjectMock` to define the `MonthBean` mock.\n"
 "And later, the [Mockito](https://github.com/mockito/mockito) statement `when(monthBean.month()).thenReturn(1)` let us influence the behavior of the mock.\n"
 "As such, we are now able to simulate that the `month()` method is called in January at will.\n"
 msgstr ""
+"まず、`@InjectMock`を使って`MonthBean`のモックを定義したことに注目してください。\n"
+"そしてその後、[Mockito](https://github.com/mockito/mockito)のステートメント `when(monthBean.month()).thenReturn(1)` によって、モックの動作に影響を与えることができました。\n"
+"これで、`month()`メソッドが1月に呼び出されることを自由にシミュレートできるようになりました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:93
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "More good news"
-msgstr ""
+msgstr "さらに良いニュース"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:96
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Not solely have we fixed the reproducibility issue, but we are even able to complete the test coverage with more scenarios:\n"
-msgstr ""
+msgstr "再現性の問題が解決されただけでなく、さらに多くのシナリオでテストカバレッジを完成させることができました。\n"
 
 #. type: Fenced code block (java)
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:96
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "@Test\n"
 "void augustShouldIssueSecondSemester() {\n"
@@ -229,29 +282,42 @@ msgid ""
 "  given().get(\"/semester\").then().statusCode(500);\n"
 "}\n"
 msgstr ""
+"テスト\n"
+"void augustShouldIssueSecondSemester() {。\n"
+"  when(monthBean.month()).thenReturn(8);\n"
+"  given().get(\"/semester\").then().statusCode(200).body(is(\"SECOND semester\"));\n"
+"}\n"
+"\n"
+"テスト\n"
+"void exceptionShouldIssueHttp500() {。\n"
+"  doThrow(new IllegalArgumentException(\"Simulating an exception\")).when(monthBean).month();\n"
+"  given().get(\"/semester\").then().statusCode(500);\n"
+"}\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:110
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Conclusion"
-msgstr ""
+msgstr "結論"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:114
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "So far, we have introduced a way to mock beans in Camel Quarkus tests. It helped us to define reproducible tests and to improve the test coverage.\n"
 "Note that `@InjectMock` works only in JVM Mode, yet it offers a good complement to native tests.\n"
 msgstr ""
+"これまで、Camel QuarkusのテストでBeansをモックする方法を紹介してきました。これにより、再現性のあるテストを定義し、テストカバレッジを向上させることができました。\n"
+"なお、`@InjectMock`はJVMモードでしか動作しませんが、ネイティブテストを補完する効果があります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:116
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The source code used in this blog post is hosted [on my github repository](https://github.com/aldettinger/camel-quarkus-inject-mock).\n"
-msgstr ""
+msgstr "このブログ記事で使用されているソースコードは、[私のgithubリポジトリ]にホストされています(https://github.com/aldettinger/camel-quarkus-inject-mock)。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/mocking-beans-with-camel-quarkus/index.md:117
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "More information are available about the Quarkus mocking features in the great\t article from Georgios Andrianakis about [Mocking CDI beans in Quarkus](https://quarkus.io/blog/mocking/). Finally, I would like to thank [Gerhard G.](https://pixabay.com/users/blende12-201217/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3901900) for the mocking camel picture.\n"
-msgstr ""
+msgstr "Quarkusのモッキング機能については、Georgios Andrianakis氏による[Mocking CDI beans in Quarkus](https://quarkus.io/blog/mocking/)という素晴らしい記事に詳しい情報があります。最後に、モッキングラクダの写真を提供してくれた[Gerhard G.](https://pixabay.com/users/blende12-201217/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3901900)に感謝したいと思います。\n"

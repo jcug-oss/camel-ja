@@ -18,101 +18,105 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Details of the work done to support idempontency in ckc and example."
-msgstr ""
+msgstr "ckcでidempontencyをサポートするために行われた作業の詳細と例。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Introducing Idempotency Support in Camel Kafka Connector"
-msgstr ""
+msgstr "Camel Kafka ConnectorにおけるIdempotencyサポートの紹介"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In the next Camel Kafka connector release (0.7.0, on vote soon) there will be a new feature: the idempotency support on both source and sink connectors.\n"
 "The aim of this post is giving some hints on how and when to use the idempotency feature.\n"
 msgstr ""
+"次のCamel Kafkaコネクタのリリース(0.7.0, on vote soon)では、新機能として、ソースコネクタとシンクコネクタの両方でidempotencyをサポートする予定です。\n"
+"この投稿の目的は、idempotency機能をいつ、どのように使用するかのヒントを与えることです。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What is Idempotency?"
-msgstr ""
+msgstr "Idempotencyとは何か？"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Idempotent Consumer from the EIP patterns is used to filter out duplicate messages: it essentially acts like a Message Filter to filter out duplicates, as reported in the [Camel documentation](/components/latest/eips/idempotentConsumer-eip.html)\n"
-msgstr ""
+msgstr "Camel documentation](/components/latest/eips/idempotentConsumer-eip.html)で報告されているように、EIPパターンのIdempotent Consumerは、重複したメッセージをフィルタリングするためのMessage Filterのような役割を果たします。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "From the [Enterprise Integration Patterns documentation](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingEndpointsIntro.html):\n"
 "_Sometimes the same message gets delivered more than once, either because the messaging system is not certain the message has been successfully delivered yet, or because the Message Channel’s quality-of-service has been lowered to improve performance. Message receivers, on the other hand, tend to assume that each message will be delivered exactly once, and tend to cause problems when they repeat processing because of repeat messages. A receiver designed as an Idempotent Receiver handles duplicate messages and prevents them from causing problems in the receiver application._\n"
 msgstr ""
+"Enterprise Integration Patterns documentation](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingEndpointsIntro.html)より。\n"
+"これは、メッセージング・システムがメッセージの配信に成功したかどうか確信が持てない場合や、パフォーマンスを向上させるためにメッセージ・チャネルのサービス品質が低下した場合などに起こります。一方、メッセージ・レシーバは、各メッセージが一度だけ配信されることを前提としており、メッセージの繰り返しによる処理の繰り返しが問題となる傾向があります。Idempotent Receiverとして設計されたレシーバーは、重複するメッセージを処理し、レシーバーアプリケーションで問題が発生するのを防ぎます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is a very useful feature in the integration world and it is an important new feature in the camel-kafka-connector project. Apache Camel provides multiple implementation of the Idempotent Consumer, in Camel-Kafka-connector we'll support the in Memory and Kafka implementations.\n"
-msgstr ""
+msgstr "これは統合の世界では非常に便利な機能であり、camel-kafka-connectorプロジェクトでは重要な新機能となっています。Apache CamelはIdempotent Consumerの複数の実装を提供しており、Camel-Kafka-connectorではin MemoryとKafkaの実装をサポートします。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "When to use idempotency"
-msgstr ""
+msgstr "idempotencyを使用する場合"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Suppose you're using a source connector of any kind. By using the idempotency feature you'll be able to avoid consuming the same message multiple times.\n"
-msgstr ""
+msgstr "何らかの種類のソースコネクターを使用しているとします。idempotency機能を使えば、同じメッセージを何度も消費することを避けることができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This means, in the Kafkish language, you won't ingest the same payload multiple times in the target Kafka topic. This is something critical on the cloud for example, where you'll pay for each API operation and for using increasing storage.\n"
-msgstr ""
+msgstr "これは、Kafkishの言葉で言えば、同じペイロードを対象のKafkaトピックに複数回取り込むことがないということです。これは、例えばクラウド上では、API操作のたびに支払いが発生したり、増加するストレージを使用する際に重要なことです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Now lets think about the sink connector scenario.\n"
-msgstr ""
+msgstr "次に、シンクコネクタのシナリオについて考えてみましょう。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In this case, we'll stream out of a Kafka topic multiple records, transform/convert/manipulate them and send them to an external system, like a messaging broker, a storage infra, a database etc.\n"
-msgstr ""
+msgstr "今回のケースでは、Kafkaトピックから複数のレコードをストリーム配信し、それらを変換・転用・操作して、メッセージングブローカーやストレージインフラ、データベースなどの外部システムに送信します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In the Kafka topic used as source we may have multiple repeated records with the same payload or same metadata. Based on this information we can choose to skip the same records while sending data to the external system and for doing this we can leverage the idempotency feature of ckc.\n"
-msgstr ""
+msgstr "ソースとなるKafkaトピックには、同じペイロードや同じメタデータを持つ複数の繰り返しレコードがあるかもしれない。この情報に基づいて、外部システムにデータを送信する際に、同じレコードをスキップすることができます。このために、ckcのidempotency機能を利用します。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel-Kafka-connector idempotency configuration"
-msgstr ""
+msgstr "Camel-Kafka-connectorのidempotency設定"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The idempotency feature can be enabled through a number of configuration options available in ckc with the 0.7.0 release. In particular we are talking about:\n"
-msgstr ""
+msgstr "idempotency機能は、0.7.0リリースのckcで利用可能ないくつかの設定オプションで有効にすることができます。特に我々が言っているのは\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "| Name                                     | Description                                                                                                                           | Default                     |\n"
 "|------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|\n"
@@ -126,28 +130,39 @@ msgid ""
 "| camel.idempotency.kafka.max.cache.size   | Sets the maximum size of the local key cache                                                                                          | 1000                        |\n"
 "| camel.idempotency.kafka.poll.duration.ms | Sets the poll duration (in milliseconds) of the Kafka consumer                                                                        | 100                         |\n"
 msgstr ""
+"| 名前 | 説明 | デフォルト |\n"
+"|------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|\n"
+"| camel.idempotency.enabled | idempotencyが有効でなければならないかどうか｜false｜。\n"
+"| camel.idempotency.repository.type | 使用するidempotentリポジトリタイプ、可能な値はmemoryとkafkaです。\n"
+"| camel.idempotency.expression.type | idempotency がどのように評価されるか：可能な値は body および header | body |\n"
+"| camel.idempotency.expression.header | camel.idempotency.expression.typeがheaderに等しい場合に評価されるヘッダー名 | null |\n"
+"| camel.idempotency.memory.dimension｜インメモリーidempotentリポジトリのメモリーディメンション｜100｜｜。\n"
+"| camel.idempotency.kafka.topic | idempotent リポジトリに使用する Kafka のトピック名 | kafka_idempotent_repository |\n"
+"| camel.idempotency.kafka.bootstrap.servers| idempotent リポジトリが格納されるべき Kafka ブローカーのアドレスであるホストとポートのペアをカンマで区切ったリスト | localhost:9092 |\n"
+"| camel.idempotency.kafka.max.cache.size｜ローカルキーキャッシュの最大サイズを設定する｜1000｜｜。\n"
+"| camel.idempotency.kafka.poll.duration.ms | Kafkaコンシューマーのポーリング期間（ミリ秒単位）を設定する | 100 |\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The in-memory approach has been provided for short running connector workload, while the kafka one is for long running/interruptable connector.\n"
-msgstr ""
+msgstr "in-memoryのアプローチは、短時間のコネクターワークロード用に提供され、kafkaのアプローチは長時間のコネクター/中断可能なコネクター用です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The table is self-explaining.\n"
-msgstr ""
+msgstr "表を見れば一目瞭然。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A typical configuration for the kafka idempotent repository approach could be:\n"
-msgstr ""
+msgstr "kafka idempotent repository approachの典型的な構成は次のようになります。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "camel.idempotency.enabled=true\n"
 "camel.idempotency.repository.type=kafka\n"
@@ -157,58 +172,65 @@ msgid ""
 "camel.idempotency.kafka.max.cache.size=1500\n"
 "camel.idempotency.kafka.poll.duration.ms=150\n"
 msgstr ""
+"camel.idempotency.enabled=true\n"
+"camel.idempotency.repository.type=kafka\n"
+"camel.idempotency.expression.type=body\n"
+"camel.idempotency.kafka.topic=my.idempotency.topic\n"
+"camel.idempotency.kafka.bootstrap.servers=localhost:9092\n"
+"camel.idempotency.kafka.max.cache.size=1500\n"
+"camel.idempotency.kafka.poll.duration.ms=150\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:66
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Some of the options can be used with their default value, in this example we're just listing them for a Kafka idempotent repository configuration.\n"
-msgstr ""
+msgstr "オプションの中には、デフォルト値で使用できるものもありますが、この例では、Kafka の idempotent リポジトリ設定のためにリストアップしています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A real example"
-msgstr ""
+msgstr "実例"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:70
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The best way to show how the idempotency feature works, in camel-kafka-connector, it's through an example. We'll use the [AWS2-S3 Source connector](/camel-kafka-connector/latest/connectors/camel-aws2-s3-kafka-source-connector.html)\n"
-msgstr ""
+msgstr "camel-kafka-connectorで、idempotency機能がどのように機能するかを示すには、例を挙げるのが一番です。ここでは、[AWS2-S3 Source connector](/camel-kafka-connector/latest/connectors/camel-aws2-s3-kafka-source-connector.html)を使います。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:72
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As first step you'll need to fully build the [Camel-Kafka-connector project](https://github.com/apache/camel-kafka-connector) and install the connectors/camel-aws2-s3-kafka-connector zip package in your Kafka Broker plugin.path. Once the connector is in the plugin.path location, just unzip it. We describe how to build and unpack in the next steps:\n"
-msgstr ""
+msgstr "最初のステップとして、[Camel-Kafka-connector project](https://github.com/apache/camel-kafka-connector)をフルビルドし、zipパッケージのconnectors/camel-aws2-s3-kafka-connectorをKafka Brokerのplugin.pathにインストールする必要があります。コネクタがplugin.pathの場所にあれば、あとは解凍するだけです。次のステップでビルドとアンパックの方法を説明します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:74
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You'll need to setup the plugin.path property in your kafka\n"
-msgstr ""
+msgstr "kafkaにplugin.pathプロパティを設定する必要があります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:76
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Open the `$KAFKA_HOME/config/connect-standalone.properties`\n"
-msgstr ""
+msgstr "KAFKA_HOME/config/connect-standalone.properties \"を開きます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:78
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "and set the `plugin.path` property to your choosen location\n"
-msgstr ""
+msgstr "そして、`plugin.path` プロパティに選択した場所を設定します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:80
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In this example we'll use `/home/connectors/`\n"
-msgstr ""
+msgstr "この例では、`/home/connectors/`を使用します。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "> cd <ckc_project>\n"
 "> mvn clean package\n"
@@ -216,16 +238,22 @@ msgid ""
 "> cd /home/connectors/\n"
 "> unzip camel-aws2-s3-kafka-connector-0.7.0-SNAPSHOT-package.zip\n"
 msgstr ""
+"&gt; cd<ckc_project>\n"
+"mvnクリーンパッケージ\n"
+"&gt; cp<ckc_project>/connectors/camel-aws2-s3-kafka-connector/target/camel-aws2-s3-kafka-connector-0.7.0-SNAPSHOT-package.zip /home/connectors/</ckc_project> です。<ckc_project>\n"
+"cd /home/connectors/ &gt; cd /home/connectors/\n"
+"&gt; unzip camel-aws2-s3-kafka-connector-0.7.0-SNAPSHOT-package.zip\n"
+"</ckc_project></ckc_project>"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:90
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The configuration for the source connector should be like:\n"
-msgstr ""
+msgstr "ソース・コネクタの構成は次のようになっているはずです。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:91
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "name=CamelAWS2S3SourceConnector\n"
 "connector.class=org.apache.camel.kafkaconnector.aws2s3.CamelAws2s3SourceConnector\n"
@@ -249,52 +277,73 @@ msgid ""
 "camel.idempotency.expression.type=body\n"
 "camel.idempotency.kafka.topic=my.idempotency.topic\n"
 msgstr ""
+"name=CamelAWS2S3SourceConnector\n"
+"connector.class=org.apache.camel.kafkaconnector.aws2s3.CamelAws2s3SourceConnector\n"
+"key.converter=org.apache.kafka.connect.storage.StringConverter\n"
+"value.converter=org.apache.kafka.connect.converter.ByteArrayConverter\n"
+"\n"
+"camel.source.maxPollDuration=10000\n"
+"\n"
+"トピック=s3.source.topic\n"
+"\n"
+"camel.source.path.bucketNameOrArn=camel-kafka-connector\n"
+"\n"
+"camel.source.endpoint.deleteAfterRead=false\n"
+"\n"
+"camel.component.aws2-s3.access-key=xxxx\n"
+"camel.component.aws2-s3.secret-key=yyyy\n"
+"camel.component.aws2-s3.region=eu-west-1\n"
+"\n"
+"camel.idempotency.enabled=true\n"
+"camel.idempotency.repository.type=kafka（キャメル・イデンプテンシー・リポジトリのタイプ\n"
+"camel.idempotency.expression.type=body\n"
+"camel.idempotency.kafka.topic=my.idempotency.topic\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:116
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Don't forget to add the correct credentials for your AWS account.\n"
-msgstr ""
+msgstr "AWSアカウントの正しい認証情報を追加することを忘れないでください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:118
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We can call the configuration file s3-source.properties for example\n"
-msgstr ""
+msgstr "設定ファイルのs3-source.propertiesを、例えば\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:120
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "At this point we can run the connector.\n"
-msgstr ""
+msgstr "この時点で、コネクタを実行することができます。\n"
 
 #. type: Fenced code block (bash)
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:121
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "> $KAFKA_HOME/bin/connect-standalone.sh $KAFKA_HOME/config/connect-standalone.properties s3-source.properties\n"
-msgstr ""
+msgstr "&gt; $KAFKA_HOME/bin/connect-standalone.sh $KAFKA_HOME/config/connect-standalone.properties s3-source.properties\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:126
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You have to have a running kafka cluster for this purpose.\n"
-msgstr ""
+msgstr "このためには、kafkaクラスタが稼働している必要があります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:128
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In your camel-kafka-connector bucket, try to load two files (test1.txt and test2.txt) with the same content, for example \"Camel-Kafka-connector rocks\".\n"
-msgstr ""
+msgstr "camel-kafka-connectorのバケットに、例えば「Camel-Kafka-connector rocks」のような同じ内容の2つのファイル（test1.txtとtest2.txt）を読み込ませてみます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:130
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "And consume from the s3.source.topic through kafkacat\n"
-msgstr ""
+msgstr "そして、s3.source.topicからkafkacatを介して消費します。\n"
 
 #. type: Fenced code block (bash)
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:131
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "> kafkacat -b localhost:9092 -t s3.source.topic\n"
 "% Auto-selecting Consumer mode (use -P or -C to override)\n"
@@ -302,45 +351,56 @@ msgid ""
 "Camel-Kafka-connector rocks\n"
 "% Reached end of topic s3.source.topic [0] at offset 1\n"
 msgstr ""
+"&gt; kafkacat -b localhost:9092 -t s3.source.topic\n"
+"% コンシューマモードを自動選択しています (上書きするには -P または -C を使用)\n"
+"% Reached end of topic s3.source.topic [0] at offset 0\n"
+"Camel-Kafka-connector の岩\n"
+"% Reached end of topic s3.source.topic [0] at offset 1\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:140
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The body of the second file was discarded and you just have one message in the topic.\n"
-msgstr ""
+msgstr "2つ目のファイルの本文は破棄され、トピックには1つのメッセージがあるだけです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:142
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can also have a look at the my.idempotency.topic content\n"
-msgstr ""
+msgstr "また、my.idempotency.topicのコンテンツもご覧いただけます。\n"
 
 #. type: Fenced code block (bash)
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:143
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "> kafkacat -b localhost:9092 -t my.idempotency.topic -f 'Value:%s\\nKey:%k\\n'\n"
 "% Auto-selecting Consumer mode (use -P or -C to override)\n"
 "Value:add\n"
 "Key:Camel-Kafka-connector rocks\n"
 msgstr ""
+"&gt; kafkacat -b localhost:9092 -t my.idempotency.topic -f 'Value:%s\\nKey:%k\\n'\n"
+"コンシューマーモードを自動選択（上書きするには-Pまたは-Cを使用\n"
+"Value:add\n"
+"Key:Camel-Kafka-connector rocks\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:151
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We have just one operation of add with the body of the message as key.\n"
-msgstr ""
+msgstr "メッセージの本文をキーにして、addの操作を1回だけ行います。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:152
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Conclusion"
-msgstr ""
+msgstr "結論"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:155
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This is just a little introduction on the camel-kafka-connector idempotency support. There are more case to cover and probably more work to be done.\n"
 "I just wanted to show something new in the camel-kafka-connector world. Feedback are welcome as always.\n"
 msgstr ""
+"これは camel-kafka-connector の idempotency サポートについてのほんの少しの紹介です。もっと多くのケースをカバーする必要があり、おそらくもっと多くの作業が必要です。\n"
+"ただ、camel-kafka-connectorの世界で何か新しいことを示したかったのです。フィードバックはいつでも歓迎します。\n"

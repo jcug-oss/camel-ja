@@ -18,509 +18,584 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Details of what we have done in the Camel 3.7 release."
-msgstr ""
+msgstr "Camel 3.7のリリースで行われたことの詳細です。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3.7 What's New"
-msgstr ""
+msgstr "Apache Camel 3.7 What's New"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3.7 LTS has just been released.\n"
-msgstr ""
+msgstr "Apache Camel 3.7 LTSがリリースされました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This is a LTS release which means we will provide patch releases for one year. The next planned LTS release is 3.10\n"
 "scheduled towards summer 2021.\n"
 msgstr ""
+"これはLTSリリースであり、1年間のパッチリリースを提供することを意味します。次のLTSリリースの予定は3.10です。\n"
+"2021年夏に予定されています。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "So what's in this release"
-msgstr ""
+msgstr "今回のリリースに含まれるもの"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release introduces a set of new features and noticeable improvements that we will cover in this blog post.\n"
-msgstr ""
+msgstr "今回のリリースでは、一連の新機能と顕著な改善点が導入されており、このブログ記事でご紹介します。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Pre compiled languages"
-msgstr ""
+msgstr "コンパイル済み言語"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We continued our avenue of making Camel faster and smaller. This time we focused on the built-in Simple scripting\n"
 "language.\n"
 msgstr ""
+"Camelをより速く、より小さくするための取り組みを続けています。今回は、内蔵されているシンプルなスクリプティング言語\n"
+"言語に注目しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "First we added the [jOOR language](/components/latest/languages/joor-language.html). jOOR is a small Java tool for\n"
 "performing runtime compilation of Java source code in-memory. It has some limitations but generally works well for small\n"
 "scripting code (requires Java 11 onwards).\n"
 msgstr ""
+"まず、[jOOR言語](/components/latest/languages/joor-language.html)を追加しました。 jOORは、Javaソースコードをメモリ内で実行時にコンパイルするための小さなJavaツールです。\n"
+"インメモリでJavaソースコードのランタイムコンパイルを行う小さなJavaツールです。いくつかの制限がありますが、一般的には小さな\n"
+"スクリプトコードには適しています（Java 11以降が必要）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Then we worked on compiled simple.\n"
-msgstr ""
+msgstr "その後、シンプルなコンパイルに取り組みました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Compiled Simple"
-msgstr ""
+msgstr "コンパイルされたシンプルな"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The [csimple language](/components/latest/languages/csimple-language.html)\n"
 "is parsed into regular Java source code and compiled together with all the other source code, or compiled once during\n"
 "bootstrap via jOOR.\n"
 msgstr ""
+"csimple言語](/components/latest/languages/csimple-language.html)は\n"
+"は、通常のJavaソースコードに解析され、他のすべてのソースコードと一緒にコンパイルされるか、または、jOOR経由でブートストラップ中に一度だけコンパイルされます。\n"
+"jOORを介してブートストラップの間に一度だけコンパイルされます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"csimple-compiled.png\" \"Compiled Simple Language\" >}}\n"
 msgstr ""
+"< image \"csimple-compiled.png\" \"Compiled Simple Language\" >{{}}\n"
+"</image>"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:39
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In a nutshell, compiled simple language excels over simple language when using dynamic Object-Graph Navigation\n"
 "Language (OGNL) method calls.\n"
 msgstr ""
+"一言で言えば、動的なObject-Graph Navigation Language（OGNL）のメソッド呼び出しを使用する場合、コンパイル済みの単純言語の方が単純言語よりも優れています。\n"
+"言語(OGNL)のメソッドコールを使用する場合は、コンパイル済みの単純言語の方が優れています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For example profiling the following simple expression\n"
-msgstr ""
+msgstr "例えば、次のような単純な式をプロファイリングする場合\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "    <simple>${exchangeProperty.user.getName} != null && ${exchangeProperty.user.getAge} > 11</simple>\n"
-msgstr ""
+msgstr "    <simple>${exchangeProperty.user.getName} != null &amp;&amp; ${exchangeProperty.user.getAge}.&gt; 11</simple>\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "with the equivalent csimple expression:\n"
-msgstr ""
+msgstr "を、同等のcsimple式で表現しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    <csimple>${exchangeProperty.user} != null &&\n"
 "             ${exchangeProperty.user.getName()} != null &&\n"
 "             ${exchangeProperty.user.getAge()} > 11</csimple>\n"
 msgstr ""
+"    <csimple>${exchangeProperty.user} != null &amp;&amp;...\n"
+"             ${exchangeProperty.user.getName()} !=NULL &amp;&amp;\n"
+"             ${exchangeProperty.user.getAge()} &gt; 11&gt; 11</csimple>\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "yields a dramatic 100 times performance improvement in reduced cpu usage as shown in the screenshot:\n"
-msgstr ""
+msgstr "スクリーンショットに示されているように、CPU使用量の削減により100倍もの劇的なパフォーマンスの向上が見られます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< image \"simple-csimple-performance.png\" \"Simple vs Compiled Simple\" >}}\n"
 msgstr ""
+"< image \"simple-csimple-performance.png\" \"Simple vs Compiled Simple\" >{{}}\n"
+"</image>"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "For more information about the compiled simple language and further break down of performance improvements then\n"
 "read [Claus blog post](http://www.davsclaus.com/2020/12/apache-camel-37-compiled-simple.html).\n"
 msgstr ""
+"コンパイルされたシンプルな言語についての詳細や、パフォーマンスの向上についての詳しい説明は\n"
+"クラウスのブログ記事](http://www.davsclaus.com/2020/12/apache-camel-37-compiled-simple.html)をご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:59
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We have provided two small examples that demonstrate `csimple` as pre compiled and as runtime compiled during bootstrap.\n"
 "You can find these two examples from the official Apache Camel examples repository at:\n"
 msgstr ""
+"ここでは、`csimple`をコンパイル前とブートストラップ時にコンパイルした実行時の2つの小さな例を紹介します。\n"
+"これらの2つの例は、公式のApache Camelの例のリポジトリから見つけることができます。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:62
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[csimple pre compiled example](https://github.com/apache/camel-examples/tree/master/examples/camel-example-csimple)\n"
-msgstr ""
+msgstr "csimpleのコンパイル済みサンプル](https://github.com/apache/camel-examples/tree/master/examples/camel-example-csimple)\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:62
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[csimple runtime compiled example](https://github.com/apache/camel-examples/tree/master/examples/camel-example-csimple-joor)\n"
-msgstr ""
+msgstr "csimple runtime compiled example](https://github.com/apache/camel-examples/tree/master/examples/camel-example-csimple-joor)\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Optimized core"
-msgstr ""
+msgstr "最適化されたコア"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:68
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We have continued the effort to optimize camel-core. This time a number of smaller improvements in various areas such as\n"
 "replacing regular expressions with regular Java code when regular expressions were overkill\n"
 "(regexp take up sizeable heap memory).\n"
 msgstr ""
+"camel-coreを最適化するための努力を続けてきました。今回は、以下のような様々な分野で小さな改善を行いました。\n"
+"正規表現がオーバーキルだった場合、正規表現を正規のJavaコードに置き換える。\n"
+"(正規表現は膨大なヒープメモリーを消費します)。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:70
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The direct component has been enhanced to avoid synchronization when the producer calls the consumer.\n"
-msgstr ""
+msgstr "ダイレクトコンポーネントが強化され、プロデューサーがコンシューマーを呼び出す際の同期を回避できるようになりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:73
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We also enhanced the internals of the event notifier separating startup/stop events from routing events, gaining a small\n"
 "performance improvement during routing.\n"
 msgstr ""
+"また、イベント通知器の内部を強化し、起動/停止イベントとルーティングイベントを分離したところ、ルーティング時のパフォーマンスがわずかながら向上しました。\n"
+"ルーティング時のパフォーマンスが若干向上しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:75
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We also reduced the number of objects used during routing which reduced the memory usage.\n"
-msgstr ""
+msgstr "また、ルーティング時に使用するオブジェクトの数を減らし、メモリ使用量を削減しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:79
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Another significant win was to bulk together all the type converters from the core, into two classes (source generated).\n"
 "This avoids registering individually each type converter into the type converter registry which saves 20kb of heap\n"
 "memory.\n"
 msgstr ""
+"もう一つの重要な成果は、コアのすべての型コンバータを2つのクラスにまとめたことです（ソース生成）。\n"
+"これにより、各型コンバータを型コンバータ・レジストリに個別に登録する必要がなくなり、20kbのヒープ・メモリを節約できます。\n"
+"メモリを節約できます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:82
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "If you are more curious about how we did these optimizations and with some performance numbers,\n"
 "then [Claus wrote a blog post](http://www.davsclaus.com/2020/11/apache-camel-37-more-camel-core.html).\n"
 msgstr ""
+"これらの最適化をどのように行ったのか、パフォーマンスの数値を知りたいという方は\n"
+"クラウスがブログで紹介しています](http://www.davsclaus.com/2020/11/apache-camel-37-more-camel-core.html)。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:83
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Optimized components startup"
-msgstr ""
+msgstr "コンポーネントの起動を最適化"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:88
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The camel core has been optimized in Camel 3 to be small, slim, and fast on startup. This benefits\n"
 "[Camel Quarkus](/camel-quarkus/latest/) which can do built time optimizations that take advantage of the optimized camel\n"
 "core.\n"
 msgstr ""
+"Camel 3では、Camelコアが最適化され、小さく、スリムで、起動が速いものになりました。これは次のような利点があります。\n"
+"Camel Quarkus](/camel-quarkus/latest/)では、最適化されたcamelコアを利用したビルドタイム最適化を行うことができます。\n"
+"コアを使用しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:92
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We have continued this effort in the Camel components where whenever possible initialization is moved ahead to an\n"
 "earlier phase during startup, that allows enhanced built time optimizations. As there are a lot of Camel components then\n"
 "this work will progress over the next couple of Camel releases.\n"
 msgstr ""
+"この取り組みはCamelコンポーネントでも継続されており、起動時に可能な限り初期化を前倒しすることで\n"
+"初期化は可能な限りスタートアップ時の早い段階に進められ、ビルド時間の最適化が図られます。Camelには多くのコンポーネントがあるため\n"
+"この作業は次の数回のCamelのリリースで進行します。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:93
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Separating Model and EIP processors"
-msgstr ""
+msgstr "モデルプロセッサーとEIPプロセッサーの分離"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:96
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In this release we untangled model, reifier and processors.\n"
-msgstr ""
+msgstr "今回のリリースでは、model、reifier、processorsを解きました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:98
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is a great achievement which allows us to take this even further with design time vs runtime.\n"
-msgstr ""
+msgstr "これは大きな成果であり、デザインタイムとランタイムの関係をさらに深めることができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    Model    ->    Reifier   ->   Processor\n"
 "    (startup)      (startup)      (runtime)\n"
 msgstr ""
+"    モデル → 霊媒 → プロセッサー\n"
+"    (起動) (起動) (ランタイム)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:105
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The model is the structure of the DSL which you can think of as _design time_ specifying your Camel routes. The model is\n"
 "executed once during startup and via the reifier (factory) the runtime EIP processors is created. After this work is\n"
 "done, the model is essentially not needed anymore.\n"
 msgstr ""
+"モデルはDSLの構造で、Camelのルートを指定する_design time_と考えることができます。モデルは\n"
+"モデルは起動時に一度だけ実行され、reifier(ファクトリー)を介してランタイムEIPプロセッサが作成されます。この作業が終わると\n"
+"この作業が終わると、モデルは基本的に不要になります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:109
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "By separating this into different JARs (camel-core-model, camel-core-reifier, camel-core-processor) then we ensure they\n"
 "are separated and this allows us to better do built time optimizations and dead code elimination\n"
 "via [Quarkus](https://quarkus.io/) and/or GraalVM.\n"
 msgstr ""
+"これを異なる JAR (camel-core-model, camel-core-reifier, camel-core-processor) に分離することで、これらが確実に分離されます。\n"
+"これにより、[Quarkus]()やGraalでのビルドタイム最適化やデッドコードの排除が可能になります。\n"
+"これにより、[Quarkus](https://quarkus.io/)やGraalVMを介して、ビルド時の最適化やデッドコードの排除をより適切に行うことができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:111
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This brings up to lightweight mode.\n"
-msgstr ""
+msgstr "これで軽量モードになります。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:112
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Lightweight mode"
-msgstr ""
+msgstr "軽量モード"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:116
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We started an experiment earlier with a lightweight mode. With the separation of the model from the processors, then we\n"
 "have a great step forward, which allowed us to make the lightweight mode available for end users to turn on.\n"
 msgstr ""
+"以前、軽量モードで実験を始めました。プロセッサーからモデルを分離したことで、大きな前進となりました。\n"
+"これで、エンドユーザーが軽量モードをオンにできるようになり、大きな前進となりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:119
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In lightweight mode Camel removes all references to the model after startup which causes the JVM to be able to garbage\n"
 "collect all model objects and unload classes, freeing up memory.\n"
 msgstr ""
+"軽量モードでは、Camelは起動後にモデルへのすべての参照を削除し、JVMがすべてのモデルオブジェクトをガベージコレクトし、クラスをアンロードすることができるようになります。\n"
+"収集し、クラスをアンロードしてメモリを解放します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:122
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "After this it's no longer possible to dynamically add new Camel routes. The lightweight mode is intended for\n"
 "microservice/serverless architectures, with a _closed world_ assumption.\n"
 msgstr ""
+"これ以降、Camelの新しいルートを動的に追加することはできなくなります。軽量モードは次のような用途を想定しています。\n"
+"マイクロサービスやサーバーレスのアーキテクチャを想定していますが、閉じた世界を想定しています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:123
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Autowiring components"
-msgstr ""
+msgstr "オートワイヤリングコンポーネント"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:128
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The Camel components is now capable of autowiring by type. For example\n"
 "the [AWS2 SQS](/components/latest/aws2-sqs-component.html) components can automatically lookup in the registry if there is\n"
 "a single instance of `SqsClient`, and then pre configure itself.\n"
 msgstr ""
+"Camelコンポーネントでは、タイプ別の自動配線が可能になりました。例えば\n"
+"AWS2 SQS](/components/latest/aws2-sqs-component.html)コンポーネントは、`SqsClient`のインスタンスが1つあるかどうかをレジストリで自動的に検索し、事前に設定することができます。\n"
+"SqsClient`のインスタンスが一つでもあれば、自動的にレジストリを検索して、事前に設定を行います。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:131
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We have marked up in the Camel documentation which component options supports this by showing *Autowired* in bold in the\n"
 "description.\n"
 msgstr ""
+"Camelのドキュメントでは、どのコンポーネントオプションがこれをサポートしているかを、説明の中で*Autowired*と太字で表示しています。\n"
+"と表示しています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:132
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Salesforce fixes"
-msgstr ""
+msgstr "Salesforceの修正"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:136
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Our recent Camel committer [Jeremy Ross](https://github.com/jeremyross) did great work to improve and fix bugs in\n"
 "the [camel-salesforce component](/components/latest/salesforce-component.html). We expect more to come from him.\n"
 msgstr ""
+"最近のCamelコミッター[Jeremy Ross](https://github.com/jeremyross)は\n"
+"camel-salesforce component](/components/latest/salesforce-component.html)を改善し、バグを修正してくれました。彼の今後の活躍に期待します。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:137
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "VertX Kafka Component"
-msgstr ""
+msgstr "VertX Kafkaコンポーネント"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:141
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "A new Kafka component has been developed that uses the Vert.X Kafka Java Client which allows us to use all of its\n"
 "features, and also its robustness and stability.\n"
 msgstr ""
+"新しいKafkaコンポーネントが開発され、Vert.X Kafka Java Clientを使用することで、Kafkaのすべての機能を使用することができます。\n"
+"また、堅牢性と安定性も兼ね備えています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:144
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The [camel-vertx-kafka](/components/latest/vertx-kafka-component.html) component is intended to be (more) feature\n"
 "complete with the existing camel-kafka component. We will continue this work for the next couple of Camel releases.\n"
 msgstr ""
+"camel-vertx-kafka](/components/latest/vertx-kafka-component.html) コンポーネントは、既存の camel-kafka コンポーネントの機能を（より）完全にすることを目的としています。\n"
+"既存の camel-kafka コンポーネントと完全に一致させることを目的としています。今後の Camel のリリースに向けて、この作業を続けていきます。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:145
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "DataSonnet"
-msgstr ""
+msgstr "データソネット"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:149
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The new [camel-datasonnet](/components/latest/languages/datasonnet-language.html) component, is to be used for data\n"
 "transformation using the [DataSonnet](https://datasonnet.com/) standard.\n"
 msgstr ""
+"新しい[camel-datasonnet](/components/latest/languages/datasonnet-language.html)コンポーネントは、[DataSonnet]()標準を使ったデータ変換に使用されます。\n"
+"DataSonnet](https://datasonnet.com/)規格を用いたデータ変換に使用されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:152
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "DataSonnet is an open source JSON-centric, template-based data transformation standard built to rival proprietary\n"
 "options available in the market.\n"
 msgstr ""
+"DataSonnetは、オープンソースのJSONを中心としたテンプレートベースのデータ変換規格であり、市場で入手可能なプロプライエタリなオプションに対抗するために構築されました。\n"
+"競合するオープンソースのデータ変換規格です。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:153
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Spring Boot"
-msgstr ""
+msgstr "Spring Boot"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:156
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We have upgraded to Spring Boot 2.4.\n"
-msgstr ""
+msgstr "Spring Boot 2.4にアップグレードしました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:157
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New components"
-msgstr ""
+msgstr "新しいコンポーネント"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:160
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release has a number of new components, data formats and languages:\n"
-msgstr ""
+msgstr "今回のリリースでは、多くの新しいコンポーネント、データフォーマット、言語が追加されています。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:169
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "[AtlasMap](/components/latest/atlasmap-component.html): Transforms the message using\n"
 "an [AtlasMap](https://www.atlasmap.io/) transformation\n"
 msgstr ""
+"[AtlasMap](/components/latest/atlasmap-component.html):を使ってメッセージを変換します。\n"
+"[AtlasMap](https://www.atlasmap.io/)の変換を使用してメッセージを変換します。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:169
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kubernetes Custom Resources: Perform operations on Kubernetes Custom Resources and get notified on Deployment changes\n"
-msgstr ""
+msgstr "Kubernetesのカスタムリソース。Kubernetes Custom Resourcesに対する操作を行い、Deploymentの変更に関する通知を受けることができます。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:169
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Vert.X Kafka: Sent and receive messages to/from an Apache Kafka broker using vert.x Kafka client\n"
-msgstr ""
+msgstr "Vert.X Kafkaです。vert.x Kafkaクライアントを使用して、Apache Kafkaブローカーとの間でメッセージを送受信します。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:169
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "JSON JSON-B: Marshal POJOs to JSON and back using JSON-B\n"
-msgstr ""
+msgstr "JSON JSON-B: JSON-Bを使用してPOJOをJSONにマーシャリングして戻す。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:169
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "CSimple: Evaluate a compile simple expression language\n"
-msgstr ""
+msgstr "CSimple:コンパイルされたシンプルな表現言語を評価する\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:169
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "DataSonnet: To use DataSonnet scripts in Camel expressions or predicates\n"
-msgstr ""
+msgstr "DataSonnetです。Camelの式や述語でDataSonnetのスクリプトを使用するには\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:169
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "jOOR: Evaluate a jOOR (Java compiled once at runtime) expression language\n"
-msgstr ""
+msgstr "jOOR: jOOR(Java compiled once at runtime)式言語を評価する\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:170
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Upgrading"
-msgstr ""
+msgstr "アップグレード"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:174
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Make sure to read the [upgrade guide](/manual/latest/camel-3x-upgrade-guide-3_7.html) if you are upgrading to this\n"
 "release from a previous Camel version.\n"
 msgstr ""
+"前のバージョンのCamelからこのリリースにアップグレードする場合は、[アップグレードガイド](/manual/latest/camel-3x-upgrade-guide-3_7.html)を必ずお読みください。\n"
+"をお読みください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:175
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "More details"
-msgstr ""
+msgstr "詳細はこちら"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:180
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The previous LTS release was Camel 3.4. We have blog posts for what's new in\n"
 "[Camel 3.5](/blog/2020/10/Camel36-Whatsnew/) and\n"
 "[Camel 3.6](/blog/2020/09/Camel35-Whatsnew/) you may want to read to cover all news between the two LTS releases.\n"
 msgstr ""
+"前回のLTSリリースはCamel 3.4でした。の新機能については、ブログで紹介しています。\n"
+"Camel 3.5](/blog/2020/10/Camel36-Whatsnew/)と\n"
+"Camel 3.6](/blog/2020/09/Camel35-Whatsnew/)を読んで、2つのLTSリリース間のすべてのニュースをカバーしたいと思うかもしれません。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:181
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Release Notes"
-msgstr ""
+msgstr "リリースノート"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:183
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can find more information about this release in the [release notes](/releases/release-3.7.0/), with a list of JIRA tickets resolved in the release.\n"
-msgstr ""
+msgstr "このリリースの詳細は、[リリースノート](/releases/release-3.7.0/)に記載されており、このリリースで解決されたJIRAチケットの一覧も掲載されています。\n"

@@ -18,127 +18,133 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/09/windup/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Plan your upgrade to Camel 3.0.0"
-msgstr ""
+msgstr "Camel 3.0.0へのアップグレードをご検討の方へ"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/09/windup/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Upgrading to Camel 3.0.0 with Windup"
-msgstr ""
+msgstr "WindupでCamel 3.0.0へのアップグレード"
 
 #. type: Title ##
 #: upstream/content/blog/2020/09/windup/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "TL;DR:"
-msgstr ""
+msgstr "TL;DR。"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Install](https://github.com/windup/windup#installation-and-usage) Windup and generate your migration report to Camel 3.0.0 by running: \n"
-msgstr ""
+msgstr "[Install](https://github.com/windup/windup#installation-and-usage) Windupを実行して、Camel 3.0.0への移行レポートを作成します。 \n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "    _bin/mta-cli --input PATH_TO_CAMEL_PROJET --sourceMode --source camel:2 --target camel:3_\n"
-msgstr ""
+msgstr "    _bin/mta-cli --input PATH_TO_CAMEL_PROJET -sourceMode -source camel:2 --target camel:3_。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Checkout sample reports for [Camel in Action, Second Edition](http://windup.surge.sh/cia2/reports/migration_issues.html), [Apache Camel Developer's Cookbook](http://windup.surge.sh/cookbook/reports/migration_issues.html) and [Mastering Apache Camel](http://windup.surge.sh/mastering/reports/migration_issues.html).\n"
-msgstr ""
+msgstr "Camel in Action, Second Edition](http://windup.surge.sh/cia2/reports/migration_issues.html)、[Apache Camel Developer's Cookbook](http://windup.surge.sh/cookbook/reports/migration_issues.html)、[Mastering Apache Camel](http://windup.surge.sh/mastering/reports/migration_issues.html)のサンプルレポートをご覧いただけます。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/09/windup/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Introduction"
-msgstr ""
+msgstr "はじめに"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel 3.0.0 has been released in late 2019 which comes a decade after Camel 2.0.0 was released back in 2009. Camel 3 is a major upgrade from Camel 2 with lots of breaking changes. The Camel team has done a great job [documenting](/manual/latest/camel-3-migration-guide.html) those changes. In order to ease the upgrade, [Matej](https://github.com/mmelko) and I have decided to leverage the open source application migration tool [Windup](https://github.com/windup/windup) and extend it's existing migration [rules](https://github.com/windup/windup-rulesets) by adding Camel 2.x --> Camel 3 [rules](https://github.com/windup/windup-rulesets/tree/master/rules-reviewed/camel3/camel2).\n"
-msgstr ""
+msgstr "Camel 3.0.0は、2009年にリリースされたCamel 2.0.0から10年後の2019年末にリリースされました。Camel 3は、Camel 2からのメジャーアップグレードで、多くの破壊的な変更が加えられています。Camelチームはこれらの変更を[文書化](/manual/latest/camel-3-migration-guide.html)するという素晴らしい仕事をしています。アップグレードを容易にするために、[Matej](https://github.com/mmelko)と私は、オープンソースのアプリケーション移行ツールである[Windup](https://github.com/windup/windup)を活用し、既存の移行[ルール](https://github.com/windup/windup-rulesets)を拡張して、Camel 2.x --&gt; Camel 3 [ルール](https://github.com/windup/windup-rulesets/tree/master/rules-reviewed/camel3/camel2)を追加することにしました。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/09/windup/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Running Windup locally"
-msgstr ""
+msgstr "Windupをローカルで動かす"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The easiest way to run Windup against your Camel 2 project is to follow the installation [instructions](https://github.com/windup/windup#installation-and-usage) which is just downloading a ZIP archive containing a _bin/mta-cli_ executable. Unfortunately, you will need to create a https://developers.redhat.com account if you don't have one already. You can then run it against your project:\n"
-msgstr ""
+msgstr "Camel 2プロジェクトに対してWindupを実行する最も簡単な方法は、_bin/mta-cli_実行ファイルを含むZIPアーカイブをダウンロードするだけのインストール[説明書](https://github.com/windup/windup#installation-and-usage)に従うことです。残念ながら、https://developers.redhat.com のアカウントをお持ちでない場合は、アカウントを作成する必要があります。その後、あなたのプロジェクトに対してそれを実行することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "    _./mta-cli --input PATH_TO_CAMEL_PROJET --sourceMode --source camel:2 --target camel:3_\n"
-msgstr ""
+msgstr "    _./mta-cli --input PATH_TO_CAMEL_PROJET -sourceMode -source camel:2 --target camel:3_。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "and that's it! Once it's done, you should see a message containing the location of the generated Windup report which you can view by opening the generated _index.html_ file with your favorite browser.\n"
-msgstr ""
+msgstr "と表示され、完了です。完了すると、生成されたWindupレポートの場所を示すメッセージが表示されます。生成された_index.html_ファイルをお好みのブラウザで開いてご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "To get an idea of what a Windup report looks like, I've generated and published Windup reports for source codes of well known Camel books: [Camel in Action, Second Edition](http://windup.surge.sh/cia2/reports/migration_issues.html), [Apache Camel Developer's Cookbook](http://windup.surge.sh/cookbook/reports/migration_issues.html) and [Mastering Apache Camel](http://windup.surge.sh/mastering/reports/migration_issues.html).\n"
-msgstr ""
+msgstr "Windupレポートがどのようなものかを知るために、私は有名なCamelの本のソースコードに対してWindupレポートを作成し、公開しました。Camel in Action, Second Edition](http://windup.surge.sh/cia2/reports/migration_issues.html)、[Apache Camel Developer's Cookbook](http://windup.surge.sh/cookbook/reports/migration_issues.html)、[Mastering Apache Camel](http://windup.surge.sh/mastering/reports/migration_issues.html)です。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/09/windup/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Contributing"
-msgstr ""
+msgstr "貢献度"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you like what you see and want to contribute: good news! Windup loves [PRs](https://github.com/windup/windup#get-involved) 😁\n"
-msgstr ""
+msgstr "あなたが見たものを気に入って、貢献したい場合：良いニュースです。風立ちぬは【PR】(https://github.com/windup/windup#get-involved)が大好きです😁。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We've created tasks for Camel [3.0](https://issues.redhat.com/browse/WINDUPRULE-391) --> [3.1](https://issues.redhat.com/browse/WINDUPRULE-519)--><a href=\"\">3.2</a>-->[3.3](https://issues.redhat.com/browse/WINDUPRULE-521).\n"
-msgstr ""
+msgstr "Camelの[3.0](https://issues.redhat.com/browse/WINDUPRULE-391)→[3.1](https://issues.redhat.com/browse/WINDUPRULE-519)→<a href=\"\">3.2</a>--&gt;[3.3](https://issues.redhat.com/browse/WINDUPRULE-521)のタスクを作成しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:39
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "To get an idea of what needs to be done to create a new rule, let's look at some examples.\n"
-msgstr ""
+msgstr "新しいルールを作成するために何をすべきか、いくつかの例を見てみましょう。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The [rules](https://github.com/windup/windup-rulesets/tree/master/rules-reviewed/camel3/camel2) can be either written in Groovy or XML. Groovy rules are more powerful than XML rules but if you prefer writting XML and the rule isn't too complicated, you can go for XML.\n"
 "Each file contains rules whose filename describes what kind of rules it holds. For example, the file [xml-removed-components.windup.xml](https://github.com/windup/windup-rulesets/blob/2cc95ff40536c31f8c836e3acf7339d53ab4b282/rules-reviewed/camel3/camel2/xml-removed-components.windup.xml)\n"
 "contains XML rules that check whether your project uses Camel Components that have been removed in Camel 3. As with programming in general, some file names are better than others. For each file there is a corresponding test file and a test folder that are used to test your rules.\n"
 msgstr ""
+"ルール](https://github.com/windup/windup-rulesets/tree/master/rules-reviewed/camel3/camel2)は、GroovyまたはXMLで記述することができます。GroovyのルールはXMLのルールよりも強力ですが、XMLを書く方が好きで、ルールがそれほど複雑でない場合は、XMLを使うことができます。\n"
+"各ファイルにはルールが含まれており、ファイル名にはどのようなルールが含まれているかが記述されています。例えば、ファイル[xml-removed-components.windup.xml](https://github.com/windup/windup-rulesets/blob/2cc95ff40536c31f8c836e3acf7339d53ab4b282/rules-reviewed/camel3/camel2/xml-removed-components.windup.xml)\n"
+"には、Camel 3で削除されたCamelコンポーネントをプロジェクトで使用しているかどうかをチェックするXMLルールが含まれています。プログラミング全般に言えることですが、ファイル名には良いものと悪いものがあります。各ファイルには、ルールをテストするためのテストファイルとテストフォルダが用意されています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "For example, [xml-removed-components.windup.xml](https://github.com/windup/windup-rulesets/blob/2cc95ff40536c31f8c836e3acf7339d53ab4b282/rules-reviewed/camel3/camel2/xml-removed-components.windup.xml) contains the rule with id\n"
 "[xml-removed-components-00000](https://github.com/windup/windup-rulesets/blob/2cc95ff40536c31f8c836e3acf7339d53ab4b282/rules-reviewed/camel3/camel2/xml-removed-components.windup.xml#L15) that checks whether your Maven project is using the _camel-linkedin_ component,\n"
 "which has been removed in Camel 3, and if so, output a helpful message:\n"
 msgstr ""
+"たとえば、[xml-removed-components.windup.xml](https://github.com/windup/windup-rulesets/blob/2cc95ff40536c31f8c836e3acf7339d53ab4b282/rules-reviewed/camel3/camel2/xml-removed-components.windup.xml)には、Mavenプロジェクトが_camel-linkedin_コンポーネントを使用しているかどうかをチェックするID\n"
+"[xml-removed-components-00000](https://github.com/windup/windup-rulesets/blob/2cc95ff40536c31f8c836e3acf7339d53ab4b282/rules-reviewed/camel3/camel2/xml-removed-components.windup.xml#L15)は、Mavenプロジェクトが_camel-linkedin_コンポーネントを使用しているかどうかをチェックします。\n"
+"を使用しているかどうかをチェックし、使用している場合は親切なメッセージを出力します。\n"
 
 #. type: Fenced code block (xml)
 #: upstream/content/blog/2020/09/windup/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<rule id=\"xml-removed-components-00000\">\n"
 "    <when>\n"
@@ -154,16 +160,29 @@ msgid ""
 "    </perform>\n"
 "</rule>\n"
 msgstr ""
+"<rule id=\"xml-removed-components-00000\">\n"
+"    <when>\n"
+"        <project>\n"
+"            <artifact groupId=\"org.apache.camel\" artifactId=\"camel-linkedin\" />\n"
+"        </project>\n"
+"    </when>\n"
+"    <perform>\n"
+"        <hint title=\"`org.apache.camel:camel-linkedin` artifact has been removed\" effort=\"7\" category-id=\"mandatory\" >\n"
+"            <message>org.apache.camel:camel-linkedin` アーティファクトは Apache Camel 3 で削除されたため、利用できません。</message>\n"
+"            <link href=\"/manual/latest/camel-3-migration-guide.html#_removed_components\" title=\"Camel 3 - Migration Guide: Removed components\" />\n"
+"        </hint>\n"
+"    </perform>\n"
+"</rule>\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:64
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It's corresponding test is located in [tests/xml-removed-components.windup.test.xml](https://github.com/windup/windup-rulesets/blob/2cc95ff40536c31f8c836e3acf7339d53ab4b282/rules-reviewed/camel3/camel2/tests/xml-removed-components.windup.test.xml#L10):\n"
-msgstr ""
+msgstr "これに対応するテストは、[tests/xml-removed-components.windup.test.xml](https://github.com/windup/windup-rulesets/blob/2cc95ff40536c31f8c836e3acf7339d53ab4b282/rules-reviewed/camel3/camel2/tests/xml-removed-components.windup.test.xml#L10)にあります。\n"
 
 #. type: Fenced code block (xml)
 #: upstream/content/blog/2020/09/windup/index.md:65
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<rule id=\"xml-removed-components-00000-test\">\n"
 "    <when>\n"
@@ -178,46 +197,58 @@ msgid ""
 "    </perform>\n"
 "</rule>\n"
 msgstr ""
+"<rule id=\"xml-removed-components-00000-test\">\n"
+"    <when>\n"
+"        <not>\n"
+"            <iterable-filter size=\"1\">\n"
+"                &lt;hint-exists message=\"`org.apache.camel:camel-linkedin` artifact is been removed in Apache Camel 3 so it won't be available\"/&gt;。\n"
+"            &lt;/iterable-filter&gt;\n"
+"        &lt;/not&gt;\n"
+"    &lt;/when&gt;\n"
+"    &lt;perform&gt;\n"
+"        &lt;fail message=\"[xml-removed-components] 'camel-linkedin' dependency removed hint was not found!\"/&gt;\n"
+"    &lt;/perform&gt;\n"
+"&lt;/rule&gt; (英語)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "which tests that given the [test resources](https://github.com/windup/windup-rulesets/blob/2cc95ff40536c31f8c836e3acf7339d53ab4b282/rules-reviewed/camel3/camel2/tests/xml-removed-components.windup.test.xml#L5) located in the test [folder](https://github.com/windup/windup-rulesets/tree/2cc95ff40536c31f8c836e3acf7339d53ab4b282/rules-reviewed/camel3/camel2/tests/data/xml-removed-components), the camel-linkedin error message is produced exactly once. The syntax for writting rules is pretty self explanatory but you can always check the official [documentation](https://access.redhat.com/documentation/en-us/red_hat_application_migration_toolkit/4.3/html/rules_development_guide/index) for help. You can run the tests in _xml-removed-components.windup.test.xml_ by running:\n"
-msgstr ""
+msgstr "これは、テスト用[フォルダ](https://github.com/windup/windup-rulesets/tree/2cc95ff40536c31f8c836e3acf7339d53ab4b282/rules-reviewed/camel3/camel2/tests/data/xml-removed-components)にある[テスト用リソース](https://github.com/windup/windup-rulesets/blob/2cc95ff40536c31f8c836e3acf7339d53ab4b282/rules-reviewed/camel3/camel2/tests/xml-removed-components.windup.test.xml#L5)が与えられたときに、camel-linkedinエラーメッセージがちょうど一度だけ生成されることをテストするものです。ルールを書くための構文は非常にわかりやすいものですが、いつでも公式の [documentation](https://access.redhat.com/documentation/en-us/red_hat_application_migration_toolkit/4.3/html/rules_development_guide/index)をチェックして助けを求めることができます。_xml-removed-components.windup.test.xml_にあるテストを実行するには、次のようにします。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:83
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "    _mvn -DrunTestsMatching=xml-removed-components clean test_.\n"
-msgstr ""
+msgstr "    _mvn -DrunTestsMatching=xml-removed-components clean test_.\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:85
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Notice how the rule only checks if the project refers to _org.apache.camel:camel-linkedin_. Sometimes that dependency is pulled transitively and so a better idea would be to _also_ check whether your project contains Java, Blueprint or Spring files referencing the LinkedIn Camel Component. You can find how to do that in XML by looking at the rule that checks for usage of the [twitter-streaming](https://github.com/windup/windup-rulesets/blob/2cc95ff40536c31f8c836e3acf7339d53ab4b282/rules-reviewed/camel3/camel2/xml-removed-components.windup.xml#L67) Component. A similar [example](https://github.com/windup/windup-rulesets/blob/2cc95ff40536c31f8c836e3acf7339d53ab4b282/rules-reviewed/camel3/camel2/xml-moved-components.windup.groovy#L59) exists in Groovy for AWS Components.\n"
-msgstr ""
+msgstr "このルールでは、プロジェクトが _org.apache.camel:camel-linkedin_ を参照しているかどうかだけをチェックしていることに注意してください。この依存関係は時折過渡的に引き出されるので、より良いアイデアは、LinkedIn Camel Componentを参照するJava、Blueprint、Springファイルがプロジェクトに含まれているかどうかもチェックすることです。その方法は、[twitter-streaming](https://github.com/windup/windup-rulesets/blob/2cc95ff40536c31f8c836e3acf7339d53ab4b282/rules-reviewed/camel3/camel2/xml-removed-components.windup.xml#L67) Componentの使用状況をチェックするルールを見れば、XMLで確認できます。同様の [example](https://github.com/windup/windup-rulesets/blob/2cc95ff40536c31f8c836e3acf7339d53ab4b282/rules-reviewed/camel3/camel2/xml-moved-components.windup.groovy#L59) が Groovy for AWS Components にもあります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:87
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As you've probably figured out by now, the best way to write a new rule is to look at existing ones.\n"
-msgstr ""
+msgstr "もうお分かりだと思いますが、新しいルールを作るには、既存のルールを参考にするのが一番です。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/09/windup/index.md:88
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Limitations"
-msgstr ""
+msgstr "制限事項"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:91
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As we've seen in the previous section, the rules are only as powerful as you've written them to be. However there are some limitations. Behind the scenes, Windup uses parsing. It will not compile your project. This has some limitations. For example, the following snippets checks whether some deprecated methods are used:\n"
-msgstr ""
+msgstr "前節で見てきたように、ルールは書き込んだ分だけ力を発揮します。しかし、いくつかの制限があります。舞台裏では、Windupはパーシングを使用します。あなたのプロジェクトをコンパイルすることはありません。これにはいくつかの制限があります。例えば、次のスニペットは、いくつかの非推奨のメソッドが使用されているかどうかをチェックします。\n"
 
 #. type: Fenced code block (xml)
 #: upstream/content/blog/2020/09/windup/index.md:92
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<rule id=\"java-generic-information-00032\">\n"
 "    <when>\n"
@@ -235,22 +266,37 @@ msgid ""
 "    </perform>\n"
 "</rule>\n"
 msgstr ""
+"<rule id=\"java-generic-information-00032\">\n"
+"    <when>\n"
+"        <javaclass references=\"org.apache.camel.CamelContext.{get|set}Propert{y|ies}({*})\" >\n"
+"            <location>メソッド_コール</location>\n"
+"        </javaclass>\n"
+"    </when>\n"
+"    <perform>\n"
+"        <hint title=\"`org.apache.camel.CamelContext` property methods have been removed.\" effort=\"1\"\n"
+"              category-id=\"mandatory\">\n"
+"            <message>org.apache.camel.CamelContext` から `getProperties` と `setProperty` メソッドが削除されました。代わりに `getGlobalOptions` と `setGlobalOptions` を使ってください。</message>\n"
+"            <link title=\"Camel 3 - Migration Guide: CONFIGURING GLOBAL OPTIONS ON CAMELCONTEXT\"\n"
+"                  href=\"/manual/latest/camel-3-migration-guide.html#_configuring_global_options_on_camelcontext\"/>\n"
+"        </hint>\n"
+"    </perform>\n"
+"</rule>\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:111
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "When running the rule, Windup will scan your Java files and try to find ones that import _org.apache.camel.CamelContext_ and then use the _{get|set}Propert{y|ies}({*})_ regular expression to match method names on declared variables of type _CamelContext_. One would think that it convers all use cases right? Well no. What if the class in question is a sublclass of another class that already imports _org.apache.camel.CamelContext_ ? Then the subclass doesn't need to reimport it and the Windup rule won't detect it's usage. This also happens when chaining method calls e.g `getCamelContext().getProperties()` which happens a lot in Camel.\n"
-msgstr ""
+msgstr "このルールを実行すると、WindupはJavaファイルをスキャンして、_org.apache.camel.CamelContext_をインポートしているものを探し、_{get|set}Propert{y|ies}({*})_の正規表現を使って、_CamelContext_型の宣言された変数のメソッド名にマッチさせます。これですべてのユースケースに対応できると思われるでしょうか？しかし、そうではありません。問題のクラスが、 _org.apache.camel.CamelContext_ をすでにインポートしている他のクラスのサブクラスだったらどうでしょう？その場合、サブクラスはそれを再インポートする必要はなく、Windupルールはそれの使用を検出しません。これは、メソッド呼び出しを連鎖させるときにも起こります。例えば、`getCamelContext().getProperties()`は、Camelではよく起こります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:113
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Another problem is string interpolation. When writting a rule that tries to match a certain String, for example:\n"
-msgstr ""
+msgstr "もうひとつの問題は、文字列の補間です。ある文字列にマッチさせようとするルールを書くとき、例えば\n"
 
 #. type: Fenced code block (xml)
 #: upstream/content/blog/2020/09/windup/index.md:114
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<rule id=\"xml-removed-components-00004\">\n"
 "    <when>\n"
@@ -264,37 +310,52 @@ msgid ""
 "    </perform>\n"
 "</rule>\n"
 msgstr ""
+"<rule id=\"xml-removed-components-00004\">\n"
+"    <when>\n"
+"        <filecontent pattern=\"from(&quot;twitter-streaming:{*}\" filename=\"{*}.java\"/>\n"
+"    </when>\n"
+"    <perform>\n"
+"        <hint title=\"`twitter-streaming` component has been removed\" effort=\"7\" category-id=\"mandatory\" >\n"
+"            <message>twitter-streaming`コンポーネントは、廃止されたTwitter Streaming APIに依存しており、もはや機能していないため、Apache Camel 2では非推奨となり、Apache Camel 3では削除されました。</message>\n"
+"            <link href=\"/manual/latest/camel-3-migration-guide.html#_removed_components\" title=\"Camel 3 - Migration Guide: Removed components\" />\n"
+"        </hint>\n"
+"    </perform>\n"
+"</rule>\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:129
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "tries to match Camel routes using the _twitter-streaming_ component by matching _from(\"twitter-streaming...\"_ in .java files. However if the route URI is stored in a variable as so:\n"
-msgstr ""
+msgstr "は、_from(\"twitter-streaming...\"_)を.javaファイルにマッチさせることで、_twitter-streaming_コンポーネントを使ったCamelのルートにマッチさせようとします。しかし、ルートのURIが次のように変数に格納されている場合は、次のようになります。\n"
 
 #. type: Fenced code block (java)
 #: upstream/content/blog/2020/09/windup/index.md:129
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "String route_uri = \"twitter-streaming://filter?type=event&twitterStream=#twitterStream&keywords=#cameltest\";\n"
 "from(route_uri)\n"
 "    .transform(body().convertToString())\n"
 "    .to(\"direct:result\");\n"
 msgstr ""
+"String route_uri = \"twitter-streaming://filter?type=event&amp;twitterStream=#twitterStream&amp;keywords=#cameltest\";\n"
+"from(route_uri)\n"
+"    .transform(body().convertToString())\n"
+"    .to(\"direct:result\");\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:137
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "then the rule's regular expression will not match.\n"
-msgstr ""
+msgstr "の場合、そのルールの正規表現はマッチしません。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:139
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Another limitation when writing XML rules is the lack of debugging capabilities. This can lead to some frustration. In best cases, this is because the project is setup incorrectly. In worst cases, it's because there is a bug in Windup or the rule syntax is misleading and should not be used that way. Fortunately, the latter doesn't happen too often and you can always ask for help by sending an email to _windup-users@lists.jboss.org_ or using IRC on the irc.freenode.net #windup channel.\n"
-msgstr ""
+msgstr "また、XMLルールを記述する際の制限として、デバッグ機能がないことが挙げられます。これは、いくつかのフラストレーションにつながります。最良のケースでは、プロジェクトの設定が間違っていることが原因です。最悪のケースでは、Windupにバグがあるか、ルールの構文が誤解を招きやすく、そのように使用すべきではないことが原因です。幸いなことに、後者はあまり起こらないので、_windup-users@lists.jboss.org_ にメールを送るか、IRCのirc.freenode.net #windupチャンネルを使って、いつでも助けを求めることができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/09/windup/index.md:140
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Thanks!\n"
-msgstr ""
+msgstr "ありがとうございます。\n"

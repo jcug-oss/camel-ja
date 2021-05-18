@@ -18,99 +18,101 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Details of what we have done in the Camel 3.2 release."
-msgstr ""
+msgstr "Camel 3.2のリリースで行われたことの詳細です。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3.2 What's New"
-msgstr ""
+msgstr "Apache Camel 3.2 What's New"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A few days ago Apache Camel 3.2 was released. This is a continuation of the work we are doing on Camel leading up to the first long term support release (LTS) that would be either Camel 3.3 or 3.4.\n"
-msgstr ""
+msgstr "数日前、Apache Camel 3.2がリリースされました。これは、Camel 3.3または3.4となる最初の長期サポートリリース(LTS)に向けて、Camelで行っている作業の継続となります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In case you have missed this, the release model in Camel 3.x is following the principe of LTS and non-LTS releases (like Java JDKs). For more details see this [blog post](/blog/2020/03/LTS-Release-Schedule/).\n"
-msgstr ""
+msgstr "Camel 3.xのリリースモデルは、（Java JDKのような）LTSと非LTSリリースの原則に従っていますので、お見逃しなく。詳細はこちらの[blog post](/blog/2020/03/LTS-Release-Schedule/)をご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What this means is that we will not do patch releases for Camel 3.2.x, but move ahead for Camel 3.3.\n"
-msgstr ""
+msgstr "これは、Camel 3.2.xのパッチリリースは行わず、Camel 3.3の開発を進めることを意味しています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "So whats in this release?"
-msgstr ""
+msgstr "さて、今回のリリースの内容は？"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We continued our work on making camel core smaller and faster. We managed to modularize the core a bit more. For example JAXB is now 99% separated and only in use when needed (XML). We missed one piece so its 99% and not 100%, but we have corrected this for Camel 3.3.0.\n"
-msgstr ""
+msgstr "camelのコアをより小さく、より速くするための作業を続けました。コアをもう少しモジュール化することができました。例えば、JAXBは99%分離され、必要なときにのみ使用されるようになりました（XML）。私たちは1つの部分を見逃していたため、100%ではなく99%となっていますが、Camel 3.3.0ではこれを修正しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "There is also a lighter XML route loader that does not use JAXB and is much faster and lighter.\n"
 "See this [external blog post](http://www.davsclaus.com/2020/03/apache-camel-31-fast-loading-of-xml.html) for more details.\n"
 msgstr ""
+"また、JAXBを使わず、より高速で軽量なXMLルートローダもあります。\n"
+"詳しくはこちらの[外部ブログ記事](http://www.davsclaus.com/2020/03/apache-camel-31-fast-loading-of-xml.html)をご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Another work is to make Camel reflection free (99%). We now source code generate configurer classes that is capable of configuring and setting properties on all components, data formats, and other areas in Camel. We missed some parts of Rest-DSL and Circuit Breakers which has been implemented for Camel 3.3. See this [external blog post](http://www.davsclaus.com/2020/03/apache-camel-32-reflection-free.html) for more details.\n"
-msgstr ""
+msgstr "もう一つの仕事は、Camelをリフレクションフリーにすることです（99％）。このクラスはCamelのすべてのコンポーネント、データフォーマット、およびその他の領域のプロパティを設定することができます。Camel 3.3で実装されたRest-DSLとCircuit Breakersの一部を見逃していました。詳細はこちらの[外部ブログ記事](http://www.davsclaus.com/2020/03/apache-camel-32-reflection-free.html)をご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel core has also been further optimize to do more of its bootstrapping in an earlier phase where possible. This makes Camel faster and ligther on Quarkus and GraalVM. This work will continue in the next release, as there are some Camel components that can be optimized more as well.\n"
-msgstr ""
+msgstr "Camelのコアもさらに最適化され、可能な限り初期段階でブートストラップを行うようになりました。これにより、CamelはQuarkusやGraalVM上でより速く、より軽快になりました。この作業は次のリリースでも継続されます。なぜなら、より最適化できるCamelコンポーネントがあるからです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There is an ongoing experiment for a lightweight CamelContext that is locked-down and immutable which is an effort to make Camel even quicker and faster for Quarkus and GraalVM; where dynamism at runtime is not needed (for example adding new routes).\n"
-msgstr ""
+msgstr "これは、QuarkusやGraalVMにおいて、Camelをより迅速に、より速くするための試みで、実行時の動的な動作（例えば、新しいルートの追加など）は必要ありません。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We also did some internal optimizations around creating endpoints and avoid excessive URI parsing and normalization. This makes Camel faster at runtime when using dynamic endpoints.\n"
-msgstr ""
+msgstr "また、エンドポイントの作成に関する内部的な最適化を行い、過剰なURIの解析や正規化を回避しました。これにより、ダイナミックエンドポイントを使用する際のCamelの実行速度が向上しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There were also some optimizations in the type converter and inners of Camel that makes Camel quicker and reduced number of methods executed during routing.\n"
-msgstr ""
+msgstr "また、Camelの型変換器やインナーにもいくつかの最適化が行われ、Camelがより速くなり、ルーティング中に実行されるメソッドの数が減りました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Configuring Camel via Camel Main (standalone), Quarkus, Spring Boot etc via `application.properties` now allows to configure using wildcards (*) to configure bulk components. For example to specify AWS credential on all AWS components.\n"
-msgstr ""
+msgstr "Camel Main (standalone)、Quarkus、Spring Bootなどで、`application.properties`を使ってCamelを設定する際に、ワイルドカード(*)を使って一括してコンポーネントを設定できるようになりました。例えば、全てのAWSコンポーネントにAWSのクレデンシャルを指定することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The `@ProjectInject` annotation is now capable of auto creating POJO beans from external configurations and inject into your code. The use-cases are for configurations where you want both external configurations and code; for example `MinioConfig` as the POJO while setting up a `AmazonS3` bean instance in the code:\n"
-msgstr ""
+msgstr "@ProjectInject`アノテーションは、外部の設定からPOJO Beanを自動的に作成し、コードに注入することができるようになりました。例えば、`MinioConfig`をPOJOにして、コードで`AmazonS3`のBeanインスタンスをセットアップするような場合です。\n"
 
 #. type: Fenced code block (java)
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "@BindToRegistry\n"
 "public static AmazonS3 minioClient(@PropertyInject(\"minio\") MinioConfig config) {\n"
@@ -127,62 +129,81 @@ msgid ""
 "        .build();\n"
 "}\n"
 msgstr ""
+"@BindToRegistry\n"
+"public static AmazonS3 minioClient(@PropertyInject(\"minio\") MinioConfig config) {.\n"
+"\n"
+"    var endpoint = new AwsClientBuilder.EndpointConfiguration(config.getAddress(), \"US_EAST_1\");\n"
+"    var credentials = new BasicAWSCredentials(config.getAccessKey(), config.getSecretKey());\n"
+"    var credentialsProvider = new AWSStaticCredentialsProvider(credentials);\n"
+"\n"
+"    return AmazonS3ClientBuilder\n"
+"        .スタンダード()\n"
+"        .withEndpointConfiguration(endpoint)\n"
+"        .withCredentials(credentialsProvider)\n"
+"        .withPathStyleAccessEnabled(true)\n"
+"        .build();\n"
+"}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "And `minio` is a POJO class that is configured with options from `application.properties`:\n"
-msgstr ""
+msgstr "また、`minio`はPOJOクラスで、`application.properties`のオプションで構成されます。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "camel.beans.minio.address = http://my-minio.com\n"
 "camel.beans.minio.access-key = ...\n"
 "camel.beans.minio.secret-key = ...\n"
 msgstr ""
+"camel.b beans.minio.address = http://my-minio.com\n"
+"camel.b beans.minio.access-key = ...\n"
+"camel.b beans.minio.secret-key = ....\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:62
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "All the components now include all their options that can be configured (incl nested). Before these options was only available when using Camel on Spring Boot. They are now generally available and can therefore be configured everywhere, such as Camel Main, Camel Quarkus, Camel Kafka Connector, and via Component DSL. \n"
-msgstr ""
+msgstr "すべてのコンポーネントに、設定可能なすべてのオプションが含まれるようになりました（ネストされたものも含む）。以前は、これらのオプションは、Spring Boot上でCamelを使用する場合にのみ利用可能でした。Camel Main、Camel Quarkus、Camel Kafka Connector、Component DSLなど、どこでも設定できるようになっています。 \n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:64
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "And we have also done other internal refactorings that allows GraalVM to do more dead-code elimination and can reduce the number of classes loaded. Together with all the other changes we see some use-cases a great reduction in the binary image size after the native compilation. We will continue this work for Camel 3.3.\n"
-msgstr ""
+msgstr "また、内部的なリファクタリングを行い、GraalVMのデッドコードの排除や、ロードされるクラスの数を減らすことができました。他のすべての変更に加えて、いくつかのユースケースでは、ネイティブ・コンパイル後のバイナリ・イメージ・サイズが大幅に削減されています。Camel 3.3に向けて、この作業を続けていきます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:66
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "All the AWS components is now completed as a set of components that uses the AWS JDK v2 library.\n"
-msgstr ""
+msgstr "すべてのAWSコンポーネントは、AWS JDK v2ライブラリを使用するコンポーネントのセットとして完成しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Running Camel on OSGi with Apache Karaf has been moved out to its own sub-project camel-karaf.\n"
 "This has been done for other runtimes as well such as Spring Boot or Quarkus.\n"
 msgstr ""
+"Apache Karafを使ってOSGi上でCamelを動かすことは、独自のサブプロジェクト camel-karafに移されました。\n"
+"これは、Spring BootやQuarkusなどの他のランタイムでも行われています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:71
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "And then all the usual stuff with 3rd party dependency upgrades, bug fixes, new components, and other improvements.\n"
-msgstr ""
+msgstr "そして、サードパーティの依存関係のアップグレード、バグフィックス、新しいコンポーネント、その他の改善などの通常の作業を行います。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:73
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "But in this blog we wanted to spill out details about the heavy work that are ongoing to make Camel awesome for today and tomorrows modern Java workloads.\n"
-msgstr ""
+msgstr "しかし、このブログでは、Camelを今日、そして明日のモダンなJavaワークロードのための素晴らしいものにするために行われている大規模な作業の詳細を明らかにしたいと思います。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/04/Camel32-Whatsnew/index.md:74
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "PS: And we have also worked on the website, which keeps getting better and better.\n"
-msgstr ""
+msgstr "PS：また、ウェブサイトにも力を入れており、どんどん良くなっています。\n"

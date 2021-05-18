@@ -18,112 +18,116 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/05/vscode-camel-release/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New release of VS Code Language Support for Apache Camel 0.0.32 and VS Code Tooling for Camel K 0.0.24: catalog updates, connected mode for Kafka topic completion and dependencies support for Camel K Java integration file"
-msgstr ""
+msgstr "VS Code Language Support for Apache Camel 0.0.32」と「VS Code Tooling for Camel K 0.0.24」の新リリース：カタログの更新、Kafkaのトピック補完のための接続モード、Camel KのJava統合ファイルの依存関係のサポート。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/05/vscode-camel-release/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New release of VS Code Language Support for Apache Camel 0.0.32 and VS Code Tooling for Camel K 0.0.24"
-msgstr ""
+msgstr "VS Code Language Support for Apache Camel 0.0.32」と「VS Code Tooling for Camel K 0.0.24」をリリースしました。"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/vscode-camel-release/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A new release of [VS Code Language Support for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-apache-camel) 0.0.32 is available. It includes upgrade of Camel catalogs, connected mode for Kafka topic completion and dependencies support for Camel K Java integration file.\n"
-msgstr ""
+msgstr "VS Code Language Support for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-apache-camel) 0.0.32 がリリースされました。Camelカタログのアップグレード、Kafkaトピック補完の接続モード、Camel K Java統合ファイルの依存関係サポートなどが含まれています。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/05/vscode-camel-release/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel version upgrades"
-msgstr ""
+msgstr "Camelのバージョンアップ"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/vscode-camel-release/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The default Camel catalog has been upgraded from 3.8.0 to 3.9.0.\n"
-msgstr ""
+msgstr "Camelのデフォルトカタログが3.8.0から3.9.0にアップグレードされました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/vscode-camel-release/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel Quarkus catalog has been upgraded from 1.7.0 to 1.8.1.\n"
-msgstr ""
+msgstr "Camel Quarkusカタログが1.7.0から1.8.1にアップグレードされました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/vscode-camel-release/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel Kafka Connector catalog has been upgraded from 0.8.0 to 0.9.0.\n"
-msgstr ""
+msgstr "Camel Kafka Connectorのカタログが0.8.0から0.9.0にアップグレードされました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/vscode-camel-release/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The default Camel K CLI has been upgraded from 1.3.2 to 1.4.0.\n"
-msgstr ""
+msgstr "デフォルトの Camel K CLI は、1.3.2 から 1.4.0 にアップグレードされました。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/05/vscode-camel-release/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Connected mode for Kafka topic completion"
-msgstr ""
+msgstr "Kafkaトピック完了時の接続モード"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/vscode-camel-release/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The list of Kafka topics are provided in completion. By default, they are retrieved from an unauthenticated local Kafka instance running at localhost:9092.\n"
-msgstr ""
+msgstr "Kafkaトピックのリストは補完して提供されます。デフォルトでは、localhost:9092で動作する未認証のローカルKafkaインスタンスから取得されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/vscode-camel-release/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A setting allows to configure the Kafka connection URL. It can be found at *File -> Preferences -> Settings -> Apache Camel Tooling -> Kafka Connection URL*\n"
-msgstr ""
+msgstr "Kafkaの接続URLを設定することができます。この設定は、「ファイル」→「環境設定」→「設定」→「Apache Camel Tooling」→「Kafka Connection URL」で確認できます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/vscode-camel-release/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Check this [video](https://youtu.be/e4dkV8YhSoE) to see it in action.\n"
-msgstr ""
+msgstr "その様子はこちらの[動画](https://youtu.be/e4dkV8YhSoE)でご覧いただけます。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/05/vscode-camel-release/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Command to update dependencies of Camel K Integration"
-msgstr ""
+msgstr "Camel K Integrationの依存関係を更新するコマンド"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/vscode-camel-release/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A command has been provided to refresh the classpath of a Camel K Integration file written in Java which is opened in the current editor.\n"
-msgstr ""
+msgstr "現在のエディタで開かれているJavaで書かれたCamel K Integrationファイルのクラスパスを更新するコマンドが提供されています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/vscode-camel-release/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Check this [video](https://youtu.be/C2gKvnmSYVA) to see it in action.\n"
-msgstr ""
+msgstr "その様子はこちらの[ビデオ](https://youtu.be/C2gKvnmSYVA)でご覧いただけます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/vscode-camel-release/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See [FUSETOOLS2-1079](https://issues.redhat.com/browse/FUSETOOLS2-1079) for potential improvements and current limitations.\n"
-msgstr ""
+msgstr "改善の可能性と現在の制限については、[FUSETOOLS2-1079](https://issues.redhat.com/browse/FUSETOOLS2-1079)を参照してください。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/05/vscode-camel-release/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's next?"
-msgstr ""
+msgstr "次は何ですか？"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/vscode-camel-release/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Provide your feedback and ideas!\n"
 "You can start discussions on [Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling).\n"
 "You can create and vote for issues on github [Camel Language Server](https://github.com/camel-tooling/camel-language-server/issues), [VS Code Language support for Apache Camel](https://github.com/camel-tooling/camel-lsp-client-vscode/issues) and [VS Code Tooling for Apache Camel K](https://github.com/camel-tooling/vscode-camelk/issues) repositories.\n"
 "You can create and vote for issues on the [jira](https://issues.redhat.com/browse/FUSETOOLS2) used by the Red Hat Integration tooling team.\n"
 msgstr ""
+"ご意見・ご感想をお寄せください\n"
+"Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling)で議論を始めることができます。\n"
+"github [Camel Language Server](https://github.com/camel-tooling/camel-language-server/issues)、[VS Code Language support for Apache Camel](https://github.com/camel-tooling/camel-lsp-client-vscode/issues)、[VS Code Tooling for Apache Camel K](https://github.com/camel-tooling/vscode-camelk/issues)のリポジトリに課題を作成して投票することができます。\n"
+"Red Hat Integration tooling チームが使用している [jira](https://issues.redhat.com/browse/FUSETOOLS2) 上で課題を作成し、投票することができます。\n"

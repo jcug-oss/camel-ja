@@ -18,144 +18,150 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We're starting a new initiative at Apache Camel to create a community-driven catalog of reusable Kamelets"
-msgstr ""
+msgstr "Apache Camelでは、再利用可能なKameletのカタログをコミュニティ主導で作成するという新しい取り組みを始めています。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kamelet Catalog"
-msgstr ""
+msgstr "カメレットカタログ"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We're starting a new initiative at Apache Camel to create a community-driven catalog of reusable Kamelets (_Camel_ route snipp_ets_, i.e. connectors) that can be used to stream data from/to external systems into any platform powered by Apache Camel.\n"
-msgstr ""
+msgstr "私たちは、Apache Camelで新しい取り組みを始めています。それは、再利用可能なKamelet（_Camel_ route snipp_ets_、すなわちコネクタ）のコミュニティ主導のカタログを作成することです。このカタログは、外部システムからのデータをApache Camelを搭載したあらゆるプラットフォームにストリーミングするために使用できます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The [\"Apache Camel Kamelet catalog\" is available here](/camel-kamelets/latest) and it already contains a collection of useful Kamelets: we would like to extend it with help of the community.\n"
-msgstr ""
+msgstr "Apache Camel Kamelet catalog \"はここで公開されています](/camel-kamelets/latest)。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kamelets are currently supported out-of-the-box by the [Apache Camel K](/camel-k/latest) project and we're working to support them also in Camel core, so that they can run eventually in any Apache Camel subproject, like [Camel Kafka Connector](/camel-kafka-connector/latest/) (but also camel-quarkus, camel-spring-boot, ...).\n"
-msgstr ""
+msgstr "現在、Kameletは[Apache Camel K](/camel-k/latest)プロジェクトですぐにサポートされていますが、私たちはCamelコアでもサポートするように取り組んでおり、最終的には[Camel Kafka Connector](/camel-kafka-connector/latest/)のようなあらゆるApache Camelサブプロジェクトで実行できるようになります。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Why are they useful?"
-msgstr ""
+msgstr "なぜ便利なのか？"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The most important reason why the new Kamelet catalog is so useful is that it provides a collection of connectors that are not tied to a particular platform, but they can be reused in multiple contexts. The new **OpenShift 4.7 developer console** is a clear evidence of this pattern. You can look at what it provides in the following animation:\n"
-msgstr ""
+msgstr "新しいKameletカタログが非常に有用である最も重要な理由は、特定のプラットフォームに縛られず、複数のコンテキストで再利用可能なコネクターのコレクションを提供することです。新しい **OpenShift 4.7 developer console** は、このパターンの明確な証拠です。以下のアニメーションで、その提供内容を見ることができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Kamelet Catalog demo in Openshift 4.7 Developer Console](./kamelet-catalog-source-demo.gif)\n"
-msgstr ""
+msgstr "![Kamelet Catalog demo in Openshift 4.7 Developer Console](./kamelet-catalog-source-demo.gif)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The console shows a serverless environment where a Knative channel has been created and it's ready to receive and dispatch events to a registered subscribing service.\n"
 "From the console, the user can add a new \"Event Source\" and the UI displays a collection of possibilities: well, starting from Camel K 1.4.0, that collection of sources will display **the official Apache Camel Kamelet catalog**. This means that contributing new Kamelets to the catalog will allow you to enhance the OpenShift catalog of Knative sources, for instance.\n"
 msgstr ""
+"コンソールには、Knativeチャンネルが作成され、登録されたサブスクライビングサービスにイベントを受信してディスパッチする準備が整ったサーバーレス環境が表示されます。\n"
+"コンソールから、ユーザーは新しい「イベントソース」を追加することができ、UIには可能性のあるコレクションが表示されます。まあ、Camel K 1.4.0からは、ソースのコレクションは**公式のApache Camel Kameletカタログ**を表示します。つまり、新しいKameletをカタログに貢献することで、例えばKnativeソースのOpenShiftカタログを充実させることができるようになるのです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "But there's nothing in the Kamelet catalog specifically related to OpenShift: **we show this to encourage people to take the same approach** for other platforms (in-house or open source, especially Kubernetes-based) and use cases. One of the advantages of this approach is that, since Kamelets provide a [well defined JSON-schema interface](/camel-k/latest/kamelets/kamelets.html) for their configuration, they can be made available for any kind of users, including those who don't even know anything about Apache Camel.\n"
-msgstr ""
+msgstr "しかし、Kameletのカタログには特にOpenShiftに関連するものはありません。**他のプラットフォーム（自社またはオープンソース、特にKubernetesベース）やユースケースでも同じアプローチ**を取ることを奨励するためにこれを示しています。このアプローチの利点の一つは、Kameletがその設定のために[よく定義されたJSON-schemaインターフェース](/camel-k/latest/kamelets/kamelets.html)を提供しているので、Apache Camelについて何も知らない人も含めて、どんな種類のユーザーでも利用できるということです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "So, no matter if you need ingress/egress for a specific destination (like in the Knative example above) or you're working on an event orchestration/workflow tool, or you're just creating a IFTTT clone: **if you need connectors, look at Kamelets**.\n"
-msgstr ""
+msgstr "つまり、特定の目的地のためにingress/egressが必要な場合（上記のKnativeの例のように）、イベントオーケストレーション/ワークフローツールに取り組んでいる場合、IFTTTクローンを作成しているだけの場合など、どんな場合でも、Kameletを利用することができます。コネクタが必要な場合は、Kameletsを参照してください**。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kamelets are not only useful in Web/UI projects, they can be also used from a CLI. For instance, there's a [plugin in the making in the Knative sandbox](https://github.com/knative-sandbox/kn-plugin-source-kamelet) that will allow users to easily create Knative sources from Kamelets using the Knative `kn` CLI.\n"
-msgstr ""
+msgstr "Kamelet は Web/UI プロジェクトで便利なだけでなく、CLI からも使用することができます。例えば、[Knative sandboxで作成中のプラグイン](https://github.com/knative-sandbox/kn-plugin-source-kamelet)では、Knative `kn` CLIを使って、KameletからKnativeのソースを簡単に作成することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Leaving the Kubernetes world, you can also imagine how the Kamelet Catalog can improve the user experience in Camel Kafka Connectors. As of today, A Camel Kafka connector can be created from a single Camel component: this is a quite powerful model, since components have a high degree of configurability, but it has severe limitations because complex use cases cannot be fullfilled by configuring a single Camel component. The Kamelet model will add to Camel Kafka Connector users to develop more complex use cases (because a Kamelet is a route template that can use multiple components and enterprise integration patterns) and share their connectors with other users via the Kamelet catalog.\n"
-msgstr ""
+msgstr "Kubernetesの世界を離れて、Kamelet CatalogがどのようにCamel Kafkaコネクタのユーザーエクスペリエンスを向上させることができるかを想像することもできます。今日のところ、Camel Kafkaコネクタは単一のCamelコンポーネントから作成することができます。コンポーネントは高度な設定が可能なため、これは非常に強力なモデルですが、単一のCamelコンポーネントを設定しても複雑なユースケースを満たすことができないため、厳しい制限があります。Kameletモデルは、Camel Kafkaコネクタのユーザーがより複雑なユースケースを開発し（Kameletは複数のコンポーネントやエンタープライズ統合パターンを使用できるルートテンプレートであるため）、Kameletカタログを介して他のユーザーとコネクタを共有することができるようになります。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kamelet vs. Component"
-msgstr ""
+msgstr "カメレとコンポーネントの比較"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There's a question that often arises and it relates to the difference between a Camel component and a Kamelet.\n"
-msgstr ""
+msgstr "よくある質問で、CamelコンポーネントとKameletの違いに関するものがあります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:39
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "From a pure user perspective, the main difference between them is that the Camel component is a highly configurable resource that is intended to be used in \n"
 "a Camel development environment. Components contain lots of properties that allow to customize every aspect of their behavior and how they interact with the Camel context, the registry and so on. Additionally, a single Camel component can serve multiple purposes: e.g. the `camel-facebook` component allows receiving any kind of event or execute any action on Facebook; the `camel-http` component allows to contact any external `http` or `https` endpoint.\n"
 msgstr ""
+"純粋なユーザーの視点から見ると、両者の主な違いは、Camelコンポーネントが高度な設定が可能なリソースであり、Camelの開発環境で使用されることを意図していることです。 \n"
+"コンポーネントは、Camelの開発環境で使用されることを目的とした、高度に設定可能なリソースです。コンポーネントには多くのプロパティが含まれており、動作のあらゆる側面をカスタマイズしたり、Camelのコンテキストやレジストリとの相互作用をカスタマイズすることができます。例えば、`camel-facebook`コンポーネントは、あらゆる種類のイベントを受信したり、Facebook上であらゆるアクションを実行することができます。また、`camel-http`コンポーネントは、外部の`http`や`https`エンドポイントに接続することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "By contrast, Kamelets are tailored around actual use cases. A `todo-sink` Kamelet may be created in the catalog to transform an event into an entry of a \"To-Do Application\" (I refer here to that kind of applications where you add the things you need to, and later mark them as resolved). It may use the `camel-http` component under the hood, but that will be an implementation detail. The `todo-sink` Kamelet will also expose to the end user not the full list of parameters available in the `camel-http` component, but a reduced set of configuration properties that are relevant for the business purpose (i.e. adding an entry into a \"To-Do Application\").\n"
 "Similarly, when the Kamelet model will evolve with the help of the community, there won't be a single `facebook-source` Kamelet, but there will be probably many facebook-related sources, one for each use case that the community finds relevant.\n"
 msgstr ""
+"対照的に、カメレットは実際のユースケースに合わせて作られています。あるイベントを「To-Doアプリケーション」（ここでは、必要なものを追加し、後で解決したとマークするようなアプリケーションのことを指しています）のエントリーに変換するために、`todo-sink` カメレットがカタログに作成されるかもしれません。これはボンネットの中で `camel-http` コンポーネントを使用するかもしれませんが、それは実装の詳細になります。また、`todo-sink` カメレットは、`camel-http` コンポーネントで利用可能なパラメータの完全なリストではなく、ビジネスの目的(すなわち、「To-Doアプリケーション」へのエントリの追加)に関連する設定プロパティの縮小セットをエンドユーザーに公開します。\n"
+"同様に、Kameletモデルがコミュニティの助けを借りて進化するとき、単一の `facebook-source` Kameletは存在しないでしょうが、おそらく多くのfacebook関連のソースが存在し、コミュニティが関連性を見出すユースケースごとに1つずつ存在するでしょう。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "An important corollary of all this is that we're not going to auto-generate the Kamelet catalog from the components, instead, we'll follow a more opinionated approach taking into consideration the user needs rather than what the components already provide.\n"
-msgstr ""
+msgstr "ここで重要なことは、コンポーネントからKameletカタログを自動生成するのではなく、コンポーネントがすでに提供しているものではなく、ユーザーのニーズを考慮して、より意見の多いアプローチをとるということです。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Contributing"
-msgstr ""
+msgstr "貢献度"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Contributions are welcome for the Kamelet catalog. All you need to do is to follow the guidelines in the [official repository for the Kamelet catalog on Github](https://github.com/apache/camel-kamelets).\n"
-msgstr ""
+msgstr "Kameletカタログへの貢献を歓迎します。必要なのは、[official repository for the Kamelet catalog on Github](https://github.com/apache/camel-kamelets)のガイドラインに従うことだけです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Here's a list of relevant resources that you may want to learn before starting creating your own Kamelets:\n"
-msgstr ""
+msgstr "ここでは、独自のカメレツを作り始める前に学んでおきたい関連リソースのリストを紹介します。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Introduction to Kamelets in Camel K documentation](/camel-k/latest/kamelets/kamelets.html)\n"
-msgstr ""
+msgstr "Camel KドキュメントのKameletsの紹介](/camel-k/latest/kamelets/kamelets.html)\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/02/Kamelet-Catalog/index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Kamelets by Nicola Ferraro](https://www.nicolaferraro.me/2020/10/12/kamelets/)\n"
-msgstr ""
+msgstr "ニコラ・フェラーロのカメレッツ】(https://www.nicolaferraro.me/2020/10/12/kamelets/)\n"

@@ -18,26 +18,28 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/04/camel-quarkus-release-1.8.1/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus 1.8.1 Released"
-msgstr ""
+msgstr "Camel Quarkus 1.8.1リリース"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-quarkus-release-1.8.1/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<sub><sup>Image by <a href=\"https://www.flickr.com/photos/lanzen/5984113332\">Anders Lanzen</a> <a href=\"https://creativecommons.org/licenses/by-nc-sa/2.0\">CC BY-NC-SA 2.0</a></sup></sub>\n"
-msgstr ""
+msgstr "<sub><sup>Image by<a href=\"https://www.flickr.com/photos/lanzen/5984113332\">Anders Lanzen</a> <a href=\"https://creativecommons.org/licenses/by-nc-sa/2.0\">CC BY-NC-SA 2.0</a></sup></sub>\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-quarkus-release-1.8.1/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We are pleased to announce the release 1.8.1 of Camel Quarkus. This is a patch release with 14 improvements and fixes.\n"
 "For more details please take a look at the [release notes](/releases/q-1.8.1/).\n"
 msgstr ""
+"Camel Quarkusの1.8.1のリリースを発表します。このリリースは、14の改善と修正を含むパッチリリースです。\n"
+"詳細は[リリースノート](/releases/q-1.8.1/)をご参照ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/04/camel-quarkus-release-1.8.1/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Many thanks to all all contributors!\n"
-msgstr ""
+msgstr "すべての貢献者に感謝します。\n"

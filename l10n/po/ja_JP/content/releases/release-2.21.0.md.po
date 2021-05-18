@@ -18,42 +18,47 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/releases/release-2.21.0.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Major release for 2.21.x"
-msgstr ""
+msgstr "2.21.xのメジャーリリース"
 
 #. type: YAML Front Matter: title
 #: upstream/content/releases/release-2.21.0.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Release 2.21.0"
-msgstr ""
+msgstr "リリース 2.21.0"
 
 #. type: Plain text
 #: upstream/content/releases/release-2.21.0.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Welcome to the 2.21.0 release which resolved 400 issues including new\n"
 "features, improvements and bug fixes.\n"
 msgstr ""
+"新機能、改善、バグフィックスを含む400の問題を解決した2.21.0リリースへようこそ。\n"
+"新機能、改善、バグフィックスを含む400の問題を解決した\n"
 
 #. type: Plain text
 #: upstream/content/releases/release-2.21.0.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This release supports only Spring Boot 1.5.x. Support for Spring Boot\n"
 "2.0.x is coming in Camel version 2.22 which is planned for early summer\n"
 "2018.\n"
 msgstr ""
+"今回のリリースでは、Spring Boot 1.5.xのみをサポートしていますが、Spring Boot\n"
+"2.0.xは、2018年初夏に予定されているCamelバージョン2.22でサポートされます。\n"
+"2018.\n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.21.0.md:104
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Upgraded to JAXB 2.3.0 which is more JDK9 compliant.\n"
-msgstr ""
+msgstr "JAXB 2.3.0にアップグレードし、JDK9に対応しました。\n"
 
 #. type: Plain text
 #: upstream/content/releases/release-2.21.0.md:104
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "* Added better support for `javax.jms.StreamMessage` types\n"
 "in JMS component.\n"
@@ -136,16 +141,96 @@ msgid ""
 "* The Bean component language can now refer to method name via the\n"
 "double colon syntax, eg `.to(\"bean:myBean::myMethod\")`\n"
 msgstr ""
+"JMS コンポーネントの `javax.jms.StreamMessage` タイプのサポートを強化しました。\n"
+"をサポートしました。\n"
+"ActiveMQ ArtemisをサポートするためにJMSを最適化しました。\n"
+"http://activemq.apache.org/artemis/docs/latest/large-messages.html[large\n"
+"メッセージ]をサポートするようにJMSを最適化し、GBサイズのような大きなメッセージを送受信できるようにしました。\n"
+"これを示す例が\n"
+"camel-example-artemis-large-messages にデモの例があります。\n"
+"* ルートカバレッジレポートのサポートを追加しました。これによりサードパーティの\n"
+"これにより、サードパーティのツールが SPI 経由でルートカバレッジを Camel 開発者に可視化できるようになりました。\n"
+"* ルートカバレッジのゴールを\n"
+"https://github.com/apache/camel/blob/master/tooling/maven/camel-maven-plugin/src/main/docs/camel-maven-plugin.adoc[Camel\n"
+"Mavenプラグイン]にルートカバレッジゴールを追加し、Mavenコマンドラインからルートカバレッジをレポートできるようになりました。\n"
+"Kafkaコンシューマを使用しているときに、Javaコードを介して手動でコミットするためのサポートを追加しました。\n"
+"Kafkaコンシューマを使用している場合、Javaコードによる手動コミットのサポートを追加しました。\n"
+"REST DSLを使用している場合、swaggerで生成されたAPIドキュメントのVendor extensionsが無効になりました。\n"
+"REST DSLを使用している場合はオフになりました（すべてのサードパーティの\n"
+"サードパーティのAPIゲートウェイ/ツールがベンダーエクステンションをサポートしているとは限りません。)この機能は\n"
+"apiVendorExtensionオプションで元に戻すことができます。\n"
+"SFTPコンシューマーは、`useList`オプションをサポートしました。\n"
+"このオプションを使用すると、FTPサーバーでLIST操作を行わずに、単一の既知のファイルをダウンロードすることができます。\n"
+"FTPサーバのLIST操作を使わずに、既知のファイルを1つだけダウンロードすることができます。\n"
+"LISTの結果）。)\n"
+"* camel-jacksonを使用したCamel JSONは、自動的に\n"
+"レジストリに1つのインスタンスしかない場合、共有されたObjectMapperインスタンスを\n"
+"を自動的に使用するようになりました。例えば、Spring Bootを使用しているユーザーの場合\n"
+"を使用しているユーザーは、Camel が Spring Boot のデフォルトのマッパーを簡単に使用できるようになりました。\n"
+"* CamelContextが完全に起動した直後にコールバックを可能にする`ExtendedStartupListener`を追加しました。\n"
+"CamelContextが完全に起動した直後にコールバックできる`ExtendedStartupListener`を追加しました。\n"
+"* 生成された Swagger アパチャに含まれる REST DSL の例を指定できるようになりました。\n"
+"* camel-swagger-java を通じて、生成された Swagger api-doc に含まれる REST DSL の例を指定できるようになりました。\n"
+"pollEntry を使用する際に、スケジュールされたバックグラウンドタスクではなく、現在のスレッドを使用してポーリングするようにファイル/ftp コンシューマーを改善しました。\n"
+"pollEnrich（コンテントエンリッチ）を使用する際に、スケジュールされたバックグラウンドタスクではなく、現在のスレッドを使用してポーリングするように改善しました。\n"
+"ダイレクトコンポーネントは、まだ準備ができていないコンシューマに送信する場合、デフォルトでブロックするようになりました。\n"
+"ダイレクトコンポーネントは、起動時に発生する可能性のある、準備ができていないコンシューマーに送信する場合、デフォルトでブロックするようになりました。\n"
+"これは起動時に発生する可能性があります。これにより\n"
+"これにより、起動時などにスローされる`DirectConsumerNotAvailableException`を回避できます。\n"
+"etc.\n"
+"FTP コンポーネントは、ダウンロードを実行する際に、進捗状況をログに記録できるようになりました (turn\n"
+"FTPコンポーネントは、ダウンロード/アップロードやその他の操作を行う際に、進捗状況をログに記録できるようになりました。\n"
+"FTPコンポーネントは、ダウンロード/アップロードやその他の操作を行う際に、進捗状況をログに記録できるようになりました。この情報は、JMX のコンシューマーに対しても確認できます。 \n"
+"FTPコンポーネントにダウンロード再開のサポートを追加しました。\n"
+"例えば、大きなファイルをダウンロードする際に、FTPサーバーとの接続に問題がある場合などです。\n"
+"FTPサーバーとの接続に問題がある場合などです。例えば、大きなファイルをダウンロードした後、FTPサーバーとの接続に問題が発生した場合、Camelは進行中のファイルのダウンロードを再開できます。\n"
+"ダウンロードを再開することができます。\n"
+"Jetty と Servlet のコンシューマは\n"
+"Jettyとサーブレットのコンシューマーは、別のHTTPリクエストで処理されたはずのリクエストに対して、HTTP Status 405（Method not allowed）を返すようになりました。\n"
+"他のHTTPリクエストメソッドで処理されるはずのリクエストに対して、HTTP Status 405（メソッドが許可されていません）を返すようになりました。\n"
+"REST サービスを間違った方法で呼び出した場合などです。これまでは、404エラーコード\n"
+"は常に関係ありませんでした。\n"
+"* `FileIdempotentRepository` を再構築し、内部のインメモリ\n"
+"内部のメモリ内キャッシュは、最も頻繁に使用されるファイル名のクイックルックアップにのみ使用され、ディスクからのルックアップも可能です。\n"
+"ディスクからの検索にも使用されるようになりました。詳細は\n"
+"ファイルのクラス javadoc を参照してください。\n"
+"* SQL ストアドプロシージャコンポーネントが\n"
+"INOUTパラメータをサポートしました。\n"
+"* link:controlbus-component.html[ControlBus\n"
+"コンポーネント]に再起動アクションを追加し、ルートを簡単に再起動できるようになりました。\n"
+"* camel-spring-boot actuator endpoints for routes is now in read-only mode\n"
+"モードになりました。 \n"
+"EIPを集約するためのオプションを追加しました。\n"
+"EIPを集約するオプションを追加しました。これにより、新たに入力された相関キーで以前のすべてのグルー\n"
+"また、「AggregationStrategy`」のJavaコードロジックから強制的に補完するオプションを追加しました。\n"
+"また、「AggregationStrategy」の実装において、Javaコードロジックからの補完を強制するためのオプションを追加しました。 \n"
+"ユニットテストにAdviceWithを使用すると、XML形式でルートの前後をログに記録するようになりました。\n"
+"ユニットテストにAdviceWithを使用すると、ルートの変更を簡単に見つけられるように、XMLフォーマットで前と後のルートを記録するようになりました。\n"
+"ルートモデル\n"
+"* 非SpringランタイムでSpELを使用するためのサポートを追加しました。\n"
+"* Spring以外のランタイムでSpELを使用するためのサポートを追加しました（ただし、SpELはSpringランタイムを使用している場合にのみ\n"
+"る機能があるかもしれません）。)\n"
+"HTTP4コンポーネントのタイムアウト・オプションの設定が容易になりました。\n"
+"コンポーネントの改善を行いました。\n"
+"RabbitMQコンポーネントを改良しました。\n"
+"RabbitMQコンポーネントの改善により、例えば、ヘッダを削除したり、bridgeEndpointオプションを有効にしたりすることなく\n"
+"ヘッダを削除したり、bridgeEndpointオプションをオンにしたりすることなく、RabbitMQエクスチェンジ間のルーティングを容易にしました。また、INFOレベルで発生するロギングノイズを\n"
+"また、INFOレベルで発生していたログのノイズも減少しました。\n"
+"多くのRabbitMQオプションを設定できるようになりました。\n"
+"多くのRabbitMQオプションを、各エンドポイントで繰り返すことなく、コンポーネントレベルで設定できるようになりました。\n"
+"エンドポイントごとに繰り返す必要はありません。\n"
+"* Beanコンポーネント言語は、ダブルコロン構文でメソッド名を参照できるようになりました。\n"
+"例えば、`.to(\"bean:myBean::myMethod\")`などです。\n"
 
 #. type: Plain text
 #: upstream/content/releases/release-2.21.0.md:106
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The following issues has been fixed\n"
-msgstr ""
+msgstr "以下の問題を修正しました。\n"
 
 #. type: Plain text
 #: upstream/content/releases/release-2.21.0.md:126
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "* Fixed afterApplicationStart callback on camel-spring-boot to be called\n"
 "later and after CamelContext has been fully started.\n"
@@ -167,64 +252,83 @@ msgid ""
 "* Fixed Blueprint error: \"name is already instanciated as null and\n"
 "cannot be removed\"\n"
 msgstr ""
+"* camel-spring-bootのafterApplicationStartコールバックが、CamelContextが完全に起動した後に\n"
+"後に、CamelContextが完全に起動した後に呼び出されるように修正しました。\n"
+"* @UseAdviceWithとSpring Boot上のCamelでテストした際の問題を修正しました。\n"
+"OnCompletionがSplit EIPを使用するルートと\n"
+"スプリットEIPを使用したルートからOnCompletionがトリガーされず、スプリット時に例外が発生していた\n"
+"していました。\n"
+"オフセットコミット時に例外が発生した場合、Kafkaコンシューマーがメッセージの消費を停止する問題を修正しました。\n"
+"オフセットコミット中に例外が発生した場合、Kafkaコンシューマーがメッセージの消費を停止するように修正しました。\n"
+"Netty4 コンシューマーがシャットダウン中に新規リクエストの取り込みを停止するように修正しました。\n"
+"シャットダウン中に新しいリクエストの取り込みを停止するように修正しました。\n"
+"そうしないと、既存のインフライトメッセージを処理するよりも早く新しいリクエストが入ってきた場合、グレースフルシャットダウンできないためです。\n"
+"Routing Slip\n"
+"とダイナミック・ルーターで、コンテキスト・スコープ付きの\n"
+"エラーハンドラーが停止してしまうことがありました。\n"
+"JettyのRest DSLを修正しました。\n"
+"セキュリティ ハンドラをカスタム定義し、api-docをオンにすることで\n"
+"をオンにすると、NoLoginServiceエラーが発生してJettyサーバーが起動しない問題を修正しました。\n"
+"* Fixed Blueprint error:\"name is already instanciated as null and cannot be removed.\n"
+"削除できない\"\n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.21.0.md:135
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fixed a CXF continuation timeout issue with camel-cxf consumer could cause the consumer to return a response with data instead of triggering a timeout to the calling SOAP client.\n"
-msgstr ""
+msgstr "camel-cxfコンシューマーのCXF継続タイムアウトの問題を修正しました。コンシューマーが、呼び出したSOAPクライアントにタイムアウトをトリガするのではなく、データを含むレスポンスを返すことがありました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.21.0.md:135
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fixed camel-cxf consumer doesn't release UoW when using robust oneway operation\n"
-msgstr ""
+msgstr "Fixed camel-cxf consumer doesn't release UoW when using robust oneway operation\n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.21.0.md:135
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fixed using AdviceWith and using weave methods on onException etc. not working. \n"
-msgstr ""
+msgstr "AdviceWithを使用し、onExceptionなどでweaveメソッドを使用すると動作しないのを修正しました。 \n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.21.0.md:135
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fixed Splitter in parallel processing and streaming mode may block, while iterating message body when the iterator throws exception in first invoked next() method call.\n"
-msgstr ""
+msgstr "並列処理やストリーミングモードのSplitterで、最初に呼び出されたnext()メソッドの呼び出しでイテレータが例外を起こした場合、メッセージボディの反復処理中にブロックすることがありました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.21.0.md:135
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fixed Kafka consumer to not auto commit if autoCommitEnable=false.\n"
-msgstr ""
+msgstr "autoCommitEnable=falseの場合にKafkaコンシューマーが自動コミットしないように修正しました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.21.0.md:135
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fixed file consumer was using markerFile as read-lock by default, which should have been none. \n"
-msgstr ""
+msgstr "ファイルコンシューマーがデフォルトで markerFile をリードロックとして使用していたのを修正しました（本来ならば、なしにすべきでした）。 \n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.21.0.md:135
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fixed using manual commit with Kafka to provide the current record offset and not the previous (and -1 for first)\n"
-msgstr ""
+msgstr "Kafkaの手動コミットで、前のレコードではなく、現在のレコードのオフセットを提供するように修正（最初のレコードには-1を提供）。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/releases/release-2.21.0.md:135
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fixed Content Based Router in Java DSL may not resolve property placeholders in when predicates\n"
-msgstr ""
+msgstr "Java DSL の Content Based Router で、when 述語の中のプロパティプレースホルダーを解決できないことがある。\n"
 
 #. type: Plain text
 #: upstream/content/releases/release-2.21.0.md:137
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Important changes to consider when upgrading\n"
-msgstr ""
+msgstr "アップグレード時に考慮すべき重要な変更点\n"
 
 #. type: Plain text
 #: upstream/content/releases/release-2.21.0.md:170
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "* Jetty has been upgraded to 9.4 by default, and camel-jetty is requring\n"
 "version 9.3 or 9.4 to run in OSGi.\n"
@@ -259,3 +363,35 @@ msgid ""
 "routes is forbidden. You can turn off read-only mode by setting the\n"
 "spring boot configuration `endpoints.camelroutes.read-only = false`\n"
 msgstr ""
+"Jetty はデフォルトで 9.4 にアップグレードされており、 camel-jetty は OSGi で動作するためにはバージョン 9.3 または 9.4 が必要です。\n"
+"バージョン 9.3 または 9.4 が必要です。\n"
+"* Direct コンポーネントは、まだ準備ができていないコンシューマに送信する場合、デフォルトでブロックするようになりました。\n"
+"ダイレクトコンポーネントは、まだ準備ができていないコンシューマーに送信する場合、デフォルトでブロックするようになりました。これは起動時に起こる可能性があります。\n"
+"これは起動時に起こる可能性があります。これにより\n"
+"これにより、起動時などにスローされる`DirectConsumerNotAvailableException`を回避することができます。\n"
+"などを避けることができます。旧来の動作は、ダイレクトコンポーネントレベルや必要に応じてエンドポイントで\n"
+"必要に応じてエンドポイントでも設定できます。\n"
+"* `camel-saxon` を使用している場合は、SaxonXpathFactory クラスが作成されます。\n"
+"に作成されます。\n"
+"https://www.saxonica.com/html/documentation/xpath-api/jaxp-xpath/factory.html[推奨\n"
+"方法]で Saxon から作成されます。可能でない場合はフォールバックして古い方法でファクトリーを作成します。\n"
+"できない場合はフォールバックして古い方法でファクトリーを作成します。\n"
+"* `camel-json-validator` コンポーネントは、Everit から NetworkNT JSon Schema validator library に変更しました。\n"
+"NetworkNT JSon Schema validator libraryに変更しました。これは、前者はASFのライセンス\n"
+"ASFライセンスの影響があり、今後のCamelのリリースでは許可されないためです。その理由は\n"
+"NetworkNTは、JSon Schemaのv4ドラフトを検証としてサポートしています。\n"
+"このドラフト版をスキーマに使用してください。\n"
+"* `FileIdempotentRepository` を再構築し、内部インメモリ\n"
+"内部インメモリキャッシュは、最も頻繁に使用されるファイル名のクイックルックアップにのみ使用され、ディスクからのルックアップも\n"
+"ディスクからの検索にも使用されるようになりました。詳細は\n"
+"ファイルのクラス javadoc を参照してください。\n"
+"* ルート用の Karaf コマンドを変更しました。\n"
+"ルートのKarafコマンドが変更され、キャメルコンテキストの引数が最初で、ルートIDが2番目の\n"
+"引数になります。これにより、ルートコンプリートでは、選択したキャメル\n"
+"コンテキスト名を使用して、そのキャメルコンテキストからのルートIDのみを表示できるようになりました。\n"
+"そうしないと、Karafで動作しているすべてのCamelアプリケーションのすべてのルートが表示されてしまいます。\n"
+"Karaf\n"
+"camel-spring-boot actuator endpoints for routes は、デフォルトで読み取り専用モードになりました。\n"
+"モードになりました。これは、ルートの開始、停止、中断、再開の操作が禁止されていることを意味します。\n"
+"ルートを開始、停止、中断、再開する操作は禁止されています。読み取り専用モードをオフにするには、以下のように設定します。\n"
+"Spring boot の設定で `endpoints.camelroutes.read-only = false` とすることで、読み取り専用モードをオフにすることができます。\n"

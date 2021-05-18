@@ -18,40 +18,44 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2019/09/RELEASE-2.23.4/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel community announces the immediate availability of the new patch release Camel 2.23.4"
-msgstr ""
+msgstr "Camelコミュニティは、新パッチリリース「Camel 2.23.4」の即時公開を発表しました。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2019/09/RELEASE-2.23.4/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "RELEASE 2.23.4"
-msgstr ""
+msgstr "リリース 2.23.4"
 
 #. type: Plain text
 #: upstream/content/blog/2019/09/RELEASE-2.23.4/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The Camel community announces the immediate availability of the new patch release Camel 2.23.4, the last planned patch release for the camel-2.23.x branch.\n"
 "This release contains 18 fixes and improvements applied in the past weeks by the community on the camel-2.23.x branch.\n"
 msgstr ""
+"Camel コミュニティは、 camel-2.23.x ブランチで予定されていた最後のパッチリリースである Camel 2.23.4 のリリースを発表しました。\n"
+"このリリースには、過去数週間にコミュニティによって camel-2.23.x ブランチに適用された 18 の修正と改善が含まれています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/09/RELEASE-2.23.4/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The artifacts are published and ready for you to download either from the Apache mirrors or from the Central Maven repository. For more details please take a look at the [resolved issues](/releases/release-2.23.4/#resolved).\n"
-msgstr ""
+msgstr "アーティファクトは公開されており、Apache ミラーまたは Central Maven リポジトリからダウンロードすることができます。詳細については、[解決済みの問題](/releases/release-2.23.4/#resolved)をご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/09/RELEASE-2.23.4/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Many thanks to all who made this release possible.\n"
-msgstr ""
+msgstr "今回のリリースにご協力いただいた皆様に感謝いたします。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/09/RELEASE-2.23.4/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "On behalf of the Camel PMC,\n"
 "Gregor Zurowski\n"
 msgstr ""
+"Camel PMCを代表して。\n"
+"グレゴール・ズロウスキー\n"

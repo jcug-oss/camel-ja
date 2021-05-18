@@ -18,165 +18,167 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel-AWS2 Eventbridge introduction"
-msgstr ""
+msgstr "Camel-AWS2 Eventbridgeの紹介"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Introducing Camel-AWS2-Eventbridge component"
-msgstr ""
+msgstr "Camel-AWS2-Eventbridgeコンポーネントの紹介"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In Camel 3.6.0 we will introduce the camel-aws2-eventbridge among others new cool components.\n"
 "The aim of this blog post is showing what you can do with the Eventbridge AWS Service and the related camel component.\n"
 msgstr ""
+"Camel 3.6.0では、camel-aws2-eventbridgeをはじめとする新しいクールなコンポーネントが導入されます。\n"
+"このブログ記事の目的は、Eventbridge AWS Serviceと関連するCamelコンポーネントで何ができるかを示すことです。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What is AWS Eventbridge?"
-msgstr ""
+msgstr "AWS Eventbridgeとは？"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The definition from the [AWS official website](https://aws.amazon.com/eventbridge/?nc1=h_ls) is the following:\n"
-msgstr ""
+msgstr "AWS公式サイト](https://aws.amazon.com/eventbridge/?nc1=h_ls)での定義は以下の通りです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "_Amazon EventBridge is a serverless event bus that makes it easy to connect applications together using data from your own applications, integrated Software-as-a-Service (SaaS) applications, and AWS services. EventBridge delivers a stream of real-time data from event sources, such as Zendesk, Datadog, or Pagerduty, and routes that data to targets like AWS Lambda. You can set up routing rules to determine where to send your data to build application architectures that react in real time to all of your data sources._\n"
-msgstr ""
+msgstr "_Amazon EventBridgeは、独自のアプリケーション、統合されたSaaS（Software-as-a-Service）アプリケーション、AWSサービスからのデータを使用して、アプリケーション同士を簡単に接続することができるサーバーレスイベントバスです。EventBridgeは、Zendesk、Datadog、Pagerdutyなどのイベントソースからリアルタイムデータのストリームを配信し、そのデータをAWS Lambdaなどのターゲットにルーティングします。データの送信先を決定するルーティングルールを設定することで、すべてのデータソースにリアルタイムに反応するアプリケーションアーキテクチャを構築することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "So basically you can listen for events on your bus, which can be the default event bus (the AWS one) or a custom event bus. The events coming from the bus can be send to AWS services, like an SQS queue, SNS topic or an S3 bucket. Obviously events can trigger actions.\n"
-msgstr ""
+msgstr "基本的には、デフォルトのイベントバス（AWSのもの）またはカスタムのイベントバスであるバスのイベントをリッスンすることができます。バスから送られてきたイベントは、SQSキューやSNSトピック、S3バケットなどのAWSサービスに送ることができます。明らかに、イベントはアクションを引き起こすことができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For each event bus, you can set rules: each rule specify a target action to take when EventBridge receives an event that matches the rule. When an event matches the rule, EventBridge sends the event to the specified target and triggers the action defined in the rule.\n"
-msgstr ""
+msgstr "各イベントバスには、ルールを設定することができます。各ルールは、EventBridgeがルールにマッチするイベントを受信したときに実行するターゲットアクションを指定します。イベントがルールにマッチすると、EventBridgeは指定されたターゲットにイベントを送信し、ルールで定義されたアクションをトリガーします。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "All of this can be done from AWS Console UI or from code, indifferently.\n"
-msgstr ""
+msgstr "これらはすべて、AWSコンソールのUIからでも、コードからでも、無頓着に行うことができます。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What is the component structure?"
-msgstr ""
+msgstr "コンポーネントの構造はどうなっていますか？"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The AWS2-Eventbridge component act as producer-only component. At the moment of writing the operations you can do are the following:\n"
-msgstr ""
+msgstr "AWS2-Eventbridgeコンポーネントは、プロデューサーのみのコンポーネントとして動作します。現時点で可能な操作は以下の通りです。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "putRule\n"
-msgstr ""
+msgstr "putRule\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "putTargets\n"
-msgstr ""
+msgstr "putTargets\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "removeTargets\n"
-msgstr ""
+msgstr "removeTargets\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "deleteRule\n"
-msgstr ""
+msgstr "deleteRule\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "enableRule\n"
-msgstr ""
+msgstr "EnableRule\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "disableRule\n"
-msgstr ""
+msgstr "ディセーブルルール\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "listRules\n"
-msgstr ""
+msgstr "リストルール\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "describeRule\n"
-msgstr ""
+msgstr "describeRule\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "listTargetsByRule\n"
-msgstr ""
+msgstr "listTargetsByRule\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "listRuleNamesByTarget\n"
-msgstr ""
+msgstr "listRuleNamesByTarget\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The interesting operations are for sure the putRule and putTargets rule.\n"
-msgstr ""
+msgstr "興味深いのは、やはりputRuleとputTargetsルールです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "I set up a little example in the [camel-examples repository](https://github.com/apache/camel-examples/tree/master/examples/camel-example-main-endpointdsl-aws2), showing what can be done, but we'll talk about this later.\n"
-msgstr ""
+msgstr "camel-examples repository](https://github.com/apache/camel-examples/tree/master/examples/camel-example-main-endpointdsl-aws2)にちょっとした例を用意して、何ができるかを示しましたが、これについては後ほど説明します。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Eventbridge Rules, Events Pattern and Targets"
-msgstr ""
+msgstr "イベントブリッジのルール、イベントパターンとターゲット"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The important parts of an Eventbridge rule are the event pattern and the targets.\n"
-msgstr ""
+msgstr "イベントブリッジのルールの重要な部分は、イベントパターンとターゲットです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "An event in AWS looks in this way:\n"
-msgstr ""
+msgstr "AWSのイベントはこのようになっています。\n"
 
 #. type: Fenced code block (json)
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "{\n"
 "  \"version\": \"0\",\n"
@@ -195,28 +197,44 @@ msgid ""
 "  }\n"
 "}\n"
 msgstr ""
+"{\n"
+"  \"version\":\"0\",\n"
+"  \"id\":\"6a7e8feb-b491-4cf7-a9f1-bf3703467718\",\n"
+"  \"detail-type\":\"EC2 Instance State-change Notification\",\n"
+"  \"source\" (ソース)\"aws.ec2\",\n"
+"  \"account\":\"111122223333\",\n"
+"  \"time\":\"2017-12-22t18:43:48z\",\n"
+"  \"region\":\"us-west-1\" です。\n"
+"  \"resources\" (リソース)[\n"
+"    \"arn:aws:ec2:us-west-1:123456789012:instance/ i-1234567890abcdef0\"\n"
+"],\n"
+"\"detail\":{\n"
+"  \"instance-id\":\" i-123456767890abcdef0 \" です。\n"
+"  \"state\":\"terminated\"\n"
+"  }\n"
+"}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is, for example, an event notifying the state-change of an EC2 instance.\n"
-msgstr ""
+msgstr "例えば、EC2インスタンスの状態変化を通知するイベントなどです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:71
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "An event pattern is similar to an event. They have the same structure. Event patterns look much like the events they are filtering.\n"
-msgstr ""
+msgstr "イベントパターンは、イベントに似ています。同じ構造を持っています。イベントパターンは、フィルタリング対象のイベントによく似ています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:73
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "So you can write your own event pattern like this one\n"
-msgstr ""
+msgstr "そのため、次のような独自のイベントパターンを書くことができます。\n"
 
 #. type: Fenced code block (json)
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:74
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "{\n"
 "  \"source\": [ \"aws.ec2\" ],\n"
@@ -226,22 +244,29 @@ msgid ""
 "  }\n"
 "}\n"
 msgstr ""
+"{\n"
+"  \"source\":[ \"aws.ec2\" ] を参照してください。\n"
+"  \"detail-type\":[ \"EC2 Instance State-change Notification\" ],\n"
+"  \"detail\":{\n"
+"    \"state\":[ \"terminated\" ]\n"
+"  }\n"
+"}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:85
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In this case we want to get a notification of all the EC2 instances termination in our account.\n"
-msgstr ""
+msgstr "今回は、自分のアカウントで終了したすべてのEC2インスタンスの通知を受けたいと思います。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:87
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "But you can also would like to know when an EC2 is running again for example.\n"
-msgstr ""
+msgstr "しかし、例えば、EC2がいつ再稼働するかを知りたい場合もあります。\n"
 
 #. type: Fenced code block (json)
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:88
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "{\n"
 "  \"source\": [ \"aws.ec2\" ],\n"
@@ -251,22 +276,29 @@ msgid ""
 "  }\n"
 "}\n"
 msgstr ""
+"{\n"
+"  \"source\":[ \"aws.ec2\" ] を参照してください。\n"
+"  \"detail-type\":[ \"EC2 Instance State-change Notification\" ],\n"
+"  \"detail\":{\n"
+"    \"state\":[ \"terminated\", \"running\" ] です。\n"
+"  }\n"
+"}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:99
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Now that we know what kind of events we want, we need to set up targets to be able to consume them.\n"
-msgstr ""
+msgstr "イベントの種類がわかったところで、それらを消費できるようにターゲットを設定する必要があります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The request syntax for adding a target to a rule is the following\n"
-msgstr ""
+msgstr "ルールにターゲットを追加するためのリクエスト構文は以下の通りです。\n"
 
 #. type: Fenced code block (json)
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:102
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "{\n"
 "   \"EventBusName\": \"string\",\n"
@@ -350,34 +382,115 @@ msgid ""
 "   ]\n"
 "}\n"
 msgstr ""
+"{\n"
+"   \"EventBusName\":\"string\",\n"
+"   \"Rule\": \"string\",\n"
+"   \"Targets\" (ターゲット)[\n"
+"      {\n"
+"         \"Arn\":\"string\" です。\n"
+"         \"BatchParameters\":{\n"
+"            \"ArrayProperties\":{\n"
+"               \"サイズ\": 数値\n"
+"            },\n"
+"            \"JobDefinition\":\"string\",\n"
+"            \"JobName\":\"string\",\n"
+"            \"RetryStrategy\":{\n"
+"               \"Attempts\": number\n"
+"            }\n"
+"         },\n"
+"         \"DeadLetterConfig\":{\n"
+"            \"Arn\":\"ストリング\"\n"
+"         },\n"
+"         \"EcsParameters\":{\n"
+"            \"Group\" (グループ)\"string\",\n"
+"            \"LaunchType\":\"string\",\n"
+"            \"NetworkConfiguration\":{\n"
+"               \"awsvpcConfiguration\":{\n"
+"                  \"AssignPublicIp\":\"string\",\n"
+"                  \"SecurityGroups\":[ \"string\" ],\n"
+"                  \"Subnets\" (サブネット)[ \"文字列\" ]\n"
+"               }\n"
+"            },\n"
+"            \"PlatformVersion\":\"string\" です。\n"
+"            \"TaskCount\": 数字\n"
+"            \"TaskDefinitionArn\":\"string\" (文字列)\n"
+"         },\n"
+"         \"HttpParameters\":{\n"
+"            \"HeaderParameters\":{\n"
+"               \"文字列\" : \"文字列\"\n"
+"            },\n"
+"            \"PathParameterValues\" (パスパラメータ値)[ \"string\" ],\n"
+"            \"QueryStringParameters\":{\n"
+"               \"string\" : \"文字列\"\n"
+"            }\n"
+"         },\n"
+"         \"Id\":\"string\",\n"
+"         \"Input\":\"string\",\n"
+"         \"InputPath\":\"string\",\n"
+"         \"InputTransformer\":{\n"
+"            \"InputPathsMap\":{\n"
+"               \"文字列\" : \"文字列\"\n"
+"            },\n"
+"            \"InputTemplate\":\"文字列\"\n"
+"         },\n"
+"         \"KinesisParameters\":{\n"
+"            \"PartitionKeyPath\":\"string\" (文字列)\n"
+"         },\n"
+"         \"RedshiftDataParameters\" (レッドシフトデータパラメータ){\n"
+"            \"Database\" (データベース)\"string\",\n"
+"            \"DbUser\":\"string\",\n"
+"            \"SecretManagerArn\":\"string\",\n"
+"            \"Sql\":\"string\",\n"
+"            \"StatementName\":\"string\",\n"
+"            \"WithEvent\": boolean\n"
+"         },\n"
+"         \"RetryPolicy\":{\n"
+"            \"MaximumEventAgeInSeconds\": number,\n"
+"            \"MaximumRetryAttempts\": number\n"
+"         },\n"
+"         \"RoleArn\":\"string\",\n"
+"         \"RunCommandParameters\":{\n"
+"            \"RunCommandTargets\" (ランコマンドターゲット)[\n"
+"               {\n"
+"                  \"Key\":\"string\" です。\n"
+"                  \"Values\":[ \"string\" ]\n"
+"               }\n"
+"            ]\n"
+"         },\n"
+"         \"SqsParameters\":{\n"
+"            \"MessageGroupId\":\"string\" (文字列)\n"
+"         }\n"
+"      }\n"
+"   ]\n"
+"}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:187
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As you may see there are many parameters. We just need to set the rule name and add our target.\n"
-msgstr ""
+msgstr "ご覧のように多くのパラメータがあります。私たちは、ルール名を設定し、ターゲットを追加するだけです。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:188
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Creating a rule through camel"
-msgstr ""
+msgstr "camelによるルールの作成"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:191
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As I said there is a little example in the camel-examples repository based on camel-aws2-eventbridge, camel-aws2-s3 and camel-aws2-sqs.\n"
-msgstr ""
+msgstr "camel-aws2-eventbridge, camel-aws2-s3, camel-aws2-sqsをベースにした小さなサンプルがcamel-examplesリポジトリにあると言いました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:193
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Creating a rule in Camel is as easy as writing this little snippet.\n"
-msgstr ""
+msgstr "Camelでルールを作成するには、次のような小さなスニペットを書くだけで簡単です。\n"
 
 #. type: Fenced code block (java)
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:194
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "public class MyRouteBuilder extends EndpointRouteBuilder {\n"
 "\n"
@@ -406,25 +519,55 @@ msgid ""
 "    }\n"
 "}\n"
 msgstr ""
+"public class MyRouteBuilder extends EndpointRouteBuilder {...\n"
+"\n"
+"    オーバーライド\n"
+"    public void configure() throws Exception {\n"
+"\n"
+"        from(timer(\"fire\").repeatCount(\"1\"))\n"
+"        .setHeader(EventbridgeConstants.RULE_NAME, constant(\"s3-events-rule\"))\n"
+"        .to(aws2Eventbridge(\"default\"))\n"
+"        \t\t.operation(EventbridgeOperations.putRule)\n"
+"        \t\t.eventPatternFile(\"file:src/main/resources/eventpattern.json\"))\n"
+"        .process(new Processor() {.\n"
+"            オーバーライド\n"
+"            public void process(Exchange exchange) throws Exception { @Override\n"
+"                exchange.getIn().setHeader(EventbridgeConstants.RULE_NAME, \"s3-events-rule\");\n"
+"                ターゲット target = Target.builder().id(\"sqs-queue\").arn(\"arn:aws:sqs:eu-west-1:780410022477:camel-connector-test\")\n"
+"                        .build();\n"
+"                List<Target>targets = new ArrayList<Target>();\n"
+"                targets.add(target);\n"
+"                exchange.getIn().setHeader(EventbridgeConstants.TARGETS, targets);\n"
+"            }\n"
+"        })\n"
+"        .to(aws2Eventbridge(\"default\"))\n"
+"        \t\t.operation(EventbridgeOperations.putTargets))\n"
+"        .log(\"All set, enjoy!\");\n"
+"    }\n"
+"}\n"
+"</Target></Target> "
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:226
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In this route we are creating a single rule, called s3-events-rule, by using an eventpattern.json file. The target of this rule is the `arn:aws:sqs:eu-west-1:780410022477:camel-connector-test` and\n"
 "the target Id is `sqs-queue`. This means we are pointing an SQS queue called camel-connector-test.\n"
 "All of this will be done on the default event bus, which is the AWS event bus.\n"
 msgstr ""
+"このルートでは、eventpattern.jsonファイルを使用して、s3-events-ruleという1つのルールを作成しています。このルールのターゲットは `arn:aws:sqs:eu-west-1:780410022477:camel-connector-test` で、ターゲット ID は `sqs-queue` です。\n"
+"ターゲットのIdは`sqs-queue`です。これは、camel-connector-testというSQSキューを指していることを意味しています。\n"
+"これらはすべて、AWSのイベントバスであるデフォルトのイベントバスで行われます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:228
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What we have in the eventpattern.json file:\n"
-msgstr ""
+msgstr "eventpattern.jsonファイルにあるもの。\n"
 
 #. type: Fenced code block (json)
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:229
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "{\n"
 "  \"source\": [\n"
@@ -462,30 +605,67 @@ msgid ""
 "  }\n"
 "}\n"
 msgstr ""
+"{\n"
+"  \"source\" (ソース)[\n"
+"    \"aws.s3\"\n"
+"  ],\n"
+"  \"detail\":{\n"
+"    \"eventSource\":[\n"
+"      \"s3.amazonaws.com\"\n"
+"    ],\n"
+"    \"eventName\":[\n"
+"      \"DeleteBucket\",\n"
+"      \"DeleteBucketCors\",\n"
+"      \"DeleteBucketLifecycle\",\n"
+"      \"DeleteBucketPolicy\",\n"
+"      \"DeleteBucketReplication\"（削除バケット複製）。\n"
+"      \"DeleteBucketTagging\",\n"
+"      \"DeleteBucketWebsite\",\n"
+"      \"CreateBucket\"（バケットの作成\n"
+"      \"PutBucketAcl\",\n"
+"      \"PutBucketCors\"\n"
+"      \"PutBucketLifecycle\",\n"
+"      \"PutBucketPolicy\"（プットバケットポリシー）。\n"
+"      \"PutBucketLogging\"\n"
+"      \"PutBucketNotification\"(プット・バケット・ノティフィケーション)\n"
+"      \"PutBucketReplication\"（プットバケットレプリケーション）。\n"
+"      \"PutBucketTagging\"（プットバケットタギング）。\n"
+"      \"PutBucketRequestPayment\",\n"
+"      \"PutBucketVersioning\"\n"
+"      \"PutBucketWebsite\",\n"
+"      \"PutBucketEncryption\"\n"
+"      \"DeleteBucketEncryption\"（削除）。\n"
+"      \"DeleteBucketPublicAccessBlock\"、\"DeleteBucketPublicAccessBlock\n"
+"      \"PutBucketPublicAccessBlock\"\n"
+"    ]\n"
+"  }\n"
+"}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:269
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We want to be informed on the list of events.\n"
 "The eventpattern json can be built by hand, but also through the AWS console UI, through a series of dropdown menus during the rule creation.\n"
 msgstr ""
+"イベントのリストを通知してほしい。\n"
+"eventpattern jsonは手動で作成することもできますが、AWSコンソールのUIで、ルール作成時に一連のドロップダウンメニューを使って作成することもできます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:271
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "One important note on the usage of AWS Eventbridge is the following: to create a rule that triggers on an action by an AWS service that does not emit events, you can base the rule on API calls made by that service. The API calls are recorded by AWS CloudTrail, so you’ll need to have CloudTrail enabled. In this way you'll be notified anyway.\n"
-msgstr ""
+msgstr "AWS Eventbridgeを使用する上での重要な注意点は以下の通りです。イベントを発行しないAWSサービスによるアクションをトリガーとするルールを作成するには、そのサービスによって行われたAPIコールをベースにすることができます。APIコールはAWS CloudTrailによって記録されるので、CloudTrailを有効にしておく必要があります。この方法では、とにかく通知されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:273
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Through an AWS SQS consumer, we should be able to consume the events coming in from the eventbridge.\n"
-msgstr ""
+msgstr "AWS SQSのコンシューマーを介して、イベントブリッジから入ってくるイベントを消費できるはずです。\n"
 
 #. type: Fenced code block (java)
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:274
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "public class MyRouteBuilder extends EndpointRouteBuilder {\n"
 "\n"
@@ -497,22 +677,31 @@ msgid ""
 "    }\n"
 "}\n"
 msgstr ""
+"public class MyRouteBuilder extends EndpointRouteBuilder {...\n"
+"\n"
+"    オーバーライド\n"
+"    public void configure() throws Exception {\n"
+"\n"
+"        from(aws2Sqs(\"{{sqs-queue-name}}\").deleteAfterRead(true))\n"
+"        .log(\"${body}\")を実行します。\n"
+"    }\n"
+"}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:287
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The sqs-queue-name is camel-connector-test in this example. The property is defined in an application.properties file. All is well explained in the example anyway.\n"
-msgstr ""
+msgstr "sqs-queue-name は、この例では camel-connector-test です。このプロパティは、application.propertiesファイルで定義されています。いずれにしても、すべてはこの例でよく説明されています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:289
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We can now try to create events to consume. Through the following route:\n"
-msgstr ""
+msgstr "それでは、消費するイベントを作成してみましょう。以下のルートで\n"
 
 #. type: Fenced code block (java)
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:290
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "public class MyRouteBuilder extends EndpointRouteBuilder {\n"
 "\n"
@@ -525,62 +714,83 @@ msgid ""
 "    }\n"
 "}\n"
 msgstr ""
+"public class MyRouteBuilder extends EndpointRouteBuilder {...\n"
+"\n"
+"    オーバーライド\n"
+"    public void configure() throws Exception {\n"
+"\n"
+"    \tfrom(timer(\"fire\").repeatCount(\"1\"))\n"
+"    \t.setBody(constant(\"Camel rocks\"))\n"
+"    \t.to(aws2S3(\"{{bucketName}}\").keyName(\"firstfile\"));\n"
+"    }\n"
+"}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:304
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In this case the bucketName will be the name of a not already created bucket. In my example I was using camel-bucket-12567. The aws2-s3 has the autocreateBucket option set to true by default, so it will be created during the route execution and the event will be created.\n"
-msgstr ""
+msgstr "この場合、bucketName には、まだ作成されていないバケットの名前が入ります。私の例では camel-bucket-12567 を使用しました。aws2-s3ではautocreateBucketオプションがデフォルトでtrueに設定されているので、ルート実行時に作成され、イベントが作成されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:306
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In the terminal of the SQS consumer you should see a CreateBucket event logged.\n"
-msgstr ""
+msgstr "SQS コンシューマーのターミナルには、CreateBucket イベントのログが表示されているはずです。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:307
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "14:08:16.585 [Camel (AWS2-SQS-Consumer) thread #0 - aws2-sqs://camel-connector-test] INFO  route1 - {\"version\":\"0\",\"id\":\"a79c33f3-fd64-481c-7964-8929b26ac2ae\",\"detail-type\":\"AWS API Call via CloudTrail\",\"source\":\"aws.s3\",\"account\":\"xxxx\",\"time\":\"2020-10-16T12:08:12Z\",\"region\":\"eu-west-1\",\"resources\":[],\"detail\":{\"eventVersion\":\"1.05\",\"userIdentity\":{\"type\":\"xxx\",\"principalId\":\"xxx\",\"arn\":\"arn:xxx\",\"accountId\":\"xxx\",\"accessKeyId\":\"xxx\"},\"eventTime\":\"2020-10-16T12:08:12Z\",\"eventSource\":\"s3.amazonaws.com\",\"eventName\":\"CreateBucket\",\"awsRegion\":\"eu-west-1\",\"sourceIPAddress\":\"xxx\",\"userAgent\":\"[aws-sdk-java/2.15.8 Linux/3.10.0-1127.19.1.el7.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 Java/1.8.0_252 vendor/AdoptOpenJDK io/sync http/Apache]\",\"requestParameters\":{\"CreateBucketConfiguration\":{\"LocationConstraint\":\"eu-west-1\",\"xmlns\":\"http://s3.amazonaws.com/doc/2006-03-01/\"},\"bucketName\":\"camel-bucket-12567\",\"Host\":\"camel-bucket-12567.s3.eu-west-1.amazonaws.com\"}\n"
 ".\n"
 ".\n"
 ".\n"
 msgstr ""
+"14:08:16.585 [Camel (AWS2-SQS-Consumer) thread #0 - aws2-sqs://camel-connector-test] INFO route1 - {\"version\": \"0\", \"id\": \"a79c33f3-fd64-481c-7964-8929b26ac2ae\", \"detail-type\": \"AWS API Call via CloudTrail\", \"source\": \"aws.s3\", \"account\": \"xxxx\", \"time\": \"2020-10-16T12:08:12Z\", \"region\": \"eu-west-1\", \"resources\":[], \"detail\":{\"eventVersion\": \"1.05\", \"userIdentity\":{\"type\": \"xxx\", \"principalId\": \"xxx\", \"arn\": \"arn:xxx\", \"accountId\": \"xxx\", \"accessKeyId\": \"xxx\"}, \"eventTime\": \"2020-10-16T12:08:12Z\", \"eventSource\": \"s3.amazonaws.com\", \"eventName\": \"CreateBucket\", \"awsRegion\": \"eu-west-1\", \"sourceIPAddress\": \"xxx\", \"userAgent\":\"[aws-sdk-java/2.15.8 Linux/3.10.0-1127.19.1.el7.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 Java/1.8.0_252 vendor/AdoptOpenJDK io/sync http/Apache]\", \"requestParameters\":{\"CreateBucketConfiguration\":{\"LocationConstraint\": \"eu-west-1\", \"xmlns\": \"http://s3.amazonaws.com/doc/2006-03-01/\"}, \"bucketName\": \"camel-bucket-12567\", \"Host\": \"camel-bucket-12567.s3.eu-west-1.amazonaws.com\"}.\n"
+".\n"
+".\n"
+".\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:315
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can also try to delete the bucket from the AWS Console too and you should get a message like this one:\n"
-msgstr ""
+msgstr "また、AWSコンソールからもバケットを削除しようとすると、以下のようなメッセージが表示されるはずです。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:316
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "13:42:55.560 [Camel (AWS2-SQS-Consumer) thread #0 - aws2-sqs://camel-connector-test] INFO  route1 - {\"version\":\"0\",\"id\":\"f8f289ab-bb8f-65c5-0bf6-a4929333bc4c\",\"detail-type\":\"AWS API Call via CloudTrail\",\"source\":\"aws.s3\",\"account\":\"xxx\",\"time\":\"2020-10-16T11:42:33Z\",\"region\":\"eu-west-1\",\"resources\":[],\"detail\":{\"eventVersion\":\"1.05\",\"userIdentity\":{\"type\":\"xxx\",\"principalId\":\"xxx\",\"arn\":\"arn:xxx\",\"accountId\":\"xxx\",\"accessKeyId\":\"xxxx\",\"sessionContext\":{\"sessionIssuer\":{},\"webIdFederationData\":{}}},\"eventTime\":\"2020-10-16T11:42:33Z\",\"eventSource\":\"s3.amazonaws.com\",\"eventName\":\"DeleteBucket\",\"awsRegion\":\"eu-west-1\",\"sourceIPAddress\":\"xxxx\",\"userAgent\":\"[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.3.ac.206.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]\",\"requestParameters\":{\"bucketName\":\"camel-bucket-12567\",\"Host\":\"s3-eu-west-1.amazonaws.com\"},\"responseElements\":null ...\n"
 ".\n"
 ".\n"
 ".\n"
 msgstr ""
+"13:42:55.560 [Camel (AWS2-SQS-Consumer) thread #0 - aws2-sqs://camel-connector-test] INFO route1 - {\"version\": \"0\", \"id\": \"f8f289ab-bb8f-65c5-0bf6-a4929333bc4c\", \"detail-type\": \"AWS API Call via CloudTrail\", \"source\": \"aws.s3\", \"account\": \"xxx\", \"time\": \"2020-10-16T11:42:33Z\", \"region\": \"eu-west-1\", \"resources\":[], \"detail\":{\"eventVersion\": \"1.05\", \"userIdentity\":{\"type\": \"xxx\", \"principalId\": \"xxx\", \"arn\": \"arn:xxx\", \"accountId\": \"xxx\", \"accessKeyId\":\"xxxx\", \"sessionContext\":{\"sessionIssuer\":{}, \"webIdFederationData\":{}}}, \"eventTime\": \"2020-10-16T11:42:33Z\", \"eventSource\": \"s3.amazonaws.com\", \"eventName\": \"DeleteBucket\", \"awsRegion\": \"eu-west-1\", \"sourceIPAddress\": \"xxxx\", \"userAgent\":\"[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.3.ac.206.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]\", \"requestParameters\":{\"bucketName\": \"camel-bucket-12567\", \"Host\": \"s3-eu-west-1.amazonaws.com\"}, \"responseElements\":null ...\n"
+".\n"
+".\n"
+".\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:324
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As you may see the userAgent is different in this case.\n"
-msgstr ""
+msgstr "ご覧の通り、このケースではuserAgentが異なります。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:325
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Conclusion"
-msgstr ""
+msgstr "結論"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/camel-aws2-eventbridge-intro/index.md:329
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This is just a really basic example, but you may have triggered an action on receiving the events, like for example adding a bucketPolicy to the newly created bucket.\n"
 "AWS Eventbridge is for sure an interesting service. The camel component can be improved by better supporting not only the default event bus of AWS Services but also external buses.\n"
 "We are working on that and on expanding the AWS services supported at the same time: you're welcome to help!\n"
 msgstr ""
+"これは本当に基本的な例ですが、例えば新しく作成されたバケットにbucketPolicyを追加するなど、イベントを受信してアクションを起こしたかもしれません。\n"
+"AWS Eventbridgeは確かに面白いサービスです。キャメルコンポーネントは、AWS Servicesのデフォルトのイベントバスだけでなく、外部のバスをよりよくサポートすることで改善できます。\n"
+"私たちはそれに取り組んでおり、同時にサポートするAWSサービスを拡大しています。\n"

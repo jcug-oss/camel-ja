@@ -18,208 +18,212 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus 1.5.0 Released"
-msgstr ""
+msgstr "Camel Quarkus 1.5.0リリース"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<sub><sup>Original image by <a href=\"https://commons.wikimedia.org/wiki/User:99of9\">Toby Hudson</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> via <a href=\"https://en.wikipedia.org/wiki/Camel_racing#/media/File:CamelRacingCamelCup2009Heat.JPG\">Wikipedia</a></sup></sub>\n"
-msgstr ""
+msgstr "<sub><sup>Original image by<a href=\"https://commons.wikimedia.org/wiki/User:99of9\">Toby Hudson</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>via<a href=\"https://en.wikipedia.org/wiki/Camel_racing#/media/File:CamelRacingCamelCup2009Heat.JPG\">Wikipedia</a></sup></sub>\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We are pleased to announce the release 1.5.0 of Camel Quarkus! What's inside?\n"
-msgstr ""
+msgstr "Camel Quarkusの1.5.0がリリースされましたのでお知らせします。中身は？\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel 3.7.0"
-msgstr ""
+msgstr "Camel 3.7.0"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus 1.5.0 is based on Camel 3.7.0 LTS bringing new features and improvements relevant to Camel Quarkus:\n"
-msgstr ""
+msgstr "Camel Quarkus 1.5.0は、Camel 3.7.0 LTSをベースにしており、Camel Quarkusに関連する新機能や改良が加えられています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "CSimple language"
-msgstr ""
+msgstr "CSimple言語"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[CSimple language](/components/latest/languages/csimple-language.html) is a new variant of the well known [Simple language](/components/latest/languages/simple-language.html). The \"C\" in its name stands for \"compiled\" and indeed, the expressions are compiled into Java byte code or native code at application build time. This brings significant performance boost at runtime. Camel Quarkus 1.5.0 brings experimental support for the CSimple language in both JVM and native modes.\n"
-msgstr ""
+msgstr "CSimple言語](/components/latest/languages/csimple-language.html)は、よく知られている[Simple言語](/components/latest/languages/simple-language.html)の新しいバリエーションです。名前の \"C \"は \"compiled \"の略で、実際、アプリケーションのビルド時に、式がJavaバイトコードまたはネイティブコードにコンパイルされます。これにより、実行時のパフォーマンスが大幅に向上します。Camel Quarkus 1.5.0では、CSimple言語をJVMモードとネイティブモードの両方で実験的にサポートしています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Lightweight mode"
-msgstr ""
+msgstr "軽量モード"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In lightweight mode, Camel removes all references to the routes model after startup which allows the JVM to garbage collect all model objects and unload classes, freeing up memory. The downside is that after new Camel routes cannot be added once the application has fully started.\n"
-msgstr ""
+msgstr "軽量モードでは、Camelは起動後にルートモデルへのすべての参照を削除します。これにより、JVMはすべてのモデルオブジェクトをガベージコレクションし、クラスをアンロードしてメモリを解放します。しかし、アプリケーションが完全に起動した後は、新しいCamelのルートを追加できないという欠点があります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Lightweight mode can be activated by adding the `camel-quarkus-main` dependency and adding\n"
-msgstr ""
+msgstr "軽量モードを有効にするには、`camel-quarkus-main`の依存関係を追加して\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel.main.lightweight=true\n"
-msgstr ""
+msgstr "camel.main.lightweight=true\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "to `application.properties`.\n"
-msgstr ""
+msgstr "を `application.properties` に追加します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Check [Camel 3.7 what's new](/blog/2020/12/Camel37-Whatsnew/) blog post by Claus Ibsen for more information about Camel 3.7.0.\n"
-msgstr ""
+msgstr "Camel 3.7.0の詳細については、Claus Ibsen氏による[Camel 3.7 what's new](/blog/2020/12/Camel37-Whatsnew/)のブログ記事をご覧ください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New extensions"
-msgstr ""
+msgstr "新しいエクステンション"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:39
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As usual, the new Camel Quarkus release brings some new extensions:\n"
-msgstr ""
+msgstr "いつものように、Camel Quarkusの新リリースでは、いくつかの新しい拡張機能が追加されました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "CSimple language mentioned above\n"
-msgstr ""
+msgstr "上述のCSimple言語\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Micrometer](/camel-quarkus/latest/reference/extensions/micrometer.html) - in addition to [MicroProfile Metrics](/camel-quarkus/latest/reference/extensions/microprofile-metrics.html), you can now collect your metrics using [Micrometer](https://micrometer.io/). See also [this blog post](https://quarkus.io/blog/micrometer-metrics/) by Ken Finnigan.\n"
-msgstr ""
+msgstr "[Micrometer](/camel-quarkus/latest/reference/extensions/micrometer.html) - [MicroProfile Metrics](/camel-quarkus/latest/reference/extensions/microprofile-metrics.html) に加えて、[Micrometer](https://micrometer.io/) を使ってメトリクスを収集できるようになりました。Ken Finniganによる[this blog post](https://quarkus.io/blog/micrometer-metrics/)もご参照ください。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Minio](/camel-quarkus/latest/reference/extensions/minio.html) (JVM only)\n"
-msgstr ""
+msgstr "Minio](/camel-quarkus/latest/reference/extensions/minio.html) (JVM only)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AtlasMap](/camel-quarkus/latest/reference/extensions/atlasmap.html) (JVM only)\n"
-msgstr ""
+msgstr "アトラスマップ](/camel-quarkus/latest/reference/extensions/atlasmap.html) (JVM only)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The following extensions are now supported in native mode:\n"
-msgstr ""
+msgstr "以下の拡張機能がネイティブモードでサポートされるようになりました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Protobuf](/camel-quarkus/latest/reference/extensions/protobuf.html)\n"
-msgstr ""
+msgstr "Protobuf](/camel-quarkus/latest/reference/extensions/protobuf.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Avro RPC](/camel-quarkus/latest/reference/extensions/avro-rpc.html)\n"
-msgstr ""
+msgstr "Avro RPC](/camel-quarkus/latest/reference/extensions/avro-rpc.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[SCP](/camel-quarkus/latest/reference/extensions/jsch.html)\n"
-msgstr ""
+msgstr "[SCP](/camel-quarkus/latest/reference/extensions/jsch.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Solr](/camel-quarkus/latest/reference/extensions/solr.html)\n"
-msgstr ""
+msgstr "Solr](/camel-quarkus/latest/reference/extensions/solr.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Google PubSub](/camel-quarkus/latest/reference/extensions/google-pubsub.html)\n"
-msgstr ""
+msgstr "[Google PubSub](/camel-quarkus/latest/reference/extensions/google-pubsub.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Google BigQuery](/camel-quarkus/latest/reference/extensions/google-bigquery.html)\n"
-msgstr ""
+msgstr "Google BigQuery](/camel-quarkus/latest/reference/extensions/google-bigquery.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[OptaPlanner](/camel-quarkus/latest/reference/extensions/optaplanner.html)\n"
-msgstr ""
+msgstr "OptaPlanner](/camel-quarkus/latest/reference/extensions/optaplanner.html)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Check the full list of supported extensions in the [extensions reference](/camel-quarkus/latest/reference/index.html).\n"
-msgstr ""
+msgstr "サポートされているエクステンションの一覧は、[extensions reference](/camel-quarkus/latest/reference/index.html)でご確認ください。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Documentation"
-msgstr ""
+msgstr "ドキュメント"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Following some recent user questions, we have added a new documetation page dedicated to [Testing with Camel Quarkus](/camel-quarkus/latest/user-guide/testing.html). It gives the basic guidance how to test your applications in JVM and native modes.\n"
-msgstr ""
+msgstr "最近のユーザーからの質問を受けて、[Camel Quarkusでのテスト](/camel-quarkus/latest/user-guide/testing.html)に新しいドキュメントページを追加しました。このページでは、JVMおよびネイティブモードでアプリケーションをテストするための基本的なガイダンスを提供しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We aim at further improving our [documentation](/camel-quarkus/latest/index.html). Do not\n"
 "hesitate to [ask](https://github.com/apache/camel-quarkus/issues/new) if you feel topics are missing or if details are lacking somewhere.\n"
 msgstr ""
+"ドキュメント](/camel-quarkus/latest/index.html)のさらなる充実を目指しています。もし\n"
+"トピックが欠けていたり、詳細がどこかに欠けていたりする場合は、遠慮なく [質問](https://github.com/apache/camel-quarkus/issues/new)してください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:64
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's next?"
-msgstr ""
+msgstr "次は何ですか？"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus 1.6.0 should appear in the middle of January 2021, shortly after [Quarkus 1.11](https://groups.google.com/g/quarkus-platform-coordination/c/gXuyg4w3FPo).\n"
-msgstr ""
+msgstr "Camel Quarkus 1.6.0は、[Quarkus 1.11](https://groups.google.com/g/quarkus-platform-coordination/c/gXuyg4w3FPo)のすぐ後、2021年1月中旬に登場するはずです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/camel-quarkus-release-1.5.0/index.md:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "There is still a lot of [Camel components to port](https://github.com/apache/camel-quarkus/issues?q=is%3Aissue+is%3Aopen+label%3Aextension) to Quarkus.\n"
 "Please upvote your favorites, or even better [contribute](/camel-quarkus/latest/contributor-guide/index.html)!\n"
 msgstr ""
+"まだまだQuarkusには[Camel components to port](https://github.com/apache/camel-quarkus/issues?q=is%3Aissue+is%3Aopen+label%3Aextension)がたくさんあります。\n"
+"気に入ったものがあればupvoteしてください。また、ぜひ[contribute](/camel-quarkus/latest/contributor-guide/index.html)してください。\n"

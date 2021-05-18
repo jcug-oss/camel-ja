@@ -18,58 +18,64 @@ msgstr ""
 
 #. type: YAML Front Matter: description
 #: upstream/content/_index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data."
-msgstr ""
+msgstr "Camelは、オープンソースの統合フレームワークで、データを消費または生成する様々なシステムを迅速かつ容易に統合することができます。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/_index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Home"
-msgstr ""
+msgstr "ホーム"
 
 #. type: Plain text
 #: upstream/content/_index.md:8
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< section \"frontpage columns functionalities\" >}}\n"
 msgstr ""
+"< section \"frontpage columns functionalities\" >{{}}\n"
+"</section>"
 
 #. type: Title #
 #: upstream/content/_index.md:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Why Camel?"
-msgstr ""
+msgstr "なぜキャメルなのか？"
 
 #. type: Plain text
 #: upstream/content/_index.md:12 upstream/content/_index.md:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< div \"box right\" >}}\n"
 msgstr ""
+"< div \"box right\" >{{}}\n"
+"</div>"
 
 #. type: Plain text
 #: upstream/content/_index.md:14 upstream/content/_index.md:41
 #: upstream/content/_index.md:55 upstream/content/_index.md:80
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< div \"content\">}}\n"
 msgstr ""
+"< div \"content\">{{}}\n"
+"</div>"
 
 #. type: Title ##
 #: upstream/content/_index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Based on Enterprise Integration Patterns"
-msgstr ""
+msgstr "Enterprise Integration Patternsに基づいています。"
 
 #. type: Plain text
 #: upstream/content/_index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel supports most of the Enterprise Integration Patterns from the excellent book by Gregor Hohpe and Bobby Woolf, and newer integration patterns from microservice architectures to help you solve your integration problem by applying best practices out of the box.\n"
-msgstr ""
+msgstr "Camelは、Gregor Hohpe氏とBobby Woolf氏の素晴らしい本に出てくるEnterprise Integration Patternsのほとんどをサポートしています。また、マイクロサービスアーキテクチャからの新しい統合パターンもサポートしており、ベストプラクティスをすぐに適用して統合問題を解決することができます。\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<p><a class=\"button dark\" href=\"/components/latest/eips/enterprise-integration-patterns.html\">Read more on EIP</a></p>\n"
-msgstr ""
+msgstr "<p><a class=\"button dark\" href=\"/components/latest/eips/enterprise-integration-patterns.html\">EIPの詳細はこちら</a></p>\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:22 upstream/content/_index.md:28
@@ -88,9 +94,9 @@ msgstr ""
 #: upstream/content/_index.md:186 upstream/content/_index.md:194
 #: upstream/content/_index.md:202 upstream/content/_index.md:204
 #: upstream/content/_index.md:228
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< /div >}}\n"
-msgstr ""
+msgstr "<div >{{}}< /div >\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:24 upstream/content/_index.md:35
@@ -98,302 +104,331 @@ msgstr ""
 #: upstream/content/_index.md:99 upstream/content/_index.md:117
 #: upstream/content/_index.md:135 upstream/content/_index.md:153
 #: upstream/content/_index.md:172 upstream/content/_index.md:190
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< div \"icon\" >}}\n"
 msgstr ""
+"< div \"icon\" >{{}}\n"
+"</div>"
 
 #. type: Plain text
 #: upstream/content/_index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<img src=\"./img/patterns.svg\" alt=\"component icon\"/>\n"
-msgstr ""
+msgstr "<img src=\"./img/patterns.svg\" alt=\"component icon\"/>\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:33 upstream/content/_index.md:72
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< div \"box left\" >}}\n"
 msgstr ""
+"< div \"box left\" >{{}}\n"
+"</div>"
 
 #. type: Plain text
 #: upstream/content/_index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<img src=\"./img/runtimes.svg\" alt=\"runtime icon\" />\n"
-msgstr ""
+msgstr "<img src=\"./img/runtimes.svg\" alt=\"runtime icon\" />\n"
 
 #. type: Title ##
 #: upstream/content/_index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Runs Everywhere"
-msgstr ""
+msgstr "どこでも走れる"
 
 #. type: Plain text
 #: upstream/content/_index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel is standalone, and can be embedded as a library within Spring Boot, Quarkus, Application Servers, and in the clouds. Camel subprojects focus on making your work easy.\n"
-msgstr ""
+msgstr "Apache Camelはスタンドアロンで、Spring Boot、Quarkus、アプリケーションサーバ、クラウドにライブラリとして組み込むことができます。Camelのサブプロジェクトは、あなたの作業を容易にすることに重点を置いています。\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<p><a class=\"button dark\" href=\"/docs/\">Go to Camel Subprojects</a></p>\n"
-msgstr ""
+msgstr "<p><a class=\"button dark\" href=\"/docs/\">Camelのサブプロジェクトへ</a></p>\n"
 
 #. type: Title ##
 #: upstream/content/_index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Packed with Components"
-msgstr ""
+msgstr "コンポーネントの詰め込み"
 
 #. type: Plain text
 #: upstream/content/_index.md:58
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Packed with several hundred components that are used to access databases, message queues, APIs or basically anything under the sun. Helping you integrate with everything.\n"
-msgstr ""
+msgstr "データベース、メッセージキュー、APIなど、基本的にあらゆるものにアクセスするために使用される数百のコンポーネントが含まれています。あらゆるものとの統合をサポートします。\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<p><a class=\"button dark\" href=\"/components/latest/\">Go to Component Reference</a></p>\n"
-msgstr ""
+msgstr "<p><a class=\"button dark\" href=\"/components/latest/\">コンポーネントリファレンスへ</a></p>\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:66
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<img src=\"./img/components.svg\" alt=\"component icon\"/>\n"
-msgstr ""
+msgstr "<img src=\"./img/components.svg\" alt=\"component icon\"/>\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:76
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<img src=\"./img/data-formats.svg\" alt=\"data icon\"/>\n"
-msgstr ""
+msgstr "<img src=\"./img/data-formats.svg\" alt=\"data icon\"/>\n"
 
 #. type: Title ##
 #: upstream/content/_index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Supports over 50 Data Formats"
-msgstr ""
+msgstr "50種類以上のデータフォーマットに対応"
 
 #. type: Plain text
 #: upstream/content/_index.md:85
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Camel supports around 50 data formats, allowing to translate messages in multiple formats, and with support from industry standard formats from finance, telco, health-care, and more.\n"
 "<p><a class=\"button dark\" href=\"/components/latest/dataformats/\">See Supported Formats</a></p>\n"
 msgstr ""
+"Camelは約50種類のデータフォーマットをサポートしており、金融、通信、医療などの業界標準フォーマットをサポートしているので、複数のフォーマットのメッセージを翻訳することができます。\n"
+"<p><a class=\"button dark\" href=\"/components/latest/dataformats/\">サポートしているフォーマットを見る</a></p>\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:91 upstream/content/_index.md:206
 #: upstream/content/_index.md:229
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< /section >}}\n"
-msgstr ""
+msgstr "<section >{{}}< /section >\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:93
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< section \"frontpage projects\" >}}\n"
 msgstr ""
+"< section \"frontpage projects\" >{{}}\n"
+"</section>"
 
 #. type: Title #
 #: upstream/content/_index.md:94
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel Projects"
-msgstr ""
+msgstr "Apache Camelプロジェクト"
 
 #. type: Plain text
 #: upstream/content/_index.md:97 upstream/content/_index.md:115
 #: upstream/content/_index.md:133 upstream/content/_index.md:151
 #: upstream/content/_index.md:170 upstream/content/_index.md:188
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< div \"project\" >}}\n"
 msgstr ""
+"< div \"project\" >{{}}\n"
+"</div>"
 
 #. type: Plain text
 #: upstream/content/_index.md:101
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<img src=\"/_/img/logo-d.svg\" alt=\"data icon\"/>\n"
-msgstr ""
+msgstr "<img src=\"/_/img/logo-d.svg\" alt=\"data icon\"/>\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:105 upstream/content/_index.md:123
 #: upstream/content/_index.md:141 upstream/content/_index.md:159
 #: upstream/content/_index.md:178 upstream/content/_index.md:196
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< div \"content\" >}}\n"
 msgstr ""
+"< div \"content\" >{{}}\n"
+"</div>"
 
 #. type: Title ##
 #: upstream/content/_index.md:106
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Core"
-msgstr ""
+msgstr "キャメルコア"
 
 #. type: Plain text
 #: upstream/content/_index.md:109
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Apache Camel helps you integrate various systems consuming or producing data.\n"
 "<p><a class=\"button dark\" href=\"/docs/\">Read More</a></p>\n"
 msgstr ""
+"Apache Camelは、データを消費または生成する様々なシステムを統合するのに役立ちます。\n"
+"<p><a class=\"button dark\" href=\"/docs/\">続きを読む</a></p>\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:119
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<img src=\"/_/img/knative.svg\" alt=\"data icon\"/>\n"
-msgstr ""
+msgstr "<img src=\"/_/img/knative.svg\" alt=\"data icon\"/>\n"
 
 #. type: Title ##
 #: upstream/content/_index.md:124
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel K"
-msgstr ""
+msgstr "キャメルK"
 
 #. type: Plain text
 #: upstream/content/_index.md:127
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Apache Camel K is a lightweight integration framework that runs natively on Kubernetes.\n"
 "<p><a class=\"button dark\" href=\"/docs/\">Read More</a></p>\n"
 msgstr ""
+"Apache Camel Kは、Kubernetes上でネイティブに動作する軽量な統合フレームワークです。\n"
+"<p><a class=\"button dark\" href=\"/docs/\">続きを読む</a></p>\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:137
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<img src=\"/_/img/quarkus.svg\" alt=\"data icon\"/>\n"
-msgstr ""
+msgstr "<img src=\"/_/img/quarkus.svg\" alt=\"data icon\"/>\n"
 
 #. type: Title ##
 #: upstream/content/_index.md:142
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus"
-msgstr ""
+msgstr "キャメル・クォークス"
 
 #. type: Plain text
 #: upstream/content/_index.md:145
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Apache Camel Quarkus packages 280+ Camel components as Quarkus extensions.\n"
 "<p><a class=\"button dark\" href=\"/docs/\">Read More</a></p>\n"
 msgstr ""
+"Apache Camel Quarkusは、280以上のCamelコンポーネントをQuarkusの拡張機能としてパッケージ化しています。\n"
+"<p><a class=\"button dark\" href=\"/docs/\">続きを読む</a></p>\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:155
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<img src=\"/_/img/apache-kafka.svg\" alt=\"data icon\"/>\n"
-msgstr ""
+msgstr "<img src=\"/_/img/apache-kafka.svg\" alt=\"data icon\"/>\n"
 
 #. type: Title ##
 #: upstream/content/_index.md:160
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Kafka Connector"
-msgstr ""
+msgstr "Camel Kafkaコネクタ"
 
 #. type: Plain text
 #: upstream/content/_index.md:162
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel Kafka Connector embeds Camel within Kafka Connect.\n"
-msgstr ""
+msgstr "Apache Camel Kafka Connectorは、Kafka ConnectにCamelを組み込みます。\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:164
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<p><a class=\"button dark\" href=\"/docs/\">Read More</a></p>\n"
-msgstr ""
+msgstr "<p><a class=\"button dark\" href=\"/docs/\">続きを読む</a></p>\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:174
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<img src=\"/_/img/spring-boot.svg\" alt=\"data icon\"/>\n"
-msgstr ""
+msgstr "<img src=\"/_/img/spring-boot.svg\" alt=\"data icon\"/>\n"
 
 #. type: Title ##
 #: upstream/content/_index.md:179
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Spring Boot"
-msgstr ""
+msgstr "Camel Spring Boot"
 
 #. type: Plain text
 #: upstream/content/_index.md:182
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Apache Camel Spring Boot runs Camel on Spring Boot and provides starters for Camel components.\n"
 "<p><a class=\"button dark\" href=\"/docs/\">Read More</a></p>\n"
 msgstr ""
+"Apache Camel Spring Bootは、Spring Boot上でCamelを動作させ、Camelコンポーネントのスターターを提供します。\n"
+"<p><a class=\"button dark\" href=\"/docs/\">続きを読む</a></p>\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:192
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<img src=\"/_/img/apache-karaf.svg\" alt=\"data icon\"/>\n"
-msgstr ""
+msgstr "<img src=\"/_/img/apache-karaf.svg\" alt=\"data icon\"/>\n"
 
 #. type: Title ##
 #: upstream/content/_index.md:197
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Karaf"
-msgstr ""
+msgstr "キャメルカラフ"
 
 #. type: Plain text
 #: upstream/content/_index.md:200
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Apache Camel Karaf makes running Apache Camel components to run in the OSGi environment.\n"
 "<p><a class=\"button dark\" href=\"/docs/\">Read More</a></p>\n"
 msgstr ""
+"Apache Camel Karafは、Apache CamelのコンポーネントをOSGi環境で動作させることができます。\n"
+"<p><a class=\"button dark\" href=\"/docs/\">続きを読む</a></p>\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:208
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< section \"frontpage columns apache\" >}}\n"
 msgstr ""
+"< section \"frontpage columns apache\" >{{}}\n"
+"</section>"
 
 #. type: Title #
 #: upstream/content/_index.md:209
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache &amp; OpenSource"
-msgstr ""
+msgstr "Apache &amp; OpenSource"
 
 #. type: Plain text
 #: upstream/content/_index.md:214
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "{{< div \"split\" >}}\n"
 "![20 years of Apache Software foundation](/img/apache-20.png)\n"
 "{{< /div >}}\n"
 msgstr ""
+"< div \"split\" ><div >{{}}\n"
+"![Apache Software Foundationの20年](/img/apache-20.png)\n"
+"{{}}< /div ></div>\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:216
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< div \"split\" >}}\n"
 msgstr ""
+"< div \"split\" >{{}}\n"
+"</div>"
 
 #. type: Plain text
 #: upstream/content/_index.md:218
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "**Camel is your project!**\n"
-msgstr ""
+msgstr "**Camel is your project!\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:220
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel is an [Apache Software Foundation](https://www.apache.org) project, available under the [Apache v2 license](https://apache.org/licenses/LICENSE-2.0). It's a complete open community, always listening to proposals and comments.\n"
-msgstr ""
+msgstr "Camelは[Apache Software Foundation](https://www.apache.org)のプロジェクトであり、[Apache v2ライセンス](https://apache.org/licenses/LICENSE-2.0)の下で利用可能です。完全にオープンなコミュニティであり、常に提案やコメントに耳を傾けています。\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:222
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Sources](./community/sources/), [mailing lists](./community/mailing-list/), [issue tracker](./community/support/): it's fully open, you can access directly.\n"
-msgstr ""
+msgstr "[Sources](./community/sources/)、[Mailing lists](./community/mailing-list/)、[issue tracker](./community/support/)：フルオープンなので、直接アクセスすることができます。\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:224
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We also love contributions: don't hesitate to [contribute](./community/contributing/). You can contribute by <a href=\"https://github.com/apache/camel-website/edit/main/content/_index.md\">editing this page</a>!\n"
-msgstr ""
+msgstr "私たちは寄付も歓迎しています。遠慮なく[contribute](./community/contributing/)してください。<a href=\"https://github.com/apache/camel-website/edit/main/content/_index.md\">このページを編集</a>して貢献することができます。\n"
 
 #. type: Plain text
 #: upstream/content/_index.md:226
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Be Involved In The Community](./community/contributing/) | [How To Contribute](./community/contributing/)\n"
-msgstr ""
+msgstr "Be Involved In The Community](./community/contributing/) | [How To Contribute](./community/contributing/)\n"

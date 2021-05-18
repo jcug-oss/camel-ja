@@ -18,178 +18,182 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New release of VS Code Language Support for Apache Camel 0.0.30: catalog updates and Camel Kafka Connector improvements"
-msgstr ""
+msgstr "VS Code Language Support for Apache Camelの新リリース 0.0.30：カタログの更新とCamel Kafka Connectorの改善"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New release of VS Code Language Support for Apache Camel 0.0.30"
-msgstr ""
+msgstr "VS Code Language Support for Apache Camel 0.0.30」をリリースしました。"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A new release of [VS Code Language Support for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-apache-camel) 0.0.30 is available. It includes upgrade of Camel catalogs and Camel Kafka Connector related improvements.\n"
-msgstr ""
+msgstr "VS Code Language Support for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-apache-camel) 0.0.30 がリリースされました。CamelカタログのアップグレードとCamel Kafka Connector関連の改善が含まれています。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Catalogs upgrades"
-msgstr ""
+msgstr "キャメルカタログのアップグレード"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The default Camel catalog has been upgraded from 3.6.0 to 3.7.0.\n"
-msgstr ""
+msgstr "Camelのデフォルトカタログが3.6.0から3.7.0にアップグレードされました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel Kafka Connector catalog has been upgraded from 0.6.0 to 0.7.0.\n"
-msgstr ""
+msgstr "Camel Kafka Connectorのカタログが0.6.0から0.7.0にアップグレードされました。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Kafka Connector related improvements"
-msgstr ""
+msgstr "Camel Kafka Connector関連の改善"
 
 #. type: Title ####
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Completion for Basic Configuration"
-msgstr ""
+msgstr "基本設定の完了"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Some properties are not part of the Camel catalog material, neither of the [Kafka Connect](https://kafka.apache.org/documentation/#connectconfigs) framework and applies to all Camel Kafka connectors. They are the [Basic Configuration properties](/camel-kafka-connector/latest/basic-configuration.html).\n"
-msgstr ""
+msgstr "Kafka Connect](https://kafka.apache.org/documentation/#connectconfigs)のフレームワークでもなく、Camelのカタログ素材でもない、すべてのCamel Kafkaコネクタに適用されるプロパティがあります。それが「基本構成プロパティ」(/camel-kafka-connector/latest/basic-configuration.html)です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Completion is now available for these properties:\n"
-msgstr ""
+msgstr "これらの物件については、完成が可能となりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Completion for Basic Configuration properties](./completionBasicPropertiesCamelkafkaConnector.gif)\n"
-msgstr ""
+msgstr "![基本構成プロパティの補完](./completionBasicPropertiesCamelkafkaConnector.gif)\n"
 
 #. type: Title ####
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Diagnostics"
-msgstr ""
+msgstr "診断"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Four rules provides diagnostic at design time for the Camel Kafka Connector files.\n"
-msgstr ""
+msgstr "4つのルールは、Camel Kafka Connectorファイルの設計時の診断を提供します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`camel.(source|sink).(endpoint|path).*` property keys are validated against the catalog. An error is provided if the property does not exist. it even propose a quickfix if a relatively similar value exists:\n"
-msgstr ""
+msgstr "プロパティキーは、カタログに対して検証されます。プロパティが存在しない場合にはエラーが提供されます。比較的類似した値が存在する場合にはクイックフィックスを提案することもあります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Quickfix for unknown properties](./quickfixCamelCaseCamelkafkaConnectorunknownProperties.gif)\n"
-msgstr ""
+msgstr "![プロパティ不明の場合のQuickfix](./quickfixCamelCaseCamelkafkaConnectorunknownProperties.gif)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It is possible to use dash and camel case for properties. If a key is provided 2 times with a different case, an error is provided:\n"
-msgstr ""
+msgstr "プロパティにダッシュケースとキャメルケースを使用することが可能です。異なるケースで2回キーを指定した場合は、エラーとなります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Duplicated key property](./duplicatedKeyWithMixDashAndCamelCaseDetection.png)\n"
-msgstr ""
+msgstr "![Duplicated Key Property](./duplicatedKeyWithMixDashAndCamelCaseDetection.png)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In case, there is a mix of source and sink properties compared to `connector.class`, an error is provided:\n"
-msgstr ""
+msgstr "connector.class`と比較して、ソースとシンクのプロパティが混在している場合には、エラーが発生します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![sink/source msimatch with connector.class](./diagnosticSinkSourcepropertyTypematchConnectorClassType.png)\n"
-msgstr ""
+msgstr "![sink/source msimatch with connector.class](./diagnosticSinkSourcepropertyTypematchConnectorClassType.png)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In case, both `camel.(source|sink).(endpoint|path).*` and `camel.(source|sink).url`, an error is provided:\n"
-msgstr ""
+msgstr "また、`camel.(source|sink).(endpoint|path).*`と`camel.(source|sink).url`の両方を使用した場合は、エラーとなります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![diagnostic for list of properties and url property notation](./diagnosticMixedNotation.png)\n"
-msgstr ""
+msgstr "![プロパティのリストとURLプロパティ表記の診断](./diagnosticMixedNotation.png)\n"
 
 #. type: Title ####
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Description for connector.class"
-msgstr ""
+msgstr "connector.classの説明"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The connector to use is specified by the `connector.class` value. The value is a fully qualified name which sometimes can be difficult to understand the exact purpose and scope. A description of the connector is now available on hover and on completion:\n"
-msgstr ""
+msgstr "使用するコネクタは、`connector.class`の値で指定します。この値は完全修飾名で、正確な目的や範囲を理解するのが難しい場合があります。コネクタの説明は、ホバー時と完了時に表示されるようになりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Description for connector.class value completion](./completionWithDescriptionforConnectorClass.png)\n"
-msgstr ""
+msgstr "![コネクタ.クラス値補完のための記述](./completionWithDescriptionforConnectorClass.png)\n"
 
 #. type: Title ####
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Automatic insertion of default value on completion"
-msgstr ""
+msgstr "完了時のデフォルト値の自動挿入"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Completion for properties on `camel.(source|sink).(endpoint|path).*` now inserts also the default value:\n"
-msgstr ""
+msgstr "camel.(source|sink).(endpoint|path).*` のプロパティの補完で、デフォルト値も挿入されるようになりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:58
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Default value inserted on completion](./completionInsertingDefaultValue.gif)\n"
-msgstr ""
+msgstr "![完了時に挿入されるデフォルト値](./completionInsertingDefaultValue.gif)\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:59
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's next?"
-msgstr ""
+msgstr "次は何ですか？"
 
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:64
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Provide your feedback and ideas!\n"
 "You can start discussions on [Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling).\n"
 "You can create and vote for issues on github [Camel Language Server](https://github.com/camel-tooling/camel-language-server/issues) and [VS Code Language support for Apache Camel](https://github.com/camel-tooling/camel-lsp-client-vscode/issues) repositories.\n"
 "You can create and vote for issues on the [jira](https://issues.redhat.com/browse/FUSETOOLS2) used by the Red Hat Integration tooling team.\n"
 msgstr ""
+"ご意見・ご感想をお寄せください\n"
+"Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling)で議論を始めることができます。\n"
+"github の [Camel Language Server](https://github.com/camel-tooling/camel-language-server/issues) および [VS Code Language support for Apache Camel](https://github.com/camel-tooling/camel-lsp-client-vscode/issues) リポジトリで課題を作成し、投票することができます。\n"
+"Red Hat Integration tooling team が使用している [jira](https://issues.redhat.com/browse/FUSETOOLS2) で課題を作成し、投票することができます。\n"

@@ -18,50 +18,52 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/05/plantuml-diagram/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Diagramming Camel routes and endpoints interactions with PlantUML"
-msgstr ""
+msgstr "CamelのルートとエンドポイントのインタラクションをPlantUMLで図示する"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/05/plantuml-diagram/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Diagramming Camel routes with PlantUML"
-msgstr ""
+msgstr "CamelのルートをPlantUMLで図示する"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/plantuml-diagram/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Hello Camel riders!\n"
-msgstr ""
+msgstr "キャメルライダーの皆さん、こんにちは。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/plantuml-diagram/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "I created a tool which allows to draw a PlantUML activity diagram from a **running** Camel context (not at design time).\n"
-msgstr ""
+msgstr "私は、（設計時ではなく）**実行中**のCamelコンテキストからPlantUMLアクティビティ・ダイアグラムを描くことができるツールを作成しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/plantuml-diagram/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The above image shows what kind of diagram you can expect.\n"
-msgstr ""
+msgstr "上の画像は、どのような図かというと\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/plantuml-diagram/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "I find it useful when I need to have a overall view of interactions between all the routes and endpoints, \n"
 "or to have a visual representation for better understanding and documentation.\n"
 msgstr ""
+"すべてのルートとエンドポイント間のインタラクションの全体像を把握する必要があるときに便利です。 \n"
+"また、理解を深めたり文書化するために視覚的な表現が必要な場合にも便利です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/plantuml-diagram/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can find all the details on the public [GitHub repository](https://github.com/ncasaux/camel-plantuml).\n"
-msgstr ""
+msgstr "すべての詳細は、公開されている[GitHub リポジトリ](https://github.com/ncasaux/camel-plantuml)でご覧いただけます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/plantuml-diagram/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Maybe some of you could find it useful too! Do not hesitate to provide your feedback!\n"
-msgstr ""
+msgstr "もしかしたら、皆さんの中にも参考になる方がいらっしゃるかもしれません。ご意見・ご感想をお聞かせください。\n"

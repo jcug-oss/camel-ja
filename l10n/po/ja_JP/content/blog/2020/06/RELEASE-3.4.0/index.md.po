@@ -18,42 +18,42 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/06/RELEASE-3.4.0/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel community announces the immediate availability of the new Camel 3.4.0 LTS release"
-msgstr ""
+msgstr "Camelコミュニティは、新しいCamel 3.4.0 LTSリリースの即時提供を発表しました。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/06/RELEASE-3.4.0/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "RELEASE 3.4.0"
-msgstr ""
+msgstr "リリース 3.4.0"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/RELEASE-3.4.0/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel community announces the immediate availability of Camel 3.4.0, a new LTS release with 118 new features, improvements and fixes.\n"
-msgstr ""
+msgstr "Camelコミュニティは、118の新機能、改善、修正を含む新しいLTSリリースであるCamel 3.4.0の即時提供を発表しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/RELEASE-3.4.0/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The artifacts are published and ready for you to download from the Central Maven repository. For more details please take a look at the [release notes](/releases/release-3.4.0/).\n"
-msgstr ""
+msgstr "成果物が公開され、Central Mavenリポジトリからダウンロードできるようになりました。詳細については、[リリースノート](/releases/release-3.4.0/)をご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/RELEASE-3.4.0/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Many thanks to all who made this release possible.\n"
-msgstr ""
+msgstr "今回のリリースにご協力いただいた皆様に感謝いたします。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/RELEASE-3.4.0/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "On behalf of the Camel PMC,  \n"
-msgstr ""
+msgstr "Camel PMCを代表して。  \n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/RELEASE-3.4.0/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Gregor Zurowski\n"
-msgstr ""
+msgstr "グレゴール・ズロースキー\n"

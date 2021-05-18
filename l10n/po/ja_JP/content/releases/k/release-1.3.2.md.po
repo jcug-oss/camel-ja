@@ -18,12 +18,12 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/releases/k/release-1.3.2.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel-K 1.3.2"
-msgstr ""
+msgstr "Camel-K 1.3.2"
 
 #. type: Plain text
 #: upstream/content/releases/k/release-1.3.2.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release is a minor update of the 1.3.x branch.\n"
-msgstr ""
+msgstr "このリリースは、1.3.xブランチのマイナーアップデートです。\n"

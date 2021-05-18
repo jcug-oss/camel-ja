@@ -18,47 +18,52 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/02/RELEASE-3.1.0/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel community announces the immediate availability of the new Camel 3.1.0 release"
-msgstr ""
+msgstr "Camelコミュニティは、新しいCamel 3.1.0リリースの即時利用可能性を発表しました。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/02/RELEASE-3.1.0/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "RELEASE 3.1.0"
-msgstr ""
+msgstr "リリース 3.1.0"
 
 #. type: Plain text
 #: upstream/content/blog/2020/02/RELEASE-3.1.0/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel community announces the immediate availability of Camel 3.1.0, a new minor release with over 291 new features, improvements and fixes.\n"
-msgstr ""
+msgstr "Camelコミュニティは、291以上の新機能、改善、修正を含む新しいマイナーリリースであるCamel 3.1.0を直ちに提供することを発表しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/02/RELEASE-3.1.0/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "All users of Camel 3.0 are encouraged to upgrade to Camel 3.1 soon because there are some major memory usage optimizations in this release.\n"
 "We also plan to retire Camel 3.0 very soon due to this.\n"
 "Please read our [Camel 3.x upgrade guide](/manual/latest/camel-3x-upgrade-guide.html) that describes how to upgrade Camel 3.0 applications to Camel 3.1.\n"
 msgstr ""
+"Camel 3.0をお使いの方は、すぐにCamel 3.1へのアップグレードをお勧めします。\n"
+"また、これに伴い、Camel 3.0を近日中にリタイアさせる予定です。\n"
+"Camel 3.0のアプリケーションをCamel 3.1にアップグレードする方法については、[Camel 3.x upgrade guide](/manual/latest/camel-3x-upgrade-guide.html)をご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/02/RELEASE-3.1.0/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The artifacts are published and ready for you to download from the Central Maven repository. For more details please take a look at the  [resolved issues](/releases/release-3.1.0/#resolved).\n"
-msgstr ""
+msgstr "成果物が公開され、Central Maven リポジトリからダウンロードできるようになりました。詳細については、[解決済みの問題](/releases/release-3.1.0/#resolved)を参照してください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/02/RELEASE-3.1.0/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Many thanks to all who made this release possible.\n"
-msgstr ""
+msgstr "今回のリリースにご協力いただいた皆様に感謝いたします。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/02/RELEASE-3.1.0/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "On behalf of the Camel PMC,\n"
 "Gregor Zurowski\n"
 msgstr ""
+"Camel PMCを代表して。\n"
+"グレゴール・ズロウスキー\n"

@@ -18,42 +18,42 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/security/_index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Security"
-msgstr ""
+msgstr "セキュリティ"
 
 #. type: Title #
 #: upstream/content/security/_index.md:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel security information"
-msgstr ""
+msgstr "Apache Camelのセキュリティ情報"
 
 #. type: Title ##
 #: upstream/content/security/_index.md:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Reporting new security problems with Apache Camel"
-msgstr ""
+msgstr "Apache Camelの新しいセキュリティ問題の報告"
 
 #. type: Plain text
 #: upstream/content/security/_index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Apache Software Foundation takes a very active stance in eliminating security problems.\n"
-msgstr ""
+msgstr "Apache Software Foundationは、セキュリティ問題を排除するために非常に積極的な姿勢をとっています。\n"
 
 #. type: Plain text
 #: upstream/content/security/_index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We strongly encourage folks to report such problems to the private security mailing list of the ASF Security Team, before disclosing them in a public forum.\n"
-msgstr ""
+msgstr "このような問題は、公開の場で開示する前に、ASFセキュリティチームのプライベートセキュリティメーリングリストに報告することを強くお勧めします。\n"
 
 #. type: Plain text
 #: upstream/content/security/_index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Please see the [page of the ASF Security Team](https://www.apache.org/security/) for further information and contact information.\n"
-msgstr ""
+msgstr "詳細や連絡先については、[ASFセキュリティチームのページ](https://www.apache.org/security/)をご覧ください。\n"
 
 #. type: Title ##
 #: upstream/content/security/_index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Security advisories"
-msgstr ""
+msgstr "セキュリティ・アドバイザリ"

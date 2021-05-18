@@ -18,110 +18,110 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "How to Java debug a Camel K integration in VS Code - second iteration"
-msgstr ""
+msgstr "VS CodeでCamel Kの統合をJavaでデバッグする方法 - 2回目の繰り返し"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel K is providing a new feature to Java debug deployed integrations. Before VS Code Tooling for Apache Camel K 0.0.25, more complex steps were required to leverage the VS Code Java debugging capabilities as explained in [this previous blogpost](/blog/2021/01/DebugInVSCodeWithCamelK1.3.0/).\n"
-msgstr ""
+msgstr "Camel Kは、デプロイされた統合機能をJavaでデバッグする新機能を提供します。VS Code Tooling for Apache Camel K 0.0.25以前は、VS CodeのJavaデバッグ機能を利用するためには、[この前のブログ記事](/blog/2021/01/DebugInVSCodeWithCamelK1.3.0/)で説明したように、より複雑な手順が必要でした。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "I recorded a [video](https://youtu.be/pFj21YvzZm0) which is following the steps in this blogpost.\n"
-msgstr ""
+msgstr "このブログポストの手順に沿った[ビデオ](https://youtu.be/pFj21YvzZm0)を録画しました。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Requirements"
-msgstr ""
+msgstr "要求事項"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[VS Code Extension Pack for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.apache-camel-extension-pack) with VS Code Tooling for Apache Camel K 0.0.25+\n"
-msgstr ""
+msgstr "[VS Code Extension Pack for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.apache-camel-extension-pack) with VS Code Tooling for Apache Camel K 0.0.25+.\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel K deployed to a cluster. In this demo, we will use a Camel K instance deployed on minikube.\n"
-msgstr ""
+msgstr "クラスタにデプロイされたCamel K。このデモでは、minikubeにデプロイされたCamel Kのインスタンスを使用します。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "How to java debug"
-msgstr ""
+msgstr "javaのデバッグ方法"
 
 #. type: Title ####
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Create an Integration written in Java"
-msgstr ""
+msgstr "Javaで書かれたインテグレーションの作成"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:27
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Open command palette _View -> Command Palette..._\n"
-msgstr ""
+msgstr "コマンドパレットを開く _View -&gt; Command Palette... _\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Select _Create a new Apache Camel K integration_\n"
-msgstr ""
+msgstr "_Create new Apache Camel K integration_ を選択します。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Select _Java_\n"
-msgstr ""
+msgstr "Select _Java_\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Select the folder\n"
-msgstr ""
+msgstr "フォルダの選択\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Provide a name, for instance: _Demo_\n"
-msgstr ""
+msgstr "名前を付けて、例えば_Demo_\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Create java file](./1-CreateJavaCamelKIntegration.gif)\n"
-msgstr ""
+msgstr "![javaファイルの作成](./1-CreateJavaCamelKIntegration.gif)\n"
 
 #. type: Title ####
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Set a breakpoint"
-msgstr ""
+msgstr "ブレークポイントの設定"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "To have a breakpoint during the execution of the Camel Route, as opposite at the creation of the Camel Route, you need to add a small piece of code. This is a classical trick for Java debugging of Camel Routes, not specific to Camel K.\n"
-msgstr ""
+msgstr "Camel Routeの実行中にブレークポイントを設定するには、Camel Routeの作成時とは逆に、小さなコードを追加する必要があります。これは、Camel Kに限ったことではなく、Camel RouteをJavaでデバッグする際の古典的な手法です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The trick consists of adding a Processor between the steps you want to observe. It will be something like:\n"
-msgstr ""
+msgstr "そのコツは、観察したいステップの間にProcessorを追加することです。それは次のようなものです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\t\t  .process(new Processor(){\n"
 "\t\t\t  @Override\n"
@@ -130,123 +130,129 @@ msgid ""
 "\t\t\t  }\n"
 "\t\t  })\n"
 msgstr ""
+"\t\t  .process(new Processor(){)\n"
+"\t\t\t  オーバーライド\n"
+"\t\t\t  public void process(Exchange exchange) throws Exception {.\n"
+"\t\t\t\t  System.out.println(\"can be breakpoint on this line\")を実行します。\n"
+"\t\t\t  }\n"
+"\t\t  })\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Then, you can add a breakpoint to the line by clicking in the left ruler. A red dot will appear.\n"
-msgstr ""
+msgstr "次に、左のルーラーでクリックして、その線にブレークポイントを追加します。赤い点が表示されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Provide breakpoint inside a Processor](./2-putBreakpoint.gif)\n"
-msgstr ""
+msgstr "![プロセッサ内にブレークポイントを設ける](./2-putBreakpoint.gif)\n"
 
 #. type: Title ####
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Start integration"
-msgstr ""
+msgstr "統合開始"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can then start the integration:\n"
-msgstr ""
+msgstr "その後、統合を開始することができます。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Ensure the editor is still opened on the Java Integration file\n"
-msgstr ""
+msgstr "Java統合ファイルでエディタが開かれていることを確認する\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Select _Start Apache Camel K Integration_\n"
-msgstr ""
+msgstr "Start Apache Camel K Integration_を選択します。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Select _Basic_\n"
-msgstr ""
+msgstr "Basic_を選択\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Check in the _Apache Camel K Integrations_ view that the example is deployed successfully. it will have a green dot. It can take few minutes for the first deployment.\n"
-msgstr ""
+msgstr "Apache Camel K Integrations_ビューで、サンプルが正常にデプロイされたことを確認してください。緑色のドットが表示されます。最初のデプロイメントには数分かかることがあります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:58
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Start integration in basic mode](./3-startIntegration.gif)\n"
-msgstr ""
+msgstr "![基本モードで統合を開始](./3-startIntegration.gif)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Note: If starting in --dev, it will allow to automatically reload the Integration. But take care, debugger will need to be restarted on each change. Meaning that the next two steps will need to be repeated.\n"
-msgstr ""
+msgstr "注： --devで起動すると、自動的にインテグレーションをリロードすることができます。ただし、変更のたびにデバッガーを再起動する必要があるので注意してください。つまり、次の2つのステップを繰り返す必要があります。\n"
 
 #. type: Title ####
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Debug"
-msgstr ""
+msgstr "デバッグ"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:64
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In Integrations view, wait that the integration is running, then right-click on the integration and select _Start Java debugger on Camel K Integration_.\n"
-msgstr ""
+msgstr "統合ビューで、統合が実行されているのを待ってから、統合を右クリックし、_Start Java debugger on Camel K Integration_を選択します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:66
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Debug Integration](./4-CamelK-JavaDebug-fromRightClick.gif)\n"
-msgstr ""
+msgstr "![デバッグ統合](./4-CamelK-JavaDebug-fromRightClick.gif)\n"
 
 #. type: Title ####
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Enjoy"
-msgstr ""
+msgstr "エンジョイ"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:70
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Now, it is time to enjoy. You can notice that you have access to the message content. It is providing a good insight into what is going on in the Camel Route.\n"
-msgstr ""
+msgstr "さて、いよいよお楽しみの時間がやってきました。メッセージコンテンツにアクセスしていることに気づくことができます。Camel Routeで何が起こっているのかを知ることができます。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:71
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's next?"
-msgstr ""
+msgstr "次は何ですか？"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:74
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There is room for improvements, provide your feedback and ideas!\n"
-msgstr ""
+msgstr "改良の余地がありますので、ご意見やアイデアをお寄せください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:76
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can start discussions on [Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling).\n"
-msgstr ""
+msgstr "Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling)で議論を始めることができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:78
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can create and vote for issues on GitHub [VS Code Tooling support for Apache Camel K](https://github.com/camel-tooling/vscode-camelk/issues) repository.\n"
-msgstr ""
+msgstr "GitHub [VS Code Tooling support for Apache Camel K](https://github.com/camel-tooling/vscode-camelk/issues)のリポジトリで課題の作成と投票ができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md:79
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can create and vote for issues on the [related epic in Jira](https://issues.redhat.com/browse/FUSETOOLS2-941) which is used by the Red Hat Integration tooling team.\n"
-msgstr ""
+msgstr "Red Hat Integration tooling teamが使用している[related epic in Jira](https://issues.redhat.com/browse/FUSETOOLS2-941)では、課題の作成や投票を行うことができます。\n"

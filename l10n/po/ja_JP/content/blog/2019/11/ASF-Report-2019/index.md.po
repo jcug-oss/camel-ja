@@ -18,30 +18,30 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2019/11/ASF-Report-2019/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "ASF Annual Report 2019 with highlights of Camel in the top-5 category"
-msgstr ""
+msgstr "ASF Annual Report 2019では、トップ5カテゴリーにキャメルのハイライトが入っています。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2019/11/ASF-Report-2019/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel on top-5 in the ASF annual 2019 report"
-msgstr ""
+msgstr "ASFの2019年の年次報告書でApache Camelがトップ5入り"
 
 #. type: Plain text
 #: upstream/content/blog/2019/11/ASF-Report-2019/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The [ASF Annual 2019 Report](https://blogs.apache.org/foundation/entry/the-apache-software-foundation-announces55) includes 25 highlights where Apache Camel is referred twice as a top-5 project:\n"
-msgstr ""
+msgstr "ASF Annual 2019 Report](https://blogs.apache.org/foundation/entry/the-apache-software-foundation-announces55)には25のハイライトが掲載されていますが、その中でApache Camelはトップ5のプロジェクトとして2回紹介されています。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2019/11/ASF-Report-2019/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "10. Top 5 Apache repositories by number of commits: Camel, Hadoop, HBase, Beam, and Flink;\n"
-msgstr ""
+msgstr "10.コミット数によるApacheリポジトリのトップ5。Camel、Hadoop、HBase、Beam、Flink。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2019/11/ASF-Report-2019/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "20. GitHub traffic: Top 5 most active Apache sources --visits: Spark, Camel, Flink, Kafka, and Airflow;\n"
-msgstr ""
+msgstr "20.GitHubのトラフィック最もアクティブなApacheソースのトップ5 --visits:Spark、Camel、Flink、Kafka、Airflow。\n"

@@ -18,160 +18,187 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The long term release version 3.4 of Camel is here, find out what's new."
-msgstr ""
+msgstr "長期にわたってリリースされたCamelのバージョン3.4が登場しました。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3.4 What's New"
-msgstr ""
+msgstr "Apache Camel 3.4 What's New"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3.4 is the first LTS (Long Term Support) release of Camel 3.\n"
-msgstr ""
+msgstr "Apache Camel 3.4は、Camel 3の最初のLTS（Long Term Support）リリースです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release will be actively supported with regular patch releases containing important bug and security fixes for 1-year.\n"
-msgstr ""
+msgstr "このリリースは1年間、重要なバグやセキュリティの修正を含む定期的なパッチリリースで積極的にサポートされます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For more details about LTS vs non-LTS releases see this [blog post](/blog/2020/03/LTS-Release-Schedule/).\n"
-msgstr ""
+msgstr "LTSと非LTSのリリースの詳細については、こちらの[ブログ記事](/blog/2020/03/LTS-Release-Schedule/)をご覧ください。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "So what's in this release?"
-msgstr ""
+msgstr "では、今回のリリースには何が入っているのでしょうか？"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release is mostly about robustness and bug fixes.\n"
-msgstr ""
+msgstr "今回のリリースでは、主に堅牢性の向上とバグの修正を行いました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We have also continued the work to make Camel more modular and lighter.\n"
 "This time we removed the dependency on JAXB in the Swagger and OpenAPI modules.\n"
 "This helps Camel on GraalVM and native compilation as JAXB is a heavy piece of stack,\n"
 "allowing GraalVM to eliminate it more easily.\n"
 msgstr ""
+"また、Camelをよりモジュール化、軽量化するための作業も続けています。\n"
+"今回はSwaggerとOpenAPIのモジュールでJAXBへの依存を取り除きました。\n"
+"これは、JAXBがスタックの重い部分であるため、GraalVMとネイティブコンパイル上のCamelに役立ちます。\n"
+"GraalVMではより簡単に取り除くことができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We continued to remove usage of reflection in Camel and found a few spots more where\n"
 "reflection was in use, when configuring nested options.\n"
 msgstr ""
+"Camelでリフレクションが使われていないか調べてみました。\n"
+"リフレクションが使用されている箇所がいくつか見つかりました（ネストされたオプションの設定時）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We also added back support for configuring duration values using the shorthand syntax,\n"
 "such as `timeout=30000` can be specified as `timeout=30s`. We had to remove this in earlier\n"
 "versions of Camel 3 due to optimizations. But for Camel 3.4 we found a new way.\n"
 msgstr ""
+"また、短縮構文を使って継続時間の値を設定できるようになりました。\n"
+"例えば、`timeout=30000`は、`timeout=30s`と指定できます。以前のバージョンのCamel 3では、最適化のためにこの機能を削除しなければなりませんでした。\n"
+"最適化のため、Camel 3の以前のバージョンでは削除しなければなりませんでした。しかし、Camel 3.4では新しい方法が見つかりました。\n"
 
 #. type: Title ####
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Supervising route controller"
-msgstr ""
+msgstr "ルートコントローラーの統括"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The work on the supervising route controller is complete. When Camel starts up the default route controller\n"
 "is handling starting the routes safely. The default strategy is that if a route fails to startup then Camel\n"
 "itself will also fail its startup (fail fast).\n"
 msgstr ""
+"統括ルートコントローラーの作業が完了しました。Camelの起動時には、デフォルトのルートコントローラー\n"
+"がルートを安全に起動するように処理しています。デフォルトの戦略は、ルートの起動に失敗した場合、Camel自身も起動に失敗するというものです。\n"
+"自体も起動に失敗するというものです（fail fast）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The supervising route controller is a different strategy that allows to startup routes independent from Camel itself.\n"
 "This new controller will startup the routes using a background task that can reschedule routes that\n"
 "have failed to startup to retry starting (with backoff).\n"
 msgstr ""
+"監督するルートコントローラーは、Camel自体から独立してルートを起動することができる別の戦略です。\n"
+"この新しいコントローラは、バックグランドタスクを使ってルートを起動しますが、起動に失敗したルートを再スケジュールして\n"
+"スタートアップに失敗したルートを再スケジュールして、（バックオフで）スタートアップを再試行することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We have provided an example using `camel-main` or `camel-spring-boot` which you can find\n"
 "[here](https://github.com/apache/camel-examples/tree/master/examples/camel-example-main-health) and\n"
 "[here](https://github.com/apache/camel-spring-boot-examples/tree/master/camel-example-spring-boot-health-checks).\n"
 msgstr ""
+"私たちは、`camel-main`または`camel-spring-boot`を使った例を提供しています。\n"
+"[こちら](https://github.com/apache/camel-examples/tree/master/examples/camel-example-main-health)と\n"
+"[こちら](https://github.com/apache/camel-spring-boot-examples/tree/master/camel-example-spring-boot-health-checks)をご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can find more details in the [Route Controller](/manual/latest/route-controller.html) documentation.\n"
-msgstr ""
+msgstr "詳細は[Route Controller](/manual/latest/route-controller.html)のドキュメントに記載されています。\n"
 
 #. type: Title ####
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Health Check"
-msgstr ""
+msgstr "ヘルスチェック"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We have reworked Camel's health-check, to work similar across runtimes, whether its standalone, Spring Boot,\n"
 "Camel-K, or Quarkus.\n"
 msgstr ""
+"Camelのヘルスチェックを再構築し、スタンドアロン、Spring Boot、Camel-K、Quarkusなどのランタイムで同様に動作するようにしました。\n"
+"Camel-K、Quarkusのいずれのランタイムでも同様に動作するようになりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We also introduced the concept of readiness and liveness so a health check can be either one or both.\n"
 "Each health check can be configured, from `application.properties` the same way, and it's all reflection free.\n"
 msgstr ""
+"また、レディネスとライブネスという概念を導入したので、ヘルスチェックはそのどちらか、または両方を行うことができます。\n"
+"それぞれのヘルスチェックは、「application.properties」から同じように設定することができ、すべてリフレクションフリーとなっています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:59
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The previously mentioned examples also comes with health-check so make sure to check those.\n"
 "See more details in the [Health Check](/manual/latest/health-check.html) documentation.\n"
 msgstr ""
+"前述のサンプルにはヘルスチェックが付いていますので、それらを確認してください。\n"
+"詳細は[ヘルスチェック](/manual/latest/health-check.html)のドキュメントをご覧ください。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Endpoint DSL"
-msgstr ""
+msgstr "エンドポイントDSL"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:65
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The [Endpoint DSL](/manual/latest/Endpoint-dsl.html) had a number of annoying bugs fixed and other improvements.\n"
 "It is now also easier to use Endpoint DSL to configure endpoints in POJOs as Java fields in a type-safe manner,\n"
 "by using `FluentProducerTemplate` and in `RouteBuilder` classes as in this example:\n"
 msgstr ""
+"Endpoint DSL](/manual/latest/Endpoint-dsl.html)では、いくつかの煩わしいバグが修正され、その他の改良も行われました。\n"
+"また、Endpoint DSLを使って、POJO内のエンドポイントをJavaのフィールドとして型安全に設定することが容易になりました。\n"
+"この例のように、`FluentProducerTemplate`や`RouteBuilder`クラスを使って、POJO内のエンドポイントをJavaのフィールドとして型安全な方法で設定することも容易になりました。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:66
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "public class MyPojo {\n"
 "\n"
@@ -186,86 +213,109 @@ msgid ""
 "\n"
 "}\n"
 msgstr ""
+"public class MyPojo {...\n"
+"\n"
+"    プロデュース\n"
+"    private FluentProducerTemplate producer;\n"
+"\n"
+"    private final EndpointProducerBuilder mqtt = paho(\"sensor\").clientId(\"myClient\").userName(\"scott\").password(\"tiger\");\n"
+"\n"
+"    public void sendToSensor(String data) {.\n"
+"        producer.withBody(data).to(mqtt).send();\n"
+"    }\n"
+"\n"
+"}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:83
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "You can read more in the manual about [Endpoint DSL](/manual/latest/Endpoint-dsl.html) and\n"
 "the [Component DSL](/manual/latest/component-dsl.html).\n"
 msgstr ""
+"エンドポイントDSL](/manual/latest/Endpoint-dsl.html)、[コンポーネントDSL](/manual/latest/component-dsl.html)については、マニュアルで詳しく説明されています。\n"
+"コンポーネントDSL](/manual/latest/component-dsl.html)についてのマニュアルがあります。\n"
 
 #. type: Title ####
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:84
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Spring Boot"
-msgstr ""
+msgstr "Spring Boot"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:87
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release supports Spring Boot 2.3.\n"
-msgstr ""
+msgstr "本リリースでは、Spring Boot 2.3をサポートしています。\n"
 
 #. type: Title ####
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:88
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New Components"
-msgstr ""
+msgstr "新しいコンポーネント"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:91
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release also adds two new components:\n"
-msgstr ""
+msgstr "今回のリリースでは、2つの新しいコンポーネントも追加されています。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:94
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "AWS2 Athena\n"
-msgstr ""
+msgstr "AWS2 Athena\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:94
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "RestEasy\n"
-msgstr ""
+msgstr "RestEasy\n"
 
 #. type: Title ####
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:95
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Other Changes"
-msgstr ""
+msgstr "その他の変更"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:100
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "A new maven plugin called `camel-component-maven-plugin` has been added which intents to help\n"
 "third party component developers to generate all required metadata and configurations Java files. For more info on how to use it in your project,\n"
 "please take a look at the [Camel Component Plugin documentation](/manual/latest/camel-component-maven-plugin.html).\n"
 msgstr ""
+"CAMEL-COMPOSENT-MAVEN-PLUGIN \"という新しいMAVENプラグインが追加されました。\n"
+"このプラグインは、サードパーティのコンポーネント開発者が、必要なメタデータや設定のJavaファイルを生成するのに役立ちます。このプラグインの使い方については\n"
+"Camel Component Plugin documentation](/manual/latest/camel-component-maven-plugin.html)をご参照ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:103
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "You can now configure Camel's thread pool (profiles) and Saga/LRA the same way for\n"
 "standalone, Camel K, Camel Quarkus, and Spring Boot.\n"
 msgstr ""
+"Camelのスレッドプール（プロファイル）とSaga/LRAを、以下の場合に同じように設定できるようになりました。\n"
+"スタンドアロン、Camel K、Camel Quarkus、Spring Bootでも同じように設定できるようになりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:106
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Some of the components (more to come in the future) we have moved initialization logic to an earlier phase when possible\n"
 "which allows these components to initialize at build time, which makes Camel startup faster (especially for GraalVM or Quarkus runtimes).\n"
 msgstr ""
+"いくつかのコンポーネント（今後も増えていく予定）では、初期化ロジックを可能な限り初期段階に移動させました。\n"
+"これにより、これらのコンポーネントはビルド時に初期化され、Camelの起動が速くなります（特にGraalVMやQuarkusランタイムの場合）。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/06/camel34-whatsnew/index.md:108
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "For users that are upgrading to this release, then make sure to follow\n"
 "the [upgrade guide](/manual/latest/camel-3x-upgrade-guide.html).\n"
 msgstr ""
+"本リリースにアップグレードする場合は、必ず[アップグレードガイド](/manual/latest/camel-3x-upgrade-guide html)に従ってください。\n"
+"アップグレードガイド](/manual/latest/camel-3x-upgrade-guide.html)をご覧ください。\n"
