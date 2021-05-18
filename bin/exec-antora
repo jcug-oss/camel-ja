@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+set -eu
+
+SCRIPT_DIR=$(cd $(dirname $0); pwd)
+L10N_HOME=$(cd $(dirname $SCRIPT_DIR); pwd)
+cd $L10N_HOME
+
+source config/l10n-kit.conf
+
+cd $L10N_HOME/translated/$TARGET_LANG
+
+yarn build-all
+mkdir -p $L10N_HOME/docs
+cp -r public/* $L10N_HOME/docs/
+
+# surge publish limit is 4500 files and about 430MB
+cat <<EOF > $L10N_HOME/docs/.surgeignore
+components/2.x
+components/3.4.x
+components/3.7.x
+components/3.9.x
+camel-kafka-connector
+EOF

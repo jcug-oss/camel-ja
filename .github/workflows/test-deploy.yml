@@ -1,0 +1,30 @@
+name: pull-request
+
+on:
+  workflow_dispatch:
+    branches:
+      - 'main'
+
+jobs:
+  deploy-ja-to-surge:
+    name: Deploy Japanese translation to surge.sh
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout base branch
+        uses: actions/checkout@v2
+      - name: Setup build env
+        run: |
+          bin/setup-build-env
+      - name: Configure git
+        run: |
+          bin/configure-git
+
+      - name: Exec po4a-translate
+        run: bin/exec-po4a-translate
+      - name: Apply override files
+        run: bin/exec-override
+      - name: Exec antora
+        run: bin/exec-antora
+      - name: Deploy to surge
+        run: |
+          surge docs camel-ja.surge.sh --token ${{ secrets.SURGE_TOKEN }}

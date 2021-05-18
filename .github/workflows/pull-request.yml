@@ -19,11 +19,6 @@ jobs:
         run: |
           rm -rf l10n
           cp -r merged/l10n ./
-      - name: Cache bundle directory
-        uses: actions/cache@v2
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
       - name: Setup build env
         run: |
           bin/setup-build-env
@@ -35,8 +30,8 @@ jobs:
         run: bin/exec-po4a-translate
       - name: Apply override files
         run: bin/exec-override
-      - name: Exec jekyll
-        run: bin/exec-jekyll
+      - name: Exec antora
+        run: bin/exec-antora
       - name: Deploy to surge
         run: |
           surge docs pr-preview-"${{ github.event.pull_request.number }}"-ja-quarkusio.surge.sh

@@ -9,6 +9,5 @@ source config/l10n-kit.conf
 
 cd $L10N_HOME/translated/$TARGET_LANG
 
-bundle config set --local path "$L10N_HOME/vendor/bundle"
-bundle install
-bundle exec jekyll serve -d $L10N_HOME/docs/
+yarn build-all
+yarn preview
