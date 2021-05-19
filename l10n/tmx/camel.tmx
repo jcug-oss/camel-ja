@@ -5,6 +5,14 @@
   <body>
     <tu>
       <tuv xml:lang="en">
+        <seg>Blog</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>ブログ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Apache Camel</seg>
       </tuv>
       <tuv xml:lang="ja_JP">
