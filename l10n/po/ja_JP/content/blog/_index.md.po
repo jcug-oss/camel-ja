@@ -18,6 +18,6 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/_index.md:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Blog"
 msgstr "ブログ"
