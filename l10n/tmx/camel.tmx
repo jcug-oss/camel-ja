@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="3.3.6" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Apache Camel</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Apache Camel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel is an Open Source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camelはオープンソースのインテグレーションフレームワークです。データの入出力を行う様々なシステムを迅速かつ容易に統合することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Computer with gears depicting data processing</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>コンピュータとデータ処理を表す歯車</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What's New?</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>最新情報</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{with .Site.GetPage "section" "blog"}} {{range .Pages | first 3}}</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{with .Site.GetPage "section" "blog"}} {{range .Pages | first 3}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{ dateFormat "2" .PublishDate }}</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{ dateFormat "2" .PublishDate }}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{ dateFormat "Jan" .PublishDate }} {{ dateFormat "2006" .PublishDate }}</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{ dateFormat "Jan" .PublishDate }} {{ dateFormat "2006" .PublishDate }}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{ .Title }}</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{ .Title }}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{end}} {{end}}</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{end}} {{end}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{ .Content }} {{ partial "footer.html" . }}</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{ .Content }} {{ partial "footer.html" . }}</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
