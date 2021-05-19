@@ -3,8 +3,8 @@ name: pull-request
 on: pull_request_target
 
 jobs:
-  deploy-ja:
-    name: Deploy Japanese translation to surge.sh
+  deploy-ja-pullreq:
+    name: Deploy JA to surge.sh
     runs-on: ubuntu-20.04
     steps:
       # To avoid GitHub Secrets compromise, checkouts merged commit to 'merged' dir and copy its l10n dir to base branch code base
@@ -34,16 +34,22 @@ jobs:
         run: bin/exec-antora
       - name: Deploy to surge
         run: |
-          surge docs pr-preview-"${{ github.event.pull_request.number }}"-ja-quarkusio.surge.sh
+          # Trim ignored files manually in case the version of surge might not be aware of .surgeignore
+          rm -rf docs/components/2.x
+          rm -rf docs/components/3.4.x
+          rm -rf docs/components/3.7.x
+          rm -rf docs/components/3.9.x
+          rm -rf docs/camel-kafka-connector
+          rm -rf docs/schema
+          surge docs pr-preview-"${{ github.event.pull_request.number }}"-camel-ja.surge.sh
         env:
-          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
       - name: Add comment
         uses: actions/github-script@v3.1.0
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
-            let body = `Site preview(ja): https://pr-preview-${{ github.event.pull_request.number }}-ja-quarkusio.surge.sh`
+            let body = `Site preview(ja): https://pr-preview-${{ github.event.pull_request.number }}-camel-ja.surge.sh`
             github.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
