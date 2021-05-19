@@ -33,33 +33,30 @@ jobs:
       - name: Configure git
         run: |
           bin/configure-git
+
       - name: Update tmx
         run: bin/update-tmx
-
       - name: Push changes
         run: bin/push-changes "Update tmx"
 
       - name: Update translation stats
         run: bin/update-translation-stats
-
       - name: Push changes
         run: bin/push-changes "Update translation stats"
 
       - name: Update override stats
         run: |
           bin/update-override-stats
-
       - name: Create issue if override files updated
         run: |
           .github/steps/create-issue-if-override-files-updated
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Push changes
         run: bin/push-changes "Update override stats"
 
   deploy-ja:
-    name: Deploy Japanese translation to GitHub pages
+    name: Deploy JA to GitHub pages
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
@@ -82,7 +79,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: |
-          echo "ja.quarkus.io" > docs/CNAME
+          #echo "ja.camel.apache.org" > docs/CNAME
           git add -f docs
 
           set +e

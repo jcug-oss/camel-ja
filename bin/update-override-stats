@@ -7,7 +7,9 @@ cd $L10N_HOME
 
 source config/l10n-kit.conf
 
-echo "Filename, Last modified, Upstream Last modified, Up to date" > l10n/stats/override.csv
+STATS_FILE=l10n/stats/override.csv
+
+echo "Filename, Last modified, Upstream Last modified, Up to date" > $STATS_FILE
 
 for ITEM in `\find l10n/override`; do
   if [ -f $ITEM ] ; then
@@ -21,9 +23,9 @@ for ITEM in `\find l10n/override`; do
     OVERRIDE_FILE_UTIME_ISO=`TZ=UTC git log -1 --format=%cd --date=iso-local $ITEM`
 
     if [ $OVERRIDE_FILE_UTIME -gt $UPSTREAM_FILE_UTIME ] ; then
-      echo $ITEM, $OVERRIDE_FILE_UTIME_ISO, $UPSTREAM_FILE_UTIME_ISO, "OK" >> l10n/stats/override.csv
+      echo $ITEM, $OVERRIDE_FILE_UTIME_ISO, $UPSTREAM_FILE_UTIME_ISO, "OK" >> $STATS_FILE
     else
-      echo $ITEM, $OVERRIDE_FILE_UTIME_ISO, $UPSTREAM_FILE_UTIME_ISO, "NG" >> l10n/stats/override.csv
+      echo $ITEM, $OVERRIDE_FILE_UTIME_ISO, $UPSTREAM_FILE_UTIME_ISO, "NG" >> $STATS_FILE
     fi
 
   fi
