@@ -5,8 +5,8 @@ on:
     branches:
       - 'main'
   schedule:
-    # everyday at 3AM
-    - cron: '0 3 * * *'
+    # everyday at 3AM JST
+    - cron: '0 18 * * *'
   workflow_dispatch:
     branches:
       - 'main'

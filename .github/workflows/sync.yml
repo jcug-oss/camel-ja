@@ -2,8 +2,8 @@ name: sync-upstream
 
 on:
   schedule:
-    # every day at midnight
-    - cron: '0 0 * * *'
+    # every day at midnight JST
+    - cron: '0 15 * * *'
   workflow_dispatch:
     branches:
       - 'main'
