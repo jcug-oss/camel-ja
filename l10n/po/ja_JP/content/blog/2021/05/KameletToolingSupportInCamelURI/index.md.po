@@ -18,114 +18,116 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kamelet tooling support for Camel URI"
-msgstr ""
+msgstr "CamelのURIに対するKameletツールのサポート"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Kamelets](/camel-k/latest/kamelets/kamelets-user.html) (Kamel route snippets) are a new concept introduced in Camel K that allow users to connect to external systems via a simplified interface, hiding all the low level details about how those connections are implemented. There are several ways to consume them. One of them is as [standard Camel Components](/camel-k/latest/kamelets/kamelets-user.html#kamelets-usage-integration). In this case, completion is provided to fill the template id and the parameter names. It is currently based on a fixed set of Kamelets provided by a snapshot of the [kamelet catalog](https://github.com/apache/camel-kamelets).\n"
-msgstr ""
+msgstr "Kamelets](/camel-k/latest/kamelets/kamelets-user.html) (Kamel route snippets)は、Camel Kで導入された新しいコンセプトで、ユーザーが外部システムに接続する際に、接続の実装方法に関する低レベルの詳細をすべて隠して、シンプルなインターフェイスで接続することができます。ルートスニペットを利用するにはいくつかの方法があります。その一つは、[standard Camel Components](/camel-k/latest/kamelets/kamelets-user.html#kamelets-useage-integration)として消費する方法です。この場合、テンプレートIDとパラメータ名を埋めるための補完が用意されています。現在は、[kamelet catalog](https://github.com/apache/camel-kamelets)のスナップショットで提供される固定のKameletのセットに基づいています。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kamelet template id support"
-msgstr ""
+msgstr "KameletテンプレートIDサポート"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Inside a Camel URI, after `kamelet:`, completion for the template id is provided with its description.\n"
-msgstr ""
+msgstr "CamelのURIの中で、`kamelet:`の後に、テンプレートIDの補完がその説明とともに提供されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Template Id completion with description](./TemplateIdCompletionWithDescription.png)\n"
-msgstr ""
+msgstr "![TemplateIdCompletionWithDescription](./TemplateIdCompletionWithDescription.png)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "They are filtered for source/sink consumer/producer endpoint type.\n"
-msgstr ""
+msgstr "これらは、ソース/シンク・コンシューマー/プロデューサーのエンドポイント・タイプでフィルタリングされます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![source/sink consumer/producer endpoint type filtering on completion](./sinkSourceFilteringKameletCompletion.gif)\n"
-msgstr ""
+msgstr "![ソース/シンク・コンシューマ/プロデューサ・エンドポイント・タイプ・フィルタリング完了時](./sinkSourceFilteringKameletCompletion.gif)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Description is available on hover.\n"
-msgstr ""
+msgstr "ホバー時に説明文が表示されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Description on hover of kamelet template id](./descriptionOnHover.png)\n"
-msgstr ""
+msgstr "![kameletテンプレートIDのホバー時の説明](./descriptionOnHover.png)\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kamelet parameters support"
-msgstr ""
+msgstr "Kameletパラメータのサポート"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Inside a Camel URI, after `kamelet:<myTemplateId>?`, the parameter names are provided as completion with their description.\n"
 msgstr ""
+"CamelのURIの中では、`kamelet<myTemplateId>:?`</myTemplateId>の後に、<myTemplateId>パラメータ名が説明付きの補完として提供され</myTemplateId>ます。<myTemplateId>\n"
+"</myTemplateId>"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Template Parameter Completion With Description](./TemplateParameterCompletionWithDescription.png)\n"
-msgstr ""
+msgstr "![テンプレートパラメータの補完（説明付き）](./TemplayParameterCompletionWithDescription.png)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If a default value is available, it is inserted by default.\n"
-msgstr ""
+msgstr "デフォルト値がある場合は、その値がデフォルトで挿入されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Default value inserted when available on parameter completion](./completionKameletParameterWithDefaultValue.gif)\n"
-msgstr ""
+msgstr "![パラメータ補完時に利用可能な場合に挿入されるデフォルト値](./completionKameletParameterWithDefaultValue.gif)\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's next?"
-msgstr ""
+msgstr "次は何ですか？"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There is room for improvements, provide your feedback and ideas!\n"
-msgstr ""
+msgstr "改良の余地がありますので、ご意見やアイデアをお寄せください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can start discussions on [Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling).\n"
-msgstr ""
+msgstr "Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling)で議論を始めることができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can create and vote for issues on GitHub repository of [Language Server for Apache Camel(https://github.com/camel-tooling/camel-language-server/issues) repository.\n"
-msgstr ""
+msgstr "Language Server for Apache Camel(https://github.com/camel-tooling/camel-language-server/issues)のGitHubリポジトリに課題を作成し、投票することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can create and vote for issues on the [related epic in Jira](https://issues.redhat.com/browse/FUSETOOLS2-1074) which is used by the Red Hat Integration tooling team.\n"
-msgstr ""
+msgstr "Red Hat Integration tooling teamが使用している[related epic in Jira](https://issues.redhat.com/browse/FUSETOOLS2-1074)では、課題の作成や投票を行うことができます。\n"
