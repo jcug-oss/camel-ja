@@ -5,6 +5,7 @@ on: pull_request_target
 jobs:
   deploy-ja-pullreq:
     name: Deploy JA to surge.sh
+    if: ${{ github.repository_owner == 'jcug-oss' }}
     runs-on: ubuntu-20.04
     steps:
       # To avoid GitHub Secrets compromise, checkouts merged commit to 'merged' dir and copy its l10n dir to base branch code base

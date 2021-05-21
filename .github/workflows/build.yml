@@ -21,6 +21,7 @@ on:
 jobs:
   update:
     name: Update files
+    if: ${{ github.repository_owner == 'jcug-oss' }}
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
@@ -57,6 +58,7 @@ jobs:
 
   deploy-ja:
     name: Deploy JA to GitHub pages
+    if: ${{ github.repository_owner == 'jcug-oss' }}
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout

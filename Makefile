@@ -1,14 +1,14 @@
 # build
 run-update:
-	act --reuse --job update
+	act --reuse --env GITHUB_REPOSITORY_OWNER=jcug-oss --job update
 
 # sync
 run-sync:
-	act --reuse --job sync
+	act --reuse --env GITHUB_REPOSITORY_OWNER=jcug-oss --job sync
 
 # test-deploy
 run-deploy-ja-to-surge:
-	act --reuse --job deploy-ja-to-surge
+	act --reuse --env GITHUB_REPOSITORY_OWNER=jcug-oss --job deploy-ja-to-surge
 
 deploy-to-surge:
 	surge docs camel-ja.surge.sh
