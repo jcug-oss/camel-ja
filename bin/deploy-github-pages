@@ -7,19 +7,16 @@ cd $L10N_HOME
 
 source config/l10n-kit.conf
 
-git add upstream
-if [ -d "l10n" ]; then
-    git add l10n
-fi
+#echo "ja.camel.apache.org" > docs/CNAME
+git add -f docs
 
 set +e
 git diff --cached --exit-code --quiet
 
 if [[ $? -eq 1 ]] ; then
     set -e
-    git commit -m "[GitHub Actions] $1"
-    git fetch
-    git rebase origin/main
-    git push origin main
+    git checkout -b docs
+    git commit -m "[GitHub Actions] Update GitHub Pages"
+    git push -f origin docs
 fi
 set -e

@@ -2,6 +2,9 @@
 run-update:
 	act --reuse --env GITHUB_REPOSITORY_OWNER=jcug-oss --job update
 
+run-deploy-ja:
+	act --reuse --env GITHUB_REPOSITORY_OWNER=jcug-oss --job deploy-ja
+
 # sync
 run-sync:
 	act --reuse --env GITHUB_REPOSITORY_OWNER=jcug-oss --job sync

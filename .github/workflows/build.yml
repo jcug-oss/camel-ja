@@ -80,18 +80,4 @@ jobs:
         run: bin/exec-antora
 
       - name: Deploy to GitHub Pages
-        run: |
-          #echo "ja.camel.apache.org" > docs/CNAME
-          git add -f docs
-
-          set +e
-          git diff --cached --exit-code --quiet
-
-          if [[ $? -eq 1 ]] ; then
-            set -e
-            git checkout -b docs
-            git commit -m "Update GitHub Pages"
-            git fetch
-            git push -f origin docs
-          fi
-          set -e
+        run: bin/deploy-github-pages
