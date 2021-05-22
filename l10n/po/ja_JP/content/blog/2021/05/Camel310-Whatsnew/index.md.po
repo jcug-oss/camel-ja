@@ -1,0 +1,356 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-22 15:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:1
+#, no-wrap
+msgid "Details of what we have done in the Camel 3.10 release."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:1
+#, no-wrap
+msgid "Apache Camel 3.10 What's New"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:10
+#, no-wrap
+msgid "Apache Camel 3.10 has just been [released](/blog/2021/05/RELEASE-3.10.0/).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:13
+#, no-wrap
+msgid ""
+"This is a non-LTS release which means we will not provide patch releases.\n"
+"The next planned LTS release is 3.11 scheduled for June/July 2021.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:14
+#, no-wrap
+msgid "So what's in this release"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:17
+#, no-wrap
+msgid "This release introduces a set of new features and noticeable improvements that we will cover in this blog post.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:18
+#, no-wrap
+msgid "Reduced object allocations"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:22
+#, no-wrap
+msgid ""
+"We have optimized the remainder of the most complex EIPs to avoid excessive object allocations,\n"
+"and also to support [exchange pooling](/manual/latest/exchange-pooling.html).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:24
+#, no-wrap
+msgid "The only EIP which is less optimized is the Aggregate EIP which also is the most complex EIP implementation in Camel.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:26
+#, no-wrap
+msgid "We also optimized the remainder of the Camel components to support [exchange pooling](/manual/latest/exchange-pooling.html).\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:27
+#, no-wrap
+msgid "Optimized core"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:32
+#, no-wrap
+msgid ""
+"We continue the optimization and have improved the core in various small areas such as\n"
+"avoiding the copy message id's if they are not in use, and also a faster way to lookup endpoints in the Camel endpoint registry,\n"
+"which helps when using dynamic EIP patterns.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:33
+#, no-wrap
+msgid "Multi language DSLs"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:36
+#, no-wrap
+msgid "We did not introduce a new DSL language, but we have improved the YAML DSL to be a first class DSL.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:39
+#, no-wrap
+msgid ""
+"YAML DSL fully support Kamelets and so far all the ready to use Kamelets from the\n"
+"[Apache Camel Kamelet Catalog](https://github.com/apache/camel-kamelets) are in YAML.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:43
+#, no-wrap
+msgid ""
+"You can now also tell Camel to dump all the routes during startup as XML (`camel.main.dump-routes = true`).\n"
+"This allows to diagnose your routes, which comes handy if you write routes in different DSL's and you have some kind\n"
+"of problem. Then the XML dump is a _view_ of the routes from Camel point of view.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:44
+#, no-wrap
+msgid "Kamelets"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:47
+#, no-wrap
+msgid "We have done significant work to [Kamelets](/camel-k/latest/kamelets/kamelets-user.html) in this release.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:50
+#, no-wrap
+msgid ""
+"Kamelets (route templates) are now more flexible and more isolated, which really helps\n"
+"to build more sophisticated Kamelets that are plug and play ready in any Camel runtime.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:55
+#, no-wrap
+msgid ""
+"A Kamelet can now specify [local beans](/manual/latest/route-template.html) that are only present when the kamelet is creating\n"
+"the runtime route that it represents. The Kamelet can even embed Java, Groovy, Kotlin (or other language)\n"
+"as source code for creating the _local beans_. This gives more power to Kamelets, such as the AWS kamelets\n"
+"that is self contained and can create _local beans_ for the AWS Client that is needed for connectivity with AWS cloud platform.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:58
+#, no-wrap
+msgid ""
+"For example we added `Kamelet` as an EIP which allows you to call kamelets in a more sophisticated\n"
+"way for, such as in a way similar to using asynchronous request/reply message patterns.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:62
+#, no-wrap
+msgid ""
+"Kamelets can now be discovered lazy at runtime, such as from classpath. This allows you for example\n"
+"to add 3rd party Kamelets easily by adding the JAR to your project. Or the JAR from\n"
+"the official [Apache Camel Kamelet Catalog](https://github.com/apache/camel-kamelets).\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:63
+#, no-wrap
+msgid "Kafka"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:67
+#, no-wrap
+msgid ""
+"In the Kafka world then it's common to use Avro or Protobuf serialization.\n"
+"In this release we added support for Jackson based dataformats for Avro and Protobuf.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:70
+#, no-wrap
+msgid ""
+"The [camel-kafka](/components/latest/kafka-component.html) component has been made more\n"
+"robust during stopping to better handle errors thrown by Kafka during client shutdown.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:72
+#, no-wrap
+msgid "The components are upgraded to Kafka 2.8.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:73
+#, no-wrap
+msgid "Camel K"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:77
+#, no-wrap
+msgid ""
+"We have continued porting over more from the [Camel K](/camel-k/latest/) runtime to this core Camel project.\n"
+"The support for webhooks and kamelet reify component has been ported over.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:78
+#, no-wrap
+msgid "Rest DSL"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:82
+#, no-wrap
+msgid ""
+"The [Rest DSL](/manual/latest/rest-dsl.html) have been improved to support the OpenAPI 3.1 specification\n"
+"regarding security model and requirements declarations.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:83
+#, no-wrap
+msgid "Cloud component"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:86
+#, no-wrap
+msgid "The Camel AWS and Azure components have had various bug fixes and smaller improvements.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:87
+#, no-wrap
+msgid "Easier fat-jar packaging"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:95
+#, no-wrap
+msgid ""
+"We added a new `prepare-fatjar` goal to the\n"
+"[camel-maven-plugin](https://github.com/apache/camel/blob/main/tooling/maven/camel-maven-plugin/src/main/docs/camel-maven-plugin.adoc)\n"
+"which allows to prepare your Camel application for fat-jar packaging where the plugin scans your project\n"
+"and generate one unique _uber metadata_ file. This allows _fat-jar_ packaging such\n"
+"as various maven plugins to safely package together the Camel JARs and your application\n"
+"in a single JAR which otherwise would cause Camel metadata files to be overridden.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:96
+#, no-wrap
+msgid "Debezium"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:99
+#, no-wrap
+msgid "Camel now supports Debezium 1.5.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:100
+#, no-wrap
+msgid "Quarkus"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:104
+#, no-wrap
+msgid ""
+"This release is preparing for supporting the upcoming Quarkus 2.0 release.\n"
+"Camel is now upgraded to support Vert.X and the MicroProfile v4 specification.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:105
+#, no-wrap
+msgid "Spring Boot"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:108
+#, no-wrap
+msgid "We have upgraded to latest Spring Boot 2.4.5 release.\n"
+msgstr ""
+
+#. type: Title ###
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:109
+#, no-wrap
+msgid "New components"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:112
+#, no-wrap
+msgid "This release has a number of new components, data formats and languages:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:117
+#, no-wrap
+msgid "`camel-azure-cosmosdb` - Integrates with CosmoDB databases on MS Azure\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:117
+#, no-wrap
+msgid "`camel-spring-jdbc` - The `camel-jdbc` component was made spring-less and this component adds support for using Spring Transactions with the JDBC component.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:117
+#, no-wrap
+msgid "`camel-jackson-avro` - Marshal POJOs to Avro and back using Jackson\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:117
+#, no-wrap
+msgid "`camel-jackson-protobuf` - Marshal POJOs to Protobuf and back using Jackson\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:118
+#, no-wrap
+msgid "Upgrading"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:121
+#, no-wrap
+msgid "Make sure to read the [upgrade guide](/manual/latest/camel-3x-upgrade-guide-3_10.html) if you are upgrading from a previous Camel version.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:122
+#, no-wrap
+msgid "Release Notes"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/05/Camel310-Whatsnew/index.md:124
+#, no-wrap
+msgid "You can find more information about this release in the [release notes](/releases/release-3.10.0/), with a list of JIRA tickets resolved in the release.\n"
+msgstr ""
