@@ -31,9 +31,9 @@ msgstr "キャメルビデオ"
 
 #. type: Bullet: '*   '
 #: upstream/content/community/articles.md:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[OCB: Integration in OpenShift](https://www.youtube.com/watch?v=5dDsVmS9HKk) 1 hour introductory presentation from May 2021 by Zineb Bendhiba, Rachel Jordan-McGeever, and María Arias de Reyna about Camel, Camel Quarkus, Camel K and Kamelets.\n"
-msgstr ""
+msgstr "OCB: Integration in OpenShift](https://www.youtube.com/watch?v=5dDsVmS9HKk) 2021年5月に行われた、Zineb Bendhiba、Rachel Jordan-McGeever、María Arias de Reynaによる、Camel、Camel Quarkus、Camel K、Kameletsについての1時間の紹介プレゼンテーションです。\n"
 
 #. type: Bullet: '*   '
 #: upstream/content/community/articles.md:49
