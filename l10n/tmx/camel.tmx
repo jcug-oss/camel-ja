@@ -91,5 +91,21 @@
         <seg>ブログ</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Home</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>ホーム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Why Camel?</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>なぜCamelなのか？</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
