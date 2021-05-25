@@ -24,7 +24,7 @@ msgstr "Camelは、オープンソースの統合フレームワークで、デ�
 
 #. type: YAML Front Matter: title
 #: upstream/content/_index.md:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Home"
 msgstr "ホーム"
 
@@ -38,9 +38,9 @@ msgstr ""
 
 #. type: Title #
 #: upstream/content/_index.md:9
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Why Camel?"
-msgstr "なぜキャメルなのか？"
+msgstr "なぜCamelなのか？"
 
 #. type: Plain text
 #: upstream/content/_index.md:12 upstream/content/_index.md:53
