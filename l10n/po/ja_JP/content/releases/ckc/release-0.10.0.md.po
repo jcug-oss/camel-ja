@@ -18,6 +18,6 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/releases/ckc/release-0.10.0.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Kafka Connector release 0.10.0"
-msgstr ""
+msgstr "Camel Kafka Connector release 0.10.0"
