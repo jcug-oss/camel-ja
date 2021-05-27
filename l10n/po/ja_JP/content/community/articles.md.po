@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-05-22 15:20+0000\n"
+"POT-Creation-Date: 2021-05-27 15:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1805,292 +1805,294 @@ msgstr "Enterprise Integration Patterns _by Gregor Hohpe and Bobby Woolf_ (Addis
 msgid "Online Training"
 msgstr "オンライントレーニング"
 
-#. type: Bullet: '*   '
-#: upstream/content/community/articles.md:343
-#, fuzzy, no-wrap
-msgid "[Introduction to Apache Camel](http://www.pluralsight.com/courses/apache-camel-intro-integration) - Pluralsight o<span style=\"color: rgb(34,34,34);\">nline <span style=\"color: rgb(34,34,34);\">training course covering the core Camel framework, pattern implementations <span style=\"color: rgb(34,34,34);\">and [hawt.io](http://hawt.io/) \n"
+#. type: Plain text
+#: upstream/content/community/articles.md:344
+#, no-wrap
+msgid ""
+"*  [Build a Registration System with Camel and Kubernetes](https://www.manning.com/liveproject/build-a-registration-system-with-camel-and-kubernetes) - A self-pased online learning (May 2021) where you’ll master common Apache Camel techniques and components for helping build modern interconnected applications.   \n"
+"*   [Introduction to Apache Camel](http://www.pluralsight.com/courses/apache-camel-intro-integration) - Pluralsight o<span style=\"color: rgb(34,34,34);\">nline <span style=\"color: rgb(34,34,34);\">training course covering the core Camel framework, pattern implementations <span style=\"color: rgb(34,34,34);\">and [hawt.io](http://hawt.io/) \n"
+"*   [Apache Camel Video Tutorial](http://www.nvisia.com/apache-camel-video-tutorial) - A 3 part video series that introduces you to Apache Camel, covers an use-case, and then highlights why you should use Camel.\n"
+"*   [Java In Use](http://www.javainuse.com/camel) - Apache Camel Introduction, Apache Camel Interview Questions, and other beginner related training for Apache Camel.\n"
+"*   [Udemy Training: Apache Camel for Beginners - Learn by Coding in Java](https://www.udemy.com/apache-camel-for-beginners-learn-by-coding-in-java/) - Learn Apache Camel framework by coding it in Java. This is purely a coding course where you will be performing ton of code throughout the course. This course will cover integrations with Kafka, Active MQ, Postgres SQL , Rest WebServices and etc.\n"
+"*   [Max Munus](http://www.maxmunus.com/page/Apache-Camel) - Provides online training to many different technologies. They provide online training for Apache Camel.\n"
 msgstr ""
-"Introduction to Apache Camel](http://www.pluralsight.com/courses/apache-camel-intro-integration) - Pluralsightの<span style=\"color: rgb(34,34,34);\"> <span style=\"color: rgb(34,34,34);\">オンライントレーニングコースでは、Camelのコアフレームワーク、パターンの実装<span style=\"color: rgb(34,34,34);\">、[hawt.io](http://hawt.io/</span></span></span>)<span style=\"color: rgb(34,34,34);\"> <span style=\"color: rgb(34,34,34);\">をカバーしています</span></span>。<span style=\"color: rgb(34,34,34);\"> <span style=\"color: rgb(34,34,34);\"> <span style=\"color: rgb(34,34,34);\">\n"
-"</span></span></span>"
-
-#. type: Bullet: '*   '
-#: upstream/content/community/articles.md:343
-#, fuzzy, no-wrap
-msgid "[Apache Camel Video Tutorial](http://www.nvisia.com/apache-camel-video-tutorial) - A 3 part video series that introduces you to Apache Camel, covers an use-case, and then highlights why you should use Camel.\n"
-msgstr "Apache Camel ビデオチュートリアル](http://www.nvisia.com/apache-camel-video-tutorial) - 3部構成のビデオシリーズで、Apache Camelを紹介し、ユースケースを取り上げ、なぜCamelを使うべきかを説明しています。\n"
-
-#. type: Bullet: '*   '
-#: upstream/content/community/articles.md:343
-#, fuzzy, no-wrap
-msgid "[Java In Use](http://www.javainuse.com/camel) - Apache Camel Introduction, Apache Camel Interview Questions, and other beginner related training for Apache Camel.\n"
-msgstr "[Java In Use](http://www.javainuse.com/camel) - Apache Camel Introduction, Apache Camel Interview Questions, and other beginner related training for Apache Camel.\n"
-
-#. type: Bullet: '*   '
-#: upstream/content/community/articles.md:343
-#, fuzzy, no-wrap
-msgid "[Udemy Training: Apache Camel for Beginners - Learn by Coding in Java](https://www.udemy.com/apache-camel-for-beginners-learn-by-coding-in-java/) - Learn Apache Camel framework by coding it in Java. This is purely a coding course where you will be performing ton of code throughout the course. This course will cover integrations with Kafka, Active MQ, Postgres SQL , Rest WebServices and etc.\n"
-msgstr "[Udemy Training: Apache Camel for Beginners - Learn by Coding in Java](https://www.udemy.com/apache-camel-for-beginners-learn-by-coding-in-java/) - Apache CamelフレームワークをJavaでコーディングして学びます。このコースは純粋にコーディングのコースであり、コースを通して大量のコードを実行することになります。このコースでは、Kafka、Active MQ、Postgres SQL、Rest WebServicesなどとの統合を扱います。\n"
-
-#. type: Bullet: '*   '
-#: upstream/content/community/articles.md:343
-#, fuzzy, no-wrap
-msgid "[Max Munus](http://www.maxmunus.com/page/Apache-Camel) - Provides online training to many different technologies. They provide online training for Apache Camel.\n"
-msgstr "Max Munus](http://www.maxmunus.com/page/Apache-Camel) - さまざまな技術のオンライントレーニングを提供。Apache Camelのオンライントレーニングを提供している。\n"
 
 #. type: Title ##
-#: upstream/content/community/articles.md:344
+#: upstream/content/community/articles.md:346
 #, fuzzy, no-wrap
 msgid "Other"
 msgstr "その他"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:354
+#: upstream/content/community/articles.md:356
 #, fuzzy, no-wrap
 msgid "[Linkedin Apache Camel group](http://www.linkedin.com/groups?mostPopular=&gid=2447439) - Linkedin group for the Apache Camel project.\n"
 msgstr "[Linkedin Apache Camel group](http://www.linkedin.com/groups?mostPopular=&amp;gid=2447439) - Apache CamelプロジェクトのLinkedinグループ。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:354
+#: upstream/content/community/articles.md:356
 #, fuzzy, no-wrap
 msgid "[EIP printable flashcards studylib](https://studylib.net/doc/8175313/enterprise-integration-patterns-flashcards), [EIP printable flashcards nanopdf](https://nanopdf.com/download/enterprise-integration-patterns-flashcards_pdf), [EIP printable flashcards docplayer](https://docplayer.net/46191198-Enterprise-integration-patterns-flashcards.html) - A 6 page PDF with printable EIP cards.\n"
 msgstr "[EIP printable flashcards studylib](https://studylib.net/doc/8175313/enterprise-integration-patterns-flashcards), [EIP printable flashcards nanopdf](https://nanopdf.com/download/enterprise-integration-patterns-flashcards_pdf), [EIP printable flashcards docplayer](https://docplayer.net/46191198-Enterprise-integration-patterns-flashcards.html) - 印刷可能なEIPカードを収録した6ページのPDFです。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:354
+#: upstream/content/community/articles.md:356
 #, fuzzy, no-wrap
 msgid "There are several companies that provide extra documentation, examples, tutorials, etc... See the [Commercial Camel Offerings](../../manual/latest/commercial-camel-offerings.html) page for more details.\n"
 msgstr "追加のドキュメント、サンプル、チュートリアルなどを提供する会社がいくつかあります。詳しくは、[Commercial Camel Offerings](../../manual/latest/commercial-camel-offerings.html)のページをご覧ください。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:354
+#: upstream/content/community/articles.md:356
 #, fuzzy, no-wrap
 msgid "[Apache Camel Reference Card at DZone](http://refcardz.dzone.com/refcardz/enterprise-integration) _by Claus Ibsen_\n"
 msgstr "[Apache Camel Reference Card at DZone](http://refcardz.dzone.com/refcardz/enterprise-integration) _by Claus Ibsen_.\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:354
+#: upstream/content/community/articles.md:356
 #, fuzzy, no-wrap
 msgid "[The Top Twelve Integration Patterns for Apache Camel Reference Card at DZone](https://dzone.com/refcardz/enterprise-integration?chapter=1) _by Claus Ibsen_\n"
 msgstr "The Top Twelve Integration Patterns for Apache Camel Reference Card at DZone](https://dzone.com/refcardz/enterprise-integration?chapter=1) _by Claus Ibsen_.\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:354
+#: upstream/content/community/articles.md:356
 #, fuzzy, no-wrap
 msgid "[Essential Camel Components Reference Card at DZone](http://refcardz.dzone.com/refcardz/essential-camel-components) _by Christian Posta_\n"
 msgstr "Essential Camel Components Reference Card at DZone](http://refcardz.dzone.com/refcardz/essential-camel-components) _by Christian Posta_ (英語)\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:354
+#: upstream/content/community/articles.md:356
 #, fuzzy, no-wrap
 msgid "The Apache Camel Components Poster ([PDF](https://pdfslide.net/documents/apache-camel-components.html) _by Gliesian LLC._ (October, 2013)\n"
 msgstr "The Apache Camel Components Poster ([PDF](https://pdfslide.net/documents/apache-camel-components.html) _by Gliesian LLC._ (October, 2013)\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:354
+#: upstream/content/community/articles.md:356
 #, fuzzy, no-wrap
 msgid "[TrustRadius Apache Camel Reviews](https://www.trustradius.com/products/apache-camel/reviews) - Reviews and ratings from Camel end users on the TrustRadius website. \n"
 msgstr "[TrustRadius Apache Camel Reviews](https://www.trustradius.com/products/apache-camel/reviews) - TrustRadiusのウェブサイトに掲載されているCamelのエンドユーザーによるレビューと評価です。 \n"
 
 #. type: Title ##
-#: upstream/content/community/articles.md:355
+#: upstream/content/community/articles.md:357
 #, fuzzy, no-wrap
 msgid "Blogs"
 msgstr "ブログ"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:375
+#: upstream/content/community/articles.md:377
 #, fuzzy, no-wrap
 msgid "[Ashwin Karpe's Blog (OpenSourceKnowledge)](http://opensourceknowledge.blogspot.com/) - Ashwin is a Camel committer and writes about Camel.\n"
 msgstr "Ashwin Karpe's Blog (OpenSourceKnowledge)](http://opensourceknowledge.blogspot.com/) - AshwinはCamelのコミッターで、Camelについて書いています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:375
+#: upstream/content/community/articles.md:377
 #, fuzzy, no-wrap
 msgid "[Ben O'Day's Blog](http://benoday.blogspot.com/) - Ben works in the field and sometimes blogs about Camel\n"
 msgstr "[Ben O'Day's Blog](http://benoday.blogspot.com/) - Benは現場で働いており、時々Camelについてブログを書いています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:375
+#: upstream/content/community/articles.md:377
 #, fuzzy, no-wrap
 msgid "[Bilgin Ibryam's Blog](http://ofbizian.com/) - Bilgin blogs about Camel, OFBiz and Open Source in general.\n"
 msgstr "[Bilgin Ibryam's Blog](http://ofbizian.com/) - BilginはCamel、OFBiz、オープンソース全般についてブログを書いています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:375
+#: upstream/content/community/articles.md:377
 #, fuzzy, no-wrap
 msgid "[Charles Moulliard's Blog](http://cmoulliard.github.io/tags/#camel), [Old Charles Moulliard's Blog](http://cmoulliard.blogspot.com/) - Charles occasionally blogs about Camel and OSGi\n"
 msgstr "Charles Moulliard's Blog](http://cmoulliard.github.io/tags/#camel), [Old Charles Moulliard's Blog](http://cmoulliard.blogspot.com/) - Charlesは時折、CamelとOSGiについてブログを書いています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:375
+#: upstream/content/community/articles.md:377
 #, fuzzy, no-wrap
 msgid "[Christian Schneider's Blog](http://liquid-reality.de/Karaf-Tutorial/) - Christian occasionally blogs about Camel and CXF.\n"
 msgstr "Christian Schneider's Blog](http://liquid-reality.de/Karaf-Tutorial/) - ChristianはCamelとCXFについて時々ブログを書いています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:375
+#: upstream/content/community/articles.md:377
 #, fuzzy, no-wrap
 msgid "[Claus Ibsen's Blog](http://davsclaus.blogspot.com/) - Claus is a Camel committer since March 2008, and writes a lot about Camel.\n"
 msgstr "[Claus Ibsen's Blog](http://davsclaus.blogspot.com/) - Clausは2008年3月からCamelのコミッターを務めており、Camelについて多くのことを書いています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:375
+#: upstream/content/community/articles.md:377
 #, fuzzy, no-wrap
 msgid "[Hadrian Zbarcea](http://camelbot.blogspot.com/) - also blogs about Camel.\n"
 msgstr "[Hadrian Zbarcea](http://camelbot.blogspot.com/) - Camelについてもブログで紹介しています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:375
+#: upstream/content/community/articles.md:377
 #, fuzzy, no-wrap
 msgid "[James Strachan's Blog](http://macstrac.blogspot.com/) - James blogs about Camel sometimes too ![(smile)](https://cwiki.apache.org/confluence/s/en_GB/7701/d7b403a44466e5e8970db7530201039d865e79e1/_/images/icons/emoticons/smile.svg \"(smile)\")\n"
 msgstr "James Strachan's Blog](http://macstrac.blogspot.com/) - Jamesはキャメルについても時々ブログを書いています ![(smile)](https://cwiki.apache.org/confluence/s/en_GB/7701/d7b403a44466e5e8970db7530201039d865e79e1/_/images/icons/emoticons/smile.svg \"(smile)\")\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:375
+#: upstream/content/community/articles.md:377
 #, fuzzy, no-wrap
 msgid "[Jean-Baptiste Onofré's Blog](http://blog.nanthrax.net) - JB blogs about Camel, CXF, Karaf, ServiceMix and OSGi in general.\n"
 msgstr "Jean-Baptiste Onofré's Blog](http://blog.nanthrax.net) - JBは、Camel、CXF、Karaf、ServiceMix、OSGi全般についてブログを書いています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:375
+#: upstream/content/community/articles.md:377
 #, fuzzy, no-wrap
 msgid "[Jon Anstey's Blog](http://janstey.blogspot.com) - Jon occasionally blogs about Camel\n"
 msgstr "Jon Anstey's Blog](http://janstey.blogspot.com) - Jonは時々Camelについてブログを書いています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:375
+#: upstream/content/community/articles.md:377
 #, fuzzy, no-wrap
 msgid "[Kai Wähner's Blog](http://www.kai-waehner.de/blog) - Kai blogs about Camel, ESB, Cloud, and present Camel at various conferences as well.\n"
 msgstr "Kai Wähner's Blog](http://www.kai-waehner.de/blog) - KaiはCamel、ESB、クラウドについてブログを書いており、様々なカンファレンスでCamelのプレゼンテーションを行っています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:375
+#: upstream/content/community/articles.md:377
 #, fuzzy, no-wrap
 msgid "[Luca Burgazzoli's Blog](http://lburgazzoli.github.io/)- Luca blogs about Camel, Cloud, Fabric8, Kubernetes.\n"
 msgstr "Luca Burgazzoli's Blog](http://lburgazzoli.github.io/)- LucaはCamel, Cloud, Fabric8, Kubernetesについてブログを書いています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:375
+#: upstream/content/community/articles.md:377
 #, fuzzy, no-wrap
 msgid "[Marcelo Jarbali's Blog](http://marcelojabali.blogspot.com/) - Marcelo blogs about Websocket, Camel and integration.\n"
 msgstr "Marcelo Jarbali's Blog](http://marcelojabali.blogspot.com/) - MarceloはWebsocket、Camel、統合についてブログを書いています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:375
+#: upstream/content/community/articles.md:377
 #, fuzzy, no-wrap
 msgid "[Michael Warecki's Blog](http://michalwarecki.blogspot.com/) - Michael blogs about SOA, BPA and Camel.\n"
 msgstr "[Michael Warecki's Blog](http://michalwarecki.blogspot.com/) - MichaelはSOA、BPA、Camelについてブログを書いています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:375
+#: upstream/content/community/articles.md:377
 #, fuzzy, no-wrap
 msgid "[Robert James Liguori's Blog](https://archive.fo/XKA0Z) - (archived) Blogs about Java and supporting resources including Apache Camel.\n"
 msgstr "[Robert James Liguori's Blog](https://archive.fo/XKA0Z) - (archived) JavaとApache Camelを含むサポートリソースに関するブログ。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:375
+#: upstream/content/community/articles.md:377
 #, fuzzy, no-wrap
 msgid "[Willem Jiang's Blog](http://willemjiang.blogspot.com/) - Willem also writes about Camel in English and Chinese.\n"
 msgstr "[Willem Jiang's Blog](http://willemjiang.blogspot.com/) - Willemは英語と中国語でもキャメルについて書いています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:375
+#: upstream/content/community/articles.md:377
 #, fuzzy, no-wrap
 msgid "[Souciance Eqdam Rashti](https://soucianceeqdamrashti.wordpress.com/) - Blogs about integration and Apache Camel in English. \n"
 msgstr "Souciance Eqdam Rashti](https://soucianceeqdamrashti.wordpress.com/) - 統合やApache Camelに関する英語のブログ。 \n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:375
+#: upstream/content/community/articles.md:377
 #, fuzzy, no-wrap
 msgid "[Mastertheboss](http://www.mastertheboss.com) - Contains several tutorials for Camel 2 and 3 in English. \n"
 msgstr "[Mastertheboss](http://www.mastertheboss.com) - Camel 2 と 3 の英語のチュートリアルがいくつか含まれています。 \n"
 
 #. type: Title ##
-#: upstream/content/community/articles.md:376
+#: upstream/content/community/articles.md:378
 #, fuzzy, no-wrap
 msgid "Twitterers"
 msgstr "Twitterユーザー"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:382
+#: upstream/content/community/articles.md:384
 #, fuzzy, no-wrap
 msgid "[@davsclaus](http://twitter.com/#!/davsclaus) - Claus Ibsen ([@davsclaus](http://twitter.com/#!/davsclaus)) tweets often about Camel, open source, and integration.\n"
 msgstr "[@davsclaus](http://twitter.com/#!/davsclaus) - Claus Ibsen ([@davsclaus](http://twitter.com/#!/davsclaus))は、Camel、オープンソース、統合についてよくツイートしています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:382
+#: upstream/content/community/articles.md:384
 #, fuzzy, no-wrap
 msgid "[@bibryam](http://twitter.com/#!/bibryam) - Bilgin Ibryam ([@bibryam](http://twitter.com/#!/bibryam)) tweets often about Camel.\n"
 msgstr "[@bibryam](http://twitter.com/#!/bibryam) - Bilgin Ibryam ([@bibryam](http://twitter.com/#!/bibryam))は、Camelについてよくツイートしています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:382
+#: upstream/content/community/articles.md:384
 #, fuzzy, no-wrap
 msgid "[@jstrachan](https://twitter.com/jstrachan) - James Strachan ([@jstrachan](https://twitter.com/jstrachan)) tweets about Camel, open source and integration.\n"
 msgstr "[@jstrachan](https://twitter.com/jstrachan) - James Strachan ([@jstrachan](https://twitter.com/jstrachan))は、Camel、オープンソース、インテグレーションについてツイートしています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:382
+#: upstream/content/community/articles.md:384
 #, fuzzy, no-wrap
 msgid "[@hekonsek](https://twitter.com/hekonsek) - Henryk Konsek ([@hekonsek](https://twitter.com/hekonsek)) tweets about Camel and the Internet Of Things\n"
 msgstr "[@hekonsek](https://twitter.com/hekonsek) - Henryk Konsek ([@hekonsek](https://twitter.com/hekonsek))は、CamelとInternet Of Thingsについてツイートしています。\n"
 
 #. type: Title ##
-#: upstream/content/community/articles.md:383
+#: upstream/content/community/articles.md:385
 #, fuzzy, no-wrap
 msgid "Non-English"
 msgstr "英語以外"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:393
+#: upstream/content/community/articles.md:395
 #, fuzzy, no-wrap
 msgid "[Java integration frameworks - Spring Integration vs. Apache Camel](http://www.journaldunet.com/developpeur/java-j2ee/spring-integration-vs-apache-camel/) Article from April 2010 which compares the two frameworks (**in french**).\n"
 msgstr "Java統合フレームワーク - Spring Integration vs. Apache Camel](http://www.journaldunet.com/developpeur/java-j2ee/spring-integration-vs-apache-camel/)2010年4月の記事で、2つのフレームワークを比較しています（**in french**）。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:393
+#: upstream/content/community/articles.md:395
 #, fuzzy, no-wrap
 msgid "[3 Articles about Apache Camel to push notifications to Apple devices (in French)](http://blog.xebia.fr/2010/09/30/creer-un-composant-apache-camel-de-connexion-a-lapns-1-sur-3/) _by Alexis Kinsella_\n"
 msgstr "Appleデバイスにプッシュ通知するためのApache Camelに関する3つの記事（仏語）】(http://blog.xebia.fr/2010/09/30/creer-un-composant-apache-camel-de-connexion-a-lapns-1-sur-3/)_by Alexis Kinsella_（アレクシス・キンセラ\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:393
+#: upstream/content/community/articles.md:395
 #, fuzzy, no-wrap
 msgid "[Apache Camel for beginners](https://szukaj.programistamag.pl/uuid/02a558018a8688edb61e5eb0fa51b25bdf6d52b8) - **In polish**, article from online magazine posted in 2012 introducing Apache Camel.\n"
 msgstr "[Apache Camel for beginners](https://szukaj.programistamag.pl/uuid/02a558018a8688edb61e5eb0fa51b25bdf6d52b8) - **In polish**, 2012年に掲載されたApache Camelを紹介するオンラインマガジンの記事。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:393
+#: upstream/content/community/articles.md:395
 #, fuzzy, no-wrap
 msgid "[Apache Camel open source integration](https://www.youtube.com/watch?v=LnZs3_rkqz0&feature=youtu.be&a) - **In German**, a 20 minute video posted in early 2015 covering Apache Camel\n"
 msgstr "Apache Camel open source integration](https://www.youtube.com/watch?v=LnZs3_rkqz0&amp;feature=youtu.be&amp;a) - **ドイツ語**で、2015年初頭に投稿されたApache Camelをカバーする20分のビデオです。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:393
+#: upstream/content/community/articles.md:395
 #, fuzzy, no-wrap
 msgid "[Integration in a Microservices Style](https://www.youtube.com/watch?v=uLaIR8FHjGs) - **In French**, a 30 minute video from Devoxx France 2017. Abdellatif Bouchama presents how to run Camel as microservices in containers using Kubernetes.\n"
 msgstr "Integration in a Microservices Style](https://www.youtube.com/watch?v=uLaIR8FHjGs) - **In French**、Devoxx France 2017の30分のビデオです。Abdellatif Bouchama氏が、Kubernetesを使ってコンテナ内のマイクロサービスとしてCamelを動作させる方法を紹介しています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:393
+#: upstream/content/community/articles.md:395
 #, fuzzy, no-wrap
 msgid "[Why do we have to learn Apache Camel now](https://jcug-oss.github.io/article/why-do-we-have-to-learn-camel-q) - In Japanese from Japan Camel User Group September 2017. \n"
 msgstr "なぜ今Apache Camelを学ばなければならないのか】(https://jcug-oss.github.io/article/why-do-we-have-to-learn-camel-q) - In Japanese from Japan Camel User Group September 2017. \n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:393
+#: upstream/content/community/articles.md:395
 #, fuzzy, no-wrap
 msgid "[Telão Interativo SPTV com Apache Camel](http://willianantunes.blogspot.dk/2018/02/telao-interativo-sptv-apache-camel.html) - In Portugese from February 2018\\. Willian Antunes blogs about a Camel project used for grabbing tweets and live update on webpage. Using Camel, ActiveMQ, twitter, webscokets and Spring Boot.\n"
 msgstr "Telão Interativo SPTV com Apache Camel](http://willianantunes.blogspot.dk/2018/02/telao-interativo-sptv-apache-camel.html) - 2018年2月のポルトガル語版です。Willian Antunes氏は、ツイートを取得してWebページでライブアップデートするために使用するCamelプロジェクトについてブログを書いています。Camel、ActiveMQ、twitter、webscokets、Spring Bootを使用しています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:393
+#: upstream/content/community/articles.md:395
 #, fuzzy, no-wrap
 msgid "[Apache Camel vs Enterprise Service Bus](https://blog.gft.com/br/2018/03/28/apache-camel-vs-enterprise-service-bus/) - In Portugese from April 2018\\. Rafael Manzoni discusses the pros/cons of using Camel vs an ESB/SOA platform, and also some thoughts on modern cloud native applications and how Camel fit in there as well.\n"
 msgstr "[Apache Camel vs Enterprise Service Bus](https://blog.gft.com/br/2018/03/28/apache-camel-vs-enterprise-service-bus/) - 2018年4月のポルトガル語版。Rafael Manzoni氏は、CamelとESB/SOAプラットフォームを比較した場合のメリット/デメリットを議論し、また、最新のクラウドネイティブアプリケーションとそこでのCamelの適合性についても考えています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:393
+#: upstream/content/community/articles.md:395
 #, fuzzy, no-wrap
 msgid "[Apachel Camel and Kotlin: Extension functions in practice](https://medium.com/juntos-somos-mais/apachel-camel-e-kotlin-extension-functions-na-pr%C3%A1tica-d4401871b1c2) - In Portugese from December 2018. Willian Antunes blogs about unit testing Camel with Kotlin and Camel's advice with functionality.  \n"
 msgstr "Apachel Camel and Kotlin: Extension functions in practice](https://medium.com/juntos-somos-mais/apachel-camel-e-kotlin-extension-functions-na-pr%C3%A1tica-d4401871b1c2) - 2018年12月からポルトガル語で。ウィリアン・アントゥネスは、KotlinでのCamelのユニットテストと、機能性を備えたCamelのアドバイスについてブログを書いています。  \n"
+
+#, fuzzy
+#~ msgid "[Introduction to Apache Camel](http://www.pluralsight.com/courses/apache-camel-intro-integration) - Pluralsight o<span style=\"color: rgb(34,34,34);\">nline <span style=\"color: rgb(34,34,34);\">training course covering the core Camel framework, pattern implementations <span style=\"color: rgb(34,34,34);\">and [hawt.io](http://hawt.io/) \n"
+#~ msgstr ""
+#~ "Introduction to Apache Camel](http://www.pluralsight.com/courses/apache-camel-intro-integration) - Pluralsightの<span style=\"color: rgb(34,34,34);\"> <span style=\"color: rgb(34,34,34);\">オンライントレーニングコースでは、Camelのコアフレームワーク、パターンの実装<span style=\"color: rgb(34,34,34);\">、[hawt.io](http://hawt.io/</span></span></span>)<span style=\"color: rgb(34,34,34);\"> <span style=\"color: rgb(34,34,34);\">をカバーしています</span></span>。<span style=\"color: rgb(34,34,34);\"> <span style=\"color: rgb(34,34,34);\"> <span style=\"color: rgb(34,34,34);\">\n"
+#~ "</span></span></span>"
+
+#, fuzzy
+#~ msgid "[Apache Camel Video Tutorial](http://www.nvisia.com/apache-camel-video-tutorial) - A 3 part video series that introduces you to Apache Camel, covers an use-case, and then highlights why you should use Camel.\n"
+#~ msgstr "Apache Camel ビデオチュートリアル](http://www.nvisia.com/apache-camel-video-tutorial) - 3部構成のビデオシリーズで、Apache Camelを紹介し、ユースケースを取り上げ、なぜCamelを使うべきかを説明しています。\n"
+
+#, fuzzy
+#~ msgid "[Java In Use](http://www.javainuse.com/camel) - Apache Camel Introduction, Apache Camel Interview Questions, and other beginner related training for Apache Camel.\n"
+#~ msgstr "[Java In Use](http://www.javainuse.com/camel) - Apache Camel Introduction, Apache Camel Interview Questions, and other beginner related training for Apache Camel.\n"
+
+#, fuzzy
+#~ msgid "[Udemy Training: Apache Camel for Beginners - Learn by Coding in Java](https://www.udemy.com/apache-camel-for-beginners-learn-by-coding-in-java/) - Learn Apache Camel framework by coding it in Java. This is purely a coding course where you will be performing ton of code throughout the course. This course will cover integrations with Kafka, Active MQ, Postgres SQL , Rest WebServices and etc.\n"
+#~ msgstr "[Udemy Training: Apache Camel for Beginners - Learn by Coding in Java](https://www.udemy.com/apache-camel-for-beginners-learn-by-coding-in-java/) - Apache CamelフレームワークをJavaでコーディングして学びます。このコースは純粋にコーディングのコースであり、コースを通して大量のコードを実行することになります。このコースでは、Kafka、Active MQ、Postgres SQL、Rest WebServicesなどとの統合を扱います。\n"
+
+#, fuzzy
+#~ msgid "[Max Munus](http://www.maxmunus.com/page/Apache-Camel) - Provides online training to many different technologies. They provide online training for Apache Camel.\n"
+#~ msgstr "Max Munus](http://www.maxmunus.com/page/Apache-Camel) - さまざまな技術のオンライントレーニングを提供。Apache Camelのオンライントレーニングを提供している。\n"
