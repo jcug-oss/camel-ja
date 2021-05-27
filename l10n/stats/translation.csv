@@ -1,5 +1,6 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/ja_JP/content/blog/_index.md.po, 0, 1, 0, 1 ,100%
+l10n/po/ja_JP/content/community/articles.md.po, 340, 341, 7421, 7593 ,3%
 l10n/po/ja_JP/content/_index.md.po, 55, 57, 386, 389 ,1%
 l10n/po/ja_JP/content/sitemap/_index.md.po, 1, 1, 1, 1 ,0%
 l10n/po/ja_JP/content/security/_index.md.po, 7, 7, 70, 70 ,0%
@@ -128,7 +129,6 @@ l10n/po/ja_JP/content/community/mailing-list.md.po, 6, 6, 278, 278 ,0%
 l10n/po/ja_JP/content/community/contributing.md.po, 73, 73, 1742, 1742 ,0%
 l10n/po/ja_JP/content/community/camel-extra.md.po, 2, 2, 24, 24 ,0%
 l10n/po/ja_JP/content/community/books.md.po, 49, 49, 1270, 1270 ,0%
-l10n/po/ja_JP/content/community/articles.md.po, 345, 345, 7562, 7562 ,0%
 l10n/po/ja_JP/content/community/_index.md.po, 31, 31, 249, 249 ,0%
 l10n/po/ja_JP/content/blog/2021/05/vscode-camel-release/index.md.po, 18, 18, 323, 323 ,0%
 l10n/po/ja_JP/content/blog/2021/05/plantuml-diagram/index.md.po, 8, 8, 107, 107 ,0%
