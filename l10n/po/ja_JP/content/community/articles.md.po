@@ -1807,7 +1807,7 @@ msgstr "オンライントレーニング"
 
 #. type: Plain text
 #: upstream/content/community/articles.md:344
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "*  [Build a Registration System with Camel and Kubernetes](https://www.manning.com/liveproject/build-a-registration-system-with-camel-and-kubernetes) - A self-pased online learning (May 2021) where you’ll master common Apache Camel techniques and components for helping build modern interconnected applications.   \n"
 "*   [Introduction to Apache Camel](http://www.pluralsight.com/courses/apache-camel-intro-integration) - Pluralsight o<span style=\"color: rgb(34,34,34);\">nline <span style=\"color: rgb(34,34,34);\">training course covering the core Camel framework, pattern implementations <span style=\"color: rgb(34,34,34);\">and [hawt.io](http://hawt.io/) \n"
@@ -1816,6 +1816,13 @@ msgid ""
 "*   [Udemy Training: Apache Camel for Beginners - Learn by Coding in Java](https://www.udemy.com/apache-camel-for-beginners-learn-by-coding-in-java/) - Learn Apache Camel framework by coding it in Java. This is purely a coding course where you will be performing ton of code throughout the course. This course will cover integrations with Kafka, Active MQ, Postgres SQL , Rest WebServices and etc.\n"
 "*   [Max Munus](http://www.maxmunus.com/page/Apache-Camel) - Provides online training to many different technologies. They provide online training for Apache Camel.\n"
 msgstr ""
+"* [Build a Registration System with Camel and Kubernetes](https://www.manning.com/liveproject/build-a-registration-system-with-camel-and-kubernetes) - 自習型のオンライン学習(2021年5月)で、最新の相互接続アプリケーションの構築を支援するApache Camelの一般的な技術とコンポーネントを習得します。   \n"
+"* [Introduction to Apache Camel](http://www.pluralsight.com/courses/apache-camel-intro-integration) - Pluralsight の<span style=\"color: rgb(34,34,34);\"> <span style=\"color: rgb(34,34,34);\">オンライントレーニングコースで、Camel のコアフレームワーク、パターン実装<span style=\"color: rgb(34,34,34);\">、[hawt.io](http://hawt.io/</span></span></span>)<span style=\"color: rgb(34,34,34);\"> <span style=\"color: rgb(34,34,34);\">をカバーしています</span></span>。<span style=\"color: rgb(34,34,34);\"> <span style=\"color: rgb(34,34,34);\"> <span style=\"color: rgb(34,34,34);\">\n"
+"Apache Camel Video Tutorial](http://www.nvisia.com/apache-camel-video-tutorial) - 3 部構成のビデオシリーズで、Apache Camel の紹介、ユースケースの説明、そして Camel を使うべき理由を説明しています。\n"
+"* [Java In Use](http://www.javainuse.com/camel) - Apache Camel Introduction, Apache Camel Interview Questions, and other beginner related training for Apache Camel.\n"
+"* [Udemy Training: Apache Camel for Beginners - Learn by Coding in Java](https://www.udemy.com/apache-camel-for-beginners-learn-by-coding-in-java/) - Apache CamelフレームワークをJavaでコーディングして学びます。このコースは純粋にコーディングコースで、コースを通して大量のコードを実行することになります。このコースでは、Kafka、Active MQ、Postgres SQL、Rest WebServicesなどとの統合をカバーします。\n"
+"* [Max Munus](http://www.maxmunus.com/page/Apache-Camel) - さまざまな技術のオンライントレーニングを提供しています。Apache Camel のオンライントレーニングを提供しています。\n"
+"</span></span></span>"
 
 #. type: Title ##
 #: upstream/content/community/articles.md:346
