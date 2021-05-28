@@ -1,8 +1,5 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
-l10n/po/ja_JP/content/releases/release-2.25.4.md.po, 0, 3, 0, 15 ,100%
 l10n/po/ja_JP/content/blog/_index.md.po, 0, 1, 0, 1 ,100%
-l10n/po/ja_JP/content/blog/2021/05/RELEASE-2.25.4/index.md.po, 0, 7, 0, 115 ,100%
-l10n/po/ja_JP/content/community/articles.md.po, 345, 347, 7562, 7643 ,2%
 l10n/po/ja_JP/content/_index.md.po, 55, 57, 386, 389 ,1%
 l10n/po/ja_JP/content/sitemap/_index.md.po, 1, 1, 1, 1 ,0%
 l10n/po/ja_JP/content/security/_index.md.po, 7, 7, 70, 70 ,0%
@@ -50,6 +47,7 @@ l10n/po/ja_JP/content/releases/release-3.0.0.md.po, 3, 3, 14, 14 ,0%
 l10n/po/ja_JP/content/releases/release-3.0.0-RC3.md.po, 3, 3, 19, 19 ,0%
 l10n/po/ja_JP/content/releases/release-3.0.0-RC2.md.po, 3, 3, 17, 17 ,0%
 l10n/po/ja_JP/content/releases/release-3.0.0-RC1.md.po, 3, 3, 17, 17 ,0%
+l10n/po/ja_JP/content/releases/release-2.25.4.md.po, 3, 3, 15, 15 ,0%
 l10n/po/ja_JP/content/releases/release-2.25.3.md.po, 3, 3, 15, 15 ,0%
 l10n/po/ja_JP/content/releases/release-2.25.2.md.po, 3, 3, 15, 15 ,0%
 l10n/po/ja_JP/content/releases/release-2.25.1.md.po, 3, 3, 15, 15 ,0%
@@ -131,6 +129,7 @@ l10n/po/ja_JP/content/community/mailing-list.md.po, 6, 6, 278, 278 ,0%
 l10n/po/ja_JP/content/community/contributing.md.po, 73, 73, 1742, 1742 ,0%
 l10n/po/ja_JP/content/community/camel-extra.md.po, 2, 2, 24, 24 ,0%
 l10n/po/ja_JP/content/community/books.md.po, 49, 49, 1270, 1270 ,0%
+l10n/po/ja_JP/content/community/articles.md.po, 347, 347, 7643, 7643 ,0%
 l10n/po/ja_JP/content/community/_index.md.po, 31, 31, 249, 249 ,0%
 l10n/po/ja_JP/content/blog/2021/05/vscode-camel-release/index.md.po, 18, 18, 323, 323 ,0%
 l10n/po/ja_JP/content/blog/2021/05/plantuml-diagram/index.md.po, 8, 8, 107, 107 ,0%
@@ -138,6 +137,7 @@ l10n/po/ja_JP/content/blog/2021/05/new-camel-k-logging-features/index.md.po, 24,
 l10n/po/ja_JP/content/blog/2021/05/multicast-failure-routing/index.md.po, 33, 33, 1399, 1399 ,0%
 l10n/po/ja_JP/content/blog/2021/05/RELEASE-3.7.4/index.md.po, 7, 7, 79, 79 ,0%
 l10n/po/ja_JP/content/blog/2021/05/RELEASE-3.10.0/index.md.po, 6, 6, 78, 78 ,0%
+l10n/po/ja_JP/content/blog/2021/05/RELEASE-2.25.4/index.md.po, 7, 7, 115, 115 ,0%
 l10n/po/ja_JP/content/blog/2021/05/KameletToolingSupportInCamelURI/index.md.po, 19, 19, 263, 263 ,0%
 l10n/po/ja_JP/content/blog/2021/05/JavaDebuggingInVSCode-iteration2/index.md.po, 38, 38, 481, 481 ,0%
 l10n/po/ja_JP/content/blog/2021/05/Camel310-Whatsnew/index.md.po, 50, 50, 808, 808 ,0%
