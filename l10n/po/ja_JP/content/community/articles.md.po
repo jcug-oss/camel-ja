@@ -31,9 +31,9 @@ msgstr "キャメルビデオ"
 
 #. type: Bullet: '*   '
 #: upstream/content/community/articles.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Integrating systems in the age of Quarkus and Camel](https://www.youtube.com/watch?v=b7FxG2mKop8) 45 min webinar from May 2021 by Claus Ibsen, with quick overview of Camel 3 projects and then focus on Camel Quarkus, Camel K and Kamelets. Mix of slides and live demos (yes with a demo not working perfect)\n"
-msgstr ""
+msgstr "[Integrating systems in the age of Quarkus and Camel](https://www.youtube.com/watch?v=b7FxG2mKop8) 2021年5月に開催されたClaus Ibsen氏による45分間のウェビナーで、Camel 3プロジェクトの簡単な概要と、Camel Quarkus、Camel K、Kameletsに焦点を当てています。スライドとライブデモの組み合わせ（デモは完璧ではありません）。\n"
 
 #. type: Bullet: '*   '
 #: upstream/content/community/articles.md:50
@@ -1813,9 +1813,9 @@ msgstr "オンライントレーニング"
 
 #. type: Bullet: '*   '
 #: upstream/content/community/articles.md:345
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Build a Registration System with Camel and Kubernetes](https://www.manning.com/liveproject/build-a-registration-system-with-camel-and-kubernetes) - A self-pased online learning (May 2021) where you’ll master common Apache Camel techniques and components for helping build modern interconnected applications.   \n"
-msgstr ""
+msgstr "CamelとKubernetesによる登録システムの構築](https://www.manning.com/liveproject/build-a-registration-system-with-camel-and-kubernetes) - 自習型のオンライン学習(2021年5月)で、最新の相互接続アプリケーションの構築に役立つApache Camelの一般的なテクニックとコンポーネントを習得します。   \n"
 
 #. type: Bullet: '*   '
 #: upstream/content/community/articles.md:345

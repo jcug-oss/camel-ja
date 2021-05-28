@@ -18,44 +18,46 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/05/RELEASE-2.25.4/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel community announces the immediate availability of Camel 2.25.4"
-msgstr ""
+msgstr "Camelコミュニティは、Camel 2.25.4の即時公開を発表しました。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/05/RELEASE-2.25.4/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "RELEASE 2.25.4"
-msgstr ""
+msgstr "リリース 2.25.4"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/RELEASE-2.25.4/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel community announces the immediate availability of Camel 2.25.4, a new patch release with 10 fixes and improvements.\n"
-msgstr ""
+msgstr "Camelコミュニティは、10件の修正と改良を施した新パッチリリース、Camel 2.25.4の即時公開を発表しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/RELEASE-2.25.4/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The artifacts are published and ready for you to download from Maven Central. For more details please take a look at the [release notes](/releases/release-2.25.4/).\n"
-msgstr ""
+msgstr "アーティファクトが公開され、Maven Centralからダウンロードできるようになりました。詳細については、[リリースノート](/releases/release-2.25.4/)をご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/RELEASE-2.25.4/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Please note that the 2.x major version will reach end-of-life (EOL) by January 2022. We plan to release a final Camel 2.25.5 version around that time and include some final patches and dependency upgrades. After that, we will no longer support Camel 2.x.\n"
-msgstr ""
+msgstr "なお、2.xのメジャーバージョンは2022年1月にEOL（End-of-Life）を迎えます。その頃にCamel 2.25.5の最終版をリリースし、最終的なパッチや依存関係のアップグレードを含むことを予定しています。それ以降は、Camel 2.xのサポートを終了します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/RELEASE-2.25.4/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Many thanks to all who made this release possible.\n"
-msgstr ""
+msgstr "今回のリリースにご協力いただいた皆様に感謝いたします。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/RELEASE-2.25.4/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "On behalf of the Camel PMC,\n"
 "Gregor Zurowski\n"
 msgstr ""
+"Camel PMCを代表して。\n"
+"グレゴール・ズロウスキー\n"
