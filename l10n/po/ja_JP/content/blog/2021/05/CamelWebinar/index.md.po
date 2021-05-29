@@ -18,36 +18,42 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/05/CamelWebinar/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "45 min webinar covering latest with Apache Camel, Camel Quarkus, Camel K and Kamelets"
-msgstr ""
+msgstr "45分のウェビナーでは、Apache Camel、Camel Quarkus、Camel K、Kameletsの最新情報をカバーしています。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/05/CamelWebinar/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Webinar Integrate Systems in the Age of Camel and Quarkus"
-msgstr ""
+msgstr "ウェビナー CamelとQuarkusの時代にシステムを統合する"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/CamelWebinar/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Yesterday Claus Ibsen presented a webinar where he covered all the latest innovations with Apache Camel\n"
 "with focus on Camel Quarkus, Camel K, and Kamelets. This trio is a powerful combination that takes Camel\n"
 "to another level, which allows non developers and IT professionals, to manage and bind systems together without\n"
 "any Camel knowledge. \n"
 msgstr ""
+"昨日、Claus Ibsenはウェビナーを開催し、Apache Camelの最新の技術をすべてカバーしました。\n"
+"Camel Quarkus、Camel K、Kameletsに焦点を当てました。この3つの組み合わせは、Camelをさらに進化させる強力なものです。\n"
+"開発者でなくても、IT専門家でなくても、Camelの知識がなくても、システムを管理したり結合したりすることができます。\n"
+"システムを管理・結合することができます。 \n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/CamelWebinar/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kamelets being the Apache Camel solution for an _app store experience_ with integration software.\n"
-msgstr ""
+msgstr "Kameletsは、統合ソフトウェアを使った「アプリストア体験」のためのApache Camelのソリューションです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/05/CamelWebinar/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The webinar is [online on youtube](https://www.youtube.com/watch?v=b7FxG2mKop8) \n"
 "and the [slides is here](https://www.slideshare.net/davsclaus/integrating-systems-in-the-age-of-quarkus-and-camel).\n"
 msgstr ""
+"ウェビナーは[youtubeでオンライン](https://www.youtube.com/watch?v=b7FxG2mKop8) \n"
+"スライドはこちら](https://www.slideshare.net/davsclaus/integrating-systems-in-the-age-of-quarkus-and-camel)をご覧ください。\n"
