@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"POT-Creation-Date: 2021-06-01 15:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "Release 3.4.5"
 msgstr "リリース 3.4.5"
 
 #. type: Plain text
-#: upstream/content/releases/release-3.4.5.md:15
+#: upstream/content/releases/release-3.4.5.md:16
 #, fuzzy, no-wrap
 msgid "This release is the new Camel 3.4.5 patch release.\n"
 msgstr "このリリースは、新しいCamel 3.4.5のパッチリリースです。\n"
