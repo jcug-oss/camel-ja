@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"POT-Creation-Date: 2021-06-11 15:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,7 +67,7 @@ msgstr "基本設定の完了"
 #. type: Plain text
 #: upstream/content/blog/2021/01/VSCode-LanguageSupport-0.0.30/index.md:22
 #, fuzzy, no-wrap
-msgid "Some properties are not part of the Camel catalog material, neither of the [Kafka Connect](https://kafka.apache.org/documentation/#connectconfigs) framework and applies to all Camel Kafka connectors. They are the [Basic Configuration properties](/camel-kafka-connector/latest/basic-configuration.html).\n"
+msgid "Some properties are not part of the Camel catalog material, neither of the [Kafka Connect](https://kafka.apache.org/documentation/#connectconfigs) framework and applies to all Camel Kafka connectors. They are the [Basic Configuration properties](/camel-kafka-connector/latest/user-guide/basic-configuration.html).\n"
 msgstr "Kafka Connect](https://kafka.apache.org/documentation/#connectconfigs)のフレームワークでもなく、Camelのカタログ素材でもない、すべてのCamel Kafkaコネクタに適用されるプロパティがあります。それが「基本構成プロパティ」(/camel-kafka-connector/latest/basic-configuration.html)です。\n"
 
 #. type: Plain text

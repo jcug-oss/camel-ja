@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"POT-Creation-Date: 2021-06-11 15:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -195,7 +195,7 @@ msgstr "実例"
 #. type: Plain text
 #: upstream/content/blog/2020/12/CKC-idempotency-070/index.md:70
 #, fuzzy, no-wrap
-msgid "The best way to show how the idempotency feature works, in camel-kafka-connector, it's through an example. We'll use the [AWS2-S3 Source connector](/camel-kafka-connector/latest/connectors/camel-aws2-s3-kafka-source-connector.html)\n"
+msgid "The best way to show how the idempotency feature works, in camel-kafka-connector, it's through an example. We'll use the [AWS2-S3 Source connector](/camel-kafka-connector/latest/reference/connectors/camel-aws2-s3-kafka-source-connector.html)\n"
 msgstr "camel-kafka-connectorで、idempotency機能がどのように機能するかを示すには、例を挙げるのが一番です。ここでは、[AWS2-S3 Source connector](/camel-kafka-connector/latest/connectors/camel-aws2-s3-kafka-source-connector.html)を使います。\n"
 
 #. type: Plain text
