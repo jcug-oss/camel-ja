@@ -40,8 +40,25 @@ for ITEM in `\find upstream/content -name "*.md"`; do
     fi
 done
 
+# ignore htmls which are not processable with po4a-updatepo due to 'Bad attribute syntax'
+HTML_IGNORES=(
+"upstream/layouts/partials/footer.html"
+"upstream/layouts/partials/header.html"
+"upstream/layouts/blog/summary.html"
+"upstream/layouts/blog/post.html"
+"upstream/layouts/shortcodes/table.html"
+)
+
+set +e
 for ITEM in `\find upstream/layouts -name "*.html"`; do
     if [ -f $ITEM ] ; then
+        # skip if it's in ignore list
+        for IGNORE in ${HTML_IGNORES[@]}; do
+            if [ "$ITEM" = "$IGNORE" ]; then
+                continue 2
+            fi
+        done
         po4a-updatepo $ITEM xhtml
     fi
 done
+set -e
