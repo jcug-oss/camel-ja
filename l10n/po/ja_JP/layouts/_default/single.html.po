@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-14 23:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: outside any tag (error?)
+#: upstream/layouts/_default/single.html:1
+msgid "{{ partial \"header.html\" . }}"
+msgstr ""
+
+#. type: Content of: <div><main><div><article>
+#: upstream/layouts/_default/single.html:8
+msgid "{{ with .Title }}"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><h1>
+#: upstream/layouts/_default/single.html:9
+msgid "{{ . }}"
+msgstr ""
+
+#. type: Content of: <div><main><div><article>
+#: upstream/layouts/_default/single.html:10
+msgid "{{ end }}"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><aside><div><h3>
+#: upstream/layouts/_default/single.html:13
+msgid "Contents"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><aside><div>
+#: upstream/layouts/_default/single.html:14
+msgid "{{ .TableOfContents }}"
+msgstr ""
+
+#. type: Content of: <div><main><div><article>
+#: upstream/layouts/_default/single.html:17
+msgid "{{ .Content }}"
+msgstr ""
+
+#. type: Content of: outside any tag (error?)
+#: upstream/layouts/_default/single.html:26
+msgid "{{ partial \"footer.html\" . }}"
+msgstr ""

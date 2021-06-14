@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-14 23:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <h2>
+#: upstream/layouts/partials/releases/camel-kafka-connector.html:1
+msgid "<a class=\"anchor\" href=\"#maven\"></a>Getting the binaries from Maven Central"
+msgstr ""
+
+#. type: Content of: <p>
+#: upstream/layouts/partials/releases/camel-kafka-connector.html:3
+msgid "We maintain a handy table linking to binary packages for the latest release on the <a href=\"/camel-kafka-connector/latest/reference/index.html\">connector list</a>."
+msgstr ""
+
+#. type: Content of: <p>
+#: upstream/layouts/partials/releases/camel-kafka-connector.html:5
+msgid "For this release you can use Maven Central Repository Search to find and download the binary packages. This search will show the packages from this release: <code>g:org.apache.camel.kafkaconnector AND l:package AND v:{{ .Params.version }}</code>, or you can follow this link to the <a href=\"https://search.maven.org/search?q=g:org.apache.camel.kafkaconnector%20AND%20l:package%20AND%20v:{{ .Params.version }}\">search results</a>."
+msgstr ""
+
+#. type: Content of: <h2>
+#: upstream/layouts/partials/releases/camel-kafka-connector.html:7
+msgid "<a class=\"anchor\" href=\"#source\"></a>Source Distribution"
+msgstr ""
+
+#. type: Content of: <p>
+#: upstream/layouts/partials/releases/camel-kafka-connector.html:10
+msgid "Source distribution contains all the artifacts Apache Camel project distributes in source form"
+msgstr ""
+
+#. type: Content of: outside any tag (error?)
+#: upstream/layouts/partials/releases/camel-kafka-connector.html:14
+msgid "{{ partial \"releases/downloads.html\" (dict \"Category\" (index (index $.Site.Data \"release-categories\") \"camel-kafka-connector\") \"Pages\" $.Site.Pages \"Version\" .Params.version) }}"
+msgstr ""
+
+#. type: Content of: <h2>
+#: upstream/layouts/partials/releases/camel-kafka-connector.html:16
+msgid "<a class=\"anchor\" href=\"#git\"></a>Git tag checkout"
+msgstr ""
+
+#. type: Content of: <p>
+#: upstream/layouts/partials/releases/camel-kafka-connector.html:18
+msgid "Release is tagged with <code>camel-kafka-connector{{ .Params.version }}</code> in the Git, to fetch it use:"
+msgstr ""
+
+#. type: Content of: <pre>
+#: upstream/layouts/partials/releases/camel-kafka-connector.html:23
+#, no-wrap
+msgid ""
+"git clone https://git-wip-us.apache.org/repos/asf/camel-kafka-connector.git\n"
+"cd camel-kafka-connector\n"
+"git checkout camel-kafka-connector-{{ .Params.version }}"
+msgstr ""
+
+#. type: Content of: <h2>
+#: upstream/layouts/partials/releases/camel-kafka-connector.html:27
+msgid "<a class=\"anchor\" href=\"#resolved\"></a>Resolved issues"
+msgstr ""
+
+#. type: Content of: <p>
+#: upstream/layouts/partials/releases/camel-kafka-connector.html:28
+msgid "Here is a list of all the issues that have been resolved for this release"
+msgstr ""
+
+#. type: Content of: outside any tag (error?)
+#: upstream/layouts/partials/releases/camel-kafka-connector.html:29
+msgid "{{ $issues := getJSON $.Site.Params.GitHubAPI \"/repos/apache/camel-kafka-connector/issues?state=closed&labels=\" (string .Params.version) }}"
+msgstr ""
+
+#. type: Content of: <dl>
+#: upstream/layouts/partials/releases/camel-kafka-connector.html:31
+msgid "{{ range $issues }}"
+msgstr ""
+
+#. type: Content of: <dl><dt>
+#: upstream/layouts/partials/releases/camel-kafka-connector.html:32
+msgid "<a href=\"{{ .html_url }}\">#{{ .number }}</a>"
+msgstr ""
+
+#. type: Content of: <dl><dd>
+#: upstream/layouts/partials/releases/camel-kafka-connector.html:32
+msgid "{{ .title }}"
+msgstr ""
+
+#. type: Content of: <dl>
+#: upstream/layouts/partials/releases/camel-kafka-connector.html:33
+msgid "{{ end }}"
+msgstr ""

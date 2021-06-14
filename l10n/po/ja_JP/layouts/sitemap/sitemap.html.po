@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-14 23:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: outside any tag (error?)
+#: upstream/layouts/sitemap/sitemap.html:1
+msgid "{{ partial \"header.html\" . }}"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><h1>
+#: upstream/layouts/sitemap/sitemap.html:7
+msgid "{{ .Title }}"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><h2>
+#: upstream/layouts/sitemap/sitemap.html:8
+msgid "Overview"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><ul>
+#: upstream/layouts/sitemap/sitemap.html:10
+msgid "{{ $currentPage := .Permalink }} {{ range .Site.Sections }} {{ if not (eq $currentPage .Permalink) }}"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><ul><li>
+#: upstream/layouts/sitemap/sitemap.html:13
+msgid "<a href=\"{{ .RelPermalink }}\">{{.Title}}</a>"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><ul>
+#: upstream/layouts/sitemap/sitemap.html:14
+msgid "{{end}} {{ end }}"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><a>
+#: upstream/layouts/sitemap/sitemap.html:17
+#: upstream/layouts/sitemap/sitemap.html:26
+msgid "<a href=\"/docs/\">"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><a><h2>
+#: upstream/layouts/sitemap/sitemap.html:17
+msgid "Documentation"
+msgstr ""
+
+#. type: Content of: <div><main><div><article>
+#: upstream/layouts/sitemap/sitemap.html:17
+#: upstream/layouts/sitemap/sitemap.html:26
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><ul><li>
+#: upstream/layouts/sitemap/sitemap.html:19
+msgid "<a href=\"/manual/latest/getting-started.html\">Getting Started</a>"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><ul><li>
+#: upstream/layouts/sitemap/sitemap.html:20
+msgid "<a href=\"/manual/latest/\">User Manual</a>"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><ul><li>
+#: upstream/layouts/sitemap/sitemap.html:21
+msgid "<a href=\"/manual/latest/faq/\">Frequently Asked Questions</a>"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><ul><li>
+#: upstream/layouts/sitemap/sitemap.html:22
+msgid "<a href=\"/components/latest/\">Component Reference</a>"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><ul><li>
+#: upstream/layouts/sitemap/sitemap.html:23
+msgid "<a href=\"/components/latest/dataformats/\">Data Formats</a>"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><ul><li>
+#: upstream/layouts/sitemap/sitemap.html:24
+msgid "<a href=\"/components/latest/eips/enterprise-integration-patterns.html\">Enterprise Integration Patterns</a>"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><a><h2>
+#: upstream/layouts/sitemap/sitemap.html:26
+msgid "Sub Projects"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><ul><li>
+#: upstream/layouts/sitemap/sitemap.html:28
+msgid "<a href=\"/manual/latest/\">Camel Core</a>"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><ul><li>
+#: upstream/layouts/sitemap/sitemap.html:29
+msgid "<a href=\"/camel-k/latest/\">Camel K</a>"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><ul><li>
+#: upstream/layouts/sitemap/sitemap.html:30
+msgid "<a href=\"/camel-quarkus/latest/\">Camel Quarkus</a>"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><ul><li>
+#: upstream/layouts/sitemap/sitemap.html:31
+msgid "<a href=\"/camel-spring-boot/latest/\">Camel Spring Boot</a>"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><ul><li>
+#: upstream/layouts/sitemap/sitemap.html:32
+msgid "<a href=\"/camel-kafka-connector/latest/\">Camel Kafka Connector</a>"
+msgstr ""
+
+#. type: Content of: <div><main><div><article><ul><li>
+#: upstream/layouts/sitemap/sitemap.html:33
+msgid "<a href=\"/camel-karaf/latest/\">Camel Karaf</a>"
+msgstr ""
+
+#. type: Content of: outside any tag (error?)
+#: upstream/layouts/sitemap/sitemap.html:40
+msgid "{{ partial \"footer.html\" . }}"
+msgstr ""

@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-14 23:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <h2>
+#: upstream/layouts/partials/releases/camel.html:1
+msgid "<a class=\"anchor\" href=\"#maven\"></a>Getting the Binaries using Maven"
+msgstr ""
+
+#. type: Content of: <p>
+#: upstream/layouts/partials/releases/camel.html:2
+msgid "To use this release in your <a href=\"https://maven.apache.org\">Apache Maven</a> <code>pom.xml</code>, import the Camel Bill of Materials (BOM) and then include the <code>camel-core</code> and any other components needed without specifying the version."
+msgstr ""
+
+#. type: Content of: <p><aside><p><mark>
+#: upstream/layouts/partials/releases/camel.html:4
+#: upstream/layouts/partials/releases/camel.html:32
+#: upstream/layouts/partials/releases/camel.html:33
+msgid "Note:"
+msgstr ""
+
+#. type: Content of: <aside><p>
+#: upstream/layouts/partials/releases/camel.html:4
+msgid "<code>camel-bom</code> is available from Camel 2.20.0 onward."
+msgstr ""
+
+#. type: Content of: <p><aside><p>
+#: upstream/layouts/partials/releases/camel.html:5
+#: upstream/layouts/partials/releases/camel.html:34
+msgid "Replace the <code>COMPONENT</code> with the artifact outlined in the <a href=\"/components/latest/\">component documentation</a>"
+msgstr ""
+
+#. type: Content of: <p><pre><code>
+#: upstream/layouts/partials/releases/camel.html:7
+#: upstream/layouts/partials/releases/camel.html:36
+msgid "<code>{{ htmlUnescape (printf `"
+msgstr ""
+
+#. type: Content of: <pre><code><dependencies><dependency><groupId>
+#: upstream/layouts/partials/releases/camel.html:10
+#: upstream/layouts/partials/releases/camel.html:21
+#: upstream/layouts/partials/releases/camel.html:25
+msgid "org.apache.camel"
+msgstr ""
+
+#. type: Content of: <pre><code><dependencyManagement><dependencies><dependency><artifactId>
+#: upstream/layouts/partials/releases/camel.html:11
+msgid "camel-bom"
+msgstr ""
+
+#. type: Content of: <p><pre><code><dependencyManagement><dependencies><dependency><version>
+#: upstream/layouts/partials/releases/camel.html:12
+#: upstream/layouts/partials/releases/camel.html:41
+msgid "%s"
+msgstr ""
+
+#. type: Content of: <p><pre><code><dependencyManagement><dependencies><dependency><type>
+#: upstream/layouts/partials/releases/camel.html:13
+#: upstream/layouts/partials/releases/camel.html:42
+msgid "pom"
+msgstr ""
+
+#. type: Content of: <p><pre><code><dependencyManagement><dependencies><dependency><scope>
+#: upstream/layouts/partials/releases/camel.html:14
+#: upstream/layouts/partials/releases/camel.html:43
+msgid "import"
+msgstr ""
+
+#. type: Content of: <pre><code><dependencies><dependency><artifactId>
+#: upstream/layouts/partials/releases/camel.html:22
+msgid "camel-core"
+msgstr ""
+
+#. type: Content of: <pre><code><dependencies><dependency><artifactId>
+#: upstream/layouts/partials/releases/camel.html:26
+msgid "camel-COMPONENT"
+msgstr ""
+
+#. type: Content of: <p><pre>
+#: upstream/layouts/partials/releases/camel.html:29
+#: upstream/layouts/partials/releases/camel.html:54
+#, no-wrap
+msgid "` .Params.version) }}</code>"
+msgstr ""
+
+#. type: Content of: <p>
+#: upstream/layouts/partials/releases/camel.html:30
+msgid "To use this release in a Spring Boot application, use the <code>camel-spring-boot-dependencies</code> Bill of Materials (BOM):"
+msgstr ""
+
+#. type: Content of: <p><aside><p>
+#: upstream/layouts/partials/releases/camel.html:32
+msgid "for Camel 3.0.0 and newer releases the <code>groupId</code> for Camel Spring Boot support changed from <code>org.apache.camel</code> to <code>org.apache.camel.springbooot</code>, so be sure to check that the appropriate <code>groupId</code> is used for the Camel version."
+msgstr ""
+
+#. type: Content of: <p><aside><p>
+#: upstream/layouts/partials/releases/camel.html:33
+msgid "for Camel 3.8.0 and newer releases there is another BOM available with the <code>artifactId</code> of <code>camel-spring-boot-bom</code> which you could instead make use of. For details see <a href=\"/camel-spring-boot/latest/#_camel_spring_boot_bom_vs_camel_spring_boot_dependencies_bom\">the corresponding documentation.</a>"
+msgstr ""
+
+#. type: Content of: <p><pre><code><dependencies><dependency><groupId>
+#: upstream/layouts/partials/releases/camel.html:39
+#: upstream/layouts/partials/releases/camel.html:50
+msgid "org.apache.camel.springboot"
+msgstr ""
+
+#. type: Content of: <p><pre><code><dependencyManagement><dependencies><dependency><artifactId>
+#: upstream/layouts/partials/releases/camel.html:40
+msgid "camel-spring-boot-dependencies"
+msgstr ""
+
+#. type: Content of: <p><pre><code><dependencies><dependency><artifactId>
+#: upstream/layouts/partials/releases/camel.html:51
+msgid "camel-COMPONENT-starter"
+msgstr ""
+
+#. type: Content of: <p>
+#: upstream/layouts/partials/releases/camel.html:56
+msgid "{{ partial \"releases/downloads.html\" (dict \"Category\" (index (index $.Site.Data \"release-categories\") \"camel\") \"Pages\" $.Site.Pages \"Version\" .Params.version) }}"
+msgstr ""
+
+#. type: Content of: <p><h2>
+#: upstream/layouts/partials/releases/camel.html:58
+msgid "<a class=\"anchor\" href=\"#git\"></a>Git tag checkout"
+msgstr ""
+
+#. type: Content of: <p><p>
+#: upstream/layouts/partials/releases/camel.html:59
+msgid "Release is tagged with <code>camel-{{ .Params.version }}</code> in the Git, to fetch it use:"
+msgstr ""
+
+#. type: Content of: <p><pre>
+#: upstream/layouts/partials/releases/camel.html:60
+#, no-wrap
+msgid ""
+"git clone https://git-wip-us.apache.org/repos/asf/camel.git\n"
+"cd camel\n"
+"git checkout camel-{{ .Params.version }}"
+msgstr ""
+
+#. type: Content of: <p><h2>
+#: upstream/layouts/partials/releases/camel.html:64
+msgid "<a class=\"anchor\" href=\"#resolved\"></a>Resolved issues"
+msgstr ""
+
+#. type: Content of: <p><p>
+#: upstream/layouts/partials/releases/camel.html:65
+msgid "Here is a list of all the issues that have been resolved for this release"
+msgstr ""
+
+#. type: Content of: <p>
+#: upstream/layouts/partials/releases/camel.html:66
+msgid "{{ $issues_json := getJSON \"https://issues.apache.org/jira/rest/api/latest/search?jql=fixVersion=\" (string .Params.jiraVersionId) \"&fields=issuetype,summary&maxResults=1000\" }} {{ $issues := dict }} {{ range $issues_json.issues }} {{ $issues_by_type := (or (index $issues .fields.issuetype.name) slice) | append (dict \"issue\" .key \"summary\" .fields.summary) }} {{ $issues = merge $issues (dict .fields.issuetype.name $issues_by_type ) }} {{ end }} {{ range $type, $data := $issues }}"
+msgstr ""
+
+#. type: Content of: <p><h3>
+#: upstream/layouts/partials/releases/camel.html:73
+msgid "{{ $type }} ({{ len $data }})"
+msgstr ""
+
+#. type: Content of: <p><dl>
+#: upstream/layouts/partials/releases/camel.html:75
+msgid "{{ range $data }}"
+msgstr ""
+
+#. type: Content of: <p><dl><dt>
+#: upstream/layouts/partials/releases/camel.html:76
+msgid "<a href=\"https://issues.apache.org/jira/browse/{{ .issue }}\">{{ .issue }}</a>"
+msgstr ""
+
+#. type: Content of: <p><dl><dd>
+#: upstream/layouts/partials/releases/camel.html:76
+msgid "{{ .summary }}"
+msgstr ""
+
+#. type: Content of: <p>
+#: upstream/layouts/partials/releases/camel.html:77
+#: upstream/layouts/partials/releases/camel.html:79
+msgid "{{ end }}"
+msgstr ""

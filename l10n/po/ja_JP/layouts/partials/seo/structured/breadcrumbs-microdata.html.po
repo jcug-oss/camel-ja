@@ -1,0 +1,27 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-14 23:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: outside any tag (error?)
+#: upstream/layouts/partials/seo/structured/breadcrumbs-microdata.html:1
+msgid "{{ $url := replace .Permalink .Site.BaseURL \"\" }} {{ $local := newScratch }} {{ $local.Add \"path\" .Site.BaseURL }} {{ $local.Add \"breadcrumb\" (slice (dict \"url\" .Site.BaseURL \"name\" .Site.Title \"position\" 1 )) }} {{ range $index, $element := split $url \"/\" }} {{ $local.Add \"path\" $element }} {{ $local.Add \"path\" \"/\" }} {{ if ne $element \"\" }} {{ $local.Add \"breadcrumb\" (slice (dict \"url\" ($local.Get \"path\") \"name\" . \"position\" (add $index 2))) }} {{ end }} {{ end }}"
+msgstr ""
+
+#. type: Content of: <script>
+#: upstream/layouts/partials/seo/structured/breadcrumbs-microdata.html:14
+msgid "{ \"@context\": \"http://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{{ range $local.Get \"breadcrumb\" }}{{ if ne .position 1 }},{{ end }}{ \"@type\": \"ListItem\", \"position\": {{ .position }}, \"item\": { \"@id\": {{ .url }}, \"name\": \"{{ .name }}\" } }{{ end }}] }"
+msgstr ""
