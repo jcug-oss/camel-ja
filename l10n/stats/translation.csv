@@ -1,9 +1,6 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/ja_JP/content/blog/_index.md.po, 0, 1, 0, 1 ,100%
 l10n/po/ja_JP/content/_index.md.po, 0, 57, 0, 389 ,100%
-l10n/po/ja_JP/content/community/user-stories.md.po, 5, 9, 46, 1708 ,98%
-l10n/po/ja_JP/content/community/team.md.po, 7, 9, 108, 1171 ,91%
-l10n/po/ja_JP/content/community/mailing-list.md.po, 5, 6, 134, 278 ,52%
 l10n/po/ja_JP/content/blog/2019/10/Camel3-2monthsaway/CamelK-CNCF-Landscape/index.md.po, 3, 4, 51, 58 ,13%
 l10n/po/ja_JP/content/blog/2020/10/ApacheCon-at-Home-videos/index.md.po, 51, 65, 453, 495 ,9%
 l10n/po/ja_JP/content/docs/_index.md.po, 28, 35, 354, 371 ,5%
@@ -134,8 +131,11 @@ l10n/po/ja_JP/content/misc/acknowledgments.md.po, 4, 4, 74, 74 ,0%
 l10n/po/ja_JP/content/misc/_index.md.po, 2, 2, 43, 43 ,0%
 l10n/po/ja_JP/content/docs/sources.md.po, 15, 15, 133, 133 ,0%
 l10n/po/ja_JP/content/docs/building.md.po, 35, 35, 462, 462 ,0%
+l10n/po/ja_JP/content/community/user-stories.md.po, 9, 9, 1708, 1708 ,0%
+l10n/po/ja_JP/content/community/team.md.po, 9, 9, 1171, 1171 ,0%
 l10n/po/ja_JP/content/community/support.md.po, 40, 40, 937, 937 ,0%
 l10n/po/ja_JP/content/community/sources.md.po, 13, 13, 121, 121 ,0%
+l10n/po/ja_JP/content/community/mailing-list.md.po, 6, 6, 278, 278 ,0%
 l10n/po/ja_JP/content/community/contributing.md.po, 73, 73, 1742, 1742 ,0%
 l10n/po/ja_JP/content/community/camel-extra.md.po, 2, 2, 24, 24 ,0%
 l10n/po/ja_JP/content/community/books.md.po, 49, 49, 1270, 1270 ,0%
