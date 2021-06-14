@@ -41,7 +41,7 @@ for ITEM in `\find upstream/content -name "*.md"`; do
 done
 
 for ITEM in `\find upstream/layouts -name "*.html"`; do
-    if [ -f "$L10N_HOME/upstream/$ITEM" ] ; then
+    if [ -f $ITEM ] ; then
         po4a-updatepo "upstream/$ITEM" xhtml
     fi
 done
