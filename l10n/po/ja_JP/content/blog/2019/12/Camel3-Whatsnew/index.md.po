@@ -153,7 +153,8 @@ msgid "The camel-core has been modularized from 1 JAR to 33 JARs. The core funct
 msgstr "camel-coreは、1つのJARから33のJARにモジュール化されました。コア機能は以下のように分割されました。\n"
 
 #. type: Plain text
-#: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:49 upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:77
+#: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:49
+#: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:77
 #, fuzzy, no-wrap
 msgid "**Artifact**\n"
 msgstr "**アーティファクト**。\n"

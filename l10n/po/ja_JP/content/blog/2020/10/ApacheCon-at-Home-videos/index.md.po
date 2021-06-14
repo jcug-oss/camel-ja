@@ -117,7 +117,8 @@ msgid "Making Enterprise Integration Patterns Work for You"
 msgstr "エンタープライズ・インテグレーション・パターンの活用"
 
 #. type: Plain text
-#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:41 upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:70
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:41
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:70
 #, fuzzy, no-wrap
 msgid "by [Justin Reock](https://twitter.com/jreock)\n"
 msgstr "by [Justin Reock](https://twitter.com/jreock)\n"

@@ -17,13 +17,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: upstream/content/community/_index.md:6 upstream/content/community/_index.md:27 upstream/content/community/_index.md:50 upstream/content/community/_index.md:72 upstream/content/community/_index.md:94 upstream/content/community/_index.md:116 upstream/content/community/_index.md:138
+#: upstream/content/community/_index.md:6
+#: upstream/content/community/_index.md:27
+#: upstream/content/community/_index.md:50
+#: upstream/content/community/_index.md:72
+#: upstream/content/community/_index.md:94
+#: upstream/content/community/_index.md:116
+#: upstream/content/community/_index.md:138
 #, no-wrap
 msgid "{{< div \"box\" >}}\n"
 msgstr "{{< div \"box\" >}}\n"
 
 #. type: Plain text
-#: upstream/content/community/_index.md:8 upstream/content/community/_index.md:29 upstream/content/community/_index.md:52 upstream/content/community/_index.md:74 upstream/content/community/_index.md:96 upstream/content/community/_index.md:118 upstream/content/community/_index.md:140
+#: upstream/content/community/_index.md:8
+#: upstream/content/community/_index.md:29
+#: upstream/content/community/_index.md:52
+#: upstream/content/community/_index.md:74
+#: upstream/content/community/_index.md:96
+#: upstream/content/community/_index.md:118
+#: upstream/content/community/_index.md:140
 #, no-wrap
 msgid "{{< div \"icon\" >}}\n"
 msgstr "{{< div \"icon\" >}}\n"
@@ -35,13 +47,39 @@ msgid "[![Camel](/_/img/support.svg)](/community/support/)\n"
 msgstr "[![キャメル](/_/img/support.svg)](/community/support/)\n"
 
 #. type: Plain text
-#: upstream/content/community/_index.md:12 upstream/content/community/_index.md:23 upstream/content/community/_index.md:25 upstream/content/community/_index.md:33 upstream/content/community/_index.md:45 upstream/content/community/_index.md:47 upstream/content/community/_index.md:56 upstream/content/community/_index.md:68 upstream/content/community/_index.md:70 upstream/content/community/_index.md:78 upstream/content/community/_index.md:90 upstream/content/community/_index.md:92 upstream/content/community/_index.md:100 upstream/content/community/_index.md:112 upstream/content/community/_index.md:114 upstream/content/community/_index.md:122 upstream/content/community/_index.md:134 upstream/content/community/_index.md:136 upstream/content/community/_index.md:144 upstream/content/community/_index.md:156 upstream/content/community/_index.md:157
+#: upstream/content/community/_index.md:12
+#: upstream/content/community/_index.md:23
+#: upstream/content/community/_index.md:25
+#: upstream/content/community/_index.md:33
+#: upstream/content/community/_index.md:45
+#: upstream/content/community/_index.md:47
+#: upstream/content/community/_index.md:56
+#: upstream/content/community/_index.md:68
+#: upstream/content/community/_index.md:70
+#: upstream/content/community/_index.md:78
+#: upstream/content/community/_index.md:90
+#: upstream/content/community/_index.md:92
+#: upstream/content/community/_index.md:100
+#: upstream/content/community/_index.md:112
+#: upstream/content/community/_index.md:114
+#: upstream/content/community/_index.md:122
+#: upstream/content/community/_index.md:134
+#: upstream/content/community/_index.md:136
+#: upstream/content/community/_index.md:144
+#: upstream/content/community/_index.md:156
+#: upstream/content/community/_index.md:157
 #, no-wrap
 msgid "{{< /div >}}\n"
 msgstr "{{< /div >}}\n"
 
 #. type: Plain text
-#: upstream/content/community/_index.md:14 upstream/content/community/_index.md:35 upstream/content/community/_index.md:58 upstream/content/community/_index.md:80 upstream/content/community/_index.md:102 upstream/content/community/_index.md:124 upstream/content/community/_index.md:146
+#: upstream/content/community/_index.md:14
+#: upstream/content/community/_index.md:35
+#: upstream/content/community/_index.md:58
+#: upstream/content/community/_index.md:80
+#: upstream/content/community/_index.md:102
+#: upstream/content/community/_index.md:124
+#: upstream/content/community/_index.md:146
 #, no-wrap
 msgid "{{< div \"content\" >}}\n"
 msgstr "{{< div \"content\" >}}\n"

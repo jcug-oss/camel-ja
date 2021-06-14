@@ -23,7 +23,9 @@ msgid "{{< div \"box left camel-core\" >}}\n"
 msgstr "{{< div \"box left camel-core\" >}}\n"
 
 #. type: Plain text
-#: upstream/content/docs/_index.md:7 upstream/content/docs/_index.md:60 upstream/content/docs/_index.md:70 upstream/content/docs/_index.md:108 upstream/content/docs/_index.md:118 upstream/content/docs/_index.md:156
+#: upstream/content/docs/_index.md:7 upstream/content/docs/_index.md:60
+#: upstream/content/docs/_index.md:70 upstream/content/docs/_index.md:108
+#: upstream/content/docs/_index.md:118 upstream/content/docs/_index.md:156
 #, no-wrap
 msgid "{{< div \"icon\" >}}\n"
 msgstr "{{< div \"icon\" >}}\n"
@@ -35,7 +37,15 @@ msgid "[![Camel](/_/img/logo-d.svg)](/camel-k/latest/)\n"
 msgstr "[![キャメル](/_/img/logo-d.svg)](/camel-k/latest/)\n"
 
 #. type: Plain text
-#: upstream/content/docs/_index.md:11 upstream/content/docs/_index.md:33 upstream/content/docs/_index.md:35 upstream/content/docs/_index.md:58 upstream/content/docs/_index.md:64 upstream/content/docs/_index.md:66 upstream/content/docs/_index.md:74 upstream/content/docs/_index.md:88 upstream/content/docs/_index.md:90 upstream/content/docs/_index.md:106 upstream/content/docs/_index.md:112 upstream/content/docs/_index.md:114 upstream/content/docs/_index.md:122 upstream/content/docs/_index.md:136 upstream/content/docs/_index.md:138 upstream/content/docs/_index.md:154 upstream/content/docs/_index.md:160 upstream/content/docs/_index.md:161
+#: upstream/content/docs/_index.md:11 upstream/content/docs/_index.md:33
+#: upstream/content/docs/_index.md:35 upstream/content/docs/_index.md:58
+#: upstream/content/docs/_index.md:64 upstream/content/docs/_index.md:66
+#: upstream/content/docs/_index.md:74 upstream/content/docs/_index.md:88
+#: upstream/content/docs/_index.md:90 upstream/content/docs/_index.md:106
+#: upstream/content/docs/_index.md:112 upstream/content/docs/_index.md:114
+#: upstream/content/docs/_index.md:122 upstream/content/docs/_index.md:136
+#: upstream/content/docs/_index.md:138 upstream/content/docs/_index.md:154
+#: upstream/content/docs/_index.md:160 upstream/content/docs/_index.md:161
 #, no-wrap
 msgid "{{< /div >}}\n"
 msgstr "{{< /div >}}\n"
@@ -95,13 +105,16 @@ msgstr ""
 "</p>\n"
 
 #. type: Plain text
-#: upstream/content/docs/_index.md:37 upstream/content/docs/_index.md:92 upstream/content/docs/_index.md:140
+#: upstream/content/docs/_index.md:37 upstream/content/docs/_index.md:92
+#: upstream/content/docs/_index.md:140
 #, no-wrap
 msgid "{{< div \"box right\" >}}\n"
 msgstr "{{< div \"box right\" >}}\n"
 
 #. type: Plain text
-#: upstream/content/docs/_index.md:39 upstream/content/docs/_index.md:76 upstream/content/docs/_index.md:94 upstream/content/docs/_index.md:124 upstream/content/docs/_index.md:142
+#: upstream/content/docs/_index.md:39 upstream/content/docs/_index.md:76
+#: upstream/content/docs/_index.md:94 upstream/content/docs/_index.md:124
+#: upstream/content/docs/_index.md:142
 #, no-wrap
 msgid "{{< div \"content\">}}\n"
 msgstr "{{< div \"content\">}}\n"
