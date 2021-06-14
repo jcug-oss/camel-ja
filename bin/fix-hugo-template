@@ -36,15 +36,3 @@ for entry in po.fuzzy_entries():
 
 if updated:
     po.save()
-
-"""
-for key in target_keys:
-    value = text.get(key)
-    if type(value) is str and value.startswith('['):
-        text[key] = list(map(
-            lambda s: s.strip(' "'),
-            value.strip('[]').split(',')))
-
-with open(file_path, mode='wb') as file:
-    frontmatter.dump(text, file, width=1000)
-"""
