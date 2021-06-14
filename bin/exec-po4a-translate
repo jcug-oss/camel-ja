@@ -47,11 +47,7 @@ for ITEM in `\find upstream/content -name "*.md"`; do
     fi
 done
 
-HTML_FILES=(
-    "layouts/index.html"
-)
-
-for ITEM in ${HTML_FILES[@]} ; do
+for ITEM in `\find upstream/layouts -name "*.html"`; do
     if [ -f "$L10N_HOME/upstream/$ITEM" ] ; then
         po4a-translate "upstream/$ITEM" xhtml
     fi
