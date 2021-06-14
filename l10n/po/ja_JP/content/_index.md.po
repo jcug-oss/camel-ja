@@ -140,7 +140,7 @@ msgstr "<p><a class=\"button dark\" href=\"/docs/\">Camelのサブプロジェ�
 
 #. type: Title ##
 #: upstream/content/_index.md:56
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Packed with Components"
 msgstr "多数の接続コンポーネント"
 
