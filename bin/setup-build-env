@@ -12,7 +12,7 @@ curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 
 sudo apt-get update
 sudo apt-get -y install python3-pip git nodejs po4a
-sudo pip3 install translate-toolkit Python-Levenshtein python-frontmatter
+sudo pip3 install translate-toolkit Python-Levenshtein python-frontmatter polib
 sudo npm install --global yarn surge
 
 # for idempotency
