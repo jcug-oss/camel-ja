@@ -5,6 +5,14 @@
   <body>
     <tu>
       <tuv xml:lang="en">
+        <seg>{{ partial "header.html" . }}</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{ partial "header.html" . }}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Apache Camel</seg>
       </tuv>
       <tuv xml:lang="ja_JP">
@@ -221,6 +229,14 @@
       <tuv xml:lang="ja_JP">
         <seg>Apache Camelはスタンドアロンで、Spring Boot、Quarkus、アプリケーションサーバ、クラウドにライブラリとして組み込むことができます。Camelのサブプロジェクトは、あなたの作業を容易にすることに重点を置いています。
 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Packed with Components</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>多数の接続コンポーネント</seg>
       </tuv>
     </tu>
     <tu>
