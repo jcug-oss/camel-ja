@@ -42,6 +42,6 @@ done
 
 for ITEM in `\find upstream/layouts -name "*.html"`; do
     if [ -f $ITEM ] ; then
-        po4a-updatepo "upstream/$ITEM" xhtml
+        po4a-updatepo $ITEM xhtml
     fi
 done

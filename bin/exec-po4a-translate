@@ -49,6 +49,6 @@ done
 
 for ITEM in `\find upstream/layouts -name "*.html"`; do
     if [ -f $ITEM ] ; then
-        po4a-translate "upstream/$ITEM" xhtml
+        po4a-translate $ITEM xhtml
     fi
 done
