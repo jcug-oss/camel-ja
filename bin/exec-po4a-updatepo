@@ -15,10 +15,16 @@ function po4a-updatepo() {
 
     local relative_file_path=`echo $item | sed -e "s|^upstream\/||"`
     local relative_file_dir=$(dirname $relative_file_path)
+    local po_file_path="l10n/po/$TARGET_LANG/$relative_file_path.po"
 
     mkdir -p "$L10N_HOME/l10n/po/$TARGET_LANG/$relative_file_dir"
-    PERLLIB=vendor/po4a/lib vendor/po4a/po4a-updatepo --master-charset UTF-8 -f $format $@ --master "upstream/$relative_file_path" --po "l10n/po/$TARGET_LANG/$relative_file_path.po"
+    PERLLIB=vendor/po4a/lib vendor/po4a/po4a-updatepo --master-charset UTF-8 -f $format $@ --master "upstream/$relative_file_path" --po "$po_file_path"
     msgcat --to-code=utf-8 --no-wrap -o l10n/po/$TARGET_LANG/$relative_file_path.po l10n/po/$TARGET_LANG/$relative_file_path.po
+
+    if [ "$format" = "asciidoc" ] || [ "$format" = "text" ] ; then
+        # fix Hugo template entries
+        ./bin/fix-hugo-template "$po_file_path"
+    fi
 }
 
 for ITEM in `\find upstream/content -name "*.adoc"`; do

@@ -30,8 +30,6 @@ function po4a-translate() {
         if [ "$format" = "asciidoc" ] || [ "$format" = "text" ] ; then
             # fix po4a handling of list values in YAML Front Matter
             ./bin/fix-yaml-front-matter "$localized"
-            # fix Hugo template entries
-            ./bin/fix-hugo-template "$localized"
         fi
     fi
 }

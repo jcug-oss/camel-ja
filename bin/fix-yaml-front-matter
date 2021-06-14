@@ -14,7 +14,7 @@ https://github.com/mquinson/po4a/issues/255
 if len(sys.argv) < 2:
     print(f'''{desc}
 
-Usage: {os.path.basename(sys.argv[0])} <po_file_path>
+Usage: {os.path.basename(sys.argv[0])} <file_path>
 ''')
     exit()
 
