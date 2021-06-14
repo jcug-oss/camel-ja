@@ -30,6 +30,9 @@ for entry in po.fuzzy_entries():
     msgid = entry.msgid
     msgstr = entry.msgstr
     if msgid.startswith('{{<') and msgid.endswith('>}}\n'):
+        # skip if it's table
+        if '< table >' in msgid:
+            continue
         entry.msgstr = msgid
         entry.flags.remove('fuzzy')
         updated = True
