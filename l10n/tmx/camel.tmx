@@ -93,6 +93,14 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camelは、オープンソースのインテグレーションフレームワークで、データの入出力を行う様々なシステムを迅速かつ容易に統合することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Home</seg>
       </tuv>
       <tuv xml:lang="ja_JP">
@@ -101,10 +109,374 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>{{&lt; section "frontpage columns functionalities" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; section "frontpage columns functionalities" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Why Camel?</seg>
       </tuv>
       <tuv xml:lang="ja_JP">
         <seg>なぜCamelなのか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; div "box right" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; div "box right" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; div "content"&gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; div "content"&gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel supports most of the Enterprise Integration Patterns from the excellent book by Gregor Hohpe and Bobby Woolf, and newer integration patterns from microservice architectures to help you solve your integration problem by applying best practices out of the box.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camelは、Gregor Hohpe氏とBobby Woolf氏の素晴らしい本に出てくるEnterprise Integration Patternsのほとんどをサポートしています。また、マイクロサービスアーキテクチャからの新しい統合パターンもサポートしており、ベストプラクティスをすぐに適用してインテグレーションの問題を解決することができます。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; /div &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; /div &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; div "icon" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; div "icon" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;img src="./img/patterns.svg" alt="component icon"/&gt;
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>&lt;img src="./img/patterns.svg" alt="component icon"/&gt;
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; div "box left" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; div "box left" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;img src="./img/runtimes.svg" alt="runtime icon" /&gt;
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>&lt;img src="./img/runtimes.svg" alt="runtime icon" /&gt;
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Runs Everywhere</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>多様な実行環境をサポート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Apache Camel is standalone, and can be embedded as a library within Spring Boot, Quarkus, Application Servers, and in the clouds. Camel subprojects focus on making your work easy.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Apache Camelはスタンドアロンで、Spring Boot、Quarkus、アプリケーションサーバ、クラウドにライブラリとして組み込むことができます。Camelのサブプロジェクトは、あなたの作業を容易にすることに重点を置いています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Packed with several hundred components that are used to access databases, message queues, APIs or basically anything under the sun. Helping you integrate with everything.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>データベース、メッセージキュー、APIなど、基本的にあらゆるものにアクセスするために使用される数百のコンポーネントが含まれています。あらゆるものとの統合をサポートします。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;img src="./img/components.svg" alt="component icon"/&gt;
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>&lt;img src="./img/components.svg" alt="component icon"/&gt;
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;img src="./img/data-formats.svg" alt="data icon"/&gt;
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>&lt;img src="./img/data-formats.svg" alt="data icon"/&gt;
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; /section &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; /section &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; section "frontpage projects" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; section "frontpage projects" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; div "project" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; div "project" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;img src="/_/img/logo-d.svg" alt="data icon"/&gt;
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>&lt;img src="/_/img/logo-d.svg" alt="data icon"/&gt;
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; div "content" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; div "content" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel Core</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camel Core</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;img src="/_/img/knative.svg" alt="data icon"/&gt;
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>&lt;img src="/_/img/knative.svg" alt="data icon"/&gt;
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel K</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camel K</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;img src="/_/img/quarkus.svg" alt="data icon"/&gt;
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>&lt;img src="/_/img/quarkus.svg" alt="data icon"/&gt;
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel Quarkus</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camel Quarkus</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;img src="/_/img/apache-kafka.svg" alt="data icon"/&gt;
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>&lt;img src="/_/img/apache-kafka.svg" alt="data icon"/&gt;
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel Kafka Connector</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camel Kafka Connector</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Apache Camel Kafka Connector embeds Camel within Kafka Connect.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Apache Camel Kafka Connectorは、Kafka ConnectにCamelを組み込みます。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;img src="/_/img/spring-boot.svg" alt="data icon"/&gt;
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>&lt;img src="/_/img/spring-boot.svg" alt="data icon"/&gt;
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel Spring Boot</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camel Spring Boot</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;img src="/_/img/apache-karaf.svg" alt="data icon"/&gt;
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>&lt;img src="/_/img/apache-karaf.svg" alt="data icon"/&gt;
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel Karaf</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camel Karaf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; section "frontpage columns apache" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; section "frontpage columns apache" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Apache &amp;amp; OpenSource</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Apache &amp;amp; OpenSource</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; div "split" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; div "split" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel is an [Apache Software Foundation](https://www.apache.org) project, available under the [Apache v2 license](https://apache.org/licenses/LICENSE-2.0). It's a complete open community, always listening to proposals and comments.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camelは[Apache Software Foundation](https://www.apache.org)のプロジェクトであり、[Apache v2ライセンス](https://apache.org/licenses/LICENSE-2.0)の下で利用可能です。完全にオープンなコミュニティであり、常に提案やコメントに耳を傾けています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Sources](./community/sources/), [mailing lists](./community/mailing-list/), [issue tracker](./community/support/): it's fully open, you can access directly.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Sources](./community/sources/)、[Mailing lists](./community/mailing-list/)、[issue tracker](./community/support/)：完全にオープンなので、直接アクセスすることができます。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We also love contributions: don't hesitate to [contribute](./community/contributing/). You can contribute by &lt;a href="https://github.com/apache/camel-website/edit/main/content/_index.md"&gt;editing this page&lt;/a&gt;!
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>私たちはコントリビューションも歓迎しています。遠慮なく[コントリビュート](./community/contributing/)してください。&lt;a href="https://github.com/apache/camel-website/edit/main/content/_index.md"&gt;このページを編集&lt;/a&gt;して貢献することができます。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Be Involved In The Community](./community/contributing/) | [How To Contribute](./community/contributing/)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[コミュニティに参加する](./community/contributing/) | [コントリビュートするには](./community/contributing/)
+</seg>
       </tuv>
     </tu>
   </body>
