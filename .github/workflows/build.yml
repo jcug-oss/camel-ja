@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - 'main'
+    paths:
+      - 'l10n/**'
   schedule:
     # everyday at 3AM JST
     - cron: '0 18 * * *'
