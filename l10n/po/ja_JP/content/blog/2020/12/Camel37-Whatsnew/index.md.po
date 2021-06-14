@@ -110,11 +110,9 @@ msgstr ""
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:36
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< image \"csimple-compiled.png\" \"Compiled Simple Language\" >}}\n"
-msgstr ""
-"< image \"csimple-compiled.png\" \"Compiled Simple Language\" >{{}}\n"
-"</image>"
+msgstr "{{< image \"csimple-compiled.png\" \"Compiled Simple Language\" >}}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:39
@@ -164,11 +162,9 @@ msgstr "スクリーンショットに示されているように、CPU使用量
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:53
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< image \"simple-csimple-performance.png\" \"Simple vs Compiled Simple\" >}}\n"
-msgstr ""
-"< image \"simple-csimple-performance.png\" \"Simple vs Compiled Simple\" >{{}}\n"
-"</image>"
+msgstr "{{< image \"simple-csimple-performance.png\" \"Simple vs Compiled Simple\" >}}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/12/Camel37-Whatsnew/index.md:56

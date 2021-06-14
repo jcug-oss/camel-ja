@@ -54,7 +54,7 @@ msgstr "メーリングリストに投稿する際は、プレーンテキスト
 
 #. type: Plain text
 #: upstream/content/community/mailing-list.md:23
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "{{< table >}}\n"
 "| List Name  | Address | Subscribe | Unsubscribe | Archive | Comment |\n"
@@ -65,11 +65,11 @@ msgid ""
 "| Camel Issues List  | issues@camel.apache.org | [subscribe](mailto:issues-subscribe@camel.apache.org) | [unsubscribe](mailto:issues-unsubscribe@camel.apache.org) | [Archives](https://lists.apache.org/list.html?issues@camel.apache.org) | Notifications of JIRA issues |\n"
 "{{< /table >}}\n"
 msgstr ""
-"< table ><table >{{}}\n"
-"リスト名｜アドレス｜登録｜解除｜アーカイブ｜コメント\n"
+"{{< table >}}\n"
+"| List Name  | Address | Subscribe | Unsubscribe | Archive | Comment |\n"
 "|------------|---------|-----------|-------------|---------|---------|\n"
-"| Camel User List | users@camel.apache.org | [subscribe](mailto:users-subscribe@camel.apache.org) | [unsubscribe](mailto:users-unsubscribe@camel.apache.org) | [Archives](https://lists.apache.org/list.html?users@camel.apache.org) | Camelに関する質問はこのリストを使ってください。|\n"
-"| Camel Developer List | dev@camel.apache.org | [subscribe](mailto:dev-subscribe@camel.apache.org) | [unsubscribe](mailto:dev-unsubscribe@camel.apache.org) | [Archives](https://lists.apache.org/list.html?dev@camel.apache.org) | Camel の開発について議論するために Camel の貢献者によって使われます。|\n"
-"| Camel Commits List | commits@camel.apache.org | [subscribe](mailto:commits-subscribe@camel.apache.org) | [unsubscribe](mailto:commits-unsubscribe@camel.apache.org) | [Archives](https://lists.apache.org/list.html?commits@camel.apache.org) | Camel のコードの変更に関する通知です。\n"
-"| Camel Issues List | issues@camel.apache.org | [subscribe](mailto:issues-subscribe@camel.apache.org) | [unsubscribe](mailto:issues-unsubscribe@camel.apache.org) | [Archives](https://lists.apache.org/list.html?issues@camel.apache.org) | JIRA の課題を通知します。< /table >\n"
-"<table >{{}}< /table ></table>\n"
+"| Camel User List  | users@camel.apache.org | [subscribe](mailto:users-subscribe@camel.apache.org) | [unsubscribe](mailto:users-unsubscribe@camel.apache.org) | [Archives](https://lists.apache.org/list.html?users@camel.apache.org) | Use this list for your Camel questions. |\n"
+"| Camel Developer List  | dev@camel.apache.org | [subscribe](mailto:dev-subscribe@camel.apache.org) | [unsubscribe](mailto:dev-unsubscribe@camel.apache.org) | [Archives](https://lists.apache.org/list.html?dev@camel.apache.org) | Used by Camel contributors to discuss development of Camel. |\n"
+"| Camel Commits List  | commits@camel.apache.org | [subscribe](mailto:commits-subscribe@camel.apache.org) | [unsubscribe](mailto:commits-unsubscribe@camel.apache.org) | [Archives](https://lists.apache.org/list.html?commits@camel.apache.org) | Notifications on changes to the Camel code |\n"
+"| Camel Issues List  | issues@camel.apache.org | [subscribe](mailto:issues-subscribe@camel.apache.org) | [unsubscribe](mailto:issues-unsubscribe@camel.apache.org) | [Archives](https://lists.apache.org/list.html?issues@camel.apache.org) | Notifications of JIRA issues |\n"
+"{{< /table >}}\n"

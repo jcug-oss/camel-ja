@@ -120,11 +120,9 @@ msgstr ""
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:38
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< image \"jdk-mission-control.png\" \"JDK Mission Control\" >}}\n"
-msgstr ""
-"< image \"jdk-mission-control.png\" \"JDK Mission Control\" >{{}}\n"
-"</image>"
+msgstr "{{< image \"jdk-mission-control.png\" \"JDK Mission Control\" >}}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/02/Camel38-Whatsnew/index.md:41

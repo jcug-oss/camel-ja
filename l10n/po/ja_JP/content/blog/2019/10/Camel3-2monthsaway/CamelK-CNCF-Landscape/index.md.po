@@ -36,8 +36,6 @@ msgstr "Apache Camel K](/projects/camel-k/)プロジェクトは、CNCF (Cloud N
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/CamelK-CNCF-Landscape/index.md:12
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< image \"camelk-landscape.png\" \"Camel K CNCF landscape\" >}}\n"
-msgstr ""
-"< image \"camelk-landscape.png\" \"Camel K CNCF landscape\" >{{}}\n"
-"</image>"
+msgstr "{{< image \"camelk-landscape.png\" \"Camel K CNCF landscape\" >}}\n"

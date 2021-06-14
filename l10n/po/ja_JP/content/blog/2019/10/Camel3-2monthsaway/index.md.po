@@ -54,11 +54,9 @@ msgstr "ここでは、Camel 3のタイムラインを強調したイラスト�
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/index.md:18
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< image \"camel3-progress.png\" \"Camel 3 timeline\" >}}\n"
-msgstr ""
-"< image \"camel3-progress.png\" \"Camel 3 timeline\" >{{}}\n"
-"</image>"
+msgstr "{{< image \"camel3-progress.png\" \"Camel 3 timeline\" >}}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/index.md:20
@@ -68,11 +66,9 @@ msgstr "それだけではありません。Apache Camelは現在、（現時点
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/index.md:22
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< image \"camel3-projects.png\" \"Camel 3 projects\" >}}\n"
-msgstr ""
-"< image \"camel3-projects.png\" \"Camel 3 projects\" >{{}}\n"
-"</image>"
+msgstr "{{< image \"camel3-projects.png\" \"Camel 3 projects\" >}}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/10/Camel3-2monthsaway/index.md:24

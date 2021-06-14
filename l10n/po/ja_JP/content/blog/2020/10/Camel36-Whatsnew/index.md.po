@@ -122,19 +122,15 @@ msgstr "もう一つの関連する問題は、Camel 3ではモジュール化�
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:43
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< image \"350-blocked.png\" \"Camel 3.5 Blocked Threads\" >}}\n"
-msgstr ""
-"< image \"350-blocked.png\" \"Camel 3.5 Blocked Threads\" >{{}}\n"
-"</image>"
+msgstr "{{< image \"350-blocked.png\" \"Camel 3.5 Blocked Threads\" >}}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:45
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< image \"360-blocked.png\" \"Camel 3.6 Blocked Threads\" >}}\n"
-msgstr ""
-"< image \"360-blocked.png\" \"Camel 3.6 Blocked Threads\" >{{}}\n"
-"</image>"
+msgstr "{{< image \"360-blocked.png\" \"Camel 3.6 Blocked Threads\" >}}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:47
@@ -156,19 +152,15 @@ msgstr "次のスクリーンショットは、オブジェクトの割り当て
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:53
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< image \"350-allocations.png\" \"Camel 3.5 Average Object Allocations Per Seconds\" >}}\n"
-msgstr ""
-"< image \"350-allocations.png\" \"Camel 3.5 Average Object Allocations Per Seconds\" >{{}}\n"
-"</image>"
+msgstr "{{< image \"350-allocations.png\" \"Camel 3.5 Average Object Allocations Per Seconds\" >}}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:55
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< image \"360-allocations.png\" \"Camel 3.6 Average Object Allocations Per Seconds\" >}}\n"
-msgstr ""
-"< image \"360-allocations.png\" \"Camel 3.6 Average Object Allocations Per Seconds\" >{{}}\n"
-"</image>"
+msgstr "{{< image \"360-allocations.png\" \"Camel 3.6 Average Object Allocations Per Seconds\" >}}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:58
@@ -214,19 +206,15 @@ msgstr "以下のスクリーンショットは、CPU、オブジェクトの割
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:72
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< image \"350-performance.png\" \"Camel 3.5 Performance Charts\" >}}\n"
-msgstr ""
-"< image \"350-performance.png\" \"Camel 3.5 Performance Charts\" >{{}}\n"
-"</image>"
+msgstr "{{< image \"350-performance.png\" \"Camel 3.5 Performance Charts\" >}}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:74
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< image \"360-performance.png\" \"Camel 3.6 Performance Charts\" >}}\n"
-msgstr ""
-"< image \"360-performance.png\" \"Camel 3.6 Performance Charts\" >{{}}\n"
-"</image>"
+msgstr "{{< image \"360-performance.png\" \"Camel 3.6 Performance Charts\" >}}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/Camel36-Whatsnew/index.md:77

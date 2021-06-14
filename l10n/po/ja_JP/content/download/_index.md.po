@@ -54,11 +54,9 @@ msgstr "ここでは、サポートされているリリースのみが掲載さ
 
 #. type: Plain text
 #: upstream/content/download/_index.md:16
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< downloads >}}\n"
-msgstr ""
-"< downloads >{{}}\n"
-"</downloads>"
+msgstr "{{< downloads >}}\n"
 
 #. type: Title ##
 #: upstream/content/download/_index.md:17

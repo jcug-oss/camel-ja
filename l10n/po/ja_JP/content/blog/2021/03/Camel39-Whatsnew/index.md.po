@@ -90,11 +90,9 @@ msgstr "以下の図は、Camel 3.8と3.9を使用した同じ例を示してい
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:29
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< image \"memory-camel38.png\" \"Camel 3.8\" >}}\n"
-msgstr ""
-"< image \"memory-camel38.png\" \"Camel 3.8\" >{{}}\n"
-"</image>"
+msgstr "{{< image \"memory-camel38.png\" \"Camel 3.8\" >}}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:31
@@ -104,11 +102,9 @@ msgstr "Camel 3.8では、合計で597MBのオブジェクトがCamelによっ�
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:33
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< image \"memory-camel39.png\" \"Camel 3.9\" >}}\n"
-msgstr ""
-"< image \"memory-camel39.png\" \"Camel 3.9\" >{{}}\n"
-"</image>"
+msgstr "{{< image \"memory-camel39.png\" \"Camel 3.9\" >}}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/03/Camel39-Whatsnew/index.md:35

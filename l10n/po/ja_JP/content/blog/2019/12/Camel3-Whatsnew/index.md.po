@@ -84,11 +84,9 @@ msgstr ""
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:26
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< image \"camel3-projects.png\" \"Camel 3 projects\" >}}\n"
-msgstr ""
-"< image \"camel3-projects.png\" \"Camel 3 projects\" >{{}}\n"
-"</image>"
+msgstr "{{< image \"camel3-projects.png\" \"Camel 3 projects\" >}}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:28
@@ -104,11 +102,9 @@ msgstr "2）新しいウェブサイト"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:32
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< image \"camel3-website.png\" \"Camel 3 website\" >}}\n"
-msgstr ""
-"< image \"camel3-website.png\" \"Camel 3 website\" >{{}}\n"
-"</image>"
+msgstr "{{< image \"camel3-website.png\" \"Camel 3 website\" >}}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:35
@@ -157,8 +153,7 @@ msgid "The camel-core has been modularized from 1 JAR to 33 JARs. The core funct
 msgstr "camel-coreは、1つのJARから33のJARにモジュール化されました。コア機能は以下のように分割されました。\n"
 
 #. type: Plain text
-#: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:49
-#: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:77
+#: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:49 upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:77
 #, fuzzy, no-wrap
 msgid "**Artifact**\n"
 msgstr "**アーティファクト**。\n"
@@ -447,11 +442,9 @@ msgstr ""
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:109
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< image \"camel3-core-vs-engine.png\" \"Camel 3 core vs engine\" >}}\n"
-msgstr ""
-"< image \"camel3-core-vs-engine.png\" \"Camel 3 core vs engine\" >{{}}\n"
-"</image>"
+msgstr "{{< image \"camel3-core-vs-engine.png\" \"Camel 3 core vs engine\" >}}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:111
@@ -503,11 +496,9 @@ msgstr "これらの最適化により、Camelの起動パフォーマンスが�
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:127
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< image \"camel3-quarkus.png\" \"Camel 3 Quarkus native compiled\" >}}\n"
-msgstr ""
-"< image \"camel3-quarkus.png\" \"Camel 3 Quarkus native compiled\" >{{}}\n"
-"</image>"
+msgstr "{{< image \"camel3-quarkus.png\" \"Camel 3 Quarkus native compiled\" >}}\n"
 
 #. type: Plain text
 #: upstream/content/blog/2019/12/Camel3-Whatsnew/index.md:129

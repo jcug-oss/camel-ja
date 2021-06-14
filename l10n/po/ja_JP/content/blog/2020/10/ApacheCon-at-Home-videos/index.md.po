@@ -106,11 +106,9 @@ msgstr "スライド](Cosentino_Andrea,_Ibsen_Claus_Whats_new_with_Apache_Camel_
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:37
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< youtube id=\"MBTtRE_n5Ng\" class=\"video\" >}}\n"
-msgstr ""
-"< youtube id=\"MBTtRE_n5Ng\" class=\"video\" >{{}}\n"
-"</youtube>"
+msgstr "{{< youtube id=\"MBTtRE_n5Ng\" class=\"video\" >}}\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:38
@@ -119,19 +117,16 @@ msgid "Making Enterprise Integration Patterns Work for You"
 msgstr "エンタープライズ・インテグレーション・パターンの活用"
 
 #. type: Plain text
-#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:41
-#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:70
+#: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:41 upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:70
 #, fuzzy, no-wrap
 msgid "by [Justin Reock](https://twitter.com/jreock)\n"
 msgstr "by [Justin Reock](https://twitter.com/jreock)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:43
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< youtube id=\"reiIjLWaFg8\" class=\"video\" >}}\n"
-msgstr ""
-"< youtube id=\"reiIjLWaFg8\" class=\"video\" >{{}}\n"
-"</youtube>"
+msgstr "{{< youtube id=\"reiIjLWaFg8\" class=\"video\" >}}\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:44
@@ -147,11 +142,9 @@ msgstr "by [Alexandre Gallice](https://twitter.com/AlexGallice)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:49
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< youtube id=\"POWsZnGhVHM\" class=\"video\" >}}\n"
-msgstr ""
-"< youtube id=\"POWsZnGhVHM\" class=\"video\" >{{}}\n"
-"</youtube>"
+msgstr "{{< youtube id=\"POWsZnGhVHM\" class=\"video\" >}}\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:50
@@ -173,11 +166,9 @@ msgstr "[スライド](Omar_Al-Safi_Build_and_Deploy_Cloud_Native_Camel_Quarkus_
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:57
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< youtube id=\"k8OFq6CnySE\" class=\"video\" >}}\n"
-msgstr ""
-"< youtube id=\"k8OFq6CnySE\" class=\"video\" >{{}}\n"
-"</youtube>"
+msgstr "{{< youtube id=\"k8OFq6CnySE\" class=\"video\" >}}\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:58
@@ -203,11 +194,9 @@ msgstr "[スライド](Tarocchi_Andrea,_Guerrero_Hugo_Camel_Kafka_Connectors_-wh
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:66
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< youtube id=\"0THM_HFFWTI\" class=\"video\" >}}\n"
-msgstr ""
-"< youtube id=\"0THM_HFFWTI\" class=\"video\" >{{}}\n"
-"</youtube>"
+msgstr "{{< youtube id=\"0THM_HFFWTI\" class=\"video\" >}}\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:67
@@ -217,11 +206,9 @@ msgstr "PostgresとApache CamelおよびActiveMQの統合"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:72
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< youtube id=\"QZdktRXet2k\" class=\"video\" >}}\n"
-msgstr ""
-"< youtube id=\"QZdktRXet2k\" class=\"video\" >{{}}\n"
-"</youtube>"
+msgstr "{{< youtube id=\"QZdktRXet2k\" class=\"video\" >}}\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:73
@@ -243,11 +230,9 @@ msgstr "[Slides](Rodrigo_Coelho_Open_Source_light_API_Gateway_built_with_Apache_
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:80
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< youtube id=\"sEKCI8IBCfc\" class=\"video\" >}}\n"
-msgstr ""
-"< youtube id=\"sEKCI8IBCfc\" class=\"video\" >{{}}\n"
-"</youtube>"
+msgstr "{{< youtube id=\"sEKCI8IBCfc\" class=\"video\" >}}\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:81
@@ -269,11 +254,9 @@ msgstr "スライド](Pupier_Aurelien_How_to_contribute_textual_tooling_for_Apac
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:88
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< youtube id=\"gL3GIzPT36Y\" class=\"video\" >}}\n"
-msgstr ""
-"< youtube id=\"gL3GIzPT36Y\" class=\"video\" >{{}}\n"
-"</youtube>"
+msgstr "{{< youtube id=\"gL3GIzPT36Y\" class=\"video\" >}}\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:89
@@ -289,11 +272,9 @@ msgstr "by [Christina Lin](https://twitter.com/Christina_wm)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:94
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< youtube id=\"etSwmRP8-Eo\" class=\"video\" >}}\n"
-msgstr ""
-"< youtube id=\"etSwmRP8-Eo\" class=\"video\" >{{}}\n"
-"</youtube>"
+msgstr "{{< youtube id=\"etSwmRP8-Eo\" class=\"video\" >}}\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:95
@@ -315,11 +296,9 @@ msgstr "[スライド](Deppisch_Christoph_Testing_CamelK_with_Cloud_Native_BDD.p
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:102
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< youtube id=\"aYLLtj6TdjM\" class=\"video\" >}}\n"
-msgstr ""
-"< youtube id=\"aYLLtj6TdjM\" class=\"video\" >{{}}\n"
-"</youtube>"
+msgstr "{{< youtube id=\"aYLLtj6TdjM\" class=\"video\" >}}\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:103
@@ -341,11 +320,9 @@ msgstr "[スライド](Costello_Michael_CloudNativeMyCamel.1.00.001.pdf)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:110
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< youtube id=\"HEB8TMmsEDg\" class=\"video\" >}}\n"
-msgstr ""
-"< youtube id=\"HEB8TMmsEDg\" class=\"video\" >{{}}\n"
-"</youtube>"
+msgstr "{{< youtube id=\"HEB8TMmsEDg\" class=\"video\" >}}\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:111
@@ -361,11 +338,9 @@ msgstr "by [Andrei Shakirin](https://twitter.com/ashakirin)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:116
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< youtube id=\"SI1WqGST1SI\" class=\"video\" >}}\n"
-msgstr ""
-"< youtube id=\"SI1WqGST1SI\" class=\"video\" >{{}}\n"
-"</youtube>"
+msgstr "{{< youtube id=\"SI1WqGST1SI\" class=\"video\" >}}\n"
 
 #. type: Title ##
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:117
@@ -409,11 +384,9 @@ msgstr "司会：[マリア・アリアス・デ・レイナ](https://twitter.co
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:132
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< youtube id=\"6EQy1kw03Ig\" class=\"video\" >}}\n"
-msgstr ""
-"< youtube id=\"6EQy1kw03Ig\" class=\"video\" >{{}}\n"
-"</youtube>"
+msgstr "{{< youtube id=\"6EQy1kw03Ig\" class=\"video\" >}}\n"
 
 #. type: Title ###
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:133
@@ -517,8 +490,6 @@ msgstr ""
 
 #. type: Plain text
 #: upstream/content/blog/2020/10/ApacheCon-at-Home-videos/index.md:166
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< youtube id=\"Y40ebvXbQmU\" class=\"video\" >}}\n"
-msgstr ""
-"< youtube id=\"Y40ebvXbQmU\" class=\"video\" >{{}}\n"
-"</youtube>"
+msgstr "{{< youtube id=\"Y40ebvXbQmU\" class=\"video\" >}}\n"
