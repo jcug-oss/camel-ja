@@ -15,7 +15,7 @@ on:
 jobs:
   deploy-ja-to-surge:
     name: Deploy JA to surge.sh
-    if: ${{ github.repository_owner == 'jcug-oss' }}
+    if: ${{ github.repository_owner == 'jcug-oss' && github.event.workflow_run.conclusion != 'failure' }}
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout base branch

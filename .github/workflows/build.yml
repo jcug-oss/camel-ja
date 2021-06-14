@@ -23,7 +23,7 @@ on:
 jobs:
   update:
     name: Update files
-    if: ${{ github.repository_owner == 'jcug-oss' }}
+    if: ${{ github.repository_owner == 'jcug-oss' && github.event.workflow_run.conclusion != 'failure' }}
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
@@ -60,7 +60,7 @@ jobs:
 
   deploy-ja:
     name: Deploy JA to GitHub pages
-    if: ${{ github.repository_owner == 'jcug-oss' }}
+    if: ${{ github.repository_owner == 'jcug-oss' && github.event.workflow_run.conclusion != 'failure' }}
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
