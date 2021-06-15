@@ -19,12 +19,12 @@ msgstr ""
 #. type: Content of: outside any tag (error?)
 #: upstream/layouts/sitemap/sitemap.html:1
 msgid "{{ partial \"header.html\" . }}"
-msgstr ""
+msgstr "{{ partial \"header.html\" . }}"
 
 #. type: Content of: <div><main><div><article><h1>
 #: upstream/layouts/sitemap/sitemap.html:7
 msgid "{{ .Title }}"
-msgstr ""
+msgstr "{{ .Title }}"
 
 #. type: Content of: <div><main><div><article><h2>
 #: upstream/layouts/sitemap/sitemap.html:8

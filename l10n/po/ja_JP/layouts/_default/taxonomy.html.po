@@ -19,7 +19,7 @@ msgstr ""
 #. type: Content of: outside any tag (error?)
 #: upstream/layouts/_default/taxonomy.html:1
 msgid "{{ partial \"header.html\" . }}"
-msgstr ""
+msgstr "{{ partial \"header.html\" . }}"
 
 #. type: Content of: <div><nav>
 #: upstream/layouts/_default/taxonomy.html:5

@@ -19,7 +19,7 @@ msgstr ""
 #. type: Content of: outside any tag (error?)
 #: upstream/layouts/releases/list.html:1
 msgid "{{ partial \"header.html\" . }}"
-msgstr ""
+msgstr "{{ partial \"header.html\" . }}"
 
 #. type: Content of: <main><article>
 #: upstream/layouts/releases/list.html:5
