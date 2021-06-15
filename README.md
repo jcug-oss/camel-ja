@@ -37,12 +37,6 @@ camel-jのGitHubリポジトリには、アップストリームリポジトリ�
 機械翻訳された`.po`ファイルには、`"fuzzy"`マークが付いています。
 `"fuzzy"`マークを取り除き、必要に応じて不適切な訳文を修正します。
 
-.po files in [l10n/po](l10n/po) directory need to be translated. 
-.po file is a file format commonly used for software internationalization, and many CAT software and SaaS can read/write.
-[POEdit](https://poedit.net/), which run on Windows/Mac/Linux is a good candidate.
-Since .po files are pre-filled with machine translation with "fuzzy" mark, 
-please remove "fuzzy" mark and correct inappropriate sentences if needed.
-
 #### ローカライズされたサイトのビルド
 
 プルリクエストを送信すると、GitHub Actionsワークフローが自動的に`.po`ファイルの翻訳をテキストファイルに適用します。
