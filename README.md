@@ -1,30 +1,41 @@
-# ja.quarkus.io
+# camel-ja
 
-Japanese Localization project for [https://github.com/quarkusio/quarkusio.github.io](https://github.com/quarkusio/quarkusio.github.io) (The repository for [quarkus.io website](https://quarkus.io))
+[Apache Camel公式ウェブサイト](https://camel.apache.org/)の日本語翻訳プロジェクトです。以下の公式ウェブサイトのリポジトリを翻訳し、公開する作業を行っています。
 
-Localized site: [https://ja.quarkus.io/](https://ja.quarkus.io)
+- https://github.com/apache/camel-website
 
-## Localization architecture
+日本語ウェブサイトは現在以下に公開されてます。
+- テスト／一時公開 - http://camel-ja.surge.sh/
+- 正式URL（調整中） - https://jcug-oss.github.io/camel-ja/
 
-Original [quarkusio.github.io](https://github.com/quarkusio/quarkusio.github.io) is built with Jekyll, 
-and most of its contents are written in asciidoctor (.adoc) files.
-ja-quarkusio extracts texts to po files with [po4a](https://po4a.org/) utility, translates, 
-write back to asciidoctor files, and build a localized site.
-Most workflow including pre-translation by DeepL API are automated by GitHub Actions. 
-Translators can focus on post-editing to improve fluency.
-If you are interested in contributing localization, please edit .po files, and submit a pull request.
+## ローカライズアーキテクチャ
 
-![translation-workflow](internal/docs/images/translation-workflow.png)
+camel-jaは、[ja-quarkusio](https://github.com/quarkusio/ja.quarkus.io)プロジェクトの成果を元にしています。
 
-### .adoc files localization
+オリジナルの[Apache Camelウェブサイト](https://github.com/apache/camel-website)はAntora + Hugoで構築されています。
+その内容のほとんどは、Markdown（`.md`）ファイルとAsciidoctor（`.adoc`）ファイルで書かれています。
+camel-jaは [po4a](https://po4a.org/)を使ってテキストを`po`ファイルに展開し、翻訳します。
+その後、元のテキスト形式（`.md`または`.adoc`）に書き戻して、ローカライズされたサイトを構築します。
+DeepL APIによる下訳処理を含むほとんどのワークフローは、GitHub Actionsによって自動化されています。
+翻訳プロジェクト参加者は、下訳をベースに翻訳の精度を向上させることに集中できます。
+ローカライズに興味のある方は、`.po`ファイルを編集して、プルリクエストを送ってください。
 
-#### sync workflow
+![翻訳ワークフロー](internal/docs/images/translation-workflow.png)
 
-ja-quarkusio GitHub repository has a GitHub Actions workflow which checks upstream repository(submodule) update, 
-extracts texts from upstream .adoc files to [.adoc.po files](l10n/po), pre-translate with a translation memory 
-and the DeepL API.
+### テキストファイルのローカライズ
 
-#### Translating .po files
+#### Syncワークフロー
+
+camel-jのGitHubリポジトリには、アップストリームリポジトリ（サブモジュール）の更新をチェックするGitHub Actionsワークフローが用意されています。
+アップストリームのテキストファイルから[.poファイル](l10n/po)にテキストを抽出し、翻訳メモリとDeepL APIを使って下訳を行います。
+
+#### .poファイルの翻訳
+
+[l10n/po](l10n/po)ディレクトリにある`.po`ファイルを翻訳する必要があります。
+`.po`ファイルはソフトウェアの国際化によく使われるファイル形式で、多くのCATソフトやSaaSが読み書きできるようになっています。
+`.po`ファイルに対応した翻訳エディタには、Windows/Mac/Linuxで動作する[POEdit](https://poedit.net/)などがあります。
+機械翻訳された`.po`ファイルには、`"fuzzy"`マークが付いています。
+`"fuzzy"`マークを取り除き、必要に応じて不適切な訳文を修正します。
 
 .po files in [l10n/po](l10n/po) directory need to be translated. 
 .po file is a file format commonly used for software internationalization, and many CAT software and SaaS can read/write.
@@ -32,52 +43,50 @@ and the DeepL API.
 Since .po files are pre-filled with machine translation with "fuzzy" mark, 
 please remove "fuzzy" mark and correct inappropriate sentences if needed.
 
-#### Build a localized site
+#### ローカライズされたサイトのビルド
 
-When you send a pull-request, GitHub Actions workflow automatically apply translations in .po files to .adoc files,
-build a localized site and deploy it to surge.sh with preview domain. When the deploy finish, GitHub Actions comment 
-the URL to the pull-request. Reviewers can check the deployed site for review.
-When the pull-request is merged into `master`, it is automatically deployed to the production site (https://ja.quarkus.io).
+プルリクエストを送信すると、GitHub Actionsワークフローが自動的に`.po`ファイルの翻訳をテキストファイルに適用します。
+その後ローカライズされたサイトをビルドし、それをプレビュードメイン付きの surge.sh にデプロイします。
+デプロイが完了すると、GitHub ActionsはそのURLをプルリクエストにコメントします。レビュアーは、デプロイされたサイトを確認できます。
+プルリクエストが`main`ブランチにマージされると、自動的に本番サイトにデプロイされます（http://camel-ja.surge.sh/）。
 
-#### Build a localized site locally
+#### ローカライズされたサイトをローカルにビルドする
 
-If you would like to build a site locally, run:
+ローカルにサイトをビルドしたい場合は、次のように実行します。
 
 ```
 bin/apply-translation
-bin/exec-jekyll
+bin/exec-antora-preview
 ```
 
-The site is build in `doc` directory.
+サイトは`doc`ディレクトリにビルドされ、 http://localhost:1313/ で見ることができます。
 
-### HTML templates localization
+### HTMLテンプレートのローカライズ
 
-Most contents of [quarkus.io](https://quarkus.io) are in .adoc files, but a few texts are in its HTML templates.
-Since HTML templates cannot be parsed with [po4a](https://po4a.org/) utility, this localization project repository has their
-localized copies in the [l10n/override](l10n/override) directory. When the templates in the upstream repository are 
-updated, GitHub Actions workflow automatically create a issue to let you know. 
-Please refer the [l10n/stats/override.csv](l10n/stats/override.csv) to check which files are updated, and update the override files 
-to keep it up to date.
+[Apache Camelウェブサイト](https://camel.apache.org/)のほとんどのコンテンツは`.md`または`.adoc`ファイルですが、いくつかのテキストはHTMLテンプレートになっています。
+HTMLテンプレートは[po4a](https://po4a.org/)では解析できないので、このローカライズプロジェクトのリポジトリでは直接翻訳したHTMLテンプレートを[l10n/override](l10n/override)に置いています。
+アップストリームリポジトリのテンプレートが更新されると、GitHub Actionsのワークフローが自動的にIssueを作成して通知します。
+どのファイルが更新されたかは、[l10n/stats/override.csv](l10n/stats/override.csv)を参照してください。
+変更されたオーバーライドファイルは常に更新して、最新の状態にしてください。
 
 ## FAQ
 
-### Some guides or blog posts are not translated.
+### 一部のガイドやブログ記事が翻訳されていません。
 
-These articles are not translated, but don't worry. Machine-translation is available in the corresponding .adoc.po file.
-We'll appreciate if you post-edit the .adoc.po files to polish up, remove "fuzzy" mark, and send a pull-request.
+これらの記事は翻訳されていませんが、対応する`.po`ファイルに機械翻訳が用意されています。
+`.po`ファイルの訳文を編集後、該当の`"fuzzy"`マークを削除してプルリクエストを送信してください。
 
-### Some sentences are not translated in the translated articles
+### 翻訳された記事の中に翻訳されていない文章がある
 
-It seems corresponding upstream sentences are updated, and completed translations are not available. 
-We'll appreciate if you post-edit the corresponding .adoc.po files to polish up, remove "fuzzy" mark, and send a pull-request.
+対応するアップストリームの文章が更新され、以前に完成させた翻訳が利用できなくなっているようです。
+対応する`.po`ファイルの訳文を更新し、該当の`"fuzzy"`マークを削除してプルリクエストを送信してください。
 
-## Contributing
+## コントリビュートするには
 
-Submitting a pull request, and reporting an issue are all welcome.
+プルリクエストや問題の報告を歓迎します。
 
-For translators, we have a [translation guide(ja)](./translation-guide.ja.md).
+翻訳の流れについては、[翻訳ガイド](./translation-guide.ja.md)を参照してください。
 
-## License
+## ライセンス
 
-ja-quarkusio is Open Source Project released under the
-[Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0.html).
+camel-jaは、[Apache 2.0ライセンス](http://www.apache.org/licenses/LICENSE-2.0.html)の下で公開されているオープンソースプロジェクトです。
