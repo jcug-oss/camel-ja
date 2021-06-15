@@ -1,6 +1,6 @@
-# quarkus.io 翻訳プロジェクト レビューガイド
+# camel-ja 翻訳プロジェクト レビューガイド
 
-quarkus.io 翻訳プロジェクトでは、翻訳対象ドキュメントからテキストを抽出し、翻訳ファイル（.poファイル）の形式にしたものを
+camel-ja 翻訳プロジェクトでは、翻訳対象ドキュメントからテキストを抽出し、翻訳ファイル（.poファイル）の形式にしたものを
 gitで管理しています。レポジトリはGitHubでホスティングしており、新しく翻訳したテキストは、GitHubのレポジトリに対して
 Pull Request（変更提案）として送信され、レビュアーによるレビューを経てレポジトリに取り込まれます。
 本ガイドでは、レビュアーがレビュー時に行う具体的な手順を解説します。
@@ -9,7 +9,7 @@ Pull Request（変更提案）として送信され、レビュアーによる�
 
 ### Pull Requestを開く
 
-Pull Requestの一覧は、 [プロジェクトページ](https://github.com/doc-l10n-kit/ja-quarkusio) の"Pull Requests"タブから
+Pull Requestの一覧は、 [プロジェクトページ](https://github.com/jcug-oss/camel-ja) の"Pull Requests"タブから
 表示することが可能です。一覧からPull Requestを選択し、Pull Requestページを開いてください。
 Pull Requestページには、いくつかのサブタブが存在します。
 
