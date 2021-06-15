@@ -13,6 +13,14 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>{{ .Title }}</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{ .Title }}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Apache Camel</seg>
       </tuv>
       <tuv xml:lang="ja_JP">
@@ -65,14 +73,6 @@
       </tuv>
       <tuv xml:lang="ja_JP">
         <seg>{{ dateFormat "Jan" .PublishDate }} {{ dateFormat "2006" .PublishDate }}</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{ .Title }}</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{ .Title }}</seg>
       </tuv>
     </tu>
     <tu>
