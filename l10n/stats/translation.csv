@@ -1,6 +1,5 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/ja_JP/content/blog/_index.md.po, 0, 1, 0, 1 ,100%
-l10n/po/ja_JP/content/blog/2021/06/ApacheCon-2021/index.md.po, 0, 7, 0, 163 ,100%
 l10n/po/ja_JP/content/_index.md.po, 0, 57, 0, 389 ,100%
 l10n/po/ja_JP/content/blog/2019/10/Camel3-2monthsaway/CamelK-CNCF-Landscape/index.md.po, 3, 4, 51, 58 ,13%
 l10n/po/ja_JP/content/blog/2020/10/ApacheCon-at-Home-videos/index.md.po, 51, 65, 453, 495 ,9%
@@ -141,6 +140,7 @@ l10n/po/ja_JP/content/community/contributing.md.po, 73, 73, 1742, 1742 ,0%
 l10n/po/ja_JP/content/community/camel-extra.md.po, 2, 2, 24, 24 ,0%
 l10n/po/ja_JP/content/community/books.md.po, 49, 49, 1270, 1270 ,0%
 l10n/po/ja_JP/content/community/articles.md.po, 347, 347, 7643, 7643 ,0%
+l10n/po/ja_JP/content/blog/2021/06/ApacheCon-2021/index.md.po, 7, 7, 163, 163 ,0%
 l10n/po/ja_JP/content/blog/2021/05/vscode-camel-release/index.md.po, 18, 18, 323, 323 ,0%
 l10n/po/ja_JP/content/blog/2021/05/plantuml-diagram/index.md.po, 8, 8, 107, 107 ,0%
 l10n/po/ja_JP/content/blog/2021/05/new-camel-k-logging-features/index.md.po, 24, 24, 546, 546 ,0%
