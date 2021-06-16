@@ -18,42 +18,42 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/06/ApacheCon-2021/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The schedules for ApacheCon Asia and ApacheCon @Home have been published. Register now to attend!"
-msgstr ""
+msgstr "ApacheCon AsiaとApacheCon @Homeのスケジュールを公開しました。参加をご希望の方は、今すぐご登録ください。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/06/ApacheCon-2021/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "ApacheCon Asia and @Home schedules"
-msgstr ""
+msgstr "ApacheCon Asiaと@Homeのスケジュール"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/ApacheCon-2021/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As we [announced earlier](/blog/2021/03/ApacheCons2021/) this year, we have not one but two Apache conferences featuring Apache Camel on the Integration track.\n"
-msgstr ""
+msgstr "先日お知らせしたように(/blog/2021/03/ApacheCons2021/)、今年はインテグレーショントラックでApache CamelをフィーチャーしたApacheカンファレンスが1つではなく2つ開催されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/ApacheCon-2021/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[ApacheCon Asia](https://apachecon.com/acasia2021/) is from August 6 - 8, 2021 and has [two days](https://apachecon.com/acasia2021/tracks/integration.html) of Camel and software integration sessions held in Asia-Pacific timezone. And [ApacheCon @Home](https://apachecon.com/acah2021/) from September 21 - 23, 2021 also features two days of Camel and software integration sessions with sessions held in Europe-Americas timezone.\n"
-msgstr ""
+msgstr "ApacheCon Asia](https://apachecon.com/acasia2021/)は2021年8月6日から8日までで、アジア太平洋タイムゾーンで開催されるCamelとソフトウェアインテグレーションのセッションが[2日間](https://apachecon.com/acasia2021/tracks/integration.html)あります。また、[ApacheCon @Home](https://apachecon.com/acah2021/)は2021年9月21日から23日までで、Camelとソフトウェアインテグレーションのセッションが2日間行われ、ヨーロッパ・アメリカのタイムゾーンで開催されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/ApacheCon-2021/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The schedules for the Integration track at [ApacheCon Asia](https://apachecon.com/acasia2021/tracks/integration.html), and [ApacheCon @Home](https://apachecon.com/acah2021/tracks/integration.html) have been published, and are packed with interesting technology talks and use case presentations.\n"
-msgstr ""
+msgstr "ApacheCon Asia](https://apachecon.com/acasia2021/tracks/integration.html)、[ApacheCon @Home](https://apachecon.com/acah2021/tracks/integration.html)のIntegrationトラックのスケジュールが公開されました。興味深い技術講演やユースケースのプレゼンテーションが満載です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/ApacheCon-2021/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is also a great time to register to attend [ApacheCon Asia](https://apachecon.com/acasia2021/register.html) or [ApacheCon @Home](https://apachecon.com/acah2021/register.html).\n"
-msgstr ""
+msgstr "また、[ApacheCon Asia](https://apachecon.com/acasia2021/register.html)や[ApacheCon @Home](https://apachecon.com/acah2021/register.html)への参加登録もこの機会にぜひどうぞ。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/ApacheCon-2021/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Both conferences are free to attend and online/virtual, so come and celebrate with the Apache Camel and the wider Apache Software Foundation community.\n"
-msgstr ""
+msgstr "どちらのカンファレンスも参加費は無料で、オンライン／バーチャルで開催されますので、ぜひお越しいただき、Apache CamelおよびApache Software Foundationの幅広いコミュニティと一緒にお祝いしましょう。\n"
