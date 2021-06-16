@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-16 15:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2021/06/ApacheCon-2021/index.md:1
+#, no-wrap
+msgid "The schedules for ApacheCon Asia and ApacheCon @Home have been published. Register now to attend!"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2021/06/ApacheCon-2021/index.md:1
+#, no-wrap
+msgid "ApacheCon Asia and @Home schedules"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/ApacheCon-2021/index.md:10
+#, no-wrap
+msgid "As we [announced earlier](/blog/2021/03/ApacheCons2021/) this year, we have not one but two Apache conferences featuring Apache Camel on the Integration track.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/ApacheCon-2021/index.md:12
+#, no-wrap
+msgid "[ApacheCon Asia](https://apachecon.com/acasia2021/) is from August 6 - 8, 2021 and has [two days](https://apachecon.com/acasia2021/tracks/integration.html) of Camel and software integration sessions held in Asia-Pacific timezone. And [ApacheCon @Home](https://apachecon.com/acah2021/) from September 21 - 23, 2021 also features two days of Camel and software integration sessions with sessions held in Europe-Americas timezone.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/ApacheCon-2021/index.md:14
+#, no-wrap
+msgid "The schedules for the Integration track at [ApacheCon Asia](https://apachecon.com/acasia2021/tracks/integration.html), and [ApacheCon @Home](https://apachecon.com/acah2021/tracks/integration.html) have been published, and are packed with interesting technology talks and use case presentations.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/ApacheCon-2021/index.md:16
+#, no-wrap
+msgid "This is also a great time to register to attend [ApacheCon Asia](https://apachecon.com/acasia2021/register.html) or [ApacheCon @Home](https://apachecon.com/acah2021/register.html).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/ApacheCon-2021/index.md:17
+#, no-wrap
+msgid "Both conferences are free to attend and online/virtual, so come and celebrate with the Apache Camel and the wider Apache Software Foundation community.\n"
+msgstr ""
