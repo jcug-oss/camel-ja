@@ -1053,9 +1053,9 @@ msgstr "これらの例では、Camelをいくつかのツール（IDEなど）�
 
 #. type: Bullet: '*   '
 #: upstream/content/community/articles.md:237
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Distributed Logs and Tracing with Spring, Apache Camel, OpenTelemetry and Grafana](https://dev.to/antongoncharov/distributed-logs-and-tracing-with-spring-apache-camel-opentelemetry-and-grafana-example-554e) blog post by Anton Goncharov in June 2020 with example how to setup OpenTracing with Camel and have a visual Grafana dashboard.    \n"
-msgstr ""
+msgstr "Distributed Logs and Tracing with Spring, Apache Camel, OpenTelemetry and Grafana](https://dev.to/antongoncharov/distributed-logs-and-tracing-with-spring-apache-camel-opentelemetry-and-grafana-example-554e) アントン・ゴンチャロフが2020年6月に投稿したブログ記事で、CamelでOpenTracingをセットアップして、Grafanaのダッシュボードをビジュアル化する方法を例示しています。    \n"
 
 #. type: Bullet: '*   '
 #: upstream/content/community/articles.md:237
