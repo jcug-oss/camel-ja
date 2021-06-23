@@ -1,4 +1,5 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
+l10n/po/ja_JP/content/releases/ckc/release-0.10.1.md.po, 0, 1, 0, 5 ,100%
 l10n/po/ja_JP/content/blog/_index.md.po, 0, 1, 0, 1 ,100%
 l10n/po/ja_JP/content/_index.md.po, 0, 57, 0, 389 ,100%
 l10n/po/ja_JP/content/blog/2019/10/Camel3-2monthsaway/CamelK-CNCF-Landscape/index.md.po, 3, 4, 51, 58 ,13%
@@ -11,6 +12,7 @@ l10n/po/ja_JP/content/blog/2021/03/Camel39-Whatsnew/index.md.po, 49, 51, 752, 76
 l10n/po/ja_JP/content/blog/2020/12/Camel37-Whatsnew/index.md.po, 71, 73, 1140, 1153 ,2%
 l10n/po/ja_JP/content/blog/2019/12/Camel3-Whatsnew/index.md.po, 100, 104, 1582, 1610 ,2%
 l10n/po/ja_JP/content/download/_index.md.po, 8, 9, 192, 193 ,1%
+l10n/po/ja_JP/content/community/articles.md.po, 346, 347, 7628, 7662 ,1%
 l10n/po/ja_JP/content/blog/2021/02/Camel38-Whatsnew/index.md.po, 59, 60, 1125, 1131 ,1%
 l10n/po/ja_JP/content/blog/2020/01/capi-gateway/index.md.po, 90, 91, 1295, 1300 ,1%
 l10n/po/ja_JP/content/sitemap/_index.md.po, 1, 1, 1, 1 ,0%
@@ -140,7 +142,6 @@ l10n/po/ja_JP/content/community/mailing-list.md.po, 6, 6, 278, 278 ,0%
 l10n/po/ja_JP/content/community/contributing.md.po, 73, 73, 1742, 1742 ,0%
 l10n/po/ja_JP/content/community/camel-extra.md.po, 2, 2, 24, 24 ,0%
 l10n/po/ja_JP/content/community/books.md.po, 49, 49, 1270, 1270 ,0%
-l10n/po/ja_JP/content/community/articles.md.po, 347, 347, 7643, 7643 ,0%
 l10n/po/ja_JP/content/blog/2021/06/RELEASE-3.4.5/index.md.po, 6, 6, 86, 86 ,0%
 l10n/po/ja_JP/content/blog/2021/06/ApacheCon-2021/index.md.po, 7, 7, 163, 163 ,0%
 l10n/po/ja_JP/content/blog/2021/05/vscode-camel-release/index.md.po, 18, 18, 323, 323 ,0%
