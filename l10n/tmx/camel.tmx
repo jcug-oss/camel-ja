@@ -93,6 +93,86 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>{{&lt; div "box left camel-core" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; div "box left camel-core" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; div "icon" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; div "icon" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; /div &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; /div &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; div "content" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; div "content" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; div "box right" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; div "box right" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; div "content"&gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; div "content"&gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; div "box left" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; div "box left" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; downloads &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; downloads &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.</seg>
       </tuv>
       <tuv xml:lang="ja_JP">
@@ -127,26 +207,6 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>{{&lt; div "box right" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; div "box right" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; div "content"&gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; div "content"&gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Camel supports most of the Enterprise Integration Patterns from the excellent book by Gregor Hohpe and Bobby Woolf, and newer integration patterns from microservice architectures to help you solve your integration problem by applying best practices out of the box.
 </seg>
       </tuv>
@@ -157,41 +217,11 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>{{&lt; /div &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; /div &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; div "icon" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; div "icon" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>&lt;img src="./img/patterns.svg" alt="component icon"/&gt;
 </seg>
       </tuv>
       <tuv xml:lang="ja_JP">
         <seg>&lt;img src="./img/patterns.svg" alt="component icon"/&gt;
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; div "box left" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; div "box left" &gt;}}
 </seg>
       </tuv>
     </tu>
@@ -298,16 +328,6 @@
       </tuv>
       <tuv xml:lang="ja_JP">
         <seg>&lt;img src="/_/img/logo-d.svg" alt="data icon"/&gt;
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; div "content" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; div "content" &gt;}}
 </seg>
       </tuv>
     </tu>
@@ -499,21 +519,231 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>{{&lt; downloads &gt;}}
+        <seg>{{&lt; youtube id="MBTtRE_n5Ng" class="video" &gt;}}
 </seg>
       </tuv>
       <tuv xml:lang="ja_JP">
-        <seg>{{&lt; downloads &gt;}}
+        <seg>{{&lt; youtube id="MBTtRE_n5Ng" class="video" &gt;}}
 </seg>
       </tuv>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>{{&lt; div "box left camel-core" &gt;}}
+        <seg>{{&lt; youtube id="reiIjLWaFg8" class="video" &gt;}}
 </seg>
       </tuv>
       <tuv xml:lang="ja_JP">
-        <seg>{{&lt; div "box left camel-core" &gt;}}
+        <seg>{{&lt; youtube id="reiIjLWaFg8" class="video" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; youtube id="POWsZnGhVHM" class="video" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; youtube id="POWsZnGhVHM" class="video" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; youtube id="k8OFq6CnySE" class="video" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; youtube id="k8OFq6CnySE" class="video" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; youtube id="0THM_HFFWTI" class="video" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; youtube id="0THM_HFFWTI" class="video" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; youtube id="QZdktRXet2k" class="video" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; youtube id="QZdktRXet2k" class="video" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; youtube id="sEKCI8IBCfc" class="video" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; youtube id="sEKCI8IBCfc" class="video" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; youtube id="gL3GIzPT36Y" class="video" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; youtube id="gL3GIzPT36Y" class="video" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; youtube id="etSwmRP8-Eo" class="video" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; youtube id="etSwmRP8-Eo" class="video" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; youtube id="aYLLtj6TdjM" class="video" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; youtube id="aYLLtj6TdjM" class="video" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; youtube id="HEB8TMmsEDg" class="video" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; youtube id="HEB8TMmsEDg" class="video" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; youtube id="SI1WqGST1SI" class="video" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; youtube id="SI1WqGST1SI" class="video" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; youtube id="6EQy1kw03Ig" class="video" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; youtube id="6EQy1kw03Ig" class="video" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; youtube id="Y40ebvXbQmU" class="video" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; youtube id="Y40ebvXbQmU" class="video" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; image "350-blocked.png" "Camel 3.5 Blocked Threads" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; image "350-blocked.png" "Camel 3.5 Blocked Threads" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; image "360-blocked.png" "Camel 3.6 Blocked Threads" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; image "360-blocked.png" "Camel 3.6 Blocked Threads" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; image "350-allocations.png" "Camel 3.5 Average Object Allocations Per Seconds" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; image "350-allocations.png" "Camel 3.5 Average Object Allocations Per Seconds" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; image "360-allocations.png" "Camel 3.6 Average Object Allocations Per Seconds" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; image "360-allocations.png" "Camel 3.6 Average Object Allocations Per Seconds" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; image "350-performance.png" "Camel 3.5 Performance Charts" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; image "350-performance.png" "Camel 3.5 Performance Charts" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; image "360-performance.png" "Camel 3.6 Performance Charts" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; image "360-performance.png" "Camel 3.6 Performance Charts" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; image "CAPI-Gateway.png" "Architecture Overview" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; image "CAPI-Gateway.png" "Architecture Overview" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; image "csimple-compiled.png" "Compiled Simple Language" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; image "csimple-compiled.png" "Compiled Simple Language" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; image "simple-csimple-performance.png" "Simple vs Compiled Simple" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; image "simple-csimple-performance.png" "Simple vs Compiled Simple" &gt;}}
 </seg>
       </tuv>
     </tu>
@@ -527,6 +757,26 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>{{&lt; image "camelk-landscape.png" "Camel K CNCF landscape" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; image "camelk-landscape.png" "Camel K CNCF landscape" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>{{&lt; image "camel3-progress.png" "Camel 3 timeline" &gt;}}
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>{{&lt; image "camel3-progress.png" "Camel 3 timeline" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>{{&lt; image "camel3-projects.png" "Camel 3 projects" &gt;}}
 </seg>
       </tuv>
@@ -567,36 +817,6 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>{{&lt; image "camelk-landscape.png" "Camel K CNCF landscape" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; image "camelk-landscape.png" "Camel K CNCF landscape" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; image "camel3-progress.png" "Camel 3 timeline" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; image "camel3-progress.png" "Camel 3 timeline" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; image "jdk-mission-control.png" "JDK Mission Control" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; image "jdk-mission-control.png" "JDK Mission Control" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>{{&lt; image "memory-camel38.png" "Camel 3.8" &gt;}}
 </seg>
       </tuv>
@@ -617,231 +837,11 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>{{&lt; image "csimple-compiled.png" "Compiled Simple Language" &gt;}}
+        <seg>{{&lt; image "jdk-mission-control.png" "JDK Mission Control" &gt;}}
 </seg>
       </tuv>
       <tuv xml:lang="ja_JP">
-        <seg>{{&lt; image "csimple-compiled.png" "Compiled Simple Language" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; image "simple-csimple-performance.png" "Simple vs Compiled Simple" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; image "simple-csimple-performance.png" "Simple vs Compiled Simple" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; image "CAPI-Gateway.png" "Architecture Overview" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; image "CAPI-Gateway.png" "Architecture Overview" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; youtube id="MBTtRE_n5Ng" class="video" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; youtube id="MBTtRE_n5Ng" class="video" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; youtube id="reiIjLWaFg8" class="video" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; youtube id="reiIjLWaFg8" class="video" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; youtube id="POWsZnGhVHM" class="video" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; youtube id="POWsZnGhVHM" class="video" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; youtube id="k8OFq6CnySE" class="video" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; youtube id="k8OFq6CnySE" class="video" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; youtube id="0THM_HFFWTI" class="video" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; youtube id="0THM_HFFWTI" class="video" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; youtube id="QZdktRXet2k" class="video" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; youtube id="QZdktRXet2k" class="video" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; youtube id="sEKCI8IBCfc" class="video" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; youtube id="sEKCI8IBCfc" class="video" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; youtube id="gL3GIzPT36Y" class="video" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; youtube id="gL3GIzPT36Y" class="video" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; youtube id="etSwmRP8-Eo" class="video" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; youtube id="etSwmRP8-Eo" class="video" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; youtube id="aYLLtj6TdjM" class="video" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; youtube id="aYLLtj6TdjM" class="video" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; youtube id="HEB8TMmsEDg" class="video" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; youtube id="HEB8TMmsEDg" class="video" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; youtube id="SI1WqGST1SI" class="video" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; youtube id="SI1WqGST1SI" class="video" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; youtube id="6EQy1kw03Ig" class="video" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; youtube id="6EQy1kw03Ig" class="video" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; youtube id="Y40ebvXbQmU" class="video" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; youtube id="Y40ebvXbQmU" class="video" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; image "350-blocked.png" "Camel 3.5 Blocked Threads" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; image "350-blocked.png" "Camel 3.5 Blocked Threads" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; image "360-blocked.png" "Camel 3.6 Blocked Threads" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; image "360-blocked.png" "Camel 3.6 Blocked Threads" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; image "350-allocations.png" "Camel 3.5 Average Object Allocations Per Seconds" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; image "350-allocations.png" "Camel 3.5 Average Object Allocations Per Seconds" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; image "360-allocations.png" "Camel 3.6 Average Object Allocations Per Seconds" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; image "360-allocations.png" "Camel 3.6 Average Object Allocations Per Seconds" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; image "350-performance.png" "Camel 3.5 Performance Charts" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; image "350-performance.png" "Camel 3.5 Performance Charts" &gt;}}
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>{{&lt; image "360-performance.png" "Camel 3.6 Performance Charts" &gt;}}
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>{{&lt; image "360-performance.png" "Camel 3.6 Performance Charts" &gt;}}
+        <seg>{{&lt; image "jdk-mission-control.png" "JDK Mission Control" &gt;}}
 </seg>
       </tuv>
     </tu>
