@@ -1053,9 +1053,9 @@ msgstr "これらの例では、Camelをいくつかのツール（IDEなど）�
 
 #. type: Bullet: '*   '
 #: upstream/content/community/articles.md:238
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Saga-Based Design Using Apache Camel and Kafka: Implementing Highly Reliable Distributed Business Transactions](https://modusbox.com/saga-based-design-using-apache-camel-and-kafka-implementing-highly-reliable-distributed-business-transactions/) article from June 2021 about the Sage EIP for transactions with Camel and Kafka.\n"
-msgstr ""
+msgstr "[Apache CamelとKafkaを使った佐賀ベースの設計。Implementing Highly Reliable Distributed Business Transactions](https://modusbox.com/saga-based-design-using-apache-camel-and-kafka-implementing-highly-reliable-distributed-business-transactions/)2021年6月に掲載された、CamelとKafkaを使ったトランザクションのためのSage EIPに関する記事です。\n"
 
 #. type: Bullet: '*   '
 #: upstream/content/community/articles.md:238
