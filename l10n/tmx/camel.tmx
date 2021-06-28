@@ -113,6 +113,16 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>[![Camel](/_/img/logo-d.svg)](/camel-k/latest/)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[![Camel](/_/img/logo-d.svg)](/camel-k/latest/)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>{{&lt; /div &gt;}}
 </seg>
       </tuv>
@@ -128,6 +138,34 @@
       </tuv>
       <tuv xml:lang="ja_JP">
         <seg>{{&lt; div "content" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel Core</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camel Core</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The [User Manual](/manual/latest/) is a comprehensive guide meant to help you with the key concepts of Apache Camel and software integration, from how to [get started](/manual/latest/getting-started.html) with Apache Camel, how to [upgrade to Camel 3.x](/manual/latest/camel-3x-upgrade-guide.html), to [architecture](/manual/latest/architecture.html) or [integration patterns](/components/latest/eips/enterprise-integration-patterns.html).
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[ユーザーマニュアル](/manual/latest/)は、Apache Camelとソフトウェアインテグレーションの重要なコンセプトを理解するための包括的なガイドです。Apache Camelの[スタートアップガイド](/manual/latest/getting-started.html)から、[Camel 3.xにアップグレードする方法](/manual/latest/camel-3x-upgrade-guide.html)、[アーキテクチャ](/manual/latest/architecture.html)や[インテグレーションパターン](/components/latest/eips/enterpris-integration-patterns.html)まで説明しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel is packed with several hundred components that are used to access databases, message queues and APIs. The [Component reference](/components/latest/) provides you information about the functionality and configuration of each component.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camelには、データベースやメッセージキュー、APIにアクセスするための数百種類のコンポーネントが含まれています。[コンポーネントリファレンス](/components/latest/)には、各コンポーネントの機能や設定についての情報が掲載されています。
 </seg>
       </tuv>
     </tu>
@@ -153,11 +191,163 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>Camel K</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camel K</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Apache Camel K is a lightweight integration framework built on Apache Camel that runs natively on [Kubernetes](https://kubernetes.io/) and is specifically designed for serverless and micro service architectures. It allows you to run integration code written in Camel DSL on your cloud.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Apache Camel Kは、[Kubernetes](https://kubernetes.io/)上でネイティブに動作するApache Camelで構築された軽量のインテグレーションフレームワークで、特にサーバーレスやマイクロサービスアーキテクチャ向けに設計されています。Camel DSLで書かれたインテグレーションコードを、クラウド上で実行することができます。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Apache Camel K now leverages a catalog of connectors called "Kamelets" (_Kamel_ route snipp_ets_) that allow creating sources or sinks towards external systems via a 
+simplified interface, hiding all the low level details about how those connections are implemented.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Apache Camel Kでは、"Kamelets"(_Kamel_ route snipp_ets_)と呼ばれるコネクタのカタログを活用できます。 
+簡略化されたインターフェイスで、コネクションの低レベルの実装詳細を完全に隠しつつ、外部システムへのソースやシンクを作成することができます。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[![Camel](/_/img/logo-d.svg)![Knative](/_/img/knative.svg)](/camel-k/latest/)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[![Camel](/_/img/logo-d.svg)![Knative](/_/img/knative.svg)](/camel-k/latest/)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>{{&lt; div "box left" &gt;}}
 </seg>
       </tuv>
       <tuv xml:lang="ja_JP">
         <seg>{{&lt; div "box left" &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[![Camel](/_/img/logo-d.svg)![Knative](/_/img/apache-kafka.svg)](/camel-k/latest/)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[![Camel](/_/img/logo-d.svg)![Knative](/_/img/apache-kafka.svg)](/camel-k/latest/)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel Kafka Connector</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camel Kafka Connector</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel Kafka Connector allows you to use all [Camel components](/components/latest/) as [Kafka Connect](http://kafka.apache.org/documentation/#connect) connectors, which, as a result, expands Kafka Connect compatibility by allowing all Camel components to be used in the Kafka ecosystem.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camel Kafka Connectorでは、すべての[Camelコンポーネント](/components/latest/)を[Kafka Connect](http://kafka.apache.org/documentation/#connect)のコネクタとして使用することができます。結果として、すべてのCamelコンポーネントがKafkaエコシステムで使用できるようになり、Kafka Connectの互換性を拡張できます。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel Quarkus</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camel Quarkus</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This project hosts the efforts to port and package the 280+ Camel components as Quarkus extensions. [Quarkus](https://quarkus.io/) is a Java platform offering fast boot times and low memory footprint. It targets both stock JVMs and GraalVM.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>このプロジェクトでは、280以上のCamelコンポーネントをQuarkusエクステンションとして移植し、パッケージ化する作業を行っています。[Quarkus](https://quarkus.io/)は、高速な起動時間と低いメモリフットプリントを提供するJavaプラットフォームです。従来のJVMとGraalVMの両方を対象としています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[![Camel](/_/img/logo-d.svg)![Quarkus](/_/img/quarkus.svg)](/camel-quarkus/latest/)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[![Camel](/_/img/logo-d.svg)![Quarkus](/_/img/quarkus.svg)](/camel-quarkus/latest/)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[![Camel](/_/img/logo-d.svg)![Spring Boot](/_/img/spring-boot.svg)](/camel-spring-boot/latest/)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[![Camel](/_/img/logo-d.svg)![Spring Boot](/_/img/spring-boot.svg)](/camel-spring-boot/latest/)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel Spring Boot</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camel Spring Boot</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel support for Spring Boot provides auto-configuration of the Camel context by auto-detecting Camel routes available in the Spring context and registers the key Camel utilities as beans. It also provides starters for many Camel components.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>CamelのSpring Bootサポートでは、Springコンテキストで利用可能なCamelルートを自動検出してCamelコンテキストを自動構成し、主要なCamelユーティリティをBeanとして登録します。また、多くのCamelコンポーネントのStarterを提供します。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel Karaf</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camel Karaf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Karaf](https://karaf.apache.org/) makes running Apache Camel in [OSGi](https://www.osgi.org/) container easy, which as a result, expands Apache Camel's compatibility by allowing all Camel components to run in the OSGi environment.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Karaf](https://karaf.apache.org/)は、[OSGi](https://www.osgi.org/)コンテナでのApache Camelの実行を容易にし、その結果、すべてのCamelコンポーネントをOSGi環境で実行できるようにすることで、Apache Camelの互換性を拡大します。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[![Camel](/_/img/logo-d.svg)![Karaf](/_/img/apache-karaf.svg)](/camel-karaf/latest/)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[![Camel](/_/img/logo-d.svg)![Karaf](/_/img/apache-karaf.svg)](/camel-karaf/latest/)
 </seg>
       </tuv>
     </tu>
@@ -333,28 +523,12 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Camel Core</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>Camel Core</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>&lt;img src="/_/img/knative.svg" alt="data icon"/&gt;
 </seg>
       </tuv>
       <tuv xml:lang="ja_JP">
         <seg>&lt;img src="/_/img/knative.svg" alt="data icon"/&gt;
 </seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Camel K</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>Camel K</seg>
       </tuv>
     </tu>
     <tu>
@@ -369,28 +543,12 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Camel Quarkus</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>Camel Quarkus</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>&lt;img src="/_/img/apache-kafka.svg" alt="data icon"/&gt;
 </seg>
       </tuv>
       <tuv xml:lang="ja_JP">
         <seg>&lt;img src="/_/img/apache-kafka.svg" alt="data icon"/&gt;
 </seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Camel Kafka Connector</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>Camel Kafka Connector</seg>
       </tuv>
     </tu>
     <tu>
@@ -415,28 +573,12 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Camel Spring Boot</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>Camel Spring Boot</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>&lt;img src="/_/img/apache-karaf.svg" alt="data icon"/&gt;
 </seg>
       </tuv>
       <tuv xml:lang="ja_JP">
         <seg>&lt;img src="/_/img/apache-karaf.svg" alt="data icon"/&gt;
 </seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Camel Karaf</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>Camel Karaf</seg>
       </tuv>
     </tu>
     <tu>
