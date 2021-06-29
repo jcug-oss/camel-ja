@@ -33,6 +33,9 @@ jobs:
         run: bin/exec-override
       - name: Exec antora
         run: bin/exec-antora
+
+      - name: Show docs size
+        run: du -d 1 docs/
       - name: Deploy to surge
         run: |
           # Trim ignored files manually in case the version of surge might not be aware of .surgeignore
@@ -40,6 +43,7 @@ jobs:
           rm -rf docs/components/3.4.x
           rm -rf docs/components/3.7.x
           rm -rf docs/components/3.9.x
+          rm -rf docs/components/3.10.x
           rm -rf docs/camel-kafka-connector
           rm -rf docs/schema
           surge docs pr-preview-"${{ github.event.pull_request.number }}"-camel-ja.surge.sh
