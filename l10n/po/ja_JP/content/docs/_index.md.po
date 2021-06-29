@@ -269,7 +269,6 @@ msgstr "CamelのSpring Bootサポートでは、Springコンテキストで利�
 
 #. type: Plain text
 #: upstream/content/docs/_index.md:134
-#, no-wrapss
 msgid ""
 "<p>\n"
 "<a class=\"button dark\" href=\"/camel-spring-boot/latest/\">Documentation</a>\n"
