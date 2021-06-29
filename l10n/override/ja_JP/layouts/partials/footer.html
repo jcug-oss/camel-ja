@@ -1,0 +1,87 @@
+    <div class="footer-tools">
+        {{ with .File }}
+            <a title="Improve this document, receive free virtual hugs &hearts;" href="https://github.com/apache/camel-website/edit/main/content/{{ .Path | replaceRE "^/" "" }}">このページを編集する</a>
+        {{ end }}
+        <a href="#top" title="Reach the top of the page">トップへ戻る</a>
+    </div>
+    <footer>
+        <div class="footer">
+            <figure class="logo">
+                <img class="logo" src="/_/img/logo-d.svg" alt="Apache Camel Logo"
+                    aria-label="white silhouette of a camel in front of a sand dune">
+            </figure>
+            <input id="footer-toggle-overview" type="checkbox" title="Show/Hide Overview section" />
+            <dl>
+                <dt><label for="footer-toggle-overview">概要</label><label for="footer-toggle-overview">&#65291;</label></dt>
+                <dd><a href="/blog/">ブログ</a></dd>
+                <dd><a href="/docs/">ドキュメント</a></dd>
+                <dd><a href="/community/support/">コミュニティ</a></dd>
+                <dd><a href="/download/">ダウンロード</a></dd>
+            </dl>
+            <input id="footer-toggle-documentation" type="checkbox" title="Show/Hide Documentation section" />
+            <dl>
+                <dt><label for="footer-toggle-documentation">ドキュメント</label><label for="footer-toggle-documentation">&#65291;</label></dt>
+                <dd><a href="/manual/latest/">ユーザーマニュアル</a></dd>
+                <dd><a href="/components/latest/index.html">コンポーネント</a></dd>
+                <dd><a href="/camel-k/latest/">Camel-K</a></dd>
+                <dd><a href="/camel-kafka-connector/latest/">Camel Kafka Connector</a></dd>
+                <dd><a href="/camel-quarkus/latest/">Camel Quarkus</a></dd>
+                <dd><a href="/camel-spring-boot/latest/">Camel Spring Boot</a></dd>
+                <dd><a href="/camel-karaf/latest/">Camel Karaf</a></dd>
+                <dd><a href="/manual/latest/faq/index.html">FAQ</a></dd>
+            </dl>
+            <input id="footer-toggle-community" type="checkbox" title="Show/Hide Community section" />
+            <dl>
+                <dt><label for="footer-toggle-community">コミュニティ</label><label for="footer-toggle-community">&#65291;</label></dt>
+                <dd><a href="/community/support/">サポート</a></dd>
+                <dd><a href="/community/contributing/">貢献する</a></dd>
+                <dd><a href="/community/mailing-list">メーリングリスト</a></dd>
+                <dd><a href="/community/user-stories/">ユーザー事例</a></dd>
+                <dd><a href="/community/articles/">記事</a></dd>
+                <dd><a href="/community/books/">書籍</a></dd>
+                <dd><a href="/community/team/">開発チーム</a></dd>
+            </dl>
+            <input id="footer-toggle-about" type="checkbox" title="Show/Hide Acknowledgements section" />
+            <dl>
+                <dt><label for="footer-toggle-about">このプロジェクトについて</label><label for="footer-toggle-about">&#65291;</label></dt>
+                <dd><a href="/acknowledgments/">謝辞</a></dd>
+                <dd><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.apache.org/events/current-event.html" title="Apache Events">Apacheイベント</a></dd>
+                <dd><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.apache.org/licenses/" title="License">ライセンス</a></dd>
+                <dd><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.apache.org/security/" title="Security">セキュリティ</a></dd>
+                <dd><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.apache.org/foundation/sponsorship.html" title="Sponsorship">スポンサーについて</a></dd>
+                <dd><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.apache.org/foundation/thanks.html" title="Thanks">協賛組織</a></dd>
+            </dl>
+            <p class="remark">
+                &copy; 2004-{{ now.Format "2006" }} <a href="https://apache.org">Apache Software Foundation</a>.<br>
+                Apache Camel、Camel、Apache、Apacheフェザーのロゴ、およびApache Camelプロジェクトのロゴは、Apache Software Foundationの商標です。
+                その他記載されているマークは、それぞれの所有者の商標または登録商標である可能性があります。
+                {{ if and (not .Page.Section) (eq (getenv "CAMEL_ENV") "netlify") }}
+                    <a href="https://netlify.com">このサイトはNetlifyによって運営されています。</a>
+                {{ end }}
+            </p>
+            <div class="resources">
+                <div class="context">
+                    <a href="/privacy-policy/">プライバシーポリシー</a>
+                </div>
+                <div class="context">
+                    <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.apache.org/foundation/policies/conduct">行動規範</a>
+                </div>
+                <div class="context">
+                    <a href="/sitemap/">サイトマップ</a>
+                </div>
+            </div>
+            <div class="footer-icons">
+                <a rel="noopener noreferrer nofollow" href="https://github.com/apache/camel/" title="Collaborate on GitHub"><svg class="brand-icon" focusable="false"><use href="{{ "_/img/brand-logos.svg#github" | relURL }}" /></svg></a>
+                <a rel="noopener noreferrer nofollow" href="https://camel.zulipchat.com" title="Chat on Zulip"><svg class="brand-icon" focusable="false"><use href="{{ "/_/img/brand-logos.svg#zulip" | relURL }}" /></svg></a>
+                <a rel="noopener noreferrer nofollow" href="https://twitter.com/ApacheCamel" title="Follow Apache Camel on Twitter"><svg class="brand-icon" focusable="false"><use href="{{ "/_/img/brand-logos.svg#twitter" | relURL }}" /></svg></a>
+            </div>
+        </div>
+    </footer>
+    <script src="{{ path.Join "_" (index .Site.Data "rev-manifest" "js/vendor/algoliasearch.js") | relURL }}"></script>
+    <script src="{{ path.Join "_" (index .Site.Data "rev-manifest" "js/site.js") | relURL }}"></script>
+    <script async src="{{ path.Join "_" (index .Site.Data "rev-manifest" "js/vendor/highlight.js") | relURL }}"></script>
+    <script async src="{{ path.Join "_" (index .Site.Data "rev-manifest" "js/vendor/svg4everybody.js") | relURL }}"></script>
+    {{ partial "seo/main" . }}
+
+</body>
+</html>
