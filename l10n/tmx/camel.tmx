@@ -353,11 +353,87 @@ simplified interface, hiding all the low level details about how those connectio
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>Downloads</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>ダウンロード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We do frequent releases, a release almost every month, and even though we strive to maintain backward compatibility, we may on occasion introduce a breaking change in the interest of the long-term evolution of the project. We document backward compatibility breaking changes in the [Migration and Upgrade](/manual/latest/migration-and-upgrade.html) section of the user manual.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>私たちは、ほぼ毎月のように頻繁にリリースを行っており、後方互換性の維持に努めていますが、プロジェクトの長期的な進化のために、時折、破壊的な変更を導入することがあります。後方互換性を維持するための変更点は、ユーザーマニュアルの[移行とアップグレード](/manual/latest/migration-and-upgrade.html)セクションに記載しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Unless you need the latest features, you might consider using a Long Term Support (LTS) version that will receive bug and security fixes for a longer time - up to one year.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>最新の機能が必要な場合を除き、最長1年という長期間にわたってバグやセキュリティの修正を受けることができる長期サポート（Long Term Support、LTS）バージョンの使用を検討しましょう。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A good strategy to prepare for future LTS releases might be to test the latest releases. You can do this on less impactful projects or by running tests of your codebase against newer releases. Please do [report any issues](/community/contributing/#if-you-find-a-bug-or-problem) with functionality or backward compatibility so they can be addressed in time for the LTS version.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>将来のLTSリリースに備えるための良い戦略は、最新のリリースをテストすることかもしれません。これは影響の少ないプロジェクトで行うこともできますし、自分のコードベースを新しいリリースに対してテストすることもできます。機能性や後方互換性に関する問題を報告し、LTSバージョンに間に合うように対処してください。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For information on the release planning look at the blog posts in the [Roadmap](/categories/Roadmap/) category.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>リリース計画に関する情報は、[ロードマップ](/categories/Roadmap/)カテゴリのブログ記事をご覧ください。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here you will only find the supported releases, older unsupported releases can be found in the [Releases archive](/releases/).
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>ここでは、サポートされているリリースのみが掲載されています。サポートされていない古いリリースは、[リリースアーカイブ](/releases/)でご覧いただけます。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>{{&lt; downloads &gt;}}
 </seg>
       </tuv>
       <tuv xml:lang="ja_JP">
         <seg>{{&lt; downloads &gt;}}
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Keys</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>キー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can verify your download by following these [procedures](http://www.apache.org/info/verification.html) and using these [KEYS](https://www.apache.org/dist/camel/KEYS).
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>以下の[手順](http://www.apache.org/info/verification.html)に従って、以下の[KEYS](https://www.apache.org/dist/camel/KEYS)を使用して、ダウンロードを確認することができます。
 </seg>
       </tuv>
     </tu>
