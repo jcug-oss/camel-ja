@@ -20,6 +20,7 @@ components/3.4.x
 components/3.7.x
 components/3.9.x
 components/3.10.x
+components/3.11.x
 camel-kafka-connector
 schema
 EOF

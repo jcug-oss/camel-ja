@@ -44,6 +44,7 @@ jobs:
           rm -rf docs/components/3.7.x
           rm -rf docs/components/3.9.x
           rm -rf docs/components/3.10.x
+          rm -rf docs/components/3.11.x
           rm -rf docs/camel-kafka-connector
           rm -rf docs/schema
           surge docs camel-ja.surge.sh
