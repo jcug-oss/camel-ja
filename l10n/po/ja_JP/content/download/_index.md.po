@@ -18,37 +18,37 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/download/_index.md:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Downloads"
 msgstr "ダウンロード"
 
 #. type: Plain text
 #: upstream/content/download/_index.md:6
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "We do frequent releases, a release almost every month, and even though we strive to maintain backward compatibility, we may on occasion introduce a breaking change in the interest of the long-term evolution of the project. We document backward compatibility breaking changes in the [Migration and Upgrade](/manual/latest/migration-and-upgrade.html) section of the user manual.\n"
-msgstr "私たちは、ほぼ毎月のように頻繁にリリースを行っており、後方互換性の維持に努めていますが、プロジェクトの長期的な進化のために、時折、破壊的な変更を導入することがあります。後方互換性を維持するための変更点は、ユーザーマニュアルの[Migration and Upgrade](/manual/latest/migration-and-upgrade.html)セクションに記載しています。\n"
+msgstr "私たちは、ほぼ毎月のように頻繁にリリースを行っており、後方互換性の維持に努めていますが、プロジェクトの長期的な進化のために、時折、破壊的な変更を導入することがあります。後方互換性を維持するための変更点は、ユーザーマニュアルの[移行とアップグレード](/manual/latest/migration-and-upgrade.html)セクションに記載しています。\n"
 
 #. type: Plain text
 #: upstream/content/download/_index.md:8
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Unless you need the latest features, you might consider using a Long Term Support (LTS) version that will receive bug and security fixes for a longer time - up to one year.\n"
-msgstr "最新の機能が必要な場合を除き、最長1年という長期間にわたってバグやセキュリティの修正を受けることができるLTS（Long Term Support）バージョンの使用を検討してみてはいかがでしょうか。\n"
+msgstr "最新の機能が必要な場合を除き、最長1年という長期間にわたってバグやセキュリティの修正を受けることができる長期サポート（Long Term Support、LTS）バージョンの使用を検討しましょう。\n"
 
 #. type: Plain text
 #: upstream/content/download/_index.md:10
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "A good strategy to prepare for future LTS releases might be to test the latest releases. You can do this on less impactful projects or by running tests of your codebase against newer releases. Please do [report any issues](/community/contributing/#if-you-find-a-bug-or-problem) with functionality or backward compatibility so they can be addressed in time for the LTS version.\n"
 msgstr "将来のLTSリリースに備えるための良い戦略は、最新のリリースをテストすることかもしれません。これは影響の少ないプロジェクトで行うこともできますし、自分のコードベースを新しいリリースに対してテストすることもできます。機能性や後方互換性に関する問題を報告し、LTSバージョンに間に合うように対処してください。\n"
 
 #. type: Plain text
 #: upstream/content/download/_index.md:12
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "For information on the release planning look at the blog posts in the [Roadmap](/categories/Roadmap/) category.\n"
-msgstr "リリース計画に関する情報は、[Roadmap](/categories/Roadmap/)カテゴリのブログ記事をご覧ください。\n"
+msgstr "リリース計画に関する情報は、[ロードマップ](/categories/Roadmap/)カテゴリのブログ記事をご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/download/_index.md:14
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Here you will only find the supported releases, older unsupported releases can be found in the [Releases archive](/releases/).\n"
 msgstr "ここでは、サポートされているリリースのみが掲載されています。サポートされていない古いリリースは、[リリースアーカイブ](/releases/)でご覧いただけます。\n"
 
@@ -60,12 +60,12 @@ msgstr "{{< downloads >}}\n"
 
 #. type: Title ##
 #: upstream/content/download/_index.md:17
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Keys"
 msgstr "キー"
 
 #. type: Plain text
 #: upstream/content/download/_index.md:19
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "You can verify your download by following these [procedures](http://www.apache.org/info/verification.html) and using these [KEYS](https://www.apache.org/dist/camel/KEYS).\n"
 msgstr "以下の[手順](http://www.apache.org/info/verification.html)に従って、以下の[KEYS](https://www.apache.org/dist/camel/KEYS)を使用して、ダウンロードを確認することができます。\n"
