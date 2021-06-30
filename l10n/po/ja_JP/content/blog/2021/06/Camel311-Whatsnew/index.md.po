@@ -18,332 +18,346 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Details of what we have done in the Camel 3.11 LTS release."
-msgstr ""
+msgstr "Camel 3.11 LTSリリースで行ったことの詳細です。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3.11 What's New"
-msgstr ""
+msgstr "Apache Camel 3.11 What's New"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3.11 has just been [released](/blog/2021/06/RELEASE-3.11.0/).\n"
-msgstr ""
+msgstr "Apache Camel 3.11 が [リリース] されました(/blog/2021/06/RELEASE-3.11.0/)。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is a LTS release which will be supported for 1 year with regular patch and security releases.\n"
-msgstr ""
+msgstr "このリリースはLTS版で、1年間のサポートを受けることができ、定期的にパッチやセキュリティリリースが行われます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This blog post first details the noteworthy changes since the last 3.10 release from last month.\n"
 "For readers that are upgrading from the last 3.7 LTS release then we have added a summary section that highlights\n"
 "all the important new features and changes (3.7 to 3.11).\n"
 msgstr ""
+"このブログ記事では、まず先月リリースされた3.10からの注目すべき変更点をご紹介します。\n"
+"前回の3.7 LTSリリースからアップグレードされる方のために、重要な新機能と変更点（3.7から3.11）をまとめたセクションを追加しました。\n"
+"重要な新機能や変更点（3.7から3.11）をまとめたセクションを追加しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "At first what did we do since thg 3.10 release.\n"
-msgstr ""
+msgstr "まず、3.10のリリース後に何をしたか。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "So what's in this release since 3.10"
-msgstr ""
+msgstr "今回のリリースでは、3.10から何が変わったのでしょうか？"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release introduces a set of new features and noticeable improvements that we will cover in this blog post.\n"
-msgstr ""
+msgstr "今回のリリースでは、一連の新機能と顕著な改善点が導入されており、このブログ記事でご紹介します。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kamelets"
-msgstr ""
+msgstr "カメレッツ"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Kamelets is a higher level building blocks that we keep innovating and improve over the coming releases.\n"
 "For Camel 3.11 we worked on making Kamelets universal across the various runtimes such as standalone, Karaf, Spring Boot, and Quarkus.\n"
 msgstr ""
+"Kamelets はより高いレベルのビルディングブロックで、今後のリリースに向けて革新と改良を続けています。\n"
+"Camel 3.11では、Kameletsをスタンドアロン、Karaf、Spring Boot、Quarkusなどの様々なランタイムに共通化することに取り組みました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We added a new `camel-kamelet-main` component that is intended for developers to try out or develop custom Kamelets.\n"
 "This module runs standalone which is intentional as we want to ensure Kamelets are not tied to a specific runtime (or the cloud on Kubernetes)\n"
 "but are truly universal in any environment where you can use Camel.\n"
 msgstr ""
+"これは開発者がカスタムKameletを試したり開発したりするためのものです。\n"
+"このモジュールはスタンドアローンで動作しますが、これはKameletが特定のランタイム(またはKubernetes上のクラウド)に縛られることなく、Camelを使用できるあらゆる環境で真の意味で普遍的であることを保証したいためです。\n"
+"このモジュールはスタンドアロンで動作します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can find an example with `camel-kamelet-main` at https://github.com/apache/camel-examples/tree/main/examples/kamelet-main\n"
-msgstr ""
+msgstr "https://github.com/apache/camel-examples/tree/main/examples/kamelet-main に `camel-kamelet-main` を使った例があります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The YAML DSL has improved error reporting when parsing to better report to Camel end users where the problem is.\n"
-msgstr ""
+msgstr "YAML DSLでは、解析時のエラーレポートが改善され、Camelのエンドユーザーに問題点をより適切に報告できるようになりました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Common Source timestamp"
-msgstr ""
+msgstr "コモンソースのタイムスタンプ"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We added a `getSourceTimestamp` API on `Message` to get hold of the timestamp from the source of the message.\n"
 "The idea is to have a common API across all the Camel components that has a timestamp of the event (such as JMS, Kafka, AWS, File/FTP etc).\n"
 msgstr ""
+"メッセージの送信元からタイムスタンプを取得するために、`Message`に`getSourceTimestamp` APIを追加しました。\n"
+"JMS、Kafka、AWS、File/FTPなど、イベントのタイムスタンプを取得するすべてのCamelコンポーネントに共通のAPIを用意することが目的です。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Cloud component"
-msgstr ""
+msgstr "クラウドコンポーネント"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel AWS, Azure, and HuaweiCloud components have had various bug fixes and smaller improvements.\n"
-msgstr ""
+msgstr "CamelのAWS、Azure、HuaweiCloudコンポーネントには、様々なバグ修正と小さな改善が行われました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Quarkus"
-msgstr ""
+msgstr "Quarkus"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release is the baseline for Quarkus 2 support which is to follow shortly after this release with a new Camel Quarkus release.\n"
-msgstr ""
+msgstr "このリリースは、Quarkus 2サポートのベースラインであり、このリリースの直後にCamel Quarkusの新リリースが予定されています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Spring Boot"
-msgstr ""
+msgstr "Spring Boot"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We have upgraded to latest Spring Boot 2.5.1 release.\n"
-msgstr ""
+msgstr "最新のSpring Boot 2.5.1リリースにアップグレードしました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "No OSGi code in main project"
-msgstr ""
+msgstr "メインプロジェクトにOSGiコードがない"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We had about six remaining Camel components which had some special OSGi Java source code.\n"
 "The OSGi code has been ported over to the Camel Karaf project.\n"
 msgstr ""
+"約6つのCamelコンポーネントが残っており、その中には特別なOSGi Javaソースコードがありました。\n"
+"このOSGiコードは、Camel Karafプロジェクトに移植されました。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:58
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Better Java 16 support"
-msgstr ""
+msgstr "Java 16のサポート強化"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:62
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Although Java 16 is not officially supported, we did improve a few Camel components to make them work with Java 16.\n"
 "The official support is Java 11 (primary) and Java 8 (secondary).\n"
 msgstr ""
+"Java 16は公式にはサポートされていませんが、いくつかのCamelコンポーネントを改良し、Java 16で動作するようにしました。\n"
+"公式サポートはJava 11（プライマリ）とJava 8（セカンダリ）です。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New components"
-msgstr ""
+msgstr "新しいコンポーネント"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:66
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release has a number of new components, data formats and languages:\n"
-msgstr ""
+msgstr "今回のリリースでは、多くの新しいコンポーネント、データフォーマット、言語が追加されています。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:71
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`camel-huaweicloud-functiongraph` - To call serverless functions on Huawei Cloud\n"
-msgstr ""
+msgstr "camel-huaweicloud-functiongraph` - Huawei Cloud上でサーバーレス関数を呼び出す。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:71
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`camel-huaweicloud-iam` - To securely manage users on Huawei Cloud\n"
-msgstr ""
+msgstr "camel-huaweicloud-iam` - ファーウェイ・クラウド上のユーザーを安全に管理する。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:71
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`camel-kamelet-main` - Main to run Kamelet standalone\n"
-msgstr ""
+msgstr "camel-kamelet-main` - Kamelet をスタンドアロンで実行するためのメイン。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:71
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`camel-resourceresolver-github` - Resource resolver to load files from GitHub\n"
-msgstr ""
+msgstr "camel-resourceresolver-github` - GitHubからファイルを読み込むためのリソースリゾルバです。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:72
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Upgrading"
-msgstr ""
+msgstr "アップグレード"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:75
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Make sure to read the [upgrade guide](/manual/latest/camel-3x-upgrade-guide-3_11.html) if you are upgrading from a previous Camel version.\n"
-msgstr ""
+msgstr "旧バージョンのCamelからアップグレードする場合は、[アップグレードガイド](/manual/latest/camel-3x-upgrade-guide-3_11.html)を必ずお読みください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:76
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Release Notes"
-msgstr ""
+msgstr "リリースノート"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:79
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can find more information about this release in the [release notes](/releases/release-3.11.0/), with a list of JIRA tickets resolved in the release.\n"
-msgstr ""
+msgstr "このリリースに関する詳細は、[リリースノート](/releases/release-3.11.0/)に、このリリースで解決されたJIRAチケットのリストが掲載されています。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:81
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Summary of changes since the last 3.7 LTS release"
-msgstr ""
+msgstr "前回の3.7LTSリリースからの変更点の概要"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:84
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It is 6 months since the last 3.7 LTS release, and here is a high level summary of the most significant changes we have done:\n"
-msgstr ""
+msgstr "前回の3.7 LTSリリースから6ヶ月が経過しましたが、ここでは最も重要な変更点をまとめています。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:87
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Optimized core (faster startup and quicker routing engine)\n"
-msgstr ""
+msgstr "コアの最適化（起動の高速化、ルーティングエンジンの高速化\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:87
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Modularized core (even smaller core)\n"
-msgstr ""
+msgstr "モジュール化されたコア（さらに小さいコア\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:87
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Reduced Object Allocations (lower memory footprint)  \n"
-msgstr ""
+msgstr "オブジェクトの割り当てを削減（メモリ使用量の削減  \n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:97
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Reflection free (Native compilation friendly)\n"
-msgstr ""
+msgstr "リフレクションフリー（ネイティブコンピレーション対応\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:97
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Optimized toD EIP for messaging based components\n"
-msgstr ""
+msgstr "メッセージングベースのコンポーネントに最適化されたtoD EIP\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:97
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Better startup and shutdown logging\n"
-msgstr ""
+msgstr "スタートアップとシャットダウンのログの改善\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:97
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Java Flight Recorder\n"
-msgstr ""
+msgstr "Javaフライトレコーダー\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:97
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Routes loader (Java, XML, YAML, Groovy, JavaScript, and Kotlin)\n"
-msgstr ""
+msgstr "ルートローダ（Java、XML、YAML、Groovy、JavaScript、Kotlin\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:97
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "YAML DSL\n"
-msgstr ""
+msgstr "YAML DSL\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:97
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kamelets\n"
-msgstr ""
+msgstr "カメレッツ\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:97
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "17 new components\n"
-msgstr ""
+msgstr "17個の新しいコンポーネント\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:97
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Support for Spring Boot 2.5 and Quarkus 2.0\n"
-msgstr ""
+msgstr "Spring Boot 2.5とQuarkus 2.0のサポート\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:99
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There are many other great new features and improvements that you can find detailed in each of the _Whats New_ blog posts:\n"
-msgstr ""
+msgstr "その他にも多くの優れた新機能や改善点があり、それぞれの「Whats New_」ブログ記事で詳しくご紹介しています。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:102
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Camel 3.8 What's New](/blog/2021/02/Camel38-Whatsnew/)\n"
-msgstr ""
+msgstr "Camel 3.8 What's New](/blog/2021/02/Camel38-Whatsnew/)に掲載されました。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:102
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Camel 3.9 What's New](/blog/2021/03/Camel39-Whatsnew/)\n"
-msgstr ""
+msgstr "Camel 3.9 What's New](/blog/2021/03/Camel39-Whatsnew/)に掲載されました。\n"
 
 #. type: Bullet: '- '
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:102
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Camel 3.10 What's New](/blog/2021/05/Camel310-Whatsnew/)\n"
-msgstr ""
+msgstr "Camel 3.10 What's New](/blog/2021/05/Camel310-Whatsnew/)に掲載されました。\n"
