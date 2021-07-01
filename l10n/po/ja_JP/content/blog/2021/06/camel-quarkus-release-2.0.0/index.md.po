@@ -1,0 +1,281 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-01 01:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:1
+#, no-wrap
+msgid "Camel Quarkus 2.0.0 Released"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:11
+#, no-wrap
+msgid "<sub><sup>Image by <a href=\"https://www.flickr.com/photos/lanzen/5984113332\">Anders Lanzen</a> <a href=\"https://creativecommons.org/licenses/by-nc-sa/2.0\">CC BY-NC-SA 2.0</a></sup></sub>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:15
+#, no-wrap
+msgid ""
+"We are pleased to announce the release 2.0.0 of Camel Quarkus.\n"
+"It brings Quarkus 2.0, Camel 3.11, improved test coverage and 13 new or promoted extensions.\n"
+"Many thanks to all contributors and issue reporters!\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:16
+#, no-wrap
+msgid "Quarkus 2.0.0.Final"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:21
+#, no-wrap
+msgid ""
+"Like in Camel 3.11, in Quarkus 2.0, Vert.x and MicroProfile were upgraded to their newest major versions 4.\n"
+"Further, in Quarkus 2.0, Java 8 support was dropped permanently and Java 11 is the minimal supported version.\n"
+"21.1 is the recommended version of GraalVM.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:30
+#, no-wrap
+msgid ""
+"When it comes to developer experience, Quarkus 2.0 introduces continuous testing.\n"
+"Quarkus dev mode (a.k.a. `mvn quarkus:dev`) exists since the very beginnings of Quarkus.\n"
+"It not only starts your application so that you can test it manually,\n"
+"but it also keeps watching for changes in your workspace, recompiling the modified classes as needed\n"
+"and reloading the running application.\n"
+"Now with continuous testing, your tests are executed as you change your application code.\n"
+"You have to press `r` to enable it.\n"
+"You may want to watch [this video](https://www.youtube.com/watch?v=rUyiTzbezjw) to learn more about the new continuous testing feature.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:32
+#, no-wrap
+msgid "Please refer to [Quarkus 2.0.0.Final announcement](https://quarkus.io/blog/quarkus-2-0-0-final-released/) for more details.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:33
+#, no-wrap
+msgid "Camel 3.11.0"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:36
+#, no-wrap
+msgid "Please check the [What's new in Camel 3.11.0](/blog/2021/06/Camel311-Whatsnew/) blog post for more information.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:37
+#, no-wrap
+msgid "New extensions and promotions to native"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:40
+#, no-wrap
+msgid "New extensions:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:50
+#, no-wrap
+msgid "[Avro Jackson](/camel-quarkus/latest/reference/extensions/jackson-avro.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:50
+#, no-wrap
+msgid "[AWS Secrets Manager](/camel-quarkus/latest/reference/extensions/aws-secrets-manager.html) (JVM only)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:50
+#, no-wrap
+msgid "[Azure CosmosDB](/camel-quarkus/latest/reference/extensions/azure-cosmosdb.html) (JVM only)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:50
+#, no-wrap
+msgid "[Etcd3](/camel-quarkus/latest/reference/extensions/etcd3.html) (JVM only)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:50
+#, no-wrap
+msgid "[Google Cloud Functions](/camel-quarkus/latest/reference/extensions/google-functions.html) (JVM only)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:50
+#, no-wrap
+msgid "[Google Storage](/camel-quarkus/latest/reference/extensions/google-storage.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:50
+#, no-wrap
+msgid "[jOOR](/camel-quarkus/latest/reference/extensions/joor.html) (JVM only)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:50
+#, no-wrap
+msgid "[Kamelet Reify](/camel-quarkus/latest/reference/extensions/kamelet-reify.html) (JVM only)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:50
+#, no-wrap
+msgid "[Protobuf Jackson](/camel-quarkus/latest/reference/extensions/jackson-protobuf.html)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:52
+#, no-wrap
+msgid "Extensions newly supported in native mode:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:57
+#, no-wrap
+msgid "[DigitalOcean](/camel-quarkus/latest/reference/extensions/digitalocean.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:57
+#, no-wrap
+msgid "[OpenStack](/camel-quarkus/latest/reference/extensions/openstack.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:57
+#, no-wrap
+msgid "[XChange](/camel-quarkus/latest/reference/extensions/xchange.html)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:57
+#, no-wrap
+msgid "[XQuery](/camel-quarkus/latest/reference/extensions/saxon.html)\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:59
+#, no-wrap
+msgid "Test coverage and closing functionality gaps"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:68
+#, no-wrap
+msgid ""
+"In this release, we invested a lot of effort into reviewing existing tests and adding new test cases.\n"
+"We proceeded methodically, following the main Camel documentation.\n"
+"We took care to cover every use case mentioned on the Camel component pages.\n"
+"For example for the HTTP component, we went through the use cases mentioned on its [component page](/components/latest/http-component.html),\n"
+"and we checked whether they are covered by existing tests.\n"
+"All the missing scenarios were listed in a [\"Test expansion\" issue](https://github.com/apache/camel-quarkus/issues/2794)\n"
+"and fixed by adding the [respective tests](https://github.com/apache/camel-quarkus/commit/5c969cac27abd1af122b895fc0a7e7f26b69df25).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:72
+#, no-wrap
+msgid ""
+"In this way, we not only found and fixed bugs, but we also uncovered fully missing features.\n"
+"This was the case e.g. with `@org.apache.camel.EndpointInject`, `@org.apache.camel.Produce` and `@org.apache.camel.Consume` annotations from `camel-core`.\n"
+"These are supported by Camel Quarkus now - see [here](/camel-quarkus/latest/user-guide/cdi.html#_endpointinject_and_produce) and [here](/camel-quarkus/latest/user-guide/cdi.html#_consume).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:74
+#, no-wrap
+msgid "The extent of this effort can be assessed by running [this GitHub issues query](https://github.com/apache/camel-quarkus/issues?q=is%3Aissue+label%3Aintegration-test+closed%3A2021-04-26..2021-06-25). This endeavour is going to continue in coming Camel Quarkus releases.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:75
+#, no-wrap
+msgid "Deprecations"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:78
+#, no-wrap
+msgid "Avro extension: `@BuildTimeAvroDataFormat` is deprecated - see the [Avro extension](/camel-quarkus/latest/reference/extensions/avro.html#_additional_camel_quarkus_configuration) page.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:80
+#, no-wrap
+msgid "Breaking changes and migration steps"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:83
+#, no-wrap
+msgid "Please refer to our [2.0.0 Migration guide](/camel-quarkus/latest/migration-guide/2.0.0.html).\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:84
+#, no-wrap
+msgid "Release notes"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:87
+#, no-wrap
+msgid "Fixed issues:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:91
+#, no-wrap
+msgid "[Milestone 2.0.0-M1](https://github.com/apache/camel-quarkus/milestone/13?closed=1)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:91
+#, no-wrap
+msgid "[Milestone 2.0.0-M2](https://github.com/apache/camel-quarkus/milestone/16?closed=1)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:91
+#, no-wrap
+msgid "[Milestone 2.0.0](https://github.com/apache/camel-quarkus/milestone/15?closed=1)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:93
+#, no-wrap
+msgid "All commits:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:94
+#, no-wrap
+msgid "[1.8.1..2.0.0](https://github.com/apache/camel-quarkus/compare/1.8.1...2.0.0)\n"
+msgstr ""
