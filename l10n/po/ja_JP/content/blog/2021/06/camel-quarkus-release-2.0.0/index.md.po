@@ -18,43 +18,49 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus 2.0.0 Released"
-msgstr ""
+msgstr "Camel Quarkus 2.0.0リリース"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<sub><sup>Image by <a href=\"https://www.flickr.com/photos/lanzen/5984113332\">Anders Lanzen</a> <a href=\"https://creativecommons.org/licenses/by-nc-sa/2.0\">CC BY-NC-SA 2.0</a></sup></sub>\n"
-msgstr ""
+msgstr "<sub><sup>Image by<a href=\"https://www.flickr.com/photos/lanzen/5984113332\">Anders Lanzen</a> <a href=\"https://creativecommons.org/licenses/by-nc-sa/2.0\">CC BY-NC-SA 2.0</a></sup></sub>\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We are pleased to announce the release 2.0.0 of Camel Quarkus.\n"
 "It brings Quarkus 2.0, Camel 3.11, improved test coverage and 13 new or promoted extensions.\n"
 "Many thanks to all contributors and issue reporters!\n"
 msgstr ""
+"Camel Quarkusの2.0.0がリリースされましたのでお知らせします。\n"
+"このリリースは、Quarkus 2.0、Camel 3.11、テストカバレッジの改善、13の新規または昇格した拡張機能をもたらします。\n"
+"すべての貢献者と問題報告者に感謝します。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Quarkus 2.0.0.Final"
-msgstr ""
+msgstr "Quarkus 2.0.0.Final"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Like in Camel 3.11, in Quarkus 2.0, Vert.x and MicroProfile were upgraded to their newest major versions 4.\n"
 "Further, in Quarkus 2.0, Java 8 support was dropped permanently and Java 11 is the minimal supported version.\n"
 "21.1 is the recommended version of GraalVM.\n"
 msgstr ""
+"Camel 3.11と同様に、Quarkus 2.0では、Vert.xとMicroProfileが最新のメジャーバージョン4にアップグレードされました。\n"
+"また、Quarkus 2.0では、Java 8のサポートが永久に終了し、Java 11が最小サポートバージョンとなりました。\n"
+"GraalVMの推奨バージョンは21.1です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "When it comes to developer experience, Quarkus 2.0 introduces continuous testing.\n"
 "Quarkus dev mode (a.k.a. `mvn quarkus:dev`) exists since the very beginnings of Quarkus.\n"
@@ -65,130 +71,138 @@ msgid ""
 "You have to press `r` to enable it.\n"
 "You may want to watch [this video](https://www.youtube.com/watch?v=rUyiTzbezjw) to learn more about the new continuous testing feature.\n"
 msgstr ""
+"開発者の体験に関しては、Quarkus 2.0では継続的なテストが導入されています。\n"
+"Quarkusのdevモード（別名：mvn quarkus:dev）は、Quarkusの初期から存在しています。\n"
+"これは、手動でテストできるようにアプリケーションを起動するだけではありません。\n"
+"ワークスペースの変更を監視し、必要に応じて変更されたクラスを再コンパイルして\n"
+"そして実行中のアプリケーションをリロードします。\n"
+"継続的テストでは、アプリケーションのコードを変更するとテストが実行されます。\n"
+"これを有効にするには `r` を押す必要があります。\n"
+"新しい継続的テスト機能については、[このビデオ](https://www.youtube.com/watch?v=rUyiTzbezjw)をご覧になるとよいでしょう。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Please refer to [Quarkus 2.0.0.Final announcement](https://quarkus.io/blog/quarkus-2-0-0-final-released/) for more details.\n"
-msgstr ""
+msgstr "詳細は[Quarkus 2.0.0.Final announcement](https://quarkus.io/blog/quarkus-2-0-0-final-released/)をご参照ください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel 3.11.0"
-msgstr ""
+msgstr "Camel 3.11.0"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Please check the [What's new in Camel 3.11.0](/blog/2021/06/Camel311-Whatsnew/) blog post for more information.\n"
-msgstr ""
+msgstr "詳細は[What's new in Camel 3.11.0](/blog/2021/06/Camel311-Whatsnew/)のブログ記事をご確認ください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New extensions and promotions to native"
-msgstr ""
+msgstr "ネイティブへの新しい拡張とプロモーション"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New extensions:\n"
-msgstr ""
+msgstr "新しいエクステンション。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Avro Jackson](/camel-quarkus/latest/reference/extensions/jackson-avro.html)\n"
-msgstr ""
+msgstr "アブロ・ジャクソン】(/camel-quarkus/latest/reference/extensions/jackson-avro.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[AWS Secrets Manager](/camel-quarkus/latest/reference/extensions/aws-secrets-manager.html) (JVM only)\n"
-msgstr ""
+msgstr "[AWS Secrets Manager](/camel-quarkus/latest/reference/extensions/aws-secrets-manager.html) (JVM only)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Azure CosmosDB](/camel-quarkus/latest/reference/extensions/azure-cosmosdb.html) (JVM only)\n"
-msgstr ""
+msgstr "Azure CosmosDB](/camel-quarkus/latest/reference/extensions/azure-cosmosdb.html) (JVM only)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Etcd3](/camel-quarkus/latest/reference/extensions/etcd3.html) (JVM only)\n"
-msgstr ""
+msgstr "Etcd3](/camel-quarkus/latest/reference/extensions/etcd3.html) (JVM only)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Google Cloud Functions](/camel-quarkus/latest/reference/extensions/google-functions.html) (JVM only)\n"
-msgstr ""
+msgstr "Google Cloud Functions](/camel-quarkus/latest/reference/extensions/google-functions.html) (JVMのみ)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Google Storage](/camel-quarkus/latest/reference/extensions/google-storage.html)\n"
-msgstr ""
+msgstr "Google Storage](/camel-quarkus/latest/reference/extensions/google-storage.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[jOOR](/camel-quarkus/latest/reference/extensions/joor.html) (JVM only)\n"
-msgstr ""
+msgstr "jOOR](/camel-quarkus/latest/reference/extensions/joor.html) (JVMのみ)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Kamelet Reify](/camel-quarkus/latest/reference/extensions/kamelet-reify.html) (JVM only)\n"
-msgstr ""
+msgstr "[Kamelet Reify](/camel-quarkus/latest/reference/extensions/kamelet-reify.html) (JVM only)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Protobuf Jackson](/camel-quarkus/latest/reference/extensions/jackson-protobuf.html)\n"
-msgstr ""
+msgstr "プロトブフ・ジャクソン】(/camel-quarkus/latest/reference/extensions/jackson-protobuf.html)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Extensions newly supported in native mode:\n"
-msgstr ""
+msgstr "ネイティブモードで新たにサポートされた拡張機能\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[DigitalOcean](/camel-quarkus/latest/reference/extensions/digitalocean.html)\n"
-msgstr ""
+msgstr "DigitalOcean](/camel-quarkus/latest/reference/extensions/digitalocean.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[OpenStack](/camel-quarkus/latest/reference/extensions/openstack.html)\n"
-msgstr ""
+msgstr "OpenStack](/camel-quarkus/latest/reference/extensions/openstack.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[XChange](/camel-quarkus/latest/reference/extensions/xchange.html)\n"
-msgstr ""
+msgstr "[XChange](/camel-quarkus/latest/reference/extensions/xchange.html)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[XQuery](/camel-quarkus/latest/reference/extensions/saxon.html)\n"
-msgstr ""
+msgstr "[XQuery](/camel-quarkus/latest/reference/extensions/saxon.html)\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:59
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Test coverage and closing functionality gaps"
-msgstr ""
+msgstr "テストカバレッジと機能ギャップの解消"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:68
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In this release, we invested a lot of effort into reviewing existing tests and adding new test cases.\n"
 "We proceeded methodically, following the main Camel documentation.\n"
@@ -198,84 +212,94 @@ msgid ""
 "All the missing scenarios were listed in a [\"Test expansion\" issue](https://github.com/apache/camel-quarkus/issues/2794)\n"
 "and fixed by adding the [respective tests](https://github.com/apache/camel-quarkus/commit/5c969cac27abd1af122b895fc0a7e7f26b69df25).\n"
 msgstr ""
+"今回のリリースでは、既存のテストの見直しと新しいテストケースの追加に多くの労力を費やしました。\n"
+"Camelのメインドキュメントに沿って、計画的に作業を進めました。\n"
+"Camelのコンポーネントページに記載されているすべてのユースケースをカバーするように注意しました。\n"
+"例えば、HTTPコンポーネントでは、コンポーネントページ（/components/latest/http-component.html）に記載されているユースケースを確認しました。\n"
+"そして、それらが既存のテストでカバーされているかどうかをチェックしました。\n"
+"不足しているシナリオはすべて[\"Test expansion\" issue](https://github.com/apache/camel-quarkus/issues/2794)にリストアップしました。\n"
+"それぞれのテスト](https://github.com/apache/camel-quarkus/commit/5c969cac27abd1af122b895fc0a7e7f26b69df25)を追加して修正しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:72
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In this way, we not only found and fixed bugs, but we also uncovered fully missing features.\n"
 "This was the case e.g. with `@org.apache.camel.EndpointInject`, `@org.apache.camel.Produce` and `@org.apache.camel.Consume` annotations from `camel-core`.\n"
 "These are supported by Camel Quarkus now - see [here](/camel-quarkus/latest/user-guide/cdi.html#_endpointinject_and_produce) and [here](/camel-quarkus/latest/user-guide/cdi.html#_consume).\n"
 msgstr ""
+"このようにして、バグを見つけて修正するだけでなく、完全に欠けている機能を発見することもできました。\n"
+"例えば、`camel-core` の `@org.apache.camel.EndpointInject`, `@org.apache.camel.Produce`, `@org.apache.camel.Consume` アノテーションがそうでした。\n"
+"これらは現在Camel Quarkusでサポートされています。[here](/camel-quarkus/latest/user-guide/cdi.html#_endpointinject_and_produce)と[here](/camel-quarkus/latest/user-guide/cdi.html#_consume)をご覧ください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:74
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The extent of this effort can be assessed by running [this GitHub issues query](https://github.com/apache/camel-quarkus/issues?q=is%3Aissue+label%3Aintegration-test+closed%3A2021-04-26..2021-06-25). This endeavour is going to continue in coming Camel Quarkus releases.\n"
-msgstr ""
+msgstr "この努力の程度は、[このGitHub issues query](https://github.com/apache/camel-quarkus/issues?q=is%3Aissue+label%3Aintegration-test+closed%3A2021-04-26..2021-06-25)を実行することで評価することができます。この取り組みは、今後のCamel Quarkusのリリースでも継続される予定です。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:75
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Deprecations"
-msgstr ""
+msgstr "非推奨事項"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:78
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Avro extension: `@BuildTimeAvroDataFormat` is deprecated - see the [Avro extension](/camel-quarkus/latest/reference/extensions/avro.html#_additional_camel_quarkus_configuration) page.\n"
-msgstr ""
+msgstr "Avro extension: `@BuildTimeAvroDataFormat` は非推奨です - [Avro extension](/camel-quarkus/latest/reference/extensions/avro.html#_additional_camel_quarkus_configuration) のページをご覧ください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:80
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Breaking changes and migration steps"
-msgstr ""
+msgstr "変更の解除と移行手順"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:83
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Please refer to our [2.0.0 Migration guide](/camel-quarkus/latest/migration-guide/2.0.0.html).\n"
-msgstr ""
+msgstr "2.0.0移行ガイド](/camel-quarkus/latest/migration-guide/2.0.0.html)をご参照ください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:84
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Release notes"
-msgstr ""
+msgstr "リリースノート"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:87
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fixed issues:\n"
-msgstr ""
+msgstr "問題点を修正しました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:91
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Milestone 2.0.0-M1](https://github.com/apache/camel-quarkus/milestone/13?closed=1)\n"
-msgstr ""
+msgstr "Milestone 2.0.0-M1](https://github.com/apache/camel-quarkus/milestone/13?closed=1)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:91
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Milestone 2.0.0-M2](https://github.com/apache/camel-quarkus/milestone/16?closed=1)\n"
-msgstr ""
+msgstr "Milestone 2.0.0-M2](https://github.com/apache/camel-quarkus/milestone/16?closed=1)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:91
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Milestone 2.0.0](https://github.com/apache/camel-quarkus/milestone/15?closed=1)\n"
-msgstr ""
+msgstr "Milestone 2.0.0](https://github.com/apache/camel-quarkus/milestone/15?closed=1)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:93
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "All commits:\n"
-msgstr ""
+msgstr "すべてのコミッション。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/06/camel-quarkus-release-2.0.0/index.md:94
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[1.8.1..2.0.0](https://github.com/apache/camel-quarkus/compare/1.8.1...2.0.0)\n"
-msgstr ""
+msgstr "[1.8.1...2.0.0](https://github.com/apache/camel-quarkus/compare/1.8.1...2.0.0)\n"
