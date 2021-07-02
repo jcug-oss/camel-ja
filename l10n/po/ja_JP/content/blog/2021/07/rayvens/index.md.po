@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-02 05:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2021/07/rayvens/index.md:1
+#, no-wrap
+msgid "Rayvens is a new open source project that leverages Apache Camel K to connect AI applications."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2021/07/rayvens/index.md:1
+#, no-wrap
+msgid "Rayvens: a new project powered by Camel K"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/rayvens/index.md:10
+#, no-wrap
+msgid "We're happy to learn that a new open source project has been launched to add integration capabilities to AI applications.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/rayvens/index.md:12
+#, no-wrap
+msgid "Built on [Ray](https://ray.io/) and *Apache Camel*, [Rayvens](https://github.com/project-codeflare/rayvens) from [@IBMResearch](https://twitter.com/IBMResearch) enables data scientists to interface with hundreds of data services with little effort to consume, process, and produce events and data in real time.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/rayvens/index.md:14
+#, no-wrap
+msgid "The project perfectly fits the mission of Camel K of bringing event sources and sinks to any platform that needs data.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/rayvens/index.md:15
+#, no-wrap
+msgid "You can learn more about Rayvens at: http://ibm.biz/rayvens.\n"
+msgstr ""
