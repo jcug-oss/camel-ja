@@ -18,36 +18,36 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/07/rayvens/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Rayvens is a new open source project that leverages Apache Camel K to connect AI applications."
-msgstr ""
+msgstr "Rayvensは、Apache Camel Kを活用してAIアプリケーションを接続する新しいオープンソースプロジェクトです。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/07/rayvens/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Rayvens: a new project powered by Camel K"
-msgstr ""
+msgstr "Rayvens: Camel Kを利用した新しいプロジェクト"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/rayvens/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We're happy to learn that a new open source project has been launched to add integration capabilities to AI applications.\n"
-msgstr ""
+msgstr "AIアプリケーションに統合機能を追加するための新しいオープンソースプロジェクトが開始されたことを嬉しく思います。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/rayvens/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Built on [Ray](https://ray.io/) and *Apache Camel*, [Rayvens](https://github.com/project-codeflare/rayvens) from [@IBMResearch](https://twitter.com/IBMResearch) enables data scientists to interface with hundreds of data services with little effort to consume, process, and produce events and data in real time.\n"
-msgstr ""
+msgstr "Ray](https://ray.io/)と*Apache Camel*をベースに開発された、[@IBMResearch](https://twitter.com/IBMResearch)の[Rayvens](https://github.com/project-codeflare/rayvens)は、データサイエンティストが、何百ものデータサービスとわずかな労力でインターフェースし、イベントやデータをリアルタイムに消費、処理、生成することを可能にします。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/rayvens/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The project perfectly fits the mission of Camel K of bringing event sources and sinks to any platform that needs data.\n"
-msgstr ""
+msgstr "このプロジェクトは、データを必要とするあらゆるプラットフォームにイベントソースとシンクを提供するというCamel Kのミッションにぴったりです。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/rayvens/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can learn more about Rayvens at: http://ibm.biz/rayvens.\n"
-msgstr ""
+msgstr "Rayvensについては、http://ibm.biz/rayvens。\n"
