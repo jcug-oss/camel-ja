@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-06-30 05:57+0000\n"
+"POT-Creation-Date: 2021-07-05 15:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,7 +55,7 @@ msgstr ""
 #. type: Plain text
 #: upstream/content/blog/2021/06/Camel311-Whatsnew/index.md:18
 #, fuzzy, no-wrap
-msgid "At first what did we do since thg 3.10 release.\n"
+msgid "At first what did we do since the 3.10 release.\n"
 msgstr "まず、3.10のリリース後に何をしたか。\n"
 
 #. type: Title ##
