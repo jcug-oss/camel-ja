@@ -18,6 +18,6 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/releases/k/release-1.5.0.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel-K 1.5.0"
-msgstr ""
+msgstr "Camel-K 1.5.0"
