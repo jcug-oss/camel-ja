@@ -18,180 +18,180 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's new in Camel K 1.5"
-msgstr ""
+msgstr "Camel K 1.5の新機能"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel K 1.5 release"
-msgstr ""
+msgstr "Camel K 1.5リリース"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Camel K 1.5 version](https://github.com/apache/camel-k/releases/tag/v1.5.0) is public since a few days. We're proud to announce this new release containing enhancements and fixes. We've worked hard to fix the most important issues discovered with an eye on stabilization and performances. This new release is based on **Camel Quarkus 2.0** and **Apache Camel 3.11**.\n"
-msgstr ""
+msgstr "Camel K 1.5 version](https://github.com/apache/camel-k/releases/tag/v1.5.0)を数日前から公開しています。改良と修正を含むこの新しいリリースを発表できることを誇りに思います。私たちは、安定性とパフォーマンスを重視し、発見された最も重要な問題を修正するために努力しました。この新リリースは **Camel Quarkus 2.0** と **Apache Camel 3.11** をベースにしています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Let's find out what's new in Camel K 1.5!\n"
-msgstr ""
+msgstr "Camel K 1.5の新機能をご紹介します。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New Camel Quarkus and Quarkus versions"
-msgstr ""
+msgstr "新しいCamel QuarkusとQuarkusのバージョン"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "**Camel Quarkus** runtime has become the building block on which the `Integration` is materialized. With the new 2.0 version out, there are great improvements which are leveraging the major release of **Quarkus 2.0**. We're inheriting all the good stuff in performance and components coverage that is introduced lately in this new version.\n"
-msgstr ""
+msgstr "Camel Quarkus**ランタイムは、「統合」を具現化するための構成要素となっています。新しい2.0バージョンがリリースされ、**Quarkus 2.0**のメジャーリリースを利用した素晴らしい改善が行われています。この新バージョンでは、最近導入されたパフォーマンスやコンポーネント・カバレッジの優れた点をすべて引き継いでいます。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Camel Quarkus 2.0.0 released](/blog/2021/06/camel-quarkus-release-2.0.0/)\n"
-msgstr ""
+msgstr "Camel Quarkus 2.0.0リリース】(/blog/2021/06/camel-quarkus-release-2.0.0/)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[What's new in Camel 3.11.0](/blog/2021/06/Camel311-Whatsnew/)\n"
-msgstr ""
+msgstr "Camel 3.11.0の新機能](/blog/2021/06/Camel311-Whatsnew/)\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Tune your logs"
-msgstr ""
+msgstr "ログのチューニング"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As software developers, we are daily watching logs to discover what's going on for a piece of software that is failing. **Observability** and all the activities around that area are needed in order to have a reliable software solution. We know that, and we've introduced a new `trait` that will simplify the work of tuning and integrating the log streams in your logging systems.\n"
-msgstr ""
+msgstr "ソフトウェア開発者として、私たちは日々、失敗しているソフトウェアに何が起こっているのかを発見するためにログを見ています。信頼性の高いソフトウェア・ソリューションを実現するためには、**観察可能性**とその周辺のすべての活動が必要です。私たちはそのことを知っています。そして、あなたのロギングシステムにおけるログストリームのチューニングと統合の作業を簡素化するために、新しい`trait`を導入しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can learn more in [a blog dedicated to the topic](/blog/2021/05/new-camel-k-logging-features/).\n"
-msgstr ""
+msgstr "このテーマに特化したブログ](/blog/2021/05/new-camel-k-logging-features/)で詳しくご紹介しています。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "S3 dependencies"
-msgstr ""
+msgstr "S3の依存関係"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "**S3** protocol is often used as a way to store Maven dependencies. With version 1.5 you will be able to configure your Camel K to retrieve such dependencies.\n"
-msgstr ""
+msgstr "**S3**プロトコルは、Mavenの依存関係を保存する方法としてよく使われます。バージョン1.5では、このような依存関係を取得するようにCamel Kを設定できるようになります。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Configuration refactoring"
-msgstr ""
+msgstr "構成のリファクタリング"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Prior to this version, we may have found a bit clumsy the work of providing a configuration file to our `Integration`. As a developer, you will now be able to define in details how and where to load a configuration file, filter a `Configmap` or a `Secret` and also distinguish between __build-time__ and __runtime__ properties. An entire blog covering this feature will be soon available, stay tuned!\n"
-msgstr ""
+msgstr "このバージョン以前は、設定ファイルを「統合」に提供する作業は少し不便だったかもしれません。開発者は、コンフィグレーションファイルをどこでどのように読み込むかを詳細に定義したり、`Configmap`や`Secret`をフィルタリングしたり、__build-time__と__runtime__のプロパティを区別したりすることができるようになります。この機能については、近日中にブログでご紹介する予定です。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "More Kamelet love"
-msgstr ""
+msgstr "カメレの愛をもっと"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Since their appearence, **Kamelets** have gained quite a lot of traction. With this new release we've introduced new commands in the `kamel` CLI to help you discovering and managing them. You will have a new command available `kamel kamelet` that will help you listing and deleting any `Kamelet`. Also `kamel describe kamelet` has been introduced to help you analysing the available Kamelets.\n"
-msgstr ""
+msgstr "登場以来、**Kamelets**はかなりの人気を博しています。この新しいリリースでは、`kamel` CLI に新しいコマンドを導入して、**Kamelet** の発見と管理を支援します。新しいコマンドとして `kamel kamelet` があり、これはあらゆる `Kamelet` のリストアップや削除に役立ちます。また、利用可能なKameletを分析するために、`kamel describe kamelet`が導入されました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We should also mention that we're having more Kamelets available in the [Apache Camel Kamelets Catalog](/camel-kamelets/latest/index.html). We are counting 117 different source and sink Kamelets and we are actively adding many more.\n"
-msgstr ""
+msgstr "また、[Apache Camel Kamelets Catalog](/camel-kamelets/latest/index.html)では、さらに多くのKameletsが利用できるようになっていることをお伝えします。現在、117種類のソースおよびシンクのKameletを数え、さらに多くのKameletを積極的に追加しています。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Allow configuration via traits annotations"
-msgstr ""
+msgstr "traitsアノテーションによる設定が可能"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We are aware that the CLI is not the only way to create an `Integration`. For this reason we've introduced a new way to simplify the setting of a `trait` directly in the `Integration` specification. Instead of specifying a trait in the `.spec.integration.traits.trait-id.configuration.trait-property` you will be now able to do so via `.metadata.annotations`.\n"
-msgstr ""
+msgstr "CLIは、`統合`を作成する唯一の方法ではないことを認識しています。このため、`Integration`の仕様で直接`trait`を設定することを簡単にするための新しい方法を導入しました。.spec.integration.traits.trait-id.configuration.trait-property`でtraitを指定する代わりに、`.metadata.annotations`で指定することができるようになりました。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "More test coverage"
-msgstr ""
+msgstr "テストカバレッジの向上"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Of course, we haven't forgot to include more unit and integration tests to our code base. With this release we've introduced new test cases that are giving more confidence to the development lifecycle.\n"
-msgstr ""
+msgstr "もちろん、コードベースにユニットテストや統合テストを追加することも忘れてはいません。今回のリリースでは、開発ライフサイクルに信頼性を与える新しいテストケースを導入しました。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Polish documentation"
-msgstr ""
+msgstr "ポーランド語ドキュメント"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We are happy to announce a few new improvements in the online documentation. We're dedicating some more time to refresh the documentation that may be missing or that can be incomplete.\n"
-msgstr ""
+msgstr "このたび、オンラインドキュメントにいくつかの新しい改善点が加わりました。オンライン・ドキュメントには、不足している部分や不完全な部分があるかもしれませんが、それを解消するために時間をかけています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Versioned documentation"
-msgstr ""
+msgstr "バージョンアップしたドキュメント"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "One little but great improvements we've introduced lately is the versioning of the Camel K documentation website. Just look on the left bottom bar of your browser and you will be able to select either `latest` or `1.4.x`.\n"
-msgstr ""
+msgstr "ちょっとしたことですが、最近導入した大きな改善点は、Camel Kのドキュメントサイトのバージョン管理です。ブラウザの左下のバーを見ると、`latest`または`1.4.x`のどちらかを選択することができるようになっています。\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Generated API"
-msgstr ""
+msgstr "生成されたAPI"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Another thing that is worth to mention is a first version of our API that is now available through the documentation pages. Have a look at [Camel K API resources documentation page](/camel-k/latest/apis/camel.html) in order to understand how to interact directly with them.\n"
-msgstr ""
+msgstr "もうひとつ特筆すべきことは、APIの最初のバージョンがドキュメントページから利用できるようになったことです。Camel K API resources documentation page](/camel-k/latest/apis/camel.html)をご覧になると、APIとの直接のやりとりをご理解いただけると思います。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Thanks"
-msgstr ""
+msgstr "ありがとうございます。"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-k-release-1-5/index.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Thanks to all contributors who made this possible. We're happy to receive feedback on this version through our [mailing list](/community/mailing-list/), our [official chat](https://camel.zulipchat.com/) or filing an issue on [Camel K Github repository](https://github.com/apache/camel-k).\n"
-msgstr ""
+msgstr "これを可能にしてくれたすべての貢献者に感謝します。このバージョンに対するフィードバックは、[メーリングリスト](/community/mailing-list/)、[公式チャット](https://camel.zulipchat.com/)、または[Camel K Github repository](https://github.com/apache/camel-k)に課題を提出していただければ幸いです。\n"
