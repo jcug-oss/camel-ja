@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-07-02 05:01+0000\n"
+"POT-Creation-Date: 2021-07-20 15:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -206,7 +206,7 @@ msgid "External Camel Components"
 msgstr "Camelの外部コンポーネント"
 
 #. type: Plain text
-#: upstream/content/community/user-stories.md:108
+#: upstream/content/community/user-stories.md:109
 #, fuzzy, no-wrap
 msgid ""
 "{{< table >}}\n"
@@ -231,6 +231,7 @@ msgid ""
 "|[camel-kamon](https://github.com/osinka/camel-kamon)|Kamon metrics and traces for Apache Camel routes, processors|\n"
 "|[camel-spring-cloud-stream](https://github.com/donovanmuller/)|A component to integrate with Spring Cloud Stream|\n"
 "|[camel-rocketmq](https://github.com/TeslaCN/camel-rocketmq)|A component to integrate with Apache RocketMQ|\n"
+"|[camel-openhtmltopdf](https://github.com/elevation-solutions/camel-openhtmltopdf)|A Camel component to generate nice looking PDF files from HTML, CSS, images, etc.|\n"
 "{{< /table >}}\n"
 msgstr ""
 "< table ><table >{{}}\n"
