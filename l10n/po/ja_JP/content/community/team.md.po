@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"POT-Creation-Date: 2021-07-22 15:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "When posting to the mailing lists, use plain text mails. Do not use HTML 
 msgstr "メーリングリストに投稿する際は、プレーンテキストメールを使用してください。HTMLメールは使用しないでください。HTMLメールは、スパムメールとみなされて拒否される可能性が高く、また他の人が読むこともできません。\n"
 
 #. type: Plain text
-#: upstream/content/community/team.md:77
+#: upstream/content/community/team.md:78
 #, fuzzy, no-wrap
 msgid ""
 "{{< table >}}\n"
@@ -81,6 +81,7 @@ msgid ""
 "| Jan Bednar             | janbednar        | CGI IT Czech Republic      |\n"
 "| Jean-Baptiste Onofré   | jbonofre         | Talend                     |\n"
 "| Jeff Genender          | jgenender        | Savoir Technologies        |\n"
+"| Jeremy Ross            | jeremyross       | Elevation Solutions        |\n"
 "| Johan Edstrom          | joed             | Savoir Technologies        |\n"
 "| John Poth              |                  | Red Hat                    |\n"
 "| Jonathan Anstey        | janstey          | Red Hat                    |\n"
@@ -179,19 +180,19 @@ msgstr ""
 "{{}}< /table ></table>\n"
 
 #. type: Title ###
-#: upstream/content/community/team.md:78
+#: upstream/content/community/team.md:79
 #, fuzzy, no-wrap
 msgid "Contributors"
 msgstr "貢献者"
 
 #. type: Plain text
-#: upstream/content/community/team.md:81
+#: upstream/content/community/team.md:82
 #, fuzzy, no-wrap
 msgid "Adding your name to the list below.\n"
 msgstr "下のリストに名前を追加します。\n"
 
 #. type: Plain text
-#: upstream/content/community/team.md:83
+#: upstream/content/community/team.md:84
 #, fuzzy, no-wrap
 msgid "If you have been contributing to the Apache Camel project, and you want your name added to the list below. Then you can get in touch with the Camel team from the [Mailing Lists](../mailing-list/) and ask to be added.\n"
 msgstr "もしあなたがApache Camelプロジェクトに貢献していて、以下のリストに名前を追加してほしいと思っているならばその場合は、[Mailing Lists](../mailing-list/)からCamelチームに連絡を取り、追加を依頼してください。\n"
@@ -246,7 +247,6 @@ msgid ""
 "| Jérôme Delagnes         |                                |\n"
 "| Jeff Sparkes            |                                |\n"
 "| Jeff Lansing            | SYS Technologies               |\n"
-"| Jeremy Ross             | Elevation Solutions            |\n"
 "| Jeremy Volkman          |                                |\n"
 "| Joe Fernandez           | TTM                            |\n"
 "| John Heitmann           |                                |\n"

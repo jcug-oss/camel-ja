@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-22 15:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2021/07/camel-openhtmltopdf/index.md:1
+#, no-wrap
+msgid "Create beautiful PDFs from HTML and CSS with the new Camel component, camel-openhtmltopdf"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2021/07/camel-openhtmltopdf/index.md:1
+#, no-wrap
+msgid "camel-openhtmltopdf: A new component to generate PDF documents"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/camel-openhtmltopdf/index.md:11
+#, no-wrap
+msgid "We are pleased to announce that [Elevation Solutions](https://elevation.solutions) has released a new component, [camel-openhtmltopdf](https://github.com/elevation-solutions/camel-openhtmltopdf). With this component, your integrations can easily produce beautiful, pixel-perfect PDF documents from HTML, CSS and images. This component leverages the popular [openhtmltopdf](https://github.com/danfickle/openhtmltopdf), which in turn builds on Apache PDFBox.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/camel-openhtmltopdf/index.md:13
+#, no-wrap
+msgid "Input HTML can be provided as a `String`, `InputStream`, or URI. For URIs, `file`, `http`, and `https` are supported. And there's no need to worry if your markup is not compliant XHTML. The `leniantParsing` option (enabled by default) can deal with all sorts of tag soup. \n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/camel-openhtmltopdf/index.md:14
+#, no-wrap
+msgid "For more information, and to get started, visited the project's GitHub at https://github.com/elevation-solutions/camel-openhtmltopdf.\n"
+msgstr ""
