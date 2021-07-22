@@ -18,30 +18,30 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/07/camel-openhtmltopdf/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Create beautiful PDFs from HTML and CSS with the new Camel component, camel-openhtmltopdf"
-msgstr ""
+msgstr "新しいCamelコンポーネント、camel-openhtmltopdfで、HTMLとCSSから美しいPDFを作成。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/07/camel-openhtmltopdf/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "camel-openhtmltopdf: A new component to generate PDF documents"
-msgstr ""
+msgstr "camel-openhtmltopdf:PDF ドキュメントを生成する新しいコンポーネント"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-openhtmltopdf/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We are pleased to announce that [Elevation Solutions](https://elevation.solutions) has released a new component, [camel-openhtmltopdf](https://github.com/elevation-solutions/camel-openhtmltopdf). With this component, your integrations can easily produce beautiful, pixel-perfect PDF documents from HTML, CSS and images. This component leverages the popular [openhtmltopdf](https://github.com/danfickle/openhtmltopdf), which in turn builds on Apache PDFBox.\n"
-msgstr ""
+msgstr "この度、[Elevation Solutions](https://elevation.solutions)から新しいコンポーネント、[camel-openhtmltopdf](https://github.com/elevation-solutions/camel-openhtmltopdf)がリリースされましたのでお知らせします。このコンポーネントを使用することで、あなたのインテグレーションは、HTML、CSS、画像から、ピクセルパーフェクトな美しいPDFドキュメントを簡単に作成することができます。このコンポーネントは、人気の高い[openhtmltopdf](https://github.com/danfickle/openhtmltopdf)を活用しており、Apache PDFBoxをベースにしています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-openhtmltopdf/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Input HTML can be provided as a `String`, `InputStream`, or URI. For URIs, `file`, `http`, and `https` are supported. And there's no need to worry if your markup is not compliant XHTML. The `leniantParsing` option (enabled by default) can deal with all sorts of tag soup. \n"
-msgstr ""
+msgstr "入力HTMLは、`String`、`InputStream`、またはURIとして提供することができます。URIについては、`file`、`http`、`https`がサポートされています。また、マークアップがXHTMLに準拠していなくても心配する必要はありません。leniantParsing`オプション（デフォルトで有効）を使えば、あらゆる種類のタグスープに対応できます。 \n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-openhtmltopdf/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For more information, and to get started, visited the project's GitHub at https://github.com/elevation-solutions/camel-openhtmltopdf.\n"
-msgstr ""
+msgstr "詳しくは、このプロジェクトのGitHub（https://github.com/elevation-solutions/camel-openhtmltopdf）をご覧ください。\n"
