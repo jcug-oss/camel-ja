@@ -19,159 +19,161 @@ msgstr ""
 #. type: Title #
 #: upstream/content/blog/2021/07/camel-jbang/index.md:1
 #: upstream/content/blog/2021/07/camel-jbang/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel + JBang"
-msgstr ""
+msgstr "キャメル＋JBang"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/07/camel-jbang/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel + JBang: bringing the world of Java scripting to Camel"
-msgstr ""
+msgstr "Camel + JBang: Javaスクリプティングの世界をCamelにもたらす"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "One of the new features we are introducing with Camel 3.12 is a command-line utility that leverages [JBang](https://www.jbang.dev/) in order to make it possible to benefit from the large set of Apache Camel features, without the need of writing a full blown application.\n"
-msgstr ""
+msgstr "Camel 3.12で導入する新機能の1つに、[JBang](https://www.jbang.dev/)を活用したコマンドライン・ユーティリティがあります。これにより、本格的なアプリケーションを書かなくても、Apache Camelの豊富な機能を利用できるようになります。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/07/camel-jbang/index.md:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What is JBang?"
-msgstr ""
+msgstr "JBangとは？"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Before showing what it can do, it's important to give a brief overview of what JBang is. According to their website, JBang lets us \" … create, edit and run self-contained source-only Java programs with unprecedented ease\". In practice, this means that it lets us run Java applications without the need to write an application, going through the usual build/compile/deploy cycle. It turns Java into a scripting language, in a similar fashion to Python, Shell Script and others. With easy access to the dependency management, configuration, debugging and other features, it makes it very easy for Java developers to use all the power that Java and its ecosystem of components can offer.\n"
-msgstr ""
+msgstr "その機能を紹介する前に、JBangとは何かを簡単に説明することが重要だ。ウェブサイトによると、JBangは「...自己完結型のソースオンリーのJavaプログラムを、かつてないほど簡単に作成、編集、実行することができる」としています。実際には、アプリケーションを書かなくても、通常のビルド／コンパイル／デプロイのサイクルを経ることなく、Javaアプリケーションを実行することができるということです。また、PythonやShell Scriptなどと同様に、Javaをスクリプト言語に変えることができます。依存関係の管理、構成、デバッグなどの機能に簡単にアクセスできるため、Java開発者は、Javaとそのコンポーネントのエコシステムが提供するすべての力を非常に簡単に利用できるようになります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We are leveraging the set of features provided by JBang to expose and simplify access for some of the Apache Camel features with the intention to simplify trying Camel; make it easier to learn about and search for components, languages and features; and provide mechanisms for the users to try agile integration.\n"
-msgstr ""
+msgstr "私たちは、JBangが提供する一連の機能を活用して、Apache Camelの機能の一部を公開し、アクセスを簡素化しています。これは、Camelを試すのを簡単にし、コンポーネント、言語、機能について学び、検索するのを容易にし、ユーザーがアジャイル・インテグレーションを試すためのメカニズムを提供することを目的としています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "To showcase the features that have been already implemented, we prepared a set of screencasts showing the installation process, the\n"
 "search functionality and running a few routes.\n"
 msgstr ""
+"すでに実装されている機能を紹介するために、インストールプロセス、検索機能、いくつかのルートの実行を示すスクリーンキャストを用意しました。\n"
+"検索機能といくつかのルートを実行しているスクリーンキャストを用意しました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "*Note*: At the moment we are writing this post, Camel 3.12 has not been released yet. As such, by installing the CLI utility, you are effectively getting access to a development version of Camel. Although we are excited to share news about new features, we also ask you to be please use caution and do not run this on production environments and also keep in mind that as a preview, features may change.\n"
-msgstr ""
+msgstr "*Note*:この記事を書いている時点では、Camel 3.12はまだリリースされていません。そのため、CLIユーティリティをインストールすることで、事実上、Camelの開発バージョンにアクセスすることになります。新機能についてのニュースを共有することに興奮していますが、注意を払っていただき、本番環境では実行しないでください。また、プレビューとして、機能が変更される可能性があることを覚えておいてください。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/07/camel-jbang/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Installation"
-msgstr ""
+msgstr "インストール"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As with any tool, it's nice if it's easy to install. JBang makes it easy for us by providing an installation feature that works well with git, Github. If you have JBang installed on your system, then to install CamelJBang is as easy as running:\n"
-msgstr ""
+msgstr "どんなツールでもそうですが、インストールが簡単だと嬉しいですよね。JBangは、Githubのgitとうまく連携したインストール機能を提供することで、簡単にインストールできるようにしています。もしあなたのシステムにJBangがインストールされていれば、CamelJBangをインストールするのは実行するのと同じくらい簡単です。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2021/07/camel-jbang/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "jbang app install CamelJBang@apache/camel\n"
-msgstr ""
+msgstr "jbang app install CamelJBang@apache/camel\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The screencast below shows it in practice:\n"
-msgstr ""
+msgstr "以下のスクリーンキャストでは、実際にその様子をご覧いただけます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[![asciicast](https://asciinema.org/a/426328.svg)](https://asciinema.org/a/426328)\n"
-msgstr ""
+msgstr "[![asciicast](https://asciinema.org/a/426328.svg)](https://asciinema.org/a/426328)\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/07/camel-jbang/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Search Feature"
-msgstr ""
+msgstr "検索機能"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "With Camel JBang installed, there are a few features currently available that we can make use of. For example, it's possible to search for kamelets, components, languages and others (miscellaneous components). This is shown on the following set of screencasts:\n"
-msgstr ""
+msgstr "Camel JBangをインストールすると、現在利用できる機能がいくつかあります。例えば、カメレット、コンポーネント、言語、その他(雑多なコンポーネント)を検索することができます。以下のスクリーンキャストで紹介しています。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/07/camel-jbang/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Searching for Kamelets:\n"
-msgstr ""
+msgstr "カメレを探す。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[![asciicast](https://asciinema.org/a/426334.svg)](https://asciinema.org/a/426334)\n"
-msgstr ""
+msgstr "[![asciicast](https://asciinema.org/a/426334.svg)](https://asciinema.org/a/426334)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/07/camel-jbang/index.md:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Searching for Components:\n"
-msgstr ""
+msgstr "コンポーネントを探す。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[![asciicast](https://asciinema.org/a/426340.svg)](https://asciinema.org/a/426340)\n"
-msgstr ""
+msgstr "[![asciicast](https://asciinema.org/a/426340.svg)](https://asciinema.org/a/426340)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/07/camel-jbang/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Searching for Languages:\n"
-msgstr ""
+msgstr "言語を検索する。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:52
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[![asciicast](https://asciinema.org/a/426341.svg)](https://asciinema.org/a/426341)\n"
-msgstr ""
+msgstr "[![asciicast](https://asciinema.org/a/426341.svg)](https://asciinema.org/a/426341)\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/07/camel-jbang/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Searching for miscellaneous components:\n"
-msgstr ""
+msgstr "雑多な部品を探す。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[![asciicast](https://asciinema.org/a/426342.svg)](https://asciinema.org/a/426342)\n"
-msgstr ""
+msgstr "[![asciicast](https://asciinema.org/a/426342.svg)](https://asciinema.org/a/426342)\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/07/camel-jbang/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kamelet Support and Running Routes"
-msgstr ""
+msgstr "カメレットサポートとランニングルート"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Searching is not the only cool feature of Camel JBang. We can also leverage one of the hottest new features in Camel and use Kamelets in our routes. For example, it's possible to write a YAML file that references to one of the Kamelets in the catalog and use it as a sink/source for an endpoint. We have a couple of [examples](https://github.com/apache/camel/tree/b0bada2f41029cd8496db4defc09b3a48b403ad4/dsl/camel-jbang/camel-jbang-main/examples) in the code base, so let's look at one that produces messages at a periodic interval and publishes them on a JMS broker using the AMQP 1.0 protocol:\n"
-msgstr ""
+msgstr "Camel JBangのクールな機能は検索だけではありません。Camelの最もホットな新機能の一つであるKameletをルートに利用することもできます。例えば、カタログ内のカメレを参照するYAMLファイルを書き、それをエンドポイントのシンク/ソースとして使用することができます。コードベースにはいくつかの[examples](https://github.com/apache/camel/tree/b0bada2f41029cd8496db4defc09b3a48b403ad4/dsl/camel-jbang/camel-jbang-main/examples)がありますので、AMQP 1.0プロトコルを使用して、定期的な間隔でメッセージを生成し、JMSブローカに公開するものを見てみましょう。\n"
 
 #. type: Fenced code block
 #: upstream/content/blog/2021/07/camel-jbang/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "- route:\n"
 "    from:\n"
@@ -187,33 +189,46 @@ msgid ""
 "            remoteURI: amqp://localhost:61616\n"
 "            destinationName: test-queue\n"
 msgstr ""
+"- のルートです。\n"
+"    からです。\n"
+"      uri: \"kamelet:timer-source\"\n"
+"      パラメーター\n"
+"        period:1000\n"
+"        メッセージを表示します。\"Hello Camel JBang\"\n"
+"    のステップです。\n"
+"      - ログを表示します。\"${body}\"\n"
+"      - にしています。\n"
+"          uri: \"kamelet:jms-amqp-10-sink\"\n"
+"          パラメーターを指定します。\n"
+"            リモートURI: amqp://ローカルホスト:61616\n"
+"            送信先名: テストキュー\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:78
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The screencast below shows Camel JBang consuming and producing from a JMS broker, using the sink and source Kamelets:\n"
-msgstr ""
+msgstr "以下のスクリーンキャストは、Camel JBangがシンクとソースのKameletを使って、JMSブローカーから消費と生産を行っている様子を示しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:80
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[![asciicast](https://asciinema.org/a/426344.svg)](https://asciinema.org/a/426344)\n"
-msgstr ""
+msgstr "[![asciicast](https://asciinema.org/a/426344.svg)](https://asciinema.org/a/426344)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:82
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "All in all, these features make it fairly easy to find and try new components; try and reuse Kamelets from the catalog; and experiment with Apache Camel in ways that were not possible in the past.\n"
-msgstr ""
+msgstr "これらの機能により、新しいコンポーネントを見つけて試したり、カタログに載っているKameletを試して再利用したり、過去にはできなかった方法でApache Camelを試したりすることがかなり容易になりました。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/07/camel-jbang/index.md:83
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Thanks"
-msgstr ""
+msgstr "ありがとうございます。"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:85
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Our community is continuously exploring new ideas to improve our projects and make them accessible and easy to use. If you have any ideas about how we can extend and improve Camel JBang, as well as any of our sub-projects, we would be happy to hear about it on our [mailing list](/community/mailing-list/), our [official chat](https://camel.zulipchat.com/) or by filing an issue on [Camel Github repository](https://github.com/apache/camel).\n"
-msgstr ""
+msgstr "私たちのコミュニティは、私たちのプロジェクトを改善し、アクセス可能で使いやすいものにするための新しいアイデアを常に模索しています。Camel JBangやサブプロジェクトをどのように拡張・改善していくかについてのアイデアがあれば、[メーリングリスト](/community/mailing-list/)、[公式チャット](https://camel.zulipchat.com/)、または[Camel Githubリポジトリ](https://github.com/apache/camel)に課題を提出することで、喜んでお聞きします。\n"
