@@ -875,6 +875,3138 @@ simplified interface, hiding all the low level details about how those connectio
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>[Integrating systems in the age of Quarkus and Camel](https://www.youtube.com/watch?v=b7FxG2mKop8) 45 min webinar from May 2021 by Claus Ibsen, with quick overview of Camel 3 projects and then focus on Camel Quarkus, Camel K and Kamelets. Mix of slides and live demos (yes with a demo not working perfect)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Integrating systems in the age of Quarkus and Camel](https://www.youtube.com/watch?v=b7FxG2mKop8) 2021年5月に開催されたClaus Ibsen氏による45分間のウェビナーで、Camel 3プロジェクトの簡単な概要と、Camel Quarkus、Camel K、Kameletsに焦点を当てています。スライドとライブデモの組み合わせ（デモは完璧ではありません）。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[OCB: Integration in OpenShift](https://www.youtube.com/watch?v=5dDsVmS9HKk) 1 hour introductory presentation from May 2021 by Zineb Bendhiba, Rachel Jordan-McGeever, and María Arias de Reyna about Camel, Camel Quarkus, Camel K and Kamelets.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[OCB: Integration in OpenShift](https://www.youtube.com/watch?v=5dDsVmS9HKk) 2021年5月に行われた、Zineb Bendhiba、Rachel Jordan-McGeever、María Arias de Reynaによる、Camel、Camel Quarkus、Camel K、Kameletsについての1時間の紹介プレゼンテーションです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Formula 1 telemetry processing using Kafka Streams - DevConf.CZ 2021](https://www.youtube.com/watch?v=OkXlSb4vfDk) - 25 min presentation from April 2021 by Paolo Patierno and Thomas Cooper talking about how they capture metrics from F1 computer game and stream into Kafka using Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Formula 1 telemetry processing using Kafka Streams - DevConf.CZ 2021](https://www.youtube.com/watch?v=OkXlSb4vfDk) - 2021年4月に行われたPaolo PatiernoとThomas Cooperによる25分のプレゼンテーションで、F1コンピュータゲームからメトリクスをキャプチャし、Camelを使ってKafkaにストリームする方法について話しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Whats new with Apache Camel 3 | JCon Peru 2020](https://www.youtube.com/watch?v=phGWE6QqDwc) - 55 min presentation from October 2020 by Claus Ibsen and Andrea Cosentino presenting whats new in Camel 3 and primary focused on latest innovations with Camel K, Camel Quarkus and Camel Kafka Connector.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Whats new with Apache Camel 3 | JCon Peru 2020](https://www.youtube.com/watch?v=phGWE6QqDwc) - 2020年10月に行われたClaus IbsenとAndrea Cosentinoによる55分のプレゼンテーションでは、Camel 3の新機能と、Camel K、Camel Quarkus、Camel Kafka Connectorの最新のイノベーションに主眼を置いて紹介しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Serverless Integration on Kubernetes with Apache Camel K | KubeCon EU 2020](https://www.youtube.com/watch?v=beJOCndVfaU) - 35 min presentation from August 2020 by Nicola Ferraro presenting Camel K on Kubernetes with Knative at KubeCon conference.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Serverless Integration on Kubernetes with Apache Camel K | KubeCon EU 2020](https://www.youtube.com/watch?v=beJOCndVfaU) - KubeConカンファレンスでKnativeを用いたKubernetes上のCamel Kを発表したNicola Ferraro氏による2020年8月の35分のプレゼンテーションです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Camel 3 : Integration in the Kubernetes and Serverless era | BarcelonaJUG](https://www.crowdcast.io/e/camel-3--integration-in/1) - 90 min webinar from July 2020, by Claus and Andrea giving overview of Camel 3, and focusing on the most exicing innovations with CamelK, Camel Quarkus and Camel Kafka Connector with live demos, and QA at the end.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camel 3 : Integration in the Kubernetes and Serverless era | BarcelonaJUG](https://www.crowdcast.io/e/camel-3--integration-in/1) - 2020年7月に開催される90分のウェビナーでは、ClausとAndreaがCamel 3の概要を説明し、CamelK、Camel Quarkus、Camel Kafka Connectorの最も注目すべきイノベーションに焦点を当て、ライブデモを行い、最後にQAを行います。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Event-driven serverless applications with Camel K | DevNation Tech Talk](https://www.youtube.com/watch?v=hlUzLC71nAM) - 40 min video from July 2020, by Luca and Nicola presenting Camel K and how Camel fits in the event driven &amp; serverless world with a live demo that shows this all together. 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Event-driven serverless applications with Camel K | DevNation Tech Talk](https://www.youtube.com/watch?v=hlUzLC71nAM) - 2020年7月に公開された40分のビデオで、LucaとNicolaがCamel Kを紹介し、Camelがイベント駆動とサーバーレスの世界にどのようにフィットするかを、これらをまとめて示すライブデモとともに紹介しています。 
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[What’s new with Apache Camel 3? | DevNation Tech Talk](https://www.youtube.com/watch?v=HS8fPyCkgyU) - 35 min video from June 2020, by Claus and Andrea giving an overview of Camel 3, and focusing on the most exicing innovations with CamelK, Camel Quarkus and Camel Kafka Connector with 3 live demos.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[What's new with Apache Camel 3? | DevNation Tech Talk](https://www.youtube.com/watch?v=HS8fPyCkgyU) - 2020年6月に公開された35分のビデオで、ClausとAndreaがCamel 3の概要を説明し、CamelK、Camel Quarkus、Camel Kafka Connectorの最も注目すべきイノベーションに焦点を当て、3つのライブデモを行います。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel monitoring with Prometheus and Grafana](https://www.youtube.com/watch?v=0LDgv1nIk-Y) - 10 min video from July 2020 where Alaim Pham demonstrate how to build custom dashboard in Grafana to monitor Camel applications and among others being able to drill down per intance to help with troubleshooting.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel monitoring with Prometheus and Grafana](https://www.youtube.com/watch?v=0LDgv1nIk-Y) - 2020年7月に公開された10分間のビデオで、Alaim PhamがGrafanaでカスタムダッシュボードを構築し、Camelアプリケーションを監視する方法を紹介しています。また、トラブルシューティングのためにインスタンスごとにドリルダウンする方法も紹介しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Camel K serverless Integration auf Kubernetes (**German**)](https://www.youtube.com/watch?v=ZY9s4zdm_Us) - 25 min video by Perdic8 team in Germany who introduces CamelK and show live demo on Windows how to install, run and use Camel K with their impressions.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camel K serverless Integration auf Kubernetes (**ドイツ語**)](https://www.youtube.com/watch?v=ZY9s4zdm_Us) - ドイツのPerdic8チームによる25分のビデオで、CamelKの紹介と、Windows上でのCamel Kのインストール、実行、使用方法のライブデモを彼らのインプレッションとともに紹介しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[SouJava May 2020: Apache Camel 3 - The next generation of enterprise integration](https://www.youtube.com/watch?v=OP81rLuoq0I) - SouJava talk from May 2020 where Claus Ibsen and Andrea Cosentino presents an hour long session about Apache Camel, Camel v3 and goes more in depth with Camel K, Camel Quarkus and Camel Kafka Connector. At the end of the talk there is a 30 min additional QA session.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[SouJava May 2020:Apache Camel 3 - The Next Generation of Enterprise Integration](https://www.youtube.com/watch?v=OP81rLuoq0I) - SouJavaの2020年5月の講演では、Claus IbsenとAndrea Cosentinoが、Apache Camel、Camel v3、さらにはCamel K、Camel Quarkus、Camel Kafka Connectorについての1時間のセッションを行います。講演の最後には、30分間の追加QAセッションがあります。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[4K–Kubernetes with Knative, Kafka, and Kamel](https://www.youtube.com/watch?v=kYM6hoh2ahI) - DevNation Tech Talk from April 2020 where Kamesh Sampath celebrats his book launch of the Knative Cookbook, and runs a fast-paced live code demonstration of the coolest Knative-based techniques that we can imagine that include Kafka and Kamel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[4K-Kubernetes with Knative, Kafka, and Kamel](https://www.youtube.com/watch?v=kYM6hoh2ahI) - 2020年4月に開催されたDevNation Tech Talkでは、Kamesh SampathがKnative Cookbookの出版を記念して、KafkaやKamelを含む想像できる最もクールなKnativeベースのテクニックをテンポの速いライブ・コード・デモンストレーションで紹介しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[How to quickly run 100 Camels with Apache Camel, Quarkus and GraalVM](https://www.youtube.com/watch?v=4lXSf8DBQkQ) - A 10 minute video from April 2020 where Claus shows how to run Camel in both JVM and Native compiled mode and compare startup speed and memory usage.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>How to quickly run 100 Camels with Apache Camel, Quarkus and GraalVM](https://www.youtube.com/watch?v=4lXSf8DBQkQ) - 2020年4月に公開された10分間のビデオで、ClausがJVMとNativeコンパイルモードの両方でCamelを実行し、起動速度とメモリ使用量を比較する方法を紹介しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Best Practices for Middleware and Integration Architecture Modernization with Apache Camel](https://www.youtube.com/watch?v=d1Hr78a7Lww) - A 30 minute video from March 2020 where Claus presents Camel 3 and focused on Camel K and Camel Quarkus.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Best Practices for Middleware and Integration Architecture Modernization with Apache Camel](https://www.youtube.com/watch?v=d1Hr78a7Lww) - 2020年3月に公開された30分のビデオで、ClausがCamel 3を紹介し、Camel KとCamel Quarkusに焦点を当てています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Metamorphosis: When Kafka meets Camel](https://www.youtube.com/watch?v=hJUl7R2dN00) - A 40 minute video from DevConf.CZ in January 2020 where Otavio Piske and Jakub Scholz introduce Camel and Kafka Connector and talk about how they can work together.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Metamorphosis: When Kafka meets Camel](https://www.youtube.com/watch?v=hJUl7R2dN00) - 2020年1月に開催されたDevConf.CZからの40分のビデオで、Otavio PiskeとJakub ScholzがCamelとKafka Connectorを紹介し、どのように連携できるかを語っています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Devnexus 2020 Configuring Apache Camel for the Cloud](https://www.youtube.com/watch?v=nwDMcRtaaJk) - 50 min video from February 2020 where Bob Paulin talks about the various ways to use and configure Camel on differenet cloud platforms.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Devnexus 2020 Configuring Apache Camel for the Cloud](https://www.youtube.com/watch?v=nwDMcRtaaJk) - 2020年2月に公開された50分のビデオで、Bob Paulinが異なるクラウドプラットフォーム上でCamelを使用・構成する様々な方法について語っています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Cloud-native integration: Kubernetes and Camel K](https://www.youtube.com/watch?v=4Xuax4s-LIc) - A 45 minute video from November 2019 by Kamesh Sampath whom presents the CamelK framework and how it helps in deploying Camel DSL code as integrations in Kubernetes/OpenShift. We will dive deeper by making them serverless and on-demand using Knative.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Cloud-native integration: Kubernetes and Camel K](https://www.youtube.com/watch?v=4Xuax4s-LIc) - CamelKフレームワークを紹介するKamesh Sampathによる2019年11月の45分ビデオで、Kubernetes/OpenShiftに統合としてCamel DSLコードをデプロイする際にどのように役立つかを説明しています。Knativeを使ってサーバーレスやオンデマンドにすることで、より深く掘り下げていきます。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Camel Riders in the Cloud](https://developers.redhat.com/video/youtube/zuEYtMvHN6g/) (English) - A 30 minute video from March 2018 where Claus presents using Camel with microservices and containers as cloud native applications, and the best practices around this.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camel Riders in the Cloud](https://developers.redhat.com/video/youtube/zuEYtMvHN6g/) (英語) - 2018年3月に公開された30分のビデオで、ClausがCamelをマイクロサービスやコンテナと一緒にクラウドネイティブアプリケーションとして使用することや、これに関するベストプラクティスを紹介しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Agile Integration with Apache Camel microservices in containers on Kubernetes](https://www.youtube.com/watch?v=9FN4DuBJy8M) (English) - A 45 minute video from fall 2017 where Claus presents at CodeEurope in Poland
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Agile Integration with Apache Camel microservices in containers on Kubernetes](https://www.youtube.com/watch?v=9FN4DuBJy8M) (英語) - 2017年秋にポーランドで開催されたCodeEuropeでClausが発表した45分のビデオです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Containerised Integration with Apache Camel](https://www.youtube.com/watch?v=Xkg_AGLV32A&amp;feature=youtu.be) (English) - A 70 minute video from August 2017 where Claus Ibsen present how developers can get started with Kubernetes/OpenShift on a local cluster and build and run Camel microservices in the cluster.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Containerised Integration with Apache Camel](https://www.youtube.com/watch?v=Xkg_AGLV32A&amp;amp;feature=youtu.be) (英語) - 2017年8月に公開された70分のビデオで、Claus Ibsen氏が、開発者がローカルクラスタ上でKubernetes/OpenShiftを使い始め、クラスタ内でCamelマイクロサービスを構築・実行する方法を紹介しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel - The Integration Library](https://www.youtube.com/watch?v=fxpS9pf6TVk&amp;list=PLUDjw7NbNcoyOyhrIIw9cChAHWdaCxIob&amp;index=17) (English) - A 50 minute video from September 2016 where Claus Ibsen presents Apache Camel at the JDKIO 2016 conference.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel - The Integration Library](https://www.youtube.com/watch?v=fxpS9pf6TVk&amp;amp;list=PLUDjw7NbNcoyOyhrIIw9cChAHWdaCxIob&amp;amp;index=17)(英語) - 2016年9月にClaus IbsenがJDKIO 2016カンファレンスでApache Camelを紹介した50分のビデオです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel First Steps](https://www.youtube.com/watch?v=jZE-YSHK_gw&amp;sns=tw) (English) - A 10 minute video from December 2015 where Vivian van Zyl gives a high level overview of Apache Camel and demonstrates how to start using Camel with live code demo.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel First Steps](https://www.youtube.com/watch?v=jZE-YSHK_gw&amp;amp;sns=tw) (英語) - 2015年12月に公開された10分間のビデオで、Vivian van ZylがApache Camelのハイレベルな概要を説明し、ライブコードデモでCamelの使い始め方を実演しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Fabric8 Camel Microservices for Docker and Kubernetes](https://www.youtube.com/watch?v=ouJ3SQHnQ6I&amp;feature=youtu.be&amp;a) (English) - A 55 minute video from [Riga Dev Day](http://rigadevday.lv/#/index) 2016 conference where Claus Ibsen talks about developing Camel microservices ready for the container platforms.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Fabric8 Camel Microservices for Docker and Kubernetes](https://www.youtube.com/watch?v=ouJ3SQHnQ6I&amp;amp;feature=youtu.be&amp;amp;a) (英語) - [Riga Dev Day](http://rigadevday.lv/#/index) 2016年のカンファレンスで、Claus Ibsenがコンテナプラットフォームに対応したCamelマイクロサービスの開発について語った55分のビデオです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Developing Microservices with Apache Camel](https://www.youtube.com/watch?v=91UiQgazt3g) (English) - Video from November 2015 at the MSA Day in New York where Claus Ibsen talks developing Camel based microservices for docker containers running on Kubernetes. [Slides are here](http://www.slideshare.net/davsclaus/developing-microservices-with-apache-camel).
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Developing Microservices with Apache Camel](https://www.youtube.com/watch?v=91UiQgazt3g) (English) - 2015年11月にニューヨークで開催されたMSA Dayのビデオで、Claus IbsenがKubernetes上で動作するdockerコンテナのためのCamelベースのマイクロサービスの開発について話しています。[Slides are here](http://www.slideshare.net/davsclaus/developing-microservices-with-apache-camel)です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[JavaOne 2015 Riding a Camel through the JEEHara](https://www.youtube.com/watch?v=nqQaR7vUxfg&amp;index=13&amp;list=PLPIzp-E1msrZz6RNdbDiK0nKuxAUZPs77) (English) - Video from JavaOne 2015 where Markus Eisele introduces Apache Camel and how to use it with JEE.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[JavaOne 2015 Riding a Camel through the JEEHara](https://www.youtube.com/watch?v=nqQaR7vUxfg&amp;amp;index=13&amp;amp;list=PLPIzp-E1msrZz6RNdbDiK0nKuxAUZPs77)(英語) - Markus Eisele氏がApache CamelとJEEでの使用方法を紹介したJavaOne 2015のビデオです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel in the clouds](https://www.youtube.com/watch?v=jbj1TJ_2XBQ&amp;feature=youtu.be&amp;a) (English) - Video from Devnexus 2015 where Markus Eisele talk about Apache Camel in the clouds running on openshift
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel in the clouds](https://www.youtube.com/watch?v=jbj1TJ_2XBQ&amp;amp;feature=youtu.be&amp;amp;a) (英語) - Markus Eisele氏がopenshift上で動作するApache Camel in the cloudsについて語ったDevnexus 2015のビデオ。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[GeeCON 2015: Markus Eisele - Wild Flies and a Camel - Java EE Integration](https://vimeo.com/130993910) (English) - Video from GeeCon 2015 where Markus Eisele talks about Apache Camel and how Camel can work with Wildfly
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[GeeCON 2015: Markus Eisele - Wild Flies and a Camel - Java EE Integration](https://vimeo.com/130993910) (英語) - Markus Eisele氏がApache Camelについて、またCamelがWildflyとどのように連携するかについて語ったGeeCon 2015のビデオです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Integration using Apache Camel and Groovy (June 2014)](http://www.youtube.com/watch?v=_pEwoztbfYI&amp;feature=youtu.be&amp;a) (English) by Claus Ibsen, presenting Camel, Groovy, and [hawtio](http://hawt.io/) at [gr8conf](http://gr8conf.eu/#/) 2014.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Integration using Apache Camel and Groovy (June 2014)](http://www.youtube.com/watch?v=_pEwoztbfYI&amp;amp;feature=youtu.be&amp;amp;a) (英語)Claus IbsenがCamel, Groovy, [hawtio](http://hawt.io/)を[gr8conf](http://gr8conf.eu/#/)2014で発表。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Getting started with Apache Camel video from BarcelonaJUG (January 2014)](http://www.youtube.com/watch?v=lOxUs_JleSs&amp;feature=youtu.be&amp;a) (English) by Claus Ibsen
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Getting started with Apache Camel video from BarcelonaJUG (January 2014)](http://www.youtube.com/watch?v=lOxUs_JleSs&amp;amp;feature=youtu.be&amp;amp;a) (英語) by Claus Ibsen
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Camel in the cloud demo from CamelOne 2013](http://vimeo.com/68442425) (English) - Video presentation from CamelOne 2013 demonstrating Camel in the cloud using [Fuse Fabric](https://fabric8.io/) and [hawtio](http://hawt.io/)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camel in cloud demo from CamelOne 2013](http://vimeo.com/68442425) (英語) - [Fuse Fabric](https://fabric8.io/)と[hawtio](http://hawt.io/)を使ったCamel in cloudのデモンストレーションを行ったCamelOne 2013のビデオプレゼンテーションです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using Apache Camel and Java EE in an OSGi World](http://www.java-tv.com/2012/02/28/using-apache-camel-and-java-ee-in-an-osgi-world/) (English) _by Jeff Genender and Johan Edstrom_ (JavaOne 2011)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Using Apache Camel and Java EE in an OSGi World](http://www.java-tv.com/2012/02/28/using-apache-camel-and-java-ee-in-an-osgi-world/)(英語) _by Jeff Genender and Johan Edstrom_ (JavaOne 2011)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Er Apache Camel riktig valg for deg? Lytt til erfarne Camel spotters](http://vimeo.com/28760446) (Norwegian)  _by Rune Peter Bjørnstad, and Bjørn Nordlund_(September 2011)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Er Apache Camel riktig valg for deg? Lytt til erfarne Camel spotters](http://vimeo.com/28760446) (ノルウェー語) _by Rune Peter Bjørnstad, and Bjørn Nordlund_(September 2011)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Un plongeon dans les frameworks d'intégration Java: Apache Camel et Spring Integration](https://www.youtube.com/watch?v=gkUzmbwJr8k) (FRENCH) _by Guillaume Giamarchi and Grégory Boissinot_ (October 2013)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Un plonon dans les frameworks d'intégration Java:Apache Camel et Spring Integration](https://www.youtube.com/watch?v=gkUzmbwJr8k) (FRENCH) _by Guillaume Giamarchi and Grégory Boissinot_ (2013年10月)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Introduction to messaging with ActiveMQ](http://www.java-tv.com/2009/07/24/introduction-to-messaging-with-apache-activemq/) (English) at [Øredev 2008 conference](https://oredev.org/) _by_ _[Bruce Snyder](http://bsnyderblog.blogspot.com/)_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Introduction to messaging with ActiveMQ](http://www.java-tv.com/2009/07/24/introduction-to-messaging-with-apache-activemq/)(英語) at [Øredev 2008 conference](https://oredev.org/) _by_ _[Bruce Snyder](http://bsnyderblog.blogspot.com/)_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>ScreenCast: an introduction to [Apache Camel](http://activemq.apache.org/camel/) and the use of [Enterprise Integration Patterns](http://activemq.apache.org/camel/enterprise-integration-patterns.html) in [Jame's Blog](http://macstrac.blogspot.com/2013/06/introducing-apache-camel-based-open.html) _by_ _[James Strachan](http://macstrac.blogspot.com/)_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>ScreenCast: [Jame's Blog](http://macstrac.blogspot.com/2013/06/introducing-apache-camel-based-open.html)での[Apache Camel](http://activemq.apache.org/camel/)の紹介と[Enterprise Integration Patterns](http://activemq.apache.org/camel/enterprise-integration-patterns.html)の使用について。_by_ _[James Strachan](http://macstrac.blogspot.com/)_。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Videos de las charlas de la 9a reunión de JavaMexico (**Spanish**)](http://www.springhispano.org/?q=node/564) _by Domingo Suarez_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Videos de las charlas de la 9a reunión de JavaMexico (**スペイン語**)](http://www.springhispano.org/?q=node/564) _by Domingo Suarez_ (英語)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Articles are divided into several sections. As the lists grow, further sectioning refinements may be necessary.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>記事はいくつかのセクションに分かれています。リストが増えれば、さらにセクションを絞り込む必要があるかもしれません。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Open Source Integration with Apache Camel](http://java.dzone.com/articles/open-source-integration-apache) _by Jonathan Anstey_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Open Source Integration with Apache Camel](http://java.dzone.com/articles/open-source-integration-apache) _by Jonathan Anstey_ (英語)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Tutorial: Integrating with Apache Camel](https://jaxenter.com/tutorial-integrating-with-apache-camel-106759.html) _by_ _[Charles Moulliard](https://twitter.com/cmoulliard)_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Tutorial: Integrating with Apache Camel](https://jaxenter.com/tutorial-integrating-with-apache-camel-106759.html) _by_[Charles Moulliard](https://twitter.com/cmoulliard)_。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Simple DSL OSGi bundle example](http://www.andrejkoelewijn.com/blog/2008/10/19/simple-camel-dsl-osgi-bundle-example/) _by_ _[Andrej Koelewijn](http://www.andrejkoelewijn.com/)_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Simple DSL OSGi bundle example](http://www.andrejkoelewijn.com/blog/2008/10/19/simple-camel-dsl-osgi-bundle-example/)_by_ _[Andrej Koelewijn](http://www.andrejkoelewijn.com/)_。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[CamelOne 2012 leature series](http://camelone.org/camelone-2012/) - All the videos from the [CamelOne 2012 conference](http://fusesource.com/apache-camel-conference-2012) (May 2012) 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[CamelOne 2012 leature series](http://camelone.org/camelone-2012/) - [CamelOne 2012 カンファレンス](http://fusesource.com/apache-camel-conference-2012)のすべてのビデオ(2012年5月) 
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[JEEConf 2011 - What riding the Camel can do to make integration easier for you](http://jeeconf.com/program/camel/)(Russian) _by Claus Ibsen_ (May 2011).
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[JEEConf 2011 - What riding the Camel can do to make integration easier for you](http://jeeconf.com/program/camel/)(Russian) _by Claus Ibsen_ (May 2011).
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Realization of EAI Patterns with Apache Camel](https://www.researchgate.net/publication/37686328_Realization_of_EAI_Patterns_with_Apache_Camel) _by Pascal Kolb_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache CamelによるEAIパターンの実現](https://www.researchgate.net/publication/37686328_Realization_of_EAI_Patterns_with_Apache_Camel) _by Pascal Kolb_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Navigating the Integration Landscape - Claus Ibsen on Apache Camel](http://java.dzone.com/articles/interview-claus-ibsen-about) Claus Ibsen was interviewed at DZone discussing the integration landscape
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Navigating the Integration Landscape - Claus Ibsen on Apache Camel](http://java.dzone.com/articles/interview-claus-ibsen-about) クラウス・イブセンがDZoneでインタビューを受け、統合の状況について語りました。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Enterprise Integration Pattern with Apache Camel 2.0](http://onjavahell.blogspot.com/2009/05/taking-apache-camel-for-ride.html) _by Julien Dechmann_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Enterprise Integration Pattern with Apache Camel 2.0](http://onjavahell.blogspot.com/2009/05/taking-apache-camel-for-ride.html) _by Julien Dechmann_ (英語)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Camellos - Discovering Apache Camel](http://hillert.blogspot.com/2009/09/camellos-discovering-apache-camel-i.html) _by Gunnar Hillert_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camellos - Discovering Apache Camel](http://hillert.blogspot.com/2009/09/camellos-discovering-apache-camel-i.html)_by Gunnar Hillert_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[First step with Apache Camel](http://lukaszbudnik.blogspot.com/2009/12/first-steps-with-apache-camel.html) _by Lukasz Budnik_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[First step with Apache Camel](http://lukaszbudnik.blogspot.com/2009/12/first-steps-with-apache-camel.html) _by Lukasz Budnik_ (日本語)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Devoxx talk about Apache Camel](http://blog.whitehorses.nl/2010/11/19/devoxx-talk-about-apache-camel-claus-ibsen/) - Impressions from the talk _by Jos Nieuwenhuis_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache CamelについてのDevoxxトーク](http://blog.whitehorses.nl/2010/11/19/devoxx-talk-about-apache-camel-claus-ibsen/) - トークの感想 _by Jos Nieuwenhuis_(英語)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Getting started with Apache Camel using Groovy](http://saltnlight5.blogspot.se/2012/08/getting-started-with-apache-camel-using.html) _by Zemian Deng_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Groovyを使ってApache Camelを始める](http://saltnlight5.blogspot.se/2012/08/getting-started-with-apache-camel-using.html)_by Zemian Deng_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Introduction to Apache Camel](http://alexander.holbreich.org/2012/09/apache-camel/) _by Alexander Holbreich_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Introduction to Apache Camel](http://alexander.holbreich.org/2012/09/apache-camel/) _by Alexander Holbreich_ (英語)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Getting started with Apache Camel](http://nsinfra.blogspot.in/2012/12/getting-started-with-apache-camel.html) a short blog from December 2012 about how to implement an use-case from scratch with Apache Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Getting started with Apache Camel](http://nsinfra.blogspot.in/2012/12/getting-started-with-apache-camel.html)は、2012年12月に書かれた短いブログで、Apache Camelを使ってゼロからユースケースを実装する方法を紹介しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Discovering the power of Apache Camel](http://www.javacodegeeks.com/2012/12/discovering-the-power-of-apache-camel.html) - A blog post from December 2012 _by Bernard Ligny_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Discovering the power of Apache Camel](http://www.javacodegeeks.com/2012/12/discovering-the-power-of-apache-camel.html) - A blog post from December 2012 _by Bernard Ligny_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Growing EAI with Apache Camel](http://www.infoq.com/articles/eai-with-apache-camel) - Good lengthy article from March 2013 covering simple integration needs that grows and shows how Camel can be up for the task. **Recommend read**.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Growing EAI with Apache Camel](http://www.infoq.com/articles/eai-with-apache-camel) - 2013年3月に掲載された長文の記事で、成長するシンプルな統合ニーズを取り上げ、Camelがどのようにそのタスクに対応できるかを示しています。**お勧めの記事**。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Getting started with Apache Camel using Java](http://saltnlight5.blogspot.com/2013/08/getting-started-with-apache-camel-using.html) - A blog post from August 2013 introducing how to create a new Camel project from scratch and use Java code. And then make the example better with less code and using more of Camels power.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Getting started with Apache Camel using Java](http://saltnlight5.blogspot.com/2013/08/getting-started-with-apache-camel-using.html) - 2013年8月に投稿されたブログ記事で、新しいCamelプロジェクトをゼロから作成し、Javaコードを使用する方法を紹介しています。そして、より少ないコードで、より多くのCamelの力を使って、例をより良くしていきます。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[SOA Integration with Apache Camel](http://www.javaworld.com/javaworld/jw-09-2013/130925-jtip-soa-integration-with-apache-camel.html) - Article from September 2013 introducing to Apache Camel and how it can be used with SOA and Web Services.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[SOA Integration with Apache Camel](http://www.javaworld.com/javaworld/jw-09-2013/130925-jtip-soa-integration-with-apache-camel.html) - 2013年9月に掲載された記事で、Apache Camelを紹介し、SOAとWebサービスでどのように使用できるかを解説しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Tutorial: Integration with Apache Camel](http://jaxenter.com/tutorial-integrating-with-apache-camel-48211.html) _by Charles Moulliard_ (September 2013)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[チュートリアル：Apache Camelとの統合](http://jaxenter.com/tutorial-integrating-with-apache-camel-48211.html) _by Charles Moulliard_ (2013年9月)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Knowledge Tree integration](http://pipoltek.blogspot.com/2008/10/knowledgetree-integration-using-apache.html) using Apache Camel
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camelを使った[Knowledge Tree integration](http://pipoltek.blogspot.com/2008/10/knowledgetree-integration-using-apache.html)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Introduction to the Open eHealth Integration Platform (based on top of Apache Camel)](http://architects.dzone.com/articles/introduction-open-ehealth) Excellent DZone article _by Martin Krasser_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Introduction to Open eHealth Integration Platform (based on top of Apache Camel)](http://architects.dzone.com/articles/introduction-open-ehealth) 優れたDZone記事 _by Martin Krasser_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Camel vs. JBI](http://trenaman.blogspot.com/2009/08/camel-vs-jbi.html) _by Adrian Trenaman_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camel vs. JBI](http://trenaman.blogspot.com/2009/08/camel-vs-jbi.html) _by Adrian Trenaman_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Hiding The Middleware from Your Domain Code With Camel](http://jnb.ociweb.com/jnb/jnbMar2010.html) _by James Carr_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Hiding The Middleware from Your Domain Code With Camel](http://jnb.ociweb.com/jnb/jnbMar2010.html) _by James Carr_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Tutorial: Open Source Enterprise Application Integration](http://epub.uni-regensburg.de/28549/1/p259-emmersberger.pdf) DEBS’13 _by Christoph Emmersberger and Florian Springer_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Tutorial: Open Source Enterprise Application Integration](http://epub.uni-regensburg.de/28549/1/p259-emmersberger.pdf) DEBS'13 _by Christoph Emmersberger and Florian Springer_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Developing Services with Apache Camel](http://raibledesigns.com/rd/entry/developing_services_with_apache_camel) - 3 part blog series (sep/oct 2014) by _Matt Raible_ - Excellent blog series where Matt covers how they migrated from an old legacy system to using Apache Camel and micro services. A great read!
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Developing Services with Apache Camel](http://raibledesigns.com/rd/entry/developing_services_with_apache_camel) - 3 part blog series (sep/oct 2014) by _Matt Raible_ - 古いレガシーシステムからApache Camelとマイクロサービスを使ってどのように移行したかをMattが解説する素晴らしいブログシリーズです。読み応えがあります。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Q&amp;A With Claus Ibsen on Apache Camel](https://dzone.com/articles/qa-with-claus-ibsen-on-apache-camel) - Claus was interviewed by DZone in December 2015 where he talks Apache Camel, including development inspiration, community reaction, and challenges.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Q&amp;amp;A With Claus Ibsen on Apache Camel](https://dzone.com/articles/qa-with-claus-ibsen-on-apache-camel) - クラウスは2015年12月にDZoneのインタビューを受け、開発のインスピレーション、コミュニティの反応、課題など、Apache Camelについて語っています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Performance Tuning Ideas for Apache Camel](http://www.ofbizian.com/2016/01/performance-tuning-ideas-for-apache.html) - Bilgin details many ideas what you can do to optimize your systems that are using Apache Camel (January 2016).
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Performance Tuning Ideas for Apache Camel](http://www.ofbizian.com/2016/01/performance-tuning-ideas-for-apache.html) - Bilgin氏は、Apache Camelを使用しているシステムを最適化するためにできる多くのアイデアを詳細に説明しています（2016年1月）。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Microservices with Apache Camel](https://dzone.com/articles/microservices-with-apache-camel) - Piotr Mińkowski blogs from March 2017 about developing microservices with Apache Camel and using the Rest-DSL with Spring Boot, service call, consul, zipkin and more.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Microservices with Apache Camel](https://dzone.com/articles/microservices-with-apache-camel) - Piotr Mińkowskiの2017年3月のブログでは、Apache Camelを使ったマイクロサービスの開発や、Rest-DSLとSpring Boot、service call、consul、zipkinなどの使用について紹介されています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel: Integrating systems with Java](https://alexandreesl.com/2017/07/01/apache-camel-integrating-systems-with-java/) - Alexandre Eleuterio Santos Lourenco from June 2017 gives a quick introduction to Apache Camel and builds an example to route files to AWS S3 with error handling via gmail and running on Spring Boot.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel: Integrating systems with Java](https://alexandreesl.com/2017/07/01/apache-camel-integrating-systems-with-java/) - 2017年6月のAlexandre Eleuterio Santos Lourencoでは、Apache Camelを簡単に紹介し、AWS S3にファイルをルーティングし、gmail経由でエラー処理を行い、Spring Boot上で動作させる例を構築しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Getting started with Apache Camel and Java](http://bennet-schulz.com/2017/09/19/getting-started-with-apache-camel-and-java/) - By Bennet Schultz from September 2017 gives you a quick 101 how to easily get started with Apache Camel with plain Java (no Spring, application server, OSGi, etc.)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Getting started with Apache Camel and Java](http://bennet-schulz.com/2017/09/19/getting-started-with-apache-camel-and-java/) - 2017年9月のBennet Schultz氏による、プレーンなJava（Spring、アプリケーションサーバ、OSGiなどを使用しない）でApache Camelを簡単に始める方法を101個紹介しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Easy integration between services with Apache Camel](https://blog.codecentric.de/en/2018/08/easy-integration-between-services-with-apache-camel/) - By Jan Martijn Roetman from August 2018 blogs about his experience with Apache Camel  and explain a bit what I think Apache Camel is and why it is useful. I will also give some code examples.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Easy integration between services with Apache Camel](https://blog.codecentric.de/en/2018/08/easy-integration-between-services-with-apache-camel/) - Jan Martijn Roetman氏による2018年8月のブログでは、Apache Camelでの経験を紹介し、私が考えるApache Camelとは何か、なぜそれが便利なのかを少し説明します。また、いくつかのコード例も紹介します。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Auto-generating news and publishing it to WordPress with Apache Camel](https://developers.redhat.com/blog/2018/08/27/camel-wordpress-integration/) - By Ricardo Zanini from August 2018 blogs about how to generate news posts using NLG (Natural Language Generation) and post to WordPress via Apache Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Auto-generating news and publishing it to WordPress with Apache Camel](https://developers.redhat.com/blog/2018/08/27/camel-wordpress-integration/) - 2018年8月のRicardo Zaniniによる、NLG（自然言語生成）を使ってニュース記事を生成し、Apache Camel経由でWordPressに投稿する方法についてのブログです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Streamline Software Integration: An Apache Camel Tutorial](https://www.toptal.com/apache/apache-camel-tutorial) - A longer article and tutorial on introducing Apache Camel and using Camel with microservices, testing, Kubernetes, and much more. The tutorial is based on the Camel 2.22 release.  
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Streamline Software Integration: An Apache Camel Tutorial](https://www.toptal.com/apache/apache-camel-tutorial) - Apache Camel の紹介と、マイクロサービス、テスト、Kubernetes などで Camel を使用するための長い記事とチュートリアルです。このチュートリアルは Camel 2.22 のリリースに基づいています。  
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Getting started with Camel 3](http://www.masteringintegration.com/apache-frameworks/camel/getting-started-with-camel-3) - by Francesco Marchioni. A quick introduction to Camel 3 with a basic application example using a Camel Main class
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Getting started with Camel 3](http://www.masteringintegration.com/apache-frameworks/camel/getting-started-with-camel-3) - Francesco Marchioni によるものです。Camel Mainクラスを使った基本的なアプリケーションの例で、Camel 3を簡単に紹介しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Routing Camel messages to Artemis embedded in WildFly ](http://www.masteringintegration.com/apache-frameworks/camel/routing-camel-messages-to-artemis-embedded-in-wildfly) - by Francesco Marchioni. Shows how to route JMS messages from a Camel route to ArtemisMQ embedded in WildFly
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Routing Camel messages to Artemis embedded in WildFly ](http://www.masteringintegration.com/apache-frameworks/camel/routing-camel-messages-to-artemis-embedded-in-wildfly) - Francesco Marchioni氏によるものです。Camelルートから、WildFlyに組み込まれたArtemisMQにJMSメッセージをルーティングする方法を示しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Camel Cheatsheet](http://www.masteringintegration.com/apache-frameworks/camel/camel-cheatsheet) - A cheatsheet for Camel developers
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camel Cheatsheet](http://www.masteringintegration.com/apache-frameworks/camel/camel-cheatsheet) - Camel開発者向けのチートシートです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Create a Custom Camel logging handler for WildFly ](http://www.mastertheboss.com/jboss-server/jboss-log/create-a-custom-camel-logging-handler-for-wildfly) - by Francesco Marchioni. Shows how to use a Camel based logging handler in WildFly
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Create a Custom Camel logging handler for WildFly ](http://www.mastertheboss.com/jboss-server/jboss-log/create-a-custom-camel-logging-handler-for-wildfly) - Francesco Marchioni氏によるものです。WildFlyでCamelベースのロギングハンドラを使用する方法を示しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Jammazwan](https://github.com/jammazwan/jammazwan.x_index) - A set of many small examples to learn parts of Apache Camel more quickly
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>&lt;span&gt;[Jammazwan](https://github.com/jammazwan/jammazwan.x_index) - Apache Camel の一部をより早く学ぶための、多くの小さな例題のセットです。&lt;/span&gt;&lt;span&gt;&lt;span&gt;  
+&lt;/span&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using the Camel aggregator correctly](http://tmielke.blogspot.com/2009/01/using-camel-aggregator-correctly.html) _by Torsten Mielke_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camelのアグリゲータを正しく使う](http://tmielke.blogspot.com/2009/01/using-camel-aggregator-correctly.html) _by Torsten Mielke_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Spring Remoting with JMS Example](http://aminsblog.wordpress.com/2008/05/06/15/) _by Amin Abbaspour_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Spring Remoting with JMS Example](http://aminsblog.wordpress.com/2008/05/06/15/) _by Amin Abbaspour_ (英語)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using RSS with Apache Camel](http://blog.jeroenreijn.com/2009/03/apache-camel-open-source-integration.html) _by Jeroen Reijn_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Using RSS with Apache Camel](http://blog.jeroenreijn.com/2009/03/apache-camel-open-source-integration.html)_by Jeroen Reijn_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[A Camel based XML payload HTTP polling provider](http://christopherhunt-software.blogspot.com/2009/07/camel-based-xml-payload-http-polling.html) _by Christopher Hunt_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camel ベースの XML ペイロード HTTP ポーリングプロバイダ](http://christopherhunt-software.blogspot.com/2009/07/camel-based-xml-payload-http-polling.html)_by Christopher Hunt_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[First steps with Apache Camel on Google App Engine](http://krasserm.blogspot.com/2009/10/first-steps-with-apache-camel-on-google.html) _by Martin Krasser_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[First steps with Apache Camel on Google App Engine](http://krasserm.blogspot.com/2009/10/first-steps-with-apache-camel-on-google.html)_by マーティン・クラッサー_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[A simple file monitoring console with camel, cometd and jquery](http://www.andrejkoelewijn.com/blog/2009/10/27/simple-log-console-with-camel-and-cometd/) _by Andrej Koelewijn_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[A simple file monitoring console with camel, cometd and jquery](http://www.andrejkoelewijn.com/blog/2009/10/27/simple-log-console-with-camel-and-cometd/)by Andrej Koelewijn_(アンドレイ・コエレウィン)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Advanced Event Notification Framework with Apache Camel](http://spring-java-ee.blogspot.com/2010/01/advanced-event-notification-framework.html) _by Hendy_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camelによる高度なイベント通知フレームワーク](http://spring-java-ee.blogspot.com/2010/01/advanced-event-notification-framework.html)_by Hendy_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[A composite REST service using Apache Camel](http://www.andrejkoelewijn.com/blog/2010/06/13/a-composite-rest-service-using-camel/) _by Andrej Koelewijn_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[A composite REST service using Apache Camel](http://www.andrejkoelewijn.com/blog/2010/06/13/a-composite-rest-service-using-camel/)by Andrej Koelewijn_（アンドレイ・コーエルウィン
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[EDA events over system boundaries with Camel](http://fornax-sculptor.blogspot.com/2010/08/eda-events-over-system-boundaries-with.html) _by_ _[Sculptur](http://sites.google.com/site/fornaxsculptor/)_ _team blog_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camelによるシステム境界を越えたEDAイベント](http://fornax-sculptor.blogspot.com/2010/08/eda-events-over-system-boundaries-with.html)_by_ _[Sculptur](http://sites.google.com/site/fornaxsculptor/)_チームブログ
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Dynamic FTP Client using Apache Camel and Spring](http://blog.jayway.com/2010/08/12/dynamic-ftp-client-using-apache-camel-and-spring/) _by Mattias Severson_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache CamelとSpringを使ったダイナミックFTPクライアント](http://blog.jayway.com/2010/08/12/dynamic-ftp-client-using-apache-camel-and-spring/)_by Mattias Severson_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Virtual ESB - application integration made painless with Apache Camel](http://pjagielski.blogspot.com/2010/09/virtual-esb-application-integration.html) _by Piotr Jagielski_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[バーチャルESB - Apache Camelで実現するアプリケーション統合](http://pjagielski.blogspot.com/2010/09/virtual-esb-application-integration.html)_by Piotr Jagielski_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Application-Monitoring &amp; Statistics-Collection with Apache Camel](http://waterback.github.com/blog/2011/12/08/application-monitoring-with-camel/) _by Martin Huber_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camelによるアプリケーションモニタリングと統計情報の収集](http://waterback.github.com/blog/2011/12/08/application-monitoring-with-camel/)_by Martin Huber_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Camel exception handling overview](http://benoday.blogspot.com/2010/08/camel-exception-handling-overview.html) _by Ben O'Day_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camelの例外処理の概要](http://benoday.blogspot.com/2010/08/camel-exception-handling-overview.html) _by Ben O'Day_ (英語)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Remote Observer Pattern with Publish-Subscribe via XMPP](http://spring-java-ee.blogspot.com/2010/12/remote-observer-pattern-with-publish.html) _by Hendy_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[XMPPによるPublish-Subscribeを用いたリモート・オブザーバー・パターン](http://spring-java-ee.blogspot.com/2010/12/remote-observer-pattern-with-publish.html)_by Hendy_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Implementing Asynchronous Observer Pattern with Bean Proxy](http://spring-java-ee.blogspot.com/2010/12/implementing-asynchronous-observer.html) _by Hendy_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Bean Proxyによる非同期Observerパターンの実装](http://spring-java-ee.blogspot.com/2010/12/implementing-asynchronous-observer.html)_by Hendy_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel Example Application - Earthquake Mashups](https://docplayer.net/49237992-Apache-camel-example-application-earthquake-mashup.html) showing how Camel using[|\](articles.html) EIPs can gather online earthquake and weather data and expose REST service.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel Example Application - Earthquake Mashups](https://docplayer.net/49237992-Apache-camel-example-application-earthquake-mashup.html)では、EIPを使ってCamelでオンラインの地震・気象データを収集し、RESTサービスを公開する様子が紹介されています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[RouteBuilding with inherited configurations](http://waterback.github.com/blog/2011/12/09/camel-inherit-errorhandling/) _by Martin Huber_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[設定を継承したRouteBuilding](http://waterback.github.com/blog/2011/12/09/camel-inherit-errorhandling/) _by Martin Huber_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Mathew's Thoughts on Apache Camel](http://blogs.justenougharchitecture.com/?p=310) shows how Apache Camel easily can route messages from a JMS topic to files using the Content Based Router EIP. More blog posts to come.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Mathew's Thoughts on Apache Camel](http://blogs.justenougharchitecture.com/?p=310)では、Content Based Router EIPを使って、Apache Camelが簡単にJMSトピックからのメッセージをファイルにルーティングする方法を紹介しています。その他のブログ記事はこちらです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Transparent Asynchronous Remoting via JMS](http://hwellmann.blogspot.com/2011/03/transparent-asynchronous-remoting-via.html) _by Harald Wellman_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[JMSによる透過的な非同期リモーティング](http://hwellmann.blogspot.com/2011/03/transparent-asynchronous-remoting-via.html)_by Harald Wellman_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Dynamic Routing Using Health Information Policy with Apache Camel](http://www.springerlink.com/content/h486777744gw1025/) _by Edward Brown and Jamie Goodyear_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Dynamic Routing Using Health Information Policy with Apache Camel](http://www.springerlink.com/content/h486777744gw1025/) _by Edward Brown and Jamie Goodyear_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[TCP proxy with Apache Camel](https://scott.cranton.com/socat-is-so-cool.html) _by Scott Cranton_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache CamelによるTCPプロキシ](https://scott.cranton.com/socat-is-so-cool.html) _by Scott Cranton_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Calling WebServices with Apache Camel](http://marcelojabali.blogspot.com/2011/07/calling-web-services-with-apache-camel.html) _by Marcelo Jabali_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache CamelによるWebServicesの呼び出し](http://marcelojabali.blogspot.com/2011/07/calling-web-services-with-apache-camel.html)_by Marcelo Jabali_（マルセロ・ジャバリ
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel and SOAP](http://blog.jayway.com/2011/07/14/apache_camel_and_soap/) _by Jan Kronquist_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel and SOAP](http://blog.jayway.com/2011/07/14/apache_camel_and_soap/) _by Jan Kronquist_ (日本語)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using Apache Camel to monitor SNMP devices](http://marcelojabali.blogspot.com/2011/07/using-apache-camel-to-monitor-snmp.html) _by Marcelo Jabali_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Using Apache Camel to monitor SNMP devices](http://marcelojabali.blogspot.com/2011/07/using-apache-camel-to-monitor-snmp.html)_by Marcelo Jabali_（マルセロ・ジャバリ
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Website mashup with Apache Camel](http://blog.nanthrax.net/?p=70) _by Jean-Baptiste Onofré_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camelによるウェブサイトのマッシュアップ](http://blog.nanthrax.net/?p=70) _by Jean-Baptiste Onofré_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Error handling in Camel for JMS consumer endpoint](http://tmielke.blogspot.com/2011/07/error-handling-in-camel-for-jms.html) _by Torsten Mielke_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[JMSコンシューマ・エンドポイントのCamelにおけるエラー処理](http://tmielke.blogspot.com/2011/07/error-handling-in-camel-for-jms.html) _by Torsten Mielke_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Cloud integration with Apache Camel and Amazon web services s3 sqs and sns](http://www.kai-waehner.de/blog/2011/08/30/cloud-integration-with-apache-camel-and-amazon-web-services-aws-s3-sqs-and-sns/) _by Kai Wähner_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache CamelとAmazon Webサービスのs3 sqsおよびsnsによるクラウド統合](http://www.kai-waehner.de/blog/2011/08/30/cloud-integration-with-apache-camel-and-amazon-web-services-aws-s3-sqs-and-sns/)_by Kai Wähner_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Visual IDE said to jump start Camel mediation routing](http://searchsoa.techtarget.com/news/2240035028/Visual-IDE-said-to-jump-start-Camel-mediation-routing) - Article from TechTarget magazine about visual IDE for Camel development
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Visual IDE said to jump start Camel mediation routing](http://searchsoa.techtarget.com/news/2240035028/Visual-IDE-said-to-jump-start-Camel-mediation-routing) - TechTarget誌に掲載されたCamel開発用のVisual IDEに関する記事です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using the MINA component in Apache Camel](http://marcelojabali.blogspot.com/2011/09/using-apache-mina-in-camel.html) - Blog post _by Marcelo Jabali_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Using MINA component in Apache Camel](http://marcelojabali.blogspot.com/2011/09/using-apache-mina-in-camel.html) - Blog post _by Marcelo Jabali_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using HTTP-based endpoints with Apache Camel](http://marcelojabali.blogspot.com/2011/10/using-http-based-endpoints-with-apache.html?spref=tw) - Blog post _by Marcelo Jabali_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Using HTTP-based endpoints with Apache Camel](http://marcelojabali.blogspot.com/2011/10/using-http-based-endpoints-with-apache.html?spref=tw) - Blog post _by Marcelo Jabali_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Cloud Notifications with Apache Camel](http://iocanel.blogspot.com/2011/11/cloud-notifications-with-apache-camel.html) - Blog post _by Ioannis Canellos_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Cloud Notifications with Apache Camel](http://iocanel.blogspot.com/2011/11/cloud-notifications-with-apache-camel.html) - Blog post _by Ioannis Canellos_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Combine Yahoo Finance and HBase using Camel](http://tech.robbieone.com/post/15341612892/combine-yahoo-finance-and-hbase-using-camel-and-rest) - Blog post Robert Felker writing about how to gather finance statistics from Yahoo using Camel with HBase and REST.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Combine Yahoo Finance and HBase using Camel](http://tech.robbieone.com/post/15341612892/combine-yahoo-finance-and-hbase-using-camel-and-rest) - Robert Felker氏が、HBaseとRESTにCamelを使ってYahooから財務統計を収集する方法について書いたブログ記事です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Splitting big XML files with Camel - Part 1](http://davsclaus.blogspot.com/2011/11/splitting-big-xml-files-with-apache.html) - This blog post covers how to split big XML files in a streaming mode using new functionality introduced in Camel 2.9, and explains some of its inner details.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Splitting big XML files with Camel - Part 1](http://davsclaus.blogspot.com/2011/11/splitting-big-xml-files-with-apache.html) - このブログ記事では、Camel 2.9で導入された新機能を使って、大きなXMLファイルをストリーミングモードで分割する方法を取り上げ、その内部の詳細を説明しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Splitting big XML files with Camel - Part 2](http://davsclaus.blogspot.com/2011/11/splitting-big-xml-files-with-apache_24.html) - This covers splitting big XML files using the new `camel-stax` component, introduced in Camel 2.9.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Splitting big XML files with Camel - Part 2](http://davsclaus.blogspot.com/2011/11/splitting-big-xml-files-with-apache_24.html) - Camel 2.9 で導入された新しい `camel-stax` コンポーネントを使った大きな XML ファイルの分割について説明します。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Correlating logs from redelivered messages](http://davsclaus.blogspot.com/2012/02/correlating-logs-from-redelivered.html) - _by Claus Ibsen_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[再配達されたメッセージからログを相関させる](http://davsclaus.blogspot.com/2012/02/correlating-logs-from-redelivered.html) - _by Claus Ibsen_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using Apache Camel to Manage Amazon EC2 Startup/Shutdown](http://jeff-davis.blogspot.com/2012/02/using-apache-camel-to-manage-amazon-ec2.html) _by Jeff Davis_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Using Apache Camel to Manage Amazon EC2 Startup/Shutdown](http://jeff-davis.blogspot.com/2012/02/using-apache-camel-to-manage-amazon-ec2.html)by Jeff Davis
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Easy Handmade SOAP-Webservice-Versioning With Apache Camel](http://waterback.github.com/blog/2012/03/02/easy-handmade-ws-addresssing-with-apache-camel/) _by Martin Huber_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camelを使った簡単ハンドメイドSOAP-Webservice-Versioning](http://waterback.github.com/blog/2012/03/02/easy-handmade-ws-addresssing-with-apache-camel/)_by Martin Huber_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using twitter and web socket with Apache Camel](http://davsclaus.blogspot.se/2012/03/camel-now-with-twitter-and-websocket.html) _by Claus Ibsen_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camelでtwitterとweb socketを使う](http://davsclaus.blogspot.se/2012/03/camel-now-with-twitter-and-websocket.html)by Claus Ibsen_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Gotcha when using Camel Servlet](http://java.dzone.com/articles/gotcha-when-using-camel) - A blog post with some advice when using the Camel Servlet component.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Gotcha when using Camel Servlet](http://java.dzone.com/articles/gotcha-when-using-camel) - Camel Servletコンポーネントを使用する際のアドバイスをまとめたブログ記事です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Working with EMail attachments](http://jason-sherman.blogspot.se/2012/04/camel-working-with-email-attachments.html) - _by Jason Sherman_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Eメールの添付ファイルの扱いについて](http://jason-sherman.blogspot.se/2012/04/camel-working-with-email-attachments.html) - _by Jason Sherman_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using Quartz, Camel and Spring for Distributed Service Orchestration](http://thinkinginsoftware.blogspot.se/2012/05/using-quartz-camel-and-spring-for.html) - _by Nestor Urquiza_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Using Quartz, Camel and Spring for Distributed Service Orchestration](http://thinkinginsoftware.blogspot.se/2012/05/using-quartz-camel-and-spring-for.html) - _by Nestor Urquiza_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Camel and MongoDB: a match made in heaven](https://web.archive.org/web/20160326054012/http://blog.raulkr.net/2012/06/camel-and-mongodb-match-made-in-heaven.html) - Introduction to the Camel MongoDB component launched with the Camel 2.10 release.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camel and MongoDB: a match made in heaven](https://web.archive.org/web/20160326054012/http://blog.raulkr.net/2012/06/camel-and-mongodb-match-made-in-heaven.html) - Camel 2.10 リリースで発表された Camel MongoDB コンポーネントの紹介。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[EIP in Action](http://michalwarecki.blogspot.com/2012/07/eip-in-action.html) - A blog post with 4 use-cases that demonstrates how to use EIPs in theory and Camel in practice.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[EIP in Action](http://michalwarecki.blogspot.com/2012/07/eip-in-action.html) - EIPを理論的に、またCamelを実際に使用する方法を示す、4つのユースケースを掲載したブログ記事です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Monitoring and managing Apache Camel using JMX](http://michalwarecki.blogspot.se/2012/08/monitoring-and-managing-apache-camel.html) - A blot post giving an overview of the monitoring and management capabilities Camel offers out of the box with JMX, and how you can have your custom Camel components / processors / beans included as well.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Monitoring and managing Apache Camel using JMX](http://michalwarecki.blogspot.se/2012/08/monitoring-and-managing-apache-camel.html) - Camel が JMX で提供する監視・管理機能の概要と、カスタム Camel コンポーネント/プロセッサ/ビーンをどのように組み込むかを説明したブロート記事です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Olympics Image loader powered by Apache Camel](http://www.ofbizian.com/2012/08/olympics-image-loader-powered-by-camel.html) - Bilgin shows how to write a little website displays twitter images related to the Olympics in real time.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Olympics Image loader powered by Apache Camel](http://www.ofbizian.com/2012/08/olympics-image-loader-powered-by-camel.html) - Bilginは、オリンピックに関連するtwitter画像をリアルタイムで表示する小さなウェブサイトの書き方を紹介しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Camel and RabbitMQ](http://arthur.gonigberg.com/2012/02/11/camel-rabbitmq/) - A blog post showing how to integrate Camel with RabbitMQ
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camel and RabbitMQ](http://arthur.gonigberg.com/2012/02/11/camel-rabbitmq/) - CamelとRabbitMQを統合する方法を紹介したブログ記事です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Monitoring Camel applications on the Cloud](http://www.ofbizian.com/2012/11/monitoring-camel-applications-on-cloud.html) - _by Bilgin Ibryam_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[クラウド上のCamelアプリケーションの監視](http://www.ofbizian.com/2012/11/monitoring-camel-applications-on-cloud.html) - _by Bilgin Ibryam_ (英語)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel for home monitoring](https://tingenek.wordpress.com/2013/02/28/apache-camel-for-home-monitoring) - A good blog post from February 2013 how to use Camel to pickup files from a home monitoring system that post temperature changes and route them to MQTT broker, and store in a SQL Database.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel for home monitoring](https://tingenek.wordpress.com/2013/02/28/apache-camel-for-home-monitoring) - 2013年2月に掲載されたブログ記事です。温度変化を記録するホームモニタリングシステムからファイルをピックアップし、MQTTブローカにルーティングし、SQLデータベースに格納するためにCamelを使用する方法が紹介されています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Designing and Implementing our Camel-based mgm Cosmo Router](https://live.mgm-tp.com/en/designing-and-implementing-our-camel-based-mgm-cosmo-router-robust-and-fail-safe-message-routing-with-apache-camel-part-1/) - First blog of a series of blogs on experience with using Apache Camel implementing a solution for integrating an insurance software with a CRM system. Recommended read.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Designing and Implementing our Camel-based mgm Cosmo Router](https://live.mgm-tp.com/en/designing-and-implementing-our-camel-based-mgm-cosmo-router-robust-and-fail-safe-message-routing-with-apache-camel-part-1/) - 保険ソフトウェアとCRMシステムを統合するソリューションを実装するためにApache Camelを使用した経験に関する一連のブログの最初のブログです。読むことをお勧めします。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Lessons learned from using Apache Camel, MTOM and JMS](https://www.avisi.nl/blog/2013/05/28/lessons-learned-from-using-apache-camel-mtom-and-jms/) - Blog post on experience using SOAP with MTOM (using Apache CXF) and JMS (using Apache ActiveMQ).
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Lessons learned from using Apache Camel, MTOM and JMS](https://www.avisi.nl/blog/2013/05/28/lessons-learned-from-using-apache-camel-mtom-and-jms/) - MTOM(Apache CXFを使用)とJMS(Apache ActiveMQを使用)でSOAPを使用した経験に関するブログ記事。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[From inside the code: Camel RouteBuilder and Java DSL](https://blog.christianposta.com/camel/from-inside-the-code-camel-routebuilder-and-java-dsl/) - A deep dive into the internals of Apache Camel to see how the Java [DSL](../../manual/latest/dsl.html) works
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[From inside the code: Camel RouteBuilder and Java DSL](https://blog.christianposta.com/camel/from-inside-the-code-camel-routebuilder-and-java-dsl/) - Java [DSL](../../manual/latest/dsl.html)がどのように動作するか、Apache Camelの内部を深く掘り下げています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[From inside the code: Camel Routing Engine Part I](https://blog.christianposta.com/camel/from-inside-the-code-camel-routing-engine-part-i/) - A deep dive into the internals of Apache Camel to see how Camel setup the routes
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[From inside the code: Camel Routing Engine Part I](https://blog.christianposta.com/camel/from-inside-the-code-camel-routing-engine-part-i/) - Apache Camelの内部に深く入り込み、Camelがどのようにルートを設定するかを見ていきます。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Testing Camel JPA routes with Pax-Exam and Karaf](http://notizblog.nierbeck.de/2013/08/testing-camel-jpa-routes-with-pax-exam-and-karaf/) - This blog is about how to use JPA, CXF and ActiveMQ with Camel in Karaf and how to do the testing best
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Testing Camel JPA routes with Pax-Exam and Karaf](http://notizblog.nierbeck.de/2013/08/testing-camel-jpa-routes-with-pax-exam-and-karaf/) - このブログでは、KarafでCamelを使ってJPA、CXF、ActiveMQを使用する方法と、最適なテストを行う方法について紹介します。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Correctly using Camel's AdviceWith in Unit Tests](http://www.opensourceconnections.com/2014/04/24/correctly-using-camels-advicewith-in-unit-tests/) from April 2014 by Dugg Turnbull talking about his experience how to write unit tests with the powerful advice with functionality in Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[CamelのAdviceWith in Unit Testsを正しく使う]（http://www.opensourceconnections.com/2014/04/24/correctly-using-camels-advicewith-in-unit-tests/）2014年4月のDugg Turnbull氏による、Camelの強力なadviceWith機能を使ったユニットテストの書き方についての体験談です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Parleys Rest SMS with Apache Camel](http://imranrazakh.blogspot.ae/2014/04/parlay-rest-sms-with-apache-camel.html) from April 2014 Imran Raza Khan talking about how to send SMS text messages using REST api with Apache Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Parleys Rest SMS with Apache Camel](http://imranrazakh.blogspot.ae/2014/04/parlay-rest-sms-with-apache-camel.html) 2014年4月から Imran Raza Khan が Apache Camel で REST api を使用して SMS テキストメッセージを送信する方法について話しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Camel HTTP file upload with multipart/form-data](http://hilton.org.uk/blog/camel-multipart-form-data) from August 2014 by Peter Hilton how to send files over legacy system using HTTP built using Scala and the Scala DSL.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camel HTTP file upload with multipart/form-data](http://hilton.org.uk/blog/camel-multipart-form-data) 2014年8月のPeter Hilton氏による、ScalaとScala DSLを使って構築されたHTTPを使って、レガシーシステム上でファイルを送信する方法です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Spring Boot, Docker and Websockets Integration with Apache Camel](http://blog.andyserver.com/2015/04/spring-boot-docker-websockets-camel/) from April 2015 by Andrew Block how to build a Camel web app using Spring Boot that listen for docker events in a HTML5 web app using web sockets in a micro style manner.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Spring Boot, Docker and Websockets Integration with Apache Camel](http://blog.andyserver.com/2015/04/spring-boot-docker-websockets-camel/) 2015年4月発売 Andrew Block氏による、Spring Bootを使ったCamelのWebアプリを構築し、Webソケットを使ったHTML5のWebアプリでdockerのイベントをリッスンするマイクロスタイルの方法です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using basic authentication and Jetty realms to protect Apache Camel REST routes](http://www.mooreds.com/wordpress/archives/2065) from June 2015 by Dan Moore writes how to use basic auth with the [Rest DSL](../../manual/latest/rest-dsl.html) and Jetty as component.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Dan Moore氏による2015年6月の[Using basic authentication and Jetty realms to protect Apache Camel REST routes](http://www.mooreds.com/wordpress/archives/2065)では、[Rest DSL](../../manual/latest/rest-dsl.html)とコンポーネントとしてのJettyでbasic authを使用する方法が書かれています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using Camel, CDI inside Kubernetes with Fabric8](https://dzone.com/articles/using-camel-cdi-inside) from June 2015 by Ioanis Cannelos who writes how to build Camel microservices with CDI and have services discovery and injection with CDI for Docker containers running on Kubernetes with [fabric8](http://fabric8.io/).
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>2015年6月の[Using Camel, CDI inside Kubernetes with Fabric8](https://dzone.com/articles/using-camel-cdi-inside)では、Ioanis Cannelos氏が、CDIでCamelのマイクロサービスを構築し、[fabric8](http://fabric8.io/)でKubernetes上で動作するDockerコンテナに対してCDIでサービスディスカバリーとインジェクションを行う方法を書いています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Learn Apache Camel - Indexing Tweets in Real-Time](http://kaviddiss.com/2015/09/06/learn-apache-camel/) from September 2016 by David Kiss, how to pull in tweets in real time and index those in elasticsearch and use a see the data in graphical dashboard.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Learn Apache Camel - Indexing Tweets in Real-Time](http://kaviddiss.com/2015/09/06/learn-apache-camel/)2016年9月のDavid Kiss氏によるツイートをリアルタイムで取り込み、それらをelasticsearchでインデックスし、グラフィカルなダッシュボードでデータを見る方法です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Calling Native Code with Camel](http://joshdreagan.github.io/2016/11/21/calling_native_code_with_camel/) from November 2016 by Josh Regan talking about how to call c, c++, c# code directly from Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>2016年11月の[Calling Native Code with Camel](http://joshdreagan.github.io/2016/11/21/calling_native_code_with_camel/)では、Josh Regan氏がCamelからc, c++, c#のコードを直接呼び出す方法について語っています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Take JPA to another level](http://fharms.github.io/apache%20camel/2016/11/26/Take-JPA-to-another-level-in-Apache-Camel/) from November 2016 by Flemming Harms talking about how to use JPA beans with Camel JPA in a more advanced way.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Take JPA to another level](http://fharms.github.io/apache%20camel/2016/11/26/Take-JPA-to-another-level-in-Apache-Camel/) 2016年11月のFlemming Harms氏による、Camel JPAでJPA Beanをより高度に使用する方法についてのお話です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[The Apache Camel version of a Spring Batch tutorial](https://github.com/abnair2016/spring-camel) from December 2016 by Abhilash Nair - A demo project that replicates a Spring Batch tutorial using Apache Camel within a Spring Boot app.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[The Apache Camel version of a Spring Batch tutorial](https://github.com/abnair2016/spring-camel) from December 2016 by Abhilash Nair - Spring Bootアプリ内でApache Camelを使用してSpring Batchチュートリアルを複製するデモプロジェクトです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Faster File Consumption with Apache Camel](http://joshdreagan.github.io/2017/01/05/faster_file_consumption_with_camel/) from January 2017 by Josh Reagan - Covers the strategies for consuming files faster in Apache Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Faster File Consumption with Apache Camel](http://joshdreagan.github.io/2017/01/05/faster_file_consumption_with_camel/) 2017年1月より Josh Reagan 著 - Apache Camelでファイルを高速に消費するための戦略を解説しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[How to use Maven with Apache Camel](https://tomd.xyz/articles/camel-maven/) from February 2019 - Covers how quickly create, compile and run Camel applications.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[How to use Maven with Apache Camel](https://tomd.xyz/articles/camel-maven/)2019年2月より - Camelアプリケーションを素早く作成、コンパイル、実行する方法をカバーします。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[How to test Apache Camel JMS routes with Spring and ActiveMQ step by step](https://medium.com/@mzimecki/how-to-test-apache-camel-jms-routes-with-spring-and-activemq-step-by-step-f429760074e6) from May 2017 by Marcin Zimecki - Covers how to unit test Camel with ActiveMQ JMS routes
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[How to test Apache Camel JMS routes with Spring and ActiveMQ step by step](https://medium.com/@mzimecki/how-to-test-apache-camel-jms-routes-with-spring-and-activemq-step-by-f429760074e6) 2017年5月よりMarcin Zimecki氏が執筆 - Camel with ActiveMQ JMS routesをユニットテストする方法を解説。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Short Retry vs Long Retry in Apache Camel](https://developers.redhat.com/blog/2017/06/08/short-retry-vs-long-retry-in-apache-camel/) from June 2017 by Bilgin Ibryam - Talks about difference between short and long retries with Camel and related concepts from integration patterns point of view.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Short Retry vs Long Retry in Apache Camel](https://developers.redhat.com/blog/2017/06/08/short-retry-vs-long-retry-in-apache-camel/) 2017年6月のBilgin Ibryam氏の記事 - CamelでのShort RetryとLong Retryの違いや、統合パターンの観点からの関連コンセプトについて語っています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[PGP Encryption and Decryption with Apache Camel](https://dzone.com/articles/pgp-encryption-and-decryption-with-apache-camel) from July 2017 by Jitendra Bafna article which explains how PGP works and shows how to use PGP in Camel routes for both encryption and decryption.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[PGP Encryption and Decryption with Apache Camel](https://dzone.com/articles/pgp-encryption-and-decryption-with-apache-camel) 2017年7月のJitendra Bafnaの記事で、PGPの仕組みを説明し、CamelのルートでPGPを暗号化と復号の両方で使用する方法を紹介しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Creating Clustered Singleton Services on Kubernetes with Apache Camel](https://www.nicolaferraro.me/2017/10/17/creating-clustered-singleton-services-on-kubernetes/) from October 2017 by Nicola Ferraro talks about how the Camel master component can be used for singleton routes in a cluster such as Kubernetes.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>2017年10月のNicola Ferraro氏による[Creating Clustered Singleton Services on Kubernetes with Apache Camel](https://www.nicolaferraro.me/2017/10/17/creating-clustered-singleton-services-on-kubernetes/)では、KubernetesなどのクラスタでシングルトンのルートにCamelのマスターコンポーネントを使用する方法が語られています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Monitoring Camel with Prometheus in OpenShift](https://brunonetid.github.io/2017/11/27/camel-prometheus-openshift.html) from November 2017 by Bruno Meseguer talks about how to gather Camel metrics using Prometheus and display in Grafana.  
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Bruno Meseguer氏による2017年11月の[Monitoring Camel with Prometheus in OpenShift](https://brunonetid.github.io/2017/11/27/camel-prometheus-openshift.html)では、Prometheusを使ってCamelのメトリクスを収集し、Grafanaで表示する方法が語られています。  
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Which Camel DSL to use and why](http://www.ofbizian.com/2017/12/which-camel-dsl-to-choose-and-why.html) from December 2017 by Bilgin whom has compiled feedback from various Camel developers, consultants etc and discuss Java DSL vs XML DSL.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Which Camel DSL to use and why](http://www.ofbizian.com/2017/12/which-camel-dsl-to-choose-and-why.html)2017年12月にBilgin氏が様々なCamel開発者やコンサルタント等からのフィードバックをまとめ、Java DSL vs XML DSLについて議論しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Deploying Apache Camel to Google Kubernetes Engine](https://medium.com/google-cloud/deploying-apache-camel-to-google-kubernetes-engine-a2b8290b070f) from December 2017 by Evgeny Minkevich talks about how they run Apache Camel in containers on Google Cloud. The article has details how to manage, monitor and log your Camel applications.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Evgeny Minkevichによる2017年12月の[Deploying Apache Camel to Google Kubernetes Engine](https://medium.com/google-cloud/deploying-apache-camel-to-google-kubernetes-engine-a2b8290b070f)では、Google Cloud上のコンテナでApache Camelを実行する方法が語られています。この記事には、Camelアプリケーションの管理、監視、ログを取る方法が詳しく書かれています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Spring Boot, Apache Camel, and Swagger UI](http://bennet-schulz.com/2018/01/17/Spring-Boot-Apache-Camel-and-Swagger-UI/) from January 2018 by Bennet Schulz shows how you can quickly create a Camel application running on Spring Boot with Rest DSL and Swagger UI out of the box.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>2018年1月に発売されたBennet Schulz氏の[Spring Boot, Apache Camel, and Swagger UI](http://bennet-schulz.com/2018/01/17/Spring-Boot-Apache-Camel-and-Swagger-UI/)では、Rest DSLとSwagger UIを備えたSpring Boot上で動作するCamelアプリケーションをすぐに作成できる方法が紹介されています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[The Saga Pattern in Apache Camel](https://www.nicolaferraro.me/2018/04/25/saga-pattern-in-apache-camel/) from April 2018 by Nicola Ferraro explains in an in-depth blog post all about the new Saga pattern that was added to Camel 2.21.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Nicola Ferraro氏による2018年4月の【The Saga Pattern in Apache Camel](https://www.nicolaferraro.me/2018/04/25/saga-pattern-in-apache-camel/)では、Camel 2.21に追加された新しいSagaパターンのすべてを、詳細なブログ記事で説明しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Creating a REST API in Apache Camel](https://tomd.xyz/articles/camel-rest/) from June 2018 by Tom Donohue explains the Rest DSL and how to use it with a basic example that is a great tutorial for learning about the Rest DSL. 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Tom Donohue氏による2018年6月の【Creating a REST API in Apache Camel](https://tomd.xyz/articles/camel-rest/)では、Rest DSLとその使い方を基本的な例を挙げて説明しており、Rest DSLを学ぶのに最適なチュートリアルとなっています。 
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Enterprise integration for Ethereum](https://medium.com/@bibryam/enterprise-integration-for-ethereum-fa67a1577d43) from July 2018 by Bilgin Ibryam explains the Ethereum eco-system and where you can use Camel with the bit-coin and block-chain technologies.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Bilgin Ibryam氏による2018年7月の【Enterprise integration for Ethereum](https://medium.com/@bibryam/enterprise-integration-for-ethereum-fa67a1577d43)では、Ethereumのエコシステムと、ビットコインやブロックチェーンの技術でCamelを使えるところを説明しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Camel Aggregation Strategies](http://blog.joshdreagan.com/2018/08/30/camel_aggregation_strategies/) from August 2018 by Josh Reagan whom blogs about how to aggregate data using Camel's AggregationStrategy when using EIPs such as Content Enricher, Splitter or the Aggregator. 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camel Aggregation Strategies](http://blog.joshdreagan.com/2018/08/30/camel_aggregation_strategies/)2018年8月よりJosh Reagan氏がContent Enricher、Splitter、AggregatorなどのEIPを使用する際にCamelのAggregationStrategyを使ってデータを集約する方法をブログで紹介しています。 
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Why Camel K](https://dzone.com/articles/why-camel-k) by Saravanakumar Selvaraj from June 2020 where he briefly hightlights 5 key elements of Camel K 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Why Camel K](https://dzone.com/articles/why-camel-k) by Saravanakumar Selvarajが2020年6月より、Camel Kの5つの重要な要素を簡潔に紹介しています。 
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Tooling / Combination with other Products</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>ツール／他製品との組み合わせ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These examples show Camel combined with several tools (e.g. IDE), ESBs, Application Services, and other middleware products such as messaging or OSGi container.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>これらの例では、Camelをいくつかのツール（IDEなど）、ESB、アプリケーションサービス、およびメッセージングやOSGiコンテナなどの他のミドルウェア製品と組み合わせています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Saga-Based Design Using Apache Camel and Kafka: Implementing Highly Reliable Distributed Business Transactions](https://modusbox.com/saga-based-design-using-apache-camel-and-kafka-implementing-highly-reliable-distributed-business-transactions/) article from June 2021 about the Sage EIP for transactions with Camel and Kafka.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache CamelとKafkaを使った佐賀ベースの設計。Implementing Highly Reliable Distributed Business Transactions](https://modusbox.com/saga-based-design-using-apache-camel-and-kafka-implementing-highly-reliable-distributed-business-transactions/)2021年6月に掲載された、CamelとKafkaを使ったトランザクションのためのSage EIPに関する記事です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Distributed Logs and Tracing with Spring, Apache Camel, OpenTelemetry and Grafana](https://dev.to/antongoncharov/distributed-logs-and-tracing-with-spring-apache-camel-opentelemetry-and-grafana-example-554e) blog post by Anton Goncharov in June 2020 with example how to setup OpenTracing with Camel and have a visual Grafana dashboard.    
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Distributed Logs and Tracing with Spring, Apache Camel, OpenTelemetry and Grafana](https://dev.to/antongoncharov/distributed-logs-and-tracing-with-spring-apache-camel-opentelemetry-and-grafana-example-554e) アントン・ゴンチャロフが2020年6月に投稿したブログ記事で、CamelでOpenTracingをセットアップして、Grafanaのダッシュボードをビジュアル化する方法を例示しています。    
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Upgrading to Apache Camel 3 using Windup](https://jpoth.blogspot.com/2020/09/upgrading-to-camel-300-with-windup.html) blog post by John Poth from September 2020 showing how to use Winup to generate migration report of your Camel projects (source code scanning). 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Upgrading to Apache Camel 3 using Windup](https://jpoth.blogspot.com/2020/09/upgrading-to-camel-300-with-windup.html)2020年9月のJohn Poth氏によるブログ記事で、Winupを使ってCamelプロジェクトの移行レポートを生成する方法（ソースコードスキャン）が紹介されています。 
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using Camel and NiFi in one solution](https://medium.com/@raymondmeester/using-camel-and-nifi-in-one-solution-c7668fafe451) blog post how to use Camel inside Apache Nifi.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Using Camel and NiFi in one solution](https://medium.com/@raymondmeester/using-camel-and-nifi-in-one-solution-c7668fafe451) Apache Nifiの中でCamelを使う方法についてのブログ記事です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Wanna try our Apache Camel developer tools for Enterprise Integration Patterns?](http://macstrac.blogspot.com/2011/01/wanna-try-our-apache-camel-developer.html) _by James Strachan_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Enterprise Integration Patterns用のApache Camel開発ツールを試してみませんか？](http://macstrac.blogspot.com/2011/01/wanna-try-our-apache-camel-developer.html)_by James Strachan_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using NetBeans 7.0 to create a new Apache Camel project](http://coders-unite.blogspot.com/2011/07/using-netbeans-70-to-create-new-project.html) shows how to start from scratch in NetBeans to setup a Apache Camel project (tutorial style with screenshots)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Using NetBeans 7.0 to create new Apache Camel project](http://coders-unite.blogspot.com/2011/07/using-netbeans-70-to-create-new-project.html)では、NetBeansでゼロから始めてApache Camelプロジェクトをセットアップする方法を紹介しています（スクリーンショット付きのチュートリアルスタイル）。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using NetBeans 7.0 to create a new Apache Camel project without Spring dependency](http://coders-unite.blogspot.com/2011/07/using-netbeans-70-to-create-apache.html) shows how to start from scratch in NetBeans to setup a Apache Camel project (tutorial style with screenshots) without any Spring dependency
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Using NetBeans 7.0 to create new Apache Camel project without Spring dependency](http://coders-unite.blogspot.com/2011/07/using-netbeans-70-to-create-apache.html)では、NetBeansでゼロから始めて、Springに依存しないApache Camelプロジェクトをセットアップする方法を紹介しています（スクリーンショット付きのチュートリアルスタイル）。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Integrating Apache Camel with JBoss ESB](http://ankiewsky.blogspot.com/2008/10/integrating-apache-camel-with-jboss-esb.html) _by_ _[Edgar Ankiewsky](http://ankiewsky.blogspot.com/)_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel と JBoss ESB の統合](http://ankiewsky.blogspot.com/2008/10/integrating-apache-camel-with-jboss-esb.html)_by_ _[Edgar Ankiewsky](http://ankiewsky.blogspot.com/)_。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Combining ApacheCamel+BSF to make JBoss ESB polyglot](http://ankiewsky.blogspot.com/2009/02/combining-apachecamelbsf-to-make-jboss.html) _by Edgard Ankiewsky Silva_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[ApacheCamel+BSFを組み合わせてJBoss ESBをポリグロットにする](http://ankiewsky.blogspot.com/2009/02/combining-apachecamelbsf-to-make-jboss.html)_by Edgard Ankiewsky Silva_（エドガード・アンキースキー・シルバ
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[An IRC alerter written using Apache Camel and Java](http://coderthoughts.blogspot.com/2009/07/irc-alerter-written-using-apache-camel.html) how to easily integrate IRC with Camel to monitor and do alerts.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[An IRC alerter written using Apache Camel and Java](http://coderthoughts.blogspot.com/2009/07/irc-alerter-written-using-apache-camel.html) IRCとCamelを簡単に統合して、モニタリングやアラートを行う方法です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Things to consider when selecting between Apache Camel and Apache Servicemix](http://opensourceknowledge.blogspot.com/2009/07/things-to-consider-when-selecting.html) _by Ashwin Karpe_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache CamelとApache Servicemixの選択時に考慮すべきこと](http://opensourceknowledge.blogspot.com/2009/07/things-to-consider-when-selecting.html)_by Ashwin Karpe_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[A jira notification system for irc using Camel](http://gnodet.blogspot.com/2009/10/jira-notification-system-for-irc-using.html) _by Guillaume Nodet_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camel を使った irc 用の jira 通知システム](http://gnodet.blogspot.com/2009/10/jira-notification-system-for-irc-using.html)_by Guillaume Nodet_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Getting Started with Apache Camel and prepare for Apache ServiceMix deployment](http://magnus-k-karlsson.blogspot.com/2010/07/getting-started-with-apache-camel-and.html) _by Magnus K Karlsson_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel の入門と Apache ServiceMix の導入準備](http://magnus-k-karlsson.blogspot.com/2010/07/getting-started-with-apache-camel-and.html)_by Magnus K Karlsson_（マグナス・カーソン
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Camel integration with Oracle WebLogic JMS](http://lowry-techie.blogspot.com/2011/06/camel-integration-with-oracle-weblogic.html) _by Lowry Curry_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[CamelとOracle WebLogic JMSの統合](http://lowry-techie.blogspot.com/2011/06/camel-integration-with-oracle-weblogic.html)_by ローリー・カリー_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Camel integration with WebSphere MQ](http://lowry-techie.blogspot.com/2010/11/camel-integration-with-websphere-mq.html) _by Lowry Curry_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[CamelとWebSphere MQの統合](http://lowry-techie.blogspot.com/2010/11/camel-integration-with-websphere-mq.html)_by ローリー・カリー_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[jBPM5/Drools Apache Camel integration](http://lucazamador.wordpress.com/2011/06/15/jbpm5-drools-apache-camel-integration/) a blog entry talking about JBMP5/Drools integration with Apache Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[jBPM5/Drools Apache Camel integration](http://lucazamador.wordpress.com/2011/06/15/jbpm5-drools-apache-camel-integration/) JBMP5/DroolsとApache Camelの統合についてのブログエントリーです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Use remote EJB in Camel routes](http://blog.nanthrax.net/?p=89) _by Jean-Baptiste Onofré_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camel ルートでのリモート EJB の使用](http://blog.nanthrax.net/?p=89) _by Jean-Baptiste Onofré_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Use Camel, CXF and Karaf to implement batches](http://blog.nanthrax.net/?p=125) _by Jean-Baptiste Onofré_ explains how to control a Camel route from another route and a JAX-RS server using CXF, package into an OSGi bundle ready to run in Apache Karaf.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Use Camel, CXF and Karaf to Implement batches](http://blog.nanthrax.net/?p=125) _by Jean-Baptiste Onofré_ は、他のルートからCamelのルートを制御する方法と、CXFを使ってJAX-RSサーバーを制御し、Apache Karafで実行できるようにOSGiバンドルにパッケージする方法を説明しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Karaf Tutorial Part 5 - Running Apache Camel integrations in OSGi](http://liquid-reality.de/Karaf-Tutorial/05/) _by Christian Schneider_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Karaf Tutorial Part 5 - Running Apache Camel integrations in OSGi](http://liquid-reality.de/Karaf-Tutorial/05/) _by Christian Schneider_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Unit testing OSGi Blueprint with Apache Camel made easier](http://davsclaus.blogspot.com/2012/01/unit-testing-osgi-blueprint-with-apache.html) - Blog post how Camel Testing with OSGi blueprint became much much easier, than having to resort to use pax exam.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Unit testing OSGi Blueprint with Apache Camel made from easier](http://davsclaus.blogspot.com/2012/01/unit-testing-osgi-blueprint-with-apache.html) - OSGi blueprintを使ったCamelのテストが、pax試験に頼るよりもはるかに簡単になったというブログ記事です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Communication between two remote Camel routes using Apache Karaf Cellar](http://blog.nanthrax.net/?p=238) _by Jean-Baptiste Onofré_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Karaf Cellarを使用した2つの遠隔地のCamelルート間の通信](http://blog.nanthrax.net/?p=238) _by Jean-Baptiste Onofré_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[How to Start/Stop Camel Routes on an ActiveMQ Slave](http://jason-sherman.blogspot.se/2012/04/activemq-how-to-startstop-camel-routes.html) - _by Jason Sherman_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[How to Start/Stop Camel Routes on an ActiveMQ Slave](http://jason-sherman.blogspot.se/2012/04/activemq-how-to-startstop-camel-routes.html) - _by Jason Sherman_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Article about testing WMB](https://github.com/magnuspalmer/wmbtesting/wiki/Article-about-testing-WMB) - This article shows a hands-on approach of how you can test your IBM WebSphere Message Broker solutions in a simple way using modern tools, such as Apache Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[WMB のテストに関する記事](https://github.com/magnuspalmer/wmbtesting/wiki/Article-about-testing-WMB) - この記事では、Apache Camel などの最新のツールを使用して、IBM WebSphere Message Broker ソリューションを簡単にテストする方法について、実践的なアプローチを紹介しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Tools for building a real time analytics platform](https://www.avisi.nl/blog/2013/07/01/tools-for-building-a-real-time-analytics-platform/) - Article demonstrating using Apache Camel and Storm for real-time analytics.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Tools for building a real time analytics platform](https://www.avisi.nl/blog/2013/07/01/tools-for-building-a-real-time-analytics-platform/) - Apache CamelとStormを使ったリアルタイム分析のデモンストレーション記事。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[camunda BPM + Apache Camel: Integrating two Open Source frameworks for a lightweight BPM+SOA infrastructure](https://blog.camunda.com/post/2013/09/camunda-bpm-apache-camel-integrating/) - From the Camunda team blogging how to use their product together with Apache Camel using a camunda-bpm component.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[camunda BPM + Apache Camel: Integrating two Open Source Frameworks for a lightweight BPM+SOA infrastructure](https://blog.camunda.com/post/2013/09/camunda-bpm-apache-camel-integrating/) - Camundaチームが、camunda-bpmコンポーネントを使って、Apache Camelと一緒に製品を使用する方法をブログで紹介しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Running Camel on EAP](https://blog.christianposta.com/camel-on-jboss-eap-with-custom-modules/) - by Christian Posta, how to run Apache Camel on JBoss EAP / Wildfly using JBoss Modules.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Running Camel on EAP](https://blog.christianposta.com/camel-on-jboss-eap-with-custom-modules/) - Christian Posta 氏による、JBoss モジュールを使用して JBoss EAP / Wildfly 上で Apache Camel を実行する方法。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Bootstrapping Apache Camel in Java EE7 with WildFly 8](http://blog.eisele.net/2014/08/bootstrapping-apache-camel-in-java-ee7.html) - by Markus Eisele, how to run Apache Camel on WildFly using CDI, as well information about other EE7 examples for Apache Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Bootstrapping Apache Camel in Java EE7 with WildFly 8](http://blog.eisele.net/2014/08/bootstrapping-apache-camel-in-java-ee7.html) - Markus Eiseleによる、CDIを使ってWildFly上でApache Camelを実行する方法、およびApache Camelの他のEE7の例に関する情報。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Your Apache Camel applications now includes out of the box documentation](http://www.davsclaus.com/2015/02/your-apache-camel-applications-now.html) - by Claus Ibsen, blogs about new functionality in Camel 2.15 onwards that means all EIP and component documentation is out of the box at runtime.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Your Apache Camel applications now includes out of the box documentation](http://www.davsclaus.com/2015/02/your-apache-camel-applications-now.html) - Claus Ibsen氏による、Camel 2.15以降の新機能についてのブログです。すべてのEIPとコンポーネントのドキュメントがランタイムにアウトオブザボックスで提供されます。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Some great hawtio videos by Robin Huiser](http://www.davsclaus.com/2014/12/some-great-hawtio-videos-by-robin-huiser.html) - Three videos of demonstrating [hawtio](http://hawt.io/) and Apache Camel in action.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Some great hawtio videos by Robin Huiser](http://www.davsclaus.com/2014/12/some-great-hawtio-videos-by-robin-huiser.html) - [hawtio](http://hawt.io/)とApache Camelの動作を実演した3つのビデオです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using Camel Routes In Java EE Components](http://blog.eisele.net/2015/07/using-camel-routes-in-java-ee-components.html) - by Markus Eisele in June 2015 how to get started using Camel on Wildfly.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Using Camel Routes In Java EE Components](http://blog.eisele.net/2015/07/using-camel-routes-in-java-ee-components.html) - Markus Eisele氏が2015年6月に発表した、WildflyでCamelを使い始める方法です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Sending JMS Messages From WildFly 8 To WebLogic 12 with Camel](http://blog.eisele.net/2015/07/sending-jms-messages-from-wildfly-8-to-weblogic-with-camel.html) - by Markus Eisele in June 2015 how to bridge JMS to/from WebLogic with Camel running on Widlfy.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Sending JMS Messages From WildFly 8 To WebLogic 12 with Camel](http://blog.eisele.net/2015/07/sending-jms-messages-from-wildfly-8-to-weblogic-with-camel.html) - by Markus Eisele in June 2015 Widlfy上で動作するCamelでWebLogicとの間でJMSをブリッジする方法。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using JPA And CDI Beans With Camel on WildFly](http://blog.eisele.net/2015/07/using-jpa-and-cdi-beans-with-camel-on-wildfly.html) - by Markus Eisele in June 2015 how to use JPA, CDI with Camel running on Wildfly. 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Using JPA And CDI Beans With Camel on WildFly](http://blog.eisele.net/2015/07/using-jpa-and-cdi-beans-with-camel-on-wildfly.html) - Markus Eisele氏が2015年6月に発表した、Wildfly上で動作するCamelでJPA、CDIを使用する方法です。 
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[A universal Streamer for Apache Ignite based on Apache Camel](https://dzone.com/articles/a-universal-streamer-for-apache-ignite-based-on-ap/) - by Raúl Kripalani on the integration between Apache Ignite and Apache Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[A universal Streamer for Apache Ignite based on Apache Camel](https://dzone.com/articles/a-universal-streamer-for-apache-ignite-based-on-ap/) - Raúl Kripalaniによる、Apache IgniteとApache Camelの統合についての記事です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Video of Apache Camel tooling to edit your routes in type safe manner](http://www.davsclaus.com/2015/12/video-of-apache-camel-tooling-to-edit.html) - A 10 minute video from December 2015 where Claus Ibsen demonstrates light-weight [Camel tooling](http://fabric8.io/guide/forge.html) to edit Camel routes/endpoints in type safe manner from different IDEs.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Video of Apache Camel tooling to edit your routes in type safe manner](http://www.davsclaus.com/2015/12/video-of-apache-camel-tooling-to-edit.html) - 2015年12月に公開された10分間のビデオで、Claus Ibsenが異なるIDEからタイプセーフな方法でCamelのルート/エンドポイントを編集するための軽量な[Camel tooling](http://fabric8.io/guide/forge.html)を実演しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Video of fabric8 Apache Camel Maven Plugin to validate your Camel source code](http://www.davsclaus.com/2016/01/cheers-fabric8-camel-maven-plugin-to.html) - A 12 minute video from January 2016 where Claus Ibsen demonstrates a new Maven plugin that allows to validate your Camel routes and endpoints from the source code, so you can catch any type errors and invalid configurations at code time, instead of having Camel fail at runtime.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Video of fabric8 Apache Camel Maven Plugin to validate your Camel source code](http://www.davsclaus.com/2016/01/cheers-fabric8-camel-maven-plugin-to.html) - 2016年1月に公開された12分のビデオで、Claus IbsenがソースコードからCamelのルートとエンドポイントを検証できる新しいMavenプラグインを実演しています。これにより、実行時にCamelが失敗するのではなく、コード時にタイプエラーや無効な設定をキャッチすることができます。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Hello Apache Camel](https://www.youtube.com/watch?v=gu1KHvcNMiE&amp;feature=youtu.be) - 15 small video tutorial's by Tobias Polley (June 2016) how to get started with Apache Camel (**in German**) 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Hello Apache Camel](https://www.youtube.com/watch?v=gu1KHvcNMiE&amp;amp;feature=youtu.be) - 15 small video tutorial's by Tobias Polley (June 2016) how to get started with Apache Camel (**in German**) 
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using Apache Camel with Azure Service Bus](https://www.kth.se/blogs/1337/2016/11/using-apache-camel-with-azure-service-bus/) - (November 2016) some notes how to use Camel with Microsoft Azure Service Bus with AMQP messaging by Frederik Jönsson
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Using Apache Camel with Azure Service Bus](https://www.kth.se/blogs/1337/2016/11/using-apache-camel-with-azure-service-bus/) - (2016年11月) Frederik JönssonによるAMQPメッセージングを用いたMicrosoft Azure Service BusでCamelを使用する方法についてのいくつかのメモ。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[SAP HANA using Camel's Simple language in HCI](https://blogs.sap.com/2016/11/25/get-to-know-camels-simple-expression-language-in-hci/) (November 2016) how to use Camel Simple language with SAP Cloud Integration.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[HCIでCamelのSimple languageを使ったSAP HANA](https://blogs.sap.com/2016/11/25/get-to-know-camels-simple-expression-language-in-hci/)(2016年11月)Camel Simple languageをSAP Cloud Integrationで使用する方法です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Camel and Kura: Providing Telemetry Data as OPC UA](https://dzone.com/articles/providing-telemetry-data-with-opc-ua-on-eclipse-ku) (November 2016) If you're using an industrial M2M protocol, consider the combined power of Camel and Kura to get your telemetry data squared away as OPC UA.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camel and Kura: Providing Telemetry Data as OPC UA](https://dzone.com/articles/providing-telemetry-data-with-opc-ua-on-eclipse-ku) (2016年11月) 産業用M2Mプロトコルを使用しているなら、CamelとKuraの組み合わせで、テレメトリデータをOPC UAとしてスクエアにすることを検討してみてはいかがでしょうか。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Camel split and aggregate with Jboss data grid for persistence](http://svsvenu.github.io/Camel-split-and-aggregate-with-JDG-repository/) (December 2017) by Venu Surampudi for how to use JBoss Data Grid as persistent cache for Camel aggregator with recovery functionality.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camel split and aggregate with Jboss data grid for persistence](http://svsvenu.github.io/Camel-split-and-aggregate-with-JDG-repository/) (2017年12月) Venu Surampudi氏による、リカバリー機能を備えたCamelアグリゲーターのための永続的なキャッシュとしてJBoss Data Gridを使用する方法について。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Camel Spring Cloud Stream](https://blog.switchbit.io/camel-spring-cloud-stream/) (January 2017) by Donovan Muller whom introduces his Camel Spring Cloud Stream component with a live example running on OpenShift with Camel, Twitter and Spring Cloud Stream connected to RabbitMQ.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camel Spring Cloud Stream](https://blog.switchbit.io/camel-spring-cloud-stream/) (2017年1月) Donovan Muller氏が、OpenShift上でCamel、Twitter、Spring Cloud StreamをRabbitMQに接続して実行している実例を交えて、彼のCamel Spring Cloud Streamコンポーネントを紹介しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Camel CXFRS Contract First](http://blog.joshdreagan.com/2018/03/02/camel_cxfrs_contract_first/) (March 2018) by Josh Reagan whom blogs about how you can do OpenAPI contract-first development with CXF-RS and Apache Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Camel CXFRS Contract First](http://blog.joshdreagan.com/2018/03/02/camel_cxfrs_contract_first/) (2018年3月) by Josh Reagan 誰がCXF-RSとApache CamelでOpenAPIのコントラクトファースト開発を行うことができるかをブログで紹介しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Integrating Amazon MQ with other AWS services via Apache Camel](https://aws.amazon.com/blogs/compute/integrating-amazon-mq-with-other-aws-services-via-apache-camel/) (April 2018) blog post from Amazon compute blogs showing the steps how to run ActiveMQ and Camel on AWS and integrate with AWS services like S3 and others. 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Integrating Amazon MQ with other AWS services via Apache Camel](https://aws.amazon.com/blogs/compute/integrating-amazon-mq-with-other-aws-services-via-apache-camel/)(2018年4月)Amazon compute blogsのブログ記事で、AWS上でActiveMQとCamelを実行し、S3などのAWSサービスと統合する方法の手順を紹介しています。 
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Ingesting Filebeat Data Into Your Apache Camel Flow](https://insights.synergistcomputing.com/2018/03/27/ingesting-filebeat-data-into-your-apache-camel-flow/) (June 2018) blog post showing how to use camel-lumberjack to ingest data from Filebeat into your Camel routes.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[FilebeatのデータをApache Camelのフローに取り込む](https://insights.synergistcomputing.com/2018/03/27/ingesting-filebeat-data-into-your-apache-camel-flow/)(2018年6月)camel-lumberjackを使ってFilebeatからCamelルートにデータを取り込む方法を紹介したブログ記事です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using Jaeger to trace an Apache Camel application](https://medium.com/jaegertracing/using-jaeger-to-trace-an-apache-camel-application-2b8118efbb4d) (August 2018) blog post from Gary Brown showing how to use camel-opentracing and Jaeger to do distributed traces and visualize them in Jaeger UI.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Using Jaeger to trace an Apache Camel application](https://medium.com/jaegertracing/using-jaeger-to-trace-an-apache-camel-application-2b8118efbb4d) (2018年8月)Gary Brown氏によるブログ記事で、camel-opentracingとJaegerを使って分散型トレースを行い、Jaeger UIで可視化する方法が紹介されています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Quick Integration with Apache Camel and IBM MQ](https://dzone.com/articles/quickly-integrate-apache-camel-and-ibm-mq) article from May 2020 by Chandra Shekhar Pandey showing how to use Apache Camel running on Spring Boot to integrate with IBM MQ and testing it with Docker containers.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Quick Integration with Apache Camel and IBM MQ](https://dzone.com/articles/quickly-integrate-apache-camel-and-ibm-mq)Chandra Shekhar Pandey氏による2020年5月の記事では、Spring Boot上で動作するApache Camelを使ってIBM MQと統合する方法を紹介し、Dockerコンテナを使ってテストしています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Monitoring Camel applications with nJAMS](https://www.youtube.com/watch?v=n8PGES67e40) 10 min video from October 2020 by Abdelghani Faiz covering how nJAMS monitoring tooling now has Camel plugin to do deep monitoring of Camel applications with route visualziation and message capturing.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Monitoring Camel applications with nJAMS](https://www.youtube.com/watch?v=n8PGES67e40) 2020年10月に公開されたAbdelghani Faiz氏による10分間のビデオで、nJAMSのモニタリングツールにCamelプラグインが追加され、ルートの可視化やメッセージのキャプチャなど、Camelアプリケーションの詳細なモニタリングが可能になったことを説明しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel and Groovy</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>キャメルとGroovy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using Groovy and Camel to pool Google Analyst email reports](http://mrhaki.blogspot.com/2009/04/handle-google-analytics-scheduled-e.html) _by Mr. Haki_ (April 2009)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[GroovyとCamelを使ってGoogle Analystのメールレポートをプールする](http://mrhaki.blogspot.com/2009/04/handle-google-analytics-scheduled-e.html) _by 杷木さん_ (2009年4月)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using grails-camel plugin to work with Camel in Grails land](http://mrhaki.blogspot.com/2009/04/use-apache-camel-plugin-in-grails.html) _by Mr. Haki_ (April 2009)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Grails-camelプラグインを使ってGrails landでCamelを動かす](http://mrhaki.blogspot.com/2009/04/use-apache-camel-plugin-in-grails.html) _by Haki_さん (2009年4月)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Send mail with Apache Camel from Grails](http://mrhaki.blogspot.com/2009/04/send-mail-with-apache-camel-from-grails.html) _by Mr. Haki_ (April 2009)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[GrailsからApache Camelでメール送信](http://mrhaki.blogspot.com/2009/04/send-mail-with-apache-camel-from-grails.html)by Haki_さん (2009年4月)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Groovy and Grape - easiest way to send gtalk message with Apache Camel](http://www.andrejkoelewijn.com/blog/2009/02/28/groovy-and-grape-easiest-way-to-send-gtalk-message-with-apache-camel/) _by Andrej Koelewijn_ (February 2009)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Groovy and Grape - easiest way to send gtalk message with Apache Camel](http://www.andrejkoelewijn.com/blog/2009/02/28/groovy-and-grape-easiest-way-to-send-gtalk-message-with-apache-camel/)by Andrej Koelewijn_ (2009年2月)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Interview with Martin Krasser about camel-scalaz](http://jaxenter.com/scalaz-camel-fully-leveraging-what-scala-and-scalaz-offers-for-functional-programming-34717.html) from Jaxcenter. Scalaz-Camel: fully leveraging 'what Scala and Scalaz offers for functional programming.'
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[camel-scalazについてのMartin Krasser氏へのインタビュー](http://jaxenter.com/scalaz-camel-fully-leveraging-what-scala-and-scalaz-offers-for-functional-programming-34717.html) Jaxcenterより。Scalaz-Camel: 「ScalaとScalazが関数型プログラミングのために提供するもの」を完全に活用しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel and Scala](http://www.kai-waehner.de/blog/2011/06/23/apache-camel-and-scala-a-powerful-combination/): A powerful Combination _by Kai Wähner_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel and Scala](http://www.kai-waehner.de/blog/2011/06/23/apache-camel-and-scala-a-powerful-combination/)。強力なコンビネーション _by Kai Wähner_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[A little Scala DSL example](http://davsclaus.blogspot.com/2011/12/apache-camel-little-scala-dsl-example.html) - A little blog post showing how to use the Camel Scala DSL levering Scala functions directly in the DSL.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[A little Scala DSL example](http://davsclaus.blogspot.com/2011/12/apache-camel-little-scala-dsl-example.html) - Camel Scala DSLを使って、DSLの中で直接Scalaの関数を活用する方法を紹介する小さなブログ記事です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel’s Scala DSL explored](https://www.avisi.nl/blog/2013/01/07/apache-camels-scala-dsl-explored) - A blog post using Camel and Scala to build a powerful solution to decouple systems. Using HTTP, JSon and Scala case classes in a nice way.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel's Scala DSL explored](https://www.avisi.nl/blog/2013/01/07/apache-camels-scala-dsl-explored) - CamelとScalaを使って、システムをデカップリングする強力なソリューションを構築したブログ記事です。HTTP、JSon、Scalaのケースクラスをいい感じに使っています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Using Apache Camel with Scala and the Camel Scala DSL](http://www.hascode.com/2013/02/using-apache-camel-with-scala-and-the-camel-scala-dsl/) - A tutorial from Feb 2013 on using Camel and Scala DSL with a number of examples using the [EIP](../../components/latest/eips/enterprise-integration-patterns.html)s and Camel [Components](../../manual/latest/component.html), and with source code.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Using Apache Camel with Scala and the Camel Scala DSL](http://www.hascode.com/2013/02/using-apache-camel-with-scala-and-the-camel-scala-dsl/) - 2013年2月に公開された、CamelとScala DSLの使い方に関するチュートリアルで、[EIP](../../components/latest/eips/enterprice-integration-patterns.html)やCamelの[Components](../../manual/latest/component.html)を使った数多くの例と、ソースコードが掲載されています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel with Scala testing styles](http://siliconsenthil.in/blog/2013/07/07/apache-camel-with-scala-testing-styles/) - A blog post on different approaches of camel testing with ScalaTest.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel with Scala testing styles](http://siliconsenthil.in/blog/2013/07/07/apache-camel-with-scala-testing-styles/) - ScalaTestを使ったcamelテストの様々なアプローチに関するブログ記事です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel with Scala: Extending DSL](http://siliconsenthil.in/blog/2013/07/11/apache-camel-with-scala-extending-dsl/) - A blog post extending the Camel Scala DSL
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel with Scala: Extending DSL](http://siliconsenthil.in/blog/2013/07/11/apache-camel-with-scala-extending-dsl/) - CamelのScala DSLを拡張するブログ記事です。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel and the IoT (Internet of Things)</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>キャメルとIoT（モノのインターネット）について</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Make Your IoT Gateway WiFi-Aware Using Camel and Kura](http://java.dzone.com/articles/make-your-iot-gateway-wifi) - DZone article by Henryk Konsek (2015)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Make Your IoT Gateway WiFi-Aware Using Camel and Kura](http://java.dzone.com/articles/make-your-iot-gateway-wifi) - DZone article by Henryk Konsek (2015)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[IoT gateway dream team - Eclipse Kura and Apache Camel](http://www.slideshare.net/hekonsek/io-t-gateway-dream-team-eclipse-kura-and-apache-camel) - slides from the Henryk Konsek talk for Eclipse IoT Virtual Meetup (2015)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[IoT gateway dream team - Eclipse Kura and Apache Camel](http://www.slideshare.net/hekonsek/io-t-gateway-dream-team-eclipse-kura-and-apache-camel) - Henryk Konsek talk for Eclipse IoT Virtual Meetup (2015)のスライドです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[IoT gateway dream team - Eclipse Kura and Apache Camel](https://www.youtube.com/watch?v=mli5c-oTN1U) - video from the Henryk Konsek talk for Eclipse IoT Virtual Meetup (2015)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[IoT gateway dream team - Eclipse Kura and Apache Camel](https://www.youtube.com/watch?v=mli5c-oTN1U) - Henryk Konsek talk for Eclipse IoT Virtual Meetup (2015)のビデオです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[The IoT in the service of the environment using Apache Camel &amp; JBoss A-MQ](https://github.com/abouchama/camel-example-IoT-MQTT/blob/master/ReadMe.md) - blog post by &lt;span&gt;Abdellatif Bouchama from June 2015 how Apache Camel doing IoT to help measure air quality in the streets of France
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>The IoT in service of environment using Apache Camel &amp;amp; JBoss A-MQ](https://github.com/abouchama/camel-example-IoT-MQTT/blob/master/ReadMe.md) -&lt;span&gt;2015年6月のAbdellatif Bouchama&lt;/span&gt;氏によるブログ記事&lt;span&gt;「Apache Camel doing IoT to help air quality in the street of France&lt;/span&gt;」。&lt;span&gt;
+&lt;/span&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Where am I? Collecting GPS data with Apache Camel](https://dzone.com/articles/where-am-i-collecting-gps-data-with-apache-camel) DZone article by Henryk Konsek (2015)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Where am I? Collecting GPS data with Apache Camel](https://dzone.com/articles/where-am-i-collecting-gps-data-with-apache-camel) DZone article by Henryk Konsek (2015)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Open Source IoT Gateway: A Tale Of Eclipse Kura, Apache Camel, And Rhiot](https://www.youtube.com/watch?v=DPiD7bnnaJk) - video from the Henryk Konsek talk at DevNation 2016.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Open Source IoT Gateway: A Tale Of Eclipse Kura, Apache Camel, And Rhiot](https://www.youtube.com/watch?v=DPiD7bnnaJk) - DevNation 2016でのHenryk Konsek氏の講演のビデオです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Getting started with Apache Camel and Internet of Things](https://developers.redhat.com/blog/2016/11/17/getting-started-with-apache-camel-and-the-internet-of-things/) - article from Joseph Butler from February 2017.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Getting started with Apache Camel and Internet of Things](https://developers.redhat.com/blog/2016/11/17/getting-started-with-apache-camel-and-the-internet-of-things/) - 2017年2月のJoseph Butler氏の記事。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[A Camel running in the Clouds (Part 2)](https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Flburgazzoli%2Egithub%2Eio%2F2017%2F04%2F12%2FA-camel-running-in-the-clouds-part-2%2Ehtml&amp;urlhash=JHUN&amp;_t=tracking_anet) by Luca Burgazzoli (April 2017)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[雲の中を走るラクダ（後編）](https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Flburgazzoli%2Egithub%2Eio%2F2017%2F04%2F12%2FA-camel-running-in-the-clouds-part-2%2Ehtml&amp;amp;urlhash=JHUN&amp;amp;_t=tracking_anet) by ルカ・ブルガッツォーリ (2017年4月)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[A Camel running in the Clouds](https://lburgazzoli.github.io/2016/12/21/A-camel-running-in-the-clouds.html) by Luca Burgazzoli (December 2016)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[雲の中を走るラクダ](https://lburgazzoli.github.io/2016/12/21/A-camel-running-in-the-clouds.html) by Luca Burgazzoli (2016年12月)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Comparison to Camel's Competitors</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>キャメルの競合製品との比較</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel and other ESBs (Camel vs Mule)](https://stackoverflow.com/questions/3792519/apache-camel-and-other-esb-products) - A question on Stackoverflow originally from 2010 but with a great showcase of what is the status 5 years later according to [Raul's answer](https://stackoverflow.com/questions/3792519/apache-camel-and-other-esb-products/34818263#34818263), and [follow up comments from Claus](http://www.davsclaus.com/2016/01/apache-camel-and-other-esb-products.html).
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel and other ESBs (Camel vs Mule)](https://stackoverflow.com/questions/3792519/apache-camel-and-other-esb-products) - Stackoverflowの質問はもともと2010年のものですが、[Raulの回答](https://stackoverflow.com/questions/3792519/apache-camel-and-other-esb-products/34818263#34818263)と[Clausのフォローアップコメント](http://www.davsclaus.com/2016/01/apache-camel-and-other-esb-products.html)によると、5年後の状況が見事に紹介されています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Mule vs Spring Integration vs Apache Camel compared by Black Duck Open Hub](http://www.davsclaus.com/2015/12/mule-vs-spring-integration-vs-apache.html) - by Clays Ibsen (December 2015) - How to use Open Hub to compare these projects side by side.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Mule vs Spring Integration vs Apache Camel compared by Black Duck Open Hub](http://www.davsclaus.com/2015/12/mule-vs-spring-integration-vs-apache.html) - by Clays Ibsen (2015年12月) - Open Hubを使ってこれらのプロジェクトを並べて比較する方法。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel vs Spring Integration](http://callistaenterprise.se/blogg/teknik/2015/10/12/apache-camel-vs-spring-integration/) - by Bjorn Beskow (October 2015) - Compares the new SI Java-8 DSL with the Camel Java DSL.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel vs Spring Integration](http://callistaenterprise.se/blogg/teknik/2015/10/12/apache-camel-vs-spring-integration/) - by Bjorn Beskow (2015年10月) - 新しいSIのJava-8 DSLとCamelのJava DSLを比較します。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Light-weight, open-source integration: Apache Camel or Spring Integration?](https://blog.christianposta.com/comparison/light-weight-open-source-integration-apache-camel-or-spring-integration/) _by Christian Posta_ (September 2013)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[軽量でオープンソースの統合：Apache CamelかSpring Integrationか](https://blog.christianposta.com/comparison/light-weight-open-source-integration-apache-camel-or-spring-integration/)_by Christian Posta_ (2013年9月)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Spring Integration 2.2 is out, it is time for another comparison with Apache Camel](http://www.ofbizian.com/2012/12/spring-integration-22-is-out-it-is-time.html) - _by Bilgin_ (December 2012)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Spring Integration 2.2がリリースされ、Apache Camelとの比較を行う時期になりました](http://www.ofbizian.com/2012/12/spring-integration-22-is-out-it-is-time.html) - _by Bilgin_ (2012年12月)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Spring Integration Project Creation VS. Apache Camel Project Creation](http://www.dzone.com/links/r/spring_integration_project_creation_vs_apache_cam.html) _by Claus Ibsen_ (April 2012)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Spring Integrationプロジェクト作成VS.Apache Camelプロジェクト作成](http://www.dzone.com/links/r/spring_integration_project_creation_vs_apache_cam.html)by Claus Ibsen_ (2012年4月)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel alternatives](http://hillert.blogspot.com/2009/10/apache-camel-alternatives.html) _by Gunnar Hillert_ (October 2009)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel alternatives](http://hillert.blogspot.com/2009/10/apache-camel-alternatives.html) _by Gunnar Hillert_ (2009年10月)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Implementing Enterprise Integration Patterns with Apache Camel](http://alt.java-forum-stuttgart.de/jfs/2008/folien/E3.pdf) presentation _by Eduard Hildebrandt_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Implementing Enterprise Integration Patterns with Apache Camel](http://alt.java-forum-stuttgart.de/jfs/2008/folien/E3.pdf) プレゼンテーション _by Eduard Hildebrandt_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Dead Simple Integration with Apache Camel](https://chariotsolutions.com/presentation/dead-simple-integration-with-apache-camel/) _by Aaron Mulder_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camelによるデッド・シンプル・インテグレーション](https://chariotsolutions.com/presentation/dead-simple-integration-with-apache-camel/)_by Aaron Mulder_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Claus Ibsen's](http://www.slideshare.net/davsclaus/fuse-community-day-london-2010-apache-camel-presentation) Apache Camel presentation at the [FUSE](https://www.redhat.com/fr/technologies/jboss-middleware/fuse) community day in London 2010.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>2010年にロンドンで開催された[FUSE](https://www.redhat.com/fr/technologies/jboss-middleware/fuse)コミュニティデイでの[Claus Ibsen](http://www.slideshare.net/davsclaus/fuse-community-day-london-2010-apache-camel-presentation)のApache Camelのプレゼンテーションです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[FuseSource presentations](https://www.slideshare.net/fusesource/introduction-to-apache-camel) on Camel and other related Apache projects
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[FuseSourceプレゼンテーション](https://www.slideshare.net/fusesource/introduction-to-apache-camel) Camelやその他の関連するApacheプロジェクトについて。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Taking Camel for a ride](https://www.slideshare.net/bruce.snyder/takingapachecamelforaride/) _by Bruce Snyder_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Taking Camel for a ride](https://www.slideshare.net/bruce.snyder/takingapachecamelforaride/) _by Bruce Snyder_ (英語)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Claus Ibsen presented Apache Camel at Devoxx 2010](http://www.slideshare.net/davsclaus/apache-camel-devoxx-2010) - Slides from [the presentation](http://devoxx.com/display/Devoxx2K10/Apache+Camel,+a+powerful+open+source+integration+framework) Claus did at the Devoxx conference.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Claus Ibsen presented Apache Camel at Devoxx 2010](http://www.slideshare.net/davsclaus/apache-camel-devoxx-2010) - [the presentation](http://devoxx.com/display/Devoxx2K10/Apache+Camel,+a+powerful+open+source+integration+framework) クラウスがDevoxxカンファレンスで行ったプレゼンテーションのスライドです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Introduction to Apache Camel](https://www.slideshare.net/fusesource/introduction-to-apache-camel) is a nice set of slides to get familiar with Apache Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Introduction to Apache Camel](https://www.slideshare.net/fusesource/introduction-to-apache-camel)は、Apache Camelに慣れるための素敵なスライドセットです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Business Process Management (BPM) beyond Web Services with Apache Camel and Activiti](http://www.slideshare.net/KaiWaehner/camelone-2012-bpm-beyond-web-services) _by_ _[Kai Wähner](http://www.kai-waehner.de/)_ (CamelOne 2012)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Business Process Management (BPM) beyond Web Services with Apache Camel and Activiti](http://www.slideshare.net/KaiWaehner/camelone-2012-bpm-beyond-web-services) _by_ _[Kai Wähner](http://www.kai-waehner.de/)_ (CamelOne 2012)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Spoilt for Choice - Which Integration Framework to use?](http://www.slideshare.net/KaiWaehner/camelone-2012-spoilt-for-choice-which-integration-framework-to-use) _by_ _[Kai Wähner](http://www.kai-waehner.de/)_ (CamelOne 2012 in Boston)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Spoilt for Choice - Which Integration Framework to use?](http://www.slideshare.net/KaiWaehner/camelone-2012-spoilt-for-choice-which-integration-framework-to-use) _by_ _[Kai Wähner](http://www.kai-waehner.de/)_ (CamelOne 2012 in Boston)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Getting started with Apache Camel](http://www.slideshare.net/davsclaus/apache-camel-clausibsen) - at [Devconf](http://www.devconf.cz/) february 2013\. Presentation _by_ _[Claus Ibsen](http://www.davsclaus.com/)_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Getting started with Apache Camel](http://www.slideshare.net/davsclaus/apache-camel-clausibsen) - at [Devconf](http://www.devconf.cz/) february 2013\.Presentation _by_[Claus Ibsen](http://www.davsclaus.com/)_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[CamelOne 2013](http://camelone.com/apache-camel-conference-2013/camelone_agenda_2013/) - [CamelOne](http://camelone.com/) conference with various talks with Camel, ActiveMQ, ServiceMix, CXF, Karaf both technical and real-life presentations.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[CamelOne 2013](http://camelone.com/apache-camel-conference-2013/camelone_agenda_2013/) - [CamelOne](http://camelone.com/) カンファレンスでは、Camel、ActiveMQ、ServiceMix、CXF、Karafを使った様々な講演が、技術的なものと実際のプレゼンテーションの両方で行われました。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Getting started with Apache Camel](http://www.slideshare.net/davsclaus/apache-camel-barcelonajanuary2014) - at Barcelona JUG january 2014\. Presentation by _[Claus Ibsen](http://www.davsclaus.com/)_. 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Getting started with Apache Camel](http://www.slideshare.net/davsclaus/apache-camel-barcelonajanuary2014) - at Barcelona JUG january 2014\.Presentation by _[Claus Ibsen](http://www.davsclaus.com/)_. 
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Workshop with Apache Camel](http://www.slideshare.net/davsclaus/workshop-barcelona-january2014) - at Barcelona JUG january 2014\. Given by _[Claus Ibsen](http://www.davsclaus.com/)_.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Workshop with Apache Camel](http://www.slideshare.net/davsclaus/workshop-barcelona-january2014) - at Barcelona JUG january 2014\.Give by _[Claus Ibsen](http://www.davsclaus.com/)_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Microservices with Apache Camel](http://www.slideshare.net/davsclaus/microservices-with-apache-camel) - at London Microservices Day June 2015 presented by Claus Ibsen.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Microservices with Apache Camel](http://www.slideshare.net/davsclaus/microservices-with-apache-camel) - at London Microservices Day June 2015 presented by Claus Ibsen.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Developing, Testing and Scaling with Apache Camel](http://raibledesigns.com/rd/entry/uberconf_2015_my_presentations_on) - at UberConf 2015 by Matt Raible. A presentation how Matt migrated a legacy system to open source with Apache Camel and Spring Boot. And how to integrate test with Camel and Gatling. 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Developing, Testing and Scaling with Apache Camel](http://raibledesigns.com/rd/entry/uberconf_2015_my_presentations_on) - UberConf 2015にて、Matt Raible氏が発表しました。Matt氏がApache CamelとSpring Bootを使ってレガシーシステムをオープンソースに移行したプレゼンテーションです。また、CamelとGatlingでテストを統合する方法。 
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel Introduction &amp; What's in the box](http://www.slideshare.net/davsclaus/apache-camel-introduction-whats-in-the-box) - &lt;span style="line-height: 1.42857;"&gt;Slides from JavaBin talk in Grimstad Norway, presented by Claus Ibsen in February 2016. This slide deck is full up to date with latest Apache Camel 2.16.2 release and includes additional slides to present many of the features that Apache Camel provides out of the box.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Apache Camel Introduction &amp;amp; What's in the box](http://www.slideshare.net/davsclaus/apache-camel-introduction-whats-in-the-box) -&lt;span style="line-height: 1.42857;"&gt;2016年2月にClaus IbsenがノルウェーのGrimstadで行ったJavaBin講演のスライド&lt;/span&gt;です。&lt;span style="line-height: 1.42857;"&gt;このスライドデッキは、最新のApache Camel 2.16.2のリリースに対応しており、Apache Camelがすぐに提供する多くの機能を紹介する追加スライドも含まれています。
+&lt;/span&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel the Integration Library](http://www.slideshare.net/davsclaus/apachecon-eu-2016-apache-camel-the-integration-library) - Slides from ApacheCon EU 2016 presented by Claus Ibsen.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel the Integration Library](http://www.slideshare.net/davsclaus/apachecon-eu-2016-apache-camel-the-integration-library) - Claus Ibsenが発表したApacheCon EU 2016のスライドです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Developing Cloud Ready Camel Microservices](https://www.youtube.com/watch?v=a0DXIspd1Zs&amp;index=7&amp;list=PLEGSLwUsxfEh4TE2GDU4oygCB-tmShkSn) - Video from Red Hat Summit 2017 presented by Claus Ibsen. Source code and slides available here: [https://github.com/davsclaus/minishift-hello](https://github.com/davsclaus/minishift-hello)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Developing Cloud Ready Camel Microservices](https://www.youtube.com/watch?v=a0DXIspd1Zs&amp;amp;index=7&amp;amp;list=PLEGSLwUsxfEh4TE2GDU4oygCB-tmShkSn) - Claus Ibsenが提供するRed Hat Summit 2017のビデオです。ソースコードとスライドはこちら。https://github.com/davsclaus/minishift-hello](https://github.com/davsclaus/minishift-hello)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[The Forgotten Route: Making Apache Camel Work for You](https://www.youtube.com/watch?v=7r183fGwllg&amp;feature=youtu.be) - Video from ApacheCon 2017 presented by John Saboe. Apache Camel is eight years old, and some say it's effectiveness as the glue between components has diminished. John Saboe says, "Not so!"
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[The Forgotten Route: Making Apache Camel Work for You](https://www.youtube.com/watch?v=7r183fGwllg&amp;amp;feature=youtu.be) - ジョン・サボ氏が提供するApacheCon 2017のビデオです。Apache Camelは8年前のものですが、コンポーネント間の接着剤としての効果が薄れてきていると言う人もいます。ジョン・サボは "そうではない！"と言っています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Integrating Applications: The Reactive Way](https://www.youtube.com/watch?v=1JtdUhLf5pE) - Video from JBCNConf presented by Nicola Ferraro. 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Integrating Applications: The Reactive Way](https://www.youtube.com/watch?v=1JtdUhLf5pE) - Nicola Ferraroが提供するJBCNConfのビデオです。 
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Podcasts</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>ポッドキャスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[James Strachan](http://macstrac.blogspot.com/) was [interviewed](http://briefingsdirect.blogspot.com/2007/08/apache-camel-addresses-need-for.html) _by_ _[Dana Gardner](http://www.zoominfo.com/Search/PersonDetail.aspx?PersonID=338181&amp;QueryID=0b37845a-9e13-492a-92e6-7ac8ac9707b7)_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[James Strachan](http://macstrac.blogspot.com/)は、[Interview](http://briefingsdirect.blogspot.com/2007/08/apache-camel-addresses-need-for.html)されました。_by_ _[Dana Gardner](http://www.zoominfo.com/Search/PersonDetail.aspx?PersonID=338181&amp;amp;QueryID=0b37845a-9e13-492a-92e6-7ac8ac9707b7)_
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Episode 35 - A few beers with Chariot's Open Source Integration Experts](http://techcast.chariotsolutions.com/index.php?post_id=503319) - Chariot TechCast Episode 35 where they talk about: ServiceMix, Camel, FUSE, Mule, Spring Integration, EIP, ESB etc.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Episode 35 - A few beers with Chariot's Open Source Integration Experts](http://techcast.chariotsolutions.com/index.php?post_id=503319) - Chariot TechCast Episode 35では、以下のような話をしています。ServiceMix, Camel, FUSE, Mule, Spring Integration, EIP, ESB など。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[JBoss Asylum Podcast Episode 28 - Fuse stories](http://jbosscommunityasylum.libsyn.com/podcast-28-fuse-stories) - Podcast from January 2013 with James Strachan and Rob Davies with the background history and how they got into creating Apache Camel, and how they tink Camel has become such successful.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[JBoss Asylum Podcast Episode 28 - Fuse stories](http://jbosscommunityasylum.libsyn.com/podcast-28-fuse-stories) - James Strachan氏とRob Davies氏による2013年1月のポッドキャストで、彼らがApache Camelの開発に参加した経緯や、Camelがこれほどまでに成功した理由などを紹介している。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Podcast James Strachan - Mr Apache Camel](http://thecloudevangelist.com/cloud-software/podcast-james-strachan-mr-apache-camel/) - Podcast from February 2013 with James Strachan about Apache Camel, integration and the cloud.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Podcast James Strachan - Mr Apache Camel](http://thecloudevangelist.com/cloud-software/podcast-james-strachan-mr-apache-camel/) - 2013年2月に配信された、James Strachan氏によるApache Camel、インテグレーション、クラウドに関するPodcastです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Developer Interview with Claus Ibsen](http://blog.eisele.net/2014/08/developer-interviews-di-2-claus-ibsen.html) - Video interview August 2014 with Claus Ibsen about Apache Camel, Camel tooling, and about the upcoming Camel release.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Developer Interview with Claus Ibsen](http://blog.eisele.net/2014/08/developer-interviews-di-2-claus-ibsen.html) - 2014年8月、Claus Ibsen氏に、Apache Camel、Camel tooling、そして次期Camelリリースについてのビデオインタビューを行いました。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Java Pub House - Episode 62\. Hm, what's the best to travel this holiday? on Apache CAMEL, of course!](http://www.javapubhouse.com/2017/01/episode-62-hm-whats-best-to-travel-this.html) - Podcast from January 2017 talking about what is Apache Camel and sharing real life experience from using it on multiple projects.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Java Pub House - Episode 62\.ふむ、この休日の旅行は何がいいかな？もちろんApache CAMELで！](http://www.javapubhouse.com/2017/01/episode-62-hm-whats-best-to-travel-this.html) - 2017年1月に配信されたポッドキャストでは、Apache Camelとは何かを語り、複数のプロジェクトで使用した実体験を共有しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[JBoss Asylum #47 - What do you call a Camel with 3 humps](https://asylum.libsyn.com/podcast-46-what-do-you-call-a-camel-with-3-humps) Claus Ibsen and Luca Burgazzoli sits down and talk about what is coming in Camel 3 on topics like Camel K and Camel Quarkus.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[JBoss Asylum #47 - What do you call a Camel with 3 humps](https://asylum.libsyn.com/podcast-46-what-do-you-call-a-camel-with-3-humps) Claus Ibsen氏とLuca Burgazzoli氏が座って、Camel KやCamel Quarkusなどのトピックについて、Camel 3で何が起こるのかについて話しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Jesse Gorzinski on Apache Camel and Open-Source System Lifecycles](https://techchannel.com/SMB/04/2021/jesse-gorzinski-apache-camel) from April 2021 _by_ TechChannel interviews IBM's Jesse Gorzinski, that talks about IBMSi usage of Apache Camel, _vitality_ of open source projects in general, and more
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Jesse Gorzinski on Apache Camel and Open-Source System Lifecycles](https://techchannel.com/SMB/04/2021/jesse-gorzinski-apache-camel) 2021年4月 _by_ TechChannelがIBMのJesse Gorzinski氏にインタビューを行い、IBMSiのApache Camelの使用方法や、一般的なオープンソースプロジェクトの重要性などについて語っています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel Design Patterns by Bilgin Ibryam (LeanPub, January 2016)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camel Design Patterns』Bilgin Ibryam著（LeanPub、2016年1月
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Apache Camel Developer's Cookbook _by Scott Cranton and Jakub Korab_ (Packt Publishing, December 2013)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Apache Camel Developer's Cookbook _by Scott Cranton and Jakub Korab_ (Packt Publishing, December 2013)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Instant Apache Camel Messaging System _by Evgeniy Sharapov_ (Packt Publishing, September 2013)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Instant Apache Camel Messaging System _by Evgeniy Sharapov_ (Packt Publishing, September 2013)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Instant Apache Camel Message Routing _by Bilgin Ibryam_ (Packt Publishing, August 2013)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Instant Apache Camel Message Routing _by Bilgin Ibryam_ (Packt Publishing, August 2013)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Camel in Action _by Claus Ibsen and Jonathan Anstey_ (Manning, December 2010)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camel in Action _by Claus Ibsen and Jonathan Anstey_ (Manning, December 2010)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Enterprise Integration Patterns _by Gregor Hohpe and Bobby Woolf_ (Addison Wesley, October 2003)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Enterprise Integration Patterns _by Gregor Hohpe and Bobby Woolf_ (Addison Wesley, October 2003)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Online Training</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>オンライントレーニング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Build a Registration System with Camel and Kubernetes](https://www.manning.com/liveproject/build-a-registration-system-with-camel-and-kubernetes) - A self-pased online learning (May 2021) where you’ll master common Apache Camel techniques and components for helping build modern interconnected applications.   
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[CamelとKubernetesによる登録システムの構築](https://www.manning.com/liveproject/build-a-registration-system-with-camel-and-kubernetes) - 自習型のオンライン学習(2021年5月)で、最新の相互接続アプリケーションの構築に役立つApache Camelの一般的なテクニックとコンポーネントを習得します。   
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Introduction to Apache Camel](http://www.pluralsight.com/courses/apache-camel-intro-integration) - Pluralsight o&lt;span style="color: rgb(34,34,34);"&gt;nline &lt;span style="color: rgb(34,34,34);"&gt;training course covering the core Camel framework, pattern implementations &lt;span style="color: rgb(34,34,34);"&gt;and [hawt.io](http://hawt.io/) 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Introduction to Apache Camel](http://www.pluralsight.com/courses/apache-camel-intro-integration) - Pluralsightの&lt;span style="color: rgb(34,34,34);"&gt; &lt;span style="color: rgb(34,34,34);"&gt;オンライントレーニングコースでは、Camelのコアフレームワーク、パターンの実装&lt;span style="color: rgb(34,34,34);"&gt;、[hawt.io](http://hawt.io/&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;)&lt;span style="color: rgb(34,34,34);"&gt; &lt;span style="color: rgb(34,34,34);"&gt;をカバーしています&lt;/span&gt;&lt;/span&gt;。&lt;span style="color: rgb(34,34,34);"&gt; &lt;span style="color: rgb(34,34,34);"&gt; &lt;span style="color: rgb(34,34,34);"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel Video Tutorial](http://www.nvisia.com/apache-camel-video-tutorial) - A 3 part video series that introduces you to Apache Camel, covers an use-case, and then highlights why you should use Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel ビデオチュートリアル](http://www.nvisia.com/apache-camel-video-tutorial) - 3部構成のビデオシリーズで、Apache Camelを紹介し、ユースケースを取り上げ、なぜCamelを使うべきかを説明しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Java In Use](http://www.javainuse.com/camel) - Apache Camel Introduction, Apache Camel Interview Questions, and other beginner related training for Apache Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Java In Use](http://www.javainuse.com/camel) - Apache Camel Introduction, Apache Camel Interview Questions, and other beginner related training for Apache Camel.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Udemy Training: Apache Camel for Beginners - Learn by Coding in Java](https://www.udemy.com/apache-camel-for-beginners-learn-by-coding-in-java/) - Learn Apache Camel framework by coding it in Java. This is purely a coding course where you will be performing ton of code throughout the course. This course will cover integrations with Kafka, Active MQ, Postgres SQL , Rest WebServices and etc.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Udemy Training: Apache Camel for Beginners - Learn by Coding in Java](https://www.udemy.com/apache-camel-for-beginners-learn-by-coding-in-java/) - Apache CamelフレームワークをJavaでコーディングして学びます。このコースは純粋にコーディングのコースであり、コースを通して大量のコードを実行することになります。このコースでは、Kafka、Active MQ、Postgres SQL、Rest WebServicesなどとの統合を扱います。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Max Munus](http://www.maxmunus.com/page/Apache-Camel) - Provides online training to many different technologies. They provide online training for Apache Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Max Munus](http://www.maxmunus.com/page/Apache-Camel) - さまざまな技術のオンライントレーニングを提供。Apache Camelのオンライントレーニングを提供している。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Other</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>その他</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Linkedin Apache Camel group](http://www.linkedin.com/groups?mostPopular=&amp;gid=2447439) - Linkedin group for the Apache Camel project.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Linkedin Apache Camel group](http://www.linkedin.com/groups?mostPopular=&amp;amp;gid=2447439) - Apache CamelプロジェクトのLinkedinグループ。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[EIP printable flashcards studylib](https://studylib.net/doc/8175313/enterprise-integration-patterns-flashcards), [EIP printable flashcards nanopdf](https://nanopdf.com/download/enterprise-integration-patterns-flashcards_pdf), [EIP printable flashcards docplayer](https://docplayer.net/46191198-Enterprise-integration-patterns-flashcards.html) - A 6 page PDF with printable EIP cards.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[EIP printable flashcards studylib](https://studylib.net/doc/8175313/enterprise-integration-patterns-flashcards), [EIP printable flashcards nanopdf](https://nanopdf.com/download/enterprise-integration-patterns-flashcards_pdf), [EIP printable flashcards docplayer](https://docplayer.net/46191198-Enterprise-integration-patterns-flashcards.html) - 印刷可能なEIPカードを収録した6ページのPDFです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are several companies that provide extra documentation, examples, tutorials, etc... See the [Commercial Camel Offerings](../../manual/latest/commercial-camel-offerings.html) page for more details.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>追加のドキュメント、サンプル、チュートリアルなどを提供する会社がいくつかあります。詳しくは、[Commercial Camel Offerings](../../manual/latest/commercial-camel-offerings.html)のページをご覧ください。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel Reference Card at DZone](http://refcardz.dzone.com/refcardz/enterprise-integration) _by Claus Ibsen_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel Reference Card at DZone](http://refcardz.dzone.com/refcardz/enterprise-integration) _by Claus Ibsen_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[The Top Twelve Integration Patterns for Apache Camel Reference Card at DZone](https://dzone.com/refcardz/enterprise-integration?chapter=1) _by Claus Ibsen_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[The Top Twelve Integration Patterns for Apache Camel Reference Card at DZone](https://dzone.com/refcardz/enterprise-integration?chapter=1) _by Claus Ibsen_.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Essential Camel Components Reference Card at DZone](http://refcardz.dzone.com/refcardz/essential-camel-components) _by Christian Posta_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Essential Camel Components Reference Card at DZone](http://refcardz.dzone.com/refcardz/essential-camel-components) _by Christian Posta_ (英語)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The Apache Camel Components Poster ([PDF](https://pdfslide.net/documents/apache-camel-components.html) _by Gliesian LLC._ (October, 2013)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>The Apache Camel Components Poster ([PDF](https://pdfslide.net/documents/apache-camel-components.html) _by Gliesian LLC._ (October, 2013)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[TrustRadius Apache Camel Reviews](https://www.trustradius.com/products/apache-camel/reviews) - Reviews and ratings from Camel end users on the TrustRadius website. 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[TrustRadius Apache Camel Reviews](https://www.trustradius.com/products/apache-camel/reviews) - TrustRadiusのウェブサイトに掲載されているCamelのエンドユーザーによるレビューと評価です。 
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Blogs</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>ブログ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Ashwin Karpe's Blog (OpenSourceKnowledge)](http://opensourceknowledge.blogspot.com/) - Ashwin is a Camel committer and writes about Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Ashwin Karpe's Blog (OpenSourceKnowledge)](http://opensourceknowledge.blogspot.com/) - AshwinはCamelのコミッターで、Camelについて書いています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Ben O'Day's Blog](http://benoday.blogspot.com/) - Ben works in the field and sometimes blogs about Camel
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Ben O'Day's Blog](http://benoday.blogspot.com/) - Benは現場で働いており、時々Camelについてブログを書いています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Bilgin Ibryam's Blog](http://ofbizian.com/) - Bilgin blogs about Camel, OFBiz and Open Source in general.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Bilgin Ibryam's Blog](http://ofbizian.com/) - BilginはCamel、OFBiz、オープンソース全般についてブログを書いています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Charles Moulliard's Blog](http://cmoulliard.github.io/tags/#camel), [Old Charles Moulliard's Blog](http://cmoulliard.blogspot.com/) - Charles occasionally blogs about Camel and OSGi
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Charles Moulliard's Blog](http://cmoulliard.github.io/tags/#camel), [Old Charles Moulliard's Blog](http://cmoulliard.blogspot.com/) - Charlesは時折、CamelとOSGiについてブログを書いています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Christian Schneider's Blog](http://liquid-reality.de/Karaf-Tutorial/) - Christian occasionally blogs about Camel and CXF.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Christian Schneider's Blog](http://liquid-reality.de/Karaf-Tutorial/) - ChristianはCamelとCXFについて時々ブログを書いています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Claus Ibsen's Blog](http://davsclaus.blogspot.com/) - Claus is a Camel committer since March 2008, and writes a lot about Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Claus Ibsen's Blog](http://davsclaus.blogspot.com/) - Clausは2008年3月からCamelのコミッターを務めており、Camelについて多くのことを書いています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Hadrian Zbarcea](http://camelbot.blogspot.com/) - also blogs about Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Hadrian Zbarcea](http://camelbot.blogspot.com/) - Camelについてもブログで紹介しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Jean-Baptiste Onofré's Blog](http://blog.nanthrax.net) - JB blogs about Camel, CXF, Karaf, ServiceMix and OSGi in general.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Jean-Baptiste Onofré's Blog](http://blog.nanthrax.net) - JBは、Camel、CXF、Karaf、ServiceMix、OSGi全般についてブログを書いています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Jon Anstey's Blog](http://janstey.blogspot.com) - Jon occasionally blogs about Camel
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Jon Anstey's Blog](http://janstey.blogspot.com) - Jonは時々Camelについてブログを書いています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Kai Wähner's Blog](http://www.kai-waehner.de/blog) - Kai blogs about Camel, ESB, Cloud, and present Camel at various conferences as well.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Kai Wähner's Blog](http://www.kai-waehner.de/blog) - KaiはCamel、ESB、クラウドについてブログを書いており、様々なカンファレンスでCamelのプレゼンテーションを行っています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Luca Burgazzoli's Blog](http://lburgazzoli.github.io/)- Luca blogs about Camel, Cloud, Fabric8, Kubernetes.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Luca Burgazzoli's Blog](http://lburgazzoli.github.io/)- LucaはCamel, Cloud, Fabric8, Kubernetesについてブログを書いています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Marcelo Jarbali's Blog](http://marcelojabali.blogspot.com/) - Marcelo blogs about Websocket, Camel and integration.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Marcelo Jarbali's Blog](http://marcelojabali.blogspot.com/) - MarceloはWebsocket、Camel、統合についてブログを書いています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Michael Warecki's Blog](http://michalwarecki.blogspot.com/) - Michael blogs about SOA, BPA and Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Michael Warecki's Blog](http://michalwarecki.blogspot.com/) - MichaelはSOA、BPA、Camelについてブログを書いています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Robert James Liguori's Blog](https://archive.fo/XKA0Z) - (archived) Blogs about Java and supporting resources including Apache Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Robert James Liguori's Blog](https://archive.fo/XKA0Z) - (archived) JavaとApache Camelを含むサポートリソースに関するブログ。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Willem Jiang's Blog](http://willemjiang.blogspot.com/) - Willem also writes about Camel in English and Chinese.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Willem Jiang's Blog](http://willemjiang.blogspot.com/) - Willemは英語と中国語でもキャメルについて書いています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Souciance Eqdam Rashti](https://soucianceeqdamrashti.wordpress.com/) - Blogs about integration and Apache Camel in English. 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Souciance Eqdam Rashti](https://soucianceeqdamrashti.wordpress.com/) - 統合やApache Camelに関する英語のブログ。 
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Mastertheboss](http://www.mastertheboss.com) - Contains several tutorials for Camel 2 and 3 in English. 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Mastertheboss](http://www.mastertheboss.com) - Camel 2 と 3 の英語のチュートリアルがいくつか含まれています。 
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[@davsclaus](http://twitter.com/#!/davsclaus) - Claus Ibsen ([@davsclaus](http://twitter.com/#!/davsclaus)) tweets often about Camel, open source, and integration.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[@davsclaus](http://twitter.com/#!/davsclaus) - Claus Ibsen ([@davsclaus](http://twitter.com/#!/davsclaus))は、Camel、オープンソース、統合についてよくツイートしています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[@bibryam](http://twitter.com/#!/bibryam) - Bilgin Ibryam ([@bibryam](http://twitter.com/#!/bibryam)) tweets often about Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[@bibryam](http://twitter.com/#!/bibryam) - Bilgin Ibryam ([@bibryam](http://twitter.com/#!/bibryam))は、Camelについてよくツイートしています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[@jstrachan](https://twitter.com/jstrachan) - James Strachan ([@jstrachan](https://twitter.com/jstrachan)) tweets about Camel, open source and integration.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[@jstrachan](https://twitter.com/jstrachan) - James Strachan ([@jstrachan](https://twitter.com/jstrachan))は、Camel、オープンソース、インテグレーションについてツイートしています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[@hekonsek](https://twitter.com/hekonsek) - Henryk Konsek ([@hekonsek](https://twitter.com/hekonsek)) tweets about Camel and the Internet Of Things
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[@hekonsek](https://twitter.com/hekonsek) - Henryk Konsek ([@hekonsek](https://twitter.com/hekonsek))は、CamelとInternet Of Thingsについてツイートしています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Non-English</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>英語以外</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Java integration frameworks - Spring Integration vs. Apache Camel](http://www.journaldunet.com/developpeur/java-j2ee/spring-integration-vs-apache-camel/) Article from April 2010 which compares the two frameworks (**in french**).
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Java統合フレームワーク - Spring Integration vs. Apache Camel](http://www.journaldunet.com/developpeur/java-j2ee/spring-integration-vs-apache-camel/)2010年4月の記事で、2つのフレームワークを比較しています（**in french**）。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[3 Articles about Apache Camel to push notifications to Apple devices (in French)](http://blog.xebia.fr/2010/09/30/creer-un-composant-apache-camel-de-connexion-a-lapns-1-sur-3/) _by Alexis Kinsella_
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Appleデバイスにプッシュ通知するためのApache Camelに関する3つの記事（仏語）](http://blog.xebia.fr/2010/09/30/creer-un-composant-apache-camel-de-connexion-a-lapns-1-sur-3/)_by Alexis Kinsella_（アレクシス・キンセラ
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel for beginners](https://szukaj.programistamag.pl/uuid/02a558018a8688edb61e5eb0fa51b25bdf6d52b8) - **In polish**, article from online magazine posted in 2012 introducing Apache Camel.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel for beginners](https://szukaj.programistamag.pl/uuid/02a558018a8688edb61e5eb0fa51b25bdf6d52b8) - **In polish**, 2012年に掲載されたApache Camelを紹介するオンラインマガジンの記事。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel open source integration](https://www.youtube.com/watch?v=LnZs3_rkqz0&amp;feature=youtu.be&amp;a) - **In German**, a 20 minute video posted in early 2015 covering Apache Camel
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel open source integration](https://www.youtube.com/watch?v=LnZs3_rkqz0&amp;amp;feature=youtu.be&amp;amp;a) - **ドイツ語**で、2015年初頭に投稿されたApache Camelをカバーする20分のビデオです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Integration in a Microservices Style](https://www.youtube.com/watch?v=uLaIR8FHjGs) - **In French**, a 30 minute video from Devoxx France 2017. Abdellatif Bouchama presents how to run Camel as microservices in containers using Kubernetes.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Integration in a Microservices Style](https://www.youtube.com/watch?v=uLaIR8FHjGs) - **In French**、Devoxx France 2017の30分のビデオです。Abdellatif Bouchama氏が、Kubernetesを使ってコンテナ内のマイクロサービスとしてCamelを動作させる方法を紹介しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Why do we have to learn Apache Camel now](https://jcug-oss.github.io/article/why-do-we-have-to-learn-camel-q) - In Japanese from Japan Camel User Group September 2017. 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[なぜ今Apache Camelを学ばなければならないのか](https://jcug-oss.github.io/article/why-do-we-have-to-learn-camel-q) - In Japanese from Japan Camel User Group September 2017. 
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Telão Interativo SPTV com Apache Camel](http://willianantunes.blogspot.dk/2018/02/telao-interativo-sptv-apache-camel.html) - In Portugese from February 2018\. Willian Antunes blogs about a Camel project used for grabbing tweets and live update on webpage. Using Camel, ActiveMQ, twitter, webscokets and Spring Boot.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Telão Interativo SPTV com Apache Camel](http://willianantunes.blogspot.dk/2018/02/telao-interativo-sptv-apache-camel.html) - 2018年2月のポルトガル語版です。Willian Antunes氏は、ツイートを取得してWebページでライブアップデートするために使用するCamelプロジェクトについてブログを書いています。Camel、ActiveMQ、twitter、webscokets、Spring Bootを使用しています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apache Camel vs Enterprise Service Bus](https://blog.gft.com/br/2018/03/28/apache-camel-vs-enterprise-service-bus/) - In Portugese from April 2018\. Rafael Manzoni discusses the pros/cons of using Camel vs an ESB/SOA platform, and also some thoughts on modern cloud native applications and how Camel fit in there as well.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apache Camel vs Enterprise Service Bus](https://blog.gft.com/br/2018/03/28/apache-camel-vs-enterprise-service-bus/) - 2018年4月のポルトガル語版。Rafael Manzoni氏は、CamelとESB/SOAプラットフォームを比較した場合のメリット/デメリットを議論し、また、最新のクラウドネイティブアプリケーションとそこでのCamelの適合性についても考えています。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[Apachel Camel and Kotlin: Extension functions in practice](https://medium.com/juntos-somos-mais/apachel-camel-e-kotlin-extension-functions-na-pr%C3%A1tica-d4401871b1c2) - In Portugese from December 2018. Willian Antunes blogs about unit testing Camel with Kotlin and Camel's advice with functionality.  
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[Apachel Camel and Kotlin: Extension functions in practice](https://medium.com/juntos-somos-mais/apachel-camel-e-kotlin-extension-functions-na-pr%C3%A1tica-d4401871b1c2) - 2018年12月からポルトガル語で。ウィリアン・アントゥネスは、KotlinでのCamelのユニットテストと、機能性を備えたCamelのアドバイスについてブログを書いています。  
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.</seg>
       </tuv>
       <tuv xml:lang="ja_JP">
