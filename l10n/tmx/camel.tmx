@@ -689,6 +689,192 @@ simplified interface, hiding all the low level details about how those connectio
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>[![Camel](/_/img/support.svg)](/community/support/)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[![Camel](/_/img/support.svg)](/community/support/)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Support</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>サポート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[![Camel](/_/img/support.svg)](/community/mailing-list/)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[![Camel](/_/img/support.svg)](/community/mailing-list/)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Mailing List</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>メーリングリスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>One way to get help is to use the Camel mailing lists. This allows the entire community to help with your problem. 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>助けを得るための一つの方法は、Camelのメーリングリストを利用することです。これにより、コミュニティ全体であなたの問題を解決することができます。 
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[![Camel](/_/img/contributing.svg)](/community/contributing/)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[![Camel](/_/img/contributing.svg)](/community/contributing/)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Contributing</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>貢献する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are many ways you can help make Camel better - please dive in and help!Identify areas you can contribute first. You don’t have to be an expert in an area, the Apache Camel developers are available to offer help and guidance.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>Camelをより良いものにするために、あなたができることはたくさんあります。ぜひ参加してください。その分野の専門家である必要はありません。Apache Camelの開発者が支援やガイダンスを提供します。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[![Camel](/_/img/user-stories.svg)](/community/user-stories/)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[![Camel](/_/img/user-stories.svg)](/community/user-stories/)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>User Stories</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>ユーザーストーリー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This page is intended as a place to collect user stories and feedback on Apache Camel. If you are using or have tried Apache Camel please add an entry or comment; or post to the mailing list.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>このページは、Apache Camelに関するユーザーストーリーやフィードバックを集めるための場所です。Apache Camelを使用している、または使用したことがある方は、エントリーやコメントを追加したり、メーリングリストに投稿してください。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[![Camel](/_/img/articles.svg)](/community/articles/)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[![Camel](/_/img/articles.svg)](/community/articles/)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Articles</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>記事</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Articles are divided into several sections. As the lists grow, further sectioning refinements may be necessary. The article section includes camel videos and general articles and other categories.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>記事はいくつかのセクションに分かれています。リストが増えてくると、さらにセクションの絞り込みが必要になるかもしれません。記事のセクションには、ラクダの動画や一般記事などのカテゴリーがあります。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[![Camel](/_/img/books.svg)](/community/books/)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[![Camel](/_/img/books.svg)](/community/books/)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Books</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>書籍</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This page lists the known books about Apache Camel. If you happen to know a book which is not listed then please contact us.
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>このページでは、Apache Camelに関する既知の書籍をリストアップしています。もし、このページに掲載されていない書籍をご存知でしたら、ご連絡ください。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[![Camel](/_/img/team.svg)](/community/team/)
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>[![Camel](/_/img/team.svg)](/community/team/)
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Team</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>チーム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This page lists who we are. By all means add yourself to the list - lets sort it in alphabetical order. When posting to the mailing lists, use plain text mails. Do not use HTML mails. 
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>このページでは、私たちが誰であるかをリストアップしています。是非、自分をリストに加えてください。アルファベット順に並べましょう。メーリングリストに投稿するときは、プレーンテキストのメールを使ってください。HTMLメールは使用しないでください。 
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.</seg>
       </tuv>
       <tuv xml:lang="ja_JP">
