@@ -1,6 +1,7 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/ja_JP/content/download/_index.md.po, 0, 9, 0, 193 ,100%
 l10n/po/ja_JP/content/docs/_index.md.po, 0, 35, 0, 371 ,100%
+l10n/po/ja_JP/content/community/articles.md.po, 0, 348, 0, 7690 ,100%
 l10n/po/ja_JP/content/community/_index.md.po, 1, 31, 2, 249 ,100%
 l10n/po/ja_JP/content/blog/_index.md.po, 0, 1, 0, 1 ,100%
 l10n/po/ja_JP/content/_index.md.po, 0, 57, 0, 389 ,100%
@@ -147,7 +148,6 @@ l10n/po/ja_JP/content/community/mailing-list.md.po, 6, 6, 278, 278 ,0%
 l10n/po/ja_JP/content/community/contributing.md.po, 73, 73, 1742, 1742 ,0%
 l10n/po/ja_JP/content/community/camel-extra.md.po, 2, 2, 24, 24 ,0%
 l10n/po/ja_JP/content/community/books.md.po, 49, 49, 1270, 1270 ,0%
-l10n/po/ja_JP/content/community/articles.md.po, 348, 348, 7690, 7690 ,0%
 l10n/po/ja_JP/content/blog/2021/07/rayvens/index.md.po, 6, 6, 110, 110 ,0%
 l10n/po/ja_JP/content/blog/2021/07/camel-openhtmltopdf/index.md.po, 5, 5, 128, 128 ,0%
 l10n/po/ja_JP/content/blog/2021/07/camel-k-release-1-5/index.md.po, 30, 30, 667, 667 ,0%
