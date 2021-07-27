@@ -42,9 +42,9 @@ msgstr "{{< div \"icon\" >}}\n"
 
 #. type: Plain text
 #: upstream/content/community/_index.md:10
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[![Camel](/_/img/support.svg)](/community/support/)\n"
-msgstr "[![キャメル](/_/img/support.svg)](/community/support/)\n"
+msgstr "[![Camel](/_/img/support.svg)](/community/support/)\n"
 
 #. type: Plain text
 #: upstream/content/community/_index.md:12
@@ -86,13 +86,13 @@ msgstr "{{< div \"content\" >}}\n"
 
 #. type: Title ##
 #: upstream/content/community/_index.md:15
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Support"
 msgstr "サポート"
 
 #. type: Plain text
 #: upstream/content/community/_index.md:21
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "If you are experiencing problems using Camel there are several channels available to seek help from the community.\n"
 "<p>\n"
@@ -101,30 +101,30 @@ msgid ""
 msgstr ""
 "Camelの使用中に問題が発生した場合、コミュニティからのサポートを求めるためのいくつかのチャンネルがあります。\n"
 "<p>\n"
-"<a class=\"button dark\" href=\"/community/support/\">続きを読む</a></p>\n"
-"\n"
+"<a class=\"button dark\" href=\"/community/support/\">続きを読む</a>\n"
+"</p>\n"
 
 #. type: Plain text
 #: upstream/content/community/_index.md:31
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[![Camel](/_/img/support.svg)](/community/mailing-list/)\n"
-msgstr "[![キャメル](/_/img/support.svg)](/community/mailing-list/)\n"
+msgstr "[![Camel](/_/img/support.svg)](/community/mailing-list/)\n"
 
 #. type: Title ##
 #: upstream/content/community/_index.md:36
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Mailing List"
 msgstr "メーリングリスト"
 
 #. type: Plain text
 #: upstream/content/community/_index.md:39
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "One way to get help is to use the Camel mailing lists. This allows the entire community to help with your problem. \n"
 msgstr "助けを得るための一つの方法は、Camelのメーリングリストを利用することです。これにより、コミュニティ全体であなたの問題を解決することができます。 \n"
 
 #. type: Plain text
 #: upstream/content/community/_index.md:43
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<p>\n"
 "<a class=\"button dark\" href=\"/community/mailing-list/\">Read More</a>\n"
@@ -136,25 +136,25 @@ msgstr ""
 
 #. type: Plain text
 #: upstream/content/community/_index.md:54
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[![Camel](/_/img/contributing.svg)](/community/contributing/)\n"
-msgstr "[![キャメル](/_/img/contributing.svg)](/community/contributing/)\n"
+msgstr "[![Camel](/_/img/contributing.svg)](/community/contributing/)\n"
 
 #. type: Title ##
 #: upstream/content/community/_index.md:59
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Contributing"
-msgstr "貢献度"
+msgstr "貢献する"
 
 #. type: Plain text
 #: upstream/content/community/_index.md:62
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "There are many ways you can help make Camel better - please dive in and help!Identify areas you can contribute first. You don’t have to be an expert in an area, the Apache Camel developers are available to offer help and guidance.\n"
 msgstr "Camelをより良いものにするために、あなたができることはたくさんあります。ぜひ参加してください。その分野の専門家である必要はありません。Apache Camelの開発者が支援やガイダンスを提供します。\n"
 
 #. type: Plain text
 #: upstream/content/community/_index.md:66
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<p>\n"
 "<a class=\"button dark\" href=\"/community/contributing/\">Read More</a>\n"
@@ -166,25 +166,25 @@ msgstr ""
 
 #. type: Plain text
 #: upstream/content/community/_index.md:76
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[![Camel](/_/img/user-stories.svg)](/community/user-stories/)\n"
-msgstr "[![キャメル](/_/img/user-stories.svg)](/community/user-stories/)\n"
+msgstr "[![Camel](/_/img/user-stories.svg)](/community/user-stories/)\n"
 
 #. type: Title ##
 #: upstream/content/community/_index.md:81
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "User Stories"
 msgstr "ユーザーストーリー"
 
 #. type: Plain text
 #: upstream/content/community/_index.md:84
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This page is intended as a place to collect user stories and feedback on Apache Camel. If you are using or have tried Apache Camel please add an entry or comment; or post to the mailing list.\n"
 msgstr "このページは、Apache Camelに関するユーザーストーリーやフィードバックを集めるための場所です。Apache Camelを使用している、または使用したことがある方は、エントリーやコメントを追加したり、メーリングリストに投稿してください。\n"
 
 #. type: Plain text
 #: upstream/content/community/_index.md:88
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<p>\n"
 "<a class=\"button dark\" href=\"/community/user-stories/\">Read More</a>\n"
@@ -196,19 +196,19 @@ msgstr ""
 
 #. type: Plain text
 #: upstream/content/community/_index.md:98
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[![Camel](/_/img/articles.svg)](/community/articles/)\n"
-msgstr "[![キャメル](/_/img/articles.svg)](/community/articles/)\n"
+msgstr "[![Camel](/_/img/articles.svg)](/community/articles/)\n"
 
 #. type: Title ##
 #: upstream/content/community/_index.md:103
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Articles"
 msgstr "記事"
 
 #. type: Plain text
 #: upstream/content/community/_index.md:106
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Articles are divided into several sections. As the lists grow, further sectioning refinements may be necessary. The article section includes camel videos and general articles and other categories.\n"
 msgstr "記事はいくつかのセクションに分かれています。リストが増えてくると、さらにセクションの絞り込みが必要になるかもしれません。記事のセクションには、ラクダの動画や一般記事などのカテゴリーがあります。\n"
 
@@ -226,25 +226,25 @@ msgstr ""
 
 #. type: Plain text
 #: upstream/content/community/_index.md:120
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[![Camel](/_/img/books.svg)](/community/books/)\n"
-msgstr "[![キャメル](/_/img/books.svg)](/community/books/)\n"
+msgstr "[![Camel](/_/img/books.svg)](/community/books/)\n"
 
 #. type: Title ##
 #: upstream/content/community/_index.md:125
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Books"
 msgstr "書籍"
 
 #. type: Plain text
 #: upstream/content/community/_index.md:128
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This page lists the known books about Apache Camel. If you happen to know a book which is not listed then please contact us.\n"
 msgstr "このページでは、Apache Camelに関する既知の書籍をリストアップしています。もし、このページに掲載されていない書籍をご存知でしたら、ご連絡ください。\n"
 
 #. type: Plain text
 #: upstream/content/community/_index.md:132
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<p>\n"
 "<a class=\"button dark\" href=\"/community/books/\">Read More</a>\n"
@@ -256,25 +256,25 @@ msgstr ""
 
 #. type: Plain text
 #: upstream/content/community/_index.md:142
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[![Camel](/_/img/team.svg)](/community/team/)\n"
-msgstr "[![キャメル](/_/img/team.svg)](/community/team/)\n"
+msgstr "[![Camel](/_/img/team.svg)](/community/team/)\n"
 
 #. type: Title ##
 #: upstream/content/community/_index.md:147
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Team"
 msgstr "チーム"
 
 #. type: Plain text
 #: upstream/content/community/_index.md:150
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This page lists who we are. By all means add yourself to the list - lets sort it in alphabetical order. When posting to the mailing lists, use plain text mails. Do not use HTML mails. \n"
-msgstr "このページでは、私たちが誰であるかをリストアップしています。是非、自分をリストに加えてください。アルファベット順に並べてみましょう。メーリングリストに投稿するときは、プレーンテキストメールを使ってください。HTMLメールは使用しないでください。 \n"
+msgstr "このページでは、私たちが誰であるかをリストアップしています。是非、自分をリストに加えてください。アルファベット順に並べましょう。メーリングリストに投稿するときは、プレーンテキストのメールを使ってください。HTMLメールは使用しないでください。 \n"
 
 #. type: Plain text
 #: upstream/content/community/_index.md:154
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<p>\n"
 "<a class=\"button dark\" href=\"/community/team/\">Read More</a>\n"
