@@ -537,9 +537,7 @@ msgstr "[Create a Custom Camel logging handler for WildFly ](http://www.masterth
 #: upstream/content/community/articles.md:171
 #, no-wrap
 msgid "[Jammazwan](https://github.com/jammazwan/jammazwan.x_index) - A set of many small examples to learn parts of Apache Camel more quickly\n"
-msgstr ""
-"<span>[Jammazwan](https://github.com/jammazwan/jammazwan.x_index) - Apache Camel の一部をより早く学ぶための、多くの小さな例題のセットです。</span><span><span>  \n"
-"</span>"
+msgstr "[Jammazwan](https://github.com/jammazwan/jammazwan.x_index) - Apache Camel の一部をより早く学ぶための、多くの小さな例題のセットです。\n"
 
 #. type: Bullet: '*   '
 #: upstream/content/community/articles.md:171
@@ -1475,9 +1473,7 @@ msgstr "[IoT gateway dream team - Eclipse Kura and Apache Camel](https://www.you
 #: upstream/content/community/articles.md:271
 #, no-wrap
 msgid "[The IoT in the service of the environment using Apache Camel & JBoss A-MQ](https://github.com/abouchama/camel-example-IoT-MQTT/blob/master/ReadMe.md) - blog post by <span>Abdellatif Bouchama from June 2015 how Apache Camel doing IoT to help measure air quality in the streets of France\n"
-msgstr ""
-"The IoT in service of environment using Apache Camel &amp; JBoss A-MQ](https://github.com/abouchama/camel-example-IoT-MQTT/blob/master/ReadMe.md) -<span>2015年6月のAbdellatif Bouchama</span>氏によるブログ記事<span>「Apache Camel doing IoT to help air quality in the street of France</span>」。<span>\n"
-"</span>"
+msgstr "[The IoT in service of environment using Apache Camel & JBoss A-MQ](https://github.com/abouchama/camel-example-IoT-MQTT/blob/master/ReadMe.md) - 2015年6月のAbdellatif Bouchama氏によるブログ記事「Apache Camel doing IoT to help air quality in the street of France」。\n"
 
 #. type: Bullet: '*   '
 #: upstream/content/community/articles.md:271
@@ -1687,8 +1683,7 @@ msgstr "[Developing, Testing and Scaling with Apache Camel](http://raibledesigns
 #: upstream/content/community/articles.md:313
 #, no-wrap
 msgid "[Apache Camel Introduction & What's in the box](http://www.slideshare.net/davsclaus/apache-camel-introduction-whats-in-the-box) - <span style=\"line-height: 1.42857;\">Slides from JavaBin talk in Grimstad Norway, presented by Claus Ibsen in February 2016. This slide deck is full up to date with latest Apache Camel 2.16.2 release and includes additional slides to present many of the features that Apache Camel provides out of the box.\n"
-msgstr ""
-"Apache Camel Introduction &amp; What's in the box](http://www.slideshare.net/davsclaus/apache-camel-introduction-whats-in-the-box) -<span style=\"line-height: 1.42857;\">2016年2月にClaus IbsenがノルウェーのGrimstadで行ったJavaBin講演のスライド</span>です。<span style=\"line-height: 1.42857;\">このスライドデッキは、最新のApache Camel 2.16.2のリリースに対応しており、Apache Camelがすぐに提供する多くの機能を紹介する追加スライドも含まれています。\n"
+msgstr "[Apache Camel Introduction & What's in the box](http://www.slideshare.net/davsclaus/apache-camel-introduction-whats-in-the-box) -<span style=\"line-height: 1.42857;\">2016年2月にClaus IbsenがノルウェーのGrimstadで行ったJavaBin講演のスライドです。このスライドデッキは、最新のApache Camel 2.16.2のリリースに対応しており、Apache Camelがすぐに提供する多くの機能を紹介する追加スライドも含まれています。\n"
 "</span>"
 
 #. type: Bullet: '*   '
@@ -1827,9 +1822,7 @@ msgstr "[CamelとKubernetesによる登録システムの構築](https://www.man
 #: upstream/content/community/articles.md:343
 #, no-wrap
 msgid "[Introduction to Apache Camel](http://www.pluralsight.com/courses/apache-camel-intro-integration) - Pluralsight o<span style=\"color: rgb(34,34,34);\">nline <span style=\"color: rgb(34,34,34);\">training course covering the core Camel framework, pattern implementations <span style=\"color: rgb(34,34,34);\">and [hawt.io](http://hawt.io/) \n"
-msgstr ""
-"Introduction to Apache Camel](http://www.pluralsight.com/courses/apache-camel-intro-integration) - Pluralsightの<span style=\"color: rgb(34,34,34);\"> <span style=\"color: rgb(34,34,34);\">オンライントレーニングコースでは、Camelのコアフレームワーク、パターンの実装<span style=\"color: rgb(34,34,34);\">、[hawt.io](http://hawt.io/</span></span></span>)<span style=\"color: rgb(34,34,34);\"> <span style=\"color: rgb(34,34,34);\">をカバーしています</span></span>。<span style=\"color: rgb(34,34,34);\"> <span style=\"color: rgb(34,34,34);\"> <span style=\"color: rgb(34,34,34);\">\n"
-"</span></span></span>"
+msgstr "[Introduction to Apache Camel](http://www.pluralsight.com/courses/apache-camel-intro-integration) - Pluralsightのオンライントレーニングコースでは、Camelのコアフレームワーク、パターンの実装、[hawt.io](http://hawt.io/)をカバーしています。\n"
 
 #. type: Bullet: '*   '
 #: upstream/content/community/articles.md:343
