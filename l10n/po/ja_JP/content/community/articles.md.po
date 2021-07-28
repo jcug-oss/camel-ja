@@ -1684,7 +1684,6 @@ msgstr "[Developing, Testing and Scaling with Apache Camel](http://raibledesigns
 #, no-wrap
 msgid "[Apache Camel Introduction & What's in the box](http://www.slideshare.net/davsclaus/apache-camel-introduction-whats-in-the-box) - <span style=\"line-height: 1.42857;\">Slides from JavaBin talk in Grimstad Norway, presented by Claus Ibsen in February 2016. This slide deck is full up to date with latest Apache Camel 2.16.2 release and includes additional slides to present many of the features that Apache Camel provides out of the box.\n"
 msgstr "[Apache Camel Introduction & What's in the box](http://www.slideshare.net/davsclaus/apache-camel-introduction-whats-in-the-box) -<span style=\"line-height: 1.42857;\">2016年2月にClaus IbsenがノルウェーのGrimstadで行ったJavaBin講演のスライドです。このスライドデッキは、最新のApache Camel 2.16.2のリリースに対応しており、Apache Camelがすぐに提供する多くの機能を紹介する追加スライドも含まれています。\n"
-"</span>"
 
 #. type: Bullet: '*   '
 #: upstream/content/community/articles.md:313
