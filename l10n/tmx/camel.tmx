@@ -1619,8 +1619,8 @@ simplified interface, hiding all the low level details about how those connectio
 </seg>
       </tuv>
       <tuv xml:lang="ja_JP">
-        <seg>&lt;span&gt;[Jammazwan](https://github.com/jammazwan/jammazwan.x_index) - Apache Camel の一部をより早く学ぶための、多くの小さな例題のセットです。&lt;/span&gt;&lt;span&gt;&lt;span&gt;  
-&lt;/span&gt;</seg>
+        <seg>[Jammazwan](https://github.com/jammazwan/jammazwan.x_index) - Apache Camel の一部をより早く学ぶための、多くの小さな例題のセットです。
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -3053,8 +3053,8 @@ simplified interface, hiding all the low level details about how those connectio
 </seg>
       </tuv>
       <tuv xml:lang="ja_JP">
-        <seg>The IoT in service of environment using Apache Camel &amp;amp; JBoss A-MQ](https://github.com/abouchama/camel-example-IoT-MQTT/blob/master/ReadMe.md) -&lt;span&gt;2015年6月のAbdellatif Bouchama&lt;/span&gt;氏によるブログ記事&lt;span&gt;「Apache Camel doing IoT to help air quality in the street of France&lt;/span&gt;」。&lt;span&gt;
-&lt;/span&gt;</seg>
+        <seg>[The IoT in service of environment using Apache Camel &amp; JBoss A-MQ](https://github.com/abouchama/camel-example-IoT-MQTT/blob/master/ReadMe.md) - 2015年6月のAbdellatif Bouchama氏によるブログ記事「Apache Camel doing IoT to help air quality in the street of France」。
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -3341,7 +3341,7 @@ simplified interface, hiding all the low level details about how those connectio
 </seg>
       </tuv>
       <tuv xml:lang="ja_JP">
-        <seg>Apache Camel Introduction &amp;amp; What's in the box](http://www.slideshare.net/davsclaus/apache-camel-introduction-whats-in-the-box) -&lt;span style="line-height: 1.42857;"&gt;2016年2月にClaus IbsenがノルウェーのGrimstadで行ったJavaBin講演のスライド&lt;/span&gt;です。&lt;span style="line-height: 1.42857;"&gt;このスライドデッキは、最新のApache Camel 2.16.2のリリースに対応しており、Apache Camelがすぐに提供する多くの機能を紹介する追加スライドも含まれています。
+        <seg>[Apache Camel Introduction &amp; What's in the box](http://www.slideshare.net/davsclaus/apache-camel-introduction-whats-in-the-box) -&lt;span style="line-height: 1.42857;"&gt;2016年2月にClaus IbsenがノルウェーのGrimstadで行ったJavaBin講演のスライドです。このスライドデッキは、最新のApache Camel 2.16.2のリリースに対応しており、Apache Camelがすぐに提供する多くの機能を紹介する追加スライドも含まれています。
 &lt;/span&gt;</seg>
       </tuv>
     </tu>
@@ -3557,8 +3557,8 @@ simplified interface, hiding all the low level details about how those connectio
 </seg>
       </tuv>
       <tuv xml:lang="ja_JP">
-        <seg>Introduction to Apache Camel](http://www.pluralsight.com/courses/apache-camel-intro-integration) - Pluralsightの&lt;span style="color: rgb(34,34,34);"&gt; &lt;span style="color: rgb(34,34,34);"&gt;オンライントレーニングコースでは、Camelのコアフレームワーク、パターンの実装&lt;span style="color: rgb(34,34,34);"&gt;、[hawt.io](http://hawt.io/&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;)&lt;span style="color: rgb(34,34,34);"&gt; &lt;span style="color: rgb(34,34,34);"&gt;をカバーしています&lt;/span&gt;&lt;/span&gt;。&lt;span style="color: rgb(34,34,34);"&gt; &lt;span style="color: rgb(34,34,34);"&gt; &lt;span style="color: rgb(34,34,34);"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;</seg>
+        <seg>[Introduction to Apache Camel](http://www.pluralsight.com/courses/apache-camel-intro-integration) - Pluralsightのオンライントレーニングコースでは、Camelのコアフレームワーク、パターンの実装、[hawt.io](http://hawt.io/)をカバーしています。
+</seg>
       </tuv>
     </tu>
     <tu>
