@@ -3342,7 +3342,7 @@ simplified interface, hiding all the low level details about how those connectio
       </tuv>
       <tuv xml:lang="ja_JP">
         <seg>[Apache Camel Introduction &amp; What's in the box](http://www.slideshare.net/davsclaus/apache-camel-introduction-whats-in-the-box) -&lt;span style="line-height: 1.42857;"&gt;2016年2月にClaus IbsenがノルウェーのGrimstadで行ったJavaBin講演のスライドです。このスライドデッキは、最新のApache Camel 2.16.2のリリースに対応しており、Apache Camelがすぐに提供する多くの機能を紹介する追加スライドも含まれています。
-&lt;/span&gt;</seg>
+</seg>
       </tuv>
     </tu>
     <tu>
