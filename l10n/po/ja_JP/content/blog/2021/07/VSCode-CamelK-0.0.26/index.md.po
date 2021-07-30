@@ -18,175 +18,175 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New release of VS Code Tooling support for Apache Camel K 0.0.26: Camel K 1.5.0 compatibility and Code Lenses"
-msgstr ""
+msgstr "Apache Camel K 0.0.26をサポートするVS Code Toolingの新リリース：Camel K 1.5.0との互換性とCode Lenses"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New release of VS Code Tooling support for Apache Camel K 0.0.26"
-msgstr ""
+msgstr "VS Code Toolingの新リリースでApache Camel K 0.0.26をサポート。"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A new release of [VS Code Tooling support for Apache Camel K](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-camelk) 0.0.26 is available. It notably includes compatibility with Camel K 1.5.0 and Code Lenses.\n"
-msgstr ""
+msgstr "新しいリリースの[VS Code Tooling support for Apache Camel K](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-camelk) 0.0.26 が利用可能です。特筆すべきは、Camel K 1.5.0 と Code Lenses との互換性です。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Compatibility with Camel K 1.5.0"
-msgstr ""
+msgstr "Camel K 1.5.0との互換性"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Camel K binary provided by default is now 1.5.0. The commands are using the new API.\n"
-msgstr ""
+msgstr "デフォルトで提供されているCamel Kのバイナリが1.5.0になりました。コマンドは新しいAPIを使用しています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Note: It is working too with Camel K 1.4.0 productized by Red Hat. The needed features were backported.\n"
-msgstr ""
+msgstr "注：Red Hat社が開発したCamel K 1.4.0でも動作します。必要な機能はバックポートされています。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Code Lenses"
-msgstr ""
+msgstr "コードレンズ"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A Code Lens is an information provided inside text editor. It is often used to provide also actions. This release introduces two Code Lenses in Camel K files.\n"
-msgstr ""
+msgstr "コードレンズは、テキストエディターの中で提供される情報です。アクションを提供するためによく使われます。今回のリリースでは、Camel Kファイルに2つのコードレンズを導入しました。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Code Lens to Start an Integration"
-msgstr ""
+msgstr "統合を開始するコードレンズ"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "When a Camel K file is opened in the text editor, a `Start` link appears at the top of the editor. When clicking on it, it triggers the classic command to `Start a Camel K integration` which is available from command palette.\n"
-msgstr ""
+msgstr "Camel Kのファイルをテキストエディタで開くと、エディタの上部に「Start」というリンクが表示されます。このリンクをクリックすると、コマンドパレットから利用できる「Camel Kの統合を開始する」という古典的なコマンドが起動します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Start an integration using Code Lens](./codelensToStartIntegration-yaml.gif)\n"
-msgstr ""
+msgstr "![コードレンズを使った統合の開始](./codelensToStartIntegration-yaml.gif)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Note: The Camel K file must use a *.camelk.* filename notation or have a Camel K modeline.\n"
-msgstr ""
+msgstr "注：Camel Kファイルは、*.camelk.*のファイル名表記を使用するか、Camel K modelineが必要です。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Code Lens to Refresh Classpath dependencies"
-msgstr ""
+msgstr "クラスパスの依存性をリフレッシュするコードレンズ"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In previous release, a command was introduced to refresh the classpath dependencies of Camel K integration files written in Java. See [announcement](/blog/2021/05/vscode-camel-release/#command-to-update-dependencies-of-camel-k-integration). There is now a Code Lens at the top of the editor.\n"
-msgstr ""
+msgstr "以前のリリースでは、Javaで書かれたCamel K統合ファイルのクラスパスの依存関係を更新するコマンドが導入されました。announcement](/blog/2021/05/vscode-camel-release/#command-to-update-dependencies-of-camel-k-integration)をご覧ください。エディタの上部に Code Lens が追加されました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Code Lens to refresh classpath dependencies](refreshClasspathDependencies.gif)\n"
-msgstr ""
+msgstr "![クラスパスの依存関係を更新するコードレンズ](refreshClasspathDependencies.gif)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Note: The action can take several seconds. There is no feedback on the progress, please be patient.\n"
-msgstr ""
+msgstr "注意：アクションは数秒かかることがあります。進行状況のフィードバックはありませんので、しばらくお待ちください。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Migration"
-msgstr ""
+msgstr "マイグレーション"
 
 #. type: Title ##
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:39
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Didact tutorial fix"
-msgstr ""
+msgstr "ディダクトチュートリアル修正"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For users that upgrade and that are using Didact, to have a working tutorial, these manipulations are required:\n"
-msgstr ""
+msgstr "アップグレードしたユーザーやDidactを使用しているユーザーが、チュートリアルを動作させるためには、これらの操作が必要です。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Update VS Code Didact extension to 0.0.4\n"
-msgstr ""
+msgstr "VS Code Didactエクステンションを0.0.4に更新\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Remove VS Code Tooling for Camel K\n"
-msgstr ""
+msgstr "VS Code Tooling for Camel Kの削除\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Shutdown and start again VS Code\n"
-msgstr ""
+msgstr "シャットダウンと再起動 VSコード\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Open command palette and call `Didact: Clear Tutorial Registry`\n"
-msgstr ""
+msgstr "コマンドパレットを開き、「Didact」を呼び出します。Clear Tutorial Registry`を実行してください。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Install VS Code Tooling for Camel K 0.0.26\n"
-msgstr ""
+msgstr "VS Code Tooling for Camel K 0.0.26のインストール\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Reload window\n"
-msgstr ""
+msgstr "ウィンドウの再読み込み\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "VS Code Camel K Task about resource"
-msgstr ""
+msgstr "VSコード キャメルK タスク リソースについて"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "To allow providing several resources, the `resource` attribute has been replaced by `resources`.\n"
-msgstr ""
+msgstr "複数のリソースを提供できるように、`resource` 属性は `resources` に変更されました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For instance, this content:\n"
-msgstr ""
+msgstr "例えば、このコンテンツ。\n"
 
 #. type: Fenced code block (json)
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\"tasks\": [\n"
 "\t\t{\n"
@@ -195,16 +195,22 @@ msgid ""
 "\t\t\t(...)\n"
 "\t\t},\n"
 msgstr ""
+"\"tasks\" (タスク)[\n"
+"\t\t{\n"
+"\t\t\t\"type\":\"camel-k\",\n"
+"\t\t\t\"resource\":\"path/to/file.xx\" です。\n"
+"\t\t\t(...)\n"
+"\t\t},\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "must be migrated to:\n"
-msgstr ""
+msgstr "に移行しなければなりません。\n"
 
 #. type: Fenced code block (json)
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:68
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\"tasks\": [\n"
 "\t\t{\n"
@@ -213,33 +219,39 @@ msgid ""
 "\t\t\t(...)\n"
 "\t\t},\n"
 msgstr ""
+"\"tasks\" (タスク)[\n"
+"\t\t{\n"
+"\t\t\t\"type\":\"camel-k\",\n"
+"\t\t\t\"resources\":[\"path/to/file.xx\"],\n"
+"\t\t\t(...)\n"
+"\t\t},\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:77
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's next?"
-msgstr ""
+msgstr "次は何ですか？"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:80
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Provide your feedback and ideas!\n"
-msgstr ""
+msgstr "ご意見・ご感想をお聞かせください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:82
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can start discussions on [Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling).\n"
-msgstr ""
+msgstr "Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling)で議論を始めることができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:84
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can create and vote for issues on GitHub [VS Code Tooling support for Apache Camel K](https://github.com/camel-tooling/vscode-camelk/issues) repositories.\n"
-msgstr ""
+msgstr "GitHub [VS Code Tooling support for Apache Camel K](https://github.com/camel-tooling/vscode-camelk/issues)のリポジトリに課題を作成し、投票することができます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:85
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can create and vote for issues on the [Jira](https://issues.redhat.com/browse/FUSETOOLS2) used by the Red Hat Integration tooling team.\n"
-msgstr ""
+msgstr "Red Hat Integration tooling teamが使用している[Jira](https://issues.redhat.com/browse/FUSETOOLS2)では、課題の作成や投票を行うことができます。\n"
