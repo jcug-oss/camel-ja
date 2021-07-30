@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-07-24 15:18+0000\n"
+"POT-Creation-Date: 2021-07-30 03:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,83 +96,83 @@ msgstr "以下のスクリーンキャストでは、実際にその様子をご
 #. type: Plain text
 #: upstream/content/blog/2021/07/camel-jbang/index.md:36
 #, fuzzy, no-wrap
-msgid "[![asciicast](https://asciinema.org/a/426328.svg)](https://asciinema.org/a/426328)\n"
+msgid "[![asciicast](install.svg)](https://asciinema.org/a/426328)\n"
 msgstr "[![asciicast](https://asciinema.org/a/426328.svg)](https://asciinema.org/a/426328)\n"
 
 #. type: Title #
-#: upstream/content/blog/2021/07/camel-jbang/index.md:37
+#: upstream/content/blog/2021/07/camel-jbang/index.md:38
 #, fuzzy, no-wrap
 msgid "Search Feature"
 msgstr "検索機能"
 
 #. type: Plain text
-#: upstream/content/blog/2021/07/camel-jbang/index.md:40
+#: upstream/content/blog/2021/07/camel-jbang/index.md:41
 #, fuzzy, no-wrap
 msgid "With Camel JBang installed, there are a few features currently available that we can make use of. For example, it's possible to search for kamelets, components, languages and others (miscellaneous components). This is shown on the following set of screencasts:\n"
 msgstr "Camel JBangをインストールすると、現在利用できる機能がいくつかあります。例えば、カメレット、コンポーネント、言語、その他(雑多なコンポーネント)を検索することができます。以下のスクリーンキャストで紹介しています。\n"
 
 #. type: Bullet: '* '
-#: upstream/content/blog/2021/07/camel-jbang/index.md:42
+#: upstream/content/blog/2021/07/camel-jbang/index.md:43
 #, fuzzy, no-wrap
 msgid "Searching for Kamelets:\n"
 msgstr "カメレを探す。\n"
 
 #. type: Plain text
-#: upstream/content/blog/2021/07/camel-jbang/index.md:44
+#: upstream/content/blog/2021/07/camel-jbang/index.md:45
 #, fuzzy, no-wrap
-msgid "[![asciicast](https://asciinema.org/a/426334.svg)](https://asciinema.org/a/426334)\n"
+msgid "[![asciicast](search-kamelets.svg)](https://asciinema.org/a/426334)\n"
 msgstr "[![asciicast](https://asciinema.org/a/426334.svg)](https://asciinema.org/a/426334)\n"
 
 #. type: Bullet: '* '
-#: upstream/content/blog/2021/07/camel-jbang/index.md:46
+#: upstream/content/blog/2021/07/camel-jbang/index.md:47
 #, fuzzy, no-wrap
 msgid "Searching for Components:\n"
 msgstr "コンポーネントを探す。\n"
 
 #. type: Plain text
-#: upstream/content/blog/2021/07/camel-jbang/index.md:48
+#: upstream/content/blog/2021/07/camel-jbang/index.md:49
 #, fuzzy, no-wrap
-msgid "[![asciicast](https://asciinema.org/a/426340.svg)](https://asciinema.org/a/426340)\n"
+msgid "[![asciicast](search-components.svg)](https://asciinema.org/a/426340)\n"
 msgstr "[![asciicast](https://asciinema.org/a/426340.svg)](https://asciinema.org/a/426340)\n"
 
 #. type: Bullet: '* '
-#: upstream/content/blog/2021/07/camel-jbang/index.md:50
+#: upstream/content/blog/2021/07/camel-jbang/index.md:51
 #, fuzzy, no-wrap
 msgid "Searching for Languages:\n"
 msgstr "言語を検索する。\n"
 
 #. type: Plain text
-#: upstream/content/blog/2021/07/camel-jbang/index.md:52
+#: upstream/content/blog/2021/07/camel-jbang/index.md:53
 #, fuzzy, no-wrap
-msgid "[![asciicast](https://asciinema.org/a/426341.svg)](https://asciinema.org/a/426341)\n"
+msgid "[![asciicast](search-languages.svg)](https://asciinema.org/a/426341)\n"
 msgstr "[![asciicast](https://asciinema.org/a/426341.svg)](https://asciinema.org/a/426341)\n"
 
 #. type: Bullet: '* '
-#: upstream/content/blog/2021/07/camel-jbang/index.md:54
+#: upstream/content/blog/2021/07/camel-jbang/index.md:55
 #, fuzzy, no-wrap
 msgid "Searching for miscellaneous components:\n"
 msgstr "雑多な部品を探す。\n"
 
 #. type: Plain text
-#: upstream/content/blog/2021/07/camel-jbang/index.md:56
+#: upstream/content/blog/2021/07/camel-jbang/index.md:57
 #, fuzzy, no-wrap
-msgid "[![asciicast](https://asciinema.org/a/426342.svg)](https://asciinema.org/a/426342)\n"
+msgid "[![asciicast](search-others.svg)](https://asciinema.org/a/426342)\n"
 msgstr "[![asciicast](https://asciinema.org/a/426342.svg)](https://asciinema.org/a/426342)\n"
 
 #. type: Title #
-#: upstream/content/blog/2021/07/camel-jbang/index.md:57
+#: upstream/content/blog/2021/07/camel-jbang/index.md:58
 #, fuzzy, no-wrap
 msgid "Kamelet Support and Running Routes"
 msgstr "カメレットサポートとランニングルート"
 
 #. type: Plain text
-#: upstream/content/blog/2021/07/camel-jbang/index.md:60
+#: upstream/content/blog/2021/07/camel-jbang/index.md:61
 #, fuzzy, no-wrap
 msgid "Searching is not the only cool feature of Camel JBang. We can also leverage one of the hottest new features in Camel and use Kamelets in our routes. For example, it's possible to write a YAML file that references to one of the Kamelets in the catalog and use it as a sink/source for an endpoint. We have a couple of [examples](https://github.com/apache/camel/tree/b0bada2f41029cd8496db4defc09b3a48b403ad4/dsl/camel-jbang/camel-jbang-main/examples) in the code base, so let's look at one that produces messages at a periodic interval and publishes them on a JMS broker using the AMQP 1.0 protocol:\n"
 msgstr "Camel JBangのクールな機能は検索だけではありません。Camelの最もホットな新機能の一つであるKameletをルートに利用することもできます。例えば、カタログ内のカメレを参照するYAMLファイルを書き、それをエンドポイントのシンク/ソースとして使用することができます。コードベースにはいくつかの[examples](https://github.com/apache/camel/tree/b0bada2f41029cd8496db4defc09b3a48b403ad4/dsl/camel-jbang/camel-jbang-main/examples)がありますので、AMQP 1.0プロトコルを使用して、定期的な間隔でメッセージを生成し、JMSブローカに公開するものを見てみましょう。\n"
 
 #. type: Fenced code block
-#: upstream/content/blog/2021/07/camel-jbang/index.md:61
+#: upstream/content/blog/2021/07/camel-jbang/index.md:62
 #, fuzzy, no-wrap
 msgid ""
 "- route:\n"
@@ -204,31 +204,31 @@ msgstr ""
 "            送信先名: テストキュー\n"
 
 #. type: Plain text
-#: upstream/content/blog/2021/07/camel-jbang/index.md:78
+#: upstream/content/blog/2021/07/camel-jbang/index.md:79
 #, fuzzy, no-wrap
 msgid "The screencast below shows Camel JBang consuming and producing from a JMS broker, using the sink and source Kamelets:\n"
 msgstr "以下のスクリーンキャストは、Camel JBangがシンクとソースのKameletを使って、JMSブローカーから消費と生産を行っている様子を示しています。\n"
 
 #. type: Plain text
-#: upstream/content/blog/2021/07/camel-jbang/index.md:80
+#: upstream/content/blog/2021/07/camel-jbang/index.md:81
 #, fuzzy, no-wrap
-msgid "[![asciicast](https://asciinema.org/a/426344.svg)](https://asciinema.org/a/426344)\n"
+msgid "[![asciicast](running.svg)](https://asciinema.org/a/426344)\n"
 msgstr "[![asciicast](https://asciinema.org/a/426344.svg)](https://asciinema.org/a/426344)\n"
 
 #. type: Plain text
-#: upstream/content/blog/2021/07/camel-jbang/index.md:82
+#: upstream/content/blog/2021/07/camel-jbang/index.md:83
 #, fuzzy, no-wrap
 msgid "All in all, these features make it fairly easy to find and try new components; try and reuse Kamelets from the catalog; and experiment with Apache Camel in ways that were not possible in the past.\n"
 msgstr "これらの機能により、新しいコンポーネントを見つけて試したり、カタログに載っているKameletを試して再利用したり、過去にはできなかった方法でApache Camelを試したりすることがかなり容易になりました。\n"
 
 #. type: Title #
-#: upstream/content/blog/2021/07/camel-jbang/index.md:83
+#: upstream/content/blog/2021/07/camel-jbang/index.md:84
 #, fuzzy, no-wrap
 msgid "Thanks"
 msgstr "ありがとうございます。"
 
 #. type: Plain text
-#: upstream/content/blog/2021/07/camel-jbang/index.md:85
+#: upstream/content/blog/2021/07/camel-jbang/index.md:86
 #, fuzzy, no-wrap
 msgid "Our community is continuously exploring new ideas to improve our projects and make them accessible and easy to use. If you have any ideas about how we can extend and improve Camel JBang, as well as any of our sub-projects, we would be happy to hear about it on our [mailing list](/community/mailing-list/), our [official chat](https://camel.zulipchat.com/) or by filing an issue on [Camel Github repository](https://github.com/apache/camel).\n"
 msgstr "私たちのコミュニティは、私たちのプロジェクトを改善し、アクセス可能で使いやすいものにするための新しいアイデアを常に模索しています。Camel JBangやサブプロジェクトをどのように拡張・改善していくかについてのアイデアがあれば、[メーリングリスト](/community/mailing-list/)、[公式チャット](https://camel.zulipchat.com/)、または[Camel Githubリポジトリ](https://github.com/apache/camel)に課題を提出することで、喜んでお聞きします。\n"

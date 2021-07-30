@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-30 03:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:1
+#, no-wrap
+msgid "New release of VS Code Tooling support for Apache Camel K 0.0.26: Camel K 1.5.0 compatibility and Code Lenses"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:1
+#, no-wrap
+msgid "New release of VS Code Tooling support for Apache Camel K 0.0.26"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:10
+#, no-wrap
+msgid "A new release of [VS Code Tooling support for Apache Camel K](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-camelk) 0.0.26 is available. It notably includes compatibility with Camel K 1.5.0 and Code Lenses.\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:11
+#, no-wrap
+msgid "Compatibility with Camel K 1.5.0"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:14
+#, no-wrap
+msgid "The Camel K binary provided by default is now 1.5.0. The commands are using the new API.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:16
+#, no-wrap
+msgid "Note: It is working too with Camel K 1.4.0 productized by Red Hat. The needed features were backported.\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:17
+#, no-wrap
+msgid "Code Lenses"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:20
+#, no-wrap
+msgid "A Code Lens is an information provided inside text editor. It is often used to provide also actions. This release introduces two Code Lenses in Camel K files.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:21
+#, no-wrap
+msgid "Code Lens to Start an Integration"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:24
+#, no-wrap
+msgid "When a Camel K file is opened in the text editor, a `Start` link appears at the top of the editor. When clicking on it, it triggers the classic command to `Start a Camel K integration` which is available from command palette.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:26
+#, no-wrap
+msgid "![Start an integration using Code Lens](./codelensToStartIntegration-yaml.gif)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:28
+#, no-wrap
+msgid "Note: The Camel K file must use a *.camelk.* filename notation or have a Camel K modeline.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:29
+#, no-wrap
+msgid "Code Lens to Refresh Classpath dependencies"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:32
+#, no-wrap
+msgid "In previous release, a command was introduced to refresh the classpath dependencies of Camel K integration files written in Java. See [announcement](/blog/2021/05/vscode-camel-release/#command-to-update-dependencies-of-camel-k-integration). There is now a Code Lens at the top of the editor.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:34
+#, no-wrap
+msgid "![Code Lens to refresh classpath dependencies](refreshClasspathDependencies.gif)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:36
+#, no-wrap
+msgid "Note: The action can take several seconds. There is no feedback on the progress, please be patient.\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:37
+#, no-wrap
+msgid "Migration"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:39
+#, no-wrap
+msgid "Didact tutorial fix"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:42
+#, no-wrap
+msgid "For users that upgrade and that are using Didact, to have a working tutorial, these manipulations are required:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:50
+#, no-wrap
+msgid "Update VS Code Didact extension to 0.0.4\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:50
+#, no-wrap
+msgid "Remove VS Code Tooling for Camel K\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:50
+#, no-wrap
+msgid "Shutdown and start again VS Code\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:50
+#, no-wrap
+msgid "Open command palette and call `Didact: Clear Tutorial Registry`\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:50
+#, no-wrap
+msgid "Install VS Code Tooling for Camel K 0.0.26\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:50
+#, no-wrap
+msgid "Reload window\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:51
+#, no-wrap
+msgid "VS Code Camel K Task about resource"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:54
+#, no-wrap
+msgid "To allow providing several resources, the `resource` attribute has been replaced by `resources`.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:56
+#, no-wrap
+msgid "For instance, this content:\n"
+msgstr ""
+
+#. type: Fenced code block (json)
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:57
+#, no-wrap
+msgid ""
+"\"tasks\": [\n"
+"\t\t{\n"
+"\t\t\t\"type\": \"camel-k\",\n"
+"\t\t\t\"resource\": \"path/to/file.xx\",\n"
+"\t\t\t(...)\n"
+"\t\t},\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:67
+#, no-wrap
+msgid "must be migrated to:\n"
+msgstr ""
+
+#. type: Fenced code block (json)
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:68
+#, no-wrap
+msgid ""
+"\"tasks\": [\n"
+"\t\t{\n"
+"\t\t\t\"type\": \"camel-k\",\n"
+"\t\t\t\"resources\": [\"path/to/file.xx\"],\n"
+"\t\t\t(...)\n"
+"\t\t},\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:77
+#, no-wrap
+msgid "What's next?"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:80
+#, no-wrap
+msgid "Provide your feedback and ideas!\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:82
+#, no-wrap
+msgid "You can start discussions on [Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling).\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:84
+#, no-wrap
+msgid "You can create and vote for issues on GitHub [VS Code Tooling support for Apache Camel K](https://github.com/camel-tooling/vscode-camelk/issues) repositories.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/07/VSCode-CamelK-0.0.26/index.md:85
+#, no-wrap
+msgid "You can create and vote for issues on the [Jira](https://issues.redhat.com/browse/FUSETOOLS2) used by the Red Hat Integration tooling team.\n"
+msgstr ""
