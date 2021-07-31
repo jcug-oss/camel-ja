@@ -1,11 +1,9 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
-l10n/po/ja_JP/content/releases/q/release-2.1.0.md.po, 0, 1, 0, 4 ,100%
 l10n/po/ja_JP/content/download/_index.md.po, 0, 9, 0, 193 ,100%
 l10n/po/ja_JP/content/docs/_index.md.po, 0, 35, 0, 371 ,100%
 l10n/po/ja_JP/content/community/articles.md.po, 0, 348, 0, 7690 ,100%
 l10n/po/ja_JP/content/community/_index.md.po, 1, 31, 2, 249 ,100%
 l10n/po/ja_JP/content/blog/_index.md.po, 0, 1, 0, 1 ,100%
-l10n/po/ja_JP/content/blog/2021/07/camel-quarkus-release-2.1.0/index.md.po, 0, 21, 0, 180 ,100%
 l10n/po/ja_JP/content/_index.md.po, 0, 57, 0, 389 ,100%
 l10n/po/ja_JP/content/blog/2019/10/Camel3-2monthsaway/CamelK-CNCF-Landscape/index.md.po, 3, 4, 51, 58 ,13%
 l10n/po/ja_JP/content/blog/2020/10/ApacheCon-at-Home-videos/index.md.po, 51, 65, 453, 495 ,9%
@@ -108,6 +106,7 @@ l10n/po/ja_JP/content/releases/release-2.18.3.md.po, 3, 3, 18, 18 ,0%
 l10n/po/ja_JP/content/releases/release-2.18.2.md.po, 3, 3, 18, 18 ,0%
 l10n/po/ja_JP/content/releases/release-2.18.1.md.po, 3, 3, 18, 18 ,0%
 l10n/po/ja_JP/content/releases/release-2.18.0.md.po, 6, 6, 1700, 1700 ,0%
+l10n/po/ja_JP/content/releases/q/release-2.1.0.md.po, 1, 1, 4, 4 ,0%
 l10n/po/ja_JP/content/releases/q/release-2.0.0.md.po, 1, 1, 4, 4 ,0%
 l10n/po/ja_JP/content/releases/q/release-1.8.1.md.po, 1, 1, 4, 4 ,0%
 l10n/po/ja_JP/content/releases/q/release-1.8.0.md.po, 1, 1, 4, 4 ,0%
@@ -151,6 +150,7 @@ l10n/po/ja_JP/content/community/contributing.md.po, 73, 73, 1742, 1742 ,0%
 l10n/po/ja_JP/content/community/camel-extra.md.po, 2, 2, 24, 24 ,0%
 l10n/po/ja_JP/content/community/books.md.po, 49, 49, 1270, 1270 ,0%
 l10n/po/ja_JP/content/blog/2021/07/rayvens/index.md.po, 6, 6, 110, 110 ,0%
+l10n/po/ja_JP/content/blog/2021/07/camel-quarkus-release-2.1.0/index.md.po, 21, 21, 180, 180 ,0%
 l10n/po/ja_JP/content/blog/2021/07/camel-openhtmltopdf/index.md.po, 5, 5, 128, 128 ,0%
 l10n/po/ja_JP/content/blog/2021/07/camel-k-release-1-5/index.md.po, 30, 30, 667, 667 ,0%
 l10n/po/ja_JP/content/blog/2021/07/camel-k-properties-refactoring/index.md.po, 44, 44, 1189, 1189 ,0%
