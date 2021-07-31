@@ -18,6 +18,6 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/releases/q/release-2.1.0.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus release 2.1.0"
-msgstr ""
+msgstr "Camel Quarkusリリース2.1.0"
