@@ -18,18 +18,18 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/releases/release-3.11.1.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New LTS release 3.11.1"
-msgstr ""
+msgstr "新しいLTSリリース3.11.1"
 
 #. type: YAML Front Matter: title
 #: upstream/content/releases/release-3.11.1.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Release 3.11.1"
-msgstr ""
+msgstr "リリース 3.11.1"
 
 #. type: Plain text
 #: upstream/content/releases/release-3.11.1.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This release is the new Camel 3.11.1 LTS patch release.\n"
-msgstr ""
+msgstr "このリリースは、新しいCamel 3.11.1 LTSパッチリリースです。\n"
