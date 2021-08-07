@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-08-07 15:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:1
+#, no-wrap
+msgid "A new demonstration explaining further development tips for Camel Quarkus will be held at Apache CON @HOME 2021"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:1
+#, no-wrap
+msgid "Getting Further With Camel on Quarkus at Apache CON @HOME 2021"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:11
+#, no-wrap
+msgid ""
+"I will have the pleasure to cast a new demonstration explaining further development tips for Camel Quarkus at [Apache CON @HOME 2021](https://www.apachecon.com/acah2021/). Some details still remain to be polished, however I can already share with you the preview below:\n"
+"![Getting Further With Camel on Quarkus at Apache CON @HOME 2021 Preview](./demo.gif)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:13
+#, no-wrap
+msgid "This live coding presentation will be split in 2 parts.\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:14
+#, no-wrap
+msgid "First part where we step into the shoes of a day to day Camel Quarkus developer"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:19
+#, no-wrap
+msgid ""
+"The idea is really to implement a typical Camel route on a local machine. Beyond that, this will be a good occasion to show the great integration of some Quarkus features into Camel. There will also be a few tips specific to Camel Quarkus to review, such as the\n"
+"right way to tune a Camel component with Java code. Last but not least, we'll dig deeper and deeper into the native mode theory...\n"
+"but also practice ! Indeed, we'll even experience some concrete problems and discover the corresponding answers.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:21
+#, no-wrap
+msgid "It's already a lot of content and there will be even more.\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:22
+#, no-wrap
+msgid "Second part where we play with on-demand provisioning and memory constraints on a remote cluster"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:25
+#, no-wrap
+msgid "Here, we'll work with few Hello/Bye worlds [Knative](https://knative.dev/docs/) services deployed on a remote [Kubernetes](https://kubernetes.io/) cluster. This is really a good spot to review the boot time and memory impact of using the native mode. Then, we'll raise the level up as this remote cluster has some memory constraints. This situation will be an opportunity to touch the trade-off between the time to serve the first request and the memory usage.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:26
+#, no-wrap
+msgid "I wish you start to feel the taste of this presentation. And maybe we'll meet up at the [Apache CON @HOME integration track](https://www.apachecon.com/acah2021/tracks/integration.html) on Wednesday, 22 September 2021 at 18:50 UTC. I also encourage you to take a deeper look into the [integration track agenda](https://www.apachecon.com/acah2021/tracks/integration.html) as there are great talks covering a lot of topics.\n"
+msgstr ""
