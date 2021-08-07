@@ -18,65 +18,70 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A new demonstration explaining further development tips for Camel Quarkus will be held at Apache CON @HOME 2021"
-msgstr ""
+msgstr "Camel Quarkusのさらなる開発のヒントを解説する新たなデモンストレーションをApache CON @HOME 2021で実施します。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Getting Further With Camel on Quarkus at Apache CON @HOME 2021"
-msgstr ""
+msgstr "Getting Further With Camel on Quarkus at Apache CON @HOME 2021"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "I will have the pleasure to cast a new demonstration explaining further development tips for Camel Quarkus at [Apache CON @HOME 2021](https://www.apachecon.com/acah2021/). Some details still remain to be polished, however I can already share with you the preview below:\n"
 "![Getting Further With Camel on Quarkus at Apache CON @HOME 2021 Preview](./demo.gif)\n"
 msgstr ""
+"Apache CON @HOME 2021](https://www.apachecon.com/acah2021/)にて、Camel Quarkusのさらなる開発のヒントを説明する新しいデモンストレーションを行う予定です。詳細はまだ決まっていませんが、以下にプレビューを掲載しますのでご覧ください。\n"
+"![Getting Further With Camel on Quarkus at Apache CON @HOME 2021 Preview](./demo.gif)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This live coding presentation will be split in 2 parts.\n"
-msgstr ""
+msgstr "このライブ・コーディング・プレゼンテーションは、2つのパートに分かれています。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "First part where we step into the shoes of a day to day Camel Quarkus developer"
-msgstr ""
+msgstr "Camel Quarkusの開発者の立場になって考えてみた前編"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The idea is really to implement a typical Camel route on a local machine. Beyond that, this will be a good occasion to show the great integration of some Quarkus features into Camel. There will also be a few tips specific to Camel Quarkus to review, such as the\n"
 "right way to tune a Camel component with Java code. Last but not least, we'll dig deeper and deeper into the native mode theory...\n"
 "but also practice ! Indeed, we'll even experience some concrete problems and discover the corresponding answers.\n"
 msgstr ""
+"このアイデアは、典型的なCamelのルートをローカルマシンに実装することです。それ以外にも、Quarkusのいくつかの機能がCamelに見事に統合されていることを示す良い機会になるでしょう。また、Camel Quarkusに特化したヒントもいくつか紹介します。\n"
+"JavaコードでCamelコンポーネントをチューニングする正しい方法など、Camel Quarkus特有のヒントも紹介します。最後に、ネイティブモードの理論をより深く掘り下げていきます...\n"
+"しかし、それだけではありません。実際に、いくつかの具体的な問題を経験し、対応する答えを見つけることもできます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It's already a lot of content and there will be even more.\n"
-msgstr ""
+msgstr "すでにたくさんのコンテンツがありますが、さらに増えていくでしょう。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Second part where we play with on-demand provisioning and memory constraints on a remote cluster"
-msgstr ""
+msgstr "後編では、リモート・クラスター上でのオンデマンド・プロビジョニングとメモリの制約について説明します。"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Here, we'll work with few Hello/Bye worlds [Knative](https://knative.dev/docs/) services deployed on a remote [Kubernetes](https://kubernetes.io/) cluster. This is really a good spot to review the boot time and memory impact of using the native mode. Then, we'll raise the level up as this remote cluster has some memory constraints. This situation will be an opportunity to touch the trade-off between the time to serve the first request and the memory usage.\n"
-msgstr ""
+msgstr "ここでは、リモートの[Kubernetes](https://kubernetes.io/)クラスタにデプロイされたいくつかのHello/Bye worlds [Knative](https://knative.dev/docs/)のサービスを扱います。ここでは、ネイティブモードを使用した場合の起動時間やメモリへの影響を確認するのに適しています。その後、このリモートクラスタにはメモリの制約があるため、レベルを上げていきます。この状況は、最初のリクエストに対応する時間とメモリ使用量の間のトレードオフに触れる機会となるでしょう。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "I wish you start to feel the taste of this presentation. And maybe we'll meet up at the [Apache CON @HOME integration track](https://www.apachecon.com/acah2021/tracks/integration.html) on Wednesday, 22 September 2021 at 18:50 UTC. I also encourage you to take a deeper look into the [integration track agenda](https://www.apachecon.com/acah2021/tracks/integration.html) as there are great talks covering a lot of topics.\n"
-msgstr ""
+msgstr "このプレゼンテーションのテイストが皆さんに伝わりますように。そして、2021年9月22日（水）18:50 UTCの[Apache CON @HOME integration track](https://www.apachecon.com/acah2021/tracks/integration.html)でお会いできるかもしれません。また、[integration track agenda](https://www.apachecon.com/acah2021/tracks/integration.html)には多くのトピックをカバーする素晴らしい講演があるので、より深く見てみることをお勧めします。\n"
