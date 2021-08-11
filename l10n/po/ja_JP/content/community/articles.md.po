@@ -31,9 +31,9 @@ msgstr "Camelのビデオ"
 
 #. type: Bullet: '*   '
 #: upstream/content/community/articles.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[The Evolution of Apachel Camel 3 in Cloud Age - Roan Brasil Monteiro and Bruno Kaufmann](https://www.youtube.com/watch?v=7TyyBcMe5Lc) 45 min from July 2021 (english) talking about the main news about Apache Camel 3 and how to design a good architecture with this framework. \n"
-msgstr ""
+msgstr "[The Evolution of Apachel Camel 3 in Cloud Age - Roan Brasil Monteiro and Bruno Kaufmann](https://www.youtube.com/watch?v=7TyyBcMe5Lc) 2021年7月から45分間（英語） Apache Camel 3に関する主なニュースと、このフレームワークを使ってどのように良いアーキテクチャを設計するかについて話します。 \n"
 
 #. type: Bullet: '*   '
 #: upstream/content/community/articles.md:51
