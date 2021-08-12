@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-05-18 09:36+0000\n"
+"POT-Creation-Date: 2021-08-12 15:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgstr "ウェブサイト利用に関するプライバシーポリシー"
 #. type: Plain text
 #: upstream/content/misc/privacy-policy.md:19
 #, fuzzy, no-wrap
-msgid "Information about your use of this website is collected using server access logs and a tracking cookie. The collected information consists of the following:\n"
+msgid "Information about your use of this website is collected in the server access logs. The collected information consists of the following:\n"
 msgstr "このウェブサイトの利用に関する情報は、サーバーのアクセスログとトラッキングクッキーを使って収集されます。収集される情報は以下のように構成されています。\n"
 
 #. type: Bullet: '* '
