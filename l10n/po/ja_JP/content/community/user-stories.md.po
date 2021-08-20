@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-07-20 15:18+0000\n"
+"POT-Creation-Date: 2021-08-20 15:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "This page is intended as a place to collect user stories and feedback on 
 msgstr "このページは、Apache Camelに関するユーザーストーリーやフィードバックを集めるための場所です。Apache Camelを使用している、または使用したことがある方は、エントリーやコメントを追加したり、メーリングリストに投稿してください。\n"
 
 #. type: Plain text
-#: upstream/content/community/user-stories.md:50
+#: upstream/content/community/user-stories.md:51
 #, fuzzy, no-wrap
 msgid ""
 "{{< table >}}\n"
@@ -74,6 +74,7 @@ msgid ""
 "|[Camel Extra project](https://camel-extra.github.io/)|contains a number of extension components which due to GPL/LGPL licensing cannot be hosted at Apache.\n"
 "|[Platform6](https://www.platform6.io/) | Decentralised application framework for blockchains, called Platform 6 which heavily uses Apache Camel and Web3j.|\n"
 "|[Rayvens](http://ibm.biz/rayvens) | Built on Apache Camel, Rayvens enables data scientists to interface with hundreds of data services with little effort to consume, process, and produce events and data in real time. |\n"
+"|[Huawei Cloud ROMA](https://www.huaweicloud.com/en-us/product/roma.html)|Apache camel powers the runtime engine for [Huawei Cloud ROMA](https://www.huaweicloud.com/en-us/product/roma.html) which is a commercial iPaaS offering by Huawei Cloud. ROMA integrates data, services, messages and devices under one unified platform which enables it's customers to hook up systems spanning across multiple Paas, Saas and cloud services.|\n"
 "{{< /table >}}\n"
 msgstr ""
 "< table ><table >{{}}\n"
@@ -120,13 +121,13 @@ msgstr ""
 "<table >{{}}< /table ></table>\n"
 
 #. type: Title ##
-#: upstream/content/community/user-stories.md:51
+#: upstream/content/community/user-stories.md:52
 #, fuzzy, no-wrap
 msgid "Developer Tooling"
 msgstr "デベロッパーツール"
 
 #. type: Plain text
-#: upstream/content/community/user-stories.md:71
+#: upstream/content/community/user-stories.md:72
 #, fuzzy, no-wrap
 msgid ""
 "{{< table >}}\n"
@@ -170,13 +171,13 @@ msgstr ""
 "<table >{{}}< /table ></table>\n"
 
 #. type: Title ##
-#: upstream/content/community/user-stories.md:72
+#: upstream/content/community/user-stories.md:73
 #, fuzzy, no-wrap
 msgid "User Groups"
 msgstr "ユーザーグループ"
 
 #. type: Plain text
-#: upstream/content/community/user-stories.md:83
+#: upstream/content/community/user-stories.md:84
 #, fuzzy, no-wrap
 msgid ""
 "{{< table >}}\n"
@@ -200,13 +201,13 @@ msgstr ""
 "<table >{{}}< /table ></table>\n"
 
 #. type: Title ##
-#: upstream/content/community/user-stories.md:84
+#: upstream/content/community/user-stories.md:85
 #, fuzzy, no-wrap
 msgid "External Camel Components"
 msgstr "Camelの外部コンポーネント"
 
 #. type: Plain text
-#: upstream/content/community/user-stories.md:109
+#: upstream/content/community/user-stories.md:110
 #, fuzzy, no-wrap
 msgid ""
 "{{< table >}}\n"
