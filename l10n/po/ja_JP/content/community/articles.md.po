@@ -1057,9 +1057,9 @@ msgstr "これらの例では、Camelをいくつかのツール（IDEなど）�
 
 #. type: Bullet: '*   '
 #: upstream/content/community/articles.md:240
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Huawei Cloud Roma Connect : Enterprise Integration Platform With Apache Camel](https://www.youtube.com/watch?v=h-Gc4OKXm5I) presentation from ApacheCon Asia 2021 in August 2021 by Eugene Chan and Reji Mathews present how Apache camel powers the runtime engine for Huawei Cloud ROMA (commercial iPaaS offering by Huawei Cloud)\n"
-msgstr ""
+msgstr "[Huawei Cloud Roma Connect : Enterprise Integration Platform With Apache Camel](https://www.youtube.com/watch?v=h-Gc4OKXm5I) 2021年8月に開催されたApacheCon Asia 2021のプレゼンテーションで、Eugene Chan氏とReji Mathews氏が、Huawei Cloud ROMA（Huawei Cloudが提供する商用iPaaS）のランタイムエンジンをApache camelがどのように支えているかを紹介しています。\n"
 
 #. type: Bullet: '*   '
 #: upstream/content/community/articles.md:240
