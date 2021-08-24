@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-08-11 15:18+0000\n"
+"POT-Creation-Date: 2021-08-24 15:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1056,463 +1056,469 @@ msgid "These examples show Camel combined with several tools (e.g. IDE), ESBs, A
 msgstr "これらの例では、Camelをいくつかのツール（IDEなど）、ESB、アプリケーションサービス、およびメッセージングやOSGiコンテナなどの他のミドルウェア製品と組み合わせています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
+#, no-wrap
+msgid "[Huawei Cloud Roma Connect : Enterprise Integration Platform With Apache Camel](https://www.youtube.com/watch?v=h-Gc4OKXm5I) presentation from ApacheCon Asia 2021 in August 2021 by Eugene Chan and Reji Mathews present how Apache camel powers the runtime engine for Huawei Cloud ROMA (commercial iPaaS offering by Huawei Cloud)\n"
+msgstr ""
+
+#. type: Bullet: '*   '
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Saga-Based Design Using Apache Camel and Kafka: Implementing Highly Reliable Distributed Business Transactions](https://modusbox.com/saga-based-design-using-apache-camel-and-kafka-implementing-highly-reliable-distributed-business-transactions/) article from June 2021 about the Sage EIP for transactions with Camel and Kafka.\n"
 msgstr "[Apache CamelとKafkaを使った佐賀ベースの設計。Implementing Highly Reliable Distributed Business Transactions](https://modusbox.com/saga-based-design-using-apache-camel-and-kafka-implementing-highly-reliable-distributed-business-transactions/)2021年6月に掲載された、CamelとKafkaを使ったトランザクションのためのSage EIPに関する記事です。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Distributed Logs and Tracing with Spring, Apache Camel, OpenTelemetry and Grafana](https://dev.to/antongoncharov/distributed-logs-and-tracing-with-spring-apache-camel-opentelemetry-and-grafana-example-554e) blog post by Anton Goncharov in June 2020 with example how to setup OpenTracing with Camel and have a visual Grafana dashboard.    \n"
 msgstr "[Distributed Logs and Tracing with Spring, Apache Camel, OpenTelemetry and Grafana](https://dev.to/antongoncharov/distributed-logs-and-tracing-with-spring-apache-camel-opentelemetry-and-grafana-example-554e) アントン・ゴンチャロフが2020年6月に投稿したブログ記事で、CamelでOpenTracingをセットアップして、Grafanaのダッシュボードをビジュアル化する方法を例示しています。    \n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Upgrading to Apache Camel 3 using Windup](https://jpoth.blogspot.com/2020/09/upgrading-to-camel-300-with-windup.html) blog post by John Poth from September 2020 showing how to use Winup to generate migration report of your Camel projects (source code scanning). \n"
 msgstr "[Upgrading to Apache Camel 3 using Windup](https://jpoth.blogspot.com/2020/09/upgrading-to-camel-300-with-windup.html)2020年9月のJohn Poth氏によるブログ記事で、Winupを使ってCamelプロジェクトの移行レポートを生成する方法（ソースコードスキャン）が紹介されています。 \n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Using Camel and NiFi in one solution](https://medium.com/@raymondmeester/using-camel-and-nifi-in-one-solution-c7668fafe451) blog post how to use Camel inside Apache Nifi.\n"
 msgstr "[Using Camel and NiFi in one solution](https://medium.com/@raymondmeester/using-camel-and-nifi-in-one-solution-c7668fafe451) Apache Nifiの中でCamelを使う方法についてのブログ記事です。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Wanna try our Apache Camel developer tools for Enterprise Integration Patterns?](http://macstrac.blogspot.com/2011/01/wanna-try-our-apache-camel-developer.html) _by James Strachan_\n"
 msgstr "[Enterprise Integration Patterns用のApache Camel開発ツールを試してみませんか？](http://macstrac.blogspot.com/2011/01/wanna-try-our-apache-camel-developer.html)_by James Strachan_\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Using NetBeans 7.0 to create a new Apache Camel project](http://coders-unite.blogspot.com/2011/07/using-netbeans-70-to-create-new-project.html) shows how to start from scratch in NetBeans to setup a Apache Camel project (tutorial style with screenshots)\n"
 msgstr "[Using NetBeans 7.0 to create new Apache Camel project](http://coders-unite.blogspot.com/2011/07/using-netbeans-70-to-create-new-project.html)では、NetBeansでゼロから始めてApache Camelプロジェクトをセットアップする方法を紹介しています（スクリーンショット付きのチュートリアルスタイル）。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Using NetBeans 7.0 to create a new Apache Camel project without Spring dependency](http://coders-unite.blogspot.com/2011/07/using-netbeans-70-to-create-apache.html) shows how to start from scratch in NetBeans to setup a Apache Camel project (tutorial style with screenshots) without any Spring dependency\n"
 msgstr "[Using NetBeans 7.0 to create new Apache Camel project without Spring dependency](http://coders-unite.blogspot.com/2011/07/using-netbeans-70-to-create-apache.html)では、NetBeansでゼロから始めて、Springに依存しないApache Camelプロジェクトをセットアップする方法を紹介しています（スクリーンショット付きのチュートリアルスタイル）。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Integrating Apache Camel with JBoss ESB](http://ankiewsky.blogspot.com/2008/10/integrating-apache-camel-with-jboss-esb.html) _by_ _[Edgar Ankiewsky](http://ankiewsky.blogspot.com/)_\n"
 msgstr "[Apache Camel と JBoss ESB の統合](http://ankiewsky.blogspot.com/2008/10/integrating-apache-camel-with-jboss-esb.html)_by_ _[Edgar Ankiewsky](http://ankiewsky.blogspot.com/)_。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Combining ApacheCamel+BSF to make JBoss ESB polyglot](http://ankiewsky.blogspot.com/2009/02/combining-apachecamelbsf-to-make-jboss.html) _by Edgard Ankiewsky Silva_\n"
 msgstr "[ApacheCamel+BSFを組み合わせてJBoss ESBをポリグロットにする](http://ankiewsky.blogspot.com/2009/02/combining-apachecamelbsf-to-make-jboss.html)_by Edgard Ankiewsky Silva_（エドガード・アンキースキー・シルバ\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[An IRC alerter written using Apache Camel and Java](http://coderthoughts.blogspot.com/2009/07/irc-alerter-written-using-apache-camel.html) how to easily integrate IRC with Camel to monitor and do alerts.\n"
 msgstr "[An IRC alerter written using Apache Camel and Java](http://coderthoughts.blogspot.com/2009/07/irc-alerter-written-using-apache-camel.html) IRCとCamelを簡単に統合して、モニタリングやアラートを行う方法です。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Things to consider when selecting between Apache Camel and Apache Servicemix](http://opensourceknowledge.blogspot.com/2009/07/things-to-consider-when-selecting.html) _by Ashwin Karpe_\n"
 msgstr "[Apache CamelとApache Servicemixの選択時に考慮すべきこと](http://opensourceknowledge.blogspot.com/2009/07/things-to-consider-when-selecting.html)_by Ashwin Karpe_\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[A jira notification system for irc using Camel](http://gnodet.blogspot.com/2009/10/jira-notification-system-for-irc-using.html) _by Guillaume Nodet_\n"
 msgstr "[Camel を使った irc 用の jira 通知システム](http://gnodet.blogspot.com/2009/10/jira-notification-system-for-irc-using.html)_by Guillaume Nodet_\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Getting Started with Apache Camel and prepare for Apache ServiceMix deployment](http://magnus-k-karlsson.blogspot.com/2010/07/getting-started-with-apache-camel-and.html) _by Magnus K Karlsson_\n"
 msgstr "[Apache Camel の入門と Apache ServiceMix の導入準備](http://magnus-k-karlsson.blogspot.com/2010/07/getting-started-with-apache-camel-and.html)_by Magnus K Karlsson_（マグナス・カーソン\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Camel integration with Oracle WebLogic JMS](http://lowry-techie.blogspot.com/2011/06/camel-integration-with-oracle-weblogic.html) _by Lowry Curry_\n"
 msgstr "[CamelとOracle WebLogic JMSの統合](http://lowry-techie.blogspot.com/2011/06/camel-integration-with-oracle-weblogic.html)_by ローリー・カリー_\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Camel integration with WebSphere MQ](http://lowry-techie.blogspot.com/2010/11/camel-integration-with-websphere-mq.html) _by Lowry Curry_\n"
 msgstr "[CamelとWebSphere MQの統合](http://lowry-techie.blogspot.com/2010/11/camel-integration-with-websphere-mq.html)_by ローリー・カリー_\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[jBPM5/Drools Apache Camel integration](http://lucazamador.wordpress.com/2011/06/15/jbpm5-drools-apache-camel-integration/) a blog entry talking about JBMP5/Drools integration with Apache Camel.\n"
 msgstr "[jBPM5/Drools Apache Camel integration](http://lucazamador.wordpress.com/2011/06/15/jbpm5-drools-apache-camel-integration/) JBMP5/DroolsとApache Camelの統合についてのブログエントリーです。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Use remote EJB in Camel routes](http://blog.nanthrax.net/?p=89) _by Jean-Baptiste Onofré_\n"
 msgstr "[Camel ルートでのリモート EJB の使用](http://blog.nanthrax.net/?p=89) _by Jean-Baptiste Onofré_.\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Use Camel, CXF and Karaf to implement batches](http://blog.nanthrax.net/?p=125) _by Jean-Baptiste Onofré_ explains how to control a Camel route from another route and a JAX-RS server using CXF, package into an OSGi bundle ready to run in Apache Karaf.\n"
 msgstr "[Use Camel, CXF and Karaf to Implement batches](http://blog.nanthrax.net/?p=125) _by Jean-Baptiste Onofré_ は、他のルートからCamelのルートを制御する方法と、CXFを使ってJAX-RSサーバーを制御し、Apache Karafで実行できるようにOSGiバンドルにパッケージする方法を説明しています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Karaf Tutorial Part 5 - Running Apache Camel integrations in OSGi](http://liquid-reality.de/Karaf-Tutorial/05/) _by Christian Schneider_\n"
 msgstr "[Karaf Tutorial Part 5 - Running Apache Camel integrations in OSGi](http://liquid-reality.de/Karaf-Tutorial/05/) _by Christian Schneider_.\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Unit testing OSGi Blueprint with Apache Camel made easier](http://davsclaus.blogspot.com/2012/01/unit-testing-osgi-blueprint-with-apache.html) - Blog post how Camel Testing with OSGi blueprint became much much easier, than having to resort to use pax exam.\n"
 msgstr "[Unit testing OSGi Blueprint with Apache Camel made from easier](http://davsclaus.blogspot.com/2012/01/unit-testing-osgi-blueprint-with-apache.html) - OSGi blueprintを使ったCamelのテストが、pax試験に頼るよりもはるかに簡単になったというブログ記事です。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Communication between two remote Camel routes using Apache Karaf Cellar](http://blog.nanthrax.net/?p=238) _by Jean-Baptiste Onofré_\n"
 msgstr "[Apache Karaf Cellarを使用した2つの遠隔地のCamelルート間の通信](http://blog.nanthrax.net/?p=238) _by Jean-Baptiste Onofré_.\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[How to Start/Stop Camel Routes on an ActiveMQ Slave](http://jason-sherman.blogspot.se/2012/04/activemq-how-to-startstop-camel-routes.html) - _by Jason Sherman_\n"
 msgstr "[How to Start/Stop Camel Routes on an ActiveMQ Slave](http://jason-sherman.blogspot.se/2012/04/activemq-how-to-startstop-camel-routes.html) - _by Jason Sherman_.\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Article about testing WMB](https://github.com/magnuspalmer/wmbtesting/wiki/Article-about-testing-WMB) - This article shows a hands-on approach of how you can test your IBM WebSphere Message Broker solutions in a simple way using modern tools, such as Apache Camel.\n"
 msgstr "[WMB のテストに関する記事](https://github.com/magnuspalmer/wmbtesting/wiki/Article-about-testing-WMB) - この記事では、Apache Camel などの最新のツールを使用して、IBM WebSphere Message Broker ソリューションを簡単にテストする方法について、実践的なアプローチを紹介しています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Tools for building a real time analytics platform](https://www.avisi.nl/blog/2013/07/01/tools-for-building-a-real-time-analytics-platform/) - Article demonstrating using Apache Camel and Storm for real-time analytics.\n"
 msgstr "[Tools for building a real time analytics platform](https://www.avisi.nl/blog/2013/07/01/tools-for-building-a-real-time-analytics-platform/) - Apache CamelとStormを使ったリアルタイム分析のデモンストレーション記事。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[camunda BPM + Apache Camel: Integrating two Open Source frameworks for a lightweight BPM+SOA infrastructure](https://blog.camunda.com/post/2013/09/camunda-bpm-apache-camel-integrating/) - From the Camunda team blogging how to use their product together with Apache Camel using a camunda-bpm component.\n"
 msgstr "[camunda BPM + Apache Camel: Integrating two Open Source Frameworks for a lightweight BPM+SOA infrastructure](https://blog.camunda.com/post/2013/09/camunda-bpm-apache-camel-integrating/) - Camundaチームが、camunda-bpmコンポーネントを使って、Apache Camelと一緒に製品を使用する方法をブログで紹介しています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Add Apache Camel and Spring as JBoss modules in WildFly](http://www.javacodegeeks.com/2013/11/add-apache-camel-and-spring-as-jboss-modules-in-wildfly.html) - How to reuse Camel JARs as JBoss Modules with WildFly\n"
 msgstr "[WildFlyでApache CamelとSpringをJBossモジュールとして追加する](http://www.javacodegeeks.com/2013/11/add-apache-camel-and-spring-as-jboss-modules-in-wildfly.html) - CamelのJARをWildFlyでJBossモジュールとして再利用する方法\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Running Camel on EAP](https://blog.christianposta.com/camel-on-jboss-eap-with-custom-modules/) - by Christian Posta, how to run Apache Camel on JBoss EAP / Wildfly using JBoss Modules.\n"
 msgstr "[Running Camel on EAP](https://blog.christianposta.com/camel-on-jboss-eap-with-custom-modules/) - Christian Posta 氏による、JBoss モジュールを使用して JBoss EAP / Wildfly 上で Apache Camel を実行する方法。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Bootstrapping Apache Camel in Java EE7 with WildFly 8](http://blog.eisele.net/2014/08/bootstrapping-apache-camel-in-java-ee7.html) - by Markus Eisele, how to run Apache Camel on WildFly using CDI, as well information about other EE7 examples for Apache Camel.\n"
 msgstr "[Bootstrapping Apache Camel in Java EE7 with WildFly 8](http://blog.eisele.net/2014/08/bootstrapping-apache-camel-in-java-ee7.html) - Markus Eiseleによる、CDIを使ってWildFly上でApache Camelを実行する方法、およびApache Camelの他のEE7の例に関する情報。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Your Apache Camel applications now includes out of the box documentation](http://www.davsclaus.com/2015/02/your-apache-camel-applications-now.html) - by Claus Ibsen, blogs about new functionality in Camel 2.15 onwards that means all EIP and component documentation is out of the box at runtime.\n"
 msgstr "[Your Apache Camel applications now includes out of the box documentation](http://www.davsclaus.com/2015/02/your-apache-camel-applications-now.html) - Claus Ibsen氏による、Camel 2.15以降の新機能についてのブログです。すべてのEIPとコンポーネントのドキュメントがランタイムにアウトオブザボックスで提供されます。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Some great hawtio videos by Robin Huiser](http://www.davsclaus.com/2014/12/some-great-hawtio-videos-by-robin-huiser.html) - Three videos of demonstrating [hawtio](http://hawt.io/) and Apache Camel in action.\n"
 msgstr "[Some great hawtio videos by Robin Huiser](http://www.davsclaus.com/2014/12/some-great-hawtio-videos-by-robin-huiser.html) - [hawtio](http://hawt.io/)とApache Camelの動作を実演した3つのビデオです。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Using Camel Routes In Java EE Components](http://blog.eisele.net/2015/07/using-camel-routes-in-java-ee-components.html) - by Markus Eisele in June 2015 how to get started using Camel on Wildfly.\n"
 msgstr "[Using Camel Routes In Java EE Components](http://blog.eisele.net/2015/07/using-camel-routes-in-java-ee-components.html) - Markus Eisele氏が2015年6月に発表した、WildflyでCamelを使い始める方法です。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Sending JMS Messages From WildFly 8 To WebLogic 12 with Camel](http://blog.eisele.net/2015/07/sending-jms-messages-from-wildfly-8-to-weblogic-with-camel.html) - by Markus Eisele in June 2015 how to bridge JMS to/from WebLogic with Camel running on Widlfy.\n"
 msgstr "[Sending JMS Messages From WildFly 8 To WebLogic 12 with Camel](http://blog.eisele.net/2015/07/sending-jms-messages-from-wildfly-8-to-weblogic-with-camel.html) - by Markus Eisele in June 2015 Widlfy上で動作するCamelでWebLogicとの間でJMSをブリッジする方法。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Using JPA And CDI Beans With Camel on WildFly](http://blog.eisele.net/2015/07/using-jpa-and-cdi-beans-with-camel-on-wildfly.html) - by Markus Eisele in June 2015 how to use JPA, CDI with Camel running on Wildfly. \n"
 msgstr "[Using JPA And CDI Beans With Camel on WildFly](http://blog.eisele.net/2015/07/using-jpa-and-cdi-beans-with-camel-on-wildfly.html) - Markus Eisele氏が2015年6月に発表した、Wildfly上で動作するCamelでJPA、CDIを使用する方法です。 \n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[A universal Streamer for Apache Ignite based on Apache Camel](https://dzone.com/articles/a-universal-streamer-for-apache-ignite-based-on-ap/) - by Raúl Kripalani on the integration between Apache Ignite and Apache Camel.\n"
 msgstr "[A universal Streamer for Apache Ignite based on Apache Camel](https://dzone.com/articles/a-universal-streamer-for-apache-ignite-based-on-ap/) - Raúl Kripalaniによる、Apache IgniteとApache Camelの統合についての記事です。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Video of Apache Camel tooling to edit your routes in type safe manner](http://www.davsclaus.com/2015/12/video-of-apache-camel-tooling-to-edit.html) - A 10 minute video from December 2015 where Claus Ibsen demonstrates light-weight [Camel tooling](http://fabric8.io/guide/forge.html) to edit Camel routes/endpoints in type safe manner from different IDEs.\n"
 msgstr "[Video of Apache Camel tooling to edit your routes in type safe manner](http://www.davsclaus.com/2015/12/video-of-apache-camel-tooling-to-edit.html) - 2015年12月に公開された10分間のビデオで、Claus Ibsenが異なるIDEからタイプセーフな方法でCamelのルート/エンドポイントを編集するための軽量な[Camel tooling](http://fabric8.io/guide/forge.html)を実演しています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Video of fabric8 Apache Camel Maven Plugin to validate your Camel source code](http://www.davsclaus.com/2016/01/cheers-fabric8-camel-maven-plugin-to.html) - A 12 minute video from January 2016 where Claus Ibsen demonstrates a new Maven plugin that allows to validate your Camel routes and endpoints from the source code, so you can catch any type errors and invalid configurations at code time, instead of having Camel fail at runtime.\n"
 msgstr "[Video of fabric8 Apache Camel Maven Plugin to validate your Camel source code](http://www.davsclaus.com/2016/01/cheers-fabric8-camel-maven-plugin-to.html) - 2016年1月に公開された12分のビデオで、Claus IbsenがソースコードからCamelのルートとエンドポイントを検証できる新しいMavenプラグインを実演しています。これにより、実行時にCamelが失敗するのではなく、コード時にタイプエラーや無効な設定をキャッチすることができます。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Hello Apache Camel](https://www.youtube.com/watch?v=gu1KHvcNMiE&feature=youtu.be) - 15 small video tutorial's by Tobias Polley (June 2016) how to get started with Apache Camel (**in German**) \n"
 msgstr "[Hello Apache Camel](https://www.youtube.com/watch?v=gu1KHvcNMiE&amp;feature=youtu.be) - 15 small video tutorial's by Tobias Polley (June 2016) how to get started with Apache Camel (**in German**) \n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Routing Oracle AQ messages using Apache Camel in ServiceMix](https://fcosfc.wordpress.com/2016/02/06/routing-oracle-aq-messages-using-apache-camel-in-servicemix/) - (February 2016) how to connect OracleAQ and Camel by Paco Saucedo\n"
 msgstr "[Routing Oracle AQ messages using Apache Camel in ServiceMix](https://fcosfc.wordpress.com/2016/02/06/routing-oracle-aq-messages-using-apache-camel-in-servicemix/) - (2016年2月) OracleAQとCamelを接続する方法 by Paco Saucedo\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Routing Oracle AQ messages using Apache Camel in ServiceMix: the XA option](https://fcosfc.wordpress.com/2016/08/29/routing-oracle-aq-messages-using-apache-camel-in-servicemix-the-xa-option/) - (August 2016) how to connect OracleAQ and Camel with XA transactions by Paco Saucedo\n"
 msgstr "[Routing Oracle AQ messages using Apache Camel in ServiceMix: the XA option](https://fcosfc.wordpress.com/2016/08/29/routing-oracle-aq-messages-using-apache-camel-in-servicemix-the-xa-option/) - (2016年8月) OracleAQとCamelをXAトランザクションで接続する方法 by Paco Saucedo\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Using Apache Camel with Azure Service Bus](https://www.kth.se/blogs/1337/2016/11/using-apache-camel-with-azure-service-bus/) - (November 2016) some notes how to use Camel with Microsoft Azure Service Bus with AMQP messaging by Frederik Jönsson\n"
 msgstr "[Using Apache Camel with Azure Service Bus](https://www.kth.se/blogs/1337/2016/11/using-apache-camel-with-azure-service-bus/) - (2016年11月) Frederik JönssonによるAMQPメッセージングを用いたMicrosoft Azure Service BusでCamelを使用する方法についてのいくつかのメモ。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[SAP HANA using Camel's Simple language in HCI](https://blogs.sap.com/2016/11/25/get-to-know-camels-simple-expression-language-in-hci/) (November 2016) how to use Camel Simple language with SAP Cloud Integration.\n"
 msgstr "[HCIでCamelのSimple languageを使ったSAP HANA](https://blogs.sap.com/2016/11/25/get-to-know-camels-simple-expression-language-in-hci/)(2016年11月)Camel Simple languageをSAP Cloud Integrationで使用する方法です。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Camel and Kura: Providing Telemetry Data as OPC UA](https://dzone.com/articles/providing-telemetry-data-with-opc-ua-on-eclipse-ku) (November 2016) If you're using an industrial M2M protocol, consider the combined power of Camel and Kura to get your telemetry data squared away as OPC UA.\n"
 msgstr "[Camel and Kura: Providing Telemetry Data as OPC UA](https://dzone.com/articles/providing-telemetry-data-with-opc-ua-on-eclipse-ku) (2016年11月) 産業用M2Mプロトコルを使用しているなら、CamelとKuraの組み合わせで、テレメトリデータをOPC UAとしてスクエアにすることを検討してみてはいかがでしょうか。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Camel split and aggregate with Jboss data grid for persistence](http://svsvenu.github.io/Camel-split-and-aggregate-with-JDG-repository/) (December 2017) by Venu Surampudi for how to use JBoss Data Grid as persistent cache for Camel aggregator with recovery functionality.\n"
 msgstr "[Camel split and aggregate with Jboss data grid for persistence](http://svsvenu.github.io/Camel-split-and-aggregate-with-JDG-repository/) (2017年12月) Venu Surampudi氏による、リカバリー機能を備えたCamelアグリゲーターのための永続的なキャッシュとしてJBoss Data Gridを使用する方法について。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Camel Spring Cloud Stream](https://blog.switchbit.io/camel-spring-cloud-stream/) (January 2017) by Donovan Muller whom introduces his Camel Spring Cloud Stream component with a live example running on OpenShift with Camel, Twitter and Spring Cloud Stream connected to RabbitMQ.\n"
 msgstr "[Camel Spring Cloud Stream](https://blog.switchbit.io/camel-spring-cloud-stream/) (2017年1月) Donovan Muller氏が、OpenShift上でCamel、Twitter、Spring Cloud StreamをRabbitMQに接続して実行している実例を交えて、彼のCamel Spring Cloud Streamコンポーネントを紹介しています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Camel CXFRS Contract First](http://blog.joshdreagan.com/2018/03/02/camel_cxfrs_contract_first/) (March 2018) by Josh Reagan whom blogs about how you can do OpenAPI contract-first development with CXF-RS and Apache Camel.\n"
 msgstr "[Camel CXFRS Contract First](http://blog.joshdreagan.com/2018/03/02/camel_cxfrs_contract_first/) (2018年3月) by Josh Reagan 誰がCXF-RSとApache CamelでOpenAPIのコントラクトファースト開発を行うことができるかをブログで紹介しています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Integrating Amazon MQ with other AWS services via Apache Camel](https://aws.amazon.com/blogs/compute/integrating-amazon-mq-with-other-aws-services-via-apache-camel/) (April 2018) blog post from Amazon compute blogs showing the steps how to run ActiveMQ and Camel on AWS and integrate with AWS services like S3 and others. \n"
 msgstr "[Integrating Amazon MQ with other AWS services via Apache Camel](https://aws.amazon.com/blogs/compute/integrating-amazon-mq-with-other-aws-services-via-apache-camel/)(2018年4月)Amazon compute blogsのブログ記事で、AWS上でActiveMQとCamelを実行し、S3などのAWSサービスと統合する方法の手順を紹介しています。 \n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Ingesting Filebeat Data Into Your Apache Camel Flow](https://insights.synergistcomputing.com/2018/03/27/ingesting-filebeat-data-into-your-apache-camel-flow/) (June 2018) blog post showing how to use camel-lumberjack to ingest data from Filebeat into your Camel routes.\n"
 msgstr "[FilebeatのデータをApache Camelのフローに取り込む](https://insights.synergistcomputing.com/2018/03/27/ingesting-filebeat-data-into-your-apache-camel-flow/)(2018年6月)camel-lumberjackを使ってFilebeatからCamelルートにデータを取り込む方法を紹介したブログ記事です。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Using Jaeger to trace an Apache Camel application](https://medium.com/jaegertracing/using-jaeger-to-trace-an-apache-camel-application-2b8118efbb4d) (August 2018) blog post from Gary Brown showing how to use camel-opentracing and Jaeger to do distributed traces and visualize them in Jaeger UI.\n"
 msgstr "[Using Jaeger to trace an Apache Camel application](https://medium.com/jaegertracing/using-jaeger-to-trace-an-apache-camel-application-2b8118efbb4d) (2018年8月)Gary Brown氏によるブログ記事で、camel-opentracingとJaegerを使って分散型トレースを行い、Jaeger UIで可視化する方法が紹介されています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Quick Integration with Apache Camel and IBM MQ](https://dzone.com/articles/quickly-integrate-apache-camel-and-ibm-mq) article from May 2020 by Chandra Shekhar Pandey showing how to use Apache Camel running on Spring Boot to integrate with IBM MQ and testing it with Docker containers.\n"
 msgstr "[Quick Integration with Apache Camel and IBM MQ](https://dzone.com/articles/quickly-integrate-apache-camel-and-ibm-mq)Chandra Shekhar Pandey氏による2020年5月の記事では、Spring Boot上で動作するApache Camelを使ってIBM MQと統合する方法を紹介し、Dockerコンテナを使ってテストしています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:239
+#: upstream/content/community/articles.md:240
 #, no-wrap
 msgid "[Monitoring Camel applications with nJAMS](https://www.youtube.com/watch?v=n8PGES67e40) 10 min video from October 2020 by Abdelghani Faiz covering how nJAMS monitoring tooling now has Camel plugin to do deep monitoring of Camel applications with route visualziation and message capturing.\n"
 msgstr "[Monitoring Camel applications with nJAMS](https://www.youtube.com/watch?v=n8PGES67e40) 2020年10月に公開されたAbdelghani Faiz氏による10分間のビデオで、nJAMSのモニタリングツールにCamelプラグインが追加され、ルートの可視化やメッセージのキャプチャなど、Camelアプリケーションの詳細なモニタリングが可能になったことを説明しています。\n"
 
 #. type: Title ###
-#: upstream/content/community/articles.md:240
+#: upstream/content/community/articles.md:241
 #, no-wrap
 msgid "Camel and Groovy"
 msgstr "キャメルとGroovy"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:247
+#: upstream/content/community/articles.md:248
 #, no-wrap
 msgid "[A Groovy ride on Camel](http://groovy.dzone.com/articles/groovy-ride-camel) _by Jack Hung_ (December 2009)\n"
 msgstr "[A Groovy ride on Camel](http://groovy.dzone.com/articles/groovy-ride-camel) _by Jack Hung_ (2009年12月)\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:247
+#: upstream/content/community/articles.md:248
 #, no-wrap
 msgid "[Using Groovy and Camel to pool Google Analyst email reports](http://mrhaki.blogspot.com/2009/04/handle-google-analytics-scheduled-e.html) _by Mr. Haki_ (April 2009)\n"
 msgstr "[GroovyとCamelを使ってGoogle Analystのメールレポートをプールする](http://mrhaki.blogspot.com/2009/04/handle-google-analytics-scheduled-e.html) _by 杷木さん_ (2009年4月)\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:247
+#: upstream/content/community/articles.md:248
 #, no-wrap
 msgid "[Using grails-camel plugin to work with Camel in Grails land](http://mrhaki.blogspot.com/2009/04/use-apache-camel-plugin-in-grails.html) _by Mr. Haki_ (April 2009)\n"
 msgstr "[Grails-camelプラグインを使ってGrails landでCamelを動かす](http://mrhaki.blogspot.com/2009/04/use-apache-camel-plugin-in-grails.html) _by Haki_さん (2009年4月)\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:247
+#: upstream/content/community/articles.md:248
 #, no-wrap
 msgid "[Send mail with Apache Camel from Grails](http://mrhaki.blogspot.com/2009/04/send-mail-with-apache-camel-from-grails.html) _by Mr. Haki_ (April 2009)\n"
 msgstr "[GrailsからApache Camelでメール送信](http://mrhaki.blogspot.com/2009/04/send-mail-with-apache-camel-from-grails.html)by Haki_さん (2009年4月)\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:247
+#: upstream/content/community/articles.md:248
 #, no-wrap
 msgid "[Groovy and Grape - easiest way to send gtalk message with Apache Camel](http://www.andrejkoelewijn.com/blog/2009/02/28/groovy-and-grape-easiest-way-to-send-gtalk-message-with-apache-camel/) _by Andrej Koelewijn_ (February 2009)\n"
 msgstr "[Groovy and Grape - easiest way to send gtalk message with Apache Camel](http://www.andrejkoelewijn.com/blog/2009/02/28/groovy-and-grape-easiest-way-to-send-gtalk-message-with-apache-camel/)by Andrej Koelewijn_ (2009年2月)\n"
 
 #. type: Title ###
-#: upstream/content/community/articles.md:248
+#: upstream/content/community/articles.md:249
 #, no-wrap
 msgid "Camel and Scala"
 msgstr "CamelとScala"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:257
+#: upstream/content/community/articles.md:258
 #, no-wrap
 msgid "[Interview with Martin Krasser about camel-scalaz](http://jaxenter.com/scalaz-camel-fully-leveraging-what-scala-and-scalaz-offers-for-functional-programming-34717.html) from Jaxcenter. Scalaz-Camel: fully leveraging 'what Scala and Scalaz offers for functional programming.'\n"
 msgstr "[camel-scalazについてのMartin Krasser氏へのインタビュー](http://jaxenter.com/scalaz-camel-fully-leveraging-what-scala-and-scalaz-offers-for-functional-programming-34717.html) Jaxcenterより。Scalaz-Camel: 「ScalaとScalazが関数型プログラミングのために提供するもの」を完全に活用しています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:257
+#: upstream/content/community/articles.md:258
 #, no-wrap
 msgid "[Apache Camel and Scala](http://www.kai-waehner.de/blog/2011/06/23/apache-camel-and-scala-a-powerful-combination/): A powerful Combination _by Kai Wähner_\n"
 msgstr "[Apache Camel and Scala](http://www.kai-waehner.de/blog/2011/06/23/apache-camel-and-scala-a-powerful-combination/)。強力なコンビネーション _by Kai Wähner_\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:257
+#: upstream/content/community/articles.md:258
 #, no-wrap
 msgid "[A little Scala DSL example](http://davsclaus.blogspot.com/2011/12/apache-camel-little-scala-dsl-example.html) - A little blog post showing how to use the Camel Scala DSL levering Scala functions directly in the DSL.\n"
 msgstr "[A little Scala DSL example](http://davsclaus.blogspot.com/2011/12/apache-camel-little-scala-dsl-example.html) - Camel Scala DSLを使って、DSLの中で直接Scalaの関数を活用する方法を紹介する小さなブログ記事です。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:257
+#: upstream/content/community/articles.md:258
 #, no-wrap
 msgid "[Apache Camel’s Scala DSL explored](https://www.avisi.nl/blog/2013/01/07/apache-camels-scala-dsl-explored) - A blog post using Camel and Scala to build a powerful solution to decouple systems. Using HTTP, JSon and Scala case classes in a nice way.\n"
 msgstr "[Apache Camel's Scala DSL explored](https://www.avisi.nl/blog/2013/01/07/apache-camels-scala-dsl-explored) - CamelとScalaを使って、システムをデカップリングする強力なソリューションを構築したブログ記事です。HTTP、JSon、Scalaのケースクラスをいい感じに使っています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:257
+#: upstream/content/community/articles.md:258
 #, no-wrap
 msgid "[Using Apache Camel with Scala and the Camel Scala DSL](http://www.hascode.com/2013/02/using-apache-camel-with-scala-and-the-camel-scala-dsl/) - A tutorial from Feb 2013 on using Camel and Scala DSL with a number of examples using the [EIP](../../components/latest/eips/enterprise-integration-patterns.html)s and Camel [Components](../../manual/latest/component.html), and with source code.\n"
 msgstr "[Using Apache Camel with Scala and the Camel Scala DSL](http://www.hascode.com/2013/02/using-apache-camel-with-scala-and-the-camel-scala-dsl/) - 2013年2月に公開された、CamelとScala DSLの使い方に関するチュートリアルで、[EIP](../../components/latest/eips/enterprice-integration-patterns.html)やCamelの[Components](../../manual/latest/component.html)を使った数多くの例と、ソースコードが掲載されています。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:257
+#: upstream/content/community/articles.md:258
 #, no-wrap
 msgid "[Apache Camel with Scala testing styles](http://siliconsenthil.in/blog/2013/07/07/apache-camel-with-scala-testing-styles/) - A blog post on different approaches of camel testing with ScalaTest.\n"
 msgstr "[Apache Camel with Scala testing styles](http://siliconsenthil.in/blog/2013/07/07/apache-camel-with-scala-testing-styles/) - ScalaTestを使ったcamelテストの様々なアプローチに関するブログ記事です。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:257
+#: upstream/content/community/articles.md:258
 #, no-wrap
 msgid "[Apache Camel with Scala: Extending DSL](http://siliconsenthil.in/blog/2013/07/11/apache-camel-with-scala-extending-dsl/) - A blog post extending the Camel Scala DSL\n"
 msgstr "[Apache Camel with Scala: Extending DSL](http://siliconsenthil.in/blog/2013/07/11/apache-camel-with-scala-extending-dsl/) - CamelのScala DSLを拡張するブログ記事です。\n"
 
 #. type: Title ###
-#: upstream/content/community/articles.md:258
+#: upstream/content/community/articles.md:259
 #, no-wrap
 msgid "Camel and Clojure"
 msgstr "CamelとClojure"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:261
+#: upstream/content/community/articles.md:262
 #, no-wrap
 msgid "[Using Apache Camel from Clojure](http://codeabout.blogspot.com/2010/06/using-apache-camel-from-clojure.html)_by Jason Whitlark_ (June 2010)\n"
 msgstr "[ClojureからApache Camelを使う](http://codeabout.blogspot.com/2010/06/using-apache-camel-from-clojure.html)_by Jason Whitlark_ (June 2010)\n"
 
 #. type: Title ###
-#: upstream/content/community/articles.md:262
+#: upstream/content/community/articles.md:263
 #, no-wrap
 msgid "Camel and the IoT (Internet of Things)"
 msgstr "キャメルとIoT（モノのインターネット）について"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:272
+#: upstream/content/community/articles.md:273
 #, no-wrap
 msgid "[Make Your IoT Gateway WiFi-Aware Using Camel and Kura](http://java.dzone.com/articles/make-your-iot-gateway-wifi) - DZone article by Henryk Konsek (2015)\n"
 msgstr "[Make Your IoT Gateway WiFi-Aware Using Camel and Kura](http://java.dzone.com/articles/make-your-iot-gateway-wifi) - DZone article by Henryk Konsek (2015)\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:272
+#: upstream/content/community/articles.md:273
 #, no-wrap
 msgid "[IoT gateway dream team - Eclipse Kura and Apache Camel](http://www.slideshare.net/hekonsek/io-t-gateway-dream-team-eclipse-kura-and-apache-camel) - slides from the Henryk Konsek talk for Eclipse IoT Virtual Meetup (2015)\n"
 msgstr "[IoT gateway dream team - Eclipse Kura and Apache Camel](http://www.slideshare.net/hekonsek/io-t-gateway-dream-team-eclipse-kura-and-apache-camel) - Henryk Konsek talk for Eclipse IoT Virtual Meetup (2015)のスライドです。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:272
+#: upstream/content/community/articles.md:273
 #, no-wrap
 msgid "[IoT gateway dream team - Eclipse Kura and Apache Camel](https://www.youtube.com/watch?v=mli5c-oTN1U) - video from the Henryk Konsek talk for Eclipse IoT Virtual Meetup (2015)\n"
 msgstr "[IoT gateway dream team - Eclipse Kura and Apache Camel](https://www.youtube.com/watch?v=mli5c-oTN1U) - Henryk Konsek talk for Eclipse IoT Virtual Meetup (2015)のビデオです。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:272
+#: upstream/content/community/articles.md:273
 #, no-wrap
 msgid "[The IoT in the service of the environment using Apache Camel & JBoss A-MQ](https://github.com/abouchama/camel-example-IoT-MQTT/blob/master/ReadMe.md) - blog post by <span>Abdellatif Bouchama from June 2015 how Apache Camel doing IoT to help measure air quality in the streets of France\n"
 msgstr "[The IoT in service of environment using Apache Camel & JBoss A-MQ](https://github.com/abouchama/camel-example-IoT-MQTT/blob/master/ReadMe.md) - 2015年6月のAbdellatif Bouchama氏によるブログ記事「Apache Camel doing IoT to help air quality in the street of France」。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:272
+#: upstream/content/community/articles.md:273
 #, no-wrap
 msgid "[Where am I? Collecting GPS data with Apache Camel](https://dzone.com/articles/where-am-i-collecting-gps-data-with-apache-camel) DZone article by Henryk Konsek (2015)\n"
 msgstr "[Where am I? Collecting GPS data with Apache Camel](https://dzone.com/articles/where-am-i-collecting-gps-data-with-apache-camel) DZone article by Henryk Konsek (2015)\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:272
+#: upstream/content/community/articles.md:273
 #, no-wrap
 msgid "[Alarm system based on Raspberry PI 3, Groovy and Apache Camel](https://github.com/igor-suhorukov/alarm-system) by Igor Suhorukov (2016)\n"
 msgstr "[Raspberry PI 3、Groovy、Apache Camelをベースにしたアラームシステム](https://github.com/igor-suhorukov/alarm-system) by Igor Suhorukov (2016)\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:272
+#: upstream/content/community/articles.md:273
 #, no-wrap
 msgid "[Open Source IoT Gateway: A Tale Of Eclipse Kura, Apache Camel, And Rhiot](https://www.youtube.com/watch?v=DPiD7bnnaJk) - video from the Henryk Konsek talk at DevNation 2016.\n"
 msgstr "[Open Source IoT Gateway: A Tale Of Eclipse Kura, Apache Camel, And Rhiot](https://www.youtube.com/watch?v=DPiD7bnnaJk) - DevNation 2016でのHenryk Konsek氏の講演のビデオです。\n"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:272
+#: upstream/content/community/articles.md:273
 #, no-wrap
 msgid "[Getting started with Apache Camel and Internet of Things](https://developers.redhat.com/blog/2016/11/17/getting-started-with-apache-camel-and-the-internet-of-things/) - article from Joseph Butler from February 2017.\n"
 msgstr "[Getting started with Apache Camel and Internet of Things](https://developers.redhat.com/blog/2016/11/17/getting-started-with-apache-camel-and-the-internet-of-things/) - 2017年2月のJoseph Butler氏の記事。\n"
 
 #. type: Title ###
-#: upstream/content/community/articles.md:273
+#: upstream/content/community/articles.md:274
 #, no-wrap
 msgid "Camel and Microservices/Cloud"
 msgstr "CamelとMicroservices/Cloud"
 
 #. type: Bullet: '*   '
-#: upstream/content/community/articles.md:276
+#: upstream/content/community/articles.md:278
 #, no-wrap
 msgid "[A Camel running in the Clouds (Part 2)](https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Flburgazzoli%2Egithub%2Eio%2F2017%2F04%2F12%2FA-camel-running-in-the-clouds-part-2%2Ehtml&urlhash=JHUN&_t=tracking_anet) by Luca Burgazzoli (April 2017)\n"
 msgstr "[雲の中を走るラクダ（後編）](https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Flburgazzoli%2Egithub%2Eio%2F2017%2F04%2F12%2FA-camel-running-in-the-clouds-part-2%2Ehtml&amp;urlhash=JHUN&amp;_t=tracking_anet) by ルカ・ブルガッツォーリ (2017年4月)\n"
