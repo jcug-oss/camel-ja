@@ -18,117 +18,119 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A new demonstration explaining how to develop a camel route using Quarkus (in both JVM & Native mode) and steps to deploy it in AWS Lamda"
-msgstr ""
+msgstr "Quarkusを使ったキャメルルートの開発方法（JVMとNativeモードの両方）とAWS Lamdaへの展開手順を説明した新しいデモです。"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Deploying a Camel Route in AWS Lambda using Quarkus"
-msgstr ""
+msgstr "Quarkusを使ったAWS LambdaでのCamel Routeのデプロイメント"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Do you fancy running camel route as functions in AWS Lambda. Well I did a small Proof Of Concept to test this and the results were interesting.\n"
 "Thanks to the Quarkus and Camel-Quarkus communities for their efforts to make this technically possible.\n"
 msgstr ""
+"AWS Lambdaでcamel routeを関数として実行してみたいと思いませんか？私はこれをテストするために小さなProof Of Conceptを行い、その結果は興味深いものでした。\n"
+"これを技術的に可能にしてくれたQuarkusとCamel-Quarkusのコミュニティに感謝します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can find the working sample in the Camel Quarkus Examples [github repo](https://github.com/apache/camel-quarkus-examples/tree/camel-quarkus-main/aws-lambda)\n"
-msgstr ""
+msgstr "Camel Quarkus Examples [github repo](https://github.com/apache/camel-quarkus-examples/tree/camel-quarkus-main/aws-lambda)に動作サンプルがあります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "#Deploying a Camel Route in AWS Lambda : A Camel Quarkus example\n"
-msgstr ""
+msgstr "#AWS LambdaでCamel Routeをデプロイする : Camel Quarkusの例\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This project uses the following framework \n"
-msgstr ""
+msgstr "このプロジェクトでは、以下のフレームワークを使用しています。 \n"
 
 #. type: Bullet: ' * '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "**Quarkus** - *The Supersonic Subatomic Java Framework for building Cloud Native Applications*\n"
-msgstr ""
+msgstr "**Quarkus** - *クラウドネイティブアプリケーションを構築するための超音速サブアトミックJavaフレームワーク*。\n"
 
 #. type: Bullet: ' * '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "**Apache Camel** - *The Swiss Army Knife of Enterprise Application Integration for integrating heterogeneous systems*\n"
-msgstr ""
+msgstr "**Apache Camel** - *異種システムを統合するエンタープライズ・アプリケーション・インテグレーションのスイス・アーミー・ナイフ*。\n"
 
 #. type: Bullet: ' * '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "**AWS Lambda** - *Event-driven, serverless computing platform provided by Amazon as a part of Amazon Web Services*\n"
-msgstr ""
+msgstr "**AWS Lambda** - *AmazonがAmazon Web Servicesの一部として提供する、イベント駆動型のサーバーレスコンピューティングプラットフォーム*。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you want to learn more about \n"
-msgstr ""
+msgstr "について詳しく知りたい方は、こちらをご覧ください。 \n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "*Quarkus - please visit its website: https://quarkus.io/*\n"
-msgstr ""
+msgstr "*Quarkus - ウェブサイトをご覧ください： https://quarkus.io/*.\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "*Apache Camel - please visit its website: https://camel.apache.org/*\n"
-msgstr ""
+msgstr "*Apache Camel - ウェブサイトをご覧ください： https://camel.apache.org/*。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "*AWS Lambda - please visit its website: https://aws.amazon.com/lambda/*\n"
-msgstr ""
+msgstr "*AWS Lambda - ウェブサイトをご覧ください： https://aws.amazon.com/lambda/*.\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Provided Code"
-msgstr ""
+msgstr "提供コード"
 
 #. type: Title ###
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Quarkus Camel Amazon Lambda Integration example"
-msgstr ""
+msgstr "Quarkus Camel Amazon Lambda Integrationの例"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This example contains a sample Greeter service build using Quarkus & Camel framework implementing Dependency Injection design principle which can be deployed as functions into the Amazon Lambda.\n"
-msgstr ""
+msgstr "この例では、Amazon Lambdaに関数としてデプロイできるDependency Injection設計原理を実装したQuarkusとCamelフレームワークを使用したGreeterサービスの構築サンプルが含まれています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "> :warning: **INCOMPATIBLE WITH DEV MODE**: Amazon Lambda Binding is not compatible with dev mode yet!\n"
-msgstr ""
+msgstr "&gt; :警告。**incompatible with dev mode**:Amazon Lambda Bindingは、まだdevモードとの互換性がありません。\n"
 
 #. type: Title ####
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Quarkus Extensions / Dependencies Used"
-msgstr ""
+msgstr "使用されているQuarkusの拡張機能／依存関係"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "1. **[Apache Camel](https://quarkus.io/guides/camel)**\n"
 "    * [camel-quarkus-core](https://camel.apache.org/camel-quarkus/latest/reference/extensions/core.html)\n"
@@ -136,312 +138,333 @@ msgid ""
 "    * [camel-quarkus-log](https://camel.apache.org/camel-quarkus/latest/reference/extensions/log.html)\n"
 "    * [camel-quarkus-bean](https://camel.apache.org/camel-quarkus/latest/reference/extensions/bean.html)\n"
 msgstr ""
+"1.Apache Camel](https://quarkus.io/guides/camel)**。\n"
+"    * [camel-quarkus-core](https://camel.apache.org/camel-quarkus/latest/reference/extensions/core.html)\n"
+"    * [camel-quarkus-direct](https://camel.apache.org/camel-quarkus/latest/reference/extensions/direct.html)\n"
+"    * [camel-quarkus-log](https://camel.apache.org/camel-quarkus/latest/reference/extensions/log.html)\n"
+"    * [camel-quarkus-bean](https://camel.apache.org/camel-quarkus/latest/reference/extensions/bean.html)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "2. **Amazon Lambda**\n"
 "    * [quarkus-amazon-lambda](https://quarkus.io/guides/amazon-lambda)\n"
 msgstr ""
+"2.**アマゾンラムダ**について\n"
+"    * [quarkus-amazon-lambda](https://quarkus.io/guides/amazon-lambda)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "3. **[Context Dependency Injection](https://quarkus.io/guides/cdi)**\n"
 "    * [quarkus-arc](https://quarkus.io/guides/cdi-reference)\n"
 msgstr ""
+"3.**[Context Dependency Injection](https://quarkus.io/guides/cdi)**。\n"
+"    * [quarkus-arc](https://quarkus.io/guides/cdi-reference)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "4. **[Testing](https://quarkus.io/guides/getting-started-testing)**\n"
 "    * quarkus-junit5\n"
 "    * [quarkus-junit5-mockito](https://quarkus.io/blog/mocking/)\n"
 "    * quarkus-test-amazon-lambda\n"
 msgstr ""
+"4.**[テスト](https://quarkus.io/guides/getting-started-testing)**\n"
+"    * quarkus-junit5\n"
+"    * [quarkus-junit5-mockito](https://quarkus.io/blog/mocking/)\n"
+"    * quarkus-test-amazon-lambda\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Running the application in dev mode"
-msgstr ""
+msgstr "開発モードでのアプリケーションの実行"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can run your application in dev mode that enables live coding using:\n"
-msgstr ""
+msgstr "アプリケーションを開発モードで動作させ、ライブコーディングを行うことができます。\n"
 
 #. type: Fenced code block (shell script)
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:60
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "./mvnw compile quarkus:dev\n"
-msgstr ""
+msgstr ".mvnw コンパイル quarkus:dev\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:65
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "> **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.\n"
-msgstr ""
+msgstr "&gt; **_NOTE:_** QuarkusにはDev UIが搭載されました。このUIは、http://localhost:8080/q/dev/ のDevモードでのみ利用できます。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:66
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Building and Packaging the Java code as Quarkus JVM application"
-msgstr ""
+msgstr "JavaコードをQuarkus JVMアプリケーションとして構築・パッケージ化"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The application can be packaged using:\n"
-msgstr ""
+msgstr "を使ってアプリケーションをパッケージ化することができます。\n"
 
 #. type: Fenced code block (shell script)
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "./mvnw clean package\n"
-msgstr ""
+msgstr "./mvnwクリーンパッケージ\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:73
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This will compile and package your code. \n"
-msgstr ""
+msgstr "これにより、あなたのコードがコンパイルされ、パッケージ化されます。 \n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:76
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "It produces the `quarkus-run.jar` file in the `target/quarkus-app/` directory.\n"
 "Be aware that it’s not an _uber-jar_ as the dependencies are copied into the `target/quarkus-app/lib/` directory.\n"
 msgstr ""
+"これにより、`target/quarkus-app/` ディレクトリに `quarkus-run.jar` ファイルが生成されます。\n"
+"依存関係は `target/quarkus-app/lib/` ディレクトリにコピーされるので、_uber-jar_ではないことに注意してください。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:78
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you want to build an _uber-jar_, execute the following command:\n"
-msgstr ""
+msgstr "もし、_uber-jar_を作りたい場合は、以下のコマンドを実行してください。\n"
 
 #. type: Fenced code block (shell script)
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:78
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "./mvnw package -Dquarkus.package.type=uber-jar\n"
-msgstr ""
+msgstr "./mvnwパッケージ -Dquarkus.package.type=uber-jar\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:83
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The application is now runnable using `java -jar target/quarkus-app/quarkus-run.jar`.\n"
-msgstr ""
+msgstr "これでアプリケーションは、`java -jar target/quarkus-app/quarkus-run.jar`で実行できるようになりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:85
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It also generates a zip file target/function.zip. This zip file contains your java code along with the dependencies.\n"
-msgstr ""
+msgstr "また、target/function.zipというzipファイルも生成されます。このZIPファイルには、あなたのJavaコードと依存関係が含まれています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:87
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "##<a name=\"native\"> </a>Building and Packaging the Java code as Quarkus Native executable\n"
-msgstr ""
+msgstr "##<a name=\"native\"> </a>JavaコードをQuarkus Nativeの実行ファイルとしてビルド、パッケージ化する。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:90
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "If you want a lower memory footprint and faster initialization times for your lambda, you can compile your Java code to a native executable. Just make sure to rebuild your project with the -Pnative switch.\n"
 "> :warning: **Building Native Executables will take much longer time and depends on the underlying system**\n"
 msgstr ""
+"ラムダのメモリ使用量を減らし、初期化時間を短縮したい場合は、Javaコードをネイティブの実行ファイルにコンパイルすることができます。ただし、-Pnative スイッチを指定してプロジェクトを再構築する必要があります。\n"
+"&gt; :warning:ネイティブ実行ファイルのビルドには、より長い時間がかかり、基礎となるシステムに依存します。\n"
 
 #. type: Fenced code block (shell script)
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:90
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "./mvnw package -Pnative\n"
-msgstr ""
+msgstr "./mvnwパッケージ -Pnative\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:95
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "> :information_source: If you are building on a non-Linux system Or, if you don't have GraalVM installed, you can run the native executable build using docker container. You need to pass in a property instructing quarkus to use a docker build as Amazon Lambda requires linux binaries. \n"
 ">You can do this by passing this property to your Maven build: `-Dquarkus.native.container-build=true`. However, This requires to have docker installed locally.\n"
 msgstr ""
+"&gt; :information_sourceです。Linux以外のシステムでビルドしている場合や、GraalVMがインストールされていない場合は、dockerコンテナを使用してネイティブ実行ファイルのビルドを実行することができます。Amazon Lambdaはlinuxのバイナリが必要なので、dockerビルドを使うようにquarkusに指示するプロパティを渡す必要があります。 \n"
+"以下のプロパティをMavenビルドに渡すことで実現できます。`-Dquarkus.native.container-build=true`です。ただし、これにはローカルにdockerがインストールされている必要があります。\n"
 
 #. type: Fenced code block (shell script)
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:96
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "./mvnw package -Pnative -Dquarkus.native.container-build=true\n"
-msgstr ""
+msgstr "./mvnw パッケージ -Pnative -Dquarkus.native.container-build=true\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:102
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Either of these commands will compile and create a native executable image. \n"
 "You can then execute your native executable with: `./target/code-with-quarkus-1.0.0-SNAPSHOT-runner`\n"
 msgstr ""
+"これらのコマンドは、コンパイルしてネイティブの実行ファイルを作成します。 \n"
+"その後、ネイティブの実行ファイルを次のようにして実行できます。./target/code-with-quarkus-1.0.0-SNAPSHOT-runner`で実行できます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:104
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It also generates a zip file target/function.zip. This zip file contains your native executable image renamed to bootstrap. This is a requirement of the AWS Lambda Custom (Provided) Runtime.\n"
-msgstr ""
+msgstr "また、target/function.zipというzipファイルも生成されます。このzipファイルには、bootstrapに名前を変えたあなたのネイティブ実行イメージが含まれています。これは、AWS Lambda Custom (Provided) Runtimeの要件です。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:106
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.html.\n"
-msgstr ""
+msgstr "ネイティブ実行ファイルのビルドについて詳しく知りたい方は、https://quarkus.io/guides/maven-tooling.html。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:107
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Extra Build Generated Files"
-msgstr ""
+msgstr "ビルドで生成される追加ファイル"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:109
-#, no-wrap
+#, fuzzy, no-wrap
 msgid " **_NOTE:_** After you run the build, there are a few extra files generated by the quarkus-amazon-lambda extension. These files are in the build directory: `target/`\n"
-msgstr ""
+msgstr "**_NOTE:_** ビルドを実行すると、quarkus-amazon-lambdaエクステンションによっていくつかの追加ファイルが生成されます。これらのファイルは、ビルドディレクトリの `target/` にあります。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:111
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "function.zip - lambda deployment file\n"
-msgstr ""
+msgstr "function.zip - ラムダ展開ファイル\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:113
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "manage.sh - wrapper around aws lambda cli calls\n"
-msgstr ""
+msgstr "manage.sh - aws lambda cliコールのラッパー\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:115
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "bootstrap-example.sh - example bootstrap script for native deployments\n"
-msgstr ""
+msgstr "bootstrap-example.sh - ネイティブ・デプロイメント用のブートストラップ・スクリプトの例\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:117
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "sam.jvm.yaml - (optional) for use with sam cli and local testing\n"
-msgstr ""
+msgstr "sam.jvm.yaml - (オプション) sam cliおよびローカルテストで使用します。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:119
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "sam.native.yaml - (optional) for use with sam cli and native local testing\n"
-msgstr ""
+msgstr "sam.native.yaml - (オプション) sam cliおよびネイティブ・ローカル・テストで使用されます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:121
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "> :information_source: [Please click here to know more on how to use these scripts for automated deployment](https://quarkus.io/guides/amazon-lambda#extra-build-generated-files)\n"
-msgstr ""
+msgstr "&gt; :information_source:[これらのスクリプトを使った自動デプロイメントの方法についてはこちらをご覧ください](https://quarkus.io/guides/amazon-lambda#extra-build-generated-files)\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:122
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Deploying the Quarkus JVM application to AWS Lambda via AWS Web Console"
-msgstr ""
+msgstr "AWS Web Console経由でQuarkus JVMアプリケーションをAWS Lambdaにデプロイする"
 
 #. type: Bullet: '1. '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:125
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:167
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Go to AWS Web console and search for Lambda Service\n"
-msgstr ""
+msgstr "AWS Webコンソールにアクセスし、Lambda Serviceを検索します。\n"
 
 #. type: Bullet: '2. '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:127
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:169
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Click Create Function and select Author From Scratch \n"
-msgstr ""
+msgstr "関数の作成」をクリックし、「Author From Scratch」を選択します。 \n"
 
 #. type: Bullet: '3. '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:129
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:171
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Give the name for your function which should be unique\n"
-msgstr ""
+msgstr "関数の名前は一意である必要があります。\n"
 
 #. type: Bullet: '4. '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:131
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Select Java 11 (Corretto) as Runtime \n"
-msgstr ""
+msgstr "ランタイムとしてJava 11 (Corretto)を選択する \n"
 
 #. type: Bullet: '5. '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:133
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:175
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Under Permission feel free to create / use existing role to give the required permission for your lambda function\n"
-msgstr ""
+msgstr "権限」では、ラムダ関数に必要な権限を与えるために、既存のロールを自由に作成／使用することができます。\n"
 
 #. type: Bullet: '6. '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:135
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:177
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Once the function is created click the function name to upload the generated function.zip file and configure it. \n"
-msgstr ""
+msgstr "関数が作成されたら、関数名をクリックして、生成されたfunction.zipファイルをアップロードして設定します。 \n"
 
 #. type: Bullet: '7. '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:137
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:179
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Scroll down and select the Code tab. Click the upload from dropdown on right hand side of the screen and select .zip or .jar file \n"
-msgstr ""
+msgstr "スクロールダウンして、「コード」タブを選択します。画面右側のアップロード元ドロップダウンをクリックし、.zipまたは.jarファイルを選択します。 \n"
 
 #. type: Bullet: '8. '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:139
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Click upload and browse to the path where the generated zip file is created `target/function.zip` and select the function.zip file and click save\n"
-msgstr ""
+msgstr "アップロードをクリックし、生成されたZIPファイルが作成されたパス `target/function.zip` を参照して、function.zipファイルを選択し、保存をクリックします。\n"
 
 #. type: Bullet: '9. '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:141
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:183
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Under the Code tab scroll down to the Runtime settings and click edit \n"
-msgstr ""
+msgstr "コード」タブで「ランタイム設定」までスクロールダウンし、「編集」をクリックします。 \n"
 
 #. type: Bullet: '10. '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:143
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For the Handler details please provide the Quarkus Handler \n"
-msgstr ""
+msgstr "ハンドラーの詳細については、Quarkusのハンドラーを提供してください。 \n"
 
 #. type: Fenced code block (shell script)
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:144
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "io.quarkus.amazon.lambda.runtime.QuarkusStreamHandler::handleRequest\n"
-msgstr ""
+msgstr "io.quarkus.amazon.lambda.runtime.QuarkusStreamHandler::handleRequest\n"
 
 #. type: Title ###
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:148
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:194
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Testing the AWS Lamda Function"
-msgstr ""
+msgstr "AWS Lamda関数のテスト"
 
 #. type: Bullet: '1. '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:151
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:197
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Now select the Test tab for executing a quick test. Copy paste the below json payload and hit Test \n"
-msgstr ""
+msgstr "ここで、「Test」タブを選択し、クイックテストを実行します。以下のjsonペイロードをコピーペーストし、「Test」ボタンを押してください。 \n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:158
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:204
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    ```shell script\n"
 "    {\n"
@@ -450,106 +473,118 @@ msgid ""
 "    ```\n"
 "2. If everything goes fine you should get the below response along with the lambda execution logs & stats\n"
 msgstr ""
+"    ````シェルスクリプト\n"
+"    {\n"
+"     \"name\":\"Ravishankar\"\n"
+"    }\n"
+"    ```\n"
+"2.問題がなければ、ラムダの実行ログや統計情報とともに、以下のようなレスポンスが得られます。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:162
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:208
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    ```shell script\n"
 "    Hello Ravishankar ! How are you? from GreetService\n"
 "    ```\n"
 msgstr ""
+"    ````シェルスクリプト\n"
+"    こんにちは、Ravishankarさん。お元気ですか？ from GreetService\n"
+"    ```\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:162
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Deploying the Quarkus Native executable to AWS Lambda via AWS Web Console"
-msgstr ""
+msgstr "AWS Web Console経由でQuarkus Nativeの実行ファイルをAWS Lambdaにデプロイする"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:165
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "**_NOTE:_** Please ensure that you have built your Java code as Quarkus Native executable\n"
-msgstr ""
+msgstr "**_NOTE:_** JavaコードがQuarkus Nativeの実行ファイルとしてビルドされていることを確認してください。\n"
 
 #. type: Bullet: '4. '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:173
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For Runtime please scroll down and Select Provide your own bootstrap on Amazon Linux 2 under Custom Runtime \n"
-msgstr ""
+msgstr "Runtimeについては、下にスクロールして、Custom RuntimeでProvide your own bootstrap on Amazon Linux 2を選択してください。 \n"
 
 #. type: Bullet: '8. '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:181
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Click upload and browse to the path where the generated a zip file is created `target/function.zip` and select the function.zip file and click save\n"
-msgstr ""
+msgstr "アップロードをクリックして、生成されたZIPファイルが作成されたパス `target/function.zip` を参照し、function.zipファイルを選択して保存をクリックします。\n"
 
 #. type: Bullet: '10. '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:185
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For the Handler details please provide the below Handler \n"
-msgstr ""
+msgstr "ハンドラーの詳細については、以下のハンドラーを提供してください。 \n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:189
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    ```shell script\n"
 "        not.used.in.provided.runtime\n"
 "    ```\n"
 msgstr ""
+"    ````シェルスクリプト\n"
+"        提供されるランタイムでは使用されません。\n"
+"    ```\n"
 
 #. type: Bullet: '11. '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:191
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Then Select the Configuration tab and click Environment Variables \n"
-msgstr ""
+msgstr "次に、「Configuration」タブを選択し、「Environment Variables」をクリックします。 \n"
 
 #. type: Bullet: '12. '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:193
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For Key enter `DISABLE_SIGNAL_HANDLERS`\t& for Value enter `true`\n"
-msgstr ""
+msgstr "キーには「DISABLE_SIGNAL_HANDLERS」、値には「true」を入力してください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:209
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "JVM vs Native : Results based on lambda execution logs & stats"
-msgstr ""
+msgstr "JVM vs Native : ラムダ実行ログと統計に基づく結果"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:211
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![JVM vs Native Results](results.png?raw=true \"JVM vs Native Results\")\n"
-msgstr ""
+msgstr "![JVM vs ネイティブの結果](results.png?raw=true \"JVM vs ネイティブの結果\")\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:213
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The above table is populated based on the execution stats provided in the AWS Lamda Logs \n"
-msgstr ""
+msgstr "上の表は、AWS Lamda Logsで提供される実行統計情報に基づいて作成されています。 \n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:215
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Based on the data captured sharing few comments:\n"
-msgstr ""
+msgstr "撮影したデータをもとに、いくつかのコメントをご紹介します。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:217
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It's interesting to see that native uses less memory than JVM which might reduce the cost in running AWS Lambda\n"
-msgstr ""
+msgstr "ネイティブはJVMよりもメモリ使用量が少なく、AWS Lambdaの実行コストを削減できる可能性があることは興味深いです。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:219
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The execution time seems faster in native mode from 2nd to 5th invocations, it would be interesting to see if this trend continues on subsequent calls as the JIT compiler might kick in.\n"
-msgstr ""
+msgstr "ネイティブモードでは、2回目から5回目までの呼び出しで実行時間が速くなっているようですが、この傾向がその後の呼び出しでも続くかどうか、JITコンパイラが効いてくるかもしれませんので、興味深いですね。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:220
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It's clear that the init duration is by magnitude faster in native mode. However, I am curious to see that for the first call the total billed duration includes the Init duration in native mode where as in JVM mode, Init duration is ignored in the total billed duration. Not sure, If this is a billing issue in AWS or a feature provided by AWS for executing Java runtime in Lambda ?\n"
-msgstr ""
+msgstr "ネイティブモードでは、init期間が桁違いに速いことは明らかです。しかし、最初のコールについて、ネイティブモードではInit期間が課金総額に含まれているのに対し、JVMモードではInit期間が課金総額に無視されているのが気になります。これがAWSの課金問題なのか、それともLambdaでJavaランタイムを実行するためにAWSが提供している機能なのか、よくわかりません。\n"
