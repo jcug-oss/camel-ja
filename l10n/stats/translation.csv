@@ -12,7 +12,6 @@ l10n/po/ja_JP/content/blog/2020/10/Camel36-Whatsnew/index.md.po, 49, 55, 1280, 1
 l10n/po/ja_JP/content/blog/2021/03/Camel39-Whatsnew/index.md.po, 49, 51, 752, 760 ,2%
 l10n/po/ja_JP/content/blog/2020/12/Camel37-Whatsnew/index.md.po, 71, 73, 1140, 1153 ,2%
 l10n/po/ja_JP/content/blog/2019/12/Camel3-Whatsnew/index.md.po, 100, 104, 1582, 1610 ,2%
-l10n/po/ja_JP/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md.po, 75, 77, 1130, 1140 ,1%
 l10n/po/ja_JP/content/blog/2021/02/Camel38-Whatsnew/index.md.po, 59, 60, 1125, 1131 ,1%
 l10n/po/ja_JP/content/blog/2020/01/capi-gateway/index.md.po, 90, 91, 1295, 1300 ,1%
 l10n/po/ja_JP/content/sitemap/_index.md.po, 1, 1, 1, 1 ,0%
@@ -153,6 +152,7 @@ l10n/po/ja_JP/content/community/camel-extra.md.po, 2, 2, 24, 24 ,0%
 l10n/po/ja_JP/content/community/books.md.po, 49, 49, 1270, 1270 ,0%
 l10n/po/ja_JP/content/blog/2021/08/RELEASE-3.11.1/index.md.po, 6, 6, 81, 81 ,0%
 l10n/po/ja_JP/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md.po, 10, 10, 358, 358 ,0%
+l10n/po/ja_JP/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md.po, 77, 77, 1140, 1140 ,0%
 l10n/po/ja_JP/content/blog/2021/07/rayvens/index.md.po, 6, 6, 110, 110 ,0%
 l10n/po/ja_JP/content/blog/2021/07/camel-quarkus-release-2.1.0/index.md.po, 21, 21, 180, 180 ,0%
 l10n/po/ja_JP/content/blog/2021/07/camel-openhtmltopdf/index.md.po, 5, 5, 128, 128 ,0%
