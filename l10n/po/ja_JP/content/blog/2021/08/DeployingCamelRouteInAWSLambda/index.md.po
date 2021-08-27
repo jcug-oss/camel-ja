@@ -106,7 +106,7 @@ msgstr "使用されているQuarkusの拡張機能／依存関係"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:39
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "1. **Apache Camel**\n"
 "    * camel-quarkus-core\n"
@@ -114,14 +114,21 @@ msgid ""
 "    * camel-quarkus-log\n"
 "    * camel-quarkus-bean\n"
 msgstr ""
+"1.**Apache Camel**。\n"
+"    * camel-quarkus-core\n"
+"    * camel-quarkus-direct（キャメル・クォークス・ダイレクト\n"
+"    * camel-quarkus-log (キャメル・クォークス・ログ)\n"
+"    * Camel-Quarkus-Bean（キャメル・クォークス・ビーン\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "2. **Quarkus**\n"
 "    * quarkus-amazon-lambda\n"
 msgstr ""
+"2.クオークス\n"
+"    * quarkus-amazon-lambda\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md:47
