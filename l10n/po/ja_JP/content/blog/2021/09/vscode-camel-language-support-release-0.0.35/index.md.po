@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-09-02 15:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:1
+#, no-wrap
+msgid "New release of VS Code Language Support for Apache Camel 0.0.35: last Java 8 compatible version"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:1
+#, no-wrap
+msgid "New release of VS Code Language Support for Apache Camel 0.0.35"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:10
+#, no-wrap
+msgid "A new release of [VS Code Language Support for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-apache-camel) 0.0.35 is available. It includes upgrade of default Camel catalog, deprecation of Java 8 as runtime for embedded Language Server, folding of Camel routes in Java editor, status bar improvement.\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:11
+#, no-wrap
+msgid "Camel version upgrade"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:14
+#, no-wrap
+msgid "The default Camel catalog has been upgraded from 3.11.0 to 3.11.1.\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:15
+#, no-wrap
+msgid "Deprecation of Java 8 as runtime for embedded Language Server"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:18
+#, no-wrap
+msgid "The deprecation of Java 8 as runtime for embedded Language Server will allow to upgrade Camel Quarkus Catalog in upcoming release.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:20
+#, no-wrap
+msgid "Java 8 will still be usable for the Camel projects themselves that support it. It will impact only the tooling provided through the Camel Language Server. The VS Code preferences `java.home` can be used to configure the java instance to use to launch the Camel Language Server. It allows keeping your system with Java 8.\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:21
+#, no-wrap
+msgid "Folding of Camel routes in Java editor"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:24
+#, no-wrap
+msgid "It is now possible to fold each Camel routes in the java editor.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:26
+#, no-wrap
+msgid "![Example to fold Camel route in Java Editor of VS Code](./foldingRangeForJavaRoute.gif)\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:27
+#, no-wrap
+msgid "Status bar improvement"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:30
+#, no-wrap
+msgid "Previously, a single message stating that the `Apache Camel Language server is started` was displayed in bottom status bar.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:32
+#, no-wrap
+msgid "![Status bar contains a long message](./oldStatusBar.gif)\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:34
+#, no-wrap
+msgid "It was taking a lot of place and wasn't always correctly updated. it is now replaced with a smaller message and little animated icons.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:36
+#, no-wrap
+msgid "![Status bar contains smaller message and animated icon for Camel Language Server](./statusBarImproved.gif)\n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:37
+#, no-wrap
+msgid "What's next?"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:42
+#, no-wrap
+msgid ""
+"Provide your feedback and ideas!\n"
+"You can start discussions on [Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling).\n"
+"You can create and vote for issues on github [Camel Language Server](https://github.com/camel-tooling/camel-language-server/issues), [VS Code Language support for Apache Camel](https://github.com/camel-tooling/camel-lsp-client-vscode/issues).\n"
+"You can create and vote for issues on the [jira](https://issues.redhat.com/browse/FUSETOOLS2) used by the Red Hat Integration tooling team.\n"
+msgstr ""
