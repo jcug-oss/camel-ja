@@ -18,112 +18,116 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New release of VS Code Language Support for Apache Camel 0.0.35: last Java 8 compatible version"
-msgstr ""
+msgstr "VS Code Language Support for Apache Camelの新リリース 0.0.35：最後のJava 8互換バージョン"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New release of VS Code Language Support for Apache Camel 0.0.35"
-msgstr ""
+msgstr "VS Code Language Support for Apache Camel 0.0.35」をリリースしました。"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A new release of [VS Code Language Support for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-apache-camel) 0.0.35 is available. It includes upgrade of default Camel catalog, deprecation of Java 8 as runtime for embedded Language Server, folding of Camel routes in Java editor, status bar improvement.\n"
-msgstr ""
+msgstr "VS Code Language Support for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-apache-camel) 0.0.35 がリリースされました。デフォルトのCamelカタログのアップグレード、埋め込み言語サーバのランタイムとしてのJava 8の非推奨、JavaエディタでのCamelルートの折りたたみ、ステータスバーの改善などが含まれています。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel version upgrade"
-msgstr ""
+msgstr "Camelのバージョンアップ"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The default Camel catalog has been upgraded from 3.11.0 to 3.11.1.\n"
-msgstr ""
+msgstr "Camelのデフォルトカタログが3.11.0から3.11.1にアップグレードされました。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Deprecation of Java 8 as runtime for embedded Language Server"
-msgstr ""
+msgstr "組み込み用Language ServerのランタイムとしてのJava 8の非推奨について"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The deprecation of Java 8 as runtime for embedded Language Server will allow to upgrade Camel Quarkus Catalog in upcoming release.\n"
-msgstr ""
+msgstr "Embedded Language ServerのランタイムとしてJava 8が廃止されたことにより、次期リリースでCamel Quarkus Catalogのアップグレードが可能になります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Java 8 will still be usable for the Camel projects themselves that support it. It will impact only the tooling provided through the Camel Language Server. The VS Code preferences `java.home` can be used to configure the java instance to use to launch the Camel Language Server. It allows keeping your system with Java 8.\n"
-msgstr ""
+msgstr "Java 8は、それをサポートしているCamelプロジェクト自体ではまだ使用可能です。影響を受けるのは、Camel Language Serverで提供されるツールのみです。VSコードの環境設定「java.home」を使って、Camel Language Serverの起動に使用するJavaインスタンスを設定することができます。これにより、システムをJava 8で維持することができます。\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Folding of Camel routes in Java editor"
-msgstr ""
+msgstr "JavaエディタでのCamelルートの折りたたみ"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It is now possible to fold each Camel routes in the java editor.\n"
-msgstr ""
+msgstr "Camelの各ルートをJavaエディタで折り畳めるようになりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Example to fold Camel route in Java Editor of VS Code](./foldingRangeForJavaRoute.gif)\n"
-msgstr ""
+msgstr "![VSコードのJavaエディタでキャメルルートを折り畳む例](./foldingRangeForJavaRoute.gif)\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Status bar improvement"
-msgstr ""
+msgstr "ステータスバーの改善"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Previously, a single message stating that the `Apache Camel Language server is started` was displayed in bottom status bar.\n"
-msgstr ""
+msgstr "これまでは、ステータスバーに「Apache Camel Language server is started」というメッセージが1つだけ表示されていました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Status bar contains a long message](./oldStatusBar.gif)\n"
-msgstr ""
+msgstr "![ステータスバーには長いメッセージが表示されます](./oldStatusBar.gif)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It was taking a lot of place and wasn't always correctly updated. it is now replaced with a smaller message and little animated icons.\n"
-msgstr ""
+msgstr "現在は、小さなメッセージと小さなアニメーションアイコンに置き換えられています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "![Status bar contains smaller message and animated icon for Camel Language Server](./statusBarImproved.gif)\n"
-msgstr ""
+msgstr "![ステータスバーにCamel Language Serverのメッセージとアニメーションアイコンを小さく表示](./statusBarImproved.gif)\n"
 
 #. type: Title #
 #: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's next?"
-msgstr ""
+msgstr "次は何ですか？"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Provide your feedback and ideas!\n"
 "You can start discussions on [Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling).\n"
 "You can create and vote for issues on github [Camel Language Server](https://github.com/camel-tooling/camel-language-server/issues), [VS Code Language support for Apache Camel](https://github.com/camel-tooling/camel-lsp-client-vscode/issues).\n"
 "You can create and vote for issues on the [jira](https://issues.redhat.com/browse/FUSETOOLS2) used by the Red Hat Integration tooling team.\n"
 msgstr ""
+"ご意見・ご感想をお寄せください\n"
+"Zulip camel-tooling channel](https://camel.zulipchat.com/#narrow/stream/258729-camel-tooling)で議論を始めることができます。\n"
+"githubの[Camel Language Server](https://github.com/camel-tooling/camel-language-server/issues)、[VS Code Language support for Apache Camel](https://github.com/camel-tooling/camel-lsp-client-vscode/issues)で課題を作成し、投票することができます。\n"
+"Red Hat Integration tooling team が使用している [jira](https://issues.redhat.com/browse/FUSETOOLS2) で課題を作成し、投票することができます。\n"
