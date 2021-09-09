@@ -18,181 +18,194 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel Quarkus 2.2.0 Released"
-msgstr ""
+msgstr "Camel Quarkus 2.2.0リリース"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<sub><sup>Image by <a href=\"https://www.flickr.com/photos/lanzen/5984113332\">Anders Lanzen</a> <a href=\"https://creativecommons.org/licenses/by-nc-sa/2.0\">CC BY-NC-SA 2.0</a></sup></sub>\n"
-msgstr ""
+msgstr "<sub><sup>Image by<a href=\"https://www.flickr.com/photos/lanzen/5984113332\">Anders Lanzen</a> <a href=\"https://creativecommons.org/licenses/by-nc-sa/2.0\">CC BY-NC-SA 2.0</a></sup></sub>\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "We are pleased to announce the release 2.2.0 of Camel Quarkus.\n"
 "It brings Quarkus 2.2, one extension newly supported in native mode, better test coverage and documentation.\n"
 "Many thanks to all contributors and issue reporters!\n"
 msgstr ""
+"Camel Quarkusの2.2.0がリリースされましたのでお知らせします。\n"
+"このリリースでは、Quarkus 2.2、ネイティブモードで新たにサポートされた1つの拡張機能、テストカバレッジとドキュメントの改善が行われています。\n"
+"すべての貢献者と問題報告者に感謝します。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Quarkus 2.2"
-msgstr ""
+msgstr "Quarkus 2.2"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Quarkus 2.2 is focusing mainly on fixing issues, improving usability and documentation.\n"
-msgstr ""
+msgstr "Quarkus 2.2では、主に問題点の修正、使いやすさとドキュメントの改善に重点を置いています。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The highlights:\n"
-msgstr ""
+msgstr "ハイライトです。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "GraalVM 21.2 now recommended\n"
-msgstr ""
+msgstr "GraalVM 21.2を推奨\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New global flag `quarkus.devservices.enabled=false` to disable Dev Services\n"
-msgstr ""
+msgstr "開発サービスを無効にする新しいグローバルフラグ `quarkus.devservices.enabled=false` が追加されました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Enhanced thread model for RESTEasy Reactive\n"
-msgstr ""
+msgstr "RESTEasy Reactiveの拡張スレッドモデル\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "MongoDB service binding\n"
-msgstr ""
+msgstr "MongoDBサービスバインディング\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New extension for running Narayana LRA participants\n"
-msgstr ""
+msgstr "ナラヤナLRA参加者のランニングのための新しいエクステンション\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Please refer to Quarkus 2.2 announcements for more details:\n"
 "* [Quarkus 2.2.1.Final](https://quarkus.io/blog/quarkus-2-2-1-final-released/)\n"
 "* [Quarkus 2.2.2.Final](https://quarkus.io/blog/quarkus-2-2-2-final-released/)\n"
 msgstr ""
+"詳細は、Quarkus 2.2のアナウンスをご参照ください。\n"
+"* [Quarkus 2.2.1.Final](https://quarkus.io/blog/quarkus-2-2-1-final-released/)\n"
+"* [Quarkus 2.2.2.Final](https://quarkus.io/blog/quarkus-2-2-2-final-released/)を参照してください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Extensions newly supported in native mode"
-msgstr ""
+msgstr "ネイティブモードで新たにサポートされる拡張機能"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Language](/camel-quarkus/latest/reference/extensions/language.html)\n"
-msgstr ""
+msgstr "[言語](/camel-quarkus/latest/reference/extensions/language.html)\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:36
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Test coverage and closing functionality gaps"
-msgstr ""
+msgstr "テストカバレッジと機能ギャップの解消"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In this release, we continued our efforts from 2.0.0 and 2.1.0 releases to review existing tests and add new ones\n"
 "to cover all major use cases mentioned in the main Camel documentation. Check this [this GitHub issues](https://github.com/apache/camel-quarkus/issues?q=is%3Aissue+label%3Aintegration-test+milestone%3A2.2.0+is%3Aclosed) for more details.\n"
 msgstr ""
+"今回のリリースでは、2.0.0および2.1.0に引き続き、既存のテストを見直し、新しいテストを追加しました。\n"
+"このリリースでは、2.0.0および2.1.0のリリースに引き続き、既存のテストを見直し、新しいテストを追加して、Camelのメインドキュメントに記載されているすべての主要なユースケースをカバーしました。詳細は、この [this GitHub issues] (https://github.com/apache/camel-quarkus/issues?q=is%3Aissue+label%3Aintegration-test+milestone%3A2.2.0+is%3Aclosed) をご覧ください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Documentation"
-msgstr ""
+msgstr "ドキュメント"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We have documented the [new way of managing dependencies](/camel-quarkus/latest/user-guide/dependency-management.html#_quarkus_tooling_for_starting_a_new_project) in projects generated by [code.quarkus.io](https://code.quarkus.io/) and other [Quarkus tools](https://quarkus.io/guides/tooling).\n"
-msgstr ""
+msgstr "code.quarkus.io](https://code.quarkus.io/)やその他の[Quarkusツール](https://quarkus.io/guides/tooling)で生成されたプロジェクトにおいて、[依存関係を管理する新しい方法](/camel-quarkus/latest/user-guide/dependency-management.html#_quarkus_tooling_for_starting_a_new_project)を文書化しました。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Serialization in native mode"
-msgstr ""
+msgstr "ネイティブモードでのシリアライズ"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "GraalVM did not support serialization for quite long.\n"
 "As a result of that some features of Camel components requiring it did not work.\n"
 "We made our best to document those gaps at least.\n"
 msgstr ""
+"GraalVMは、かなり長い間、シリアル化をサポートしていませんでした。\n"
+"その結果、シリアル化を必要とするCamelコンポーネントのいくつかの機能が動作しませんでした。\n"
+"私たちは、少なくともこれらのギャップを記録するために最善を尽くしました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Since GraalVM started supporting in version 21.0, we are continuously working on improving the serialization support.\n"
 "In this release we were able to close [two](https://github.com/apache/camel-quarkus/issues/1433) [such](https://github.com/apache/camel-quarkus/issues/1868) long standing issues.\n"
 msgstr ""
+"GraalVMがバージョン21.0でサポートを開始して以来、私たちはシリアライズサポートの改善に継続的に取り組んでいます。\n"
+"今回のリリースでは、[2つ](https://github.com/apache/camel-quarkus/issues/1433) [など](https://github.com/apache/camel-quarkus/issues/1868)の長い間続いていた問題を解決することができました。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Breaking changes and migration steps"
-msgstr ""
+msgstr "変更の解除と移行手順"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:57
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Please refer to our [2.2.0 Migration guide](/camel-quarkus/latest/migration-guide/2.2.0.html).\n"
-msgstr ""
+msgstr "2.2.0移行ガイド](/camel-quarkus/latest/migration-guide/2.2.0.html)をご参照ください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:58
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Release notes"
-msgstr ""
+msgstr "リリースノート"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Fixed issues:\n"
-msgstr ""
+msgstr "問題点を修正しました。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[Milestone 2.2.0](https://github.com/apache/camel-quarkus/milestone/18?closed=1)\n"
-msgstr ""
+msgstr "[マイルストーン2.2.0](https://github.com/apache/camel-quarkus/milestone/18?closed=1)\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:65
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "All commits:\n"
-msgstr ""
+msgstr "すべてのコミッション。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md:66
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[2.1.0..2.2.0](https://github.com/apache/camel-quarkus/compare/2.1.0...2.2.0)\n"
-msgstr ""
+msgstr "[2.1.0..2.2.0](https://github.com/apache/camel-quarkus/compare/2.1.0...2.2.0)\n"
