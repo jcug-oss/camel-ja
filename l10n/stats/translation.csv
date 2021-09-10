@@ -3,7 +3,6 @@ l10n/po/ja_JP/content/download/_index.md.po, 0, 9, 0, 193 ,100%
 l10n/po/ja_JP/content/docs/_index.md.po, 1, 35, 3, 371 ,100%
 l10n/po/ja_JP/content/community/_index.md.po, 1, 31, 2, 249 ,100%
 l10n/po/ja_JP/content/blog/_index.md.po, 0, 1, 0, 1 ,100%
-l10n/po/ja_JP/content/blog/2021/09/camel-k-release-1-6/index.md.po, 0, 22, 0, 368 ,100%
 l10n/po/ja_JP/content/_index.md.po, 0, 57, 0, 389 ,100%
 l10n/po/ja_JP/content/community/articles.md.po, 2, 350, 86, 7776 ,99%
 l10n/po/ja_JP/content/blog/2019/10/Camel3-2monthsaway/CamelK-CNCF-Landscape/index.md.po, 3, 4, 51, 58 ,13%
@@ -156,6 +155,7 @@ l10n/po/ja_JP/content/community/camel-extra.md.po, 2, 2, 24, 24 ,0%
 l10n/po/ja_JP/content/community/books.md.po, 49, 49, 1270, 1270 ,0%
 l10n/po/ja_JP/content/blog/2021/09/vscode-camel-language-support-release-0.0.35/index.md.po, 18, 18, 331, 331 ,0%
 l10n/po/ja_JP/content/blog/2021/09/camel-quarkus-release-2.2.0/index.md.po, 28, 28, 279, 279 ,0%
+l10n/po/ja_JP/content/blog/2021/09/camel-k-release-1-6/index.md.po, 22, 22, 368, 368 ,0%
 l10n/po/ja_JP/content/blog/2021/08/RELEASE-3.11.1/index.md.po, 6, 6, 81, 81 ,0%
 l10n/po/ja_JP/content/blog/2021/08/GettingFurtherWithCamelQuarkusIntro/index.md.po, 10, 10, 358, 358 ,0%
 l10n/po/ja_JP/content/blog/2021/08/DeployingCamelRouteInAWSLambda/index.md.po, 77, 77, 1140, 1140 ,0%
