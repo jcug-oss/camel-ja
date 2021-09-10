@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-09-10 15:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:1
+#, no-wrap
+msgid "What's new in Camel K 1.6"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:1
+#, no-wrap
+msgid "Camel K 1.6 release"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:11
+#, no-wrap
+msgid "We're happy to announce [Camel K 1.6 version](https://github.com/apache/camel-k/releases/tag/v1.6.0) release. About two months after releasing the previous version (1.5), we're now glad to provide you some new exciting features and a few fixes on bugs that we discovered along the way.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:13
+#, no-wrap
+msgid "This is the new set of technologies on which Camel K 1.6 is depending:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:18
+#, no-wrap
+msgid "Apache Camel K Runtime 1.9.0\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:18
+#, no-wrap
+msgid "Apache Camel Quarkus 2.2.0\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:18
+#, no-wrap
+msgid "Apache Camel 3.11.1\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:18
+#, no-wrap
+msgid "Apache Camel Kamelets 0.4.0\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:19
+#, no-wrap
+msgid "New Camel Quarkus version"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:22
+#, no-wrap
+msgid "We have a set of new exciting dependencies that we leverage. Among them we can see the fresh [Camel Quarkus 2.2.0](/blog/2021/09/camel-quarkus-release-2.2.0/). Have a look at the dedicated blog to learn more about it.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:23
+#, no-wrap
+msgid "Scalable KameletBinding"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:26
+#, no-wrap
+msgid "We're more and more getting used to `Kamelet` and `KameletBinding` adoption. One of the new things introduced in version 1.6 is the possibility to scale a KameletBinding via `kubectl` (or `oc`) CLI. Learn more about [how to scale a KameletBinding](/camel-k/latest/scaling/binding.html). One of the coolest thing is that you can even use HPA (Horizontal Pod Autoscaling)!\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:27
+#, no-wrap
+msgid "Kamel bind enhancement"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:30
+#, no-wrap
+msgid "The `kamel bind` subcommand was recently introduced to simplify the creation of binding between source and sinks. We are enriching it with new features at every release. With this version you will be able to use `--error-handler` parameter in order to set an error handler that will take over in case of an event fault.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:31
+#, no-wrap
+msgid "Support https liveness and readiness probes"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:34
+#, no-wrap
+msgid "Security in transit is a must. Even for probes. We have improved the [container trait](/camel-k/latest/traits/container.html) in order to allow setting liveness and readiness probes with `https` scheme.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:35
+#, no-wrap
+msgid "More Kamelet love"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:38
+#, no-wrap
+msgid "We have reached 150+ official Kamelet! If you need some connector to quickly source or sink your events, then, the [Apache Camel Kamelet Catalog](/camel-kamelets/latest/index.html) is the place.\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:39
+#, no-wrap
+msgid "Bug fixes, test coverage and documentation"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:42
+#, no-wrap
+msgid "And of course, last but not least, we have dedicated an imporant effort to close known bugs, keep raising the bar of quality adding tests and documentation. \n"
+msgstr ""
+
+#. type: Title #
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:43
+#, no-wrap
+msgid "Thanks"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:45
+#, no-wrap
+msgid "Thanks to all contributors who made this possible. We're happy to receive feedback on this version through our [mailing list](/community/mailing-list/), our [official chat](https://camel.zulipchat.com/) or filing an issue on [Camel K Github repository](https://github.com/apache/camel-k).\n"
+msgstr ""
