@@ -18,132 +18,132 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "What's new in Camel K 1.6"
-msgstr ""
+msgstr "Camel K 1.6の主な変更点"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Camel K 1.6 release"
-msgstr ""
+msgstr "Camel K 1.6リリース"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We're happy to announce [Camel K 1.6 version](https://github.com/apache/camel-k/releases/tag/v1.6.0) release. About two months after releasing the previous version (1.5), we're now glad to provide you some new exciting features and a few fixes on bugs that we discovered along the way.\n"
-msgstr ""
+msgstr "Camel K 1.6バージョン](https://github.com/apache/camel-k/releases/tag/v1.6.0)のリリースをお知らせします。前バージョン(1.5)をリリースしてから約2ヶ月、いくつかの新しい機能と、途中で発見されたバグの修正を提供できることになりました。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is the new set of technologies on which Camel K 1.6 is depending:\n"
-msgstr ""
+msgstr "これは、Camel K 1.6が依存している新しい技術群です。\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel K Runtime 1.9.0\n"
-msgstr ""
+msgstr "Apache Camel K Runtime 1.9.0\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel Quarkus 2.2.0\n"
-msgstr ""
+msgstr "Apache Camel Quarkus 2.2.0\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel 3.11.1\n"
-msgstr ""
+msgstr "Apache Camel 3.11.1\n"
 
 #. type: Bullet: '* '
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache Camel Kamelets 0.4.0\n"
-msgstr ""
+msgstr "Apache Camel Kamelets 0.4.0\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New Camel Quarkus version"
-msgstr ""
+msgstr "Camel Quarkusの新バージョン"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We have a set of new exciting dependencies that we leverage. Among them we can see the fresh [Camel Quarkus 2.2.0](/blog/2021/09/camel-quarkus-release-2.2.0/). Have a look at the dedicated blog to learn more about it.\n"
-msgstr ""
+msgstr "私たちは、新しいエキサイティングな依存関係を活用しています。その中には、新しい[Camel Quarkus 2.2.0](/blog/2021/09/camel-quarkus-release-2.2.0/)も含まれています。詳しくは専用ブログをご覧ください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Scalable KameletBinding"
-msgstr ""
+msgstr "スケーラブルなKameletBinding"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We're more and more getting used to `Kamelet` and `KameletBinding` adoption. One of the new things introduced in version 1.6 is the possibility to scale a KameletBinding via `kubectl` (or `oc`) CLI. Learn more about [how to scale a KameletBinding](/camel-k/latest/scaling/binding.html). One of the coolest thing is that you can even use HPA (Horizontal Pod Autoscaling)!\n"
-msgstr ""
+msgstr "私たちは、`Kamelet` と `KameletBinding` の採用にだんだんと慣れてきました。バージョン 1.6 で導入された新しい機能の一つに、`kubectl` (または `oc`) CLI で KameletBinding をスケールできるようになったことがあります。詳しくは[How to scale a KameletBinding](/camel-k/latest/scaling/binding.html)をご覧ください。また、HPA(Horizontal Pod Autoscaling)を利用することもできます！これは素晴らしいことです。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Kamel bind enhancement"
-msgstr ""
+msgstr "カメルのバインド強化"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The `kamel bind` subcommand was recently introduced to simplify the creation of binding between source and sinks. We are enriching it with new features at every release. With this version you will be able to use `--error-handler` parameter in order to set an error handler that will take over in case of an event fault.\n"
-msgstr ""
+msgstr "kamel bind`サブコマンドは、ソースとシンク間のバインディングの作成を簡単にするために最近導入されました。リリースごとに新機能が追加されています。このバージョンでは、`--error-handler`パラメータを使用して、イベントフォールトの場合に引き継ぐエラーハンドラを設定できるようになります。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Support https liveness and readiness probes"
-msgstr ""
+msgstr "https liveness and readiness probesのサポート"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Security in transit is a must. Even for probes. We have improved the [container trait](/camel-k/latest/traits/container.html) in order to allow setting liveness and readiness probes with `https` scheme.\n"
-msgstr ""
+msgstr "トランジットでのセキュリティは必須です。プローブについてもです。そこで、[container trait](/camel-k/latest/traits/container.html)を改良し、`https` スキームで liveness や readiness probes を設定できるようにしました。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "More Kamelet love"
-msgstr ""
+msgstr "カメレの愛をもっと"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We have reached 150+ official Kamelet! If you need some connector to quickly source or sink your events, then, the [Apache Camel Kamelet Catalog](/camel-kamelets/latest/index.html) is the place.\n"
-msgstr ""
+msgstr "公式Kameletが150以上になりました。イベントのソースやシンクを素早く行うためのコネクタが必要な場合は、[Apache Camel Kamelet Catalog](/camel-kamelets/latest/index.html)をご利用ください。\n"
 
 #. type: Title ##
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:39
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Bug fixes, test coverage and documentation"
-msgstr ""
+msgstr "バグフィックス、テストカバレッジ、ドキュメンテーション"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "And of course, last but not least, we have dedicated an imporant effort to close known bugs, keep raising the bar of quality adding tests and documentation. \n"
-msgstr ""
+msgstr "もちろん、最後になりますが、私たちは既知のバグを解消するために重要な努力をし、テストやドキュメントを追加して品質の水準を上げ続けています。 \n"
 
 #. type: Title #
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Thanks"
-msgstr ""
+msgstr "ありがとうございます。"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/camel-k-release-1-6/index.md:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Thanks to all contributors who made this possible. We're happy to receive feedback on this version through our [mailing list](/community/mailing-list/), our [official chat](https://camel.zulipchat.com/) or filing an issue on [Camel K Github repository](https://github.com/apache/camel-k).\n"
-msgstr ""
+msgstr "これを可能にしてくれたすべての貢献者に感謝します。このバージョンに対するフィードバックは、[メーリングリスト](/community/mailing-list/)、[公式チャット](https://camel.zulipchat.com/)、または[Camel K Github repository](https://github.com/apache/camel-k)に課題を提出していただければ幸いです。\n"
