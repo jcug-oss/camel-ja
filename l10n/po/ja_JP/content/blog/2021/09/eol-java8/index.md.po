@@ -18,34 +18,38 @@ msgstr ""
 
 #. type: YAML Front Matter: preview
 #: upstream/content/blog/2021/09/eol-java8/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "All Camel projects will drop support for Java 8 by end of 2021"
-msgstr ""
+msgstr "2021年末までにすべてのCamelプロジェクトがJava 8のサポートを終了"
 
 #. type: YAML Front Matter: title
 #: upstream/content/blog/2021/09/eol-java8/index.md:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Java 8 to be dropped by end of 2021"
-msgstr ""
+msgstr "2021年末までにJava 8を廃止"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/eol-java8/index.md:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "All Camel projects will drop support for Java 8 by end of 2021.\n"
-msgstr ""
+msgstr "すべてのCamelプロジェクトは、2021年末までにJava 8のサポートを終了します。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/eol-java8/index.md:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The next LTS release Camel 3.14, scheduled for December 2021, will be the last\n"
 "release to support Java 8.\n"
 msgstr ""
+"2021年12月に予定されている次のLTSリリースCamel 3.14は、Java 8をサポートする最後の\n"
+"Java 8をサポートする最後のリリースとなります。\n"
 
 #. type: Plain text
 #: upstream/content/blog/2021/09/eol-java8/index.md:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In light of this we will extend the support period of Camel 3.14 from 1 year to 2 years.\n"
 "This means Camel 3.14 will reach its end of life (EOL) at end of December 2023.\n"
 msgstr ""
+"これを受けて、Camel 3.14のサポート期間を1年から2年に延長します。\n"
+"これは、Camel 3.14が2023年12月末にEOL（End of Life）を迎えることを意味します。\n"
