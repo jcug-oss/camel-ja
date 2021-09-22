@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-09-22 15:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: preview
+#: upstream/content/blog/2021/09/eol-java8/index.md:1
+#, no-wrap
+msgid "All Camel projects will drop support for Java 8 by end of 2021"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: upstream/content/blog/2021/09/eol-java8/index.md:1
+#, no-wrap
+msgid "Java 8 to be dropped by end of 2021"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/eol-java8/index.md:10
+#, no-wrap
+msgid "All Camel projects will drop support for Java 8 by end of 2021.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/eol-java8/index.md:13
+#, no-wrap
+msgid ""
+"The next LTS release Camel 3.14, scheduled for December 2021, will be the last\n"
+"release to support Java 8.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/content/blog/2021/09/eol-java8/index.md:15
+#, no-wrap
+msgid ""
+"In light of this we will extend the support period of Camel 3.14 from 1 year to 2 years.\n"
+"This means Camel 3.14 will reach its end of life (EOL) at end of December 2023.\n"
+msgstr ""
